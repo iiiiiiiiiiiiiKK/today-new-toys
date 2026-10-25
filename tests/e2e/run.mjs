@@ -46,9 +46,19 @@ async function main() {
   context = await browser.newContext({ viewport: { width: 1440, height: 900 }, acceptDownloads: true, locale: 'zh-CN' });
   const page = await context.newPage();
   const errors = [];
+  // Requests the suite triggers on purpose, whose 4xx is the correct answer.
+  const EXPECTED_4XX = [/\/category\/does-not-exist/];
+  const expected = (text) => EXPECTED_4XX.some((re) => re.test(text));
   page.on('pageerror', (e) => errors.push(`pageerror: ${e.message}`));
   page.on('console', (m) => {
-    if (m.type() === 'error') errors.push(`console: ${m.text()}`);
+    // A deliberately-probed missing route logs "Failed to load resource: 404";
+    // that is the host doing its job, not a site bug.
+    if (m.type() === 'error' && !(expected(m.location()?.url || '') || /does-not-exist/.test(m.text()))) {
+      errors.push(`console: ${m.text()} @ ${m.location()?.url || ''}`);
+    }
+  });
+  page.on('response', (r) => {
+    if (r.status() >= 400 && !expected(r.url())) errors.push(`http ${r.status()} ${r.url()}`);
   });
 
   await page.goto(BASE, { waitUntil: 'networkidle' });
