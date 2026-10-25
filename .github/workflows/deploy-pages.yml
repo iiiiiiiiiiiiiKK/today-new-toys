@@ -9,6 +9,12 @@ name: deploy-pages
 on:
   push:
     branches: [main]
+    # Docs-only changes don't alter the site; skipping the build keeps Pages clean
+    # and avoids a needless ~5 minute deploy per README typo.
+    paths-ignore:
+      - 'README.md'
+      - 'docs/**'
+      - 'LICENSE'
   workflow_dispatch:
 
 permissions:
