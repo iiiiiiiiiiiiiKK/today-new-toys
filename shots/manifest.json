@@ -282,5 +282,29 @@
       "std": 110.8,
       "edge": 8.55
     }
+  },
+  "rea": {
+    "src": "/shots/rea.jpg",
+    "captureUrl": "https://rea.tools",
+    "origin": "live",
+    "title": "morluto/rea",
+    "capturedAt": "2026-10-25T17:49:53.107Z",
+    "auto": true
+  },
+  "ecc": {
+    "src": "/shots/ecc.jpg",
+    "captureUrl": "https://ecc.tools",
+    "origin": "live",
+    "title": "affaan-m/ECC",
+    "capturedAt": "2026-10-25T17:49:53.117Z",
+    "auto": true
+  },
+  "n8n": {
+    "src": "/shots/n8n.jpg",
+    "captureUrl": "https://n8n.io",
+    "origin": "live",
+    "title": "n8n-io/n8n",
+    "capturedAt": "2026-10-25T17:49:53.122Z",
+    "auto": true
   }
 }
