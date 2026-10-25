@@ -1,0 +1,46 @@
+{
+  "slug": "pygwalker",
+  "name": "PyGWalker",
+  "tagline": "把 pandas DataFrame 变成可以拖拽的图表界面",
+  "summary": "PyGWalker 是 Graphic Walker 的 Python 绑定，作用是在 Jupyter Notebook 里把一个 DataFrame 直接变成可拖拽的交互式分析界面，不用先写绘图代码。README 说它支持可视化、清洗、标注，甚至自然语言查询。对做探索性分析的人来说，它省掉的是「先想清楚画什么图」这一步。",
+  "category": "data-viz",
+  "tags": ["pandas", "Jupyter", "探索性分析", "拖拽可视化", "Python"],
+  "aliases": ["pygwalker", "Graphic Walker", "Pig Walker"],
+  "audience": "数据团队",
+  "audienceFor": [
+    "常在 Jupyter 里做 EDA 的数据分析师",
+    "想给非技术同事看一眼数据长什么样的开发者",
+    "不想为了一次探索装一整套 BI 的人"
+  ],
+  "features": [
+    { "title": "DataFrame 直接变界面", "detail": "README 说明它把 pandas dataframe 转成可交互的 UI 进行可视化探索。" },
+    { "title": "拖拽 + 自然语言", "detail": "README 写明支持拖拽式可视化、清洗、标注，以及 natural language queries。" },
+    { "title": "嵌进现有工作流", "detail": "README 有 Jupyter Notebook、Streamlit 的独立使用章节。" },
+    { "title": "图表可导出", "detail": "README 包含 Programmatic Export of Charts 一节，说明可在 UI 调好后以代码方式导出图表。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 1.37 万字，2026-10-24 抓取）的 Features / Getting Started / Jupyter / Streamlit / Export 章节整理。",
+  "setup": {
+    "effort": "零门槛",
+    "effortNote": "pip 装完在 Notebook 里两行代码就能出界面。",
+    "requires": ["Python 3.9+", "Jupyter Notebook 或 Streamlit（可选）"],
+    "steps": [
+      { "title": "安装", "detail": "pip install pygwalker。" },
+      { "title": "导入数据", "detail": "在 Notebook 里读入 DataFrame。" },
+      { "title": "起界面", "detail": "import pygwalker as pyg 后调用 walk，即可在输出单元里拖拽分析。" }
+    ],
+    "cost": "免费开源（Apache-2.0）。"
+  },
+  "officialUrl": "https://kanaries.net/pygwalker",
+  "demoUrl": "https://kanaries.net/pygwalker/online",
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "适合探索，不适合当生产报表；后者还是交给 BI 工具。",
+  "addedAt": "2026-10-22",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "确认在线演示仍可用"
+  }
+}

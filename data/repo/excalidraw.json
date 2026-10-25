@@ -1,0 +1,57 @@
+{
+  "slug": "excalidraw",
+  "repoInput": "excalidraw/excalidraw",
+  "fetchedAt": "2026-10-24T17:55:35.411Z",
+  "github": {
+    "owner": "excalidraw",
+    "name": "excalidraw",
+    "fullName": "excalidraw/excalidraw",
+    "url": "https://github.com/excalidraw/excalidraw",
+    "homepage": "https://excalidraw.com",
+    "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+    "stars": 134483,
+    "forks": 15813,
+    "openIssues": 3411,
+    "language": "TypeScript",
+    "topics": [
+      "canvas",
+      "collaboration",
+      "diagrams",
+      "drawing",
+      "hacktoberfest",
+      "productivity",
+      "whiteboard"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "createdAt": "2020-01-02T01:04:43Z",
+    "pushedAt": "2026-10-23T15:10:12Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T17:55:35.411Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "master",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 2508,
+    "headings": [
+      "Features",
+      "Excalidraw.com",
+      "Quick start",
+      "or",
+      "Contributing",
+      "Integrations",
+      "Who's integrating Excalidraw",
+      "Sponsors & support",
+      "Thank you for supporting Excalidraw"
+    ],
+    "excerpt": "Excalidraw Editor Blog Documentation Excalidraw+ An open source virtual hand-drawn style whiteboard. Collaborative and end-to-end encrypted. Create beautiful hand-drawn like diagrams, wireframes, or whatever you like. Features The Excalidraw editor (npm package) supports: - 💯&nbsp;Free & open-source. - 🎨&nbsp;Infinite, canvas-based whiteboard. - ✍️&nbsp;Hand-drawn like style. - 🌓&nbsp;Dark mode. - 🏗️&nbsp;Customizable. - 📷&nbsp;Image support. - 😀&nbsp;Shape libraries support. - 🌐&nbsp;Localization (i18n) support. - 🖼️&nbsp;Export to PNG, SVG & clipboard. - 💾&nbsp;Open format - export drawings as an `.excalidraw` json file. - ⚒️&nbsp;Wide range of tools - rectangle, circle, diamond, arrow, line, free-draw, eraser... - ➡️&nbsp;Arrow-binding & labeled arrows. - 🔙&nbsp;Undo / Redo. - 🔍&nbsp;Zoom and panning support. Excalidraw.com The app hosted at excalidraw.com is a minimal showcase of what you can build with Excalidraw. Its source code is part of this repository as well, and the app features: - 📡&nbsp;PWA support (works offline). - 🤼&nbsp;Real-time collaboration. - 🔒&nbsp;End-to-end encryption. - 💾&nbsp;Local-first support (autosaves to the browser). - 🔗&nbsp;Shareable links (export to a readonly link you can share with others). We'll be adding these features as drop-in plugins for the npm package in the future. Quick start Note: following instructions are for in",
+    "truncated": true,
+    "rawFile": "data/readme/excalidraw.md"
+  }
+}

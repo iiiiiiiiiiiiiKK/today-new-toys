@@ -1,0 +1,52 @@
+{
+  "slug": "metamask-extension",
+  "name": "MetaMask",
+  "tagline": "最常用的浏览器钱包，源码也在这里",
+  "summary": "MetaMask 浏览器扩展是最普及的以太坊钱包入口，这个仓库就是它的扩展端源码。README 主体其实是给贡献者看的：Codespaces 快速上手、本地构建、单元测试与端到端测试怎么跑。需要特别注意许可证：LICENSE 是 ConsenSys 的自定义条款，不是 OSI 认可的开源许可证，商用与再分发前必须读原文。",
+  "category": "web3",
+  "tags": ["钱包", "浏览器扩展", "以太坊", "TypeScript", "Web3"],
+  "aliases": ["MetaMask Extension", "metamask-extension", "小狐狸钱包"],
+  "audience": "开发者",
+  "audienceFor": [
+    "想读钱包扩展实现、学习 dApp 注入机制的开发者",
+    "准备给 MetaMask 提交 PR 的贡献者",
+    "需要评估该许可证是否能用于商业产品的团队"
+  ],
+  "features": [
+    { "title": "支持主流浏览器", "detail": "README 说明支持 Firefox、Google Chrome 及 Chromium 系浏览器，并建议使用最新版本。" },
+    { "title": "Codespaces 快速上手", "detail": "README 提供 GitHub Codespaces 的快速启动流程，并给了降低 Codespaces 用量的建议。" },
+    { "title": "完整的测试说明", "detail": "README 有 Running Unit Tests and Linting、Running E2E Tests、Run a single spec、headless 等章节。" },
+    { "title": "贡献者文档", "detail": "README 指向独立的 Contributor Docs 与 Developer Docs，分别面向改代码和写 dApp 的人。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 3 万字，2026-10-24 抓取）的简介、Codespaces quickstart、Building on your local machine、Testing 章节，以及仓库 LICENSE 原文整理。产品功能细节以官网为准。",
+  "setup": {
+    "effort": "较高门槛",
+    "effortNote": "普通用户装扩展即可；改源码要 Node 环境、依赖安装和较长的首次构建。",
+    "requires": ["Node.js 与 yarn", "Chrome / Firefox（加载未打包扩展）", "足够的磁盘与内存（构建较重）"],
+    "steps": [
+      { "title": "普通用户", "detail": "从 metamask.io 跳转到对应浏览器商店安装。" },
+      { "title": "开发者", "detail": "按 README 克隆仓库、安装依赖并构建，然后在浏览器里加载开发版扩展。" },
+      { "title": "跑测试", "detail": "按 README 的 Testing 章节运行单元测试与 E2E 测试。" }
+    ],
+    "cost": "软件免费；链上操作 gas 自理。"
+  },
+  "licenseOverride": {
+    "spdx": null,
+    "name": "ConsenSys 自定义许可（非 OSI 认可）",
+    "note": "GitHub 未识别为标准许可证。仓库 LICENSE 为 ConsenSys Software Inc. 的自定义条款，限制商用与再分发；这不是 OSI 认可的开源许可证，使用前必须阅读原文。",
+    "url": "https://github.com/MetaMask/metamask-extension/blob/main/LICENSE"
+  },
+  "officialUrl": "https://metamask.io",
+  "demoUrl": null,
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "「源码公开」和「开源许可证」是两件事，这个仓库正好是个例子。",
+  "addedAt": "2026-10-16",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "许可证条款需法务复核后再对外引用"
+  }
+}

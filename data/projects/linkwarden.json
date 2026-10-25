@@ -1,0 +1,46 @@
+{
+  "slug": "linkwarden",
+  "name": "Linkwarden",
+  "tagline": "收藏网页，同时把网页本身存下来",
+  "summary": "Linkwarden 是一个可自托管的协作式书签管理器。它和普通书签工具最大的区别写在 README 的动机里：网页会消失（link rot），所以它在收藏时会把页面截图和 PDF 各存一份。除此之外还有阅读、标注、公开分享与多人协作。适合把「资料」当资产而不是当临时标签的人。",
+  "category": "self-hosted",
+  "tags": ["书签管理", "网页归档", "协作", "标注", "自托管"],
+  "aliases": ["linkwarden", "Linkwarden App"],
+  "audience": "自托管用户",
+  "audienceFor": [
+    "做研究、需要长期保存网页原文的人",
+    "团队共享资料链接、希望统一归档的团队",
+    "被「404 了才发现文章没了」坑过的人"
+  ],
+  "features": [
+    { "title": "收藏即归档", "detail": "README 说明会把每个网页保存为截图与 PDF，即使原页面消失也能访问。" },
+    { "title": "阅读与标注", "detail": "README 称其提供阅读与标注体验，把稍后读与网页存档结合起来。" },
+    { "title": "协作与分享", "detail": "README 写明可将链接公开分享，也支持多用户协作。" },
+    { "title": "官方 Demo", "detail": "README 提供 LAUNCH DEMO 入口与 Cloud / 自托管两种使用方式。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 4800 字，2026-10-24 抓取）的 Intro & motivation、Features、Development 章节整理。",
+  "setup": {
+    "effort": "中等门槛",
+    "effortNote": "推荐 Docker 部署，归档功能会占用额外存储。",
+    "requires": ["Docker", "PostgreSQL（随官方 compose 提供）", "存储空间（截图与 PDF）"],
+    "steps": [
+      { "title": "试 Demo", "detail": "先用 README 的演示入口看交互是否合口味。" },
+      { "title": "部署", "detail": "按官方文档用 Docker Compose 起服务。" },
+      { "title": "装扩展", "detail": "安装浏览器扩展，收藏时自动归档。" }
+    ],
+    "cost": "软件免费（AGPL-3.0）；官方云版为付费服务。"
+  },
+  "officialUrl": "https://linkwarden.app",
+  "demoUrl": "https://cloud.linkwarden.app",
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "「保存链接」和「保存网页」是两件事，这个项目只做后者。",
+  "addedAt": "2026-10-17",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "确认 demo 地址与云版定价"
+  }
+}

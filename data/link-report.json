@@ -1,0 +1,368 @@
+{
+  "generatedAt": "2026-10-24T19:56:17.368Z",
+  "summary": {
+    "total": 29,
+    "ok": 26,
+    "dead": 0,
+    "flaky": 3
+  },
+  "note": "ok=可访问；ambiguous=超时/429/403，通常为反爬或网络波动，需人工在浏览器确认；dead=明确的 4xx/5xx。本脚本不会自动修改项目的 linkStatus。",
+  "results": [
+    {
+      "slug": "biome",
+      "checkedAt": "2026-10-24T19:55:11.010Z",
+      "links": [
+        {
+          "url": "https://biomejs.dev",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "cs-self-learning",
+      "checkedAt": "2026-10-24T19:55:11.377Z",
+      "links": [
+        {
+          "url": "https://csdiy.wiki",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "dicebear",
+      "checkedAt": "2026-10-24T19:55:11.649Z",
+      "links": [
+        {
+          "url": "https://dicebear.com",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "espanso",
+      "checkedAt": "2026-10-24T19:55:12.979Z",
+      "links": [
+        {
+          "url": "https://espanso.org",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "esphome",
+      "checkedAt": "2026-10-24T19:55:13.380Z",
+      "links": [
+        {
+          "url": "https://esphome.io",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "evidence",
+      "checkedAt": "2026-10-24T19:55:13.906Z",
+      "links": [
+        {
+          "url": "https://evidence.dev",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "excalidraw",
+      "checkedAt": "2026-10-24T19:55:14.342Z",
+      "links": [
+        {
+          "url": "https://excalidraw.com",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "flipper-zero",
+      "checkedAt": "2026-10-24T19:55:14.605Z",
+      "links": [
+        {
+          "url": "https://flipper.net",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "foundry",
+      "checkedAt": "2026-10-24T19:55:15.374Z",
+      "links": [
+        {
+          "url": "https://getfoundry.sh",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "hoppscotch",
+      "checkedAt": "2026-10-24T19:55:16.333Z",
+      "links": [
+        {
+          "url": "https://hoppscotch.io",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "immich",
+      "checkedAt": "2026-10-24T19:55:16.627Z",
+      "links": [
+        {
+          "url": "https://immich.app",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "it-tools",
+      "checkedAt": "2026-10-24T19:55:17.259Z",
+      "links": [
+        {
+          "url": "https://it-tools.tech",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "karakeep",
+      "checkedAt": "2026-10-24T19:55:17.845Z",
+      "links": [
+        {
+          "url": "https://karakeep.app",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "learn-git-branching",
+      "checkedAt": "2026-10-24T19:55:18.453Z",
+      "links": [
+        {
+          "url": "https://learngitbranching.js.org",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "linkwarden",
+      "checkedAt": "2026-10-24T19:55:18.996Z",
+      "links": [
+        {
+          "url": "https://linkwarden.app",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "lobe-chat",
+      "checkedAt": "2026-10-24T19:55:19.539Z",
+      "links": [
+        {
+          "url": "https://lobehub.com",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "localsend",
+      "checkedAt": "2026-10-24T19:55:20.253Z",
+      "links": [
+        {
+          "url": "https://localsend.org",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "markitdown",
+      "checkedAt": "2026-10-24T19:55:20.892Z",
+      "links": []
+    },
+    {
+      "slug": "metamask-extension",
+      "checkedAt": "2026-10-24T19:55:20.892Z",
+      "links": [
+        {
+          "url": "https://metamask.io",
+          "status": 0,
+          "ok": false,
+          "ambiguous": true,
+          "error": "UND_ERR_CONNECT_TIMEOUT"
+        }
+      ]
+    },
+    {
+      "slug": "observable-plot",
+      "checkedAt": "2026-10-24T19:55:44.627Z",
+      "links": [
+        {
+          "url": "https://observablehq.com/plot/",
+          "status": 429,
+          "ok": false,
+          "ambiguous": true,
+          "error": "HTTP 429"
+        }
+      ]
+    },
+    {
+      "slug": "ollama",
+      "checkedAt": "2026-10-24T19:55:47.679Z",
+      "links": [
+        {
+          "url": "https://ollama.com",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "open-webui",
+      "checkedAt": "2026-10-24T19:55:48.561Z",
+      "links": [
+        {
+          "url": "https://openwebui.com",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "penpot",
+      "checkedAt": "2026-10-24T19:55:49.129Z",
+      "links": [
+        {
+          "url": "https://penpot.app",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "pygwalker",
+      "checkedAt": "2026-10-24T19:55:50.254Z",
+      "links": [
+        {
+          "url": "https://kanaries.net/pygwalker",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "qmk-firmware",
+      "checkedAt": "2026-10-24T19:55:51.604Z",
+      "links": [
+        {
+          "url": "https://qmk.fm",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "rainbow",
+      "checkedAt": "2026-10-24T19:55:51.943Z",
+      "links": [
+        {
+          "url": "https://rainbow.me",
+          "status": 0,
+          "ok": false,
+          "ambiguous": true,
+          "error": "UND_ERR_CONNECT_TIMEOUT"
+        }
+      ]
+    },
+    {
+      "slug": "screenshot-to-code",
+      "checkedAt": "2026-10-24T19:56:15.117Z",
+      "links": [
+        {
+          "url": "https://screenshottocode.com",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "sherlock",
+      "checkedAt": "2026-10-24T19:56:15.850Z",
+      "links": [
+        {
+          "url": "https://sherlockproject.xyz",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "typescript-exercises",
+      "checkedAt": "2026-10-24T19:56:16.604Z",
+      "links": [
+        {
+          "url": "https://typescript-exercises.github.io",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "slug": "uv",
+      "checkedAt": "2026-10-24T19:56:16.782Z",
+      "links": [
+        {
+          "url": "https://docs.astral.sh/uv/",
+          "status": 200,
+          "ok": true,
+          "ambiguous": false
+        }
+      ]
+    }
+  ]
+}

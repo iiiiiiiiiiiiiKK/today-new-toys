@@ -1,0 +1,46 @@
+{
+  "slug": "penpot",
+  "name": "Penpot",
+  "tagline": "能自己部署的开源设计协作平台",
+  "summary": "Penpot 是一个开源的在线设计平台，面向需要规模化协作的产品团队。README 的卖点是「完全掌控自己的设计基础设施」：可自托管、基于 SVG/CSS/HTML/JSON 等开放标准、原生支持 Design Tokens，并提供开发者可直接读取的 Inspect 模式。它不是 Figma 的克隆，而是把「设计即代码」这条路线做得更彻底。",
+  "category": "creative",
+  "tags": ["设计工具", "自托管", "Design Tokens", "SVG", "团队协作"],
+  "aliases": ["penpot", "Penpot App"],
+  "audience": "设计团队",
+  "audienceFor": [
+    "因合规要求不能把设计稿放公有云的产品团队",
+    "希望设计和前端共用一套 token 的团队",
+    "想摆脱按席位计费的设计协作工具的组织"
+  ],
+  "features": [
+    { "title": "浏览器内实时协作", "detail": "README 写明无论用浏览器还是自建服务器，都支持实时协作。" },
+    { "title": "开放标准文件", "detail": "README 强调基于 SVG、CSS、HTML、JSON 等开放标准，设计结果对开发者可读。" },
+    { "title": "原生 Design Tokens", "detail": "README 称其提供 best-in-class 的 Design Tokens，作为设计与代码之间的单一事实来源。" },
+    { "title": "Inspect 模式与插件", "detail": "README 有独立的 Inspect mode 与 Plugin system 章节，方便开发者取用样式与扩展能力。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 6400 字，2026-10-24 抓取）的 Why Penpot / Plugin system / Designed for developers / Design Systems 章节整理。",
+  "setup": {
+    "effort": "较高门槛",
+    "effortNote": "用官方云版零门槛；自托管要自己维护一套多服务架构。",
+    "requires": ["现代浏览器（云版）", "Docker / Kubernetes（自托管）"],
+    "steps": [
+      { "title": "先用云版", "detail": "在 penpot.app 注册即可开始设计，验证工作流是否合适。" },
+      { "title": "准备自托管", "detail": "按 README 指向的自托管文档，用 Docker 或 Kubernetes 部署。" },
+      { "title": "接设计系统", "detail": "在项目里配置 Design Tokens 与组件库，前端通过 Inspect 取样式。" }
+    ],
+    "cost": "开源版免费；企业版为付费方案。"
+  },
+  "officialUrl": "https://penpot.app",
+  "demoUrl": "https://design.penpot.app",
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "自托管版不是一键镜像，先读部署文档再决定。",
+  "addedAt": "2026-10-21",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "核对自托管文档入口"
+  }
+}

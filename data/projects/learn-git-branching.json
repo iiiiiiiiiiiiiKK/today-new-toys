@@ -1,0 +1,46 @@
+{
+  "slug": "learn-git-branching",
+  "name": "Learn Git Branching",
+  "tagline": "在浏览器里把 Git 分支玩坏，再学会它",
+  "summary": "Learn Git Branching 是一个交互式 Git 教学工具：左边敲命令，右边的提交树实时变化。README 说它的核心目的就是「用可视化理解 Git」——命令行里最难建立直觉的部分，在这里变成了一棵能看见的树。除了关卡，它还有一个沙盒模式，可以随便折腾。",
+  "category": "learning",
+  "tags": ["Git", "交互式教程", "可视化", "JavaScript", "零安装"],
+  "aliases": ["learnGitBranching", "LGB"],
+  "audience": "初学者",
+  "audienceFor": [
+    "刚学 Git、对 rebase 和 merge 的区别没概念的人",
+    "想给团队做 Git 培训、需要一个能动手的演示环境的人",
+    "准备面试、想复习分支操作的人"
+  ],
+  "features": [
+    { "title": "提交树实时可视化", "detail": "README 说明输入命令后，旁边的 commit tree 会动态更新以反映命令效果。" },
+    { "title": "关卡式教程", "detail": "README 写明它由一系列教育性教程与挑战组成，难度循序渐进。" },
+    { "title": "沙盒模式", "detail": "README 有独立的 Sandbox Mode 章节，默认会先给一个基础仓库让你随便操作。" },
+    { "title": "支持分享与自建关卡", "detail": "README 列出 Sharing permalinks 与 Level Builder 章节。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 5700 字，2026-10-24 抓取）的简介、Sandbox Mode、Levels、Level Builder 章节整理。",
+  "setup": {
+    "effort": "零门槛",
+    "effortNote": "打开网页就能开始，不需要装 Git。",
+    "requires": ["现代浏览器"],
+    "steps": [
+      { "title": "打开", "detail": "访问 learngitbranching.js.org，中文界面可直接切换。" },
+      { "title": "从基础关开始", "detail": "按顺序做关卡；卡住时可以看提示。" },
+      { "title": "去沙盒乱来", "detail": "在 Sandbox 里自由试验 reset、rebase、cherry-pick。" }
+    ],
+    "cost": "免费开源（MIT）。"
+  },
+  "officialUrl": "https://learngitbranching.js.org",
+  "demoUrl": "https://learngitbranching.js.org/?locale=zh_CN",
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "它教的是心智模型，不是命令大全——这两件事经常被混淆。",
+  "addedAt": "2026-10-20",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "确认中文界面入口"
+  }
+}

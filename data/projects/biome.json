@@ -1,0 +1,46 @@
+{
+  "slug": "biome",
+  "name": "Biome",
+  "tagline": "用一套 Rust 工具同时替代 ESLint 和 Prettier",
+  "summary": "Biome 是一个面向 Web 项目的工具链，把格式化和静态检查收进同一个二进制文件。README 的定位很清楚：为前端项目提供维护所需的那些基础能力，CLI 和 LSP 两种形态都有。对饱受 ESLint 插件地狱折磨的项目来说，它的吸引力不在功能更多，而在配置更少、跑得更快。",
+  "category": "dev-tools",
+  "tags": ["代码格式化", "静态检查", "Rust", "前端工具链", "LSP"],
+  "aliases": ["biomejs", "@biomejs/biome"],
+  "audience": "开发者",
+  "audienceFor": [
+    "受够 ESLint + Prettier 两套配置和插件冲突的前端团队",
+    "想要一个快的 formatter 接入 CI 的人",
+    "新项目起步，不想从零拼装 lint 规则的人"
+  ],
+  "features": [
+    { "title": "格式化 + 检查二合一", "detail": "README 的 Usage 章节分别给出 biome format、biome lint 以及一次跑完两者的 biome check 命令。" },
+    { "title": "面向 CI 的检查模式", "detail": "README 专门演示了在 CI 环境中对所有文件做格式与规则检查的用法。" },
+    { "title": "CLI 与编辑器双形态", "detail": "README 首段即说明提供 CLI 与 LSP；仓库同时发布 VS Code 与 Open VSX 扩展。" },
+    { "title": "覆盖 JS/TS 生态", "detail": "仓库 Topics 列出 javascript、typescript、jsx、css、json，README 支持列表与此一致。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 5000 字，2026-10-24 抓取）的 Installation / Usage / Documentation 章节与仓库 Topics 整理。",
+  "setup": {
+    "effort": "零门槛",
+    "effortNote": "npm 装一个包，或装编辑器扩展即可，不需要改构建流程。",
+    "requires": ["Node.js 18+ 或编辑器扩展", "现有项目（可选）"],
+    "steps": [
+      { "title": "安装", "detail": "按 README 的 Installation 章节，用包管理器安装 @biomejs/biome。" },
+      { "title": "初始化配置", "detail": "运行 biome init 生成 biome.json。" },
+      { "title": "跑一次检查", "detail": "biome check . 同时做格式与规则检查，按提示加 --write 应用安全修复。" }
+    ],
+    "cost": "免费开源。"
+  },
+  "officialUrl": "https://biomejs.dev",
+  "demoUrl": "https://biomejs.dev/playground/",
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "迁移成本主要在规则名对不上，不在速度。",
+  "addedAt": "2026-10-24",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "确认 playground 是否仍在线"
+  }
+}

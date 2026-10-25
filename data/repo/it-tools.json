@@ -1,0 +1,66 @@
+{
+  "slug": "it-tools",
+  "repoInput": "CorentinTh/it-tools",
+  "fetchedAt": "2026-10-24T17:55:42.617Z",
+  "github": {
+    "owner": "CorentinTh",
+    "name": "it-tools",
+    "fullName": "CorentinTh/it-tools",
+    "url": "https://github.com/CorentinTh/it-tools",
+    "homepage": "https://it-tools.tech",
+    "description": "Collection of handy online tools for developers, with great UX. ",
+    "stars": 40960,
+    "forks": 5517,
+    "openIssues": 859,
+    "language": "Vue",
+    "topics": [
+      "converter",
+      "developer-productivity",
+      "developer-tools",
+      "frontend",
+      "javascript",
+      "productivity",
+      "tool",
+      "tools",
+      "typescript",
+      "vuejs",
+      "website"
+    ],
+    "license": {
+      "spdx": "GPL-3.0",
+      "name": "GNU General Public License v3.0",
+      "url": null
+    },
+    "createdAt": "2020-04-05T11:50:24Z",
+    "pushedAt": "2026-10-22T20:10:52Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T17:55:42.617Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "main",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 2083,
+    "headings": [
+      "Functionalities and roadmap",
+      "Self host",
+      "Contribute",
+      "Recommended IDE Setup",
+      "Type Support for .vue Imports in TS",
+      "Project Setup",
+      "Compile and Hot-Reload for Development",
+      "Type-Check, Compile and Minify for Production",
+      "Run Unit Tests with [Vitest](https://vitest.dev/)",
+      "Lint with [ESLint](https://eslint.org/)",
+      "Create a new tool",
+      "Contributors",
+      "Credits",
+      "License"
+    ],
+    "excerpt": "Useful tools for developer and people working in IT. Try it! Functionalities and roadmap Please check the issues to see if some feature listed to be implemented. You have an idea of a tool? Submit a feature request! Self host Self host solutions for your homelab From docker hub: From github packages: Other solutions: - Cloudron - Tipi - Unraid Contribute Recommended IDE Setup VSCode with the following extensions: - Volar (and disable Vetur) - TypeScript Vue Plugin (Volar). - ESLint - i18n Ally with the following settings: Type Support for `.vue` Imports in TS TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need TypeScript Vue Plugin (Volar) to make the TypeScript language service aware of `.vue` types. If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a Take Over Mode that is more performant. You can enable it by the following steps: 1. Disable the built-in TypeScript Extension 1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette 2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)` 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette. Project Setup Compile and Hot-Reload for Development Type-Check, Compile and Minify for Produ",
+    "truncated": true,
+    "rawFile": "data/readme/it-tools.md"
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.tmp-e2e/
+.tmp-shots/
+.tmp-shots2/
+.tmp-shots-review/
+*.tsbuildinfo
+.env
+.env.local
+.DS_Store
+Thumbs.db

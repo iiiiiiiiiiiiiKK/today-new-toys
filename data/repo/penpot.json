@@ -1,0 +1,62 @@
+{
+  "slug": "penpot",
+  "repoInput": "penpot/penpot",
+  "fetchedAt": "2026-10-24T17:55:36.109Z",
+  "github": {
+    "owner": "penpot",
+    "name": "penpot",
+    "fullName": "penpot/penpot",
+    "url": "https://github.com/penpot/penpot",
+    "homepage": "https://penpot.app",
+    "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
+    "stars": 61608,
+    "forks": 4271,
+    "openIssues": 926,
+    "language": "Clojure",
+    "topics": [
+      "clojure",
+      "clojurescript",
+      "design",
+      "prototyping",
+      "ui",
+      "ux-design",
+      "ux-experience"
+    ],
+    "license": {
+      "spdx": "MPL-2.0",
+      "name": "Mozilla Public License 2.0",
+      "url": null
+    },
+    "createdAt": "2015-12-29T22:09:07Z",
+    "pushedAt": "2026-10-23T21:31:19Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T17:55:36.109Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "develop",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 6410,
+    "headings": [
+      "Table of contents",
+      "Why Penpot",
+      "Plugin system",
+      "Designed for developers",
+      "Inspect mode",
+      "Integrations",
+      "Building Design Systems: design tokens, components and variants",
+      "Getting started",
+      "Penpot Enterprise",
+      "Community",
+      "Code of Conduct",
+      "Contributing",
+      "Resources",
+      "License"
+    ],
+    "excerpt": "[uri license]: https://www.mozilla.org/en-US/MPL/2.0 [uri license image]: https://img.shields.io/badge/MPL-2.0-blue.svg Website • User Guide • Learning Center • Community Youtube • Peertube • Linkedin • Instagram • Mastodon • Bluesky • X Penpot video Penpot is the open-source design platform for teams that build digital products at scale. Penpot’s key strength lies in giving you full ownership of your design infrastructure . Built on open source and designed for self-hosting, it puts teams in complete control of their design environment supporting strict compliance and governance requirements. Whether used in the browser or deployed on your own servers , Penpot works with open standards like SVG, CSS, HTML, and JSON. Real-time collaboration strengthens this foundation, helping teams scale and bring design closer to the product through top-tier capabilities. Additionally, developers feel at home using Penpot, because design is expressed as code, enabling a direct translation and shipping products faster. Best-in-class native Design Tokens provide a single source of truth between design and development. They ensure consistency, improve collaboration, and make it easier to manage complex design systems. The MCP server takes it further by enabling multi-directional workflows between design and code. A powerful open API and plugin system makes the workspace programmable, enabling au",
+    "truncated": true,
+    "rawFile": "data/readme/penpot.md"
+  }
+}

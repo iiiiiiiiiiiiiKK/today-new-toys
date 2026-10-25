@@ -1,0 +1,66 @@
+{
+  "slug": "foundry",
+  "repoInput": "foundry-rs/foundry",
+  "fetchedAt": "2026-10-24T17:55:46.216Z",
+  "github": {
+    "owner": "foundry-rs",
+    "name": "foundry",
+    "fullName": "foundry-rs/foundry",
+    "url": "https://github.com/foundry-rs/foundry",
+    "homepage": "https://getfoundry.sh/",
+    "description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
+    "stars": 10692,
+    "forks": 2691,
+    "openIssues": 244,
+    "language": "Rust",
+    "topics": [
+      "alloy",
+      "blockchain",
+      "bytecode",
+      "compiler",
+      "compilers",
+      "dapp",
+      "eth",
+      "ethereum",
+      "evm",
+      "framework",
+      "fuzzing",
+      "ir",
+      "rust",
+      "smart-contracts",
+      "solidity",
+      "tempo",
+      "testing",
+      "tooling",
+      "toolkit",
+      "vyper"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "name": "Apache License 2.0",
+      "url": null
+    },
+    "createdAt": "2021-09-08T11:23:11Z",
+    "pushedAt": "2026-10-24T15:22:30Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T17:55:46.216Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "master",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 3206,
+    "headings": [
+      "Installation",
+      "Getting Started",
+      "Solidity editor integration",
+      "Contributing",
+      "Support"
+    ],
+    "excerpt": "&nbsp; [![Github Actions][gha-badge]][gha-url] [![Telegram Chat][tg-badge]][tg-url] [![Telegram Support][tg-support-badge]][tg-support-url] [gha-badge]: https://img.shields.io/github/actions/workflow/status/foundry-rs/foundry/test.yml?branch=master&style=flat-square [gha-url]: https://github.com/foundry-rs/foundry/actions [tg-badge]: https://img.shields.io/endpoint?color=neon&logo=telegram&label=chat&style=flat-square&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Ffoundry rs [tg-url]: https://t.me/foundry rs [tg-support-badge]: https://img.shields.io/endpoint?color=neon&logo=telegram&label=support&style=flat-square&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Ffoundry support [tg-support-url]: https://t.me/foundry support Install [Docs][foundry-docs] Benchmarks Developer Guidelines Contributing Crate Docs --- Blazing fast, portable and modular toolkit for Ethereum application development, written in Rust. - Forge — Build, test, fuzz, debug and deploy Solidity contracts. - Cast — Swiss Army knife for interacting with EVM smart contracts, sending transactions and getting chain data. - Anvil — Fast local Ethereum development node. - Chisel — Fast, utilitarian and verbose Solidity REPL. Installation See the installation guide for more details. Getting Started Initialize a new project, build and test: Interact with a live network: Fork mainnet locally: Read the [Foundry Docs][foundry-doc",
+    "truncated": true,
+    "rawFile": "data/readme/foundry.md"
+  }
+}

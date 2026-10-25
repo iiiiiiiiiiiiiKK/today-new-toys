@@ -1,0 +1,68 @@
+{
+  "slug": "flipper-zero",
+  "repoInput": "flipperdevices/flipperzero-firmware",
+  "fetchedAt": "2026-10-24T17:55:41.199Z",
+  "github": {
+    "owner": "flipperdevices",
+    "name": "flipperzero-firmware",
+    "fullName": "flipperdevices/flipperzero-firmware",
+    "url": "https://github.com/flipperdevices/flipperzero-firmware",
+    "homepage": "https://flipper.net",
+    "description": "Flipper Zero firmware source code",
+    "stars": 16772,
+    "forks": 3500,
+    "openIssues": 248,
+    "language": "C",
+    "topics": [
+      "armv7m",
+      "ble",
+      "firmware",
+      "flipper",
+      "flipperzero",
+      "infrared",
+      "nfc",
+      "onewire",
+      "rfid",
+      "stm32",
+      "subghz"
+    ],
+    "license": {
+      "spdx": "GPL-3.0",
+      "name": "GNU General Public License v3.0",
+      "url": null
+    },
+    "createdAt": "2020-07-31T21:43:20Z",
+    "pushedAt": "2026-10-22T00:33:44Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T17:55:41.199Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "dev",
+  "readme": {
+    "path": "ReadMe.md",
+    "via": "api",
+    "chars": 4652,
+    "headings": [
+      "Flipper Zero Firmware",
+      "Contributing",
+      "I need help",
+      "I want to report an issue",
+      "I want to propose a new feature",
+      "I want to contribute code",
+      "Development",
+      "Requirements",
+      "Cloning source code",
+      "Building",
+      "Flashing firmware using an in-circuit debugger",
+      "Flashing firmware using USB",
+      "Documentation",
+      "Project structure",
+      "Links",
+      "SAST Tools"
+    ],
+    "excerpt": "Flipper Zero Firmware - Flipper Zero Official Website - A simple way to explain to your friends what Flipper Zero can do. - Flipper Zero Firmware Update - Improvements for your dolphin: latest firmware releases, upgrade tools for PC and mobile devices. - User Documentation - Learn more about your dolphin: specs, usage guides, and anything you want to ask. - Developer Documentation - Dive into the Flipper Zero Firmware source code: build system, firmware structure, and more. Contributing Our main goal is to build a healthy and sustainable community around Flipper, so we're open to any new ideas and contributions. We also have some rules and taboos here, so please read this page and our Code of Conduct carefully. I need help The best place to search for answers is our User Documentation. If you can't find the answer there, check our Discord Server. If you want to contribute to the firmware development or modify it for your own needs, you can also check our Developer Documentation. I want to report an issue If you've found an issue and want to report it, please check our Issues page. Make sure the description contains information about the firmware version you're using, your platform, and a clear explanation of the steps to reproduce the issue. I want to propose a new feature If you have a feature request or want to vote on an existing one, please use Discussions and follow our Di",
+    "truncated": true,
+    "rawFile": "data/readme/flipper-zero.md"
+  }
+}

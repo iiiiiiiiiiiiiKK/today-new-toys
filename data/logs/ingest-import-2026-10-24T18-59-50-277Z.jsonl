@@ -1,0 +1,6 @@
+{"at":"2026-10-24T18:59:50.278Z","event":"run_start","name":"ingest-import","startedAt":"2026-10-24T18:59:50.278Z","cwd":"C:\\Users\\Administrator\\Documents\\deepseek-harness\\default-workspace\\new-toys","node":"v24.22.1"}
+{"at":"2026-10-24T18:59:51.376Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/tiangolo/fastapi","status":200,"remaining":58,"ms":1002}
+{"at":"2026-10-24T18:59:52.072Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/tiangolo/fastapi/readme","status":200,"remaining":56,"ms":695}
+{"at":"2026-10-24T18:59:52.076Z","event":"saved","detail":"fastapi ★104082 MIT README=11925 字","level":"info"}
+{"at":"2026-10-24T18:59:52.078Z","event":"draft_created","detail":"data/projects/fastapi.json（状态 draft，构建时不会发布）","level":"info"}
+{"at":"2026-10-24T18:59:52.079Z","event":"run_end","level":"info","detail":"{\"command\":\"import\",\"code\":0}"}

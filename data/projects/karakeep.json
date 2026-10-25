@@ -1,0 +1,46 @@
+{
+  "slug": "karakeep",
+  "name": "Karakeep",
+  "tagline": "链接、笔记、图片都往里丢，AI 自动打标签",
+  "summary": "Karakeep（原名 Hoarder）是一个可自托管的「书签一切」应用：网页链接、随手笔记、图片、PDF 都能存，抓取标题描述和封面后，用 LLM 自动打标签并做全文与语义搜索。README 的自述是写给「数据囤积者」的。它和稍后读工具的区别在于：它真的把内容存下来了，而不是只存一个链接。",
+  "category": "self-hosted",
+  "tags": ["书签管理", "稍后读", "AI 标签", "全文搜索", "Docker"],
+  "aliases": ["Hoarder", "karakeep-app"],
+  "audience": "自托管用户",
+  "audienceFor": [
+    "收藏夹里堆了几百条链接、从来没打开过的人",
+    "想要一个自己的「第二大脑」、但不想把数据交给 SaaS 的人",
+    "需要给研究资料自动打标签的研究者"
+  ],
+  "features": [
+    { "title": "书签一切", "detail": "README 的 Features 首条写明可收藏链接、记简单笔记、存图片与 PDF。" },
+    { "title": "自动抓取元信息", "detail": "README 说明会自动抓取链接的标题、描述与图片。" },
+    { "title": "AI 标签与语义搜索", "detail": "README 列出基于 LLM 的自动打标签与摘要（支持本地 Ollama 模型），以及全文与语义搜索。" },
+    { "title": "防链接失效", "detail": "README 提到用 monolith 做整页归档，以及用 yt-dlp 自动归档视频。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 5600 字，2026-10-24 抓取）的 Features / Demo / Stack 章节整理；AI 功能需要自行配置模型，README 有对应说明。",
+  "setup": {
+    "effort": "中等门槛",
+    "effortNote": "Docker 部署简单，但想用 AI 标签得额外配一个模型（本地或云端）。",
+    "requires": ["Docker", "可选：OpenAI Key 或本地 Ollama", "浏览器扩展（可选）"],
+    "steps": [
+      { "title": "先试 Demo", "detail": "用 README 提供的 try.karakeep.app 演示账号体验（只读）。" },
+      { "title": "部署", "detail": "按官方文档的 Docker 步骤起服务。" },
+      { "title": "接模型", "detail": "如果要自动标签，在设置里配置 LLM；可用 Ollama 本地模型。" }
+    ],
+    "cost": "软件免费（AGPL-3.0）；AI 功能按所选模型计费。"
+  },
+  "officialUrl": "https://karakeep.app",
+  "demoUrl": "https://try.karakeep.app",
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "从 Hoarder 改名而来，搜旧资料时两个名字都要试。",
+  "addedAt": "2026-10-17",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "确认改名后的域名与演示站"
+  }
+}

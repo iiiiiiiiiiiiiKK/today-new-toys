@@ -1,0 +1,56 @@
+{
+  "slug": "dicebear",
+  "repoInput": "dicebear/dicebear",
+  "fetchedAt": "2026-10-24T17:55:43.327Z",
+  "github": {
+    "owner": "dicebear",
+    "name": "dicebear",
+    "fullName": "dicebear/dicebear",
+    "url": "https://github.com/dicebear/dicebear",
+    "homepage": "https://www.dicebear.com",
+    "description": "DiceBear is an avatar library for designers and developers. 🌍",
+    "stars": 9924,
+    "forks": 434,
+    "openIssues": 7,
+    "language": "Vue",
+    "topics": [
+      "api",
+      "avataaars",
+      "avatar",
+      "avatar-placeholder",
+      "avatars",
+      "bottts",
+      "dicebear",
+      "figma",
+      "pixel-art"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "createdAt": "2017-03-21T12:58:17Z",
+    "pushedAt": "2026-10-21T07:28:37Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T17:55:43.327Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "11.x",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 3698,
+    "headings": [
+      "One library, seven languages",
+      "Without writing code",
+      "This repository",
+      "License",
+      "Star this repository",
+      "Sponsors"
+    ],
+    "excerpt": "DiceBear Avatar Library DiceBear is an open source avatar library. It turns any seed string (a username or an email address, for example) into an SVG avatar in one of 63 styles, from hand-drawn characters to abstract patterns. The same seed always produces the same avatar, so you store a string instead of an image and never ask users to upload a profile picture. Avatars are customizable through style options: colors, backgrounds, rotation, individual features like hair or glasses. Playground Documentation Editor One library, seven languages DiceBear 10 ships as native libraries for JavaScript, PHP, Python, Rust, Go, Dart, and C#. Every port passes a shared test suite that requires byte-identical SVG output to the JavaScript reference. Generate an avatar in the browser, regenerate it later in a Go or PHP backend, and you get the same bytes. Language Package Install ----------------------- ----------------------------------------------------------------------- -------------------------------------------- JavaScript / TypeScript `@dicebear/core` `npm install @dicebear/core` PHP `dicebear/core` `composer require dicebear/core` Python `dicebear-core` `pip install dicebear-core` Rust `dicebear-core` `cargo add dicebear-core` Go `dicebear-go` `go get github.com/dicebear/dicebear-go/v11` Dart `dicebear core` `dart pub add dicebear core` C# `DiceBear.Core` `dotnet add package DiceBear.C",
+    "truncated": true,
+    "rawFile": "data/readme/dicebear.md"
+  }
+}

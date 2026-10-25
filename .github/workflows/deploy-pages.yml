@@ -1,0 +1,55 @@
+# GitHub Pages 部署（项目站）
+#
+# 推送到 main 后：构建 → 预渲染 → 发布到 gh-pages 分支 → Pages 自动上线。
+# 仓库设置里把 Pages 的来源设为 "gh-pages" 分支的 / (root)。
+#
+# 站点的 base 路径由仓库名推导：/today-new-toys/
+name: deploy-pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: 数据质量闸门
+        run: npm run data:check
+
+      - name: 单元测试
+        run: npm run test
+
+      - name: 构建（子路径 + 正式域名）
+        env:
+          TOYS_BASE: /${{ github.event.repository.name }}/
+          SITE_ORIGIN: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+          # ubuntu-latest 自带 google-chrome；预渲染用它截图
+          CHROME_PATH: /usr/bin/google-chrome
+        run: npm run build
+
+      - name: 发布到 gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          commit_message: 'deploy: ${{ github.sha }}'
+          enable_jekyll: false

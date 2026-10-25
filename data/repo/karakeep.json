@@ -1,0 +1,63 @@
+{
+  "slug": "karakeep",
+  "repoInput": "karakeep-app/karakeep",
+  "fetchedAt": "2026-10-24T17:55:44.744Z",
+  "github": {
+    "owner": "karakeep-app",
+    "name": "karakeep",
+    "fullName": "karakeep-app/karakeep",
+    "url": "https://github.com/karakeep-app/karakeep",
+    "homepage": "https://karakeep.app",
+    "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
+    "stars": 29954,
+    "forks": 1595,
+    "openIssues": 716,
+    "language": "TypeScript",
+    "topics": [
+      "bookmark-manager",
+      "bookmarks",
+      "bookmarks-manager",
+      "nextjs",
+      "react-native",
+      "read-it-later",
+      "self-hosted"
+    ],
+    "license": {
+      "spdx": "AGPL-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "url": null
+    },
+    "createdAt": "2024-02-06T12:28:31Z",
+    "pushedAt": "2026-10-24T13:26:04Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T17:55:44.744Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "main",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 5601,
+    "headings": [
+      "<img height=\"50px\" src=\"./screenshots/logo.png\" />",
+      "Features",
+      "Documentation",
+      "Demo",
+      "About the name",
+      "Stack",
+      "Why did I build it?",
+      "Alternatives",
+      "Translations",
+      "Karakeep Cloud ☁️",
+      "One-click Deployment 🚀",
+      "Support",
+      "Community Channels",
+      "License",
+      "Star History"
+    ],
+    "excerpt": "Karakeep (previously Hoarder) is a self-hostable bookmark-everything app with a touch of AI for the data hoarders out there. Features - Bookmark links, take simple notes and store images and pdfs. - Automatic fetching for link titles, descriptions and images. - Sort your bookmarks into lists. - Collaborate with others on the same list. - Full text & semantic search of all the content stored. - LLM-based automatic tagging and summarization. With supports for local models using ollama! - LLM Agents (e.g. OpenClaw, Hermes) friendly with powerful CLI, and official skills. - Rule-based engine for customized management. - OCR for extracting text from images. - Chrome plugin, Firefox addon, and Safari extension for quick bookmarking. - An iOS app, and an Android app. - Mobile offline reading. - Auto hoarding from RSS feeds. - REST API and multiple clients. - Multi-language support. - Mark and store highlights from your hoarded content. - Full page archival (using monolith) to protect against link rot. - Auto video archiving using yt-dlp. - Bulk actions support. - SSO support. - Dark mode support. - Self-hosting first. - Bookmark importers from Chrome, Pocket, Linkwarden, Omnivore, Tab Session Manager. - Automatic sync with browser bookmarks via floccus. Documentation - Installation - Configuration - Screenshots - Security Considerations - Development Demo You can access the demo at ht",
+    "truncated": true,
+    "rawFile": "data/readme/karakeep.md"
+  }
+}

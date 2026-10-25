@@ -1,0 +1,53 @@
+{
+  "slug": "learn-git-branching",
+  "repoInput": "pcottle/learnGitBranching",
+  "fetchedAt": "2026-10-24T17:55:37.530Z",
+  "github": {
+    "owner": "pcottle",
+    "name": "learnGitBranching",
+    "fullName": "pcottle/learnGitBranching",
+    "url": "https://github.com/pcottle/learnGitBranching",
+    "homepage": "https://pcottle.github.io/learnGitBranching/",
+    "description": "An interactive git visualization and tutorial. Aspiring students of git can use this app to educate and challenge themselves towards mastery of git!",
+    "stars": 34157,
+    "forks": 6033,
+    "openIssues": 58,
+    "language": "JavaScript",
+    "topics": [],
+    "license": {
+      "spdx": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "createdAt": "2012-08-13T22:36:09Z",
+    "pushedAt": "2026-10-22T12:06:49Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T17:55:37.530Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "main",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 5691,
+    "headings": [
+      "LearnGitBranching",
+      "Sandbox Mode",
+      "Levels",
+      "Sharing permalinks",
+      "Level Builder",
+      "Reporting Bugs / Opening Issues",
+      "Building yourself / Contributing Functionality",
+      "or, for a production build:",
+      "go online and request a pull",
+      "Other Technical Details",
+      "Docker",
+      "Some of our amazing contributors",
+      "Helpful Folks"
+    ],
+    "excerpt": "LearnGitBranching LearnGitBranching is a git repository visualizer, sandbox, and a series of educational tutorials and challenges. Its primary purpose is to help developers understand git through the power of visualization (something that's absent when working on the command line). This is achieved through a game with different levels to get acquainted with the different git commands. You can input a variety of commands into LearnGitBranching (LGB) -- as commands are processed, the nearby commit tree will dynamically update to reflect the effects of each command: This visualization combined with tutorials and \"levels\" can help both beginners and intermediate developers polish their version control skills. A quick demo is available here: https://pcottle.github.io/learnGitBranching/?demo Or, you can launch the application normally here: https://pcottle.github.io/learnGitBranching/ Sandbox Mode By default the application launches in \"sandbox mode\" with a basic repository already created. Here you can enter commands and mess around with a repository as much as you like. Keep in mind you can `undo` to undo the effects of the last command `reset` to start over with a clean slate (works in levels too) `git fakeCreateRemote` to simulate creating a remote repository! Sandbox mode can be great for demonstrating something to a friend, but the real learning is with levels... Levels Type `l",
+    "truncated": true,
+    "rawFile": "data/readme/learn-git-branching.md"
+  }
+}

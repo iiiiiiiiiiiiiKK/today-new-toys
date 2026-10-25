@@ -1,0 +1,48 @@
+{
+  "_comment": "复制本文件为 data/projects/<slug>.json 后填写。所有中文字段必须由人核对 README 后撰写；不确定的数字写 null，页面会显示「未知」。_comment 字段在构建时会被忽略。",
+  "slug": "example-project",
+  "name": "Example Project",
+  "tagline": "一句话说清它解决什么问题（建议 34 字以内）",
+  "summary": "2–4 句中文概览：它是什么、面向谁、和同类有什么不同。必须能在 README 里找到依据。",
+  "category": "dev-tools",
+  "tags": ["标签1", "标签2"],
+  "aliases": ["英文别名", "旧名"],
+  "audience": "开发者",
+  "audienceFor": ["如果你是……", "如果你需要……"],
+  "features": [
+    { "title": "功能一", "detail": "对应 README 里的哪段描述，尽量具体，不要写「功能强大」这类空话。" },
+    { "title": "功能二", "detail": "……" },
+    { "title": "功能三", "detail": "……" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 X 字，YYYY-MM-DD 抓取）的 A / B 章节整理；未逐行审阅源码。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "一句话说明真实的上手成本。",
+    "requires": ["运行环境", "可选依赖"],
+    "steps": [
+      { "title": "第一步", "detail": "具体命令或操作。" },
+      { "title": "第二步", "detail": "……" }
+    ],
+    "cost": "免费开源；如有付费部分请写明。"
+  },
+  "licenseOverride": {
+    "_comment": "仅当 GitHub 识别不到自定义许可证时使用，必须写 note 说明原因；否则删除本字段。",
+    "spdx": null,
+    "name": "自定义许可名称",
+    "note": "为什么不能简单标成 SPDX：引用了 LICENSE 原文的哪条限制。",
+    "url": "https://github.com/owner/repo/blob/main/LICENSE"
+  },
+  "officialUrl": "https://example.com",
+  "demoUrl": null,
+  "linkStatus": "unchecked",
+  "linkCheckedAt": null,
+  "featured": false,
+  "editorsNote": "编辑的一句话备注（会显示在首页精选区）。",
+  "addedAt": "2026-01-01",
+  "review": {
+    "status": "draft",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "todo": "发布前需要复核的点"
+  }
+}

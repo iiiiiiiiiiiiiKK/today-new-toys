@@ -1,0 +1,46 @@
+{
+  "slug": "espanso",
+  "name": "Espanso",
+  "tagline": "打几个字母，自动展开成一整段文字",
+  "summary": "Espanso 是一个用 Rust 写的跨平台文本扩展器（text expander）：你输入一个触发词，它替换成一段预设内容——常用回复、代码片段、日期、甚至执行脚本后的结果。README 强调隐私优先、100% 本地运行、不追踪用户。对每天要重复输入同样几句话的人来说，这类工具省下的时间比想象中多。",
+  "category": "productivity",
+  "tags": ["文本扩展", "效率", "Rust", "跨平台", "本地优先"],
+  "aliases": ["espanso", "Text Expander"],
+  "audience": "普通用户",
+  "audienceFor": [
+    "每天要重复输入客服话术、邮件模板的人",
+    "想要系统级代码片段、又不想被某个编辑器绑死的人",
+    "愿意花半小时配置、换长期效率的人"
+  ],
+  "features": [
+    { "title": "跨平台文本扩展", "detail": "README 的 Key Features 首条即写明支持 Windows、macOS、Linux，并可在几乎任何程序中工作。" },
+    { "title": "本地优先，不追踪", "detail": "README 明确标注 privacy-first、100% local、no tracking。" },
+    { "title": "不只是纯文本", "detail": "README 列出支持图片、表情、日期展开、自定义脚本、Shell 命令、表单与正则触发。" },
+    { "title": "配置即文件", "detail": "README 说明采用文件化配置，并内置 espanso hub 包管理器。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 2600 字，2026-10-24 抓取）的 What is a Text Expander / Key Features / Quick Start Examples 章节整理。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "装完还要写几行 YAML，第一次配完就回不去了。",
+    "requires": ["Windows / macOS / Linux", "一个文本编辑器（改配置文件）"],
+    "steps": [
+      { "title": "安装", "detail": "按官网说明下载对应平台安装包。" },
+      { "title": "写第一条规则", "detail": "在 match 目录下新建 YAML，定义 trigger 与 replace。" },
+      { "title": "重载配置", "detail": "保存后 espanso 会自动热重载，直接在任意应用里输入触发词测试。" }
+    ],
+    "cost": "免费开源（GPL-3.0）。"
+  },
+  "officialUrl": "https://espanso.org",
+  "demoUrl": null,
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "Wayland 支持在 README 里仍标为 experimental，Linux 用户注意。",
+  "addedAt": "2026-10-23",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "跟踪 Wayland 支持状态"
+  }
+}

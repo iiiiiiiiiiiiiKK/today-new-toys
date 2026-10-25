@@ -1,0 +1,46 @@
+{
+  "slug": "uv",
+  "name": "uv",
+  "tagline": "Rust 写的 Python 包管理器，顺手把 pyenv 也替了",
+  "summary": "uv 是 Astral（Ruff 的作者）用 Rust 写的 Python 包与项目管理器。README 的第一句卖点很直白：一个工具替代 pip、pip-tools、pipx、poetry、pyenv、twine、virtualenv 等一串名字，并声称比 pip 快 10 到 100 倍。它同时提供项目锁文件、脚本运行、Python 版本管理，以及一个兼容 pip 的命令子集。",
+  "category": "dev-tools",
+  "tags": ["Python", "包管理", "Rust", "虚拟环境", "CLI"],
+  "aliases": ["astral-sh/uv", "uv python"],
+  "audience": "开发者",
+  "audienceFor": [
+    "受够 pip 解析依赖慢、环境混乱的 Python 开发者",
+    "想用一份锁文件统一团队环境的项目维护者",
+    "需要在 CI 里快速装依赖的人"
+  ],
+  "features": [
+    { "title": "一套工具替代一串工具", "detail": "README 的 Highlights 明列可替代 pip、pip-tools、pipx、poetry、pyenv、twine、virtualenv。" },
+    { "title": "通用锁文件", "detail": "README 称其提供完整项目管理与 universal lockfile。" },
+    { "title": "管理 Python 版本本身", "detail": "README 的 Features 包含 Python versions，可直接安装与切换解释器。" },
+    { "title": "兼容 pip 接口", "detail": "README 有独立的 pip interface 章节，迁移时可以先用熟悉的命令。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 4400 字，2026-10-24 抓取）的 Highlights / Features / Installation 章节整理；性能倍数引自 README 原文，未独立复测。",
+  "setup": {
+    "effort": "零门槛",
+    "effortNote": "独立安装脚本不需要预先有 Python 或 Rust。",
+    "requires": ["macOS / Linux / Windows"],
+    "steps": [
+      { "title": "安装", "detail": "macOS / Linux 用 README 给出的 curl 安装脚本；Windows 用 PowerShell 安装脚本或 pipx。" },
+      { "title": "建项目", "detail": "uv init 建项目、uv add 加依赖，依赖会写入 pyproject.toml 与锁文件。" },
+      { "title": "跑脚本", "detail": "uv run 直接在项目环境里执行，无需手动 activate。" }
+    ],
+    "cost": "免费开源，由 Astral 维护。"
+  },
+  "officialUrl": "https://docs.astral.sh/uv/",
+  "demoUrl": null,
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "迁移时先用 uv pip 子命令过渡，比一次换掉整条链路稳。",
+  "addedAt": "2026-10-24",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "复查 Windows 安装脚本地址"
+  }
+}

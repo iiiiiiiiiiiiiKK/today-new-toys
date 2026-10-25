@@ -1,0 +1,286 @@
+{
+  "open-webui": {
+    "src": "/shots/open-webui.webp",
+    "card": "/shots/open-webui-card.webp",
+    "captureUrl": "https://openwebui.com",
+    "origin": "live",
+    "title": "Open WebUI: Self-Hosted AI Platform",
+    "capturedAt": "2026-10-24T18:14:43.871Z",
+    "quality": {
+      "std": 61.8,
+      "edge": 4.58
+    }
+  },
+  "lobe-chat": {
+    "src": "/shots/lobe-chat.webp",
+    "card": "/shots/lobe-chat-card.webp",
+    "captureUrl": "https://lobehub.com",
+    "origin": "live",
+    "title": "LobeHub - Your Chief Agent Operator",
+    "capturedAt": "2026-10-24T18:15:29.583Z",
+    "quality": {
+      "std": 39,
+      "edge": 9.61
+    }
+  },
+  "ollama": {
+    "src": "/shots/ollama.webp",
+    "card": "/shots/ollama-card.webp",
+    "captureUrl": "https://ollama.com",
+    "origin": "live",
+    "title": "Ollama · Run AI models locally and in the cloud",
+    "capturedAt": "2026-10-24T18:15:40.902Z",
+    "quality": {
+      "std": 24.1,
+      "edge": 4.86
+    }
+  },
+  "biome": {
+    "src": "/shots/biome.webp",
+    "card": "/shots/biome-card.webp",
+    "captureUrl": "https://biomejs.dev",
+    "origin": "live",
+    "title": "Biome, toolchain of the web",
+    "capturedAt": "2026-10-24T18:01:42.887Z"
+  },
+  "uv": {
+    "src": "/shots/uv.webp",
+    "card": "/shots/uv-card.webp",
+    "captureUrl": "https://docs.astral.sh/uv/",
+    "origin": "live",
+    "title": "uv",
+    "capturedAt": "2026-10-24T18:02:16.604Z"
+  },
+  "hoppscotch": {
+    "src": "/shots/hoppscotch.webp",
+    "card": "/shots/hoppscotch-card.webp",
+    "captureUrl": "https://hoppscotch.io",
+    "origin": "live",
+    "title": "Hoppscotch • Open source API development ecosystem • Hoppscotch",
+    "capturedAt": "2026-10-24T18:16:41.472Z",
+    "quality": {
+      "std": 17.9,
+      "edge": 4.85
+    }
+  },
+  "markitdown": {
+    "src": "/shots/markitdown.webp",
+    "card": "/shots/markitdown-card.webp",
+    "captureUrl": "https://github.com/microsoft/markitdown",
+    "origin": "og",
+    "title": "GitHub - microsoft/markitdown: Python tool for converting files and office documents to Markdown. · GitHub",
+    "capturedAt": "2026-10-24T18:17:22.578Z",
+    "quality": {
+      "std": 71,
+      "edge": 14.91
+    }
+  },
+  "localsend": {
+    "src": "/shots/localsend.webp",
+    "card": "/shots/localsend-card.webp",
+    "captureUrl": "https://localsend.org",
+    "origin": "live",
+    "title": "LocalSend：与附近设备共享文件",
+    "capturedAt": "2026-10-24T18:03:34.025Z"
+  },
+  "espanso": {
+    "src": "/shots/espanso.webp",
+    "card": "/shots/espanso-card.webp",
+    "captureUrl": "https://espanso.org",
+    "origin": "live",
+    "title": "Espanso - A Privacy-first, Cross-platform Text Expander",
+    "capturedAt": "2026-10-24T18:04:07.922Z"
+  },
+  "evidence": {
+    "src": "/shots/evidence.webp",
+    "card": "/shots/evidence-card.webp",
+    "captureUrl": "https://evidence.dev",
+    "origin": "live",
+    "title": "Evidence - Business Intelligence as Code",
+    "capturedAt": "2026-10-24T18:21:30.438Z"
+  },
+  "pygwalker": {
+    "src": "/shots/pygwalker.webp",
+    "card": "/shots/pygwalker-card.webp",
+    "captureUrl": "https://kanaries.net/pygwalker",
+    "origin": "live",
+    "title": "PyGWalker：让数据变身可视化分析应用",
+    "capturedAt": "2026-10-24T18:05:22.704Z"
+  },
+  "observable-plot": {
+    "src": "/shots/observable-plot.webp",
+    "card": "/shots/observable-plot-card.webp",
+    "captureUrl": "https://observablehq.com/plot/",
+    "origin": "live",
+    "title": "Plot | The JavaScript library for exploratory data visualization",
+    "capturedAt": "2026-10-24T18:05:56.843Z"
+  },
+  "excalidraw": {
+    "src": "/shots/excalidraw.webp",
+    "card": "/shots/excalidraw-card.webp",
+    "captureUrl": "https://excalidraw.com",
+    "origin": "live",
+    "title": "Excalidraw Whiteboard",
+    "capturedAt": "2026-10-24T18:16:11.015Z",
+    "quality": {
+      "std": 16,
+      "edge": 3.45
+    }
+  },
+  "penpot": {
+    "src": "/shots/penpot.webp",
+    "card": "/shots/penpot-card.webp",
+    "captureUrl": "https://design.penpot.app",
+    "origin": "live",
+    "title": "Penpot - 面向团队，设计自由",
+    "capturedAt": "2026-10-24T18:18:05.166Z",
+    "quality": {
+      "std": 42.6,
+      "edge": 6
+    }
+  },
+  "screenshot-to-code": {
+    "src": "/shots/screenshot-to-code.webp",
+    "card": "/shots/screenshot-to-code-card.webp",
+    "captureUrl": "https://screenshottocode.com",
+    "origin": "live",
+    "title": "Screenshot to Code",
+    "capturedAt": "2026-10-24T18:07:24.416Z"
+  },
+  "learn-git-branching": {
+    "src": "/shots/learn-git-branching.webp",
+    "card": "/shots/learn-git-branching-card.webp",
+    "captureUrl": "https://learngitbranching.js.org/?locale=zh_CN",
+    "origin": "live",
+    "title": "Learn Git Branching",
+    "capturedAt": "2026-10-24T18:07:50.717Z"
+  },
+  "cs-self-learning": {
+    "src": "/shots/cs-self-learning.webp",
+    "card": "/shots/cs-self-learning-card.webp",
+    "captureUrl": "https://csdiy.wiki",
+    "origin": "live",
+    "title": "CS自学指南",
+    "capturedAt": "2026-10-24T18:18:30.910Z",
+    "quality": {
+      "std": 68.9,
+      "edge": 15.06
+    }
+  },
+  "typescript-exercises": {
+    "src": "/shots/typescript-exercises.webp",
+    "card": "/shots/typescript-exercises-card.webp",
+    "captureUrl": "https://typescript-exercises.github.io",
+    "origin": "live",
+    "title": "TypeScript Exercises",
+    "capturedAt": "2026-10-24T18:08:47.329Z"
+  },
+  "qmk-firmware": {
+    "src": "/shots/qmk-firmware.webp",
+    "card": "/shots/qmk-firmware-card.webp",
+    "captureUrl": "https://config.qmk.fm",
+    "origin": "live",
+    "title": "QMK Configurator",
+    "capturedAt": "2026-10-24T18:09:12.076Z"
+  },
+  "esphome": {
+    "src": "/shots/esphome.webp",
+    "card": "/shots/esphome-card.webp",
+    "captureUrl": "https://esphome.io",
+    "origin": "live",
+    "title": "ESPHome - Smart Home Made Simple",
+    "capturedAt": "2026-10-24T18:09:23.644Z"
+  },
+  "flipper-zero": {
+    "src": "/shots/flipper-zero.webp",
+    "card": "/shots/flipper-zero-card.webp",
+    "captureUrl": "https://flipperzero.one",
+    "origin": "live",
+    "title": "Flipper Zero — Portable Multi-tool Device for Geeks",
+    "capturedAt": "2026-10-24T18:19:21.693Z",
+    "quality": {
+      "std": 51.8,
+      "edge": 9.19
+    }
+  },
+  "sherlock": {
+    "src": "/shots/sherlock.webp",
+    "card": "/shots/sherlock-card.webp",
+    "captureUrl": "https://sherlockproject.xyz",
+    "origin": "live",
+    "title": "Sherlock Project",
+    "capturedAt": "2026-10-24T18:19:56.611Z",
+    "quality": {
+      "std": 116.5,
+      "edge": 12.13
+    }
+  },
+  "it-tools": {
+    "src": "/shots/it-tools.webp",
+    "card": "/shots/it-tools-card.webp",
+    "captureUrl": "https://it-tools.tech",
+    "origin": "live",
+    "title": "IT Tools - Handy online tools for developers",
+    "capturedAt": "2026-10-24T18:10:42.573Z"
+  },
+  "dicebear": {
+    "src": "/shots/dicebear.webp",
+    "card": "/shots/dicebear-card.webp",
+    "captureUrl": "https://dicebear.com/playground",
+    "origin": "live",
+    "title": "Playground | DiceBear",
+    "capturedAt": "2026-10-24T18:11:18.503Z"
+  },
+  "immich": {
+    "src": "/shots/immich.webp",
+    "card": "/shots/immich-card.webp",
+    "captureUrl": "https://immich.app",
+    "origin": "live",
+    "title": "Immich",
+    "capturedAt": "2026-10-24T18:11:33.807Z"
+  },
+  "karakeep": {
+    "src": "/shots/karakeep.webp",
+    "card": "/shots/karakeep-card.webp",
+    "captureUrl": "https://karakeep.app",
+    "origin": "live",
+    "title": "Karakeep - The Bookmark Everything App | Save, Organize & Tag with AI",
+    "capturedAt": "2026-10-24T18:12:05.103Z"
+  },
+  "linkwarden": {
+    "src": "/shots/linkwarden.webp",
+    "card": "/shots/linkwarden-card.webp",
+    "captureUrl": "https://linkwarden.app",
+    "origin": "live",
+    "title": "Linkwarden — Bookmarks, Evolved",
+    "capturedAt": "2026-10-24T18:12:21.918Z"
+  },
+  "foundry": {
+    "src": "/shots/foundry.webp",
+    "card": "/shots/foundry-card.webp",
+    "captureUrl": "https://getfoundry.sh",
+    "origin": "live",
+    "title": "Foundry - Ethereum Development Framework – foundry - Ethereum Development Framework",
+    "capturedAt": "2026-10-24T18:12:46.402Z"
+  },
+  "rainbow": {
+    "src": "/shots/rainbow.webp",
+    "card": "/shots/rainbow-card.webp",
+    "captureUrl": "https://rainbow.me",
+    "origin": "live",
+    "title": "Rainbow | Trade Any Market from Your Phone",
+    "capturedAt": "2026-10-24T18:13:02.736Z"
+  },
+  "metamask-extension": {
+    "src": "/shots/metamask-extension.webp",
+    "card": "/shots/metamask-extension-card.webp",
+    "captureUrl": "https://metamask.io",
+    "origin": "live",
+    "title": "MetaMask 加密货币钱包。买卖比特币、以太坊、Solana",
+    "capturedAt": "2026-10-24T18:20:26.776Z",
+    "quality": {
+      "std": 110.8,
+      "edge": 8.55
+    }
+  }
+}

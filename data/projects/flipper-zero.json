@@ -1,0 +1,46 @@
+{
+  "slug": "flipper-zero",
+  "name": "Flipper Zero",
+  "tagline": "一只会读 NFC、红外和 Sub-GHz 的口袋小海豚",
+  "summary": "Flipper Zero 是一个开源固件的多功能掌上设备，仓库里放的是它的固件源码。README 把入口分得很清楚：官网看产品、固件更新页升级、用户文档学用法、开发者文档看代码结构。固件本身用 C 写，跑在 STM32 上，围绕 NFC、RFID、红外、Sub-GHz、iButton、BLE 等模块组织。",
+  "category": "hardware",
+  "tags": ["硬件玩具", "固件", "NFC", "红外", "STM32"],
+  "aliases": ["flipperzero-firmware", "Flipper", "海豚"],
+  "audience": "硬件玩家",
+  "audienceFor": [
+    "对射频、NFC 感兴趣、想动手做实验的硬件爱好者",
+    "已经买了设备、想自己改固件或写应用的人",
+    "做安全研究、需要一台便携实验设备的人"
+  ],
+  "features": [
+    { "title": "多协议硬件能力", "detail": "仓库 Topics 列出 nfc、rfid、infrared、subghz、onewire、ble，与设备宣传的模块一致。" },
+    { "title": "固件开源", "detail": "README 首段说明本仓库即 Flipper Zero 固件源码。" },
+    { "title": "两种刷机路径", "detail": "README 的 Development 章节分别说明用调试器刷机与用 USB 刷机。" },
+    { "title": "开发者文档", "detail": "README 提供开发者文档入口，并说明代码结构与构建系统。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 4700 字，2026-10-24 抓取）的简介、Development、Project structure 章节与仓库 Topics 整理；设备硬件规格以官网为准。",
+  "setup": {
+    "effort": "较高门槛",
+    "effortNote": "设备需单独购买；自编译固件要装工具链并接受刷坏的风险。",
+    "requires": ["Flipper Zero 设备", "ARM 工具链（自编译固件）", "USB 线或调试器"],
+    "steps": [
+      { "title": "先看用户文档", "detail": "README 建议从用户文档入手，确认设备能力与本地法律限制。" },
+      { "title": "更新固件", "detail": "按 README 指向的固件更新页，用官方工具升级。" },
+      { "title": "自编译（可选）", "detail": "按 README 的 Requirements 安装工具链，克隆源码后构建并通过 USB 刷入。" }
+    ],
+    "cost": "固件免费；硬件为付费产品。"
+  },
+  "officialUrl": "https://flipper.net",
+  "demoUrl": null,
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "涉及无线电的设备，先确认当地法规，再谈玩法。",
+  "addedAt": "2026-10-19",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "复查官网域名（flipper.net / flipperzero.one）"
+  }
+}

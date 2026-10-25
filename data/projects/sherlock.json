@@ -1,0 +1,46 @@
+{
+  "slug": "sherlock",
+  "name": "Sherlock",
+  "tagline": "给一个用户名，扫遍 400 多个社交平台",
+  "summary": "Sherlock 是一个用 Python 写的命令行工具，输入一个或多个用户名，它会在 400 多个社交网络上检查对应账号是否存在，并把结果写入文件。它属于 OSINT（公开信息搜集）工具，README 的定位也很直白：给安全研究、取证和红队工作用。用它之前请先想清楚——查别人的账号分布这件事，在很多场景下是有边界的。",
+  "category": "internet-toys",
+  "tags": ["OSINT", "用户名查询", "命令行", "Python", "安全研究"],
+  "aliases": ["sherlock-project", "Sherlock Project"],
+  "audience": "安全研究者",
+  "audienceFor": [
+    "做公开信息搜集（OSINT）的安全研究者",
+    "想检查自己用户名在哪些平台被注册的人",
+    "需要批量核验账号存在性的取证场景"
+  ],
+  "features": [
+    { "title": "覆盖 400+ 站点", "detail": "README 首句写明可在 400 多个社交网络上按用户名查找账号。" },
+    { "title": "支持批量与导出", "detail": "README 的 General usage 演示一次查多个用户名，并说明结果会按用户名写入独立文件；命令行帮助里还提供 --csv、--xlsx 等输出选项。" },
+    { "title": "多种安装方式", "detail": "README 列出 pipx、pip/uv、Docker 以及各发行版包管理器等多种安装路径。" },
+    { "title": "社区维护的站点列表", "detail": "README 用 Contributors 章节致谢站点数据的贡献者，说明站点清单是持续维护的。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 1300 字，2026-10-24 抓取）的 Installation、General usage、--help 输出片段与 License 章节整理。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "pipx 一条命令装好即可，无需配置。",
+    "requires": ["Python 3.9+ 或 Docker", "可访问目标站点的网络环境"],
+    "steps": [
+      { "title": "安装", "detail": "pipx install sherlock-project（或用 README 列出的其他方式）。" },
+      { "title": "查一个用户名", "detail": "sherlock user123，结果会在当前目录生成同名文本文件。" },
+      { "title": "批量与导出", "detail": "sherlock user1 user2 user3，配合 --csv 或 --xlsx 输出结构化结果。" }
+    ],
+    "cost": "免费开源（MIT）。"
+  },
+  "officialUrl": "https://sherlockproject.xyz",
+  "demoUrl": null,
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "工具本身中立，用途不中立。请只查自己和已获授权的目标。",
+  "addedAt": "2026-10-18",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "确认站点列表与官方站点是否仍在线"
+  }
+}

@@ -1,0 +1,26 @@
+{"at":"2026-10-24T18:14:04.966Z","event":"run_start","name":"recapture","startedAt":"2026-10-24T18:14:04.966Z","cwd":"C:\\Users\\Administrator\\Documents\\deepseek-harness\\default-workspace\\new-toys","node":"v24.22.1"}
+{"at":"2026-10-24T18:14:05.265Z","event":"goto","detail":"open-webui https://openwebui.com","level":"info"}
+{"at":"2026-10-24T18:14:43.872Z","event":"saved","detail":"open-webui std=61.8 edge=4.58 \"Open WebUI: Self-Hosted AI Platform\"","level":"info"}
+{"at":"2026-10-24T18:14:43.964Z","event":"goto","detail":"lobe-chat https://lobehub.com","level":"info"}
+{"at":"2026-10-24T18:15:29.585Z","event":"saved","detail":"lobe-chat std=39 edge=9.61 \"LobeHub - Your Chief Agent Operator\"","level":"info"}
+{"at":"2026-10-24T18:15:29.856Z","event":"goto","detail":"ollama https://ollama.com","level":"info"}
+{"at":"2026-10-24T18:15:40.902Z","event":"saved","detail":"ollama std=24.1 edge=4.86 \"Ollama · Run AI models locally and in the cloud\"","level":"info"}
+{"at":"2026-10-24T18:15:41.087Z","event":"goto","detail":"excalidraw https://excalidraw.com","level":"info"}
+{"at":"2026-10-24T18:16:11.015Z","event":"saved","detail":"excalidraw std=16 edge=3.45 \"Excalidraw Whiteboard\"","level":"info"}
+{"at":"2026-10-24T18:16:11.092Z","event":"goto","detail":"hoppscotch https://hoppscotch.io","level":"info"}
+{"at":"2026-10-24T18:16:41.473Z","event":"saved","detail":"hoppscotch std=17.9 edge=4.85 \"Hoppscotch • Open source API development ecosyste","level":"info"}
+{"at":"2026-10-24T18:16:41.555Z","event":"goto","detail":"markitdown https://github.com/microsoft/markitdown","level":"info"}
+{"at":"2026-10-24T18:17:22.579Z","event":"saved","detail":"markitdown std=71 edge=14.91 \"GitHub - microsoft/markitdown: Python tool for co","level":"info"}
+{"at":"2026-10-24T18:17:22.923Z","event":"goto","detail":"evidence https://demo.evidence.dev","level":"info"}
+{"at":"2026-10-24T18:17:37.274Z","event":"failed","detail":"evidence: page.goto: net::ERR_CONNECTION_CLOSED at https://demo.evidence.dev/","level":"warn"}
+{"at":"2026-10-24T18:17:37.371Z","event":"goto","detail":"penpot https://design.penpot.app","level":"info"}
+{"at":"2026-10-24T18:18:05.168Z","event":"saved","detail":"penpot std=42.6 edge=6 \"Penpot - 面向团队，设计自由\"","level":"info"}
+{"at":"2026-10-24T18:18:07.242Z","event":"goto","detail":"cs-self-learning https://csdiy.wiki","level":"info"}
+{"at":"2026-10-24T18:18:30.911Z","event":"saved","detail":"cs-self-learning std=68.9 edge=15.06 \"CS自学指南\"","level":"info"}
+{"at":"2026-10-24T18:18:30.985Z","event":"goto","detail":"flipper-zero https://flipperzero.one","level":"info"}
+{"at":"2026-10-24T18:19:21.694Z","event":"saved","detail":"flipper-zero std=51.8 edge=9.19 \"Flipper Zero — Portable Multi-tool Device for Gee","level":"info"}
+{"at":"2026-10-24T18:19:22.702Z","event":"goto","detail":"sherlock https://sherlockproject.xyz","level":"info"}
+{"at":"2026-10-24T18:19:56.612Z","event":"saved","detail":"sherlock std=116.5 edge=12.13 \"Sherlock Project\"","level":"info"}
+{"at":"2026-10-24T18:19:56.687Z","event":"goto","detail":"metamask-extension https://metamask.io","level":"info"}
+{"at":"2026-10-24T18:20:26.776Z","event":"saved","detail":"metamask-extension std=110.8 edge=8.55 \"MetaMask 加密货币钱包。买卖比特币、以太坊、Solana\"","level":"info"}
+{"at":"2026-10-24T18:20:26.866Z","event":"run_end","level":"info","detail":"{\"ok\":29,\"failed\":1}"}

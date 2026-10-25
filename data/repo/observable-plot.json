@@ -1,0 +1,52 @@
+{
+  "slug": "observable-plot",
+  "repoInput": "observablehq/plot",
+  "fetchedAt": "2026-10-24T17:55:34.715Z",
+  "github": {
+    "owner": "observablehq",
+    "name": "plot",
+    "fullName": "observablehq/plot",
+    "url": "https://github.com/observablehq/plot",
+    "homepage": "https://observablehq.com/plot/",
+    "description": "A concise API for exploratory data visualization implementing a layered grammar of graphics",
+    "stars": 5411,
+    "forks": 251,
+    "openIssues": 350,
+    "language": "HTML",
+    "topics": [
+      "charts",
+      "d3",
+      "data-visualization",
+      "svg",
+      "visualization"
+    ],
+    "license": {
+      "spdx": "ISC",
+      "name": "ISC License",
+      "url": null
+    },
+    "createdAt": "2020-10-29T22:30:31Z",
+    "pushedAt": "2026-09-01T17:19:43Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T17:55:34.715Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "main",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 606,
+    "headings": [
+      "Observable Plot",
+      "Documentation 📚",
+      "Examples 🖼️",
+      "Releases 🚀",
+      "Getting help 🏠",
+      "Contributing 🙏"
+    ],
+    "excerpt": "Observable Plot Observable Plot is a free, open-source, JavaScript library for visualizing tabular data, focused on accelerating exploratory data analysis. It has a concise, memorable, yet expressive API, featuring scales and layered marks in the grammar of graphics style. Daily downloads of Observable Plot · oss-analytics Documentation 📚 https://observablehq.com/plot/ Examples 🖼️ https://observablehq.com/@observablehq/plot-gallery Releases 🚀 See our CHANGELOG and summary release notes. Getting help 🏠 See our community guide. Contributing 🙏 See CONTRIBUTING.md.",
+    "truncated": false,
+    "rawFile": "data/readme/observable-plot.md"
+  }
+}

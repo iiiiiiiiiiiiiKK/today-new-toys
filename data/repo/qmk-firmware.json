@@ -1,0 +1,55 @@
+{
+  "slug": "qmk-firmware",
+  "repoInput": "qmk/qmk_firmware",
+  "fetchedAt": "2026-10-24T17:55:39.705Z",
+  "github": {
+    "owner": "qmk",
+    "name": "qmk_firmware",
+    "fullName": "qmk/qmk_firmware",
+    "url": "https://github.com/qmk/qmk_firmware",
+    "homepage": "https://qmk.fm",
+    "description": "Open-source keyboard firmware for Atmel AVR and Arm USB families",
+    "stars": 20778,
+    "forks": 44381,
+    "openIssues": 563,
+    "language": "C",
+    "topics": [
+      "atmel-avr",
+      "c",
+      "c-plus-plus",
+      "clueboard",
+      "ergodox-ez",
+      "keyboard-firmware",
+      "keyboard-support",
+      "olkb",
+      "qmk"
+    ],
+    "license": {
+      "spdx": "GPL-2.0",
+      "name": "GNU General Public License v2.0",
+      "url": null
+    },
+    "createdAt": "2014-12-08T22:02:05Z",
+    "pushedAt": "2026-10-19T12:28:04Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T17:55:39.705Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "master",
+  "readme": {
+    "path": "readme.md",
+    "via": "api",
+    "chars": 1118,
+    "headings": [
+      "Quantum Mechanical Keyboard Firmware",
+      "Documentation",
+      "Supported Keyboards",
+      "Maintainers",
+      "Official Website"
+    ],
+    "excerpt": "Quantum Mechanical Keyboard Firmware This is a keyboard firmware based on the tmk\\ keyboard firmware with some useful features for Atmel AVR and ARM controllers, and more specifically, the OLKB product line, the ErgoDox EZ keyboard, and the Clueboard product line. Documentation See the official documentation on docs.qmk.fm The docs are powered by VitePress. They are also viewable offline; see Previewing the Documentation for more details. You can request changes by making a fork and opening a pull request. Supported Keyboards Planck Preonic ErgoDox EZ Clueboard Cluepad Atreus The project also includes community support for lots of other keyboards. Maintainers QMK is developed and maintained by Jack Humbert of OLKB with contributions from the community, and of course, Hasu. The OLKB product firmwares are maintained by Jack Humbert, the Ergodox EZ by ZSA Technology Labs, the Clueboard by Zach White, and the Atreus by Phil Hagelberg. Official Website qmk.fm is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.",
+    "truncated": false,
+    "rawFile": "data/readme/qmk-firmware.md"
+  }
+}

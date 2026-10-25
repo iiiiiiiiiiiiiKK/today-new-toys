@@ -1,0 +1,68 @@
+{
+  "slug": "hoppscotch",
+  "repoInput": "hoppscotch/hoppscotch",
+  "fetchedAt": "2026-10-24T17:55:30.373Z",
+  "github": {
+    "owner": "hoppscotch",
+    "name": "hoppscotch",
+    "fullName": "hoppscotch/hoppscotch",
+    "url": "https://github.com/hoppscotch/hoppscotch",
+    "homepage": "https://hoppscotch.io",
+    "description": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
+    "stars": 80678,
+    "forks": 6181,
+    "openIssues": 862,
+    "language": "TypeScript",
+    "topics": [
+      "api",
+      "api-client",
+      "api-rest",
+      "api-testing",
+      "developer-tools",
+      "graphql",
+      "http",
+      "http-client",
+      "pwa",
+      "rest",
+      "rest-api",
+      "spa",
+      "testing",
+      "testing-tools",
+      "tools",
+      "vue",
+      "vuejs",
+      "websocket"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "createdAt": "2019-08-21T13:15:24Z",
+    "pushedAt": "2026-10-23T08:14:56Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T17:55:30.373Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "main",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 7859,
+    "headings": [
+      "Features",
+      "Demo",
+      "Usage",
+      "Developing",
+      "Contributing",
+      "Continuous Integration",
+      "Changelog",
+      "Authors",
+      "License"
+    ],
+    "excerpt": "Hoppscotch Open Source API Development Ecosystem Built with ❤︎ by contributors We highly recommend you take a look at the Hoppscotch Documentation to learn more about the app. Support Features ❤️ Lightweight: Crafted with minimalistic UI design. ⚡️ Fast: Send requests and get responses in real time. 🗄️ HTTP Methods: Request methods define the type of action you are requesting to be performed. - `GET` - Requests retrieve resource information - `POST` - The server creates a new entry in a database - `PUT` - Updates an existing resource - `PATCH` - Very similar to `PUT` but makes a partial update on a resource - `DELETE` - Deletes resource or related component - `HEAD` - Retrieve response headers identical to those of a GET request, but without the response body. - `CONNECT` - Establishes a tunnel to the server identified by the target resource - `OPTIONS` - Describe the communication options for the target resource - `TRACE` - Performs a message loop-back test along the path to the target resource - ` ` - Some APIs use custom request methods such as `LIST`. Type in your custom methods. 🌈 Theming: Customizable combinations for background, foreground, and accent colors — customize now. - Choose a theme: System preference, Light, Dark, and Black - Choose accent colors: Green, Teal, Blue, Indigo, Purple, Yellow, Orange, Red, and Pink - Distraction-free Zen mode Customized themes ar",
+    "truncated": true,
+    "rawFile": "data/readme/hoppscotch.md"
+  }
+}

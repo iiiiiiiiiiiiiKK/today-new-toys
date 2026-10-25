@@ -1,0 +1,46 @@
+{
+  "slug": "markitdown",
+  "name": "MarkItDown",
+  "tagline": "把 PDF、Office 文档统统转成给大模型看的 Markdown",
+  "summary": "MarkItDown 是微软开源的轻量 Python 工具，把 PDF、Word、Excel、PPT、图片、音频等格式转成 Markdown，目标用户是喂给 LLM 的文本流水线，而不是追求排版还原的人类读者。README 一开始就写了两个关键限制：它保留结构（标题、列表、表格、链接）但输出不保证好看；并且它会以当前进程权限访问资源，处理不可信文件前必须自己做好隔离。",
+  "category": "productivity",
+  "tags": ["文档转换", "Markdown", "Python", "LLM 预处理", "CLI"],
+  "aliases": ["markitdown", "Microsoft MarkItDown", "markitdown[all]"],
+  "audience": "开发者",
+  "audienceFor": [
+    "要批量把一堆文档塞进 RAG 知识库的人",
+    "需要把会议材料、报表快速转成可检索文本的团队",
+    "在写文档处理脚本、想省掉解析库选型的开发者"
+  ],
+  "features": [
+    { "title": "多格式输入", "detail": "README 明确列出支持 PDF、PowerPoint、Word、Excel、图片（EXIF 与 OCR）、音频（EXIF）等来源。" },
+    { "title": "保留文档结构", "detail": "README 说明转换时尽量保留标题、列表、表格、链接等 Markdown 结构，这是它相对通用文本抽取工具的区别。" },
+    { "title": "命令行与 Python API 两用", "detail": "README 的 Usage / Command-Line 章节给出 CLI 与库调用两种用法，示例为 markitdown path-to-file.pdf -o document.md。" },
+    { "title": "按需安装可选依赖", "detail": "README 演示了 pip install 'markitdown[pdf,docx,pptx]' 这种只装需要格式的写法。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 1.47 万字，2026-10-24 抓取）的开头说明、安装、Usage 与 Optional Dependencies 章节整理；安全提示为 README 原文观点，非本刊推断。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "pip 装完即可用，但需要 Python 3.10–3.14。",
+    "requires": ["Python 3.10–3.14", "按需的格式解析依赖"],
+    "steps": [
+      { "title": "安装", "detail": "pip install 'markitdown[all]'，或只装用得到的格式，如 [pdf,docx,pptx]。" },
+      { "title": "转换", "detail": "markitdown 输入文件 -o 输出.md，或在 Python 里调用 convert 系列函数。" },
+      { "title": "接入流水线", "detail": "把输出接到你的切分、嵌入与检索流程里。" }
+    ],
+    "cost": "免费开源（MIT），无外部服务依赖。"
+  },
+  "officialUrl": null,
+  "demoUrl": null,
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "README 那句「不是给人类看的高保真转换」值得放在最前面。",
+  "addedAt": "2026-10-23",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "确认插件生态与 OCR 插件链接"
+  }
+}

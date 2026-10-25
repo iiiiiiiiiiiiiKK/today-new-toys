@@ -1,0 +1,63 @@
+{
+  "slug": "uv",
+  "repoInput": "astral-sh/uv",
+  "fetchedAt": "2026-10-24T17:55:29.664Z",
+  "github": {
+    "owner": "astral-sh",
+    "name": "uv",
+    "fullName": "astral-sh/uv",
+    "url": "https://github.com/astral-sh/uv",
+    "homepage": "https://docs.astral.sh/uv",
+    "description": "An extremely fast Python package and project manager, written in Rust.",
+    "stars": 91115,
+    "forks": 3689,
+    "openIssues": 2988,
+    "language": "Rust",
+    "topics": [
+      "packaging",
+      "python",
+      "resolver",
+      "uv"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "name": "Apache License 2.0",
+      "url": null
+    },
+    "createdAt": "2023-10-02T20:24:11Z",
+    "pushedAt": "2026-10-24T17:02:31Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T17:55:29.664Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "main",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 4363,
+    "headings": [
+      "uv",
+      "Highlights",
+      "Installation",
+      "On macOS and Linux.",
+      "On Windows.",
+      "With pip.",
+      "Or pipx.",
+      "Documentation",
+      "Features",
+      "Projects",
+      "Scripts",
+      "Tools",
+      "Python versions",
+      "The pip interface",
+      "Contributing",
+      "FAQ",
+      "Acknowledgements",
+      "License"
+    ],
+    "excerpt": "uv An extremely fast Python package and project manager, written in Rust. Installing Trio 's dependencies with a warm cache. Highlights - A single tool to replace `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv`, and more. - 10-100x faster than `pip`. - Provides comprehensive project management, with a universal lockfile. - Runs scripts, with support for inline dependency metadata. - Installs and manages Python versions. - Runs and installs tools published as Python packages. - Includes a pip-compatible interface for a performance boost with a familiar CLI. - Supports Cargo-style workspaces for scalable projects. - Disk-space efficient, with a global cache for dependency deduplication. - Installable without Rust or Python via `curl` or `pip`. - Supports macOS, Linux, and Windows. uv is backed by Astral, the creators of Ruff and ty. Installation Install uv with our standalone installers: Or, from PyPI: If installed via the standalone installer, uv can update itself to the latest version: See the installation documentation for details and alternative installation methods. Documentation uv's documentation is available at docs.astral.sh/uv. Additionally, the command line reference documentation can be viewed with `uv help`. Features Projects uv manages project dependencies and environments, with support for lockfiles, workspaces, and more, similar to `rye` or `p",
+    "truncated": true,
+    "rawFile": "data/readme/uv.md"
+  }
+}

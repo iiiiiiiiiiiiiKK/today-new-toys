@@ -1,0 +1,46 @@
+{
+  "slug": "excalidraw",
+  "name": "Excalidraw",
+  "tagline": "画出来像手绘的白板，协作还是端到端加密的",
+  "summary": "Excalidraw 是一个开源的虚拟白板，最出名的是那种手绘质感的线条。README 说明它以 npm 包形式发布编辑器，同时 excalidraw.com 上的官方应用本身就支持实时协作与端到端加密。它适合画架构草图、流程和线框图——不是精细设计工具，而是「先把想法画出来给人看」的那一层。",
+  "category": "creative",
+  "tags": ["白板", "手绘风格", "实时协作", "端到端加密", "开源"],
+  "aliases": ["excalidraw", "Excalidraw Whiteboard"],
+  "audience": "普通用户",
+  "audienceFor": [
+    "需要快速画架构图、流程图给同事看的人",
+    "想要一块不登录也能用的在线白板的人",
+    "在意协作内容加密、不想上传设计稿的团队"
+  ],
+  "features": [
+    { "title": "手绘风格画布", "detail": "README 的 Features 列出无限画布、hand-drawn like style、矩形/圆形/菱形/箭头/自由绘制/橡皮等工具。" },
+    { "title": "实时协作 + 端到端加密", "detail": "README 说明 excalidraw.com 应用支持 PWA 离线使用、实时协作，并强调 end-to-end encrypted。" },
+    { "title": "开放文件格式", "detail": "README 写明可导出为 .excalidraw JSON，也可导出 PNG、SVG 或复制到剪贴板。" },
+    { "title": "可作为组件嵌入", "detail": "README 首段说明编辑器以 npm 包形式提供，并列出多项集成案例。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 2500 字，2026-10-24 抓取）的 Features 与 excalidraw.com 章节整理。",
+  "setup": {
+    "effort": "零门槛",
+    "effortNote": "打开网页就能画。",
+    "requires": ["现代浏览器"],
+    "steps": [
+      { "title": "直接画", "detail": "打开 excalidraw.com，选形状工具开始画。" },
+      { "title": "协作", "detail": "点分享生成协作链接，对方打开即可同屏编辑。" },
+      { "title": "导出", "detail": "导出 PNG / SVG，或保存 .excalidraw 源文件以便以后再改。" }
+    ],
+    "cost": "开源版免费；官方 Excalidraw+ 为付费托管服务。"
+  },
+  "officialUrl": "https://excalidraw.com",
+  "demoUrl": "https://excalidraw.com",
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": true,
+  "editorsNote": "很多人以为它只是个画图工具，其实「端到端加密的协作白板」才是它真正的差异点。",
+  "addedAt": "2026-10-21",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "确认 Excalidraw+ 定价页"
+  }
+}

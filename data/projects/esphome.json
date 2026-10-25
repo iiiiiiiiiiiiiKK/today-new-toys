@@ -1,0 +1,52 @@
+{
+  "slug": "esphome",
+  "name": "ESPHome",
+  "tagline": "写几行 YAML，把 ESP32 变成自己的智能家居传感器",
+  "summary": "ESPHome 让你用配置文件而不是代码来定义 ESP32 / ESP8266 / BK72xx / RP2040 的行为：读哪个引脚、上报什么数值、接到哪个家居平台。官网的说法是「商店里买不到想要的设备，就自己做一个」。它和 Home Assistant 配合最顺，但也能通过 MQTT 接入其他系统。",
+  "category": "hardware",
+  "tags": ["ESP32", "智能家居", "YAML", "Home Assistant", "IoT"],
+  "aliases": ["esphome", "ESPHome.io"],
+  "audience": "硬件玩家",
+  "audienceFor": [
+    "想自己做温湿度、人体感应节点接进 Home Assistant 的人",
+    "会一点 YAML、但不想写 C++ 的 DIY 爱好者",
+    "需要批量部署同款自制传感器的小型工作室"
+  ],
+  "features": [
+    { "title": "配置代替编程", "detail": "官网首页明确写到：告诉 ESPHome 要做什么，其余由它处理，无需写代码。" },
+    { "title": "支持多种芯片", "detail": "仓库描述列出 ESP32、ESP8266、BK72xx、RP2040 四类平台。" },
+    { "title": "接入家居系统", "detail": "README 与仓库 Topics 标明与 Home Assistant、MQTT 集成。" },
+    { "title": "组件化", "detail": "官网导航有 Components 一栏，按传感器/屏幕/开关等分类提供现成组件。" }
+  ],
+  "contentBasis": "依据仓库 README.md（仅 89 字，为文档入口页，2026-10-24 抓取）、仓库描述与官网 esphome.io 首页文案整理。详细组件能力以官方文档为准，本页未逐项验证。",
+  "setup": {
+    "effort": "中等门槛",
+    "effortNote": "需要一块开发板和一次 USB 刷机，之后可以 OTA 更新。",
+    "requires": ["ESP32 / ESP8266 等开发板", "USB 数据线（首次刷机）", "可选：Home Assistant"],
+    "steps": [
+      { "title": "装 ESPHome", "detail": "用 Home Assistant 的 ESPHome 插件，或 pip 安装命令行工具。" },
+      { "title": "写配置", "detail": "新建 YAML，声明板型、Wi-Fi、要用的传感器组件。" },
+      { "title": "首次刷机", "detail": "USB 连接开发板刷入；之后可通过网络 OTA 更新。" }
+    ],
+    "cost": "软件免费；开发板与传感器按硬件成本。"
+  },
+  "licenseOverride": {
+    "spdx": null,
+    "name": "ESPHome License（MIT + GPL-3.0 组合）",
+    "note": "GitHub 显示为 Other。LICENSE 原文说明：C/C++ 运行时部分（.c/.cpp/.h/.hpp/.tcc/.ino）为 GPL-3.0，Python 及其他部分为 MIT，两种许可证全文都附在仓库中。",
+    "url": "https://github.com/esphome/esphome/blob/dev/LICENSE"
+  },
+  "officialUrl": "https://esphome.io",
+  "demoUrl": null,
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "仓库 README 只有一页链接，真正的文档在 esphome.io。",
+  "addedAt": "2026-10-19",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "复查许可证文件所在分支（dev）是否变更"
+  }
+}

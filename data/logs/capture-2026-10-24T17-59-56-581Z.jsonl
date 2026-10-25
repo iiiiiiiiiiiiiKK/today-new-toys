@@ -1,0 +1,62 @@
+{"at":"2026-10-24T17:59:56.581Z","event":"run_start","name":"capture","startedAt":"2026-10-24T17:59:56.581Z","cwd":"C:\\Users\\Administrator\\Documents\\deepseek-harness\\default-workspace\\new-toys","node":"v24.22.1"}
+{"at":"2026-10-24T17:59:56.904Z","event":"goto","detail":"open-webui https://openwebui.com","level":"info"}
+{"at":"2026-10-24T18:00:30.882Z","event":"saved","detail":"open-webui 33978ms \"Open WebUI: Self-Hosted AI Platform\"","level":"info"}
+{"at":"2026-10-24T18:00:30.998Z","event":"goto","detail":"lobe-chat https://lobehub.com","level":"info"}
+{"at":"2026-10-24T18:01:17.875Z","event":"failed","detail":"lobe-chat: page.screenshot: Timeout 25000ms exceeded.","level":"warn"}
+{"at":"2026-10-24T18:01:18.109Z","event":"goto","detail":"ollama https://ollama.com","level":"info"}
+{"at":"2026-10-24T18:01:30.753Z","event":"saved","detail":"ollama 12644ms \"Ollama · Run AI models locally and in the cloud\"","level":"info"}
+{"at":"2026-10-24T18:01:30.843Z","event":"goto","detail":"biome https://biomejs.dev","level":"info"}
+{"at":"2026-10-24T18:01:42.887Z","event":"saved","detail":"biome 12044ms \"Biome, toolchain of the web\"","level":"info"}
+{"at":"2026-10-24T18:01:42.982Z","event":"goto","detail":"uv https://docs.astral.sh/uv/","level":"info"}
+{"at":"2026-10-24T18:02:16.604Z","event":"saved","detail":"uv 33622ms \"uv\"","level":"info"}
+{"at":"2026-10-24T18:02:16.678Z","event":"goto","detail":"hoppscotch https://hoppscotch.io","level":"info"}
+{"at":"2026-10-24T18:02:37.303Z","event":"saved","detail":"hoppscotch 20625ms \"Hoppscotch • Open source API development ecosystem • Hoppsc","level":"info"}
+{"at":"2026-10-24T18:02:37.381Z","event":"goto","detail":"markitdown https://github.com/microsoft/markitdown","level":"info"}
+{"at":"2026-10-24T18:03:12.397Z","event":"failed","detail":"markitdown: page.goto: Timeout 35000ms exceeded.","level":"warn"}
+{"at":"2026-10-24T18:03:12.484Z","event":"goto","detail":"localsend https://localsend.org","level":"info"}
+{"at":"2026-10-24T18:03:34.026Z","event":"saved","detail":"localsend 21542ms \"LocalSend：与附近设备共享文件\"","level":"info"}
+{"at":"2026-10-24T18:03:34.102Z","event":"goto","detail":"espanso https://espanso.org","level":"info"}
+{"at":"2026-10-24T18:04:07.923Z","event":"saved","detail":"espanso 33821ms \"Espanso - A Privacy-first, Cross-platform Text Expander\"","level":"info"}
+{"at":"2026-10-24T18:04:08.014Z","event":"goto","detail":"evidence https://evidence.dev","level":"info"}
+{"at":"2026-10-24T18:04:43.026Z","event":"failed","detail":"evidence: page.goto: Timeout 35000ms exceeded.","level":"warn"}
+{"at":"2026-10-24T18:04:44.242Z","event":"goto","detail":"pygwalker https://kanaries.net/pygwalker","level":"info"}
+{"at":"2026-10-24T18:05:22.704Z","event":"saved","detail":"pygwalker 38462ms \"PyGWalker：让数据变身可视化分析应用\"","level":"info"}
+{"at":"2026-10-24T18:05:23.792Z","event":"goto","detail":"observable-plot https://observablehq.com/plot/","level":"info"}
+{"at":"2026-10-24T18:05:56.844Z","event":"saved","detail":"observable-plot 33052ms \"Plot | The JavaScript library for exploratory data visualiz","level":"info"}
+{"at":"2026-10-24T18:05:56.930Z","event":"goto","detail":"excalidraw https://excalidraw.com","level":"info"}
+{"at":"2026-10-24T18:06:14.202Z","event":"saved","detail":"excalidraw 17272ms \"Excalidraw Whiteboard\"","level":"info"}
+{"at":"2026-10-24T18:06:14.301Z","event":"goto","detail":"penpot https://penpot.app","level":"info"}
+{"at":"2026-10-24T18:06:49.314Z","event":"failed","detail":"penpot: page.goto: Timeout 35000ms exceeded.","level":"warn"}
+{"at":"2026-10-24T18:06:49.390Z","event":"goto","detail":"screenshot-to-code https://screenshottocode.com","level":"info"}
+{"at":"2026-10-24T18:07:24.418Z","event":"saved","detail":"screenshot-to-code 35028ms \"Screenshot to Code\"","level":"info"}
+{"at":"2026-10-24T18:07:24.511Z","event":"goto","detail":"learn-git-branching https://learngitbranching.js.org/?locale=zh_CN","level":"info"}
+{"at":"2026-10-24T18:07:50.718Z","event":"saved","detail":"learn-git-branching 26207ms \"Learn Git Branching\"","level":"info"}
+{"at":"2026-10-24T18:07:50.797Z","event":"goto","detail":"cs-self-learning https://csdiy.wiki","level":"info"}
+{"at":"2026-10-24T18:08:25.807Z","event":"failed","detail":"cs-self-learning: page.goto: Timeout 35000ms exceeded.","level":"warn"}
+{"at":"2026-10-24T18:08:25.888Z","event":"goto","detail":"typescript-exercises https://typescript-exercises.github.io","level":"info"}
+{"at":"2026-10-24T18:08:47.331Z","event":"saved","detail":"typescript-exercises 21443ms \"TypeScript Exercises\"","level":"info"}
+{"at":"2026-10-24T18:08:47.410Z","event":"goto","detail":"qmk-firmware https://config.qmk.fm","level":"info"}
+{"at":"2026-10-24T18:09:12.077Z","event":"saved","detail":"qmk-firmware 24667ms \"QMK Configurator\"","level":"info"}
+{"at":"2026-10-24T18:09:12.158Z","event":"goto","detail":"esphome https://esphome.io","level":"info"}
+{"at":"2026-10-24T18:09:23.645Z","event":"saved","detail":"esphome 11487ms \"ESPHome - Smart Home Made Simple\"","level":"info"}
+{"at":"2026-10-24T18:09:23.722Z","event":"goto","detail":"flipper-zero https://flipper.net","level":"info"}
+{"at":"2026-10-24T18:10:15.818Z","event":"failed","detail":"flipper-zero: page.screenshot: Timeout 25000ms exceeded.","level":"warn"}
+{"at":"2026-10-24T18:10:15.913Z","event":"goto","detail":"sherlock https://sherlockproject.xyz","level":"info"}
+{"at":"2026-10-24T18:10:30.796Z","event":"saved","detail":"sherlock 14883ms \"Sherlock Project\"","level":"info"}
+{"at":"2026-10-24T18:10:30.875Z","event":"goto","detail":"it-tools https://it-tools.tech","level":"info"}
+{"at":"2026-10-24T18:10:42.573Z","event":"saved","detail":"it-tools 11698ms \"IT Tools - Handy online tools for developers\"","level":"info"}
+{"at":"2026-10-24T18:10:43.609Z","event":"goto","detail":"dicebear https://dicebear.com/playground","level":"info"}
+{"at":"2026-10-24T18:11:18.504Z","event":"saved","detail":"dicebear 34895ms \"Playground | DiceBear\"","level":"info"}
+{"at":"2026-10-24T18:11:20.403Z","event":"goto","detail":"immich https://immich.app","level":"info"}
+{"at":"2026-10-24T18:11:33.807Z","event":"saved","detail":"immich 13404ms \"Immich\"","level":"info"}
+{"at":"2026-10-24T18:11:35.524Z","event":"goto","detail":"karakeep https://karakeep.app","level":"info"}
+{"at":"2026-10-24T18:12:05.104Z","event":"saved","detail":"karakeep 29580ms \"Karakeep - The Bookmark Everything App | Save, Organize & T","level":"info"}
+{"at":"2026-10-24T18:12:05.211Z","event":"goto","detail":"linkwarden https://linkwarden.app","level":"info"}
+{"at":"2026-10-24T18:12:21.918Z","event":"saved","detail":"linkwarden 16707ms \"Linkwarden — Bookmarks, Evolved\"","level":"info"}
+{"at":"2026-10-24T18:12:22.032Z","event":"goto","detail":"foundry https://getfoundry.sh","level":"info"}
+{"at":"2026-10-24T18:12:46.403Z","event":"saved","detail":"foundry 24371ms \"Foundry - Ethereum Development Framework – foundry - Ethere","level":"info"}
+{"at":"2026-10-24T18:12:46.734Z","event":"goto","detail":"rainbow https://rainbow.me","level":"info"}
+{"at":"2026-10-24T18:13:02.737Z","event":"saved","detail":"rainbow 16003ms \"Rainbow | Trade Any Market from Your Phone\"","level":"info"}
+{"at":"2026-10-24T18:13:02.807Z","event":"goto","detail":"metamask-extension https://metamask.io","level":"info"}
+{"at":"2026-10-24T18:13:14.516Z","event":"saved","detail":"metamask-extension 11709ms \"MetaMask 加密货币钱包。买卖比特币、以太坊、Solana\"","level":"info"}
+{"at":"2026-10-24T18:13:14.615Z","event":"run_end","level":"info","detail":"{\"total\":30,\"failed\":6}"}

@@ -1,0 +1,63 @@
+{
+  "slug": "espanso",
+  "repoInput": "espanso/espanso",
+  "fetchedAt": "2026-10-24T17:55:32.512Z",
+  "github": {
+    "owner": "espanso",
+    "name": "espanso",
+    "fullName": "espanso/espanso",
+    "url": "https://github.com/espanso/espanso",
+    "homepage": "https://espanso.org",
+    "description": "A Privacy-first, Cross-platform Text Expander written in Rust",
+    "stars": 14686,
+    "forks": 487,
+    "openIssues": 576,
+    "language": "Rust",
+    "topics": [
+      "espanso",
+      "linux",
+      "macos",
+      "productivity",
+      "productivity-tools",
+      "rust",
+      "text-expander",
+      "windows"
+    ],
+    "license": {
+      "spdx": "GPL-3.0",
+      "name": "GNU General Public License v3.0",
+      "url": null
+    },
+    "createdAt": "2019-08-30T07:16:58Z",
+    "pushedAt": "2026-10-23T20:18:41Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T17:55:32.512Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "dev",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 2602,
+    "headings": [
+      "![Espanso Logo](images/espanso-dark.pnggh-dark-mode-only) ![Espanso Logo](images/espanso-light.pnggh-light-mode-only)",
+      "Quick Links",
+      "What is a Text Expander?",
+      "Key Features",
+      "Community & Support",
+      "Quick Start Examples",
+      "Team Members and Contributors",
+      "Team",
+      "Contributors",
+      "Sponsors",
+      "Donations",
+      "Current Options",
+      "Remarks",
+      "License"
+    ],
+    "excerpt": "A cross-platform Text Expander written in Rust Example: 2019 Example: 2025 :----------------------------: :-------------------------------------: Quick Links espanso website espanso hub What is a Text Expander? A text expander is a program that detects when you type a specific keyword and replaces it with something else . This is useful in many ways: Save a lot of typing , expanding common sentences Create system-wide code snippets Execute custom scripts Use emojis like a pro System-wide 'autocorrect' specific to you Key Features Cross-platform ( Windows , macOS , Linux ) Privacy-first (100% local, no tracking) Works with almost any program Emoji support 😄 Image support Includes a powerful Search Bar 🔎 Date expansion support Custom scripts support Shell commands support App-specific configurations Support Forms Expandable with packages Built-in package manager for espanso hub File based configuration Support Regex triggers Experimental Wayland support Written in Rust (Fast, Reliable) Community & Support 💬 espanso Discord Server 📖 official documentation 💬 official Subreddit 🐛 Report Issues 💡 Feature Requests Quick Start Examples You can create additional files to organize your matches any way you want. Make sure to adhere to proper YAML spacing. Team Members and Contributors Team Federico Terzi (Creator of espanso) Rest of team in Alphabetical Order Archigos (Maintainer) ",
+    "truncated": true,
+    "rawFile": "data/readme/espanso.md"
+  }
+}

@@ -1,0 +1,6 @@
+{"at":"2026-10-24T19:47:31.000Z","event":"run_start","name":"ingest-verify","startedAt":"2026-10-24T19:47:31.000Z","cwd":"C:\\Users\\Administrator\\Documents\\deepseek-harness\\default-workspace\\new-toys","node":"v24.22.1"}
+{"at":"2026-10-24T19:47:53.585Z","event":"dead_link","detail":"metamask-extension https://metamask.io -> fetch failed","level":"warn"}
+{"at":"2026-10-24T19:47:53.927Z","event":"dead_link","detail":"observable-plot https://observablehq.com/plot/ -> 429","level":"warn"}
+{"at":"2026-10-24T19:48:08.722Z","event":"dead_link","detail":"rainbow https://rainbow.me -> fetch failed","level":"warn"}
+{"at":"2026-10-24T19:48:11.524Z","event":"run_end","level":"info","detail":"{\"total\":29,\"ok\":26,\"dead\":3,\"unchecked\":0}"}
+{"at":"2026-10-24T19:48:11.525Z","event":"run_end","level":"info","detail":"{\"command\":\"verify\",\"code\":0}"}

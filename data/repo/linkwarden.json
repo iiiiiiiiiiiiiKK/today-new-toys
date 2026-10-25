@@ -1,0 +1,62 @@
+{
+  "slug": "linkwarden",
+  "repoInput": "linkwarden/linkwarden",
+  "fetchedAt": "2026-10-24T17:55:45.523Z",
+  "github": {
+    "owner": "linkwarden",
+    "name": "linkwarden",
+    "fullName": "linkwarden/linkwarden",
+    "url": "https://github.com/linkwarden/linkwarden",
+    "homepage": "https://linkwarden.app",
+    "description": "⚡️⚡️⚡️ Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.",
+    "stars": 20202,
+    "forks": 877,
+    "openIssues": 693,
+    "language": "TypeScript",
+    "topics": [
+      "bookmark",
+      "bookmark-manager",
+      "collaboration",
+      "nextjs",
+      "react-native",
+      "read-it-later",
+      "self-hosted",
+      "typescript"
+    ],
+    "license": {
+      "spdx": "AGPL-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "url": null
+    },
+    "createdAt": "2022-04-09T07:53:01Z",
+    "pushedAt": "2026-10-24T03:12:52Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T17:55:45.523Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "main",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 4814,
+    "headings": [
+      "Intro & motivation",
+      "Features",
+      "Get Our Official Mobile App",
+      "Like what we're doing? Give us a Star ⭐",
+      "We're building our Community 🌐",
+      "Suggestions",
+      "Roadmap",
+      "Community Projects",
+      "Development",
+      "Translations",
+      "Security",
+      "Support <3",
+      "Thanks to All the Contributors 💪"
+    ],
+    "excerpt": "Linkwarden Bookmarks, Evolved « LAUNCH DEMO » Cloud · Website · Self-Host · Docs Intro & motivation Linkwarden is a self-hosted, open-source collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place. The objective is to organize useful webpages and articles you find across the web in one place, and since useful webpages can go away (see the inevitability of Link Rot), Linkwarden also saves a copy of each webpage as a Screenshot and PDF, ensuring accessibility even if the original content is no longer available. In addition to preservation, Linkwarden provides a user-friendly reading and annotation experience that blends the simplicity of a “read-it-later” tool with the reliability of a web archive. Whether you’re highlighting key ideas, jotting down thoughts, or revisiting content long after it’s disappeared from the web, Linkwarden keeps your knowledge accessible and organized. Linkwarden is also designed with collaboration in mind, enabling you to share links with the public and/or collaborate seamlessly with multiple users. [!TIP] Our official Cloud offering provides the simplest way to begin using Linkwarden and it's the preferred choice for many due to its time-saving benefits. Your subscription supports our hosting infrastructure and ongoing development. Alternatively, if you prefer self-hosting Linkwarden, you can do so ",
+    "truncated": true,
+    "rawFile": "data/readme/linkwarden.md"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sources": [
+    { "slug": "open-webui", "repo": "open-webui/open-webui", "category": "ai-tools", "officialUrl": "https://openwebui.com", "demoUrl": null },
+    { "slug": "lobe-chat", "repo": "lobehub/lobe-chat", "category": "ai-tools", "officialUrl": "https://lobechat.com", "demoUrl": "https://chat-preview.lobehub.com" },
+    { "slug": "ollama", "repo": "ollama/ollama", "category": "ai-tools", "officialUrl": "https://ollama.com", "demoUrl": null },
+
+    { "slug": "biome", "repo": "biomejs/biome", "category": "dev-tools", "officialUrl": "https://biomejs.dev", "demoUrl": "https://biomejs.dev/playground/" },
+    { "slug": "uv", "repo": "astral-sh/uv", "category": "dev-tools", "officialUrl": "https://docs.astral.sh/uv/", "demoUrl": null },
+    { "slug": "hoppscotch", "repo": "hoppscotch/hoppscotch", "category": "dev-tools", "officialUrl": "https://hoppscotch.io", "demoUrl": "https://hoppscotch.io" },
+
+    { "slug": "markitdown", "repo": "microsoft/markitdown", "category": "productivity", "officialUrl": null, "demoUrl": null },
+    { "slug": "localsend", "repo": "localsend/localsend", "category": "productivity", "officialUrl": "https://localsend.org", "demoUrl": null },
+    { "slug": "espanso", "repo": "espanso/espanso", "category": "productivity", "officialUrl": "https://espanso.org", "demoUrl": null },
+
+    { "slug": "evidence", "repo": "evidence-dev/evidence", "category": "data-viz", "officialUrl": "https://evidence.dev", "demoUrl": "https://demo.evidence.dev" },
+    { "slug": "pygwalker", "repo": "Kanaries/pygwalker", "category": "data-viz", "officialUrl": "https://kanaries.net/pygwalker", "demoUrl": "https://kanaries.net/pygwalker/online" },
+    { "slug": "observable-plot", "repo": "observablehq/plot", "category": "data-viz", "officialUrl": "https://observablehq.com/plot/", "demoUrl": "https://observablehq.com/@observablehq/plot" },
+
+    { "slug": "excalidraw", "repo": "excalidraw/excalidraw", "category": "creative", "officialUrl": "https://excalidraw.com", "demoUrl": "https://excalidraw.com" },
+    { "slug": "penpot", "repo": "penpot/penpot", "category": "creative", "officialUrl": "https://penpot.app", "demoUrl": "https://design.penpot.app" },
+    { "slug": "screenshot-to-code", "repo": "abi/screenshot-to-code", "category": "creative", "officialUrl": null, "demoUrl": null },
+
+    { "slug": "learn-git-branching", "repo": "pcottle/learnGitBranching", "category": "learning", "officialUrl": "https://learngitbranching.js.org", "demoUrl": "https://learngitbranching.js.org/?locale=zh_CN" },
+    { "slug": "cs-self-learning", "repo": "PKUFlyingPig/cs-self-learning", "category": "learning", "officialUrl": "https://csdiy.wiki", "demoUrl": null },
+    { "slug": "typescript-exercises", "repo": "typescript-exercises/typescript-exercises", "category": "learning", "officialUrl": "https://typescript-exercises.github.io", "demoUrl": "https://typescript-exercises.github.io" },
+
+    { "slug": "qmk-firmware", "repo": "qmk/qmk_firmware", "category": "hardware", "officialUrl": "https://qmk.fm", "demoUrl": "https://config.qmk.fm" },
+    { "slug": "esphome", "repo": "esphome/esphome", "category": "hardware", "officialUrl": "https://esphome.io", "demoUrl": null },
+    { "slug": "flipper-zero", "repo": "flipperdevices/flipperzero-firmware", "category": "hardware", "officialUrl": "https://flipperzero.one", "demoUrl": null },
+
+    { "slug": "sherlock", "repo": "sherlock-project/sherlock", "category": "internet-toys", "officialUrl": null, "demoUrl": null },
+    { "slug": "it-tools", "repo": "CorentinTh/it-tools", "category": "internet-toys", "officialUrl": "https://it-tools.tech", "demoUrl": "https://it-tools.tech" },
+    { "slug": "dicebear", "repo": "dicebear/dicebear", "category": "internet-toys", "officialUrl": "https://dicebear.com", "demoUrl": "https://dicebear.com/playground" },
+
+    { "slug": "immich", "repo": "immich-app/immich", "category": "self-hosted", "officialUrl": "https://immich.app", "demoUrl": "https://demo.immich.app" },
+    { "slug": "karakeep", "repo": "karakeep-app/karakeep", "category": "self-hosted", "officialUrl": "https://karakeep.app", "demoUrl": "https://try.karakeep.app" },
+    { "slug": "linkwarden", "repo": "linkwarden/linkwarden", "category": "self-hosted", "officialUrl": "https://linkwarden.app", "demoUrl": "https://cloud.linkwarden.app" },
+
+    { "slug": "foundry", "repo": "foundry-rs/foundry", "category": "web3", "officialUrl": "https://getfoundry.sh", "demoUrl": null },
+    { "slug": "rainbow", "repo": "rainbow-me/rainbow", "category": "web3", "officialUrl": "https://rainbow.me", "demoUrl": null },
+    { "slug": "metamask-extension", "repo": "MetaMask/metamask-extension", "category": "web3", "officialUrl": "https://metamask.io", "demoUrl": null }
+  ]
+}

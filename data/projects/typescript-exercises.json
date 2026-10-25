@@ -1,0 +1,46 @@
+{
+  "slug": "typescript-exercises",
+  "name": "TypeScript Exercises",
+  "tagline": "十几道题，把 TypeScript 的类型系统练到会",
+  "summary": "TypeScript Exercises 是一组循序渐进的交互式练习，README 说目标是让人「玩遍 TypeScript 的各种特性」并建立整体认识。它覆盖基础类型、类型收窄、联合类型、泛型、模块扩充、高级类型映射等主题，并且明确要求：尽量不用 any。适合已经会写 TS、但一遇到复杂类型就卡住的人。",
+  "category": "learning",
+  "tags": ["TypeScript", "类型系统", "练习题", "交互式", "前端"],
+  "aliases": ["typescript-exercises", "TS Exercises"],
+  "audience": "开发者",
+  "audienceFor": [
+    "写得出业务代码、但读不懂复杂类型声明的前端",
+    "准备面试、想系统过一遍 TS 类型特性的人",
+    "团队新人培训，需要一套能自动校验的练习"
+  ],
+  "features": [
+    { "title": "按主题递进", "detail": "README 的 Things to cover 列出 Basic typing、Refining types、Union types、Generics、Module augmentation、Advanced type mapping 等主题。" },
+    { "title": "浏览器内做题", "detail": "README 给出在线地址 typescript-exercises.github.io，直接在网页里写代码并验证。" },
+    { "title": "明确禁止 any", "detail": "README 的 Rules and principles 第一条就是 Avoid using any type at all costs。" },
+    { "title": "难度递增", "detail": "README 说明难度会在练习之间快速上升。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 800 字，2026-10-24 抓取）的 Things to cover / Rules and principles / Contributing 章节整理。",
+  "setup": {
+    "effort": "零门槛",
+    "effortNote": "打开网页即可做题。",
+    "requires": ["浏览器", "基础 TypeScript 语法"],
+    "steps": [
+      { "title": "打开练习", "detail": "访问 typescript-exercises.github.io 从第一题开始。" },
+      { "title": "做题", "detail": "按题目要求补全类型，页面会给出校验结果。" },
+      { "title": "本地跑（可选）", "detail": "克隆仓库后按 README 用 yarn start 起本地开发服务器。" }
+    ],
+    "cost": "免费开源（MIT）。"
+  },
+  "officialUrl": "https://typescript-exercises.github.io",
+  "demoUrl": "https://typescript-exercises.github.io",
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "仓库最近一次推送在 2026 年 3 月，更新不快，但练习题这种内容不太会过期。",
+  "addedAt": "2026-10-20",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "确认在线练习站点可访问"
+  }
+}

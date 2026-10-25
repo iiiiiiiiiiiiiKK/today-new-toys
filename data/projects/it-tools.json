@@ -1,0 +1,46 @@
+{
+  "slug": "it-tools",
+  "name": "IT-Tools",
+  "tagline": "一个网页里塞满了开发者会临时用到的小工具",
+  "summary": "IT-Tools 是一组面向开发者和 IT 从业者的在线小工具合集，README 的描述是「handy online tools for developers, with great UX」。它解决的是那种「为了一件小事去搜一个网站、结果被广告包围」的痛点：哈希、编码转换、UUID、时间戳、正则测试之类，都在这一个页面里。也可以 Docker 自托管。",
+  "category": "internet-toys",
+  "tags": ["在线工具", "开发者工具", "自托管", "Vue", "效率"],
+  "aliases": ["it-tools.tech", "IT Tools"],
+  "audience": "开发者",
+  "audienceFor": [
+    "经常需要临时做一次编码转换、哈希、时间戳计算的开发者",
+    "不想把内部数据贴到随机在线工具网站的团队",
+    "想给团队内网放一个工具箱的运维"
+  ],
+  "features": [
+    { "title": "工具集合", "detail": "README 首句即定义为一组面向开发者与 IT 人员的实用在线工具，仓库 Topics 列出 converter、developer-tools、productivity 等类别。" },
+    { "title": "可自托管", "detail": "README 的 Self host 章节给出 Docker Hub 与 GitHub Packages 两种镜像，以及 Cloudron、Tipi、Unraid 等部署方式。" },
+    { "title": "可扩展", "detail": "README 有 Create a new tool 章节，说明如何新增一个工具。" },
+    { "title": "前端技术栈清晰", "detail": "README 的开发章节基于 Vue 3 + TypeScript + Vite，并提供单元测试与 ESLint 配置说明。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 2100 字，2026-10-24 抓取）的简介、Self host、Project Setup、Create a new tool 章节与仓库 Topics 整理。",
+  "setup": {
+    "effort": "零门槛",
+    "effortNote": "打开网站就能用；自托管也只需要一条 docker 命令。",
+    "requires": ["现代浏览器", "可选：Docker"],
+    "steps": [
+      { "title": "直接用", "detail": "打开 it-tools.tech，左侧选工具。" },
+      { "title": "自托管", "detail": "docker run -d --name it-tools --restart unless-stopped -p 8080:80 corentinth/it-tools:latest" },
+      { "title": "内网分发", "detail": "把容器放到内网，团队成员通过内网地址访问，避免数据外传。" }
+    ],
+    "cost": "免费开源（GPL-3.0）。"
+  },
+  "officialUrl": "https://it-tools.tech",
+  "demoUrl": "https://it-tools.tech",
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "自托管版本的意义不是省钱，是别把密钥贴到别人的服务器上。",
+  "addedAt": "2026-10-18",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "确认镜像标签与部署文档"
+  }
+}

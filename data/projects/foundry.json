@@ -1,0 +1,46 @@
+{
+  "slug": "foundry",
+  "name": "Foundry",
+  "tagline": "Rust 写的以太坊合约开发工具链",
+  "summary": "Foundry 是一套用 Rust 写的以太坊应用开发工具，README 把它拆成几件兵器：Forge 负责编译、测试、模糊测试与部署合约；Cast 负责从命令行读写链上数据；Anvil 提供一个本地节点；Chisel 是一个 Solidity REPL。对习惯命令行和 CI 的合约团队，它比图形化 IDE 更容易纳入自动化。",
+  "category": "web3",
+  "tags": ["以太坊", "智能合约", "Solidity", "Rust", "测试"],
+  "aliases": ["foundry-rs", "Forge", "Anvil", "Cast"],
+  "audience": "开发者",
+  "audienceFor": [
+    "写 Solidity、希望测试和部署都在命令行完成的合约开发者",
+    "需要把合约测试接进 CI 的团队",
+    "想做模糊测试（fuzzing）的审计人员"
+  ],
+  "features": [
+    { "title": "Forge：编译到部署", "detail": "README 说明 Forge 负责构建、测试、模糊测试、调试与部署 Solidity 合约。" },
+    { "title": "Cast：链上交互", "detail": "README 描述 Cast 是操作 EVM 合约、发送交易与读取链上数据的命令行工具。" },
+    { "title": "Anvil：本地节点", "detail": "README 列出 Anvil 作为本地以太坊节点，支持分叉。" },
+    { "title": "Chisel：Solidity REPL", "detail": "README 说明 Chisel 是用于快速试验与调试的 Solidity REPL。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 3200 字，2026-10-24 抓取）的工具列表与 Installation / Getting Started 章节，以及官网 getfoundry.sh 首页文案整理。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "一条 curl 安装脚本即可，但需要懂 Solidity 才有东西可编译。",
+    "requires": ["macOS / Linux（Windows 建议 WSL）", "基础 Solidity 知识"],
+    "steps": [
+      { "title": "安装", "detail": "运行官网给出的 curl -L https://foundry.paradigm.xyz | bash，再执行 foundryup。" },
+      { "title": "建项目", "detail": "forge init 生成标准目录结构。" },
+      { "title": "写测试", "detail": "在 test 目录用 Solidity 写测试，forge test 运行；需要本地链时启动 anvil。" }
+    ],
+    "cost": "免费开源（Apache-2.0 / MIT 双许可，以仓库为准）。"
+  },
+  "officialUrl": "https://getfoundry.sh",
+  "demoUrl": null,
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "Windows 用户先装 WSL，别硬扛。",
+  "addedAt": "2026-10-16",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "确认双许可表述与安装脚本地址"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "rainbow",
+  "name": "Rainbow",
+  "tagline": "把以太坊钱包做成一只会动的彩虹",
+  "summary": "Rainbow 是一个开源的以太坊钱包，README 的自我介绍是「住在你口袋里的以太坊钱包」，覆盖 iOS、Android 以及 Chrome、Brave、Edge、Firefox、Arc 等浏览器扩展。它的仓库是移动端与扩展端的源码，开发环境依赖 mise 管理工具链，README 对内部开发者与外部贡献者给了两套不同的配置流程。",
+  "category": "web3",
+  "tags": ["钱包", "以太坊", "React Native", "移动端", "开源"],
+  "aliases": ["rainbow-me", "Rainbow Wallet"],
+  "audience": "普通用户",
+  "audienceFor": [
+    "想用一个设计讨喜、开源的以太坊钱包的人",
+    "想在手机和浏览器之间同步使用同一钱包的用户",
+    "对钱包客户端源码感兴趣的移动端开发者"
+  ],
+  "features": [
+    { "title": "多端覆盖", "detail": "README 说明提供 iOS、Android 应用，以及 Chrome、Brave、Edge、Firefox、Arc 浏览器扩展。" },
+    { "title": "React Native 技术栈", "detail": "仓库 Topics 标注 react-native，README 的 Setup 分 iOS 与 Android 两节说明。" },
+    { "title": "工具链固定版本", "detail": "README 的 Prerequisites 要求用 mise 安装固定版本的工具，便于复现构建环境。" },
+    { "title": "区分内外开发者", "detail": "README 分别给出 Internal developers 与 External contributors 的配置步骤，外部贡献者无需私有仓库权限。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 4300 字，2026-10-24 抓取）的简介、Setup / Prerequisites / Internal developers / External contributors 章节整理；钱包功能细节以 App 内与官网说明为准。",
+  "setup": {
+    "effort": "较高门槛",
+    "effortNote": "作为用户零门槛；作为开发者要配 iOS/Android 原生环境。",
+    "requires": ["macOS（iOS 开发）", "mise、Node.js、yarn", "Xcode 或 Android Studio"],
+    "steps": [
+      { "title": "普通用户", "detail": "从 App Store、Google Play 或浏览器扩展商店安装。" },
+      { "title": "开发者", "detail": "按 README 安装 mise 后执行 mise install，再 corepack enable。" },
+      { "title": "跑起来", "detail": "外部贡献者按 External contributors 一节配置，避免依赖内部私有脚本。" }
+    ],
+    "cost": "软件免费；链上交互的 gas 费自理。"
+  },
+  "officialUrl": "https://rainbow.me",
+  "demoUrl": null,
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "自托管编译钱包有风险，普通用户请直接用商店版本。",
+  "addedAt": "2026-10-16",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "核对扩展商店链接"
+  }
+}

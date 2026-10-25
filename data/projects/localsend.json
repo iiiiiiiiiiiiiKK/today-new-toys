@@ -1,0 +1,46 @@
+{
+  "slug": "localsend",
+  "name": "LocalSend",
+  "tagline": "不联网也能在手机和电脑之间传文件",
+  "summary": "LocalSend 是一个开源跨平台文件传输应用，README 把它定义为 AirDrop 的替代：同一局域网内的设备之间直接互传文件与文字，不需要互联网、不需要账号、不经过服务器。它对混合设备环境特别有用——安卓、iOS、Windows、macOS、Linux 可以互相发。",
+  "category": "productivity",
+  "tags": ["文件传输", "局域网", "跨平台", "Flutter", "离线"],
+  "aliases": ["localsend", "LocalSend App"],
+  "audience": "普通用户",
+  "audienceFor": [
+    "家里同时有 Windows、macOS 和安卓设备的人",
+    "经常要在会议室把文件发给同事、又不想走微信的人",
+    "对「文件必须过一遍云」这件事不放心的人"
+  ],
+  "features": [
+    { "title": "局域网直传", "detail": "README 首段写明：在同一本地网络内安全地分享文件与消息，无需互联网连接。" },
+    { "title": "跨平台", "detail": "README 的 Download 表格分别列出 Android、iOS、Windows、macOS、Linux 的安装方式。" },
+    { "title": "不依赖中心服务器", "detail": "README 的 How It Works 章节描述设备间直接通信的机制。" },
+    { "title": "附带 CLI", "detail": "README 有独立的 Command Line Interface 章节。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 1.22 万字，2026-10-24 抓取）的 About / Download / How It Works / CLI 章节整理。",
+  "setup": {
+    "effort": "零门槛",
+    "effortNote": "两端各装一个 App，在同一 Wi-Fi 下即可。",
+    "requires": ["两台在同一局域网的设备", "允许应用访问本地网络（部分系统需授权）"],
+    "steps": [
+      { "title": "安装", "detail": "按 README 的 Download 表选择对应平台的安装包或应用商店。" },
+      { "title": "连同一网络", "detail": "确保设备在同一个 Wi-Fi 或热点下。" },
+      { "title": "互传", "detail": "打开应用，选择设备后发送文件。" }
+    ],
+    "cost": "完全免费，无广告，无账号。"
+  },
+  "officialUrl": "https://localsend.org",
+  "demoUrl": null,
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": true,
+  "editorsNote": "这类工具的正确评价标准是：装完之后你再也不需要想起它。",
+  "addedAt": "2026-10-23",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "复查各平台安装包链接"
+  }
+}

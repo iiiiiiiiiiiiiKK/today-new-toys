@@ -1,0 +1,4780 @@
+{
+  "generatedAt": "2026-10-25T09:44:53.669Z",
+  "snapshotDate": "2026-10-25",
+  "counts": {
+    "projects": 30,
+    "categories": 10
+  },
+  "categories": [
+    {
+      "id": "ai-tools",
+      "name": "AI 工具",
+      "english": "AI Tools",
+      "blurb": "模型、界面与推理栈",
+      "intro": "从自托管聊天界面到本地推理引擎。这一类项目跑得最快，也最容易在三个月后变成无人维护的遗迹，所以我们只收还在动的，并标出运行它需要多少显存。"
+    },
+    {
+      "id": "dev-tools",
+      "name": "开发者工具",
+      "english": "Developer Tools",
+      "blurb": "让构建、调试少一点摩擦",
+      "intro": "好的开发者工具会消失在工作流里。这一栏收的是那种装完之后你不再想起、但某天换机器时会立刻重新装回来的东西。"
+    },
+    {
+      "id": "productivity",
+      "name": "效率工具",
+      "english": "Productivity",
+      "blurb": "日常流程里的小改动",
+      "intro": "效率工具的价值不在功能多，而在它刚好卡在你每天都会经过的那个路口。这里每个项目都写了真实的上手成本。"
+    },
+    {
+      "id": "data-viz",
+      "name": "数据可视化",
+      "english": "Data Visualization",
+      "blurb": "把表格变成能看懂的东西",
+      "intro": "同一份数据，换一种呈现方式就换了一种说服力。这一类收代码优先、可复现的可视化与 BI 项目。"
+    },
+    {
+      "id": "creative",
+      "name": "创意与设计",
+      "english": "Creative & Design",
+      "blurb": "画布、白板与生成式素材",
+      "intro": "画布类项目最近几年几乎没有停过。我们挑的是那些在浏览器里就能跑、并且真的能被拿来交付的东西，而不是一次性的 demo。"
+    },
+    {
+      "id": "learning",
+      "name": "学习工具",
+      "english": "Learning",
+      "blurb": "把抽象概念变成可动手的练习",
+      "intro": "看教程和真的会，中间隔着一段路。这一栏收的是能让你动手、出错、再重来的学习项目。"
+    },
+    {
+      "id": "hardware",
+      "name": "开源硬件",
+      "english": "Open Hardware",
+      "blurb": "固件、开发板与实物玩具",
+      "intro": "开源硬件项目通常有社区、有文档，也有真实的使用门槛——要买板子、要会接线、要能接受刷坏重来。门槛写在每张卡片上了。"
+    },
+    {
+      "id": "internet-toys",
+      "name": "互联网玩具",
+      "english": "Internet Toys",
+      "blurb": "没什么用，但很好玩",
+      "intro": "这一栏的标准只有一条：它得让人想转发给朋友。有用性不在考核范围内，但可用性必须过关。"
+    },
+    {
+      "id": "self-hosted",
+      "name": "自托管项目",
+      "english": "Self-hosted",
+      "blurb": "把数据放回自己机器上",
+      "intro": "自托管意味着你同时得到了自由和运维。这里的每个项目都标注了 Docker 跑起来之后，你还需要维护什么。"
+    },
+    {
+      "id": "web3",
+      "name": "加密与 Web3",
+      "english": "Crypto & Web3",
+      "blurb": "钱包、合约与链上工具",
+      "intro": "这一栏只收开源、可审计、且仍在维护的项目。链上世界风险自负，我们不提供投资建议，也不替任何代币背书。"
+    }
+  ],
+  "seed": [
+    17,
+    42,
+    93
+  ],
+  "projects": [
+    {
+      "slug": "ollama",
+      "name": "Ollama",
+      "tagline": "一条命令在本机跑起开源大模型",
+      "summary": "Ollama 把「下载模型、跑起来、对外提供 API」压缩成一条命令。README 现在的定位是本地与云端都能用：既可以在自己的 Mac / Windows / Linux 上离线跑，也可以连官方云模型。它真正的价值不是模型本身，而是把推理服务做成了一个开发者不用关心的黑盒——装好之后你面对的是一个 REST API 和命令行。",
+      "category": "ai-tools",
+      "tags": [
+        "本地推理",
+        "大模型",
+        "命令行",
+        "REST API",
+        "Go"
+      ],
+      "aliases": [
+        "ollama",
+        "Ollama CLI"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想在本机跑模型、又不想折腾 CUDA 和推理框架的人",
+        "需要给本地应用接一个 OpenAI 风格接口的后端开发者",
+        "对数据出境敏感、希望完全离线运行的人"
+      ],
+      "features": [
+        {
+          "title": "一条命令拉模型",
+          "detail": "README 的 Get started 章节演示了直接运行模型并进入对话，模型库见 ollama.com/library。"
+        },
+        {
+          "title": "REST API",
+          "detail": "README 明确提供用于运行和管理模型的 REST API，并有独立的 API 文档。"
+        },
+        {
+          "title": "官方多语言 SDK",
+          "detail": "README 列出 ollama-python 与 ollama-js 两个官方库。"
+        },
+        {
+          "title": "接入现有编码工具",
+          "detail": "README 说明可以把 Ollama 接到 Claude Code、Codex、Copilot CLI、OpenCode 等工具上作为后端。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 8700 字，2026-10-24 抓取）的 Get started / REST API / Libraries / Coding 章节整理；模型清单与下载入口均来自 README 原文。",
+      "setup": {
+        "effort": "零门槛",
+        "effortNote": "下载安装包或跑一条 docker 命令即可，不需要 Python 环境。",
+        "requires": [
+          "8GB 内存起步（7B 级模型建议 16GB）",
+          "可选：NVIDIA / AMD 显卡加速"
+        ],
+        "steps": [
+          {
+            "title": "安装",
+            "detail": "从 ollama.com 下载 macOS / Windows / Linux 版本，或使用官方 Docker 镜像 ollama/ollama。"
+          },
+          {
+            "title": "跑一个模型",
+            "detail": "按 README 的 Get started 选择模型并运行，首次会自动下载权重。"
+          },
+          {
+            "title": "接进自己的程序",
+            "detail": "调用本地 REST API，或安装 ollama-python / ollama-js。"
+          }
+        ],
+        "cost": "软件免费；本地运行只花电费，云端模型按官方定价。"
+      },
+      "officialUrl": "https://ollama.com",
+      "demoUrl": null,
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": true,
+      "editorsNote": "它没有让模型变聪明，只是让「跑起来」这件事不再是一个项目。",
+      "addedAt": "2026-10-25",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-25",
+        "todo": "核对云端模型定价页与本地模型库的可用性"
+      },
+      "popularityScore": 527,
+      "weeklyScore": 647,
+      "categoryName": "AI 工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "ollama",
+        "name": "ollama",
+        "fullName": "ollama/ollama",
+        "url": "https://github.com/ollama/ollama",
+        "homepage": "https://ollama.com",
+        "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+        "stars": 184639,
+        "forks": 18540,
+        "openIssues": 4412,
+        "language": "Go",
+        "topics": [
+          "deepseek",
+          "gemma",
+          "gemma3",
+          "glm",
+          "go",
+          "golang",
+          "gpt-oss",
+          "llama",
+          "llama3",
+          "llm",
+          "llms",
+          "minimax",
+          "mistral",
+          "ollama",
+          "qwen"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2023-06-26T19:39:32Z",
+        "pushedAt": "2026-10-24T17:47:05Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:27.860Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/ollama.webp",
+          "card": "/shots/ollama-card.webp",
+          "alt": "Ollama 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:15:40.902Z",
+          "credit": "页面截图：https://ollama.com",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Ollama Start building with open models. Access the latest releases locally or in the cloud with complete privacy. Download macOS or download manually Windows or download manually Linux Manual install instructions Docker The official Ollama Docker image `ollama/ollama` is available on Docker Hub. Libraries - ollama-python - ollama-js Community - Discord - 𝕏 (Twitter) - Reddit Get started You'll be prompted to run a model or connect Ollama to your existing agents or applications such as `Claude Code`, `OpenClaw`, `OpenCode` , `Codex`, `Copilot`, and more. Coding To launch a specific integration: Supported integrations include Claude Code, Codex, Copilot CLI, DeepSeek Harness, Droid, and OpenCode. AI assistant Use OpenClaw to turn Ollama into a personal AI assistant across WhatsApp, Telegram, Slack, Discord, and more: Chat with a model Run and chat with Gemma 4: See ollama.com/library for the full list. See the quickstart guide for more details. REST API Ollama has a REST API for running and managing models. See the API documentation for all endpoints. Python JavaScript Supported backends - llama.cpp project founded by Georgi Gerganov. Documentation - CLI reference - REST API reference - Importing models - Modelfile reference - Building from source Community Integrations Want to add your project? Open a pull request. Chat Interfaces Web - Open WebUI - Extensible, self-hosted AI i",
+        "headings": [
+          "Ollama",
+          "Download",
+          "macOS",
+          "Windows",
+          "Linux",
+          "Docker",
+          "Libraries",
+          "Community",
+          "Get started",
+          "Coding",
+          "AI assistant",
+          "Chat with a model",
+          "REST API",
+          "Python",
+          "JavaScript",
+          "Supported backends",
+          "Documentation",
+          "Community Integrations",
+          "Chat Interfaces",
+          "Code Editors & Development",
+          "Libraries & SDKs",
+          "Frameworks & Agents",
+          "RAG & Knowledge Bases",
+          "Bots & Messaging",
+          "Terminal & CLI",
+          "Productivity & Apps",
+          "Observability & Monitoring",
+          "Database & Embeddings",
+          "Infrastructure & Deployment"
+        ],
+        "chars": 8718,
+        "fetchedAt": "2026-10-24T17:55:27.860Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-25"
+    },
+    {
+      "slug": "open-webui",
+      "name": "Open WebUI",
+      "tagline": "把 Ollama 和任意 OpenAI 兼容模型装进一个自托管聊天台",
+      "summary": "Open WebUI 是一个可完全离线运行的自托管 AI 界面，官方 README 把它定位为「a home for AI」：既能接本地 Ollama，也能接 LMStudio、GroqCloud、OpenRouter、vLLM 等任意 OpenAI 兼容 API，并在同一套界面里管理用户、模型与工具。它不是一个模型，而是模型前面的那层工作台——账号、权限、知识库、插件、频道都在这里。",
+      "category": "ai-tools",
+      "tags": [
+        "自托管",
+        "大模型",
+        "聊天界面",
+        "Ollama",
+        "RAG"
+      ],
+      "aliases": [
+        "OpenWebUI",
+        "open-webui",
+        "Ollama WebUI"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想把本地模型接上一个多人可用界面的开发者",
+        "需要给团队分配模型权限、但又不想把对话发到公有云的小团队",
+        "已经在跑 Ollama，想要知识库、工具调用和频道功能的人"
+      ],
+      "features": [
+        {
+          "title": "一个界面接多家模型",
+          "detail": "README 明确写到可同时连接本地 Ollama 与任意 OpenAI 兼容 API（LMStudio、GroqCloud、Mistral、OpenRouter、vLLM 等），在模型之间自由切换。"
+        },
+        {
+          "title": "细粒度权限与用户组",
+          "detail": "管理员可以定义角色、用户组和权限，为每组配置可见的模型与功能，README 称其为 granular RBAC。"
+        },
+        {
+          "title": "插件与工具服务器",
+          "detail": "支持 Filters、Actions、Pipes、Tools、Skills 五类插件，并可通过 MCP、MCPO、OpenAPI 工具服务器接入外部服务。"
+        },
+        {
+          "title": "不止聊天",
+          "detail": "README 还列了 Notes（富文本笔记）、Channels（团队实时频道）、持久记忆、日历与定时自动化，都是围绕对话长出来的周边功能。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 1.36 万字，2026-10-24 抓取）的 Key Features 与安装章节整理；功能条目均可在 README 原文找到对应段落。未逐行审阅源码。",
+      "setup": {
+        "effort": "中等门槛",
+        "effortNote": "会敲一条 docker run 就能跑起来，但要用好需要自己准备模型或 API Key。",
+        "requires": [
+          "Docker 或 Python 3.11+",
+          "Ollama 或任意 OpenAI 兼容 API",
+          "约 2GB 内存起步（不含模型）"
+        ],
+        "steps": [
+          {
+            "title": "起容器",
+            "detail": "README 给出的命令：docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui ghcr.io/open-webui/open-webui:main"
+          },
+          {
+            "title": "打开 3000 端口",
+            "detail": "首次访问会要求注册管理员账号，第一个注册的用户即为管理员。"
+          },
+          {
+            "title": "接模型",
+            "detail": "本机已装 Ollama 时容器会自动发现；否则在设置里填 OpenAI 兼容的 Base URL 和 Key。"
+          }
+        ],
+        "cost": "软件免费；模型费用取决于你接的是本地模型还是云端 API。"
+      },
+      "licenseOverride": {
+        "spdx": null,
+        "name": "Open WebUI License（BSD-3 衍生，含品牌条款）",
+        "note": "GitHub 显示为 Other。LICENSE 基于 BSD-3，但新增条款：超过 50 名终端用户的部署不得修改或移除 Open WebUI 品牌，除非取得书面授权。不是 OSI 标准许可证。",
+        "url": "https://github.com/open-webui/open-webui/blob/main/LICENSE"
+      },
+      "officialUrl": "https://openwebui.com",
+      "demoUrl": null,
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": true,
+      "editorsNote": "它解决的是很具体的一件事：模型已经有了，缺一个能长期用下去的界面。",
+      "addedAt": "2026-10-25",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-25",
+        "todo": "下期核对插件市场链接与 Enterprise 定价页是否仍公开"
+      },
+      "popularityScore": 519,
+      "weeklyScore": 639,
+      "categoryName": "AI 工具",
+      "license": {
+        "spdx": null,
+        "name": "Open WebUI License（BSD-3 衍生，含品牌条款）",
+        "note": "GitHub 显示为 Other。LICENSE 基于 BSD-3，但新增条款：超过 50 名终端用户的部署不得修改或移除 Open WebUI 品牌，除非取得书面授权。不是 OSI 标准许可证。",
+        "url": "https://github.com/open-webui/open-webui/blob/main/LICENSE"
+      },
+      "repo": {
+        "owner": "open-webui",
+        "name": "open-webui",
+        "fullName": "open-webui/open-webui",
+        "url": "https://github.com/open-webui/open-webui",
+        "homepage": "https://openwebui.com",
+        "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+        "stars": 156644,
+        "forks": 22800,
+        "openIssues": 227,
+        "language": "Python",
+        "topics": [
+          "ai",
+          "llm",
+          "llm-ui",
+          "llm-webui",
+          "llms",
+          "mcp",
+          "ollama",
+          "ollama-webui",
+          "open-webui",
+          "openai",
+          "openapi",
+          "rag",
+          "self-hosted",
+          "ui",
+          "webui"
+        ],
+        "license": {
+          "spdx": null,
+          "name": "Open WebUI License（BSD-3 衍生，含品牌条款）",
+          "note": "GitHub 显示为 Other。LICENSE 基于 BSD-3，但新增条款：超过 50 名终端用户的部署不得修改或移除 Open WebUI 品牌，除非取得书面授权。不是 OSI 标准许可证。",
+          "url": "https://github.com/open-webui/open-webui/blob/main/LICENSE"
+        },
+        "createdAt": "2023-10-06T22:08:27Z",
+        "pushedAt": "2026-10-24T06:04:47Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:25.630Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/open-webui.webp",
+          "card": "/shots/open-webui-card.webp",
+          "alt": "Open WebUI 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:14:43.871Z",
+          "credit": "页面截图：https://openwebui.com",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Open WebUI 👋 Open WebUI is a home for AI , a self-hosted AI platform that's extensible , feature-rich , user-friendly, and built to run entirely offline . With support for Ollama and OpenAI-compatible APIs , it gives you a powerful, provider-agnostic interface for both local and cloud-based models. Passionate about open-source AI? Join our team → [!TIP] Looking for an Enterprise Plan? – Speak with Our Sales Team Today! For more information, be sure to check out our Open WebUI Documentation. Key Features of Open WebUI ⭐ - 🚀 Effortless Setup : Install seamlessly via pip, uv, Docker, or Kubernetes (kubectl, kustomize, or helm), with `:ollama` and `:cuda` tagged images available for container deployments. - 🤝 Broad Model & API Integration : Connect any OpenAI-compatible API alongside local Ollama models. Point the API URL at LMStudio, GroqCloud, Mistral, OpenRouter, vLLM, and more to mix and match providers freely. - 🔐 Granular RBAC & User Groups : Administrators define detailed roles, groups, and permissions, giving each user exactly the access they need. Secure by default, with tailored experiences per group. - 🧩 Plugin Support : Extend Open WebUI with Filters , Actions , Pipes , Tools , and Skills . Connect external services through MCP , MCPO , and OpenAPI tool servers . Build custom integrations, rate limits, approval flows, data connections, and more. - 🤖 Models & Agent",
+        "headings": [
+          "Open WebUI 👋",
+          "Key Features of Open WebUI ⭐",
+          "The Open WebUI Ecosystem 🌐",
+          "How to Install 🚀",
+          "Installation via Python pip 🐍",
+          "Quick Start with Docker 🐳",
+          "Installation with Default Configuration",
+          "Installation for OpenAI API Usage Only",
+          "Installing Open WebUI with Bundled Ollama Support",
+          "Other Installation Methods",
+          "Troubleshooting",
+          "Keeping Your Docker Installation Up-to-Date",
+          "Using the Dev Branch 🌙",
+          "Offline Mode",
+          "What's Next? 🌟",
+          "License 📜",
+          "Support 💬",
+          "Security 🛡️",
+          "Star History"
+        ],
+        "chars": 13648,
+        "fetchedAt": "2026-10-24T17:55:25.630Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-25"
+    },
+    {
+      "slug": "excalidraw",
+      "name": "Excalidraw",
+      "tagline": "画出来像手绘的白板，协作还是端到端加密的",
+      "summary": "Excalidraw 是一个开源的虚拟白板，最出名的是那种手绘质感的线条。README 说明它以 npm 包形式发布编辑器，同时 excalidraw.com 上的官方应用本身就支持实时协作与端到端加密。它适合画架构草图、流程和线框图——不是精细设计工具，而是「先把想法画出来给人看」的那一层。",
+      "category": "creative",
+      "tags": [
+        "白板",
+        "手绘风格",
+        "实时协作",
+        "端到端加密",
+        "开源"
+      ],
+      "aliases": [
+        "excalidraw",
+        "Excalidraw Whiteboard"
+      ],
+      "audience": "普通用户",
+      "audienceFor": [
+        "需要快速画架构图、流程图给同事看的人",
+        "想要一块不登录也能用的在线白板的人",
+        "在意协作内容加密、不想上传设计稿的团队"
+      ],
+      "features": [
+        {
+          "title": "手绘风格画布",
+          "detail": "README 的 Features 列出无限画布、hand-drawn like style、矩形/圆形/菱形/箭头/自由绘制/橡皮等工具。"
+        },
+        {
+          "title": "实时协作 + 端到端加密",
+          "detail": "README 说明 excalidraw.com 应用支持 PWA 离线使用、实时协作，并强调 end-to-end encrypted。"
+        },
+        {
+          "title": "开放文件格式",
+          "detail": "README 写明可导出为 .excalidraw JSON，也可导出 PNG、SVG 或复制到剪贴板。"
+        },
+        {
+          "title": "可作为组件嵌入",
+          "detail": "README 首段说明编辑器以 npm 包形式提供，并列出多项集成案例。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 2500 字，2026-10-24 抓取）的 Features 与 excalidraw.com 章节整理。",
+      "setup": {
+        "effort": "零门槛",
+        "effortNote": "打开网页就能画。",
+        "requires": [
+          "现代浏览器"
+        ],
+        "steps": [
+          {
+            "title": "直接画",
+            "detail": "打开 excalidraw.com，选形状工具开始画。"
+          },
+          {
+            "title": "协作",
+            "detail": "点分享生成协作链接，对方打开即可同屏编辑。"
+          },
+          {
+            "title": "导出",
+            "detail": "导出 PNG / SVG，或保存 .excalidraw 源文件以便以后再改。"
+          }
+        ],
+        "cost": "开源版免费；官方 Excalidraw+ 为付费托管服务。"
+      },
+      "officialUrl": "https://excalidraw.com",
+      "demoUrl": "https://excalidraw.com",
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": true,
+      "editorsNote": "很多人以为它只是个画图工具，其实「端到端加密的协作白板」才是它真正的差异点。",
+      "addedAt": "2026-10-21",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "确认 Excalidraw+ 定价页"
+      },
+      "popularityScore": 513,
+      "weeklyScore": 633,
+      "categoryName": "创意与设计",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "excalidraw",
+        "name": "excalidraw",
+        "fullName": "excalidraw/excalidraw",
+        "url": "https://github.com/excalidraw/excalidraw",
+        "homepage": "https://excalidraw.com",
+        "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+        "stars": 134483,
+        "forks": 15813,
+        "openIssues": 3411,
+        "language": "TypeScript",
+        "topics": [
+          "canvas",
+          "collaboration",
+          "diagrams",
+          "drawing",
+          "hacktoberfest",
+          "productivity",
+          "whiteboard"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2020-01-02T01:04:43Z",
+        "pushedAt": "2026-10-23T15:10:12Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:35.411Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/excalidraw.webp",
+          "card": "/shots/excalidraw-card.webp",
+          "alt": "Excalidraw 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:16:11.015Z",
+          "credit": "页面截图：https://excalidraw.com",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Excalidraw Editor Blog Documentation Excalidraw+ An open source virtual hand-drawn style whiteboard. Collaborative and end-to-end encrypted. Create beautiful hand-drawn like diagrams, wireframes, or whatever you like. Features The Excalidraw editor (npm package) supports: - 💯&nbsp;Free & open-source. - 🎨&nbsp;Infinite, canvas-based whiteboard. - ✍️&nbsp;Hand-drawn like style. - 🌓&nbsp;Dark mode. - 🏗️&nbsp;Customizable. - 📷&nbsp;Image support. - 😀&nbsp;Shape libraries support. - 🌐&nbsp;Localization (i18n) support. - 🖼️&nbsp;Export to PNG, SVG & clipboard. - 💾&nbsp;Open format - export drawings as an `.excalidraw` json file. - ⚒️&nbsp;Wide range of tools - rectangle, circle, diamond, arrow, line, free-draw, eraser... - ➡️&nbsp;Arrow-binding & labeled arrows. - 🔙&nbsp;Undo / Redo. - 🔍&nbsp;Zoom and panning support. Excalidraw.com The app hosted at excalidraw.com is a minimal showcase of what you can build with Excalidraw. Its source code is part of this repository as well, and the app features: - 📡&nbsp;PWA support (works offline). - 🤼&nbsp;Real-time collaboration. - 🔒&nbsp;End-to-end encryption. - 💾&nbsp;Local-first support (autosaves to the browser). - 🔗&nbsp;Shareable links (export to a readonly link you can share with others). We'll be adding these features as drop-in plugins for the npm package in the future. Quick start Note: following instructions are for in",
+        "headings": [
+          "Features",
+          "Excalidraw.com",
+          "Quick start",
+          "or",
+          "Contributing",
+          "Integrations",
+          "Who's integrating Excalidraw",
+          "Sponsors & support",
+          "Thank you for supporting Excalidraw"
+        ],
+        "chars": 2508,
+        "fetchedAt": "2026-10-24T17:55:35.411Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "immich",
+      "name": "Immich",
+      "tagline": "自托管的照片备份，冲着 Google Photos 去的",
+      "summary": "Immich 是一个高性能、可自托管的照片与视频管理方案，README 把它放在 Google Photos 的替代位置上：手机自动备份、相册与共享相册、多用户、按时间轴浏览、人脸识别等功能都在。它同时对性能很敏感——这也是它区别于一堆 PHP 相册程序的地方。注意 README 开头那条醒目的 3-2-1 备份警告：自托管意味着备份责任在你。",
+      "category": "self-hosted",
+      "tags": [
+        "照片管理",
+        "自托管",
+        "备份",
+        "Docker",
+        "移动端"
+      ],
+      "aliases": [
+        "immich-app",
+        "Immich Photos"
+      ],
+      "audience": "自托管用户",
+      "audienceFor": [
+        "想把家庭照片从云相册搬回自己服务器的人",
+        "有 NAS 或家用服务器、愿意维护 Docker 服务的人",
+        "需要多人共享相册、又不接受按容量订阅的家庭"
+      ],
+      "features": [
+        {
+          "title": "移动端自动备份",
+          "detail": "README 的功能表把「打开 App 时自动备份」列为移动端支持项，并支持选择要备份的相册。"
+        },
+        {
+          "title": "相册与共享",
+          "detail": "README 功能表列出多用户、相册与共享相册、防重复上传等能力。"
+        },
+        {
+          "title": "官方在线 Demo",
+          "detail": "README 提供 demo.immich.app 及演示账号，可直接试用而不必先部署。"
+        },
+        {
+          "title": "多端覆盖",
+          "detail": "仓库 Topics 包含 flutter、svelte、nestjs，对应其移动端与 Web 端技术栈。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 3000 字，2026-10-24 抓取）的 Features 表格、Demo、Links 章节整理；功能表只核对了列出的条目，未逐项实测。",
+      "setup": {
+        "effort": "中等门槛",
+        "effortNote": "官方推荐 Docker Compose 部署，跑起来不难，长期维护和备份才是工作量。",
+        "requires": [
+          "一台常开的服务器或 NAS",
+          "Docker / Docker Compose",
+          "足够的存储空间与备份方案"
+        ],
+        "steps": [
+          {
+            "title": "先试 Demo",
+            "detail": "用 README 给的 demo 账号登录 demo.immich.app，确认功能符合预期。"
+          },
+          {
+            "title": "按文档部署",
+            "detail": "按 immich.app 的安装文档用 Docker Compose 起服务。"
+          },
+          {
+            "title": "配移动端",
+            "detail": "在 App 里填服务器地址，开启自动备份。"
+          }
+        ],
+        "cost": "软件免费（AGPL-3.0）；服务器与存储自备。"
+      },
+      "officialUrl": "https://immich.app",
+      "demoUrl": "https://demo.immich.app",
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": true,
+      "editorsNote": "README 第一条警告不是功能，是「请务必做 3-2-1 备份」。这很说明问题。",
+      "addedAt": "2026-10-17",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "确认 demo 凭据是否仍有效"
+      },
+      "popularityScore": 507,
+      "weeklyScore": 627,
+      "categoryName": "自托管项目",
+      "license": {
+        "spdx": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "immich-app",
+        "name": "immich",
+        "fullName": "immich-app/immich",
+        "url": "https://github.com/immich-app/immich",
+        "homepage": "https://immich.app",
+        "description": "High performance self-hosted photo and video management solution.",
+        "stars": 117091,
+        "forks": 7329,
+        "openIssues": 724,
+        "language": "TypeScript",
+        "topics": [
+          "backup-tool",
+          "flutter",
+          "google-photos",
+          "google-photos-alternative",
+          "javascript",
+          "mobile-app",
+          "nestjs",
+          "nodejs",
+          "photo-gallery",
+          "photos",
+          "photos-management",
+          "self-hosted",
+          "svelte",
+          "sveltekit",
+          "typescript",
+          "videos"
+        ],
+        "license": {
+          "spdx": "AGPL-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "url": null
+        },
+        "createdAt": "2022-02-03T15:56:27Z",
+        "pushedAt": "2026-10-24T15:51:30Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:44.036Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/immich.webp",
+          "card": "/shots/immich-card.webp",
+          "alt": "Immich 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:11:33.807Z",
+          "credit": "页面截图：https://immich.app",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "High performance self-hosted photo and video management solution Català Español Français Italiano 日本語 한국어 Deutsch Nederlands Türkçe 简体中文 正體中文 Українська Русский Български Português Brasileiro Svenska العربية Tiếng Việt ภาษาไทย മലയാളം [!WARNING] ⚠️ Always follow 3-2-1 backup plan for your precious photos and videos! [!NOTE] You can find the main documentation, including installation guides, at https://immich.app/. Links - Documentation - About - Installation - Roadmap - Demo - Features - Translations - Contributing Demo Access the demo here. For the mobile app, you can use `https://demo.immich.app` for the `Server Endpoint URL`. Login credentials Email Password --------------- -------- demo@immich.app demo Features Features Mobile Web :------------------------------------------- ------ --- Upload and view videos and photos Yes Yes Auto backup when the app is opened Yes N/A Prevent duplication of assets Yes Yes Selective album(s) for backup Yes N/A Download photos and videos to local device Yes Yes Multi-user support Yes Yes Album and Shared albums Yes Yes Scrubbable/draggable scrollbar Yes Yes Support raw formats Yes Yes Metadata view (EXIF, map) Yes Yes Search by metadata, objects, faces, and CLIP Yes Yes Administrative functions (user management) No Yes Background backup Yes N/A Virtual scroll Yes Yes OAuth support Yes Yes API Keys N/A Yes LivePhoto/MotionPhoto backup and play",
+        "headings": [
+          "Links",
+          "Demo",
+          "Login credentials",
+          "Features",
+          "Translations",
+          "Repository activity",
+          "Contributors"
+        ],
+        "chars": 3000,
+        "fetchedAt": "2026-10-24T17:55:44.036Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "localsend",
+      "name": "LocalSend",
+      "tagline": "不联网也能在手机和电脑之间传文件",
+      "summary": "LocalSend 是一个开源跨平台文件传输应用，README 把它定义为 AirDrop 的替代：同一局域网内的设备之间直接互传文件与文字，不需要互联网、不需要账号、不经过服务器。它对混合设备环境特别有用——安卓、iOS、Windows、macOS、Linux 可以互相发。",
+      "category": "productivity",
+      "tags": [
+        "文件传输",
+        "局域网",
+        "跨平台",
+        "Flutter",
+        "离线"
+      ],
+      "aliases": [
+        "localsend",
+        "LocalSend App"
+      ],
+      "audience": "普通用户",
+      "audienceFor": [
+        "家里同时有 Windows、macOS 和安卓设备的人",
+        "经常要在会议室把文件发给同事、又不想走微信的人",
+        "对「文件必须过一遍云」这件事不放心的人"
+      ],
+      "features": [
+        {
+          "title": "局域网直传",
+          "detail": "README 首段写明：在同一本地网络内安全地分享文件与消息，无需互联网连接。"
+        },
+        {
+          "title": "跨平台",
+          "detail": "README 的 Download 表格分别列出 Android、iOS、Windows、macOS、Linux 的安装方式。"
+        },
+        {
+          "title": "不依赖中心服务器",
+          "detail": "README 的 How It Works 章节描述设备间直接通信的机制。"
+        },
+        {
+          "title": "附带 CLI",
+          "detail": "README 有独立的 Command Line Interface 章节。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 1.22 万字，2026-10-24 抓取）的 About / Download / How It Works / CLI 章节整理。",
+      "setup": {
+        "effort": "零门槛",
+        "effortNote": "两端各装一个 App，在同一 Wi-Fi 下即可。",
+        "requires": [
+          "两台在同一局域网的设备",
+          "允许应用访问本地网络（部分系统需授权）"
+        ],
+        "steps": [
+          {
+            "title": "安装",
+            "detail": "按 README 的 Download 表选择对应平台的安装包或应用商店。"
+          },
+          {
+            "title": "连同一网络",
+            "detail": "确保设备在同一个 Wi-Fi 或热点下。"
+          },
+          {
+            "title": "互传",
+            "detail": "打开应用，选择设备后发送文件。"
+          }
+        ],
+        "cost": "完全免费，无广告，无账号。"
+      },
+      "officialUrl": "https://localsend.org",
+      "demoUrl": null,
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": true,
+      "editorsNote": "这类工具的正确评价标准是：装完之后你再也不需要想起它。",
+      "addedAt": "2026-10-23",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "复查各平台安装包链接"
+      },
+      "popularityScore": 498,
+      "weeklyScore": 618,
+      "categoryName": "效率工具",
+      "license": {
+        "spdx": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "localsend",
+        "name": "localsend",
+        "fullName": "localsend/localsend",
+        "url": "https://github.com/localsend/localsend",
+        "homepage": "https://localsend.org",
+        "description": "An open-source cross-platform alternative to AirDrop",
+        "stars": 95447,
+        "forks": 5370,
+        "openIssues": 1029,
+        "language": "Dart",
+        "topics": [
+          "dart",
+          "file-sharing",
+          "flutter",
+          "flutter-apps"
+        ],
+        "license": {
+          "spdx": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "url": null
+        },
+        "createdAt": "2022-12-16T00:46:07Z",
+        "pushedAt": "2026-10-21T10:17:17Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:31.809Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/localsend.webp",
+          "card": "/shots/localsend-card.webp",
+          "alt": "LocalSend 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:03:34.025Z",
+          "credit": "页面截图：https://localsend.org",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "LocalSend [![CI status][ci-badge]][ci-workflow] [![Translations][translate-badge]][translate-link] [![Packaging status][packaging-badge]][packaging-link] [ci-badge]: https://github.com/localsend/localsend/actions/workflows/ci.yml/badge.svg [ci-workflow]: https://github.com/localsend/localsend/actions/workflows/ci.yml [translate-badge]: https://hosted.weblate.org/widget/localsend/app/svg-badge.svg [translate-link]: https://hosted.weblate.org/engage/localsend/ [packaging-badge]: https://repology.org/badge/tiny-repos/localsend.svg [packaging-link]: https://repology.org/project/localsend/versions [Homepage][homepage] • [Discord][discord] • [GitHub][github] • [Codeberg][codeberg] English (Default) • 中文 [homepage]: https://localsend.org [discord]: https://discord.gg/GSRWmQNP87 [github]: https://github.com/localsend/localsend [codeberg]: https://codeberg.org/localsend/localsend LocalSend is a free, open-source app that allows you to securely share files and messages with nearby devices over your local network without needing an internet connection. - About - Sponsors - Screenshots - Download - How It Works - Dependency Hierarchy - Getting Started - Command Line Interface - Contributing - Translation - Bug Fixes and Improvements - Troubleshooting - Building - Android - iOS - macOS - Windows - Linux About LocalSend is a cross-platform app that enables secure communication between device",
+        "headings": [
+          "LocalSend",
+          "About",
+          "Sponsors",
+          "Screenshots",
+          "Download",
+          "Setup",
+          "How It Works",
+          "Dependency Hierarchy",
+          "Getting Started",
+          "Command Line Interface",
+          "Contributing",
+          "Translation",
+          "Bug Fixes and Improvements",
+          "Troubleshooting",
+          "Building",
+          "Android",
+          "iOS",
+          "macOS",
+          "Windows",
+          "Linux",
+          "Contributors"
+        ],
+        "chars": 12156,
+        "fetchedAt": "2026-10-24T17:55:31.809Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "markitdown",
+      "name": "MarkItDown",
+      "tagline": "把 PDF、Office 文档统统转成给大模型看的 Markdown",
+      "summary": "MarkItDown 是微软开源的轻量 Python 工具，把 PDF、Word、Excel、PPT、图片、音频等格式转成 Markdown，目标用户是喂给 LLM 的文本流水线，而不是追求排版还原的人类读者。README 一开始就写了两个关键限制：它保留结构（标题、列表、表格、链接）但输出不保证好看；并且它会以当前进程权限访问资源，处理不可信文件前必须自己做好隔离。",
+      "category": "productivity",
+      "tags": [
+        "文档转换",
+        "Markdown",
+        "Python",
+        "LLM 预处理",
+        "CLI"
+      ],
+      "aliases": [
+        "markitdown",
+        "Microsoft MarkItDown",
+        "markitdown[all]"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "要批量把一堆文档塞进 RAG 知识库的人",
+        "需要把会议材料、报表快速转成可检索文本的团队",
+        "在写文档处理脚本、想省掉解析库选型的开发者"
+      ],
+      "features": [
+        {
+          "title": "多格式输入",
+          "detail": "README 明确列出支持 PDF、PowerPoint、Word、Excel、图片（EXIF 与 OCR）、音频（EXIF）等来源。"
+        },
+        {
+          "title": "保留文档结构",
+          "detail": "README 说明转换时尽量保留标题、列表、表格、链接等 Markdown 结构，这是它相对通用文本抽取工具的区别。"
+        },
+        {
+          "title": "命令行与 Python API 两用",
+          "detail": "README 的 Usage / Command-Line 章节给出 CLI 与库调用两种用法，示例为 markitdown path-to-file.pdf -o document.md。"
+        },
+        {
+          "title": "按需安装可选依赖",
+          "detail": "README 演示了 pip install 'markitdown[pdf,docx,pptx]' 这种只装需要格式的写法。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 1.47 万字，2026-10-24 抓取）的开头说明、安装、Usage 与 Optional Dependencies 章节整理；安全提示为 README 原文观点，非本刊推断。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "pip 装完即可用，但需要 Python 3.10–3.14。",
+        "requires": [
+          "Python 3.10–3.14",
+          "按需的格式解析依赖"
+        ],
+        "steps": [
+          {
+            "title": "安装",
+            "detail": "pip install 'markitdown[all]'，或只装用得到的格式，如 [pdf,docx,pptx]。"
+          },
+          {
+            "title": "转换",
+            "detail": "markitdown 输入文件 -o 输出.md，或在 Python 里调用 convert 系列函数。"
+          },
+          {
+            "title": "接入流水线",
+            "detail": "把输出接到你的切分、嵌入与检索流程里。"
+          }
+        ],
+        "cost": "免费开源（MIT），无外部服务依赖。"
+      },
+      "officialUrl": null,
+      "demoUrl": null,
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "README 那句「不是给人类看的高保真转换」值得放在最前面。",
+      "addedAt": "2026-10-23",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "确认插件生态与 OCR 插件链接"
+      },
+      "popularityScore": 528,
+      "weeklyScore": 648,
+      "categoryName": "效率工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "microsoft",
+        "name": "markitdown",
+        "fullName": "microsoft/markitdown",
+        "url": "https://github.com/microsoft/markitdown",
+        "homepage": null,
+        "description": "Python tool for converting files and office documents to Markdown.",
+        "stars": 191944,
+        "forks": 14325,
+        "openIssues": 758,
+        "language": "Python",
+        "topics": [
+          "autogen",
+          "autogen-extension",
+          "langchain",
+          "markdown",
+          "microsoft-office",
+          "openai",
+          "pdf"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2024-11-13T19:56:40Z",
+        "pushedAt": "2026-10-23T17:04:06Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:31.080Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/markitdown.webp",
+          "card": "/shots/markitdown-card.webp",
+          "alt": "MarkItDown 的 GitHub 仓库页面截图",
+          "origin": "og",
+          "capturedAt": "2026-10-24T18:17:22.578Z",
+          "credit": "仓库页面截图：https://github.com/microsoft/markitdown",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "MarkItDown [!IMPORTANT] MarkItDown performs I/O with the privileges of the current process. Like open() or requests.get(), it will access resources that the process itself can access. Sanitize your inputs in untrusted environments, and call the narrowest `convert ` function needed for your use case (e.g., `convert stream()`, or `convert local()`). See the Security Considerations section of the documentation for more information. MarkItDown is a lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines. To this end, it is most comparable to textract, but with a focus on preserving important document structure and content as Markdown (including: headings, lists, tables, links, etc.) While the output is often reasonably presentable and human-friendly, it is meant to be consumed by text analysis tools -- and may not be the best option for high-fidelity document conversions for human consumption. MarkItDown currently supports the conversion from: - PDF - PowerPoint - Word - Excel - Images (EXIF metadata and OCR) - Audio (EXIF metadata and speech transcription) - HTML - Text-based formats (CSV, JSON, XML) - ZIP files (iterates over contents) - YouTube URLs - EPubs - ... and more! Why Markdown? Markdown is extremely close to plain text, with minimal markup or formatting, but still provides a way to represent important doc",
+        "headings": [
+          "MarkItDown",
+          "Why Markdown?",
+          "Prerequisites",
+          "NOTE: Be sure to use 'uv pip install' rather than just 'pip install' to install packages in this virtual environment",
+          "Installation",
+          "Usage",
+          "Command-Line",
+          "Optional Dependencies",
+          "Plugins",
+          "Azure Content Understanding",
+          "Zero-config — auto-selects analyzer per file type",
+          "Output includes YAML front matter with extracted fields:",
+          "---",
+          "contentType: document",
+          "fields:",
+          "VendorName: CONTOSO LTD.",
+          "InvoiceDate: '2019-11-15'",
+          "---",
+          "<!-- page 1 -->",
+          "...",
+          "Azure Document Intelligence",
+          "Python API",
+          "Docker",
+          "Contributing",
+          "What to Contribute",
+          "Extending MarkItDown Without Changing This Repository",
+          "How to Contribute",
+          "Running Tests and Checks",
+          "Security Considerations",
+          "Trademarks"
+        ],
+        "chars": 14748,
+        "fetchedAt": "2026-10-24T17:55:31.080Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "sherlock",
+      "name": "Sherlock",
+      "tagline": "给一个用户名，扫遍 400 多个社交平台",
+      "summary": "Sherlock 是一个用 Python 写的命令行工具，输入一个或多个用户名，它会在 400 多个社交网络上检查对应账号是否存在，并把结果写入文件。它属于 OSINT（公开信息搜集）工具，README 的定位也很直白：给安全研究、取证和红队工作用。用它之前请先想清楚——查别人的账号分布这件事，在很多场景下是有边界的。",
+      "category": "internet-toys",
+      "tags": [
+        "OSINT",
+        "用户名查询",
+        "命令行",
+        "Python",
+        "安全研究"
+      ],
+      "aliases": [
+        "sherlock-project",
+        "Sherlock Project"
+      ],
+      "audience": "安全研究者",
+      "audienceFor": [
+        "做公开信息搜集（OSINT）的安全研究者",
+        "想检查自己用户名在哪些平台被注册的人",
+        "需要批量核验账号存在性的取证场景"
+      ],
+      "features": [
+        {
+          "title": "覆盖 400+ 站点",
+          "detail": "README 首句写明可在 400 多个社交网络上按用户名查找账号。"
+        },
+        {
+          "title": "支持批量与导出",
+          "detail": "README 的 General usage 演示一次查多个用户名，并说明结果会按用户名写入独立文件；命令行帮助里还提供 --csv、--xlsx 等输出选项。"
+        },
+        {
+          "title": "多种安装方式",
+          "detail": "README 列出 pipx、pip/uv、Docker 以及各发行版包管理器等多种安装路径。"
+        },
+        {
+          "title": "社区维护的站点列表",
+          "detail": "README 用 Contributors 章节致谢站点数据的贡献者，说明站点清单是持续维护的。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 1300 字，2026-10-24 抓取）的 Installation、General usage、--help 输出片段与 License 章节整理。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "pipx 一条命令装好即可，无需配置。",
+        "requires": [
+          "Python 3.9+ 或 Docker",
+          "可访问目标站点的网络环境"
+        ],
+        "steps": [
+          {
+            "title": "安装",
+            "detail": "pipx install sherlock-project（或用 README 列出的其他方式）。"
+          },
+          {
+            "title": "查一个用户名",
+            "detail": "sherlock user123，结果会在当前目录生成同名文本文件。"
+          },
+          {
+            "title": "批量与导出",
+            "detail": "sherlock user1 user2 user3，配合 --csv 或 --xlsx 输出结构化结果。"
+          }
+        ],
+        "cost": "免费开源（MIT）。"
+      },
+      "officialUrl": "https://sherlockproject.xyz",
+      "demoUrl": null,
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "工具本身中立，用途不中立。请只查自己和已获授权的目标。",
+      "addedAt": "2026-10-18",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "确认站点列表与官方站点是否仍在线"
+      },
+      "popularityScore": 498,
+      "weeklyScore": 618,
+      "categoryName": "互联网玩具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "sherlock-project",
+        "name": "sherlock",
+        "fullName": "sherlock-project/sherlock",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "homepage": "https://sherlockproject.xyz",
+        "description": "Hunt down social media accounts by username across social networks",
+        "stars": 94837,
+        "forks": 11232,
+        "openIssues": 351,
+        "language": "Python",
+        "topics": [
+          "cli",
+          "cti",
+          "cybersecurity",
+          "forensics",
+          "hacktoberfest",
+          "information-gathering",
+          "infosec",
+          "linux",
+          "osint",
+          "pentesting",
+          "python",
+          "python3",
+          "reconnaissance",
+          "redteam",
+          "sherlock",
+          "tools"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2018-12-24T14:30:48Z",
+        "pushedAt": "2026-10-24T05:17:34Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:41.918Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/sherlock.webp",
+          "card": "/shots/sherlock-card.webp",
+          "alt": "Sherlock 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:19:56.611Z",
+          "credit": "页面截图：https://sherlockproject.xyz",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "docs/README.md",
+        "excerpt": "Hunt down social media accounts by username across 400+ social networks Installation &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp; Usage &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp; Contributing Installation [!WARNING] Packages for ParrotOS and Ubuntu 24.04, maintained by a third party, appear to be broken . Users of these systems should defer to `uv`/`pipx`/`pip` or Docker. Method Notes - - `pipx install sherlock-project` `pip` or `uv` may be used in place of `pipx` `docker run -it --rm sherlock/sherlock` `dnf install sherlock-project` Community-maintained packages are available for Debian ( = 13), Ubuntu ( = 22.10), Homebrew, Kali, and BlackArch. These packages are not directly supported or maintained by the Sherlock Project. See all alternative installation methods here. General usage To search for only one user: To search for more than one user: Accounts found will be stored in an individual text file with the corresponding username (e.g ). Credits Thank you to everyone who has contributed to Sherlock! ❤️ Star History License MIT © Sherlock Project Creator - Siddharth Dushantha [ext pypi]: https://pypi.org/project/sherlock-project/ [ext brew]: https://formulae.brew.sh/formula/sherlock",
+        "headings": [
+          "Installation",
+          "General usage",
+          "Credits",
+          "Star History",
+          "License"
+        ],
+        "chars": 1324,
+        "fetchedAt": "2026-10-24T17:55:41.918Z",
+        "truncated": false
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "uv",
+      "name": "uv",
+      "tagline": "Rust 写的 Python 包管理器，顺手把 pyenv 也替了",
+      "summary": "uv 是 Astral（Ruff 的作者）用 Rust 写的 Python 包与项目管理器。README 的第一句卖点很直白：一个工具替代 pip、pip-tools、pipx、poetry、pyenv、twine、virtualenv 等一串名字，并声称比 pip 快 10 到 100 倍。它同时提供项目锁文件、脚本运行、Python 版本管理，以及一个兼容 pip 的命令子集。",
+      "category": "dev-tools",
+      "tags": [
+        "Python",
+        "包管理",
+        "Rust",
+        "虚拟环境",
+        "CLI"
+      ],
+      "aliases": [
+        "astral-sh/uv",
+        "uv python"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "受够 pip 解析依赖慢、环境混乱的 Python 开发者",
+        "想用一份锁文件统一团队环境的项目维护者",
+        "需要在 CI 里快速装依赖的人"
+      ],
+      "features": [
+        {
+          "title": "一套工具替代一串工具",
+          "detail": "README 的 Highlights 明列可替代 pip、pip-tools、pipx、poetry、pyenv、twine、virtualenv。"
+        },
+        {
+          "title": "通用锁文件",
+          "detail": "README 称其提供完整项目管理与 universal lockfile。"
+        },
+        {
+          "title": "管理 Python 版本本身",
+          "detail": "README 的 Features 包含 Python versions，可直接安装与切换解释器。"
+        },
+        {
+          "title": "兼容 pip 接口",
+          "detail": "README 有独立的 pip interface 章节，迁移时可以先用熟悉的命令。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 4400 字，2026-10-24 抓取）的 Highlights / Features / Installation 章节整理；性能倍数引自 README 原文，未独立复测。",
+      "setup": {
+        "effort": "零门槛",
+        "effortNote": "独立安装脚本不需要预先有 Python 或 Rust。",
+        "requires": [
+          "macOS / Linux / Windows"
+        ],
+        "steps": [
+          {
+            "title": "安装",
+            "detail": "macOS / Linux 用 README 给出的 curl 安装脚本；Windows 用 PowerShell 安装脚本或 pipx。"
+          },
+          {
+            "title": "建项目",
+            "detail": "uv init 建项目、uv add 加依赖，依赖会写入 pyproject.toml 与锁文件。"
+          },
+          {
+            "title": "跑脚本",
+            "detail": "uv run 直接在项目环境里执行，无需手动 activate。"
+          }
+        ],
+        "cost": "免费开源，由 Astral 维护。"
+      },
+      "officialUrl": "https://docs.astral.sh/uv/",
+      "demoUrl": null,
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "迁移时先用 uv pip 子命令过渡，比一次换掉整条链路稳。",
+      "addedAt": "2026-10-24",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "复查 Windows 安装脚本地址"
+      },
+      "popularityScore": 496,
+      "weeklyScore": 616,
+      "categoryName": "开发者工具",
+      "license": {
+        "spdx": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "astral-sh",
+        "name": "uv",
+        "fullName": "astral-sh/uv",
+        "url": "https://github.com/astral-sh/uv",
+        "homepage": "https://docs.astral.sh/uv",
+        "description": "An extremely fast Python package and project manager, written in Rust.",
+        "stars": 91115,
+        "forks": 3689,
+        "openIssues": 2988,
+        "language": "Rust",
+        "topics": [
+          "packaging",
+          "python",
+          "resolver",
+          "uv"
+        ],
+        "license": {
+          "spdx": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "url": null
+        },
+        "createdAt": "2023-10-02T20:24:11Z",
+        "pushedAt": "2026-10-24T17:02:31Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:29.664Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/uv.webp",
+          "card": "/shots/uv-card.webp",
+          "alt": "uv 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:02:16.604Z",
+          "credit": "页面截图：https://docs.astral.sh/uv/",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "uv An extremely fast Python package and project manager, written in Rust. Installing Trio 's dependencies with a warm cache. Highlights - A single tool to replace `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv`, and more. - 10-100x faster than `pip`. - Provides comprehensive project management, with a universal lockfile. - Runs scripts, with support for inline dependency metadata. - Installs and manages Python versions. - Runs and installs tools published as Python packages. - Includes a pip-compatible interface for a performance boost with a familiar CLI. - Supports Cargo-style workspaces for scalable projects. - Disk-space efficient, with a global cache for dependency deduplication. - Installable without Rust or Python via `curl` or `pip`. - Supports macOS, Linux, and Windows. uv is backed by Astral, the creators of Ruff and ty. Installation Install uv with our standalone installers: Or, from PyPI: If installed via the standalone installer, uv can update itself to the latest version: See the installation documentation for details and alternative installation methods. Documentation uv's documentation is available at docs.astral.sh/uv. Additionally, the command line reference documentation can be viewed with `uv help`. Features Projects uv manages project dependencies and environments, with support for lockfiles, workspaces, and more, similar to `rye` or `p",
+        "headings": [
+          "uv",
+          "Highlights",
+          "Installation",
+          "On macOS and Linux.",
+          "On Windows.",
+          "With pip.",
+          "Or pipx.",
+          "Documentation",
+          "Features",
+          "Projects",
+          "Scripts",
+          "Tools",
+          "Python versions",
+          "The pip interface",
+          "Contributing",
+          "FAQ",
+          "Acknowledgements",
+          "License"
+        ],
+        "chars": 4363,
+        "fetchedAt": "2026-10-24T17:55:29.664Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "lobe-chat",
+      "name": "LobeHub（LobeChat）",
+      "tagline": "把一堆 AI Agent 编成一个上班的团队",
+      "summary": "LobeHub 的前身是 LobeChat，一个开源的 AI 聊天界面；现在仓库的自我描述已经改成「Chief Agent Operator」——把多个 Agent 当成可招聘、可排班、可汇报的成员来组织。README 里保留了一条很重要的提醒：项目仍在活跃开发中。想要一个漂亮的多模型聊天前端，它依然称职；想要一个稳定的企业级 Agent 调度平台，得先接受它会变。",
+      "category": "ai-tools",
+      "tags": [
+        "AI Agent",
+        "聊天界面",
+        "多模型",
+        "自托管",
+        "MCP"
+      ],
+      "aliases": [
+        "LobeChat",
+        "LobeHub",
+        "lobe-chat"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "需要一个同时接 GPT、Claude、Gemini、DeepSeek 的聊天前端的人",
+        "想试 Agent 编排，但不想一上来就买商业平台的小团队",
+        "喜欢现代前端设计、会在意界面手感的人"
+      ],
+      "features": [
+        {
+          "title": "多模型统一入口",
+          "detail": "README 的 Features 与 Environment Variable 章节列出 OpenAI、Claude、Gemini、DeepSeek、GLM 等模型的接入配置，可在同一界面切换。"
+        },
+        {
+          "title": "Agent 作为工作单元",
+          "detail": "README 用 Operator / Create / Collaborate / Evolve 四节描述产品方向：Agent 可以被创建、排班、协作并汇报，而不只是单轮对话。"
+        },
+        {
+          "title": "插件与 MCP",
+          "detail": "README 有独立的 Plugins 与 MCP 章节，支持通过插件扩展能力、接入 MCP 工具。"
+        },
+        {
+          "title": "一键部署",
+          "detail": "README 给出 Vercel、Zeabur、Sealos、阿里云与 Docker 五种部署路径，并提供环境变量清单。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 3.25 万字，2026-10-24 抓取）的目录结构、Features、Self Hosting、Environment Variable 章节整理。仓库处于活跃开发阶段，README 明确提示功能会变动；未逐行审阅源码。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "可以直接用官方托管版；自托管需要准备模型 API Key 和数据库。",
+        "requires": [
+          "Node.js 20+（本地开发）或 Docker",
+          "至少一个模型提供商的 API Key",
+          "自托管需 PostgreSQL"
+        ],
+        "steps": [
+          {
+            "title": "先用托管版试",
+            "detail": "打开 lobehub.com 注册即可体验，不必先部署。"
+          },
+          {
+            "title": "自托管",
+            "detail": "README 的 Self Hosting 章节给出 Docker 与 Vercel 两种方式，按其中一种准备环境变量。"
+          },
+          {
+            "title": "填 Key",
+            "detail": "在 Environment Variable 章节按所选模型厂商填对应变量，不要写进前端代码。"
+          }
+        ],
+        "cost": "软件免费；模型调用按各家 API 计费。"
+      },
+      "licenseOverride": {
+        "spdx": null,
+        "name": "LobeHub Community License（基于 Apache-2.0 附加条款）",
+        "note": "GitHub 显示为 Other。LICENSE 说明自 1.0 起基于 Apache-2.0，但新增：开发并分发衍生作品需获得商业授权；贡献者同意授权方调整许可。商用前必须阅读原文。",
+        "url": "https://github.com/lobehub/lobe-chat/blob/main/LICENSE"
+      },
+      "officialUrl": "https://lobehub.com",
+      "demoUrl": "https://chat-preview.lobehub.com",
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "README 自己写着「still under active development」，这句话比任何功能列表都值得先看。",
+      "addedAt": "2026-10-25",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-25",
+        "todo": "下季度复查许可证条款是否变化，并确认演示站是否仍开放"
+      },
+      "popularityScore": 492,
+      "weeklyScore": 612,
+      "categoryName": "AI 工具",
+      "license": {
+        "spdx": null,
+        "name": "LobeHub Community License（基于 Apache-2.0 附加条款）",
+        "note": "GitHub 显示为 Other。LICENSE 说明自 1.0 起基于 Apache-2.0，但新增：开发并分发衍生作品需获得商业授权；贡献者同意授权方调整许可。商用前必须阅读原文。",
+        "url": "https://github.com/lobehub/lobe-chat/blob/main/LICENSE"
+      },
+      "repo": {
+        "owner": "lobehub",
+        "name": "lobehub",
+        "fullName": "lobehub/lobehub",
+        "url": "https://github.com/lobehub/lobehub",
+        "homepage": "https://lobehub.com",
+        "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+        "stars": 83466,
+        "forks": 16017,
+        "openIssues": 1165,
+        "language": "TypeScript",
+        "topics": [
+          "agent",
+          "agent-collaboration",
+          "agent-harness",
+          "ai",
+          "cao",
+          "chatgpt",
+          "chief-agent-operator",
+          "claude",
+          "deepseek",
+          "fable",
+          "gemini",
+          "glm",
+          "gpt",
+          "knowledge-base",
+          "loop-engineering",
+          "mcp",
+          "openai",
+          "skills"
+        ],
+        "license": {
+          "spdx": null,
+          "name": "LobeHub Community License（基于 Apache-2.0 附加条款）",
+          "note": "GitHub 显示为 Other。LICENSE 说明自 1.0 起基于 Apache-2.0，但新增：开发并分发衍生作品需获得商业授权；贡献者同意授权方调整许可。商用前必须阅读原文。",
+          "url": "https://github.com/lobehub/lobe-chat/blob/main/LICENSE"
+        },
+        "createdAt": "2023-05-21T07:19:12Z",
+        "pushedAt": "2026-10-24T17:51:14Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:26.793Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/lobe-chat.webp",
+          "card": "/shots/lobe-chat-card.webp",
+          "alt": "LobeHub（LobeChat） 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:15:29.583Z",
+          "credit": "页面截图：https://lobehub.com",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "[![][image-banner]][vercel-link] LobeHub LobeHub organizes your agents into 7×24 operation. It hires, schedules, reports on your entire AI team. You stay in charge — without staying online. English · 简体中文 · [Official Site][official-site] · [Changelog][changelog] · [Documents][docs] · [Blog][blog] · [Feedback][github-issues-link] [![][github-release-shield]][github-release-link] [![][docker-release-shield]][docker-release-link] [![][vercel-shield]][vercel-link] [![][discord-shield]][discord-link] [![][codecov-shield]][codecov-link] [![][github-action-test-shield]][github-action-test-link] [![][github-action-release-shield]][github-action-release-link] [![][github-releasedate-shield]][github-releasedate-link] [![][github-contributors-shield]][github-contributors-link] [![][github-forks-shield]][github-forks-link] [![][github-stars-shield]][github-stars-link] [![][github-issues-shield]][github-issues-link] [![][github-license-shield]][github-license-link] Share LobeHub Repository [![][share-x-shield]][share-x-link] [![][share-telegram-shield]][share-telegram-link] [![][share-whatsapp-shield]][share-whatsapp-link] [![][share-reddit-shield]][share-reddit-link] [![][share-weibo-shield]][share-weibo-link] [![][share-mastodon-shield]][share-mastodon-link] [![][share-linkedin-shield]][share-linkedin-link] Your Chief Agent Operator Table of contents TOC - 👋🏻 Getting Started & Join Our ",
+        "headings": [
+          "LobeHub",
+          "👋🏻 Getting Started & Join Our Community",
+          "✨ Features",
+          "Operator: Agents as the Unit of Work",
+          "Create: Agents as the Unit of Work",
+          "Collaborate: Scale New Forms of Collaboration Networks",
+          "Evolve: Co-evolution of Humans and Agents",
+          "🛳 Self Hosting",
+          "A Deploying with Vercel, Zeabur , Sealos or Alibaba Cloud",
+          "B Deploying with Docker",
+          "Environment Variable",
+          "Obtain OpenAI API Key",
+          "📦 Ecosystem",
+          "🧩 Plugins",
+          "⌨️ Local Development",
+          "🤝 Contributing",
+          "❤️ Sponsor",
+          "🔗 More Products"
+        ],
+        "chars": 32540,
+        "fetchedAt": "2026-10-24T17:55:26.793Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-25"
+    },
+    {
+      "slug": "hoppscotch",
+      "name": "Hoppscotch",
+      "tagline": "打开网页就能发请求的 API 调试台",
+      "summary": "Hoppscotch 是一个开源的 API 开发生态，README 直接把自己定位成 Postman / Insomnia 的开源替代品，覆盖 Web、桌面与 CLI 三种形态。它最实用的一点是轻：浏览器打开就能发第一个请求，不用装客户端，也不用登录。需要离线或团队协作时，再考虑自托管。",
+      "category": "dev-tools",
+      "tags": [
+        "API 调试",
+        "HTTP",
+        "GraphQL",
+        "PWA",
+        "Vue"
+      ],
+      "aliases": [
+        "hoppscotch.io",
+        "Postwoman"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "偶尔要调接口、不想为这个装一个 Electron 客户端的人",
+        "需要 WebSocket / GraphQL / SSE 一起调的开发者",
+        "想在内网自托管一套 API 工具链的团队"
+      ],
+      "features": [
+        {
+          "title": "覆盖多种协议",
+          "detail": "仓库 Topics 与 README 功能列表包含 REST、GraphQL、WebSocket、SSE 等请求类型。"
+        },
+        {
+          "title": "完整 HTTP 方法",
+          "detail": "README 逐条列出 GET / POST / PUT / PATCH / DELETE / HEAD / OPTIONS 等方法，并支持自定义方法。"
+        },
+        {
+          "title": "PWA，可离线",
+          "detail": "仓库 Topics 标注 pwa，README 强调轻量与快速；Web 版可安装为桌面应用。"
+        },
+        {
+          "title": "三种形态",
+          "detail": "README 首段说明提供 Web、桌面与 CLI 版本，并支持自托管。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 7900 字，2026-10-24 抓取）的 Features / Usage / Demo 章节与仓库 Topics 整理。",
+      "setup": {
+        "effort": "零门槛",
+        "effortNote": "直接打开 hoppscotch.io 就能用，不需要账号。",
+        "requires": [
+          "现代浏览器",
+          "可选：Docker（自托管）"
+        ],
+        "steps": [
+          {
+            "title": "直接用",
+            "detail": "打开 hoppscotch.io，新建请求，填 URL 发送。"
+          },
+          {
+            "title": "想离线",
+            "detail": "用浏览器的「安装应用」把 Web 版装成 PWA，或下载桌面客户端。"
+          },
+          {
+            "title": "团队自托管",
+            "detail": "按文档用 Docker 部署，并配置所用的后端服务。"
+          }
+        ],
+        "cost": "开源版免费；官方云版有付费团队功能。"
+      },
+      "officialUrl": "https://hoppscotch.io",
+      "demoUrl": "https://hoppscotch.io",
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "轻是它最大的功能。",
+      "addedAt": "2026-10-24",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "核对自托管文档与云版定价页"
+      },
+      "popularityScore": 491,
+      "weeklyScore": 611,
+      "categoryName": "开发者工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "hoppscotch",
+        "name": "hoppscotch",
+        "fullName": "hoppscotch/hoppscotch",
+        "url": "https://github.com/hoppscotch/hoppscotch",
+        "homepage": "https://hoppscotch.io",
+        "description": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
+        "stars": 80678,
+        "forks": 6181,
+        "openIssues": 862,
+        "language": "TypeScript",
+        "topics": [
+          "api",
+          "api-client",
+          "api-rest",
+          "api-testing",
+          "developer-tools",
+          "graphql",
+          "http",
+          "http-client",
+          "pwa",
+          "rest",
+          "rest-api",
+          "spa",
+          "testing",
+          "testing-tools",
+          "tools",
+          "vue",
+          "vuejs",
+          "websocket"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2019-08-21T13:15:24Z",
+        "pushedAt": "2026-10-23T08:14:56Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:30.373Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/hoppscotch.webp",
+          "card": "/shots/hoppscotch-card.webp",
+          "alt": "Hoppscotch 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:16:41.472Z",
+          "credit": "页面截图：https://hoppscotch.io",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Hoppscotch Open Source API Development Ecosystem Built with ❤︎ by contributors We highly recommend you take a look at the Hoppscotch Documentation to learn more about the app. Support Features ❤️ Lightweight: Crafted with minimalistic UI design. ⚡️ Fast: Send requests and get responses in real time. 🗄️ HTTP Methods: Request methods define the type of action you are requesting to be performed. - `GET` - Requests retrieve resource information - `POST` - The server creates a new entry in a database - `PUT` - Updates an existing resource - `PATCH` - Very similar to `PUT` but makes a partial update on a resource - `DELETE` - Deletes resource or related component - `HEAD` - Retrieve response headers identical to those of a GET request, but without the response body. - `CONNECT` - Establishes a tunnel to the server identified by the target resource - `OPTIONS` - Describe the communication options for the target resource - `TRACE` - Performs a message loop-back test along the path to the target resource - ` ` - Some APIs use custom request methods such as `LIST`. Type in your custom methods. 🌈 Theming: Customizable combinations for background, foreground, and accent colors — customize now. - Choose a theme: System preference, Light, Dark, and Black - Choose accent colors: Green, Teal, Blue, Indigo, Purple, Yellow, Orange, Red, and Pink - Distraction-free Zen mode Customized themes ar",
+        "headings": [
+          "Features",
+          "Demo",
+          "Usage",
+          "Developing",
+          "Contributing",
+          "Continuous Integration",
+          "Changelog",
+          "Authors",
+          "License"
+        ],
+        "chars": 7859,
+        "fetchedAt": "2026-10-24T17:55:30.373Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "screenshot-to-code",
+      "name": "Screenshot to Code",
+      "tagline": "丢一张截图进去，吐出一份能跑的页面代码",
+      "summary": "Screenshot to Code 把截图、设计稿甚至屏幕录制转成 HTML/Tailwind、React、Vue 等前端代码，背后调用的是各家视觉模型。README 明确写了：本地运行需要 API Key 和后端/前端两套服务，最省事的方式是用官方托管版。它适合做原型的第一版，不适合直接当成生产代码交付。",
+      "category": "creative",
+      "tags": [
+        "AI 编程",
+        "截图转代码",
+        "原型",
+        "Tailwind",
+        "React"
+      ],
+      "aliases": [
+        "screenshot-to-code",
+        "screenshottocode"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "手里只有设计稿、想快速起一个可点原型的前端",
+        "在评估视觉模型写前端能力的技术负责人",
+        "需要从竞品截图快速复刻布局的人"
+      ],
+      "features": [
+        {
+          "title": "多技术栈输出",
+          "detail": "README 列出支持 HTML + Tailwind、HTML + CSS、React + Tailwind、Vue + Tailwind、Bootstrap、Ionic + Tailwind。"
+        },
+        {
+          "title": "截图之外的输入",
+          "detail": "README 说明除了截图与 Figma 设计稿，还支持把网页操作的屏幕录制转成可运行原型。"
+        },
+        {
+          "title": "可切换多家模型",
+          "detail": "README 的 Default AI models 一节列出 Gemini、GPT、Claude 等可选模型，并支持 Replicate 的图像生成模型。"
+        },
+        {
+          "title": "本地与托管两种用法",
+          "detail": "README 的 Getting Started 明确区分「本地运行（需 API Key）」与「直接用托管版」。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 5700 字，2026-10-24 抓取）的简介、Supported stacks、Default AI models、Getting Started 章节整理。",
+      "setup": {
+        "effort": "中等门槛",
+        "effortNote": "本地跑要同时起前后端、装 Playwright 的 Chromium，还要自备模型 Key。",
+        "requires": [
+          "Python 后端 + Node 前端",
+          "至少一个视觉模型 API Key",
+          "Playwright Chromium（截图预览用）"
+        ],
+        "steps": [
+          {
+            "title": "先试托管版",
+            "detail": "打开 screenshottocode.com 上传截图，确认效果符合预期。"
+          },
+          {
+            "title": "本地部署",
+            "detail": "按 README 的 Getting Started 分别启动后端与前端。"
+          },
+          {
+            "title": "配 Key",
+            "detail": "在环境变量里填所选模型厂商的 Key，按 README 安装 Chromium 预览依赖。"
+          }
+        ],
+        "cost": "代码 MIT；模型调用按各家 API 计费。"
+      },
+      "officialUrl": "https://screenshottocode.com",
+      "demoUrl": null,
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "把它当草图生成器，别当外包。",
+      "addedAt": "2026-10-21",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "确认托管站是否仍开放"
+      },
+      "popularityScore": 491,
+      "weeklyScore": 551,
+      "categoryName": "创意与设计",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "abi",
+        "name": "screenshot-to-code",
+        "fullName": "abi/screenshot-to-code",
+        "url": "https://github.com/abi/screenshot-to-code",
+        "homepage": "https://screenshottocode.com",
+        "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+        "stars": 80685,
+        "forks": 9864,
+        "openIssues": 148,
+        "language": "Python",
+        "topics": [],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2023-11-14T17:53:32Z",
+        "pushedAt": "2026-10-09T20:02:05Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:36.831Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/screenshot-to-code.webp",
+          "card": "/shots/screenshot-to-code-card.webp",
+          "alt": "Screenshot to Code 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:07:24.416Z",
+          "credit": "页面截图：https://screenshottocode.com",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "screenshot-to-code Convert screenshots, mockups, Figma designs, and screen recordings into clean, functional code using AI. The easiest way to try this is using the official, hosted product at screenshottocode.com → https://github.com/user-attachments/assets/ec08a5e6-9606-41c5-b03a-1bf47dfeba75 Supported stacks: - HTML + Tailwind - HTML + CSS - React + Tailwind - Vue + Tailwind - Bootstrap - Ionic + Tailwind Default AI models: - Gemini 3 Flash Preview and Gemini 3.1 Pro Preview - the best models - GPT-5.5 and GPT-5.4 Mini - Claude Opus 4.6, Claude Opus 4.8 - z-image-turbo (using Replicate) for image generation See the Examples section below for more demos. Screenshot to Code also supports taking a screen recording of a website in action and turning that into a functional prototype. 🛠 Getting Started Choose the path that fits what you want to do: - Run locally: best if you want to customize, self-host, or contribute. - Use the hosted app: the fastest way to try Screenshot to Code with no local setup. Open the hosted app → Running locally requires API keys and a backend/frontend setup. The app has a React/Vite frontend and a FastAPI backend. API keys You need at least one model provider key (OpenAI, Anthropic, or Gemini). Gemini and Replicate are strongly recommended for the best quality of screenshot-to-code accuracy — Gemini powers asset extraction (reusing the real logos/imag",
+        "headings": [
+          "screenshot-to-code",
+          "🛠 Getting Started",
+          "API keys",
+          "Install the Chromium browser used by the screenshot preview tool.",
+          "On Linux, use poetry run playwright install --with-deps chromium to also",
+          "install the required system libraries (needs sudo/apt).",
+          "run the printed command, e.g. source /path/to/venv/bin/activate",
+          "Docker",
+          "🙋‍♂️ FAQs",
+          "📚 Examples"
+        ],
+        "chars": 5729,
+        "fetchedAt": "2026-10-24T17:55:36.831Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "cs-self-learning",
+      "name": "CS 自学指南",
+      "tagline": "一份把名校公开课排成路线的中文自学地图",
+      "summary": "《CS 自学指南》是一本开源的中文计算机自学手册，把散落在各校的公开课程、教材与项目按方向整理成可执行的路线。README 的作者自述写于大四，动机很朴素：好课太多，但没人告诉你先学哪门、作业做到什么程度。它本身不是课程，而是一份带注释的索引。",
+      "category": "learning",
+      "tags": [
+        "计算机科学",
+        "自学路线",
+        "公开课",
+        "中文",
+        "开源图书"
+      ],
+      "aliases": [
+        "csdiy",
+        "CS 自学指南",
+        "cs-self-learning"
+      ],
+      "audience": "学生",
+      "audienceFor": [
+        "想系统自学 CS、但不知道课程顺序的在校生",
+        "准备转行、需要一条可验证学习路径的人",
+        "想给自己列一份长期学习清单的开发者"
+      ],
+      "features": [
+        {
+          "title": "按方向组织课程",
+          "detail": "README 说明书中覆盖算法、体系结构、操作系统、编译、AI、图形学、分布式、数据库等方向，并按模块给出导语与顺序。"
+        },
+        {
+          "title": "中英双语",
+          "detail": "README 明确本书有英文版，贡献内容需要同时提供英文翻译。"
+        },
+        {
+          "title": "以网站形式阅读",
+          "detail": "README 给出在线免费阅读地址 csdiy.wiki。"
+        },
+        {
+          "title": "开放贡献",
+          "detail": "README 有 How to contribute 章节，说明新增课程需按模板并更新 mkdocs 导航。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 1400 字，2026-10-24 抓取）的正文、如何成为贡献者、许可章节整理；站点内容本身未逐页核校。",
+      "setup": {
+        "effort": "零门槛",
+        "effortNote": "直接在线阅读，不需要任何环境。",
+        "requires": [
+          "浏览器"
+        ],
+        "steps": [
+          {
+            "title": "读导论",
+            "detail": "先看 csdiy.wiki 的 CS 学习规划，确认目标方向。"
+          },
+          {
+            "title": "挑一条路线",
+            "detail": "按方向选课，注意每门课标注的先修要求与作业量。"
+          },
+          {
+            "title": "做项目",
+            "detail": "按书中建议完成课程的 lab / project，这是这份指南反复强调的部分。"
+          }
+        ],
+        "cost": "免费。"
+      },
+      "officialUrl": "https://csdiy.wiki",
+      "demoUrl": null,
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "它的价值在于「顺序」和「作业量提示」，这两件事课程目录不会告诉你。",
+      "addedAt": "2026-10-20",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "抽查两条课程链接是否失效"
+      },
+      "popularityScore": 488,
+      "weeklyScore": 508,
+      "categoryName": "学习工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "PKUFlyingPig",
+        "name": "cs-self-learning",
+        "fullName": "PKUFlyingPig/cs-self-learning",
+        "url": "https://github.com/PKUFlyingPig/cs-self-learning",
+        "homepage": "https://csdiy.wiki",
+        "description": "计算机自学指南",
+        "stars": 76399,
+        "forks": 8006,
+        "openIssues": 167,
+        "language": "HTML",
+        "topics": [],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2021-10-20T13:43:42Z",
+        "pushedAt": "2026-09-17T02:11:53Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:38.247Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/cs-self-learning.webp",
+          "card": "/shots/cs-self-learning-card.webp",
+          "alt": "CS 自学指南 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:18:30.910Z",
+          "credit": "页面截图：https://csdiy.wiki",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "CS 自学指南 Everyone should enjoy CS if you have a good teacher to teach you a good course. 新冠肆虐，网课当道，CS 爆火，这一系列的事件都让自学计算机成为了一种潮流。 随着欧美众多名校将质量极高的计算机课程全部开源，自学 CS 成了一件可操作性极强的事情。毫不夸张地说，只要你有毅力和兴趣，自学的成果完全不亚于你在国内任何一所大学受到的本科 CS 教育（当然，这里单指计算机专业领域，大学带给你的显然不止是专业知识）。 我很庆幸在自己大一的时候就选择了自学 CS 这条路，它让我爱上了计算机这门学科，也无比丰富了我的视野。 但同时，自学这条路也有很多困难和阻力：课程繁多不知如何选择，资料零散甚至残缺，作业难度不知深浅，课内任务还需要花时间应付······这些主客观因素叠加到一起，使得好课虽多，却只能在收藏夹里吃灰。 在大学的第四个年头，我想把这一路自学走来的经验和教训，把那些让我受益终身的课程记录下来，分享给大家，形成了这本 CS 自学指南，以期能给所有想自学计算机的朋友一点帮助。 我的目标是让一个刚刚接触计算机的小白，可以完全凭借这些开源社区的优质资源，少走弯路，在 2-3 年内成长为一个有扎实的数学功底和代码能力，经历过数十个千行代码量的 Project 的洗礼，掌握至少 C/C++/Java/JS/Python/Go/Rust 等主流语言，对算法、电路、体系、网络、操统、编译、人工智能、机器学习、计算机视觉、自然语言处理、强化学习、密码学、信息论、博弈论、数值分析、统计学、分布式、数据库、图形学、Web 开发、云服务、超算等等方面均有所涉猎的全能程序员。此后，无论是选择科研还是就业，我相信你都会有相当的竞争力。 你可以在线免费阅读这本书。英文版请移步这里。 如何成为贡献者 一个人的力量终究是有限的，对于书中任意章节你若有想要补充的内容，欢迎各位提出 Pull Request。如果你想贡献一门新的课程，可以参考目前 repo 中的 template 文件作为模版，并在 mkdocs.yml 文件中添加其 navigation，当然你还可以在 CS 学习规划 里的对应模块为其添加言简意赅的导语。如果你有想推荐的书籍，请参考 好书推荐 模块上方的注释按相应格式添加内容。 对于中英混合排版的要点规范，可以参考这个仓库，我们将会对您的 Pull Request 做相应的校对，具体原因参见这个 issue。 本书支持英文版，因此贡献的内容需要提供对应的英文翻译，具体流程可以参考这个 issue。 同时由于个人水平有限，书中难免有笔误甚至概念错误之处，也请各位不吝赐教，在 issue 中提出来。 关于交流社区的建立 本书支持页面评论功能，因此如果你想自学某课程，可以自己建立群聊后（QQ 微信皆可）在对应的课程页面下方发表评论，注明你的学习目标以及加入交流群的途径。此外，过去已有不少朋友在 issue 里建立了类似群聊，可以自行选择直接加入。 Star History ✨ 鸣谢 特别感谢 @AlfredThiel 为项目制作了精美的 Logo。 许可 项目贡献者编写的部分依照 MIT LICENSE。 其余部分（包括但不限于书中提到的课程资源、开源书籍以及视频内容）遵循原作者规定的",
+        "headings": [
+          "CS 自学指南",
+          "如何成为贡献者",
+          "关于交流社区的建立",
+          "Star History",
+          "✨ 鸣谢",
+          "许可"
+        ],
+        "chars": 1431,
+        "fetchedAt": "2026-10-24T17:55:38.247Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "penpot",
+      "name": "Penpot",
+      "tagline": "能自己部署的开源设计协作平台",
+      "summary": "Penpot 是一个开源的在线设计平台，面向需要规模化协作的产品团队。README 的卖点是「完全掌控自己的设计基础设施」：可自托管、基于 SVG/CSS/HTML/JSON 等开放标准、原生支持 Design Tokens，并提供开发者可直接读取的 Inspect 模式。它不是 Figma 的克隆，而是把「设计即代码」这条路线做得更彻底。",
+      "category": "creative",
+      "tags": [
+        "设计工具",
+        "自托管",
+        "Design Tokens",
+        "SVG",
+        "团队协作"
+      ],
+      "aliases": [
+        "penpot",
+        "Penpot App"
+      ],
+      "audience": "设计团队",
+      "audienceFor": [
+        "因合规要求不能把设计稿放公有云的产品团队",
+        "希望设计和前端共用一套 token 的团队",
+        "想摆脱按席位计费的设计协作工具的组织"
+      ],
+      "features": [
+        {
+          "title": "浏览器内实时协作",
+          "detail": "README 写明无论用浏览器还是自建服务器，都支持实时协作。"
+        },
+        {
+          "title": "开放标准文件",
+          "detail": "README 强调基于 SVG、CSS、HTML、JSON 等开放标准，设计结果对开发者可读。"
+        },
+        {
+          "title": "原生 Design Tokens",
+          "detail": "README 称其提供 best-in-class 的 Design Tokens，作为设计与代码之间的单一事实来源。"
+        },
+        {
+          "title": "Inspect 模式与插件",
+          "detail": "README 有独立的 Inspect mode 与 Plugin system 章节，方便开发者取用样式与扩展能力。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 6400 字，2026-10-24 抓取）的 Why Penpot / Plugin system / Designed for developers / Design Systems 章节整理。",
+      "setup": {
+        "effort": "较高门槛",
+        "effortNote": "用官方云版零门槛；自托管要自己维护一套多服务架构。",
+        "requires": [
+          "现代浏览器（云版）",
+          "Docker / Kubernetes（自托管）"
+        ],
+        "steps": [
+          {
+            "title": "先用云版",
+            "detail": "在 penpot.app 注册即可开始设计，验证工作流是否合适。"
+          },
+          {
+            "title": "准备自托管",
+            "detail": "按 README 指向的自托管文档，用 Docker 或 Kubernetes 部署。"
+          },
+          {
+            "title": "接设计系统",
+            "detail": "在项目里配置 Design Tokens 与组件库，前端通过 Inspect 取样式。"
+          }
+        ],
+        "cost": "开源版免费；企业版为付费方案。"
+      },
+      "officialUrl": "https://penpot.app",
+      "demoUrl": "https://design.penpot.app",
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "自托管版不是一键镜像，先读部署文档再决定。",
+      "addedAt": "2026-10-21",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "核对自托管文档入口"
+      },
+      "popularityScore": 479,
+      "weeklyScore": 599,
+      "categoryName": "创意与设计",
+      "license": {
+        "spdx": "MPL-2.0",
+        "name": "Mozilla Public License 2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "penpot",
+        "name": "penpot",
+        "fullName": "penpot/penpot",
+        "url": "https://github.com/penpot/penpot",
+        "homepage": "https://penpot.app",
+        "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
+        "stars": 61608,
+        "forks": 4271,
+        "openIssues": 926,
+        "language": "Clojure",
+        "topics": [
+          "clojure",
+          "clojurescript",
+          "design",
+          "prototyping",
+          "ui",
+          "ux-design",
+          "ux-experience"
+        ],
+        "license": {
+          "spdx": "MPL-2.0",
+          "name": "Mozilla Public License 2.0",
+          "url": null
+        },
+        "createdAt": "2015-12-29T22:09:07Z",
+        "pushedAt": "2026-10-23T21:31:19Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:36.109Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/penpot.webp",
+          "card": "/shots/penpot-card.webp",
+          "alt": "Penpot 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:18:05.166Z",
+          "credit": "页面截图：https://design.penpot.app",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "[uri license]: https://www.mozilla.org/en-US/MPL/2.0 [uri license image]: https://img.shields.io/badge/MPL-2.0-blue.svg Website • User Guide • Learning Center • Community Youtube • Peertube • Linkedin • Instagram • Mastodon • Bluesky • X Penpot video Penpot is the open-source design platform for teams that build digital products at scale. Penpot’s key strength lies in giving you full ownership of your design infrastructure . Built on open source and designed for self-hosting, it puts teams in complete control of their design environment supporting strict compliance and governance requirements. Whether used in the browser or deployed on your own servers , Penpot works with open standards like SVG, CSS, HTML, and JSON. Real-time collaboration strengthens this foundation, helping teams scale and bring design closer to the product through top-tier capabilities. Additionally, developers feel at home using Penpot, because design is expressed as code, enabling a direct translation and shipping products faster. Best-in-class native Design Tokens provide a single source of truth between design and development. They ensure consistency, improve collaboration, and make it easier to manage complex design systems. The MCP server takes it further by enabling multi-directional workflows between design and code. A powerful open API and plugin system makes the workspace programmable, enabling au",
+        "headings": [
+          "Table of contents",
+          "Why Penpot",
+          "Plugin system",
+          "Designed for developers",
+          "Inspect mode",
+          "Integrations",
+          "Building Design Systems: design tokens, components and variants",
+          "Getting started",
+          "Penpot Enterprise",
+          "Community",
+          "Code of Conduct",
+          "Contributing",
+          "Resources",
+          "License"
+        ],
+        "chars": 6410,
+        "fetchedAt": "2026-10-24T17:55:36.109Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "it-tools",
+      "name": "IT-Tools",
+      "tagline": "一个网页里塞满了开发者会临时用到的小工具",
+      "summary": "IT-Tools 是一组面向开发者和 IT 从业者的在线小工具合集，README 的描述是「handy online tools for developers, with great UX」。它解决的是那种「为了一件小事去搜一个网站、结果被广告包围」的痛点：哈希、编码转换、UUID、时间戳、正则测试之类，都在这一个页面里。也可以 Docker 自托管。",
+      "category": "internet-toys",
+      "tags": [
+        "在线工具",
+        "开发者工具",
+        "自托管",
+        "Vue",
+        "效率"
+      ],
+      "aliases": [
+        "it-tools.tech",
+        "IT Tools"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "经常需要临时做一次编码转换、哈希、时间戳计算的开发者",
+        "不想把内部数据贴到随机在线工具网站的团队",
+        "想给团队内网放一个工具箱的运维"
+      ],
+      "features": [
+        {
+          "title": "工具集合",
+          "detail": "README 首句即定义为一组面向开发者与 IT 人员的实用在线工具，仓库 Topics 列出 converter、developer-tools、productivity 等类别。"
+        },
+        {
+          "title": "可自托管",
+          "detail": "README 的 Self host 章节给出 Docker Hub 与 GitHub Packages 两种镜像，以及 Cloudron、Tipi、Unraid 等部署方式。"
+        },
+        {
+          "title": "可扩展",
+          "detail": "README 有 Create a new tool 章节，说明如何新增一个工具。"
+        },
+        {
+          "title": "前端技术栈清晰",
+          "detail": "README 的开发章节基于 Vue 3 + TypeScript + Vite，并提供单元测试与 ESLint 配置说明。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 2100 字，2026-10-24 抓取）的简介、Self host、Project Setup、Create a new tool 章节与仓库 Topics 整理。",
+      "setup": {
+        "effort": "零门槛",
+        "effortNote": "打开网站就能用；自托管也只需要一条 docker 命令。",
+        "requires": [
+          "现代浏览器",
+          "可选：Docker"
+        ],
+        "steps": [
+          {
+            "title": "直接用",
+            "detail": "打开 it-tools.tech，左侧选工具。"
+          },
+          {
+            "title": "自托管",
+            "detail": "docker run -d --name it-tools --restart unless-stopped -p 8080:80 corentinth/it-tools:latest"
+          },
+          {
+            "title": "内网分发",
+            "detail": "把容器放到内网，团队成员通过内网地址访问，避免数据外传。"
+          }
+        ],
+        "cost": "免费开源（GPL-3.0）。"
+      },
+      "officialUrl": "https://it-tools.tech",
+      "demoUrl": "https://it-tools.tech",
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "自托管版本的意义不是省钱，是别把密钥贴到别人的服务器上。",
+      "addedAt": "2026-10-18",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "确认镜像标签与部署文档"
+      },
+      "popularityScore": 461,
+      "weeklyScore": 581,
+      "categoryName": "互联网玩具",
+      "license": {
+        "spdx": "GPL-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "CorentinTh",
+        "name": "it-tools",
+        "fullName": "CorentinTh/it-tools",
+        "url": "https://github.com/CorentinTh/it-tools",
+        "homepage": "https://it-tools.tech",
+        "description": "Collection of handy online tools for developers, with great UX. ",
+        "stars": 40960,
+        "forks": 5517,
+        "openIssues": 859,
+        "language": "Vue",
+        "topics": [
+          "converter",
+          "developer-productivity",
+          "developer-tools",
+          "frontend",
+          "javascript",
+          "productivity",
+          "tool",
+          "tools",
+          "typescript",
+          "vuejs",
+          "website"
+        ],
+        "license": {
+          "spdx": "GPL-3.0",
+          "name": "GNU General Public License v3.0",
+          "url": null
+        },
+        "createdAt": "2020-04-05T11:50:24Z",
+        "pushedAt": "2026-10-22T20:10:52Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:42.617Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/it-tools.webp",
+          "card": "/shots/it-tools-card.webp",
+          "alt": "IT-Tools 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:10:42.573Z",
+          "credit": "页面截图：https://it-tools.tech",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Useful tools for developer and people working in IT. Try it! Functionalities and roadmap Please check the issues to see if some feature listed to be implemented. You have an idea of a tool? Submit a feature request! Self host Self host solutions for your homelab From docker hub: From github packages: Other solutions: - Cloudron - Tipi - Unraid Contribute Recommended IDE Setup VSCode with the following extensions: - Volar (and disable Vetur) - TypeScript Vue Plugin (Volar). - ESLint - i18n Ally with the following settings: Type Support for `.vue` Imports in TS TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need TypeScript Vue Plugin (Volar) to make the TypeScript language service aware of `.vue` types. If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a Take Over Mode that is more performant. You can enable it by the following steps: 1. Disable the built-in TypeScript Extension 1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette 2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)` 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette. Project Setup Compile and Hot-Reload for Development Type-Check, Compile and Minify for Produ",
+        "headings": [
+          "Functionalities and roadmap",
+          "Self host",
+          "Contribute",
+          "Recommended IDE Setup",
+          "Type Support for .vue Imports in TS",
+          "Project Setup",
+          "Compile and Hot-Reload for Development",
+          "Type-Check, Compile and Minify for Production",
+          "Run Unit Tests with [Vitest](https://vitest.dev/)",
+          "Lint with [ESLint](https://eslint.org/)",
+          "Create a new tool",
+          "Contributors",
+          "Credits",
+          "License"
+        ],
+        "chars": 2083,
+        "fetchedAt": "2026-10-24T17:55:42.617Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "learn-git-branching",
+      "name": "Learn Git Branching",
+      "tagline": "在浏览器里把 Git 分支玩坏，再学会它",
+      "summary": "Learn Git Branching 是一个交互式 Git 教学工具：左边敲命令，右边的提交树实时变化。README 说它的核心目的就是「用可视化理解 Git」——命令行里最难建立直觉的部分，在这里变成了一棵能看见的树。除了关卡，它还有一个沙盒模式，可以随便折腾。",
+      "category": "learning",
+      "tags": [
+        "Git",
+        "交互式教程",
+        "可视化",
+        "JavaScript",
+        "零安装"
+      ],
+      "aliases": [
+        "learnGitBranching",
+        "LGB"
+      ],
+      "audience": "初学者",
+      "audienceFor": [
+        "刚学 Git、对 rebase 和 merge 的区别没概念的人",
+        "想给团队做 Git 培训、需要一个能动手的演示环境的人",
+        "准备面试、想复习分支操作的人"
+      ],
+      "features": [
+        {
+          "title": "提交树实时可视化",
+          "detail": "README 说明输入命令后，旁边的 commit tree 会动态更新以反映命令效果。"
+        },
+        {
+          "title": "关卡式教程",
+          "detail": "README 写明它由一系列教育性教程与挑战组成，难度循序渐进。"
+        },
+        {
+          "title": "沙盒模式",
+          "detail": "README 有独立的 Sandbox Mode 章节，默认会先给一个基础仓库让你随便操作。"
+        },
+        {
+          "title": "支持分享与自建关卡",
+          "detail": "README 列出 Sharing permalinks 与 Level Builder 章节。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 5700 字，2026-10-24 抓取）的简介、Sandbox Mode、Levels、Level Builder 章节整理。",
+      "setup": {
+        "effort": "零门槛",
+        "effortNote": "打开网页就能开始，不需要装 Git。",
+        "requires": [
+          "现代浏览器"
+        ],
+        "steps": [
+          {
+            "title": "打开",
+            "detail": "访问 learngitbranching.js.org，中文界面可直接切换。"
+          },
+          {
+            "title": "从基础关开始",
+            "detail": "按顺序做关卡；卡住时可以看提示。"
+          },
+          {
+            "title": "去沙盒乱来",
+            "detail": "在 Sandbox 里自由试验 reset、rebase、cherry-pick。"
+          }
+        ],
+        "cost": "免费开源（MIT）。"
+      },
+      "officialUrl": "https://learngitbranching.js.org",
+      "demoUrl": "https://learngitbranching.js.org/?locale=zh_CN",
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "它教的是心智模型，不是命令大全——这两件事经常被混淆。",
+      "addedAt": "2026-10-20",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "确认中文界面入口"
+      },
+      "popularityScore": 453,
+      "weeklyScore": 573,
+      "categoryName": "学习工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "pcottle",
+        "name": "learnGitBranching",
+        "fullName": "pcottle/learnGitBranching",
+        "url": "https://github.com/pcottle/learnGitBranching",
+        "homepage": "https://pcottle.github.io/learnGitBranching/",
+        "description": "An interactive git visualization and tutorial. Aspiring students of git can use this app to educate and challenge themselves towards mastery of git!",
+        "stars": 34157,
+        "forks": 6033,
+        "openIssues": 58,
+        "language": "JavaScript",
+        "topics": [],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2012-08-13T22:36:09Z",
+        "pushedAt": "2026-10-22T12:06:49Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:37.530Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/learn-git-branching.webp",
+          "card": "/shots/learn-git-branching-card.webp",
+          "alt": "Learn Git Branching 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:07:50.717Z",
+          "credit": "页面截图：https://learngitbranching.js.org/?locale=zh_CN",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "LearnGitBranching LearnGitBranching is a git repository visualizer, sandbox, and a series of educational tutorials and challenges. Its primary purpose is to help developers understand git through the power of visualization (something that's absent when working on the command line). This is achieved through a game with different levels to get acquainted with the different git commands. You can input a variety of commands into LearnGitBranching (LGB) -- as commands are processed, the nearby commit tree will dynamically update to reflect the effects of each command: This visualization combined with tutorials and \"levels\" can help both beginners and intermediate developers polish their version control skills. A quick demo is available here: https://pcottle.github.io/learnGitBranching/?demo Or, you can launch the application normally here: https://pcottle.github.io/learnGitBranching/ Sandbox Mode By default the application launches in \"sandbox mode\" with a basic repository already created. Here you can enter commands and mess around with a repository as much as you like. Keep in mind you can `undo` to undo the effects of the last command `reset` to start over with a clean slate (works in levels too) `git fakeCreateRemote` to simulate creating a remote repository! Sandbox mode can be great for demonstrating something to a friend, but the real learning is with levels... Levels Type `l",
+        "headings": [
+          "LearnGitBranching",
+          "Sandbox Mode",
+          "Levels",
+          "Sharing permalinks",
+          "Level Builder",
+          "Reporting Bugs / Opening Issues",
+          "Building yourself / Contributing Functionality",
+          "or, for a production build:",
+          "go online and request a pull",
+          "Other Technical Details",
+          "Docker",
+          "Some of our amazing contributors",
+          "Helpful Folks"
+        ],
+        "chars": 5691,
+        "fetchedAt": "2026-10-24T17:55:37.530Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "karakeep",
+      "name": "Karakeep",
+      "tagline": "链接、笔记、图片都往里丢，AI 自动打标签",
+      "summary": "Karakeep（原名 Hoarder）是一个可自托管的「书签一切」应用：网页链接、随手笔记、图片、PDF 都能存，抓取标题描述和封面后，用 LLM 自动打标签并做全文与语义搜索。README 的自述是写给「数据囤积者」的。它和稍后读工具的区别在于：它真的把内容存下来了，而不是只存一个链接。",
+      "category": "self-hosted",
+      "tags": [
+        "书签管理",
+        "稍后读",
+        "AI 标签",
+        "全文搜索",
+        "Docker"
+      ],
+      "aliases": [
+        "Hoarder",
+        "karakeep-app"
+      ],
+      "audience": "自托管用户",
+      "audienceFor": [
+        "收藏夹里堆了几百条链接、从来没打开过的人",
+        "想要一个自己的「第二大脑」、但不想把数据交给 SaaS 的人",
+        "需要给研究资料自动打标签的研究者"
+      ],
+      "features": [
+        {
+          "title": "书签一切",
+          "detail": "README 的 Features 首条写明可收藏链接、记简单笔记、存图片与 PDF。"
+        },
+        {
+          "title": "自动抓取元信息",
+          "detail": "README 说明会自动抓取链接的标题、描述与图片。"
+        },
+        {
+          "title": "AI 标签与语义搜索",
+          "detail": "README 列出基于 LLM 的自动打标签与摘要（支持本地 Ollama 模型），以及全文与语义搜索。"
+        },
+        {
+          "title": "防链接失效",
+          "detail": "README 提到用 monolith 做整页归档，以及用 yt-dlp 自动归档视频。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 5600 字，2026-10-24 抓取）的 Features / Demo / Stack 章节整理；AI 功能需要自行配置模型，README 有对应说明。",
+      "setup": {
+        "effort": "中等门槛",
+        "effortNote": "Docker 部署简单，但想用 AI 标签得额外配一个模型（本地或云端）。",
+        "requires": [
+          "Docker",
+          "可选：OpenAI Key 或本地 Ollama",
+          "浏览器扩展（可选）"
+        ],
+        "steps": [
+          {
+            "title": "先试 Demo",
+            "detail": "用 README 提供的 try.karakeep.app 演示账号体验（只读）。"
+          },
+          {
+            "title": "部署",
+            "detail": "按官方文档的 Docker 步骤起服务。"
+          },
+          {
+            "title": "接模型",
+            "detail": "如果要自动标签，在设置里配置 LLM；可用 Ollama 本地模型。"
+          }
+        ],
+        "cost": "软件免费（AGPL-3.0）；AI 功能按所选模型计费。"
+      },
+      "officialUrl": "https://karakeep.app",
+      "demoUrl": "https://try.karakeep.app",
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "从 Hoarder 改名而来，搜旧资料时两个名字都要试。",
+      "addedAt": "2026-10-17",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "确认改名后的域名与演示站"
+      },
+      "popularityScore": 448,
+      "weeklyScore": 568,
+      "categoryName": "自托管项目",
+      "license": {
+        "spdx": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "karakeep-app",
+        "name": "karakeep",
+        "fullName": "karakeep-app/karakeep",
+        "url": "https://github.com/karakeep-app/karakeep",
+        "homepage": "https://karakeep.app",
+        "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
+        "stars": 29954,
+        "forks": 1595,
+        "openIssues": 716,
+        "language": "TypeScript",
+        "topics": [
+          "bookmark-manager",
+          "bookmarks",
+          "bookmarks-manager",
+          "nextjs",
+          "react-native",
+          "read-it-later",
+          "self-hosted"
+        ],
+        "license": {
+          "spdx": "AGPL-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "url": null
+        },
+        "createdAt": "2024-02-06T12:28:31Z",
+        "pushedAt": "2026-10-24T13:26:04Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:44.744Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/karakeep.webp",
+          "card": "/shots/karakeep-card.webp",
+          "alt": "Karakeep 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:12:05.103Z",
+          "credit": "页面截图：https://karakeep.app",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Karakeep (previously Hoarder) is a self-hostable bookmark-everything app with a touch of AI for the data hoarders out there. Features - Bookmark links, take simple notes and store images and pdfs. - Automatic fetching for link titles, descriptions and images. - Sort your bookmarks into lists. - Collaborate with others on the same list. - Full text & semantic search of all the content stored. - LLM-based automatic tagging and summarization. With supports for local models using ollama! - LLM Agents (e.g. OpenClaw, Hermes) friendly with powerful CLI, and official skills. - Rule-based engine for customized management. - OCR for extracting text from images. - Chrome plugin, Firefox addon, and Safari extension for quick bookmarking. - An iOS app, and an Android app. - Mobile offline reading. - Auto hoarding from RSS feeds. - REST API and multiple clients. - Multi-language support. - Mark and store highlights from your hoarded content. - Full page archival (using monolith) to protect against link rot. - Auto video archiving using yt-dlp. - Bulk actions support. - SSO support. - Dark mode support. - Self-hosting first. - Bookmark importers from Chrome, Pocket, Linkwarden, Omnivore, Tab Session Manager. - Automatic sync with browser bookmarks via floccus. Documentation - Installation - Configuration - Screenshots - Security Considerations - Development Demo You can access the demo at ht",
+        "headings": [
+          "<img height=\"50px\" src=\"./screenshots/logo.png\" />",
+          "Features",
+          "Documentation",
+          "Demo",
+          "About the name",
+          "Stack",
+          "Why did I build it?",
+          "Alternatives",
+          "Translations",
+          "Karakeep Cloud ☁️",
+          "One-click Deployment 🚀",
+          "Support",
+          "Community Channels",
+          "License",
+          "Star History"
+        ],
+        "chars": 5601,
+        "fetchedAt": "2026-10-24T17:55:44.744Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "biome",
+      "name": "Biome",
+      "tagline": "用一套 Rust 工具同时替代 ESLint 和 Prettier",
+      "summary": "Biome 是一个面向 Web 项目的工具链，把格式化和静态检查收进同一个二进制文件。README 的定位很清楚：为前端项目提供维护所需的那些基础能力，CLI 和 LSP 两种形态都有。对饱受 ESLint 插件地狱折磨的项目来说，它的吸引力不在功能更多，而在配置更少、跑得更快。",
+      "category": "dev-tools",
+      "tags": [
+        "代码格式化",
+        "静态检查",
+        "Rust",
+        "前端工具链",
+        "LSP"
+      ],
+      "aliases": [
+        "biomejs",
+        "@biomejs/biome"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "受够 ESLint + Prettier 两套配置和插件冲突的前端团队",
+        "想要一个快的 formatter 接入 CI 的人",
+        "新项目起步，不想从零拼装 lint 规则的人"
+      ],
+      "features": [
+        {
+          "title": "格式化 + 检查二合一",
+          "detail": "README 的 Usage 章节分别给出 biome format、biome lint 以及一次跑完两者的 biome check 命令。"
+        },
+        {
+          "title": "面向 CI 的检查模式",
+          "detail": "README 专门演示了在 CI 环境中对所有文件做格式与规则检查的用法。"
+        },
+        {
+          "title": "CLI 与编辑器双形态",
+          "detail": "README 首段即说明提供 CLI 与 LSP；仓库同时发布 VS Code 与 Open VSX 扩展。"
+        },
+        {
+          "title": "覆盖 JS/TS 生态",
+          "detail": "仓库 Topics 列出 javascript、typescript、jsx、css、json，README 支持列表与此一致。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 5000 字，2026-10-24 抓取）的 Installation / Usage / Documentation 章节与仓库 Topics 整理。",
+      "setup": {
+        "effort": "零门槛",
+        "effortNote": "npm 装一个包，或装编辑器扩展即可，不需要改构建流程。",
+        "requires": [
+          "Node.js 18+ 或编辑器扩展",
+          "现有项目（可选）"
+        ],
+        "steps": [
+          {
+            "title": "安装",
+            "detail": "按 README 的 Installation 章节，用包管理器安装 @biomejs/biome。"
+          },
+          {
+            "title": "初始化配置",
+            "detail": "运行 biome init 生成 biome.json。"
+          },
+          {
+            "title": "跑一次检查",
+            "detail": "biome check . 同时做格式与规则检查，按提示加 --write 应用安全修复。"
+          }
+        ],
+        "cost": "免费开源。"
+      },
+      "officialUrl": "https://biomejs.dev",
+      "demoUrl": "https://biomejs.dev/playground/",
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "迁移成本主要在规则名对不上，不在速度。",
+      "addedAt": "2026-10-24",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "确认 playground 是否仍在线"
+      },
+      "popularityScore": 441,
+      "weeklyScore": 561,
+      "categoryName": "开发者工具",
+      "license": {
+        "spdx": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "biomejs",
+        "name": "biome",
+        "fullName": "biomejs/biome",
+        "url": "https://github.com/biomejs/biome",
+        "homepage": "https://biomejs.dev",
+        "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
+        "stars": 25990,
+        "forks": 1292,
+        "openIssues": 553,
+        "language": "Rust",
+        "topics": [
+          "css",
+          "formatter",
+          "javascript",
+          "json",
+          "jsx",
+          "linter",
+          "static-code-analysis",
+          "typescript",
+          "web"
+        ],
+        "license": {
+          "spdx": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "url": null
+        },
+        "createdAt": "2023-07-27T20:30:22Z",
+        "pushedAt": "2026-10-24T21:48:04Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T21:48:37.024Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/biome.webp",
+          "card": "/shots/biome-card.webp",
+          "alt": "Biome 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:01:42.887Z",
+          "credit": "页面截图：https://biomejs.dev",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "[![CI on main][ci-badge]][ci-url] [![Discord chat][discord-badge]][discord-url] [![npm version][npm-badge]][npm-url] [![VSCode version][vscode-badge]][vscode-url] [![Open VSX version][open-vsx-badge]][open-vsx-url] [ci-badge]: https://github.com/biomejs/biome/actions/workflows/main.yml/badge.svg [ci-url]: https://github.com/biomejs/biome/actions/workflows/main.yml [discord-badge]: https://badgen.net/discord/online-members/BypW39g6Yc?icon=discord&label=discord&color=60a5fa [discord-url]: https://biomejs.dev/chat [npm-badge]: https://npmx.dev/api/registry/badge/version/@biomejs/biome?color=60a5fa&style=shieldsio&label=%40biomejs%2Fbiome [npm-url]: https://npmx.dev/package/@biomejs/biome [vscode-badge]: https://badgen.net/vs-marketplace/v/biomejs.biome?label=Visual%20Studio%20Marketplace&icon=visualstudio&labelColor=374151&color=60a5fa [vscode-url]: https://marketplace.visualstudio.com/items?itemName=biomejs.biome [open-vsx-badge]: https://badgen.net/open-vsx/v/biomejs/biome?label=Open%20VSX%20Registry&icon=data:image/svg%2Bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2aWV3Qm94PSI0LjYgNSA5Ni4yIDEyMi43IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0zMCA0NC4yTDUyLjYgNUg3LjN6TTQuNiA4OC41aDQ1LjNMMjcuMiA0OS40em01MSAwbDIyLjYgMzkuMiAyMi42LTM5LjJ6IiBmaWxsPSIjYzE2MGVmIi8%2BCiAgPHBhdGggZD0iTTUyLjYgNUwzMCA0NC4yaDQ1LjJ6TTI3LjIgNDkuNGwyMi43IDM5LjEgMj",
+        "headings": [
+          "Installation",
+          "Usage",
+          "format files",
+          "lint files and apply the safe fixes",
+          "run format, lint, etc. and apply the safe fixes",
+          "check all files against format, lint, etc. in CI environments",
+          "Documentation",
+          "More about Biome",
+          "Funding",
+          "Project sponsorship and funding",
+          "Sponsors",
+          "Platinum Sponsors",
+          "Gold Sponsors",
+          "Silver Sponsors",
+          "Bronze Sponsors"
+        ],
+        "chars": 4974,
+        "fetchedAt": "2026-10-24T21:48:37.024Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "qmk-firmware",
+      "name": "QMK Firmware",
+      "tagline": "自己定义每一颗键位的键盘固件",
+      "summary": "QMK 是一个基于 tmk_keyboard 的开源键盘固件，支持 Atmel AVR 与 ARM 控制器，README 点名的官方支持产品线包括 OLKB、ErgoDox EZ、Clueboard 等。它的意义在于把键盘行为从厂商手里拿回来：层、宏、组合键、RGB 都能改写，代价是你得先弄清自己的板子是哪一颗芯片。",
+      "category": "hardware",
+      "tags": [
+        "键盘固件",
+        "客制化键盘",
+        "嵌入式",
+        "C",
+        "开源硬件"
+      ],
+      "aliases": [
+        "qmk",
+        "QMK",
+        "Quantum Mechanical Keyboard"
+      ],
+      "audience": "硬件玩家",
+      "audienceFor": [
+        "买了客制化键盘、想改键位和层的人",
+        "在做自己的 PCB、需要一套成熟固件的硬件开发者",
+        "想把机械键盘改成符合自己肌肉记忆布局的重度打字者"
+      ],
+      "features": [
+        {
+          "title": "广泛的主控支持",
+          "detail": "README 说明固件基于 tmk_keyboard，面向 Atmel AVR 与 ARM 控制器。"
+        },
+        {
+          "title": "官方与社区键盘库",
+          "detail": "README 列出 Planck、Preonic、ErgoDox EZ、Clueboard、Cluepad、Atreus 等官方支持产品，并说明社区支持大量其他键盘。"
+        },
+        {
+          "title": "在线配置器",
+          "detail": "README 指向 qmk.fm 与文档站，官方提供 config.qmk.fm 在线编译入口。"
+        },
+        {
+          "title": "完整文档",
+          "detail": "README 说明文档托管在 docs.qmk.fm，并可离线预览。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 1100 字，2026-10-24 抓取）的简介、Supported Keyboards、Maintainers、Official Website 章节整理；具体键位功能以官方文档为准。",
+      "setup": {
+        "effort": "较高门槛",
+        "effortNote": "要装工具链、认主控、会刷机；刷坏需要能救砖。",
+        "requires": [
+          "可刷写的键盘或自制 PCB",
+          "QMK CLI / 编译工具链",
+          "对应主控的刷机方式（DFU 等）"
+        ],
+        "steps": [
+          {
+            "title": "确认板子",
+            "detail": "在 QMK 文档的键盘列表里找到自己的型号，确认主控与刷机方式。"
+          },
+          {
+            "title": "在线试配置",
+            "detail": "用 config.qmk.fm 先编译一版固件，验证键位思路。"
+          },
+          {
+            "title": "本地构建",
+            "detail": "按 README 克隆仓库并安装依赖，用 qmk compile 生成固件后刷入。"
+          }
+        ],
+        "cost": "固件免费；硬件自备。"
+      },
+      "officialUrl": "https://qmk.fm",
+      "demoUrl": "https://config.qmk.fm",
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "先确认你的键盘在不在支持列表里，再谈改键。",
+      "addedAt": "2026-10-19",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "确认 config.qmk.fm 可访问"
+      },
+      "popularityScore": 432,
+      "weeklyScore": 552,
+      "categoryName": "开源硬件",
+      "license": {
+        "spdx": "GPL-2.0",
+        "name": "GNU General Public License v2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "qmk",
+        "name": "qmk_firmware",
+        "fullName": "qmk/qmk_firmware",
+        "url": "https://github.com/qmk/qmk_firmware",
+        "homepage": "https://qmk.fm",
+        "description": "Open-source keyboard firmware for Atmel AVR and Arm USB families",
+        "stars": 20778,
+        "forks": 44381,
+        "openIssues": 563,
+        "language": "C",
+        "topics": [
+          "atmel-avr",
+          "c",
+          "c-plus-plus",
+          "clueboard",
+          "ergodox-ez",
+          "keyboard-firmware",
+          "keyboard-support",
+          "olkb",
+          "qmk"
+        ],
+        "license": {
+          "spdx": "GPL-2.0",
+          "name": "GNU General Public License v2.0",
+          "url": null
+        },
+        "createdAt": "2014-12-08T22:02:05Z",
+        "pushedAt": "2026-10-19T12:28:04Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:39.705Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/qmk-firmware.webp",
+          "card": "/shots/qmk-firmware-card.webp",
+          "alt": "QMK Firmware 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:09:12.076Z",
+          "credit": "页面截图：https://config.qmk.fm",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "readme.md",
+        "excerpt": "Quantum Mechanical Keyboard Firmware This is a keyboard firmware based on the tmk\\ keyboard firmware with some useful features for Atmel AVR and ARM controllers, and more specifically, the OLKB product line, the ErgoDox EZ keyboard, and the Clueboard product line. Documentation See the official documentation on docs.qmk.fm The docs are powered by VitePress. They are also viewable offline; see Previewing the Documentation for more details. You can request changes by making a fork and opening a pull request. Supported Keyboards Planck Preonic ErgoDox EZ Clueboard Cluepad Atreus The project also includes community support for lots of other keyboards. Maintainers QMK is developed and maintained by Jack Humbert of OLKB with contributions from the community, and of course, Hasu. The OLKB product firmwares are maintained by Jack Humbert, the Ergodox EZ by ZSA Technology Labs, the Clueboard by Zach White, and the Atreus by Phil Hagelberg. Official Website qmk.fm is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.",
+        "headings": [
+          "Quantum Mechanical Keyboard Firmware",
+          "Documentation",
+          "Supported Keyboards",
+          "Maintainers",
+          "Official Website"
+        ],
+        "chars": 1118,
+        "fetchedAt": "2026-10-24T17:55:39.705Z",
+        "truncated": false
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "linkwarden",
+      "name": "Linkwarden",
+      "tagline": "收藏网页，同时把网页本身存下来",
+      "summary": "Linkwarden 是一个可自托管的协作式书签管理器。它和普通书签工具最大的区别写在 README 的动机里：网页会消失（link rot），所以它在收藏时会把页面截图和 PDF 各存一份。除此之外还有阅读、标注、公开分享与多人协作。适合把「资料」当资产而不是当临时标签的人。",
+      "category": "self-hosted",
+      "tags": [
+        "书签管理",
+        "网页归档",
+        "协作",
+        "标注",
+        "自托管"
+      ],
+      "aliases": [
+        "linkwarden",
+        "Linkwarden App"
+      ],
+      "audience": "自托管用户",
+      "audienceFor": [
+        "做研究、需要长期保存网页原文的人",
+        "团队共享资料链接、希望统一归档的团队",
+        "被「404 了才发现文章没了」坑过的人"
+      ],
+      "features": [
+        {
+          "title": "收藏即归档",
+          "detail": "README 说明会把每个网页保存为截图与 PDF，即使原页面消失也能访问。"
+        },
+        {
+          "title": "阅读与标注",
+          "detail": "README 称其提供阅读与标注体验，把稍后读与网页存档结合起来。"
+        },
+        {
+          "title": "协作与分享",
+          "detail": "README 写明可将链接公开分享，也支持多用户协作。"
+        },
+        {
+          "title": "官方 Demo",
+          "detail": "README 提供 LAUNCH DEMO 入口与 Cloud / 自托管两种使用方式。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 4800 字，2026-10-24 抓取）的 Intro & motivation、Features、Development 章节整理。",
+      "setup": {
+        "effort": "中等门槛",
+        "effortNote": "推荐 Docker 部署，归档功能会占用额外存储。",
+        "requires": [
+          "Docker",
+          "PostgreSQL（随官方 compose 提供）",
+          "存储空间（截图与 PDF）"
+        ],
+        "steps": [
+          {
+            "title": "试 Demo",
+            "detail": "先用 README 的演示入口看交互是否合口味。"
+          },
+          {
+            "title": "部署",
+            "detail": "按官方文档用 Docker Compose 起服务。"
+          },
+          {
+            "title": "装扩展",
+            "detail": "安装浏览器扩展，收藏时自动归档。"
+          }
+        ],
+        "cost": "软件免费（AGPL-3.0）；官方云版为付费服务。"
+      },
+      "officialUrl": "https://linkwarden.app",
+      "demoUrl": "https://cloud.linkwarden.app",
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "「保存链接」和「保存网页」是两件事，这个项目只做后者。",
+      "addedAt": "2026-10-17",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "确认 demo 地址与云版定价"
+      },
+      "popularityScore": 431,
+      "weeklyScore": 551,
+      "categoryName": "自托管项目",
+      "license": {
+        "spdx": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "linkwarden",
+        "name": "linkwarden",
+        "fullName": "linkwarden/linkwarden",
+        "url": "https://github.com/linkwarden/linkwarden",
+        "homepage": "https://linkwarden.app",
+        "description": "⚡️⚡️⚡️ Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.",
+        "stars": 20202,
+        "forks": 877,
+        "openIssues": 693,
+        "language": "TypeScript",
+        "topics": [
+          "bookmark",
+          "bookmark-manager",
+          "collaboration",
+          "nextjs",
+          "react-native",
+          "read-it-later",
+          "self-hosted",
+          "typescript"
+        ],
+        "license": {
+          "spdx": "AGPL-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "url": null
+        },
+        "createdAt": "2022-04-09T07:53:01Z",
+        "pushedAt": "2026-10-24T03:12:52Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:45.523Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/linkwarden.webp",
+          "card": "/shots/linkwarden-card.webp",
+          "alt": "Linkwarden 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:12:21.918Z",
+          "credit": "页面截图：https://linkwarden.app",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Linkwarden Bookmarks, Evolved « LAUNCH DEMO » Cloud · Website · Self-Host · Docs Intro & motivation Linkwarden is a self-hosted, open-source collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place. The objective is to organize useful webpages and articles you find across the web in one place, and since useful webpages can go away (see the inevitability of Link Rot), Linkwarden also saves a copy of each webpage as a Screenshot and PDF, ensuring accessibility even if the original content is no longer available. In addition to preservation, Linkwarden provides a user-friendly reading and annotation experience that blends the simplicity of a “read-it-later” tool with the reliability of a web archive. Whether you’re highlighting key ideas, jotting down thoughts, or revisiting content long after it’s disappeared from the web, Linkwarden keeps your knowledge accessible and organized. Linkwarden is also designed with collaboration in mind, enabling you to share links with the public and/or collaborate seamlessly with multiple users. [!TIP] Our official Cloud offering provides the simplest way to begin using Linkwarden and it's the preferred choice for many due to its time-saving benefits. Your subscription supports our hosting infrastructure and ongoing development. Alternatively, if you prefer self-hosting Linkwarden, you can do so ",
+        "headings": [
+          "Intro & motivation",
+          "Features",
+          "Get Our Official Mobile App",
+          "Like what we're doing? Give us a Star ⭐",
+          "We're building our Community 🌐",
+          "Suggestions",
+          "Roadmap",
+          "Community Projects",
+          "Development",
+          "Translations",
+          "Security",
+          "Support <3",
+          "Thanks to All the Contributors 💪"
+        ],
+        "chars": 4814,
+        "fetchedAt": "2026-10-24T17:55:45.523Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "flipper-zero",
+      "name": "Flipper Zero",
+      "tagline": "一只会读 NFC、红外和 Sub-GHz 的口袋小海豚",
+      "summary": "Flipper Zero 是一个开源固件的多功能掌上设备，仓库里放的是它的固件源码。README 把入口分得很清楚：官网看产品、固件更新页升级、用户文档学用法、开发者文档看代码结构。固件本身用 C 写，跑在 STM32 上，围绕 NFC、RFID、红外、Sub-GHz、iButton、BLE 等模块组织。",
+      "category": "hardware",
+      "tags": [
+        "硬件玩具",
+        "固件",
+        "NFC",
+        "红外",
+        "STM32"
+      ],
+      "aliases": [
+        "flipperzero-firmware",
+        "Flipper",
+        "海豚"
+      ],
+      "audience": "硬件玩家",
+      "audienceFor": [
+        "对射频、NFC 感兴趣、想动手做实验的硬件爱好者",
+        "已经买了设备、想自己改固件或写应用的人",
+        "做安全研究、需要一台便携实验设备的人"
+      ],
+      "features": [
+        {
+          "title": "多协议硬件能力",
+          "detail": "仓库 Topics 列出 nfc、rfid、infrared、subghz、onewire、ble，与设备宣传的模块一致。"
+        },
+        {
+          "title": "固件开源",
+          "detail": "README 首段说明本仓库即 Flipper Zero 固件源码。"
+        },
+        {
+          "title": "两种刷机路径",
+          "detail": "README 的 Development 章节分别说明用调试器刷机与用 USB 刷机。"
+        },
+        {
+          "title": "开发者文档",
+          "detail": "README 提供开发者文档入口，并说明代码结构与构建系统。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 4700 字，2026-10-24 抓取）的简介、Development、Project structure 章节与仓库 Topics 整理；设备硬件规格以官网为准。",
+      "setup": {
+        "effort": "较高门槛",
+        "effortNote": "设备需单独购买；自编译固件要装工具链并接受刷坏的风险。",
+        "requires": [
+          "Flipper Zero 设备",
+          "ARM 工具链（自编译固件）",
+          "USB 线或调试器"
+        ],
+        "steps": [
+          {
+            "title": "先看用户文档",
+            "detail": "README 建议从用户文档入手，确认设备能力与本地法律限制。"
+          },
+          {
+            "title": "更新固件",
+            "detail": "按 README 指向的固件更新页，用官方工具升级。"
+          },
+          {
+            "title": "自编译（可选）",
+            "detail": "按 README 的 Requirements 安装工具链，克隆源码后构建并通过 USB 刷入。"
+          }
+        ],
+        "cost": "固件免费；硬件为付费产品。"
+      },
+      "officialUrl": "https://flipper.net",
+      "demoUrl": null,
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "涉及无线电的设备，先确认当地法规，再谈玩法。",
+      "addedAt": "2026-10-19",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "复查官网域名（flipper.net / flipperzero.one）"
+      },
+      "popularityScore": 422,
+      "weeklyScore": 542,
+      "categoryName": "开源硬件",
+      "license": {
+        "spdx": "GPL-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "flipperdevices",
+        "name": "flipperzero-firmware",
+        "fullName": "flipperdevices/flipperzero-firmware",
+        "url": "https://github.com/flipperdevices/flipperzero-firmware",
+        "homepage": "https://flipper.net",
+        "description": "Flipper Zero firmware source code",
+        "stars": 16772,
+        "forks": 3500,
+        "openIssues": 248,
+        "language": "C",
+        "topics": [
+          "armv7m",
+          "ble",
+          "firmware",
+          "flipper",
+          "flipperzero",
+          "infrared",
+          "nfc",
+          "onewire",
+          "rfid",
+          "stm32",
+          "subghz"
+        ],
+        "license": {
+          "spdx": "GPL-3.0",
+          "name": "GNU General Public License v3.0",
+          "url": null
+        },
+        "createdAt": "2020-07-31T21:43:20Z",
+        "pushedAt": "2026-10-22T00:33:44Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:41.199Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/flipper-zero.webp",
+          "card": "/shots/flipper-zero-card.webp",
+          "alt": "Flipper Zero 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:19:21.693Z",
+          "credit": "页面截图：https://flipperzero.one",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "ReadMe.md",
+        "excerpt": "Flipper Zero Firmware - Flipper Zero Official Website - A simple way to explain to your friends what Flipper Zero can do. - Flipper Zero Firmware Update - Improvements for your dolphin: latest firmware releases, upgrade tools for PC and mobile devices. - User Documentation - Learn more about your dolphin: specs, usage guides, and anything you want to ask. - Developer Documentation - Dive into the Flipper Zero Firmware source code: build system, firmware structure, and more. Contributing Our main goal is to build a healthy and sustainable community around Flipper, so we're open to any new ideas and contributions. We also have some rules and taboos here, so please read this page and our Code of Conduct carefully. I need help The best place to search for answers is our User Documentation. If you can't find the answer there, check our Discord Server. If you want to contribute to the firmware development or modify it for your own needs, you can also check our Developer Documentation. I want to report an issue If you've found an issue and want to report it, please check our Issues page. Make sure the description contains information about the firmware version you're using, your platform, and a clear explanation of the steps to reproduce the issue. I want to propose a new feature If you have a feature request or want to vote on an existing one, please use Discussions and follow our Di",
+        "headings": [
+          "Flipper Zero Firmware",
+          "Contributing",
+          "I need help",
+          "I want to report an issue",
+          "I want to propose a new feature",
+          "I want to contribute code",
+          "Development",
+          "Requirements",
+          "Cloning source code",
+          "Building",
+          "Flashing firmware using an in-circuit debugger",
+          "Flashing firmware using USB",
+          "Documentation",
+          "Project structure",
+          "Links",
+          "SAST Tools"
+        ],
+        "chars": 4652,
+        "fetchedAt": "2026-10-24T17:55:41.199Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "pygwalker",
+      "name": "PyGWalker",
+      "tagline": "把 pandas DataFrame 变成可以拖拽的图表界面",
+      "summary": "PyGWalker 是 Graphic Walker 的 Python 绑定，作用是在 Jupyter Notebook 里把一个 DataFrame 直接变成可拖拽的交互式分析界面，不用先写绘图代码。README 说它支持可视化、清洗、标注，甚至自然语言查询。对做探索性分析的人来说，它省掉的是「先想清楚画什么图」这一步。",
+      "category": "data-viz",
+      "tags": [
+        "pandas",
+        "Jupyter",
+        "探索性分析",
+        "拖拽可视化",
+        "Python"
+      ],
+      "aliases": [
+        "pygwalker",
+        "Graphic Walker",
+        "Pig Walker"
+      ],
+      "audience": "数据团队",
+      "audienceFor": [
+        "常在 Jupyter 里做 EDA 的数据分析师",
+        "想给非技术同事看一眼数据长什么样的开发者",
+        "不想为了一次探索装一整套 BI 的人"
+      ],
+      "features": [
+        {
+          "title": "DataFrame 直接变界面",
+          "detail": "README 说明它把 pandas dataframe 转成可交互的 UI 进行可视化探索。"
+        },
+        {
+          "title": "拖拽 + 自然语言",
+          "detail": "README 写明支持拖拽式可视化、清洗、标注，以及 natural language queries。"
+        },
+        {
+          "title": "嵌进现有工作流",
+          "detail": "README 有 Jupyter Notebook、Streamlit 的独立使用章节。"
+        },
+        {
+          "title": "图表可导出",
+          "detail": "README 包含 Programmatic Export of Charts 一节，说明可在 UI 调好后以代码方式导出图表。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 1.37 万字，2026-10-24 抓取）的 Features / Getting Started / Jupyter / Streamlit / Export 章节整理。",
+      "setup": {
+        "effort": "零门槛",
+        "effortNote": "pip 装完在 Notebook 里两行代码就能出界面。",
+        "requires": [
+          "Python 3.9+",
+          "Jupyter Notebook 或 Streamlit（可选）"
+        ],
+        "steps": [
+          {
+            "title": "安装",
+            "detail": "pip install pygwalker。"
+          },
+          {
+            "title": "导入数据",
+            "detail": "在 Notebook 里读入 DataFrame。"
+          },
+          {
+            "title": "起界面",
+            "detail": "import pygwalker as pyg 后调用 walk，即可在输出单元里拖拽分析。"
+          }
+        ],
+        "cost": "免费开源（Apache-2.0）。"
+      },
+      "officialUrl": "https://kanaries.net/pygwalker",
+      "demoUrl": "https://kanaries.net/pygwalker/online",
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "适合探索，不适合当生产报表；后者还是交给 BI 工具。",
+      "addedAt": "2026-10-22",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "确认在线演示仍可用"
+      },
+      "popularityScore": 420,
+      "weeklyScore": 440,
+      "categoryName": "数据可视化",
+      "license": {
+        "spdx": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "Kanaries",
+        "name": "pygwalker",
+        "fullName": "Kanaries/pygwalker",
+        "url": "https://github.com/Kanaries/pygwalker",
+        "homepage": "https://kanaries.net/pygwalker",
+        "description": "PyGWalker: Turn your dataframe into an interactive UI for visual analysis",
+        "stars": 15992,
+        "forks": 894,
+        "openIssues": 70,
+        "language": "Python",
+        "topics": [
+          "data-analysis",
+          "data-exploration",
+          "dataframe",
+          "matplotlib",
+          "pandas",
+          "plotly",
+          "tableau",
+          "tableau-alternative",
+          "visualization"
+        ],
+        "license": {
+          "spdx": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "url": null
+        },
+        "createdAt": "2023-02-16T05:17:24Z",
+        "pushedAt": "2026-09-05T19:19:19Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:33.973Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/pygwalker.webp",
+          "card": "/shots/pygwalker-card.webp",
+          "alt": "PyGWalker 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:05:22.704Z",
+          "credit": "页面截图：https://kanaries.net/pygwalker",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "English Español Français Deutsch 中文 Türkçe 日本語 한국어 Русский [!NOTE] The English README is the source of truth for the API reference, installation, and development instructions. Translated READMEs are community-maintained and may lag behind this file. PyGWalker: A Python Library for Exploratory Data Analysis with Visualization PyGWalker can simplify your Jupyter Notebook data analysis and data visualization workflow, by turning your pandas dataframe into an interactive user interface for visual exploration. PyGWalker (pronounced like \"Pig Walker\", just for fun) is named as an abbreviation of \" Py thon binding of G raphic Walker \". It integrates Jupyter Notebook with Graphic Walker, an open-source alternative to Tableau. It allows data scientists to visualize / clean / annotates the data with simple drag-and-drop operations and even natural language queries. https://github.com/Kanaries/pygwalker/assets/22167673/2b940e11-cf8b-4cde-b7f6-190fb10ee44b [!TIP] If you want more AI features, we also build runcell, an AI Code Agent in Jupyter that understands your code/data/cells and generate code, execute cells and take actions for you. It can be used in jupyter lab with `pip install runcell` https://github.com/user-attachments/assets/9ec64252-864d-4bd1-8755-83f9b0396d38 Visit Google Colab, Kaggle Code or Graphic Walker Online Demo to test it out! If you prefer using R, check GWalkR, the ",
+        "headings": [
+          "Features",
+          "Getting Started",
+          "Setup pygwalker",
+          "pip",
+          "Conda-forge",
+          "Use pygwalker in Jupyter Notebook",
+          "Quick Start",
+          "Better Practices",
+          "Example in local notebook",
+          "Example in cloud notebook",
+          "Programmatic Export of Charts",
+          "edit the chart in the UI and click the save button",
+          "Use pygwalker in Streamlit",
+          "Adjust the width of the Streamlit page",
+          "Add Title",
+          "You should cache your pygwalker renderer, if you don't want your memory to explode",
+          "[API Reference](https://pygwalker-docs.vercel.app/api-reference/jupyter)",
+          "[pygwalker.walk](https://pygwalker-docs.vercel.app/api-reference/jupyterwalk)",
+          "Development",
+          "Tested Environments",
+          "Configuration And Privacy Policy(pygwalker >= 0.3.10)",
+          "License",
+          "Contribution Guideline",
+          "Resources"
+        ],
+        "chars": 13725,
+        "fetchedAt": "2026-10-24T17:55:33.973Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "espanso",
+      "name": "Espanso",
+      "tagline": "打几个字母，自动展开成一整段文字",
+      "summary": "Espanso 是一个用 Rust 写的跨平台文本扩展器（text expander）：你输入一个触发词，它替换成一段预设内容——常用回复、代码片段、日期、甚至执行脚本后的结果。README 强调隐私优先、100% 本地运行、不追踪用户。对每天要重复输入同样几句话的人来说，这类工具省下的时间比想象中多。",
+      "category": "productivity",
+      "tags": [
+        "文本扩展",
+        "效率",
+        "Rust",
+        "跨平台",
+        "本地优先"
+      ],
+      "aliases": [
+        "espanso",
+        "Text Expander"
+      ],
+      "audience": "普通用户",
+      "audienceFor": [
+        "每天要重复输入客服话术、邮件模板的人",
+        "想要系统级代码片段、又不想被某个编辑器绑死的人",
+        "愿意花半小时配置、换长期效率的人"
+      ],
+      "features": [
+        {
+          "title": "跨平台文本扩展",
+          "detail": "README 的 Key Features 首条即写明支持 Windows、macOS、Linux，并可在几乎任何程序中工作。"
+        },
+        {
+          "title": "本地优先，不追踪",
+          "detail": "README 明确标注 privacy-first、100% local、no tracking。"
+        },
+        {
+          "title": "不只是纯文本",
+          "detail": "README 列出支持图片、表情、日期展开、自定义脚本、Shell 命令、表单与正则触发。"
+        },
+        {
+          "title": "配置即文件",
+          "detail": "README 说明采用文件化配置，并内置 espanso hub 包管理器。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 2600 字，2026-10-24 抓取）的 What is a Text Expander / Key Features / Quick Start Examples 章节整理。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "装完还要写几行 YAML，第一次配完就回不去了。",
+        "requires": [
+          "Windows / macOS / Linux",
+          "一个文本编辑器（改配置文件）"
+        ],
+        "steps": [
+          {
+            "title": "安装",
+            "detail": "按官网说明下载对应平台安装包。"
+          },
+          {
+            "title": "写第一条规则",
+            "detail": "在 match 目录下新建 YAML，定义 trigger 与 replace。"
+          },
+          {
+            "title": "重载配置",
+            "detail": "保存后 espanso 会自动热重载，直接在任意应用里输入触发词测试。"
+          }
+        ],
+        "cost": "免费开源（GPL-3.0）。"
+      },
+      "officialUrl": "https://espanso.org",
+      "demoUrl": null,
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "Wayland 支持在 README 里仍标为 experimental，Linux 用户注意。",
+      "addedAt": "2026-10-23",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "跟踪 Wayland 支持状态"
+      },
+      "popularityScore": 417,
+      "weeklyScore": 537,
+      "categoryName": "效率工具",
+      "license": {
+        "spdx": "GPL-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "espanso",
+        "name": "espanso",
+        "fullName": "espanso/espanso",
+        "url": "https://github.com/espanso/espanso",
+        "homepage": "https://espanso.org",
+        "description": "A Privacy-first, Cross-platform Text Expander written in Rust",
+        "stars": 14686,
+        "forks": 487,
+        "openIssues": 576,
+        "language": "Rust",
+        "topics": [
+          "espanso",
+          "linux",
+          "macos",
+          "productivity",
+          "productivity-tools",
+          "rust",
+          "text-expander",
+          "windows"
+        ],
+        "license": {
+          "spdx": "GPL-3.0",
+          "name": "GNU General Public License v3.0",
+          "url": null
+        },
+        "createdAt": "2019-08-30T07:16:58Z",
+        "pushedAt": "2026-10-23T20:18:41Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:32.512Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/espanso.webp",
+          "card": "/shots/espanso-card.webp",
+          "alt": "Espanso 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:04:07.922Z",
+          "credit": "页面截图：https://espanso.org",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "A cross-platform Text Expander written in Rust Example: 2019 Example: 2025 :----------------------------: :-------------------------------------: Quick Links espanso website espanso hub What is a Text Expander? A text expander is a program that detects when you type a specific keyword and replaces it with something else . This is useful in many ways: Save a lot of typing , expanding common sentences Create system-wide code snippets Execute custom scripts Use emojis like a pro System-wide 'autocorrect' specific to you Key Features Cross-platform ( Windows , macOS , Linux ) Privacy-first (100% local, no tracking) Works with almost any program Emoji support 😄 Image support Includes a powerful Search Bar 🔎 Date expansion support Custom scripts support Shell commands support App-specific configurations Support Forms Expandable with packages Built-in package manager for espanso hub File based configuration Support Regex triggers Experimental Wayland support Written in Rust (Fast, Reliable) Community & Support 💬 espanso Discord Server 📖 official documentation 💬 official Subreddit 🐛 Report Issues 💡 Feature Requests Quick Start Examples You can create additional files to organize your matches any way you want. Make sure to adhere to proper YAML spacing. Team Members and Contributors Team Federico Terzi (Creator of espanso) Rest of team in Alphabetical Order Archigos (Maintainer) ",
+        "headings": [
+          "![Espanso Logo](images/espanso-dark.pnggh-dark-mode-only) ![Espanso Logo](images/espanso-light.pnggh-light-mode-only)",
+          "Quick Links",
+          "What is a Text Expander?",
+          "Key Features",
+          "Community & Support",
+          "Quick Start Examples",
+          "Team Members and Contributors",
+          "Team",
+          "Contributors",
+          "Sponsors",
+          "Donations",
+          "Current Options",
+          "Remarks",
+          "License"
+        ],
+        "chars": 2602,
+        "fetchedAt": "2026-10-24T17:55:32.512Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "metamask-extension",
+      "name": "MetaMask",
+      "tagline": "最常用的浏览器钱包，源码也在这里",
+      "summary": "MetaMask 浏览器扩展是最普及的以太坊钱包入口，这个仓库就是它的扩展端源码。README 主体其实是给贡献者看的：Codespaces 快速上手、本地构建、单元测试与端到端测试怎么跑。需要特别注意许可证：LICENSE 是 ConsenSys 的自定义条款，不是 OSI 认可的开源许可证，商用与再分发前必须读原文。",
+      "category": "web3",
+      "tags": [
+        "钱包",
+        "浏览器扩展",
+        "以太坊",
+        "TypeScript",
+        "Web3"
+      ],
+      "aliases": [
+        "MetaMask Extension",
+        "metamask-extension",
+        "小狐狸钱包"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想读钱包扩展实现、学习 dApp 注入机制的开发者",
+        "准备给 MetaMask 提交 PR 的贡献者",
+        "需要评估该许可证是否能用于商业产品的团队"
+      ],
+      "features": [
+        {
+          "title": "支持主流浏览器",
+          "detail": "README 说明支持 Firefox、Google Chrome 及 Chromium 系浏览器，并建议使用最新版本。"
+        },
+        {
+          "title": "Codespaces 快速上手",
+          "detail": "README 提供 GitHub Codespaces 的快速启动流程，并给了降低 Codespaces 用量的建议。"
+        },
+        {
+          "title": "完整的测试说明",
+          "detail": "README 有 Running Unit Tests and Linting、Running E2E Tests、Run a single spec、headless 等章节。"
+        },
+        {
+          "title": "贡献者文档",
+          "detail": "README 指向独立的 Contributor Docs 与 Developer Docs，分别面向改代码和写 dApp 的人。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 3 万字，2026-10-24 抓取）的简介、Codespaces quickstart、Building on your local machine、Testing 章节，以及仓库 LICENSE 原文整理。产品功能细节以官网为准。",
+      "setup": {
+        "effort": "较高门槛",
+        "effortNote": "普通用户装扩展即可；改源码要 Node 环境、依赖安装和较长的首次构建。",
+        "requires": [
+          "Node.js 与 yarn",
+          "Chrome / Firefox（加载未打包扩展）",
+          "足够的磁盘与内存（构建较重）"
+        ],
+        "steps": [
+          {
+            "title": "普通用户",
+            "detail": "从 metamask.io 跳转到对应浏览器商店安装。"
+          },
+          {
+            "title": "开发者",
+            "detail": "按 README 克隆仓库、安装依赖并构建，然后在浏览器里加载开发版扩展。"
+          },
+          {
+            "title": "跑测试",
+            "detail": "按 README 的 Testing 章节运行单元测试与 E2E 测试。"
+          }
+        ],
+        "cost": "软件免费；链上操作 gas 自理。"
+      },
+      "licenseOverride": {
+        "spdx": null,
+        "name": "ConsenSys 自定义许可（非 OSI 认可）",
+        "note": "GitHub 未识别为标准许可证。仓库 LICENSE 为 ConsenSys Software Inc. 的自定义条款，限制商用与再分发；这不是 OSI 认可的开源许可证，使用前必须阅读原文。",
+        "url": "https://github.com/MetaMask/metamask-extension/blob/main/LICENSE"
+      },
+      "officialUrl": "https://metamask.io",
+      "demoUrl": null,
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "「源码公开」和「开源许可证」是两件事，这个仓库正好是个例子。",
+      "addedAt": "2026-10-16",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "许可证条款需法务复核后再对外引用"
+      },
+      "popularityScore": 412,
+      "weeklyScore": 532,
+      "categoryName": "加密与 Web3",
+      "license": {
+        "spdx": null,
+        "name": "ConsenSys 自定义许可（非 OSI 认可）",
+        "note": "GitHub 未识别为标准许可证。仓库 LICENSE 为 ConsenSys Software Inc. 的自定义条款，限制商用与再分发；这不是 OSI 认可的开源许可证，使用前必须阅读原文。",
+        "url": "https://github.com/MetaMask/metamask-extension/blob/main/LICENSE"
+      },
+      "repo": {
+        "owner": "MetaMask",
+        "name": "metamask-extension",
+        "fullName": "MetaMask/metamask-extension",
+        "url": "https://github.com/MetaMask/metamask-extension",
+        "homepage": "https://metamask.io",
+        "description": "The MetaMask browser extension enables browsing Ethereum blockchain enabled websites",
+        "stars": 13246,
+        "forks": 5601,
+        "openIssues": null,
+        "language": "TypeScript",
+        "topics": [
+          "brave",
+          "chrome",
+          "dapp",
+          "dapp-developers",
+          "edge",
+          "ethereum",
+          "extension",
+          "firefox",
+          "opera",
+          "wallet",
+          "web3"
+        ],
+        "license": {
+          "spdx": null,
+          "name": "ConsenSys 自定义许可（非 OSI 认可）",
+          "note": "GitHub 未识别为标准许可证。仓库 LICENSE 为 ConsenSys Software Inc. 的自定义条款，限制商用与再分发；这不是 OSI 认可的开源许可证，使用前必须阅读原文。",
+          "url": "https://github.com/MetaMask/metamask-extension/blob/main/LICENSE"
+        },
+        "createdAt": null,
+        "pushedAt": "2026-10-23T18:20:11Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T18:00:00.000Z",
+        "source": "api",
+        "warnings": [
+          "GitHub API 额度耗尽后由网页兜底补齐；language/pushedAt 为人工核对值"
+        ]
+      },
+      "screenshots": [
+        {
+          "src": "/shots/metamask-extension.webp",
+          "card": "/shots/metamask-extension-card.webp",
+          "alt": "MetaMask 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:20:26.776Z",
+          "credit": "页面截图：https://metamask.io",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": " MetaMask Browser Extension You can find the latest version of MetaMask on [our official website](https://metamask.io/). For help using MetaMask, visit our [User Support Site](https://support.metamask.io/). For [general questions](https://community.metamask.io/c/learn/26), [feature requests](https://community.metamask.io/c/feature-requests-ideas/13), or [developer questions](https://community.metamask.io/c/developer-questions/11), visit our [Community Forum](https://community.metamask.io/). MetaMask supports Firefox, Google Chrome, and Chromium-based browsers. We recommend using the latest available browser version. For up to the minute news, follow us on [X](https://x.com/MetaMask). To learn how to develop MetaMask-compatible applications, visit our [Developer Docs](https://docs.metamask.io/). To learn how to contribute to the MetaMask codebase, visit our [Contributor Docs](https://gith",
+        "headings": [
+          "MetaMask Browser Extension",
+          "GitHub Codespaces quickstart",
+          "Tips to keep your Codespaces usage lower",
+          "Codespaces on a fork",
+          "Building on your local machine",
+          "AI Agent Skills (`yarn skills`)",
+          "edit .skills.local to set SKILLS_DOMAINS or override skills source paths",
+          "Git Hooks",
+          "Contributing",
+          "Development builds",
+          "Running Unit Tests and Linting",
+          "Running E2E Tests",
+          "Run a single spec",
+          "Run headless",
+          "Debug with the Playwright Inspector (step through each driver action)",
+          "Test and iterate on GitHub Actions more quickly",
+          "Changing dependencies",
+          "Architecture",
+          "Other Docs",
+          "Dapp Developer Resources"
+        ],
+        "chars": 30022,
+        "fetchedAt": "2026-10-24T18:00:00.000Z",
+        "truncated": false
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "esphome",
+      "name": "ESPHome",
+      "tagline": "写几行 YAML，把 ESP32 变成自己的智能家居传感器",
+      "summary": "ESPHome 让你用配置文件而不是代码来定义 ESP32 / ESP8266 / BK72xx / RP2040 的行为：读哪个引脚、上报什么数值、接到哪个家居平台。官网的说法是「商店里买不到想要的设备，就自己做一个」。它和 Home Assistant 配合最顺，但也能通过 MQTT 接入其他系统。",
+      "category": "hardware",
+      "tags": [
+        "ESP32",
+        "智能家居",
+        "YAML",
+        "Home Assistant",
+        "IoT"
+      ],
+      "aliases": [
+        "esphome",
+        "ESPHome.io"
+      ],
+      "audience": "硬件玩家",
+      "audienceFor": [
+        "想自己做温湿度、人体感应节点接进 Home Assistant 的人",
+        "会一点 YAML、但不想写 C++ 的 DIY 爱好者",
+        "需要批量部署同款自制传感器的小型工作室"
+      ],
+      "features": [
+        {
+          "title": "配置代替编程",
+          "detail": "官网首页明确写到：告诉 ESPHome 要做什么，其余由它处理，无需写代码。"
+        },
+        {
+          "title": "支持多种芯片",
+          "detail": "仓库描述列出 ESP32、ESP8266、BK72xx、RP2040 四类平台。"
+        },
+        {
+          "title": "接入家居系统",
+          "detail": "README 与仓库 Topics 标明与 Home Assistant、MQTT 集成。"
+        },
+        {
+          "title": "组件化",
+          "detail": "官网导航有 Components 一栏，按传感器/屏幕/开关等分类提供现成组件。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（仅 89 字，为文档入口页，2026-10-24 抓取）、仓库描述与官网 esphome.io 首页文案整理。详细组件能力以官方文档为准，本页未逐项验证。",
+      "setup": {
+        "effort": "中等门槛",
+        "effortNote": "需要一块开发板和一次 USB 刷机，之后可以 OTA 更新。",
+        "requires": [
+          "ESP32 / ESP8266 等开发板",
+          "USB 数据线（首次刷机）",
+          "可选：Home Assistant"
+        ],
+        "steps": [
+          {
+            "title": "装 ESPHome",
+            "detail": "用 Home Assistant 的 ESPHome 插件，或 pip 安装命令行工具。"
+          },
+          {
+            "title": "写配置",
+            "detail": "新建 YAML，声明板型、Wi-Fi、要用的传感器组件。"
+          },
+          {
+            "title": "首次刷机",
+            "detail": "USB 连接开发板刷入；之后可通过网络 OTA 更新。"
+          }
+        ],
+        "cost": "软件免费；开发板与传感器按硬件成本。"
+      },
+      "licenseOverride": {
+        "spdx": null,
+        "name": "ESPHome License（MIT + GPL-3.0 组合）",
+        "note": "GitHub 显示为 Other。LICENSE 原文说明：C/C++ 运行时部分（.c/.cpp/.h/.hpp/.tcc/.ino）为 GPL-3.0，Python 及其他部分为 MIT，两种许可证全文都附在仓库中。",
+        "url": "https://github.com/esphome/esphome/blob/dev/LICENSE"
+      },
+      "officialUrl": "https://esphome.io",
+      "demoUrl": null,
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "仓库 README 只有一页链接，真正的文档在 esphome.io。",
+      "addedAt": "2026-10-19",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "复查许可证文件所在分支（dev）是否变更"
+      },
+      "popularityScore": 408,
+      "weeklyScore": 528,
+      "categoryName": "开源硬件",
+      "license": {
+        "spdx": null,
+        "name": "ESPHome License（MIT + GPL-3.0 组合）",
+        "note": "GitHub 显示为 Other。LICENSE 原文说明：C/C++ 运行时部分（.c/.cpp/.h/.hpp/.tcc/.ino）为 GPL-3.0，Python 及其他部分为 MIT，两种许可证全文都附在仓库中。",
+        "url": "https://github.com/esphome/esphome/blob/dev/LICENSE"
+      },
+      "repo": {
+        "owner": "esphome",
+        "name": "esphome",
+        "fullName": "esphome/esphome",
+        "url": "https://github.com/esphome/esphome",
+        "homepage": "https://esphome.io/",
+        "description": "ESPHome is a system to control your ESP32, ESP8266, BK72xx, RP2040 by simple yet powerful configuration files and control them remotely through Home Automation systems.",
+        "stars": 11948,
+        "forks": 5746,
+        "openIssues": 722,
+        "language": "C++",
+        "topics": [
+          "esp32",
+          "esp8266",
+          "hacktoberfest",
+          "home-assistant",
+          "home-automation",
+          "iot",
+          "mqtt",
+          "platformio",
+          "python",
+          "yaml"
+        ],
+        "license": {
+          "spdx": null,
+          "name": "ESPHome License（MIT + GPL-3.0 组合）",
+          "note": "GitHub 显示为 Other。LICENSE 原文说明：C/C++ 运行时部分（.c/.cpp/.h/.hpp/.tcc/.ino）为 GPL-3.0，Python 及其他部分为 MIT，两种许可证全文都附在仓库中。",
+          "url": "https://github.com/esphome/esphome/blob/dev/LICENSE"
+        },
+        "createdAt": "2018-04-06T23:23:25Z",
+        "pushedAt": "2026-10-24T16:58:12Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:40.498Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/esphome.webp",
+          "card": "/shots/esphome-card.webp",
+          "alt": "ESPHome 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:09:23.644Z",
+          "credit": "页面截图：https://esphome.io",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "ESPHome --- Documentation -- Issues -- Feature requests ---",
+        "headings": [
+          "ESPHome [![Discord Chat](https://img.shields.io/discord/429907082951524364.svg)](https://discord.gg/KhAMKrd) [![GitHub release](https://img.shields.io/github/release/esphome/esphome.svg)](https://GitHub.com/esphome/esphome/releases/) [![CodSpeed](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json)](https://codspeed.io/esphome/esphome)"
+        ],
+        "chars": 89,
+        "fetchedAt": "2026-10-24T17:55:40.498Z",
+        "truncated": false
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "foundry",
+      "name": "Foundry",
+      "tagline": "Rust 写的以太坊合约开发工具链",
+      "summary": "Foundry 是一套用 Rust 写的以太坊应用开发工具，README 把它拆成几件兵器：Forge 负责编译、测试、模糊测试与部署合约；Cast 负责从命令行读写链上数据；Anvil 提供一个本地节点；Chisel 是一个 Solidity REPL。对习惯命令行和 CI 的合约团队，它比图形化 IDE 更容易纳入自动化。",
+      "category": "web3",
+      "tags": [
+        "以太坊",
+        "智能合约",
+        "Solidity",
+        "Rust",
+        "测试"
+      ],
+      "aliases": [
+        "foundry-rs",
+        "Forge",
+        "Anvil",
+        "Cast"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "写 Solidity、希望测试和部署都在命令行完成的合约开发者",
+        "需要把合约测试接进 CI 的团队",
+        "想做模糊测试（fuzzing）的审计人员"
+      ],
+      "features": [
+        {
+          "title": "Forge：编译到部署",
+          "detail": "README 说明 Forge 负责构建、测试、模糊测试、调试与部署 Solidity 合约。"
+        },
+        {
+          "title": "Cast：链上交互",
+          "detail": "README 描述 Cast 是操作 EVM 合约、发送交易与读取链上数据的命令行工具。"
+        },
+        {
+          "title": "Anvil：本地节点",
+          "detail": "README 列出 Anvil 作为本地以太坊节点，支持分叉。"
+        },
+        {
+          "title": "Chisel：Solidity REPL",
+          "detail": "README 说明 Chisel 是用于快速试验与调试的 Solidity REPL。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 3200 字，2026-10-24 抓取）的工具列表与 Installation / Getting Started 章节，以及官网 getfoundry.sh 首页文案整理。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "一条 curl 安装脚本即可，但需要懂 Solidity 才有东西可编译。",
+        "requires": [
+          "macOS / Linux（Windows 建议 WSL）",
+          "基础 Solidity 知识"
+        ],
+        "steps": [
+          {
+            "title": "安装",
+            "detail": "运行官网给出的 curl -L https://foundry.paradigm.xyz | bash，再执行 foundryup。"
+          },
+          {
+            "title": "建项目",
+            "detail": "forge init 生成标准目录结构。"
+          },
+          {
+            "title": "写测试",
+            "detail": "在 test 目录用 Solidity 写测试，forge test 运行；需要本地链时启动 anvil。"
+          }
+        ],
+        "cost": "免费开源（Apache-2.0 / MIT 双许可，以仓库为准）。"
+      },
+      "officialUrl": "https://getfoundry.sh",
+      "demoUrl": null,
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "Windows 用户先装 WSL，别硬扛。",
+      "addedAt": "2026-10-16",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "确认双许可表述与安装脚本地址"
+      },
+      "popularityScore": 403,
+      "weeklyScore": 523,
+      "categoryName": "加密与 Web3",
+      "license": {
+        "spdx": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "foundry-rs",
+        "name": "foundry",
+        "fullName": "foundry-rs/foundry",
+        "url": "https://github.com/foundry-rs/foundry",
+        "homepage": "https://getfoundry.sh/",
+        "description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
+        "stars": 10692,
+        "forks": 2691,
+        "openIssues": 244,
+        "language": "Rust",
+        "topics": [
+          "alloy",
+          "blockchain",
+          "bytecode",
+          "compiler",
+          "compilers",
+          "dapp",
+          "eth",
+          "ethereum",
+          "evm",
+          "framework",
+          "fuzzing",
+          "ir",
+          "rust",
+          "smart-contracts",
+          "solidity",
+          "tempo",
+          "testing",
+          "tooling",
+          "toolkit",
+          "vyper"
+        ],
+        "license": {
+          "spdx": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "url": null
+        },
+        "createdAt": "2021-09-08T11:23:11Z",
+        "pushedAt": "2026-10-24T15:22:30Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:46.216Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/foundry.webp",
+          "card": "/shots/foundry-card.webp",
+          "alt": "Foundry 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:12:46.402Z",
+          "credit": "页面截图：https://getfoundry.sh",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "&nbsp; [![Github Actions][gha-badge]][gha-url] [![Telegram Chat][tg-badge]][tg-url] [![Telegram Support][tg-support-badge]][tg-support-url] [gha-badge]: https://img.shields.io/github/actions/workflow/status/foundry-rs/foundry/test.yml?branch=master&style=flat-square [gha-url]: https://github.com/foundry-rs/foundry/actions [tg-badge]: https://img.shields.io/endpoint?color=neon&logo=telegram&label=chat&style=flat-square&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Ffoundry rs [tg-url]: https://t.me/foundry rs [tg-support-badge]: https://img.shields.io/endpoint?color=neon&logo=telegram&label=support&style=flat-square&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Ffoundry support [tg-support-url]: https://t.me/foundry support Install [Docs][foundry-docs] Benchmarks Developer Guidelines Contributing Crate Docs --- Blazing fast, portable and modular toolkit for Ethereum application development, written in Rust. - Forge — Build, test, fuzz, debug and deploy Solidity contracts. - Cast — Swiss Army knife for interacting with EVM smart contracts, sending transactions and getting chain data. - Anvil — Fast local Ethereum development node. - Chisel — Fast, utilitarian and verbose Solidity REPL. Installation See the installation guide for more details. Getting Started Initialize a new project, build and test: Interact with a live network: Fork mainnet locally: Read the [Foundry Docs][foundry-doc",
+        "headings": [
+          "Installation",
+          "Getting Started",
+          "Solidity editor integration",
+          "Contributing",
+          "Support"
+        ],
+        "chars": 3206,
+        "fetchedAt": "2026-10-24T17:55:46.216Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "dicebear",
+      "name": "DiceBear",
+      "tagline": "给一串字符，生成一个永远一样的头像",
+      "summary": "DiceBear 是一个开源头像库：把用户名或邮箱之类的种子字符串，确定性地转成 SVG 头像，官方说有 63 种风格。README 强调同一个种子永远得到同一张图，所以数据库里只存那串字符，不存图片，也不用让用户上传头像。10.x 版本还提供了 JavaScript、PHP、Python、Rust、Go、Dart、C# 七种语言的实现。",
+      "category": "internet-toys",
+      "tags": [
+        "头像生成",
+        "SVG",
+        "设计资源",
+        "API",
+        "多语言 SDK"
+      ],
+      "aliases": [
+        "dicebear",
+        "DiceBear Avatars"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "做产品原型、需要一批不涉及真人肖像的头像的开发者",
+        "想让用户注册后立刻有头像、又不想做上传功能的人",
+        "需要可复现占位图的设计师"
+      ],
+      "features": [
+        {
+          "title": "确定性生成",
+          "detail": "README 说明同一个 seed 永远产生同一个头像，因此只需存储字符串。"
+        },
+        {
+          "title": "63 种风格",
+          "detail": "README 写明提供 63 种风格，从手绘角色到抽象图案。"
+        },
+        {
+          "title": "七种语言实现",
+          "detail": "README 列出 JavaScript、PHP、Python、Rust、Go、Dart、C# 的官方库，并要求跨语言输出字节一致。"
+        },
+        {
+          "title": "可选参数丰富",
+          "detail": "README 说明可通过样式选项自定义颜色、背景、旋转，以及发型、眼镜等具体特征。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 3700 字，2026-10-24 抓取）的简介、One library, seven languages 章节整理；风格数量与语言列表均引自 README。",
+      "setup": {
+        "effort": "零门槛",
+        "effortNote": "可以直接用 HTTP API，也可以装 SDK。",
+        "requires": [
+          "任意后端语言，或直接调用 HTTP API"
+        ],
+        "steps": [
+          {
+            "title": "选风格",
+            "detail": "在 dicebear.com/playground 里挑一个风格并试参数。"
+          },
+          {
+            "title": "接 API 或 SDK",
+            "detail": "按文档用 HTTP 接口取 SVG，或安装对应语言的包。"
+          },
+          {
+            "title": "存种子",
+            "detail": "数据库只存用户名/邮箱等 seed，渲染时再生成头像。"
+          }
+        ],
+        "cost": "开源库免费；官方托管 API 有免费额度与付费方案。"
+      },
+      "officialUrl": "https://dicebear.com",
+      "demoUrl": "https://dicebear.com/playground",
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "SVG 头像对隐私友好：不用收集真人照片，也不用处理图片上传。",
+      "addedAt": "2026-10-18",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "核对 SDK 包名与版本"
+      },
+      "popularityScore": 400,
+      "weeklyScore": 520,
+      "categoryName": "互联网玩具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "dicebear",
+        "name": "dicebear",
+        "fullName": "dicebear/dicebear",
+        "url": "https://github.com/dicebear/dicebear",
+        "homepage": "https://www.dicebear.com",
+        "description": "DiceBear is an avatar library for designers and developers. 🌍",
+        "stars": 9924,
+        "forks": 434,
+        "openIssues": 7,
+        "language": "Vue",
+        "topics": [
+          "api",
+          "avataaars",
+          "avatar",
+          "avatar-placeholder",
+          "avatars",
+          "bottts",
+          "dicebear",
+          "figma",
+          "pixel-art"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2017-03-21T12:58:17Z",
+        "pushedAt": "2026-10-21T07:28:37Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:43.327Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/dicebear.webp",
+          "card": "/shots/dicebear-card.webp",
+          "alt": "DiceBear 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:11:18.503Z",
+          "credit": "页面截图：https://dicebear.com/playground",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "DiceBear Avatar Library DiceBear is an open source avatar library. It turns any seed string (a username or an email address, for example) into an SVG avatar in one of 63 styles, from hand-drawn characters to abstract patterns. The same seed always produces the same avatar, so you store a string instead of an image and never ask users to upload a profile picture. Avatars are customizable through style options: colors, backgrounds, rotation, individual features like hair or glasses. Playground Documentation Editor One library, seven languages DiceBear 10 ships as native libraries for JavaScript, PHP, Python, Rust, Go, Dart, and C#. Every port passes a shared test suite that requires byte-identical SVG output to the JavaScript reference. Generate an avatar in the browser, regenerate it later in a Go or PHP backend, and you get the same bytes. Language Package Install ----------------------- ----------------------------------------------------------------------- -------------------------------------------- JavaScript / TypeScript `@dicebear/core` `npm install @dicebear/core` PHP `dicebear/core` `composer require dicebear/core` Python `dicebear-core` `pip install dicebear-core` Rust `dicebear-core` `cargo add dicebear-core` Go `dicebear-go` `go get github.com/dicebear/dicebear-go/v11` Dart `dicebear core` `dart pub add dicebear core` C# `DiceBear.Core` `dotnet add package DiceBear.C",
+        "headings": [
+          "One library, seven languages",
+          "Without writing code",
+          "This repository",
+          "License",
+          "Star this repository",
+          "Sponsors"
+        ],
+        "chars": 3698,
+        "fetchedAt": "2026-10-24T17:55:43.327Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "evidence",
+      "name": "Evidence",
+      "tagline": "用 SQL 和 Markdown 写会自己更新的数据报告",
+      "summary": "Evidence 是一个「BI as code」工具：报告不是拖拽出来的，而是用 SQL 查询加 Markdown 排版写出来的，构建后生成可托管的静态站点。README 把它定位为拖拽式 BI 的开源替代。对已经习惯用 Git 管内容的团队，这意味着图表能进 code review，数据口径也能留痕。",
+      "category": "data-viz",
+      "tags": [
+        "BI",
+        "SQL",
+        "Markdown",
+        "静态站点",
+        "数据报告"
+      ],
+      "aliases": [
+        "evidence.dev",
+        "Evidence BI"
+      ],
+      "audience": "数据团队",
+      "audienceFor": [
+        "想让数据报告进版本控制的分析团队",
+        "已经用 dbt / DuckDB 管数据、缺一个展示层的人",
+        "需要把报表以静态站点交付、不想维护 BI 服务器的人"
+      ],
+      "features": [
+        {
+          "title": "SQL + Markdown 写报告",
+          "detail": "README 首段即写明：用 SQL 与 markdown 在代码里创建报告，是拖拽式 BI 工具的开源替代。"
+        },
+        {
+          "title": "静态输出",
+          "detail": "README 说明可发布到 Evidence Studio，也可把生成的静态站点自托管在自己的基础设施上。"
+        },
+        {
+          "title": "对数据栈友好",
+          "detail": "仓库 Topics 列出 dbt、duckdb、snowflake 等，说明其定位是接现有数据仓库而非替代它。"
+        },
+        {
+          "title": "Agent 友好",
+          "detail": "README 开头称其为 agent-ready 的报告工具，并提及可用 Claude Code / Cursor 等工具开发。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 900 字，2026-10-24 抓取）的 How It Works / Install / Publish 章节与仓库 Topics 整理；README 篇幅较短，未覆盖具体图表语法，相关细节未在本页展开。",
+      "setup": {
+        "effort": "中等门槛",
+        "effortNote": "要有一条能跑 SQL 的数据源，模板项目本身一条命令即可初始化。",
+        "requires": [
+          "Node.js",
+          "一个数据库或数据文件（如 DuckDB）"
+        ],
+        "steps": [
+          {
+            "title": "初始化",
+            "detail": "按 README 的 Create a Project 步骤生成项目骨架。"
+          },
+          {
+            "title": "连数据",
+            "detail": "在配置里指向你的数据库或本地数据文件。"
+          },
+          {
+            "title": "写页面",
+            "detail": "在 markdown 页面里嵌 SQL 查询与图表组件，本地预览后构建。"
+          }
+        ],
+        "cost": "开源版免费；托管版 Evidence Studio 另行计费。"
+      },
+      "officialUrl": "https://evidence.dev",
+      "demoUrl": "https://demo.evidence.dev",
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "它的取舍很明确：牺牲拖拽的即时感，换来可复现。",
+      "addedAt": "2026-10-22",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "确认 demo 站点是否仍可访问"
+      },
+      "popularityScore": 385,
+      "weeklyScore": 505,
+      "categoryName": "数据可视化",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "evidence-dev",
+        "name": "evidence",
+        "fullName": "evidence-dev/evidence",
+        "url": "https://github.com/evidence-dev/evidence",
+        "homepage": "https://evidence.dev",
+        "description": "Business intelligence as code: build fast, interactive data visualizations in SQL and markdown",
+        "stars": 7056,
+        "forks": 429,
+        "openIssues": 15,
+        "language": "TypeScript",
+        "topics": [
+          "analytics",
+          "business-intelligence",
+          "dashboard",
+          "data-engineering",
+          "data-science",
+          "data-visualization",
+          "dbt",
+          "duckdb",
+          "exploratory-data-analysis",
+          "self-hosted",
+          "sql",
+          "svelte",
+          "tailwindcss",
+          "webassembly"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2021-05-27T03:50:19Z",
+        "pushedAt": "2026-10-23T14:42:41Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:33.248Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/evidence.webp",
+          "card": "/shots/evidence-card.webp",
+          "alt": "Evidence 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:21:30.438Z",
+          "credit": "页面截图：https://evidence.dev",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Evidence is an agent-ready tool for creating reports using your data Docs Slack How It Works Evidence is an open-source, code-based alternative to drag-and-drop business intelligence tools. - Create reports in code using SQL and markdown - Develop using Evidence's Agent, or on your local machine with Claude Code / Cursor etc - Self-host or publish on Evidence Studio Install macOS / Linux Windows Create a Project Publish Publish your project on Evidence Studio for hosted reports, or self-host the generated static site on your own infrastructure. See the publishing docs for options. Join the Evidence Community Join our Slack channel to get involved in the community's discussion, share what you're working on, or ask for help. Contributing Contributions are welcome — see CONTRIBUTING.md for how pull requests are reviewed and merged. License Evidence is licensed under the MIT license. See LICENSE for details.",
+        "headings": [
+          "[Docs](https://docs.evidence.studio) | [Slack](https://slack.evidence.dev)",
+          "How It Works",
+          "Install",
+          "macOS / Linux",
+          "Windows",
+          "Create a Project",
+          "Publish",
+          "Join the Evidence Community",
+          "Contributing",
+          "License"
+        ],
+        "chars": 931,
+        "fetchedAt": "2026-10-24T17:55:33.248Z",
+        "truncated": false
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "observable-plot",
+      "name": "Observable Plot",
+      "tagline": "几行代码画出一张能看的图",
+      "summary": "Observable Plot 是一个 JavaScript 图表库，实现的是图形语法（grammar of graphics）式的分层 mark 模型。README 的定位是「加速探索性数据分析」：API 简短、好记，但表达力足够。它和 D3 是同一批人做的，区别是不用你从 scale 和 selection 开始搭。",
+      "category": "data-viz",
+      "tags": [
+        "JavaScript",
+        "图表库",
+        "D3",
+        "SVG",
+        "数据可视化"
+      ],
+      "aliases": [
+        "@observablehq/plot",
+        "Plot"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "要在网页或 Notebook 里快速画统计图的前端开发者",
+        "熟悉 D3 但不想每次都手写 scale 的人",
+        "需要把图表嵌进文档、又要能复现的分析师"
+      ],
+      "features": [
+        {
+          "title": "分层图形语法",
+          "detail": "README 说明其 API 基于 grammar of graphics 风格的分层 mark 与 scale。"
+        },
+        {
+          "title": "面向探索性分析",
+          "detail": "README 首段写明目标是加速 exploratory data analysis，而不是做重型仪表盘。"
+        },
+        {
+          "title": "输出 SVG",
+          "detail": "仓库 Topics 标注 svg，图表以矢量形式渲染，便于嵌入网页与导出。"
+        },
+        {
+          "title": "与 D3 生态同源",
+          "detail": "仓库 Topics 同时标注 d3，API 设计一脉相承，可与 D3 生态配合。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 600 字，2026-10-24 抓取）的简介与文档/示例章节，以及仓库 Topics 整理；README 很短，详细 API 以官方文档为准，本页未展开。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "会 JavaScript 就能上手，但要画对统计图仍需一点图形语法概念。",
+        "requires": [
+          "Node.js 或浏览器环境",
+          "基础 JavaScript"
+        ],
+        "steps": [
+          {
+            "title": "安装",
+            "detail": "npm install @observablehq/plot，或在 Observable 笔记本里直接 import。"
+          },
+          {
+            "title": "准备数据",
+            "detail": "数组形式的对象即可，无需特定数据框架。"
+          },
+          {
+            "title": "画图",
+            "detail": "调用 Plot.plot 并组合 mark，把返回的 SVG 节点挂到页面上。"
+          }
+        ],
+        "cost": "免费开源（ISC）。"
+      },
+      "officialUrl": "https://observablehq.com/plot/",
+      "demoUrl": "https://observablehq.com/@observablehq/plot",
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "文档在 Observable 上，国内访问速度一般，做好心理准备。",
+      "addedAt": "2026-10-22",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "核对示例链接"
+      },
+      "popularityScore": 373,
+      "weeklyScore": 393,
+      "categoryName": "数据可视化",
+      "license": {
+        "spdx": "ISC",
+        "name": "ISC License",
+        "url": null
+      },
+      "repo": {
+        "owner": "observablehq",
+        "name": "plot",
+        "fullName": "observablehq/plot",
+        "url": "https://github.com/observablehq/plot",
+        "homepage": "https://observablehq.com/plot/",
+        "description": "A concise API for exploratory data visualization implementing a layered grammar of graphics",
+        "stars": 5411,
+        "forks": 251,
+        "openIssues": 350,
+        "language": "HTML",
+        "topics": [
+          "charts",
+          "d3",
+          "data-visualization",
+          "svg",
+          "visualization"
+        ],
+        "license": {
+          "spdx": "ISC",
+          "name": "ISC License",
+          "url": null
+        },
+        "createdAt": "2020-10-29T22:30:31Z",
+        "pushedAt": "2026-09-01T17:19:43Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:34.715Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/observable-plot.webp",
+          "card": "/shots/observable-plot-card.webp",
+          "alt": "Observable Plot 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:05:56.843Z",
+          "credit": "页面截图：https://observablehq.com/plot/",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Observable Plot Observable Plot is a free, open-source, JavaScript library for visualizing tabular data, focused on accelerating exploratory data analysis. It has a concise, memorable, yet expressive API, featuring scales and layered marks in the grammar of graphics style. Daily downloads of Observable Plot · oss-analytics Documentation 📚 https://observablehq.com/plot/ Examples 🖼️ https://observablehq.com/@observablehq/plot-gallery Releases 🚀 See our CHANGELOG and summary release notes. Getting help 🏠 See our community guide. Contributing 🙏 See CONTRIBUTING.md.",
+        "headings": [
+          "Observable Plot",
+          "Documentation 📚",
+          "Examples 🖼️",
+          "Releases 🚀",
+          "Getting help 🏠",
+          "Contributing 🙏"
+        ],
+        "chars": 606,
+        "fetchedAt": "2026-10-24T17:55:34.715Z",
+        "truncated": false
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "rainbow",
+      "name": "Rainbow",
+      "tagline": "把以太坊钱包做成一只会动的彩虹",
+      "summary": "Rainbow 是一个开源的以太坊钱包，README 的自我介绍是「住在你口袋里的以太坊钱包」，覆盖 iOS、Android 以及 Chrome、Brave、Edge、Firefox、Arc 等浏览器扩展。它的仓库是移动端与扩展端的源码，开发环境依赖 mise 管理工具链，README 对内部开发者与外部贡献者给了两套不同的配置流程。",
+      "category": "web3",
+      "tags": [
+        "钱包",
+        "以太坊",
+        "React Native",
+        "移动端",
+        "开源"
+      ],
+      "aliases": [
+        "rainbow-me",
+        "Rainbow Wallet"
+      ],
+      "audience": "普通用户",
+      "audienceFor": [
+        "想用一个设计讨喜、开源的以太坊钱包的人",
+        "想在手机和浏览器之间同步使用同一钱包的用户",
+        "对钱包客户端源码感兴趣的移动端开发者"
+      ],
+      "features": [
+        {
+          "title": "多端覆盖",
+          "detail": "README 说明提供 iOS、Android 应用，以及 Chrome、Brave、Edge、Firefox、Arc 浏览器扩展。"
+        },
+        {
+          "title": "React Native 技术栈",
+          "detail": "仓库 Topics 标注 react-native，README 的 Setup 分 iOS 与 Android 两节说明。"
+        },
+        {
+          "title": "工具链固定版本",
+          "detail": "README 的 Prerequisites 要求用 mise 安装固定版本的工具，便于复现构建环境。"
+        },
+        {
+          "title": "区分内外开发者",
+          "detail": "README 分别给出 Internal developers 与 External contributors 的配置步骤，外部贡献者无需私有仓库权限。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 4300 字，2026-10-24 抓取）的简介、Setup / Prerequisites / Internal developers / External contributors 章节整理；钱包功能细节以 App 内与官网说明为准。",
+      "setup": {
+        "effort": "较高门槛",
+        "effortNote": "作为用户零门槛；作为开发者要配 iOS/Android 原生环境。",
+        "requires": [
+          "macOS（iOS 开发）",
+          "mise、Node.js、yarn",
+          "Xcode 或 Android Studio"
+        ],
+        "steps": [
+          {
+            "title": "普通用户",
+            "detail": "从 App Store、Google Play 或浏览器扩展商店安装。"
+          },
+          {
+            "title": "开发者",
+            "detail": "按 README 安装 mise 后执行 mise install，再 corepack enable。"
+          },
+          {
+            "title": "跑起来",
+            "detail": "外部贡献者按 External contributors 一节配置，避免依赖内部私有脚本。"
+          }
+        ],
+        "cost": "软件免费；链上交互的 gas 费自理。"
+      },
+      "officialUrl": "https://rainbow.me",
+      "demoUrl": null,
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "自托管编译钱包有风险，普通用户请直接用商店版本。",
+      "addedAt": "2026-10-16",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "核对扩展商店链接"
+      },
+      "popularityScore": 364,
+      "weeklyScore": 484,
+      "categoryName": "加密与 Web3",
+      "license": {
+        "spdx": "GPL-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "rainbow-me",
+        "name": "rainbow",
+        "fullName": "rainbow-me/rainbow",
+        "url": "https://github.com/rainbow-me/rainbow",
+        "homepage": "https://rainbow.me",
+        "description": "🌈‒ the Ethereum wallet that lives in your pocket ",
+        "stars": 4397,
+        "forks": 764,
+        "openIssues": 47,
+        "language": "TypeScript",
+        "topics": [
+          "defi",
+          "ethereum",
+          "ethereum-wallet",
+          "rainbow",
+          "react-native"
+        ],
+        "license": {
+          "spdx": "GPL-3.0",
+          "name": "GNU General Public License v3.0",
+          "url": null
+        },
+        "createdAt": "2019-03-20T16:46:57Z",
+        "pushedAt": "2026-10-23T19:28:21Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:47.258Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/rainbow.webp",
+          "card": "/shots/rainbow-card.webp",
+          "alt": "Rainbow 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:13:02.736Z",
+          "credit": "页面截图：https://rainbow.me",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "🌈️ Rainbow the Ethereum wallet that lives in your pocket! 📲️ Available on the iOS App Store. 🤖 Android available on the Google Play Store 💻 Browser extension available on, Chrome, Brave, Edge, FireFox, and Arc. 𝕏 Follow us on X Setup [!TIP] Internal developers can also use the `rainbow-me/rainbow-setup` script to install all dependencies and configure the project in one step. Prerequisites 1. Install mise: `curl https://mise.run sh`. See the installation docs for shell activation (required so tool versions auto-switch when you `cd` into the repo). 2. From the repo root: `mise install`. This installs all pinned tools. 3. Enable yarn: `corepack enable` Internal developers Set up these before running `yarn install`, as the postinstall script reads `.env` and `rainbow-scripts` to generate build configs and run prebuild hooks. 1. Authenticate the GitHub CLI (`gh auth login`), or export a `GITHUB TOKEN` with access to our private repos. 2. Run `yarn update-env` to install `.env` (overwrites any existing local `.env`). 3. Clone `rainbow-me/rainbow-scripts` into the project root (the postinstall prebuild hooks depend on it). 4. Install dependencies and run setup: `yarn install && yarn setup`. External contributors 1. Copy `.env.example` to `.env` and fill in your own API keys. Note that some features are currently not accessible; we are working with our Data Providers to provide o",
+        "headings": [
+          "🌈️ Rainbow",
+          "Setup",
+          "Prerequisites",
+          "Internal developers",
+          "External contributors",
+          "iOS (macOS only)",
+          "Android",
+          "Developing"
+        ],
+        "chars": 4276,
+        "fetchedAt": "2026-10-24T17:55:47.258Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "typescript-exercises",
+      "name": "TypeScript Exercises",
+      "tagline": "十几道题，把 TypeScript 的类型系统练到会",
+      "summary": "TypeScript Exercises 是一组循序渐进的交互式练习，README 说目标是让人「玩遍 TypeScript 的各种特性」并建立整体认识。它覆盖基础类型、类型收窄、联合类型、泛型、模块扩充、高级类型映射等主题，并且明确要求：尽量不用 any。适合已经会写 TS、但一遇到复杂类型就卡住的人。",
+      "category": "learning",
+      "tags": [
+        "TypeScript",
+        "类型系统",
+        "练习题",
+        "交互式",
+        "前端"
+      ],
+      "aliases": [
+        "typescript-exercises",
+        "TS Exercises"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "写得出业务代码、但读不懂复杂类型声明的前端",
+        "准备面试、想系统过一遍 TS 类型特性的人",
+        "团队新人培训，需要一套能自动校验的练习"
+      ],
+      "features": [
+        {
+          "title": "按主题递进",
+          "detail": "README 的 Things to cover 列出 Basic typing、Refining types、Union types、Generics、Module augmentation、Advanced type mapping 等主题。"
+        },
+        {
+          "title": "浏览器内做题",
+          "detail": "README 给出在线地址 typescript-exercises.github.io，直接在网页里写代码并验证。"
+        },
+        {
+          "title": "明确禁止 any",
+          "detail": "README 的 Rules and principles 第一条就是 Avoid using any type at all costs。"
+        },
+        {
+          "title": "难度递增",
+          "detail": "README 说明难度会在练习之间快速上升。"
+        }
+      ],
+      "contentBasis": "依据仓库 README.md（约 800 字，2026-10-24 抓取）的 Things to cover / Rules and principles / Contributing 章节整理。",
+      "setup": {
+        "effort": "零门槛",
+        "effortNote": "打开网页即可做题。",
+        "requires": [
+          "浏览器",
+          "基础 TypeScript 语法"
+        ],
+        "steps": [
+          {
+            "title": "打开练习",
+            "detail": "访问 typescript-exercises.github.io 从第一题开始。"
+          },
+          {
+            "title": "做题",
+            "detail": "按题目要求补全类型，页面会给出校验结果。"
+          },
+          {
+            "title": "本地跑（可选）",
+            "detail": "克隆仓库后按 README 用 yarn start 起本地开发服务器。"
+          }
+        ],
+        "cost": "免费开源（MIT）。"
+      },
+      "officialUrl": "https://typescript-exercises.github.io",
+      "demoUrl": "https://typescript-exercises.github.io",
+      "linkStatus": "ok",
+      "linkCheckedAt": "2026-10-24",
+      "featured": false,
+      "editorsNote": "仓库最近一次推送在 2026 年 3 月，更新不快，但练习题这种内容不太会过期。",
+      "addedAt": "2026-10-20",
+      "review": {
+        "status": "published",
+        "reviewedBy": "编辑部",
+        "reviewedAt": "2026-10-24",
+        "todo": "确认在线练习站点可访问"
+      },
+      "popularityScore": 348,
+      "weeklyScore": 348,
+      "categoryName": "学习工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "typescript-exercises",
+        "name": "typescript-exercises",
+        "fullName": "typescript-exercises/typescript-exercises",
+        "url": "https://github.com/typescript-exercises/typescript-exercises",
+        "homepage": "https://typescript-exercises.github.io",
+        "description": "A set of interactive TypeScript exercises",
+        "stars": 3008,
+        "forks": 486,
+        "openIssues": 22,
+        "language": "TypeScript",
+        "topics": [],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2020-04-29T14:47:59Z",
+        "pushedAt": "2026-03-29T12:34:31Z",
+        "archived": false,
+        "fetchedAt": "2026-10-24T17:55:38.980Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/typescript-exercises.webp",
+          "card": "/shots/typescript-exercises-card.webp",
+          "alt": "TypeScript Exercises 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-24T18:08:47.329Z",
+          "credit": "页面截图：https://typescript-exercises.github.io",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "TypeScript exercises Start your journey here: https://typescript-exercises.github.io/ The goal: Let everyone play with many different TypeScript features and get an overview of TypeScript capabilities and principles. Sponsor me: https://github.com/sponsors/mdevils Things to cover 1. Basic typing. 2. Refining types. 3. Union types. 4. Merged types. 5. Generics. 6. Type declarations. 7. Module augmentation. 8. Advanced type mapping. Rules and principles 1. Avoid using `any` type at all costs. 2. Difficulty quickly grows one exercise after another. 3. Feel free to send pull requests if you've come up with improvements! 4. Provide feedback to the creator of these exercises. 5. Enjoy. Contributing 1. Your contributions are welcome. 2. `yarn start` starts the development server.",
+        "headings": [
+          "TypeScript exercises",
+          "Things to cover",
+          "Rules and principles",
+          "Contributing"
+        ],
+        "chars": 802,
+        "fetchedAt": "2026-10-24T17:55:38.980Z",
+        "truncated": false
+      },
+      "updatedAt": "2026-10-24"
+    }
+  ]
+}

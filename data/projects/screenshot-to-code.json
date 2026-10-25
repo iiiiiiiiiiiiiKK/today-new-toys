@@ -1,0 +1,46 @@
+{
+  "slug": "screenshot-to-code",
+  "name": "Screenshot to Code",
+  "tagline": "丢一张截图进去，吐出一份能跑的页面代码",
+  "summary": "Screenshot to Code 把截图、设计稿甚至屏幕录制转成 HTML/Tailwind、React、Vue 等前端代码，背后调用的是各家视觉模型。README 明确写了：本地运行需要 API Key 和后端/前端两套服务，最省事的方式是用官方托管版。它适合做原型的第一版，不适合直接当成生产代码交付。",
+  "category": "creative",
+  "tags": ["AI 编程", "截图转代码", "原型", "Tailwind", "React"],
+  "aliases": ["screenshot-to-code", "screenshottocode"],
+  "audience": "开发者",
+  "audienceFor": [
+    "手里只有设计稿、想快速起一个可点原型的前端",
+    "在评估视觉模型写前端能力的技术负责人",
+    "需要从竞品截图快速复刻布局的人"
+  ],
+  "features": [
+    { "title": "多技术栈输出", "detail": "README 列出支持 HTML + Tailwind、HTML + CSS、React + Tailwind、Vue + Tailwind、Bootstrap、Ionic + Tailwind。" },
+    { "title": "截图之外的输入", "detail": "README 说明除了截图与 Figma 设计稿，还支持把网页操作的屏幕录制转成可运行原型。" },
+    { "title": "可切换多家模型", "detail": "README 的 Default AI models 一节列出 Gemini、GPT、Claude 等可选模型，并支持 Replicate 的图像生成模型。" },
+    { "title": "本地与托管两种用法", "detail": "README 的 Getting Started 明确区分「本地运行（需 API Key）」与「直接用托管版」。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 5700 字，2026-10-24 抓取）的简介、Supported stacks、Default AI models、Getting Started 章节整理。",
+  "setup": {
+    "effort": "中等门槛",
+    "effortNote": "本地跑要同时起前后端、装 Playwright 的 Chromium，还要自备模型 Key。",
+    "requires": ["Python 后端 + Node 前端", "至少一个视觉模型 API Key", "Playwright Chromium（截图预览用）"],
+    "steps": [
+      { "title": "先试托管版", "detail": "打开 screenshottocode.com 上传截图，确认效果符合预期。" },
+      { "title": "本地部署", "detail": "按 README 的 Getting Started 分别启动后端与前端。" },
+      { "title": "配 Key", "detail": "在环境变量里填所选模型厂商的 Key，按 README 安装 Chromium 预览依赖。" }
+    ],
+    "cost": "代码 MIT；模型调用按各家 API 计费。"
+  },
+  "officialUrl": "https://screenshottocode.com",
+  "demoUrl": null,
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "把它当草图生成器，别当外包。",
+  "addedAt": "2026-10-21",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "确认托管站是否仍开放"
+  }
+}

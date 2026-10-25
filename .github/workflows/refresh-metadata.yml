@@ -1,0 +1,47 @@
+# 每周刷新仓库元信息（可选工作流，默认不会在你 fork 后自动运行）
+#
+# 它只更新机器可核实的事实：Star / 许可证 / 最近推送 / README 摘要。
+# 中文介绍不会自动改写——README 有变化时由人工复核。
+#
+# 启用方式：
+#   1. 在仓库 Settings → Actions 里允许 workflow 运行
+#   2. 如需定时，取消下面 schedule 的注释
+#   3. 确保 Actions 有 contents: write 权限（下方已声明）
+name: refresh-metadata
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '0 1 * * 1'   # 每周一 09:00 Asia/Shanghai
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: 抓取最新元信息
+        run: npm run data:fetch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: 数据检查
+        run: npm run data:check
+      - name: 重建数据文件
+        run: npm run data:build
+      - name: 提交快照与日志
+        run: |
+          git config user.name "newtoys-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/repo data/readme data/logs public/data
+          if git diff --staged --quiet; then
+            echo "没有变化"
+          else
+            git commit -m "chore: refresh repo metadata $(date -u +%Y-%m-%d)"
+            git push
+          fi

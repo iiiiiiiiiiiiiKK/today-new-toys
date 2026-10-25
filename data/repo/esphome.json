@@ -1,0 +1,53 @@
+{
+  "slug": "esphome",
+  "repoInput": "esphome/esphome",
+  "fetchedAt": "2026-10-24T17:55:40.498Z",
+  "github": {
+    "owner": "esphome",
+    "name": "esphome",
+    "fullName": "esphome/esphome",
+    "url": "https://github.com/esphome/esphome",
+    "homepage": "https://esphome.io/",
+    "description": "ESPHome is a system to control your ESP32, ESP8266, BK72xx, RP2040 by simple yet powerful configuration files and control them remotely through Home Automation systems.",
+    "stars": 11948,
+    "forks": 5746,
+    "openIssues": 722,
+    "language": "C++",
+    "topics": [
+      "esp32",
+      "esp8266",
+      "hacktoberfest",
+      "home-assistant",
+      "home-automation",
+      "iot",
+      "mqtt",
+      "platformio",
+      "python",
+      "yaml"
+    ],
+    "license": {
+      "spdx": null,
+      "name": "Other",
+      "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+      "url": null
+    },
+    "createdAt": "2018-04-06T23:23:25Z",
+    "pushedAt": "2026-10-24T16:58:12Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T17:55:40.498Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "dev",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 89,
+    "headings": [
+      "ESPHome [![Discord Chat](https://img.shields.io/discord/429907082951524364.svg)](https://discord.gg/KhAMKrd) [![GitHub release](https://img.shields.io/github/release/esphome/esphome.svg)](https://GitHub.com/esphome/esphome/releases/) [![CodSpeed](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json)](https://codspeed.io/esphome/esphome)"
+    ],
+    "excerpt": "ESPHome --- Documentation -- Issues -- Feature requests ---",
+    "truncated": false,
+    "rawFile": "data/readme/esphome.md"
+  }
+}

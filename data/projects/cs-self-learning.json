@@ -1,0 +1,46 @@
+{
+  "slug": "cs-self-learning",
+  "name": "CS 自学指南",
+  "tagline": "一份把名校公开课排成路线的中文自学地图",
+  "summary": "《CS 自学指南》是一本开源的中文计算机自学手册，把散落在各校的公开课程、教材与项目按方向整理成可执行的路线。README 的作者自述写于大四，动机很朴素：好课太多，但没人告诉你先学哪门、作业做到什么程度。它本身不是课程，而是一份带注释的索引。",
+  "category": "learning",
+  "tags": ["计算机科学", "自学路线", "公开课", "中文", "开源图书"],
+  "aliases": ["csdiy", "CS 自学指南", "cs-self-learning"],
+  "audience": "学生",
+  "audienceFor": [
+    "想系统自学 CS、但不知道课程顺序的在校生",
+    "准备转行、需要一条可验证学习路径的人",
+    "想给自己列一份长期学习清单的开发者"
+  ],
+  "features": [
+    { "title": "按方向组织课程", "detail": "README 说明书中覆盖算法、体系结构、操作系统、编译、AI、图形学、分布式、数据库等方向，并按模块给出导语与顺序。" },
+    { "title": "中英双语", "detail": "README 明确本书有英文版，贡献内容需要同时提供英文翻译。" },
+    { "title": "以网站形式阅读", "detail": "README 给出在线免费阅读地址 csdiy.wiki。" },
+    { "title": "开放贡献", "detail": "README 有 How to contribute 章节，说明新增课程需按模板并更新 mkdocs 导航。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 1400 字，2026-10-24 抓取）的正文、如何成为贡献者、许可章节整理；站点内容本身未逐页核校。",
+  "setup": {
+    "effort": "零门槛",
+    "effortNote": "直接在线阅读，不需要任何环境。",
+    "requires": ["浏览器"],
+    "steps": [
+      { "title": "读导论", "detail": "先看 csdiy.wiki 的 CS 学习规划，确认目标方向。" },
+      { "title": "挑一条路线", "detail": "按方向选课，注意每门课标注的先修要求与作业量。" },
+      { "title": "做项目", "detail": "按书中建议完成课程的 lab / project，这是这份指南反复强调的部分。" }
+    ],
+    "cost": "免费。"
+  },
+  "officialUrl": "https://csdiy.wiki",
+  "demoUrl": null,
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "它的价值在于「顺序」和「作业量提示」，这两件事课程目录不会告诉你。",
+  "addedAt": "2026-10-20",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "抽查两条课程链接是否失效"
+  }
+}

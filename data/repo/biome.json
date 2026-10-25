@@ -1,0 +1,65 @@
+{
+  "slug": "biome",
+  "repoInput": "biomejs/biome",
+  "fetchedAt": "2026-10-24T21:48:37.024Z",
+  "github": {
+    "owner": "biomejs",
+    "name": "biome",
+    "fullName": "biomejs/biome",
+    "url": "https://github.com/biomejs/biome",
+    "homepage": "https://biomejs.dev",
+    "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
+    "stars": 25990,
+    "forks": 1292,
+    "openIssues": 553,
+    "language": "Rust",
+    "topics": [
+      "css",
+      "formatter",
+      "javascript",
+      "json",
+      "jsx",
+      "linter",
+      "static-code-analysis",
+      "typescript",
+      "web"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "name": "Apache License 2.0",
+      "url": null
+    },
+    "createdAt": "2023-07-27T20:30:22Z",
+    "pushedAt": "2026-10-24T21:48:04Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T21:48:37.024Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "main",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 4974,
+    "headings": [
+      "Installation",
+      "Usage",
+      "format files",
+      "lint files and apply the safe fixes",
+      "run format, lint, etc. and apply the safe fixes",
+      "check all files against format, lint, etc. in CI environments",
+      "Documentation",
+      "More about Biome",
+      "Funding",
+      "Project sponsorship and funding",
+      "Sponsors",
+      "Platinum Sponsors",
+      "Gold Sponsors",
+      "Silver Sponsors",
+      "Bronze Sponsors"
+    ],
+    "excerpt": "[![CI on main][ci-badge]][ci-url] [![Discord chat][discord-badge]][discord-url] [![npm version][npm-badge]][npm-url] [![VSCode version][vscode-badge]][vscode-url] [![Open VSX version][open-vsx-badge]][open-vsx-url] [ci-badge]: https://github.com/biomejs/biome/actions/workflows/main.yml/badge.svg [ci-url]: https://github.com/biomejs/biome/actions/workflows/main.yml [discord-badge]: https://badgen.net/discord/online-members/BypW39g6Yc?icon=discord&label=discord&color=60a5fa [discord-url]: https://biomejs.dev/chat [npm-badge]: https://npmx.dev/api/registry/badge/version/@biomejs/biome?color=60a5fa&style=shieldsio&label=%40biomejs%2Fbiome [npm-url]: https://npmx.dev/package/@biomejs/biome [vscode-badge]: https://badgen.net/vs-marketplace/v/biomejs.biome?label=Visual%20Studio%20Marketplace&icon=visualstudio&labelColor=374151&color=60a5fa [vscode-url]: https://marketplace.visualstudio.com/items?itemName=biomejs.biome [open-vsx-badge]: https://badgen.net/open-vsx/v/biomejs/biome?label=Open%20VSX%20Registry&icon=data:image/svg%2Bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2aWV3Qm94PSI0LjYgNSA5Ni4yIDEyMi43IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0zMCA0NC4yTDUyLjYgNUg3LjN6TTQuNiA4OC41aDQ1LjNMMjcuMiA0OS40em01MSAwbDIyLjYgMzkuMiAyMi42LTM5LjJ6IiBmaWxsPSIjYzE2MGVmIi8%2BCiAgPHBhdGggZD0iTTUyLjYgNUwzMCA0NC4yaDQ1LjJ6TTI3LjIgNDkuNGwyMi43IDM5LjEgMj",
+    "truncated": true,
+    "rawFile": "data/readme/biome.md"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "qmk-firmware",
+  "name": "QMK Firmware",
+  "tagline": "自己定义每一颗键位的键盘固件",
+  "summary": "QMK 是一个基于 tmk_keyboard 的开源键盘固件，支持 Atmel AVR 与 ARM 控制器，README 点名的官方支持产品线包括 OLKB、ErgoDox EZ、Clueboard 等。它的意义在于把键盘行为从厂商手里拿回来：层、宏、组合键、RGB 都能改写，代价是你得先弄清自己的板子是哪一颗芯片。",
+  "category": "hardware",
+  "tags": ["键盘固件", "客制化键盘", "嵌入式", "C", "开源硬件"],
+  "aliases": ["qmk", "QMK", "Quantum Mechanical Keyboard"],
+  "audience": "硬件玩家",
+  "audienceFor": [
+    "买了客制化键盘、想改键位和层的人",
+    "在做自己的 PCB、需要一套成熟固件的硬件开发者",
+    "想把机械键盘改成符合自己肌肉记忆布局的重度打字者"
+  ],
+  "features": [
+    { "title": "广泛的主控支持", "detail": "README 说明固件基于 tmk_keyboard，面向 Atmel AVR 与 ARM 控制器。" },
+    { "title": "官方与社区键盘库", "detail": "README 列出 Planck、Preonic、ErgoDox EZ、Clueboard、Cluepad、Atreus 等官方支持产品，并说明社区支持大量其他键盘。" },
+    { "title": "在线配置器", "detail": "README 指向 qmk.fm 与文档站，官方提供 config.qmk.fm 在线编译入口。" },
+    { "title": "完整文档", "detail": "README 说明文档托管在 docs.qmk.fm，并可离线预览。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 1100 字，2026-10-24 抓取）的简介、Supported Keyboards、Maintainers、Official Website 章节整理；具体键位功能以官方文档为准。",
+  "setup": {
+    "effort": "较高门槛",
+    "effortNote": "要装工具链、认主控、会刷机；刷坏需要能救砖。",
+    "requires": ["可刷写的键盘或自制 PCB", "QMK CLI / 编译工具链", "对应主控的刷机方式（DFU 等）"],
+    "steps": [
+      { "title": "确认板子", "detail": "在 QMK 文档的键盘列表里找到自己的型号，确认主控与刷机方式。" },
+      { "title": "在线试配置", "detail": "用 config.qmk.fm 先编译一版固件，验证键位思路。" },
+      { "title": "本地构建", "detail": "按 README 克隆仓库并安装依赖，用 qmk compile 生成固件后刷入。" }
+    ],
+    "cost": "固件免费；硬件自备。"
+  },
+  "officialUrl": "https://qmk.fm",
+  "demoUrl": "https://config.qmk.fm",
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "先确认你的键盘在不在支持列表里，再谈改键。",
+  "addedAt": "2026-10-19",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "确认 config.qmk.fm 可访问"
+  }
+}

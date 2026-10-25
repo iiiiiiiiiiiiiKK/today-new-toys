@@ -1,0 +1,46 @@
+{
+  "slug": "dicebear",
+  "name": "DiceBear",
+  "tagline": "给一串字符，生成一个永远一样的头像",
+  "summary": "DiceBear 是一个开源头像库：把用户名或邮箱之类的种子字符串，确定性地转成 SVG 头像，官方说有 63 种风格。README 强调同一个种子永远得到同一张图，所以数据库里只存那串字符，不存图片，也不用让用户上传头像。10.x 版本还提供了 JavaScript、PHP、Python、Rust、Go、Dart、C# 七种语言的实现。",
+  "category": "internet-toys",
+  "tags": ["头像生成", "SVG", "设计资源", "API", "多语言 SDK"],
+  "aliases": ["dicebear", "DiceBear Avatars"],
+  "audience": "开发者",
+  "audienceFor": [
+    "做产品原型、需要一批不涉及真人肖像的头像的开发者",
+    "想让用户注册后立刻有头像、又不想做上传功能的人",
+    "需要可复现占位图的设计师"
+  ],
+  "features": [
+    { "title": "确定性生成", "detail": "README 说明同一个 seed 永远产生同一个头像，因此只需存储字符串。" },
+    { "title": "63 种风格", "detail": "README 写明提供 63 种风格，从手绘角色到抽象图案。" },
+    { "title": "七种语言实现", "detail": "README 列出 JavaScript、PHP、Python、Rust、Go、Dart、C# 的官方库，并要求跨语言输出字节一致。" },
+    { "title": "可选参数丰富", "detail": "README 说明可通过样式选项自定义颜色、背景、旋转，以及发型、眼镜等具体特征。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 3700 字，2026-10-24 抓取）的简介、One library, seven languages 章节整理；风格数量与语言列表均引自 README。",
+  "setup": {
+    "effort": "零门槛",
+    "effortNote": "可以直接用 HTTP API，也可以装 SDK。",
+    "requires": ["任意后端语言，或直接调用 HTTP API"],
+    "steps": [
+      { "title": "选风格", "detail": "在 dicebear.com/playground 里挑一个风格并试参数。" },
+      { "title": "接 API 或 SDK", "detail": "按文档用 HTTP 接口取 SVG，或安装对应语言的包。" },
+      { "title": "存种子", "detail": "数据库只存用户名/邮箱等 seed，渲染时再生成头像。" }
+    ],
+    "cost": "开源库免费；官方托管 API 有免费额度与付费方案。"
+  },
+  "officialUrl": "https://dicebear.com",
+  "demoUrl": "https://dicebear.com/playground",
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "SVG 头像对隐私友好：不用收集真人照片，也不用处理图片上传。",
+  "addedAt": "2026-10-18",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "核对 SDK 包名与版本"
+  }
+}

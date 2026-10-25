@@ -1,0 +1,46 @@
+{
+  "slug": "hoppscotch",
+  "name": "Hoppscotch",
+  "tagline": "打开网页就能发请求的 API 调试台",
+  "summary": "Hoppscotch 是一个开源的 API 开发生态，README 直接把自己定位成 Postman / Insomnia 的开源替代品，覆盖 Web、桌面与 CLI 三种形态。它最实用的一点是轻：浏览器打开就能发第一个请求，不用装客户端，也不用登录。需要离线或团队协作时，再考虑自托管。",
+  "category": "dev-tools",
+  "tags": ["API 调试", "HTTP", "GraphQL", "PWA", "Vue"],
+  "aliases": ["hoppscotch.io", "Postwoman"],
+  "audience": "开发者",
+  "audienceFor": [
+    "偶尔要调接口、不想为这个装一个 Electron 客户端的人",
+    "需要 WebSocket / GraphQL / SSE 一起调的开发者",
+    "想在内网自托管一套 API 工具链的团队"
+  ],
+  "features": [
+    { "title": "覆盖多种协议", "detail": "仓库 Topics 与 README 功能列表包含 REST、GraphQL、WebSocket、SSE 等请求类型。" },
+    { "title": "完整 HTTP 方法", "detail": "README 逐条列出 GET / POST / PUT / PATCH / DELETE / HEAD / OPTIONS 等方法，并支持自定义方法。" },
+    { "title": "PWA，可离线", "detail": "仓库 Topics 标注 pwa，README 强调轻量与快速；Web 版可安装为桌面应用。" },
+    { "title": "三种形态", "detail": "README 首段说明提供 Web、桌面与 CLI 版本，并支持自托管。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 7900 字，2026-10-24 抓取）的 Features / Usage / Demo 章节与仓库 Topics 整理。",
+  "setup": {
+    "effort": "零门槛",
+    "effortNote": "直接打开 hoppscotch.io 就能用，不需要账号。",
+    "requires": ["现代浏览器", "可选：Docker（自托管）"],
+    "steps": [
+      { "title": "直接用", "detail": "打开 hoppscotch.io，新建请求，填 URL 发送。" },
+      { "title": "想离线", "detail": "用浏览器的「安装应用」把 Web 版装成 PWA，或下载桌面客户端。" },
+      { "title": "团队自托管", "detail": "按文档用 Docker 部署，并配置所用的后端服务。" }
+    ],
+    "cost": "开源版免费；官方云版有付费团队功能。"
+  },
+  "officialUrl": "https://hoppscotch.io",
+  "demoUrl": "https://hoppscotch.io",
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "轻是它最大的功能。",
+  "addedAt": "2026-10-24",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "核对自托管文档与云版定价页"
+  }
+}

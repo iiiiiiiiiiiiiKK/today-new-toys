@@ -1,0 +1,57 @@
+{
+  "slug": "ollama",
+  "name": "Ollama",
+  "tagline": "一条命令在本机跑起开源大模型",
+  "summary": "Ollama 把「下载模型、跑起来、对外提供 API」压缩成一条命令。README 现在的定位是本地与云端都能用：既可以在自己的 Mac / Windows / Linux 上离线跑，也可以连官方云模型。它真正的价值不是模型本身，而是把推理服务做成了一个开发者不用关心的黑盒——装好之后你面对的是一个 REST API 和命令行。",
+  "category": "ai-tools",
+  "tags": ["本地推理", "大模型", "命令行", "REST API", "Go"],
+  "aliases": ["ollama", "Ollama CLI"],
+  "audience": "开发者",
+  "audienceFor": [
+    "想在本机跑模型、又不想折腾 CUDA 和推理框架的人",
+    "需要给本地应用接一个 OpenAI 风格接口的后端开发者",
+    "对数据出境敏感、希望完全离线运行的人"
+  ],
+  "features": [
+    {
+      "title": "一条命令拉模型",
+      "detail": "README 的 Get started 章节演示了直接运行模型并进入对话，模型库见 ollama.com/library。" },
+    {
+      "title": "REST API",
+      "detail": "README 明确提供用于运行和管理模型的 REST API，并有独立的 API 文档。"
+    },
+    {
+      "title": "官方多语言 SDK",
+      "detail": "README 列出 ollama-python 与 ollama-js 两个官方库。"
+    },
+    {
+      "title": "接入现有编码工具",
+      "detail": "README 说明可以把 Ollama 接到 Claude Code、Codex、Copilot CLI、OpenCode 等工具上作为后端。"
+    }
+  ],
+  "contentBasis": "依据仓库 README.md（约 8700 字，2026-10-24 抓取）的 Get started / REST API / Libraries / Coding 章节整理；模型清单与下载入口均来自 README 原文。",
+  "setup": {
+    "effort": "零门槛",
+    "effortNote": "下载安装包或跑一条 docker 命令即可，不需要 Python 环境。",
+    "requires": ["8GB 内存起步（7B 级模型建议 16GB）", "可选：NVIDIA / AMD 显卡加速"],
+    "steps": [
+      { "title": "安装", "detail": "从 ollama.com 下载 macOS / Windows / Linux 版本，或使用官方 Docker 镜像 ollama/ollama。" },
+      { "title": "跑一个模型", "detail": "按 README 的 Get started 选择模型并运行，首次会自动下载权重。" },
+      { "title": "接进自己的程序", "detail": "调用本地 REST API，或安装 ollama-python / ollama-js。" }
+    ],
+    "cost": "软件免费；本地运行只花电费，云端模型按官方定价。"
+  },
+  "officialUrl": "https://ollama.com",
+  "demoUrl": null,
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": true,
+  "editorsNote": "它没有让模型变聪明，只是让「跑起来」这件事不再是一个项目。",
+  "addedAt": "2026-10-25",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-25",
+    "todo": "核对云端模型定价页与本地模型库的可用性"
+  }
+}

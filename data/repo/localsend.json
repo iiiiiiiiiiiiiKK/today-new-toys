@@ -1,0 +1,66 @@
+{
+  "slug": "localsend",
+  "repoInput": "localsend/localsend",
+  "fetchedAt": "2026-10-24T17:55:31.809Z",
+  "github": {
+    "owner": "localsend",
+    "name": "localsend",
+    "fullName": "localsend/localsend",
+    "url": "https://github.com/localsend/localsend",
+    "homepage": "https://localsend.org",
+    "description": "An open-source cross-platform alternative to AirDrop",
+    "stars": 95447,
+    "forks": 5370,
+    "openIssues": 1029,
+    "language": "Dart",
+    "topics": [
+      "dart",
+      "file-sharing",
+      "flutter",
+      "flutter-apps"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "name": "Apache License 2.0",
+      "url": null
+    },
+    "createdAt": "2022-12-16T00:46:07Z",
+    "pushedAt": "2026-10-21T10:17:17Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T17:55:31.809Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "main",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 12156,
+    "headings": [
+      "LocalSend",
+      "About",
+      "Sponsors",
+      "Screenshots",
+      "Download",
+      "Setup",
+      "How It Works",
+      "Dependency Hierarchy",
+      "Getting Started",
+      "Command Line Interface",
+      "Contributing",
+      "Translation",
+      "Bug Fixes and Improvements",
+      "Troubleshooting",
+      "Building",
+      "Android",
+      "iOS",
+      "macOS",
+      "Windows",
+      "Linux",
+      "Contributors"
+    ],
+    "excerpt": "LocalSend [![CI status][ci-badge]][ci-workflow] [![Translations][translate-badge]][translate-link] [![Packaging status][packaging-badge]][packaging-link] [ci-badge]: https://github.com/localsend/localsend/actions/workflows/ci.yml/badge.svg [ci-workflow]: https://github.com/localsend/localsend/actions/workflows/ci.yml [translate-badge]: https://hosted.weblate.org/widget/localsend/app/svg-badge.svg [translate-link]: https://hosted.weblate.org/engage/localsend/ [packaging-badge]: https://repology.org/badge/tiny-repos/localsend.svg [packaging-link]: https://repology.org/project/localsend/versions [Homepage][homepage] • [Discord][discord] • [GitHub][github] • [Codeberg][codeberg] English (Default) • 中文 [homepage]: https://localsend.org [discord]: https://discord.gg/GSRWmQNP87 [github]: https://github.com/localsend/localsend [codeberg]: https://codeberg.org/localsend/localsend LocalSend is a free, open-source app that allows you to securely share files and messages with nearby devices over your local network without needing an internet connection. - About - Sponsors - Screenshots - Download - How It Works - Dependency Hierarchy - Getting Started - Command Line Interface - Contributing - Translation - Bug Fixes and Improvements - Troubleshooting - Building - Android - iOS - macOS - Windows - Linux About LocalSend is a cross-platform app that enables secure communication between device",
+    "truncated": true,
+    "rawFile": "data/readme/localsend.md"
+  }
+}

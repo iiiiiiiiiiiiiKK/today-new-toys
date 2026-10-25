@@ -1,0 +1,46 @@
+{
+  "slug": "observable-plot",
+  "name": "Observable Plot",
+  "tagline": "几行代码画出一张能看的图",
+  "summary": "Observable Plot 是一个 JavaScript 图表库，实现的是图形语法（grammar of graphics）式的分层 mark 模型。README 的定位是「加速探索性数据分析」：API 简短、好记，但表达力足够。它和 D3 是同一批人做的，区别是不用你从 scale 和 selection 开始搭。",
+  "category": "data-viz",
+  "tags": ["JavaScript", "图表库", "D3", "SVG", "数据可视化"],
+  "aliases": ["@observablehq/plot", "Plot"],
+  "audience": "开发者",
+  "audienceFor": [
+    "要在网页或 Notebook 里快速画统计图的前端开发者",
+    "熟悉 D3 但不想每次都手写 scale 的人",
+    "需要把图表嵌进文档、又要能复现的分析师"
+  ],
+  "features": [
+    { "title": "分层图形语法", "detail": "README 说明其 API 基于 grammar of graphics 风格的分层 mark 与 scale。" },
+    { "title": "面向探索性分析", "detail": "README 首段写明目标是加速 exploratory data analysis，而不是做重型仪表盘。" },
+    { "title": "输出 SVG", "detail": "仓库 Topics 标注 svg，图表以矢量形式渲染，便于嵌入网页与导出。" },
+    { "title": "与 D3 生态同源", "detail": "仓库 Topics 同时标注 d3，API 设计一脉相承，可与 D3 生态配合。" }
+  ],
+  "contentBasis": "依据仓库 README.md（约 600 字，2026-10-24 抓取）的简介与文档/示例章节，以及仓库 Topics 整理；README 很短，详细 API 以官方文档为准，本页未展开。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "会 JavaScript 就能上手，但要画对统计图仍需一点图形语法概念。",
+    "requires": ["Node.js 或浏览器环境", "基础 JavaScript"],
+    "steps": [
+      { "title": "安装", "detail": "npm install @observablehq/plot，或在 Observable 笔记本里直接 import。" },
+      { "title": "准备数据", "detail": "数组形式的对象即可，无需特定数据框架。" },
+      { "title": "画图", "detail": "调用 Plot.plot 并组合 mark，把返回的 SVG 节点挂到页面上。" }
+    ],
+    "cost": "免费开源（ISC）。"
+  },
+  "officialUrl": "https://observablehq.com/plot/",
+  "demoUrl": "https://observablehq.com/@observablehq/plot",
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": false,
+  "editorsNote": "文档在 Observable 上，国内访问速度一般，做好心理准备。",
+  "addedAt": "2026-10-22",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-24",
+    "todo": "核对示例链接"
+  }
+}

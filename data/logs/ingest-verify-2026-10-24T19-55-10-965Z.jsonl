@@ -1,0 +1,6 @@
+{"at":"2026-10-24T19:55:10.966Z","event":"run_start","name":"ingest-verify","startedAt":"2026-10-24T19:55:10.966Z","cwd":"C:\\Users\\Administrator\\Documents\\deepseek-harness\\default-workspace\\new-toys","node":"v24.22.1"}
+{"at":"2026-10-24T19:55:44.626Z","event":"unreachable","detail":"metamask-extension https://metamask.io -> UND_ERR_CONNECT_TIMEOUT（可能是反爬/网络，不自动标记失效）","level":"warn"}
+{"at":"2026-10-24T19:55:47.669Z","event":"unreachable","detail":"observable-plot https://observablehq.com/plot/ -> 429（可能是反爬/网络，不自动标记失效）","level":"warn"}
+{"at":"2026-10-24T19:56:15.116Z","event":"unreachable","detail":"rainbow https://rainbow.me -> UND_ERR_CONNECT_TIMEOUT（可能是反爬/网络，不自动标记失效）","level":"warn"}
+{"at":"2026-10-24T19:56:17.373Z","event":"run_end","level":"info","detail":"{\"total\":29,\"ok\":26,\"dead\":0,\"flaky\":3}"}
+{"at":"2026-10-24T19:56:17.373Z","event":"run_end","level":"info","detail":"{\"command\":\"verify\",\"code\":0}"}

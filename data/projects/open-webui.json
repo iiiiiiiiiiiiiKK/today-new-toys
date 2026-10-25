@@ -1,0 +1,64 @@
+{
+  "slug": "open-webui",
+  "name": "Open WebUI",
+  "tagline": "把 Ollama 和任意 OpenAI 兼容模型装进一个自托管聊天台",
+  "summary": "Open WebUI 是一个可完全离线运行的自托管 AI 界面，官方 README 把它定位为「a home for AI」：既能接本地 Ollama，也能接 LMStudio、GroqCloud、OpenRouter、vLLM 等任意 OpenAI 兼容 API，并在同一套界面里管理用户、模型与工具。它不是一个模型，而是模型前面的那层工作台——账号、权限、知识库、插件、频道都在这里。",
+  "category": "ai-tools",
+  "tags": ["自托管", "大模型", "聊天界面", "Ollama", "RAG"],
+  "aliases": ["OpenWebUI", "open-webui", "Ollama WebUI"],
+  "audience": "开发者",
+  "audienceFor": [
+    "想把本地模型接上一个多人可用界面的开发者",
+    "需要给团队分配模型权限、但又不想把对话发到公有云的小团队",
+    "已经在跑 Ollama，想要知识库、工具调用和频道功能的人"
+  ],
+  "features": [
+    {
+      "title": "一个界面接多家模型",
+      "detail": "README 明确写到可同时连接本地 Ollama 与任意 OpenAI 兼容 API（LMStudio、GroqCloud、Mistral、OpenRouter、vLLM 等），在模型之间自由切换。"
+    },
+    {
+      "title": "细粒度权限与用户组",
+      "detail": "管理员可以定义角色、用户组和权限，为每组配置可见的模型与功能，README 称其为 granular RBAC。"
+    },
+    {
+      "title": "插件与工具服务器",
+      "detail": "支持 Filters、Actions、Pipes、Tools、Skills 五类插件，并可通过 MCP、MCPO、OpenAPI 工具服务器接入外部服务。"
+    },
+    {
+      "title": "不止聊天",
+      "detail": "README 还列了 Notes（富文本笔记）、Channels（团队实时频道）、持久记忆、日历与定时自动化，都是围绕对话长出来的周边功能。"
+    }
+  ],
+  "contentBasis": "依据仓库 README.md（约 1.36 万字，2026-10-24 抓取）的 Key Features 与安装章节整理；功能条目均可在 README 原文找到对应段落。未逐行审阅源码。",
+  "setup": {
+    "effort": "中等门槛",
+    "effortNote": "会敲一条 docker run 就能跑起来，但要用好需要自己准备模型或 API Key。",
+    "requires": ["Docker 或 Python 3.11+", "Ollama 或任意 OpenAI 兼容 API", "约 2GB 内存起步（不含模型）"],
+    "steps": [
+      { "title": "起容器", "detail": "README 给出的命令：docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui ghcr.io/open-webui/open-webui:main" },
+      { "title": "打开 3000 端口", "detail": "首次访问会要求注册管理员账号，第一个注册的用户即为管理员。" },
+      { "title": "接模型", "detail": "本机已装 Ollama 时容器会自动发现；否则在设置里填 OpenAI 兼容的 Base URL 和 Key。" }
+    ],
+    "cost": "软件免费；模型费用取决于你接的是本地模型还是云端 API。"
+  },
+  "licenseOverride": {
+    "spdx": null,
+    "name": "Open WebUI License（BSD-3 衍生，含品牌条款）",
+    "note": "GitHub 显示为 Other。LICENSE 基于 BSD-3，但新增条款：超过 50 名终端用户的部署不得修改或移除 Open WebUI 品牌，除非取得书面授权。不是 OSI 标准许可证。",
+    "url": "https://github.com/open-webui/open-webui/blob/main/LICENSE"
+  },
+  "officialUrl": "https://openwebui.com",
+  "demoUrl": null,
+  "linkStatus": "ok",
+  "linkCheckedAt": "2026-10-24",
+  "featured": true,
+  "editorsNote": "它解决的是很具体的一件事：模型已经有了，缺一个能长期用下去的界面。",
+  "addedAt": "2026-10-25",
+  "review": {
+    "status": "published",
+    "reviewedBy": "编辑部",
+    "reviewedAt": "2026-10-25",
+    "todo": "下期核对插件市场链接与 Enterprise 定价页是否仍公开"
+  }
+}

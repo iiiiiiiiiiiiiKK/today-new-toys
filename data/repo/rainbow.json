@@ -1,0 +1,54 @@
+{
+  "slug": "rainbow",
+  "repoInput": "rainbow-me/rainbow",
+  "fetchedAt": "2026-10-24T17:55:47.258Z",
+  "github": {
+    "owner": "rainbow-me",
+    "name": "rainbow",
+    "fullName": "rainbow-me/rainbow",
+    "url": "https://github.com/rainbow-me/rainbow",
+    "homepage": "https://rainbow.me",
+    "description": "🌈‒ the Ethereum wallet that lives in your pocket ",
+    "stars": 4397,
+    "forks": 764,
+    "openIssues": 47,
+    "language": "TypeScript",
+    "topics": [
+      "defi",
+      "ethereum",
+      "ethereum-wallet",
+      "rainbow",
+      "react-native"
+    ],
+    "license": {
+      "spdx": "GPL-3.0",
+      "name": "GNU General Public License v3.0",
+      "url": null
+    },
+    "createdAt": "2019-03-20T16:46:57Z",
+    "pushedAt": "2026-10-23T19:28:21Z",
+    "archived": false,
+    "fetchedAt": "2026-10-24T17:55:47.258Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "develop",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 4276,
+    "headings": [
+      "🌈️ Rainbow",
+      "Setup",
+      "Prerequisites",
+      "Internal developers",
+      "External contributors",
+      "iOS (macOS only)",
+      "Android",
+      "Developing"
+    ],
+    "excerpt": "🌈️ Rainbow the Ethereum wallet that lives in your pocket! 📲️ Available on the iOS App Store. 🤖 Android available on the Google Play Store 💻 Browser extension available on, Chrome, Brave, Edge, FireFox, and Arc. 𝕏 Follow us on X Setup [!TIP] Internal developers can also use the `rainbow-me/rainbow-setup` script to install all dependencies and configure the project in one step. Prerequisites 1. Install mise: `curl https://mise.run sh`. See the installation docs for shell activation (required so tool versions auto-switch when you `cd` into the repo). 2. From the repo root: `mise install`. This installs all pinned tools. 3. Enable yarn: `corepack enable` Internal developers Set up these before running `yarn install`, as the postinstall script reads `.env` and `rainbow-scripts` to generate build configs and run prebuild hooks. 1. Authenticate the GitHub CLI (`gh auth login`), or export a `GITHUB TOKEN` with access to our private repos. 2. Run `yarn update-env` to install `.env` (overwrites any existing local `.env`). 3. Clone `rainbow-me/rainbow-scripts` into the project root (the postinstall prebuild hooks depend on it). 4. Install dependencies and run setup: `yarn install && yarn setup`. External contributors 1. Copy `.env.example` to `.env` and fill in your own API keys. Note that some features are currently not accessible; we are working with our Data Providers to provide o",
+    "truncated": true,
+    "rawFile": "data/readme/rainbow.md"
+  }
+}
