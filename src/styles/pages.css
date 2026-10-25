@@ -696,6 +696,20 @@
   border-left: 2px solid var(--vermilion);
   padding-left: 0.7rem;
 }
+.auto-note {
+  margin-top: 0.8rem;
+  font-size: 0.78rem;
+  line-height: 1.7;
+  color: var(--ink-mute);
+  border-left: 2px dashed rgba(47, 74, 58, 0.5);
+  padding-left: 0.7rem;
+}
+.auto-note .mono {
+  color: var(--moss);
+  margin-right: 0.4rem;
+  font-size: 0.66rem;
+  letter-spacing: 0.1em;
+}
 .project__head {
   display: grid;
   grid-template-columns: minmax(0, 1.7fr) minmax(16rem, 1fr);
@@ -737,6 +751,31 @@
   flex-wrap: wrap;
   margin-top: 1.5rem;
   align-items: center;
+}
+/* Secondary tools: real text links, so six equal-weight buttons don't fight for
+   attention with 收藏 / 生成分享图. */
+.project__actions-sub {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.15rem 1rem;
+}
+.project__tool {
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  background: transparent;
+  padding: 0.35rem 0;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  min-height: 1.9rem;
+}
+.project__tool:hover {
+  color: var(--vermilion-ink);
+  border-color: var(--vermilion);
 }
 .project__facts {
   border-top: 1.5px solid var(--ink);
@@ -1604,9 +1643,444 @@
 }
 
 /* =========================================================================
-   Touch devices (iPhone / iPad / Android). Declared last so these win over the
-   component rules above.
+   Phones (≤620px). Everything here is about rhythm and reachability: taller tap
+   targets, one-line scroll rails instead of wrapped chip walls, and a detail page
+   whose actions fit a thumb.
    ========================================================================= */
+@media (max-width: 620px) {
+  /* ---- hero: re-order for a phone, and close the desktop's generous gaps ----
+     Desktop reads left column (title, buttons, stats) then right column (image).
+     On a 390px screen that puts the picture below the fold, so we flatten both
+     columns with `display: contents` and order the blocks ourselves:
+     kicker → title → dek → cover → caption → actions → stats → other picks. */
+  .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    padding-top: 0.85rem;
+  }
+  .hero__left,
+  .hero__right {
+    display: contents;
+  }
+  .hero__kicker {
+    order: 1;
+    font-size: 0.7rem;
+    gap: 0.5rem;
+  }
+  .hero__kicker-line {
+    width: 1.4rem;
+  }
+  .hero__title {
+    order: 2;
+    font-size: clamp(1.95rem, 9vw, 2.4rem);
+    line-height: 1.12;
+    margin: 0.4rem 0 0.5rem;
+  }
+  .hero__dek {
+    order: 3;
+    font-size: 0.92rem;
+    line-height: 1.65;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .hero__cover {
+    order: 4;
+    margin-top: 0.8rem;
+  }
+  .hero__cover .cover {
+    /* 4:3 is too tall on a phone; 16:10 keeps the product legible */
+    aspect-ratio: 16 / 10;
+  }
+  .hero__caption {
+    order: 5;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 0.35rem;
+    margin-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .hero__caption-main {
+    min-width: 0;
+  }
+  .hero__caption-name {
+    font-size: 1.08rem;
+    line-height: 1.35;
+  }
+  .hero__caption-line {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.84rem;
+  }
+  .hero__caption-meta {
+    flex: none;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0.68rem;
+  }
+  .hero__actions {
+    order: 6;
+    margin-top: 0.8rem;
+    gap: 0.45rem;
+  }
+  .hero__actions .btn {
+    flex: 1 1 auto;
+    min-height: 2.6rem;
+  }
+  .hero__stats {
+    order: 7;
+    margin-top: 0.9rem;
+    padding-top: 0.6rem;
+    gap: 0.6rem;
+    justify-content: space-between;
+  }
+  .hero__stats dd.mono {
+    font-size: 1.15rem;
+  }
+  .hero__side-picks {
+    order: 8;
+    margin-top: 0.4rem;
+  }
+  .side-pick {
+    padding: 0.5rem 0;
+    grid-template-columns: 1fr auto;
+  }
+  .side-pick__tag {
+    display: none; /* the full sentence is on the card right below */
+  }
+  .side-pick__meta {
+    grid-row: 1;
+  }
+
+  /* ---- discover: filters stop eating the first screen ---- */
+  .filters {
+    position: static;
+    padding: 0.9rem 0 1rem;
+    gap: 0.6rem;
+    backdrop-filter: none;
+  }
+  .filters__row {
+    flex-direction: column;
+    gap: 0.35rem;
+    min-width: 0;
+    width: 100%;
+  }
+  .filters__label {
+    width: auto;
+    padding-top: 0;
+    font-size: 0.7rem;
+  }
+  .filters__search {
+    min-height: 2.75rem;
+    padding: 0.4rem 0.6rem;
+  }
+  .filters__sorts {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+  .filters__sorts::-webkit-scrollbar,
+  .filters__chips::-webkit-scrollbar {
+    display: none;
+  }
+  .filters__sorts .filters__label {
+    flex: none;
+    padding-top: 0.35rem;
+  }
+  /* categories + tags become single-row scroll rails (saves ~200px of chip wall) */
+  .filters__chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+    max-height: none;
+    gap: 0.4rem;
+    /* a scroll rail needs a definite width, otherwise its content widens the page */
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    flex: none;
+  }
+  .filters__sorts {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+  .filters__chips--tags {
+    max-height: none;
+  }
+  .chip,
+  .tagchip {
+    flex: none;
+    min-height: 2.25rem;
+    padding-inline: 0.7rem;
+  }
+  .filters__reset {
+    min-height: 2.25rem;
+    padding-inline: 0.4rem;
+  }
+  .results {
+    padding-top: 1.1rem;
+  }
+  .results__count {
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  .pager {
+    gap: 0.5rem;
+  }
+  .pager__num {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+
+  /* ---- detail page ---- */
+  .project {
+    padding-top: 1rem;
+    /* grid + display:contents lets us put the screenshot above the fact table on a
+       phone: readers want to see the product before a 9-row data panel. */
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .project > * {
+    min-width: 0;
+  }
+  .project__head {
+    display: contents;
+  }
+  .project__headmain {
+    order: 1;
+    padding-top: 0.9rem;
+  }
+  .project__shots {
+    order: 2;
+  }
+  .project__facts {
+    order: 3;
+    margin-top: 1.1rem;
+  }
+  .breadcrumb,
+  .random-note {
+    order: 0;
+  }
+  .project__body {
+    order: 4;
+  }
+  .project > .section {
+    order: 5;
+  }
+  .project__foot {
+    order: 6;
+  }
+  .project__title {
+    font-size: 2rem;
+    margin: 0.35rem 0 0.3rem;
+  }
+  .project__tagline {
+    font-size: 1rem;
+  }
+  .project__summary {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    margin-top: 0.8rem;
+  }
+  /* a 2-up grid of 44px controls, then quiet text links — not six equal buttons */
+  .project__actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.45rem;
+    margin-top: 1rem;
+  }
+  .project__actions > * {
+    width: 100%;
+    min-height: 2.75rem;
+    justify-content: center;
+    margin: 0;
+  }
+  .project__actions .fav-btn--label {
+    grid-column: span 1;
+  }
+  .project__actions-sub {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.1rem 0.9rem;
+    margin-top: 0.1rem;
+  }
+  .project__tool {
+    min-height: 2.4rem;
+    font-size: 0.8rem;
+    justify-content: flex-start;
+  }
+  /* facts: label above value, two per row — no cramped 4.5rem label column */
+  .project__facts dl {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 0.9rem;
+  }
+  .field {
+    display: block;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .field dt {
+    font-size: 0.7rem;
+    margin-bottom: 0.12rem;
+  }
+  .field dd {
+    font-size: 0.82rem;
+    display: block;
+  }
+  .field__note {
+    font-size: 0.7rem;
+  }
+  /* screenshot goes edge-to-edge for impact on a narrow screen */
+  .project__shots {
+    margin-inline: calc(var(--gutter) * -1);
+    padding-top: 0.7rem;
+  }
+  .project__shots-head {
+    padding-inline: var(--gutter);
+    margin-bottom: 0.6rem;
+  }
+  .project__shot .cover {
+    border-left: 0;
+    border-right: 0;
+    box-shadow: none;
+  }
+  .project__shot figcaption {
+    padding-inline: var(--gutter);
+    font-size: 0.68rem;
+  }
+  .project__body {
+    gap: 1.5rem;
+  }
+  .prose h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+  }
+  .prose > p {
+    font-size: 0.9rem;
+    line-height: 1.8;
+  }
+  .features li {
+    grid-template-columns: 1.5rem minmax(0, 1fr);
+    gap: 0.15rem 0.55rem;
+    padding: 0.8rem 0;
+  }
+  .features h3 {
+    font-size: 0.95rem;
+  }
+  .features p {
+    font-size: 0.84rem;
+  }
+  .steps {
+    gap: 0.7rem;
+  }
+  .steps li {
+    grid-template-columns: 1.6rem minmax(0, 1fr);
+    gap: 0.5rem;
+  }
+  .spectable th {
+    width: 4.6rem;
+    font-size: 0.68rem;
+  }
+  .spectable td {
+    font-size: 0.82rem;
+  }
+  .links-list li {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+    padding: 0.5rem 0;
+  }
+  .similar {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+  .similar__item {
+    padding: 0.7rem 0;
+  }
+  .breadcrumb {
+    font-size: 0.66rem;
+    gap: 0.3rem;
+  }
+  .project__foot {
+    font-size: 0.74rem;
+    gap: 0.4rem;
+  }
+
+  /* ---- favorites ---- */
+  .toolbar {
+    gap: 0.6rem;
+    padding: 0.8rem 0;
+  }
+  .toolbar__actions {
+    width: 100%;
+    gap: 0.35rem;
+  }
+  .toolbar__actions .btn {
+    flex: 1 1 calc(50% - 0.35rem);
+    min-height: 2.4rem;
+  }
+  .favcard__actions .btn {
+    min-height: 2.4rem;
+  }
+
+  /* ---- share / revision dialogs ---- */
+  .modal {
+    padding: 0.5rem;
+    place-items: start center;
+  }
+  .modal__panel {
+    max-height: 94dvh;
+    padding: 0.9rem;
+  }
+  .share__ratios {
+    gap: 0.3rem;
+  }
+  .ratio {
+    min-height: 3.4rem;
+  }
+  .share__actions .btn {
+    flex: 1 1 calc(50% - 0.3rem);
+    min-height: 2.5rem;
+  }
+  .share__text {
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  /* ---- categories / about ---- */
+  .catsection {
+    padding: 1.4rem 0;
+    gap: 1rem;
+  }
+  .catsection__intro {
+    margin: 0.6rem 0 0.9rem;
+    font-size: 0.86rem;
+  }
+  .catgrid__item {
+    min-height: 6.4rem;
+    padding: 0.8rem 0.8rem 1.1rem;
+  }
+  .about__grid {
+    padding-top: 1.2rem;
+  }
+  .about__grid .prose {
+    margin-bottom: 1.6rem;
+  }
+  .about__steps {
+    font-size: 0.86rem;
+  }
+  .crossnav__item {
+    min-height: 2.4rem;
+  }
+}
 @media (hover: none) and (pointer: coarse) {
   /* iOS Safari auto-zooms the viewport when a focused field's font-size is < 16px.
      17px clears the threshold and still reads as metadata-sized. */
@@ -1632,26 +2106,16 @@
 }
 
 @media (max-width: 430px) {
-  /* Detail page: keep the action row from becoming a wall of half-width buttons. */
-  .project__actions {
-    gap: 0.4rem;
-  }
-  .project__actions .fav-btn--label {
-    flex: 1 1 100%;
-    justify-content: center;
-  }
-  .field {
-    grid-template-columns: 4.5rem minmax(0, 1fr);
-    gap: 0.5rem;
-  }
-  .features li {
-    grid-template-columns: 1.6rem minmax(0, 1fr);
-    gap: 0.15rem 0.6rem;
-  }
   .catsection__right {
     gap: 0.8rem;
   }
   .about__aside {
     padding: 0.9rem;
+  }
+  .project__actions .btn--sm {
+    font-size: 0.8rem;
+  }
+  .hero__stats dt {
+    font-size: 0.7rem;
   }
 }

@@ -83,42 +83,50 @@ function ProjectInner() {
           <h1 className="project__title">{project.name}</h1>
           <p className="project__tagline">{project.tagline}</p>
           <p className="project__summary">{project.summary}</p>
+          {project.review.mode === 'auto' ? (
+            <p className="auto-note">
+              <span className="mono">AUTO</span>
+              本条由自动流水线收录：数据与截图来自公开仓库，中文文案由 README 规则生成，尚未经人工逐条校对。
+            </p>
+          ) : null}
 
           <div className="project__actions">
             <FavButton slug={project.slug} name={project.name} withLabel />
-            <button
-              className="btn btn--sm"
-              type="button"
-              onClick={async () => {
-                const ok = await copyToClipboard(projectUrl(project.slug));
-                show(ok ? '项目链接已复制' : '复制失败', ok ? 'ok' : 'warn');
-              }}
-            >
-              复制链接
-            </button>
-            <button
-              className="btn btn--sm"
-              type="button"
-              onClick={async () => {
-                const ok = await copyToClipboard(shareText(project));
-                show(ok ? '中文分享文案已复制' : '复制失败', ok ? 'ok' : 'warn');
-              }}
-            >
-              复制分享文案
-            </button>
-            <button className="btn btn--sm btn--accent" type="button" onClick={() => setShareOpen(true)}>
+            <button className="btn btn--accent project__share" type="button" onClick={() => setShareOpen(true)}>
               生成分享图
             </button>
-            {project.officialUrl ? (
-              <a className="btn btn--sm btn--ghost" href={project.officialUrl} target="_blank" rel="noopener noreferrer">
-                打开官网 ↗
-              </a>
-            ) : null}
-            {project.repo.url ? (
-              <a className="btn btn--sm btn--ghost" href={project.repo.url} target="_blank" rel="noopener noreferrer">
-                GitHub ↗
-              </a>
-            ) : null}
+            <div className="project__actions-sub">
+              <button
+                className="project__tool"
+                type="button"
+                onClick={async () => {
+                  const ok = await copyToClipboard(projectUrl(project.slug));
+                  show(ok ? '项目链接已复制' : '复制失败', ok ? 'ok' : 'warn');
+                }}
+              >
+                复制链接
+              </button>
+              <button
+                className="project__tool"
+                type="button"
+                onClick={async () => {
+                  const ok = await copyToClipboard(shareText(project));
+                  show(ok ? '中文分享文案已复制' : '复制失败', ok ? 'ok' : 'warn');
+                }}
+              >
+                复制分享文案
+              </button>
+              {project.officialUrl ? (
+                <a className="project__tool" href={project.officialUrl} target="_blank" rel="noopener noreferrer">
+                  打开官网 ↗
+                </a>
+              ) : null}
+              {project.repo.url ? (
+                <a className="project__tool" href={project.repo.url} target="_blank" rel="noopener noreferrer">
+                  GitHub ↗
+                </a>
+              ) : null}
+            </div>
           </div>
         </div>
 

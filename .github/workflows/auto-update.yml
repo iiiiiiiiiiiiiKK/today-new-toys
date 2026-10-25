@@ -1,0 +1,88 @@
+# 每日自动收录 + 自动部署
+#
+# 流程：GitHub 搜索新项目 → 抓元信息/README/截图 → 生成中文条目（标注「自动收录」）
+#       → 提交回仓库 → 重建并发布到 gh-pages。
+#
+# 为什么构建和发布也写在这里：GitHub 用 GITHUB_TOKEN 提交的 commit 不会再触发
+# 其它 workflow（防递归），所以部署必须在同一个 workflow 里完成。
+name: auto-update
+
+on:
+  schedule:
+    # 每天 09:17（Asia/Shanghai）跑一次；GitHub 的定时任务可能延迟几分钟
+    - cron: '17 1 * * *'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: '本次最多收录几个项目（0 表示只看不写）'
+        required: false
+        default: '3'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: 自动收录（发现 → 抓取 → 生成 → 发布）
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # ubuntu-latest 自带 Chrome，用于抓官网截图
+          CHROME_PATH: /usr/bin/google-chrome
+          # 可选：配置后由模型生成中文摘要（不配则用确定性规则稿）
+          AI_BASE_URL: ${{ secrets.AI_BASE_URL }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_MODEL: ${{ secrets.AI_MODEL }}
+        run: npm run auto:publish -- --limit=${{ github.event.inputs.limit || '3' }}
+
+      - name: 数据闸门 + 单元测试
+        run: |
+          npm run data:check
+          npm run test
+
+      - name: 提交新条目与截图
+        id: commit
+        run: |
+          git config user.name "newtoys-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data public
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "本次没有新项目通过筛选"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git commit -m "feat(auto): 自动收录 $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: 构建（子路径 + 正式域名）
+        env:
+          TOYS_BASE: /${{ github.event.repository.name }}/
+          SITE_ORIGIN: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+          CHROME_PATH: /usr/bin/google-chrome
+        run: |
+          export SITE_ORIGIN="$(echo "$SITE_ORIGIN" | tr '[:upper:]' '[:lower:]')"
+          npm run build
+
+      - name: 发布到 gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          commit_message: 'deploy(auto): ${{ github.sha }}'
+          enable_jekyll: false

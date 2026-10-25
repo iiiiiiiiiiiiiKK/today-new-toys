@@ -62,6 +62,11 @@ export function ProjectCard({ project, showCover = true, badge }: { project: Pro
         <Link className="pill pill--accent" to={`/category/${project.category}`}>
           {categoryName}
         </Link>
+        {project.review.mode === 'auto' ? (
+          <span className="pill pill--auto" title="由自动流水线收录，中文文案未经人工校对">
+            自动收录
+          </span>
+        ) : null}
         {project.tags.slice(0, 2).map((tag) => (
           <span key={tag} className="tag">
             #{tag}

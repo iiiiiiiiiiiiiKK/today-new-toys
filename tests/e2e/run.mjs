@@ -14,7 +14,10 @@ import { mkdirSync, readFileSync, rmSync, existsSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const BASE = process.env.BASE_URL || 'http://localhost:4188';
+// BASE never ends with a slash; HOME is the index URL. A bare sub-path URL 404s on
+// vite preview (it needs the trailing slash) while GitHub Pages redirects to it.
+const BASE = (process.env.BASE_URL || 'http://localhost:4188').replace(/\/+$/, '');
+const HOME = `${BASE}/`;
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const downloads = join(root, '.tmp-e2e');
 const chrome = process.env.CHROME_PATH || 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
@@ -61,17 +64,20 @@ async function main() {
     if (r.status() >= 400 && !expected(r.url())) errors.push(`http ${r.status()} ${r.url()}`);
   });
 
-  await page.goto(BASE, { waitUntil: 'networkidle' });
+  await page.goto(HOME, { waitUntil: 'networkidle' });
 
-  await test('首页渲染真实数据（30 个项目、10 个分类）', async () => {
+  await test('首页渲染真实数据（项目数与数据文件一致）', async () => {
     await page.waitForSelector('.project-card');
     const cards = await page.locator('.project-card').count();
     assert(cards >= 6, `首页卡片数 ${cards}`);
+    // The catalogue grows automatically, so assert against the data file, not a literal.
+    const dataFile = join(root, 'dist/data/projects.json');
+    const expected = JSON.parse(readFileSync(dataFile, 'utf8')).projects.length;
     const stats = await page.locator('.hero__stats').innerText();
-    assert(stats.includes('30'), `统计区没有 30：${stats}`);
+    assert(stats.replace(/\s/g, '').includes(String(expected)), `统计区没有 ${expected}：${stats}`);
     const title = await page.title();
     assert(title.includes('新玩具'), `标题异常：${title}`);
-    return `${cards} 张卡片`;
+    return `${cards} 张卡片 / 共 ${expected} 个项目`;
   });
 
   await test('每个首页项目卡片都有名称、一句话、分类、许可证、门槛、官网/GitHub', async () => {
@@ -287,7 +293,7 @@ async function main() {
   await test('移动端 390px 无横向溢出，卡片单列，导航可点', async () => {
     const mobile = await context.newPage();
     await mobile.setViewportSize({ width: 390, height: 844 });
-    await mobile.goto(BASE, { waitUntil: 'networkidle' });
+    await mobile.goto(HOME, { waitUntil: 'networkidle' });
     const overflow = await mobile.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
     assert(overflow <= 1, `横向溢出 ${overflow}px`);
     const cols = await mobile.evaluate(() => getComputedStyle(document.querySelector('.grid--3')).gridTemplateColumns.split(' ').length);
@@ -314,7 +320,7 @@ async function main() {
   await test('无 JS 时给出可读提示（不在空白页卡死）', async () => {
     const noJs = await browser.newContext({ javaScriptEnabled: false });
     const p3 = await noJs.newPage();
-    await p3.goto(BASE, { waitUntil: 'domcontentloaded' });
+    await p3.goto(HOME, { waitUntil: 'domcontentloaded' });
     const text = await p3.locator('body').innerText();
     assert(text.includes('今天又有什么新玩具') && text.includes('JavaScript'), 'noscript 提示缺失');
     await noJs.close();

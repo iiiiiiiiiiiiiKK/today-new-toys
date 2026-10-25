@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-25T09:44:53.669Z",
+  "generatedAt": "2026-10-25T17:52:33.902Z",
   "snapshotDate": "2026-10-25",
   "counts": {
-    "projects": 30,
+    "projects": 33,
     "categories": 10
   },
   "categories": [
@@ -899,6 +899,493 @@
         "truncated": true
       },
       "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "rea",
+      "name": "rea",
+      "tagline": "AI 工具 · Reverse engineer anything with agents, from a…",
+      "summary": "（自动整理，未经人工校对）rea 是一个用 TypeScript 写的开源项目。仓库自述「Reverse engineer anything with agents, from app behavior down to native binaries」。已抓取 README 约 21,354 字；其中有「REA: Reverse Engineer Anything」「Set up your agent」「Ask your agent」「Use the terminal」「Update REA」等章节可对应到具体能力。仓库 Topics 涉及：命令行、开发者工具、大语言模型。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "ai-tools",
+      "tags": [
+        "命令行",
+        "开发者工具",
+        "大语言模型",
+        "AI 工具",
+        "MIT"
+      ],
+      "aliases": [
+        "morluto/rea"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "REA: Reverse Engineer An",
+          "detail": "（自动整理）README 中有「REA: Reverse Engineer Anything」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Set up your agent",
+          "detail": "（自动整理）README 中有「Set up your agent」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Ask your agent",
+          "detail": "（自动整理）README 中有「Ask your agent」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Use the terminal",
+          "detail": "（自动整理）README 中有「Use the terminal」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 21354 字，抓取于 2026-10-25）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：npx rea-agents setup"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://rea.tools",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "addedAt": "2026-10-25",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-25",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 558,
+      "weeklyScore": 678,
+      "categoryName": "AI 工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "morluto",
+        "name": "rea",
+        "fullName": "morluto/rea",
+        "url": "https://github.com/morluto/rea",
+        "homepage": "https://rea.tools",
+        "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+        "stars": 383297,
+        "forks": 95909,
+        "openIssues": 1071,
+        "language": "TypeScript",
+        "topics": [
+          "agent-skills",
+          "ai-agents",
+          "binary-analysis",
+          "claude-code",
+          "cli",
+          "codex",
+          "cordis",
+          "decompiler",
+          "developer-tools",
+          "dsh",
+          "dsh-plugin",
+          "ghidra",
+          "hopper",
+          "llm",
+          "mcp",
+          "model-context-protocol",
+          "rea",
+          "reverse-engineering",
+          "static-analysis",
+          "touhou"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2026-04-14T00:51:32Z",
+        "pushedAt": "2026-10-25T17:42:52Z",
+        "archived": false,
+        "fetchedAt": "2026-10-25T17:47:00.552Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/rea.jpg",
+          "alt": "rea 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-25T17:49:53.107Z",
+          "credit": "页面截图：https://rea.tools",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی · Bahasa Indonesia · Italiano · Ελληνικά · മലയാളം · Roman Urdu · Română REA: Reverse Engineer Anything One MCP for reverse engineering across binaries, applications, and runtime behavior. See a feature you like. Understand how it works, down to the binary level. Website · Guides · Showcases Quick start · How REA works · What you can analyze · Showcases · Build RL environments · FAQ · Documentation npx rea-agents setup [!IMPORTANT] Get REA from morluto/rea, rea.tools, or the rea-agents npm package. Follow the installation and release links from these official sources. A similar repository name or copied README does not establish that a download is official. Join the Reverse Engineering Community Discord · Q&amp;A · Show and Tell --- See a feature in an app that you want in your own product? Ask your agent to investigate it with REA. It can inspect the app without its source code, explain how the feature works, show the evidence, and build a version for your project. REA connects your agent to tools for inspecting native binaries, JavaScript and Electron apps, .NET assemblies, and websites. You can also use the same tools from your terminal. Analysis runs locally, and results include the evidence and limitations behind",
+        "headings": [
+          "REA: Reverse Engineer Anything",
+          "One MCP for reverse engineering across binaries, applications, and runtime behavior.",
+          "Quick start",
+          "Set up your agent",
+          "Ask your agent",
+          "Use the terminal",
+          "Update REA",
+          "How REA works",
+          "What you can analyze",
+          "Showcases",
+          "DX-Ball: reconstruct a sound-pan calculation",
+          "Notion: trace the Electron clipboard bridge",
+          "TH04: recover a DOS bullet-ring calculation",
+          "Build RL environments with REA",
+          "Build RL environments",
+          "FAQ",
+          "Documentation",
+          "Star history",
+          "Disclaimer",
+          "Contributing",
+          "License"
+        ],
+        "chars": 21354,
+        "fetchedAt": "2026-10-25T17:47:00.552Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-25"
+    },
+    {
+      "slug": "ecc",
+      "name": "ECC",
+      "tagline": "效率工具 · The agent harness performance optimization sy…",
+      "summary": "（自动整理，未经人工校对）ECC 是一个用 JavaScript 写的开源项目。仓库自述「The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond」。已抓取 README 约 72,758 字；其中有「Install with Claude Code」「ECC」「Install ECC」「Recommended: universal guided setup」「Pick one path only (per harness)」等章节可对应到具体能力。仓库 Topics 涉及：开发者工具、大语言模型、效率。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "productivity",
+      "tags": [
+        "开发者工具",
+        "大语言模型",
+        "效率",
+        "效率工具",
+        "MIT"
+      ],
+      "aliases": [
+        "affaan-m/ECC"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Install with Claude Code",
+          "detail": "（自动整理）README 中有「Install with Claude Code」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Install ECC",
+          "detail": "（自动整理）README 中有「Install ECC」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Recommended: universal g",
+          "detail": "（自动整理）README 中有「Recommended: universal guided setup」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Pick one path only (per ",
+          "detail": "（自动整理）README 中有「Pick one path only (per harness)」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 72758 字，抓取于 2026-10-25）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://ecc.tools",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "addedAt": "2026-10-25",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-25",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 546,
+      "weeklyScore": 666,
+      "categoryName": "效率工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "affaan-m",
+        "name": "ECC",
+        "fullName": "affaan-m/ECC",
+        "url": "https://github.com/affaan-m/ECC",
+        "homepage": "https://ecc.tools",
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "stars": 288643,
+        "forks": 42797,
+        "openIssues": 309,
+        "language": "JavaScript",
+        "topics": [
+          "ai-agents",
+          "anthropic",
+          "claude",
+          "claude-code",
+          "developer-tools",
+          "llm",
+          "mcp",
+          "productivity"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2026-01-18T00:51:51Z",
+        "pushedAt": "2026-10-20T23:08:28Z",
+        "archived": false,
+        "fetchedAt": "2026-10-25T17:47:27.279Z",
+        "source": "api",
+        "warnings": []
+      },
+      "screenshots": [
+        {
+          "src": "/shots/ecc.jpg",
+          "alt": "ECC 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-25T17:49:53.117Z",
+          "credit": "页面截图：https://ecc.tools",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Language: English العربية Português (Brasil) 简体中文 繁體中文 日本語 한국어 Türkçe Русский Tiếng Việt ไทย Deutsch Español Українська Polski বাংলা [!WARNING] Official sources only. Install ECC only from verified channels: the GitHub repository github.com/affaan-m/ECC, the npm packages `ecc-universal` and `ecc-agentshield`, the GitHub App, the plugin slug `ecc@ecc`, and the project website ecc.tools. Third-party re-uploads and unofficial mirrors are not maintained or reviewed by the project and may contain malware. Install with Claude Code Use the guided setup or native plugin commands. Both install the same `ecc@ecc` plugin. Choose one and do not stack a full manual Claude install on top. ECC Pro + GitHub App Install free · Private repos from $19/seat/mo Sponsor ECC Fund the open-source project Community Discord · Q&amp;A · Show and Tell OSS stays free. This repo is MIT-licensed forever. ECC Pro is the hosted GitHub App for private repos. Sponsors and Pro subscribers fund the work. That's why a single maintainer ships weekly across 7 harnesses. Partners &amp; sponsors &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Past sponsors: Atlas Cloud · Mike Morgan (inactive) Community sponsors: @jasonwu513 · @1anter · @massimotodaro · @meadmccabe Become a Sponsor · Sponsor Tiers · Sponsorship Program Jump to install ↓ ECC Your agent can write code, but ECC gives it a coord",
+        "headings": [
+          "Install with Claude Code",
+          "ECC",
+          "Install ECC",
+          "Recommended: universal guided setup",
+          "Pick one path only (per harness)",
+          "Claude Code details",
+          "Codex App and CLI",
+          "Qoder CLI and IDE",
+          "Other agents and editors",
+          "Advanced Install Options",
+          "Low-context / no-hooks path",
+          "Find the right components first",
+          "Just agents",
+          "Rules directories (common + language-specific)",
+          "Core/general skills only (Claude Code loads skills from direct children",
+          "of ~/.claude/skills; do not nest manual installs under ~/.claude/skills/ecc/)",
+          "Optional: maintained slash-command compatibility during migration",
+          "Reset / Uninstall ECC",
+          "Start Using ECC",
+          "Self-Hosted Models and Custom Endpoints",
+          "Self-host Kimi with ECC + Itô compute",
+          "Itô compute CLI bridge",
+          "What's New",
+          "v2.0.0: The Agent Harness Operating System (Jun 2026)",
+          "What's Inside",
+          "or",
+          "Key Concepts",
+          "Agents",
+          "Skills",
+          "TDD Workflow",
+          "Hooks",
+          "Rules",
+          "Guides",
+          "Why Choose ECC?",
+          "TDD: Test-Driven Development",
+          "Skills keep the context focused",
+          "Share context between harnesses",
+          "Initialize the project vault.",
+          "Write a handoff body to a regular file, then target the next harness.",
+          "Recall it from another harness."
+        ],
+        "chars": 72758,
+        "fetchedAt": "2026-10-25T17:47:27.279Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-25"
+    },
+    {
+      "slug": "n8n",
+      "name": "n8n",
+      "tagline": "自托管项目 · Fair-code workflow automation platform with n…",
+      "summary": "（自动整理，未经人工校对）n8n 是一个用 TypeScript 写的开源项目。仓库自述「Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations」。已抓取 README 约 2,895 字；其中有「Key Capabilities」「Resources」「Join the Team」「What does n8n mean?」等章节可对应到具体能力。仓库 Topics 涉及：AI、命令行、自托管、TypeScript。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "self-hosted",
+      "tags": [
+        "AI",
+        "命令行",
+        "自托管",
+        "TypeScript",
+        "自托管项目"
+      ],
+      "aliases": [
+        "n8n-io/n8n"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Key Capabilities",
+          "detail": "（自动整理）README 中有「Key Capabilities」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Resources",
+          "detail": "（自动整理）README 中有「Resources」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Join the Team",
+          "detail": "（自动整理）README 中有「Join the Team」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "What does n8n mean?",
+          "detail": "（自动整理）README 中有「What does n8n mean?」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 2895 字，抓取于 2026-10-25）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：curl -fsSL https://get.n8n.io | sh"
+          },
+          {
+            "title": "第 2 步",
+            "detail": "README 中给出的命令：docker volume create n8n_data"
+          },
+          {
+            "title": "第 3 步",
+            "detail": "README 中给出的命令：docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n"
+          }
+        ],
+        "cost": "费用未知"
+      },
+      "officialUrl": "https://n8n.io",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "addedAt": "2026-10-25",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-25",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 532,
+      "weeklyScore": 652,
+      "categoryName": "自托管项目",
+      "license": {
+        "spdx": null,
+        "name": "Other",
+        "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+        "url": null
+      },
+      "repo": {
+        "owner": "n8n-io",
+        "name": "n8n",
+        "fullName": "n8n-io/n8n",
+        "url": "https://github.com/n8n-io/n8n",
+        "homepage": "https://n8n.io",
+        "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+        "stars": 208563,
+        "forks": 61250,
+        "openIssues": 1249,
+        "language": "TypeScript",
+        "topics": [
+          "ai",
+          "apis",
+          "automation",
+          "cli",
+          "data-flow",
+          "development",
+          "integration-framework",
+          "integrations",
+          "ipaas",
+          "low-code",
+          "low-code-platform",
+          "mcp",
+          "mcp-client",
+          "mcp-server",
+          "n8n",
+          "no-code",
+          "self-hosted",
+          "typescript",
+          "workflow",
+          "workflow-automation"
+        ],
+        "license": {
+          "spdx": null,
+          "name": "Other",
+          "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+          "url": null
+        },
+        "createdAt": "2019-06-22T09:24:21Z",
+        "pushedAt": "2026-10-25T17:42:46Z",
+        "archived": false,
+        "fetchedAt": "2026-10-25T17:48:05.518Z",
+        "source": "api",
+        "warnings": [
+          "仓库未声明可识别的开源许可证"
+        ]
+      },
+      "screenshots": [
+        {
+          "src": "/shots/n8n.jpg",
+          "alt": "n8n 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-25T17:49:53.122Z",
+          "credit": "页面截图：https://n8n.io",
+          "synthetic": false
+        }
+      ],
+      "readme": {
+        "path": "README.md",
+        "excerpt": "n8n – The Platform for AI Agents and Workflow Automation Fair-code platform to build and deploy AI agents and workflows. Combine a visual canvas with custom code, run it self-hosted or in the cloud, and connect to 1500+ integrations. AI automation you can trust with real work, from prototype to production. Key Capabilities - AI-Native Automation Platform : Build and operationalize AI workflows and multi-step agents using your own data, models, and tools - Model Flexibility, No Lock-In : Connect to OpenAI, Anthropic, Google, or open-source models and switch providers without changing your architecture - From Prototype to Production : Design multi-step AI workflows with logic, tool use, human approvals, and full observability - Code When You Need It : Combine visual building with JavaScript, Python, and npm packages for advanced AI workflows - Enterprise-Ready AI : Self-host or deploy securely with role-based access, audit trails, and support for sensitive data - Leverage What Already Exists : 1500+ integrations and 9,000+ workflow templates to connect AI with your existing systems Quick Start Try n8n instantly with our install script (requires Docker): Or deploy manually with Docker: Access the editor at http://localhost:5678 Resources - 📚 Documentation - 🔧 1500+ Integrations - 💡 Example Workflows - 🤖 AI & LangChain Guide - 👥 Community Forum - 📖 Community Tutorials Support",
+        "headings": [
+          "n8n – The Platform for AI Agents and Workflow Automation",
+          "Key Capabilities",
+          "Quick Start",
+          "Resources",
+          "Support",
+          "License",
+          "Contributing",
+          "Join the Team",
+          "What does n8n mean?"
+        ],
+        "chars": 2895,
+        "fetchedAt": "2026-10-25T17:48:05.518Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-25"
     },
     {
       "slug": "markitdown",

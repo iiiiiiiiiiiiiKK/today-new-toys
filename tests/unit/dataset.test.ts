@@ -68,10 +68,12 @@ describe('published dataset', () => {
     }
   });
 
-  it('every screenshot points at a file that exists and is honestly labelled', () => {
+  it('every screenshot points at a local file and is honestly labelled', () => {
     for (const p of projects) {
       for (const shot of p.screenshots) {
-        expect(shot.src, p.slug).toMatch(/^\/shots\/.+\.webp$/);
+        // Hand-curated shots are optimised to .webp; the automatic pipeline writes
+        // JPEGs straight from the browser, which is why both extensions are allowed.
+        expect(shot.src, p.slug).toMatch(/^\/shots\/.+\.(webp|jpg)$/);
         // 'og' = the repository's own social preview (markitdown has no product site)
         expect(shot.origin, p.slug).toMatch(/^(live|og)$/);
         expect(shot.synthetic, p.slug).not.toBe(true);
@@ -81,6 +83,15 @@ describe('published dataset', () => {
     // 90%+ of the catalogue should have a real screenshot; placeholders are the exception.
     const withShot = projects.filter((p) => p.screenshots.length > 0).length;
     expect(withShot / projects.length).toBeGreaterThan(0.9);
+  });
+
+  it('marks automatic entries and keeps their copy honestly sourced', () => {
+    for (const p of projects) {
+      if (p.review.mode !== 'auto') continue;
+      expect(p.review.reviewedBy, p.slug).toBeTruthy();
+      expect(p.contentBasis, p.slug).toMatch(/自动整理/);
+      expect(p.summary, p.slug).toMatch(/自动整理/);
+    }
   });
 
   it('keeps ranking derivable from public numbers only', () => {

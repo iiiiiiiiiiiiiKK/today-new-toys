@@ -144,6 +144,8 @@ export interface Project {
   weeklyScore: number;
   review: {
     status: 'published' | 'draft' | 'needs-review';
+    /** Who produced the Chinese copy: a person, or the automatic pipeline. */
+    mode?: 'human' | 'auto';
     reviewedBy: string | null;
     reviewedAt: string | null;
     /** What a reviewer should double-check next time. */

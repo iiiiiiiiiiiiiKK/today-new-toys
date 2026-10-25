@@ -64,7 +64,7 @@ for (const device of devices) {
         const r = el.getBoundingClientRect();
         const cs = getComputedStyle(el);
         if (r.width === 0 || r.height === 0 || cs.visibility === 'hidden' || cs.display === 'none') continue;
-        if (el.closest('.filters__chips--tags')) continue; // horizontally scrollable by design
+        if (el.closest('.filters__chips')) continue; // horizontally scrollable rails, by design
         if (r.right > vw + 1.5 || r.left < -1.5) {
           clipped.push(`${el.tagName}:${(el.textContent || '').trim().slice(0, 24)} [${Math.round(r.left)}..${Math.round(r.right)}]`);
         }

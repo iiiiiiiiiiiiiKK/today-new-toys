@@ -32,7 +32,8 @@ for (const vp of viewports) {
         if (r.width === 0 || r.height === 0) continue;
         if (r.right > vw + 2 || r.left < -2) {
           const text = (el.textContent || '').trim().slice(0, 40);
-          if (text && !el.closest('.filters__chips--tags')) out.clipped.push(`${el.tagName}.${el.className}: ${text} [${Math.round(r.left)}..${Math.round(r.right)}]`);
+          // Chip rails scroll horizontally by design; the page itself must not overflow.
+          if (text && !el.closest('.filters__chips')) out.clipped.push(`${el.tagName}.${el.className}: ${text} [${Math.round(r.left)}..${Math.round(r.right)}]`);
         }
         const cs = getComputedStyle(el);
         const fs = parseFloat(cs.fontSize);

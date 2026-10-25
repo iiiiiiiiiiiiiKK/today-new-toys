@@ -16,7 +16,7 @@ function AboutInner() {
   const total = data.projects.length;
   const withShot = data.projects.filter((p) => p.screenshots.length).length;
   const withLicense = data.projects.filter((p) => p.license.spdx).length;
-  const withStars = data.projects.filter((p) => p.repo.stars !== null).length;
+  const autoCount = data.projects.filter((p) => p.review.mode === 'auto').length;
 
   return (
     <div className="about">
@@ -48,7 +48,11 @@ function AboutInner() {
               <strong>仓库元信息</strong>：GitHub REST API 抓取的公开数据（Star、Fork、许可证、最近推送、Topics），每条记录都带抓取时间。
             </li>
             <li>
-              <strong>中文介绍</strong>：编辑在读完 README 后手写，<code>contentBasis</code> 字段会写明依据的是 README 的哪部分、读了多少字。
+              <strong>中文介绍</strong>：分两种来源，页面上分得清楚——编辑读完 README 后手写的条目，以及机器自动整理的条目。
+            </li>
+            <li>
+              <strong>自动收录</strong>：每天由 GitHub Actions 搜索新项目、抓取 README 与官网截图，再用规则（或可选的模型）生成中文条目，自动发布。
+              这类条目带「自动收录」标记，详情页会说明「未经人工校对」，<code>contentBasis</code> 写明依据的 README 与字数。
             </li>
             <li>
               <strong>截图</strong>：用无头浏览器从项目官网或演示站实时抓取，页面底部标注抓取日期。抓不到就用带标注的占位图，不拿别的图冒充。
@@ -58,7 +62,7 @@ function AboutInner() {
             </li>
           </ul>
           <p className="about__statline mono">
-            当前清单：{total} 个项目 / {withShot} 个有真实截图 / {withLicense} 个许可证已确认 / {withStars} 个有 Star 数据 · 快照 {data.snapshotDate}
+            当前清单：{total} 个项目（{autoCount} 个自动收录）/ {withShot} 个有真实截图 / {withLicense} 个许可证已确认 / 快照 {data.snapshotDate}
           </p>
         </section>
 

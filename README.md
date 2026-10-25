@@ -182,6 +182,7 @@ tests/e2e/                   19 个端到端检查 + 布局审计 + 10 设备响
 
 | 命令 | 作用 |
 | --- | --- |
+| **`npm run auto:publish`** | **无人值守：搜索新项目 → 抓 README/截图 → 生成中文条目 → 直接发布（标注「自动收录」）** |
 | `npm run data:fetch` | 抓取 `sources.json` 中仓库的元信息 + README（`-- slug` 只抓指定项） |
 | `npm run data:import -- <repo-url>` | 从仓库地址导入新项目，生成**草稿**（去重 + 规则版/可选 AI 中文草稿） |
 | `npm run data:update` | 刷新已发布项目的 Star / 许可证 / 推送时间 / README 摘要 |
@@ -194,7 +195,31 @@ tests/e2e/                   19 个端到端检查 + 布局审计 + 10 设备响
 
 每次抓取 / 更新都会写一条 append-only JSONL 日志到 `data/logs/`，包含每条 HTTP 请求的状态码与剩余额度、失败原因、保留的旧快照。**日志随仓库提交**，可据此复核「某个数字是什么时候抓的」。
 
-### 添加一个项目
+### 自动收录（无人值守，无需人工维护）
+
+内容**不需要你每天手动添加**。`.github/workflows/auto-update.yml` 每天 09:17（Asia/Shanghai）自动执行：
+
+1. **发现**：按 10 个分类各跑一次 GitHub 搜索（`topic:… stars:>N pushed:>…`），取 Star 排序后的候选；
+2. **过滤**：跳过 archived / fork / 描述过短 / 150 天未推送 / 低于 Star 门槛的仓库，并排除 `awesome-*` 这类清单仓库；
+3. **去重**：按仓库全名、项目名、官网域名三重比对，已收录的不会重复添加（同一次运行内也会去重）；
+4. **抓取**：GitHub API 取元信息，读 README，用无头 Chrome 截官网（1200×750 JPEG，失败就用占位图）；
+5. **生成中文条目**：从 README 标题与安装命令生成可核实的摘要；配置了 `AI_API_KEY` 时改由模型生成；
+6. **发布**：写入 `data/projects/<slug>.json`，带 `review.mode = "auto"`，然后重建数据、跑一遍 `data:check` 与单元测试、提交并发布到 GitHub Pages。
+
+**读者能看出来源**：自动条目在卡片上有「自动收录」小标，详情页写明「未经人工校对」，`contentBasis` 记录依据的 README 与字数。人工写的条目没有这个标记。
+
+**它不会做的事**：不猜 Star、不补许可证、不编功能、不为没有截图的条目伪造截图。取不到就写「未知」。
+
+```bash
+# 本地试跑（不写文件）
+npm run auto:publish -- --limit=3 --dry-run
+# 本地真跑：收录最多 3 个
+GITHUB_TOKEN=... npm run auto:publish -- --limit=3
+```
+
+想接入模型生成更自然的中文摘要：在仓库 Settings → Secrets 配置 `AI_BASE_URL` / `AI_API_KEY` / `AI_MODEL`（OpenAI 兼容接口）。没配也能跑，用的是确定性规则稿。密钥只在 Actions 里，前端**没有任何**读取密钥的代码。
+
+### 手动添加一个项目（可选）
 
 ```bash
 npm run data:import -- https://github.com/owner/repo --category=dev-tools

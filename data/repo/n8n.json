@@ -1,0 +1,73 @@
+{
+  "slug": "n8n",
+  "repoInput": "n8n-io/n8n",
+  "fetchedAt": "2026-10-25T17:48:05.518Z",
+  "github": {
+    "owner": "n8n-io",
+    "name": "n8n",
+    "fullName": "n8n-io/n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "homepage": "https://n8n.io",
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "stars": 208563,
+    "forks": 61250,
+    "openIssues": 1249,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "apis",
+      "automation",
+      "cli",
+      "data-flow",
+      "development",
+      "integration-framework",
+      "integrations",
+      "ipaas",
+      "low-code",
+      "low-code-platform",
+      "mcp",
+      "mcp-client",
+      "mcp-server",
+      "n8n",
+      "no-code",
+      "self-hosted",
+      "typescript",
+      "workflow",
+      "workflow-automation"
+    ],
+    "license": {
+      "spdx": null,
+      "name": "Other",
+      "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+      "url": null
+    },
+    "createdAt": "2019-06-22T09:24:21Z",
+    "pushedAt": "2026-10-25T17:42:46Z",
+    "archived": false,
+    "fetchedAt": "2026-10-25T17:48:05.518Z",
+    "source": "api",
+    "warnings": [
+      "仓库未声明可识别的开源许可证"
+    ]
+  },
+  "defaultBranch": "master",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 2895,
+    "headings": [
+      "n8n – The Platform for AI Agents and Workflow Automation",
+      "Key Capabilities",
+      "Quick Start",
+      "Resources",
+      "Support",
+      "License",
+      "Contributing",
+      "Join the Team",
+      "What does n8n mean?"
+    ],
+    "excerpt": "n8n – The Platform for AI Agents and Workflow Automation Fair-code platform to build and deploy AI agents and workflows. Combine a visual canvas with custom code, run it self-hosted or in the cloud, and connect to 1500+ integrations. AI automation you can trust with real work, from prototype to production. Key Capabilities - AI-Native Automation Platform : Build and operationalize AI workflows and multi-step agents using your own data, models, and tools - Model Flexibility, No Lock-In : Connect to OpenAI, Anthropic, Google, or open-source models and switch providers without changing your architecture - From Prototype to Production : Design multi-step AI workflows with logic, tool use, human approvals, and full observability - Code When You Need It : Combine visual building with JavaScript, Python, and npm packages for advanced AI workflows - Enterprise-Ready AI : Self-host or deploy securely with role-based access, audit trails, and support for sensitive data - Leverage What Already Exists : 1500+ integrations and 9,000+ workflow templates to connect AI with your existing systems Quick Start Try n8n instantly with our install script (requires Docker): Or deploy manually with Docker: Access the editor at http://localhost:5678 Resources - 📚 Documentation - 🔧 1500+ Integrations - 💡 Example Workflows - 🤖 AI & LangChain Guide - 👥 Community Forum - 📖 Community Tutorials Support",
+    "truncated": true,
+    "rawFile": "data/readme/n8n.md"
+  }
+}

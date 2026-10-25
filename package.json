@@ -21,6 +21,7 @@
     "data:check": "node scripts/validate-data.mjs",
     "data:import": "node scripts/ingest.mjs import",
     "data:verify": "node scripts/ingest.mjs verify",
+    "auto:publish": "node scripts/auto-pipeline.mjs",
     "shots": "node scripts/capture-shots.mjs",
     "shots:retry": "node scripts/recapture.mjs",
     "og": "python scripts/og-images.py",
