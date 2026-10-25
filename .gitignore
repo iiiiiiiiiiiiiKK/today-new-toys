@@ -4,6 +4,9 @@ dist/
 .tmp-shots/
 .tmp-shots2/
 .tmp-shots-review/
+.tmp-device/
+.tmp-visual/
+.upload-cache*.json
 *.tsbuildinfo
 .env
 .env.local
