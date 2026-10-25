@@ -1,0 +1,30 @@
+{"at":"2026-10-25T18:19:55.676Z","event":"run_start","name":"auto","startedAt":"2026-10-25T18:19:55.676Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-10-25T18:19:55.682Z","event":"existing","detail":"catalogue has 33 projects","level":"info"}
+{"at":"2026-10-25T18:19:56.280Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Allm%20stars%3A%3E3000%20pushed%3A%3E2026-06-27%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":29,"ms":598}
+{"at":"2026-10-25T18:19:56.280Z","event":"search","detail":"ai-tools: 8 hits (quota 29)","level":"info"}
+{"at":"2026-10-25T18:19:57.897Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adeveloper-tools%20stars%3A%3E2000%20pushed%3A%3E2026-06-27%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":28,"ms":416}
+{"at":"2026-10-25T18:19:57.897Z","event":"search","detail":"dev-tools: 8 hits (quota 28)","level":"info"}
+{"at":"2026-10-25T18:19:59.557Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aproductivity%20stars%3A%3E1500%20pushed%3A%3E2026-06-27%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":27,"ms":459}
+{"at":"2026-10-25T18:19:59.558Z","event":"search","detail":"productivity: 8 hits (quota 27)","level":"info"}
+{"at":"2026-10-25T18:20:01.178Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adata-visualization%20stars%3A%3E800%20pushed%3A%3E2026-06-27%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":26,"ms":420}
+{"at":"2026-10-25T18:20:01.178Z","event":"search","detail":"data-viz: 8 hits (quota 26)","level":"info"}
+{"at":"2026-10-25T18:20:02.845Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Acreative-coding%20stars%3A%3E800%20pushed%3A%3E2026-06-27%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":25,"ms":466}
+{"at":"2026-10-25T18:20:02.845Z","event":"search","detail":"creative: 8 hits (quota 25)","level":"info"}
+{"at":"2026-10-25T18:20:04.468Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Atutorial%20stars%3A%3E3000%20pushed%3A%3E2026-06-27%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":24,"ms":422}
+{"at":"2026-10-25T18:20:04.468Z","event":"search","detail":"learning: 8 hits (quota 24)","level":"info"}
+{"at":"2026-10-25T18:20:06.073Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Afirmware%20stars%3A%3E1000%20pushed%3A%3E2026-06-27%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":23,"ms":404}
+{"at":"2026-10-25T18:20:06.073Z","event":"search","detail":"hardware: 8 hits (quota 23)","level":"info"}
+{"at":"2026-10-25T18:20:07.735Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Awebapp%20stars%3A%3E1500%20pushed%3A%3E2026-06-27%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":22,"ms":461}
+{"at":"2026-10-25T18:20:07.735Z","event":"search","detail":"internet-toys: 8 hits (quota 22)","level":"info"}
+{"at":"2026-10-25T18:20:09.354Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aself-hosted%20stars%3A%3E2000%20pushed%3A%3E2026-06-27%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":21,"ms":418}
+{"at":"2026-10-25T18:20:09.354Z","event":"search","detail":"self-hosted: 8 hits (quota 21)","level":"info"}
+{"at":"2026-10-25T18:20:11.044Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aethereum%20stars%3A%3E1000%20pushed%3A%3E2026-06-27%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":20,"ms":490}
+{"at":"2026-10-25T18:20:11.045Z","event":"search","detail":"web3: 8 hits (quota 20)","level":"info"}
+{"at":"2026-10-25T18:20:12.246Z","event":"picked","detail":"ohmyzsh/ohmyzsh (productivity, ★190159)","level":"info"}
+{"at":"2026-10-25T18:20:12.506Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ohmyzsh/ohmyzsh","status":200,"remaining":4993,"ms":259}
+{"at":"2026-10-25T18:20:12.748Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ohmyzsh/ohmyzsh/readme","status":200,"remaining":4992,"ms":242}
+{"at":"2026-10-25T18:20:12.750Z","event":"saved","detail":"ohmyzsh ★190159 MIT README=16019 字","level":"info"}
+{"at":"2026-10-25T18:20:43.089Z","event":"shot","detail":"ohmyzsh -> /shots/ohmyzsh.jpg","level":"info"}
+{"at":"2026-10-25T18:20:43.106Z","event":"published","detail":"ohmyzsh (productivity) ★190159","level":"info"}
+{"at":"2026-10-25T18:20:43.155Z","event":"rebuilt","detail":"[data:build] 34 个项目 → public/data/projects.json","level":"info"}
+{"at":"2026-10-25T18:20:43.156Z","event":"run_end","level":"info","detail":"{\"ranAt\":\"2026-10-25T18:19:55.678Z\",\"auth\":\"token\",\"searched\":10,\"picked\":[{\"repo\":\"ohmyzsh/ohmyzsh\",\"category\":\"productivity\"}],\"added\":[{\"slug\":\"ohmyzsh\",\"repo\":\"ohmyzsh/ohmyzsh\",\"category\":\"productivity\",\"stars\":190159,\"shot\":true}]}"}

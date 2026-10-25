@@ -1,41 +1,19 @@
 {
-  "ranAt": "2026-10-25T17:46:41.233Z",
+  "ranAt": "2026-10-25T18:19:55.678Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "morluto/rea",
-      "category": "ai-tools"
-    },
-    {
-      "repo": "affaan-m/ECC",
+      "repo": "ohmyzsh/ohmyzsh",
       "category": "productivity"
-    },
-    {
-      "repo": "n8n-io/n8n",
-      "category": "self-hosted"
     }
   ],
   "added": [
     {
-      "slug": "rea",
-      "repo": "morluto/rea",
-      "category": "ai-tools",
-      "stars": 383296,
-      "shot": true
-    },
-    {
-      "slug": "ecc",
-      "repo": "affaan-m/ECC",
+      "slug": "ohmyzsh",
+      "repo": "ohmyzsh/ohmyzsh",
       "category": "productivity",
-      "stars": 288643,
-      "shot": true
-    },
-    {
-      "slug": "n8n",
-      "repo": "n8n-io/n8n",
-      "category": "self-hosted",
-      "stars": 208563,
+      "stars": 190159,
       "shot": true
     }
   ]
