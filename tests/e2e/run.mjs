@@ -70,9 +70,10 @@ async function main() {
     await page.waitForSelector('.project-card');
     const cards = await page.locator('.project-card').count();
     assert(cards >= 6, `首页卡片数 ${cards}`);
-    // The catalogue grows automatically, so assert against the data file, not a literal.
-    const dataFile = join(root, 'dist/data/projects.json');
-    const expected = JSON.parse(readFileSync(dataFile, 'utf8')).projects.length;
+    // The catalogue grows automatically, so compare against the data file served by
+    // the site under test — not against a number baked into this script.
+    const served = await (await fetch(`${BASE}/data/projects.json`)).json();
+    const expected = served.projects.length;
     const stats = await page.locator('.hero__stats').innerText();
     assert(stats.replace(/\s/g, '').includes(String(expected)), `统计区没有 ${expected}：${stats}`);
     const title = await page.title();
