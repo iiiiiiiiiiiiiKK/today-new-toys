@@ -226,11 +226,13 @@ npm run data:check && npm run build
 
 ## 部署
 
+**线上地址：<https://iiiiiiiiiiiiikk.github.io/today-new-toys/>**（GitHub Pages，`gh-pages` 分支）
+
 构建产物是纯静态文件（`dist/`，约 7.7 MB，大部分是截图与分享图）。
 
 | 平台 | 配置 |
 | --- | --- |
-| **GitHub Pages**（当前使用） | `TOYS_BASE=/<repo>/ SITE_ORIGIN=https://<user>.github.io/<repo> npm run build`，再把 `dist/` 发布到 Pages |
+| **GitHub Pages**（当前使用） | 推送到 `main` 后由 `.github/workflows/deploy-pages.yml` 自动构建并发布到 `gh-pages`；Pages 源设为 `gh-pages` 分支根目录 |
 | **Cloudflare Pages / Netlify** | Build：`npm run build`，Output：`dist`；已内置 `_redirects` |
 | **Vercel** | Framework：Vite，Output：`dist`；需要 SPA 回退时加 `vercel.json` rewrite |
 | **任意静态服务器** | Nginx `try_files $uri $uri/ /index.html;` |
@@ -245,7 +247,19 @@ npm run data:check && npm run build
 | `CHROME_PATH` | 截图与预渲染使用的 Chrome | 可选 |
 | `VITE_REPO_URL` | 「提交修订」跳转的仓库地址 | 可选 |
 
-GitHub Pages 由 `.github/workflows/deploy-pages.yml` 自动构建并发布（推送到 `main` 触发）。
+GitHub Pages 由 `.github/workflows/deploy-pages.yml` 自动构建并发布（推送到 `main` 触发）。工作流会把 `SITE_ORIGIN` 统一转成小写，避免 canonical / OG 指向大小写不同的主机名。
+
+### 手动部署（子路径）
+
+```bash
+TOYS_BASE=/today-new-toys/ \
+SITE_ORIGIN=https://iiiiiiiiiiiiikk.github.io/today-new-toys \
+npm run build
+# 然后把 dist/ 的内容发布到 Pages 分支
+```
+
+> 如果当前网络无法 `git push`（只允许 `api.github.com`），可以用 `scripts/upload-via-api.cjs` 通过 REST API 推送：
+> `GITHUB_TOKEN=... OWNER=... REPO=... BRANCH=gh-pages LOCAL_ROOT=dist node scripts/upload-via-api.cjs`
 
 ---
 
