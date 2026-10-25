@@ -26,12 +26,16 @@ const site = siteConfig();
 let verified = 0;
 let failures = 0;
 
+// A shallow clone/CI checkout may not contain pre-rendered pages when prerender was
+// skipped (no Chrome). That is a degraded but deployable state — warn, don't fail.
+const prerendered = data.projects.every((p) => existsSync(join(dist, 'project', p.slug, 'index.html')));
+if (!prerendered) {
+  console.warn('[postbuild] 未找到全部预渲染页面：跳过 OG/canonical 校验（站点仍可部署，项目页由客户端渲染）');
+}
+
 for (const p of data.projects) {
   const page = join(dist, 'project', p.slug, 'index.html');
-  if (!existsSync(page)) {
-    console.error(`✗ 缺少预渲染页面：dist/project/${p.slug}/index.html`);
-    process.exit(1);
-  }
+  if (!existsSync(page)) continue;
   const ogFile = existsSync(join(PATHS.root, 'public', 'og', `${p.slug}.png`)) ? `/og/${p.slug}.png` : '/og/default.png';
   const og = `${site.siteRoot}${ogFile}`;
   let html = readFileSync(page, 'utf8');

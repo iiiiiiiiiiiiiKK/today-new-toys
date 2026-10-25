@@ -4,6 +4,7 @@ import { useData } from '../context/DataContext';
 import { useFavorites } from '../context/FavoritesContext';
 import { currentIssue } from '../lib/issue';
 import { XLogo } from './icons';
+import { assetUrl } from '../lib/asset';
 
 /** Author link, shown in the masthead on every page. */
 const AUTHOR_X = 'https://x.com/0xkillcoin';
@@ -153,9 +154,12 @@ export function Layout({ children }: { children: ReactNode }) {
             <p className="footer__head">数据</p>
             <Link to="/about#data">数据来源与更新</Link>
             <Link to="/about#license">许可证与署名</Link>
-            <a href="/feed.xml">RSS 订阅</a>
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-              GitHub ↗
+            <a href={assetUrl('feed.xml') ?? '/feed.xml'}>RSS 订阅</a>
+            <a href="https://github.com/iiiiiiiiiiiiiKK/today-new-toys" target="_blank" rel="noopener noreferrer">
+              源码仓库 ↗
+            </a>
+            <a href={AUTHOR_X} target="_blank" rel="noopener noreferrer">
+              作者 𝕏 ↗
             </a>
           </div>
           <div className="footer__col">

@@ -89,7 +89,19 @@ function AboutInner() {
             </li>
           </ol>
           <p>
-            详细步骤、导入脚本、更新与部署说明都在仓库 README 的「内容维护」「数据更新」「部署」三节。
+            详细步骤、导入脚本、更新与部署说明都在{' '}
+            <a href="https://github.com/iiiiiiiiiiiiiKK/today-new-toys#readme" target="_blank" rel="noopener noreferrer">
+              仓库 README
+            </a>{' '}
+            的「内容维护」「数据更新」「部署」三节。也可以直接在{' '}
+            <a href="https://github.com/iiiiiiiiiiiiiKK/today-new-toys/issues" target="_blank" rel="noopener noreferrer">
+              GitHub Issues
+            </a>{' '}
+            里提建议，或到{' '}
+            <a href="https://x.com/0xkillcoin" target="_blank" rel="noopener noreferrer">
+              作者 𝕏
+            </a>{' '}
+            留言。
           </p>
         </section>
 

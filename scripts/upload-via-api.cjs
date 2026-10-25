@@ -17,6 +17,7 @@ const BRANCH = process.env.BRANCH || 'main';
 const LOCAL_ROOT = process.env.LOCAL_ROOT;
 const MESSAGE = process.env.COMMIT_MSG || 'chore: sync';
 const CACHE_FILE = process.env.CACHE_FILE || '.upload-cache.json';
+const ORPHAN = process.env.ORPHAN === '1';
 
 if (!TOKEN || !OWNER || !REPO || !LOCAL_ROOT) {
   console.error('需要 GITHUB_TOKEN / OWNER / REPO / LOCAL_ROOT');
@@ -72,11 +73,10 @@ const cache = fs.existsSync(CACHE_FILE) ? JSON.parse(fs.readFileSync(CACHE_FILE,
   const repoInfo = await api('');
   console.log(`repo: ${repoInfo.full_name}  private: ${repoInfo.private}`);
 
-  // An empty repo has no tree to attach blobs to (409) and `git/ref` returns 409 too.
-  // Bootstrap it with one real file through the Contents API, which creates the
-  // initial commit on the default branch; everything else rides on the tree API.
-  let baseBranch = await api(`/git/ref/heads/${BRANCH}`).catch(() => null);
-  if (!baseBranch) {
+  // Empty repos reject git/blobs with 409, so bootstrap with one Contents API commit
+  // unless the caller explicitly wants a single squashed "initial" commit.
+  let baseBranch = ORPHAN ? null : await api(`/git/ref/heads/${BRANCH}`).catch(() => null);
+  if (!baseBranch && !ORPHAN) {
     console.log('repo is empty — bootstrapping initial commit with README.md');
     const readme = fs.readFileSync(path.join(LOCAL_ROOT, 'README.md'));
     await api('/contents/README.md', {
@@ -89,8 +89,8 @@ const cache = fs.existsSync(CACHE_FILE) ? JSON.parse(fs.readFileSync(CACHE_FILE,
     });
     baseBranch = await api(`/git/ref/heads/${BRANCH}`);
   }
-  const baseCommit = await api(`/git/commits/${baseBranch.object.sha}`);
-  console.log(`branch: ${baseBranch.object.sha.slice(0, 7)}`);
+  const baseCommit = baseBranch ? await api(`/git/commits/${baseBranch.object.sha}`) : null;
+  console.log(baseBranch ? `branch: ${baseBranch.object.sha.slice(0, 7)}` : 'orphan commit mode');
 
   const files = walk(LOCAL_ROOT);
   console.log(`files: ${files.length}`);

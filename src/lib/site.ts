@@ -1,12 +1,13 @@
 /**
  * Site-level configuration that is not content.
  *
- * Set `VITE_REPO_URL` at build time if you publish this catalogue in a public repo:
- * the "建议修订" entry then opens a prefilled GitHub issue. Without it, the same
- * dialog still works — it just gives the user the text to paste somewhere.
+ * `repoUrl` powers the "提交修订" button: it opens a prefilled GitHub issue in the
+ * public repo. Set VITE_REPO_URL to override (e.g. a fork's own repo); the default
+ * points at the canonical repository so the flow works out of the box.
  */
 export const SITE = {
-  repoUrl: (import.meta.env.VITE_REPO_URL as string | undefined)?.replace(/\/$/, '') || null,
+  repoUrl: ((import.meta.env.VITE_REPO_URL as string | undefined) || 'https://github.com/iiiiiiiiiiiiiKK/today-new-toys').replace(/\/$/, ''),
+  authorX: 'https://x.com/0xkillcoin',
   title: '今天又有什么新玩具',
 };
 
