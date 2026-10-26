@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-25T18:37:13.332Z",
-  "snapshotDate": "2026-10-25",
+  "generatedAt": "2026-10-26T06:17:11.249Z",
+  "snapshotDate": "2026-10-26",
   "counts": {
-    "projects": 33,
+    "projects": 36,
     "categories": 10
   },
   "categories": [
@@ -1388,6 +1388,183 @@
       "updatedAt": "2026-10-25"
     },
     {
+      "slug": "firecrawl",
+      "name": "firecrawl",
+      "tagline": "AI 工具 · Supercharge your AI agents with data from the…",
+      "summary": "（自动整理，未经人工校对）firecrawl 是一个用 TypeScript 写的开源项目。仓库自述「Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥」。已抓取 README 约 6,476 字；其中有「🔥 Firecrawl」「Feature Overview」「Search」「Scrape」「Firecrawl」等章节可对应到具体能力。仓库 Topics 涉及：AI、大语言模型。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "ai-tools",
+      "tags": [
+        "AI",
+        "大语言模型",
+        "AI 工具",
+        "AGPL-3.0"
+      ],
+      "aliases": [
+        "firecrawl/firecrawl"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Firecrawl",
+          "detail": "（自动整理）README 中有「🔥 Firecrawl」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Feature Overview",
+          "detail": "（自动整理）README 中有「Feature Overview」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Search",
+          "detail": "（自动整理）README 中有「Search」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Scrape",
+          "detail": "（自动整理）README 中有「Scrape」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 6476 字，抓取于 2026-10-26）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://firecrawl.dev",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/firecrawl.jpg",
+          "alt": "firecrawl 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-26T06:17:02.428Z",
+          "credit": "页面截图：https://firecrawl.dev",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-26",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-26",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 529,
+      "weeklyScore": 649,
+      "categoryName": "AI 工具",
+      "license": {
+        "spdx": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "firecrawl",
+        "name": "firecrawl",
+        "fullName": "firecrawl/firecrawl",
+        "url": "https://github.com/firecrawl/firecrawl",
+        "homepage": "https://firecrawl.dev",
+        "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+        "stars": 195398,
+        "forks": 10307,
+        "openIssues": 681,
+        "language": "TypeScript",
+        "topics": [
+          "ai",
+          "ai-agents",
+          "ai-crawler",
+          "ai-scraping",
+          "ai-search",
+          "crawler",
+          "data-extraction",
+          "html-to-markdown",
+          "llm",
+          "markdown",
+          "scraper",
+          "scraping",
+          "web-crawler",
+          "web-data",
+          "web-data-extraction",
+          "web-scraper",
+          "web-scraping",
+          "web-search",
+          "webscraping"
+        ],
+        "license": {
+          "spdx": "AGPL-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "url": null
+        },
+        "createdAt": "2024-04-15T21:02:29Z",
+        "pushedAt": "2026-10-26T04:20:44Z",
+        "archived": false,
+        "fetchedAt": "2026-10-26T06:16:57.419Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "--- 🔥 Firecrawl The API to search, scrape, and interact with the web at scale. Firecrawl is the context API for AI agents. 🔥 Open source and available as a hosted service. Pst. Hey, you, join our stargazers :) --- Why Firecrawl? - Industry-leading reliability : Covers 96% of the web, including JS-heavy pages — no proxy headaches, just clean data (see benchmarks) - Blazingly fast : P95 latency of 3.4s across millions of pages, built for real-time agents and dynamic apps - LLM-ready output : Clean markdown, structured JSON, screenshots, and more — spend fewer tokens, build better AI apps - We handle the hard stuff : Rotating proxies, orchestration, rate limits, JS-blocked content, and more — zero configuration - Agent ready : Connect Firecrawl to any AI agent or MCP client with a single command - Document parsing : Turn PDFs, DOCX, and other documents into clean Markdown or structured JSON - Actions : Click, scroll, write, wait, and press before extracting content - Open source : Developed transparently and collaboratively — join our community --- Feature Overview Core Endpoints Feature Description --------- ------------- Search Search the web and get full page content from results Scrape Convert any URL to markdown, HTML, screenshots, or structured JSON Interact Scrape a page, then interact with it using AI prompts or code More Feature Description --------- ------------- Parse",
+        "headings": [
+          "🔥 Firecrawl",
+          "Why Firecrawl?",
+          "Feature Overview",
+          "Quick Start",
+          "Search",
+          "Scrape",
+          "Firecrawl",
+          "Features",
+          "Interact",
+          "1. Scrape the page",
+          "2. Interact with the page (use scrapeId from step 1)",
+          "Power Your Agent",
+          "Skill",
+          "MCP",
+          "Agent Onboarding",
+          "More Endpoints",
+          "Agent",
+          "Crawl",
+          "Map",
+          "Returns URLs ordered by relevance to \"pricing\"",
+          "Batch Scrape",
+          "SDKs",
+          "Python",
+          "Scrape a single URL",
+          "Use the Agent for autonomous data gathering",
+          "Crawl a website (automatically waits for completion)",
+          "Search the web",
+          "Node.js",
+          "Go",
+          "Java",
+          "Elixir",
+          "Scrape a URL",
+          "Crawl a website",
+          "Search the web",
+          "Map URLs",
+          "Rust",
+          "Ruby",
+          "Scrape a single URL",
+          "Use the Agent for autonomous data gathering",
+          "Crawl a website (automatically waits for completion)"
+        ],
+        "chars": 6476,
+        "fetchedAt": "2026-10-26T06:16:57.419Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-26"
+    },
+    {
       "slug": "markitdown",
       "name": "MarkItDown",
       "tagline": "把 PDF、Office 文档统统转成给大模型看的 Markdown",
@@ -1557,6 +1734,317 @@
         "truncated": true
       },
       "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "ohmyzsh",
+      "name": "ohmyzsh",
+      "tagline": "效率工具 · 🙃 A delightful community-driven (with 2,500+…",
+      "summary": "（自动整理，未经人工校对）ohmyzsh 是一个用 Shell 写的开源项目。仓库自述「🙃 A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community」。已抓取 README 约 16,019 字；其中有「Operating System Compatibility」「Basic Installation」「Plugins」「Themes」「Shellsavers」等章节可对应到具体能力。仓库 Topics 涉及：命令行、效率。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "productivity",
+      "tags": [
+        "命令行",
+        "效率",
+        "效率工具",
+        "MIT"
+      ],
+      "aliases": [
+        "ohmyzsh/ohmyzsh"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Operating System Compati",
+          "detail": "（自动整理）README 中有「Operating System Compatibility」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Basic Installation",
+          "detail": "（自动整理）README 中有「Basic Installation」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Plugins",
+          "detail": "（自动整理）README 中有「Plugins」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Themes",
+          "detail": "（自动整理）README 中有「Themes」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 16019 字，抓取于 2026-10-26）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://ohmyz.sh",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/ohmyzsh.jpg",
+          "alt": "ohmyzsh 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-26T06:16:57.071Z",
+          "credit": "页面截图：https://ohmyz.sh",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-26",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-26",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 528,
+      "weeklyScore": 648,
+      "categoryName": "效率工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "ohmyzsh",
+        "name": "ohmyzsh",
+        "fullName": "ohmyzsh/ohmyzsh",
+        "url": "https://github.com/ohmyzsh/ohmyzsh",
+        "homepage": "https://ohmyz.sh",
+        "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+        "stars": 190164,
+        "forks": 28613,
+        "openIssues": 294,
+        "language": "Shell",
+        "topics": [
+          "cli",
+          "cli-app",
+          "oh-my-zsh",
+          "oh-my-zsh-plugin",
+          "oh-my-zsh-theme",
+          "ohmyzsh",
+          "plugin-framework",
+          "plugins",
+          "productivity",
+          "shell",
+          "terminal",
+          "theme",
+          "themes",
+          "zsh",
+          "zsh-configuration"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2009-08-28T18:15:37Z",
+        "pushedAt": "2026-10-25T14:39:33Z",
+        "archived": false,
+        "fetchedAt": "2026-10-26T06:16:45.621Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Oh My Zsh is an open source, community-driven framework for managing your zsh configuration. Sounds boring. Let's try again. Oh My Zsh will not make you a 10x developer...but you may feel like one. Once installed, your terminal shell will become the talk of the town or your money back! With each keystroke in your command prompt, you'll take advantage of the hundreds of powerful plugins and beautiful themes. Strangers will come up to you in cafés and ask you, \"that is amazing! are you some sort of genius?\" Finally, you'll begin to get the sort of attention that you have always felt you deserved. ...or maybe you'll use the time that you're saving to start flossing more often. 😬 To learn more, visit ohmyz.sh, follow @ohmyzsh on X (formerly Twitter), and join us on Discord. Table of Contents - Getting Started - Operating System Compatibility - Prerequisites - Basic Installation - Manual Inspection - Using Oh My Zsh - Plugins - Enabling Plugins - Using Plugins - Themes - Selecting A Theme - Shellsavers - FAQ - Advanced Topics - Advanced Installation - Custom Directory - Unattended Install - Installing From A Forked Repository - Manual Installation - Installation Problems - Custom Plugins And Themes - Enable GNU ls In macOS And FreeBSD Systems - Skip Aliases - Async git prompt - Getting Updates - Updates Verbosity - Manual Updates - Uninstalling Oh My Zsh - How Do I Contribute To Oh",
+        "headings": [
+          "Getting Started",
+          "Operating System Compatibility",
+          "Prerequisites",
+          "Basic Installation",
+          "Using Oh My Zsh",
+          "Plugins",
+          "Themes",
+          "see https://github.com/ohmyzsh/ohmyzsh/wiki/Themesagnoster",
+          "Shellsavers",
+          "FAQ",
+          "Advanced Topics",
+          "Advanced Installation",
+          "Installation Problems",
+          "Custom Plugins And Themes",
+          "Enable GNU ls In macOS And FreeBSD Systems",
+          "Skip Aliases",
+          "Skip all aliases, in lib files and enabled plugins",
+          "Skip all aliases in lib files",
+          "Skip only aliases defined in the directories.zsh lib file",
+          "Skip all plugin aliases",
+          "Skip only the aliases from the git plugin",
+          "Skip all plugin aliases, except for the git plugin",
+          "Async git prompt",
+          "Getting Updates",
+          "This will check for updates every 7 days",
+          "This will check for updates every time you open the terminal (not recommended)",
+          "Only apply updates that are at least 10 days old",
+          "Updates Verbosity",
+          "Manual Updates",
+          "Uninstalling Oh My Zsh",
+          "How Do I Contribute To Oh My Zsh?",
+          "Do Not Send Us Themes",
+          "Contributors",
+          "Follow Us",
+          "Merchandise",
+          "License",
+          "About Planet Argon"
+        ],
+        "chars": 16019,
+        "fetchedAt": "2026-10-26T06:16:45.621Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-26"
+    },
+    {
+      "slug": "ponytail",
+      "name": "ponytail",
+      "tagline": "开发者工具 · Makes your AI agent think like the laziest se…",
+      "summary": "（自动整理，未经人工校对）ponytail 是一个用 JavaScript 写的开源项目。仓库自述「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote」。已抓取 README 约 7,620 字；其中有「Already built with Ponytail」「Numbers」「Before / after」「The review, rebuilt」「The audit, rebuilt」等章节可对应到具体能力。仓库 Topics 涉及：开发者工具、大语言模型。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "dev-tools",
+      "tags": [
+        "开发者工具",
+        "大语言模型",
+        "MIT"
+      ],
+      "aliases": [
+        "DietrichGebert/ponytail"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Already built with Ponyt",
+          "detail": "（自动整理）README 中有「Already built with Ponytail」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Numbers",
+          "detail": "（自动整理）README 中有「Numbers」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Before / after",
+          "detail": "（自动整理）README 中有「Before / after」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "The review, rebuilt",
+          "detail": "（自动整理）README 中有「The review, rebuilt」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 7620 字，抓取于 2026-10-26）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://ponytail.dev",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/ponytail.jpg",
+          "alt": "ponytail 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-26T06:17:07.259Z",
+          "credit": "页面截图：https://ponytail.dev",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-26",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-26",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 525,
+      "weeklyScore": 585,
+      "categoryName": "开发者工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "DietrichGebert",
+        "name": "ponytail",
+        "fullName": "DietrichGebert/ponytail",
+        "url": "https://github.com/DietrichGebert/ponytail",
+        "homepage": "https://ponytail.dev",
+        "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+        "stars": 176339,
+        "forks": 9634,
+        "openIssues": 137,
+        "language": "JavaScript",
+        "topics": [
+          "agent-skills",
+          "ai-agents",
+          "claude",
+          "claude-code",
+          "claude-code-plugin",
+          "cursor-rules",
+          "developer-tools",
+          "llm",
+          "prompt-engineering",
+          "yagni"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2026-06-12T00:52:37Z",
+        "pushedAt": "2026-10-18T01:55:14Z",
+        "archived": false,
+        "fetchedAt": "2026-10-26T06:17:02.763Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Ponytail He says nothing. He writes one line. It works. Ponytail 5: rebuilt from the ground up. -53% code &middot; -41% time &middot; -26% cost &middot; -45% tokens And yet: 98% of risky logic ships with a test. Without Ponytail: 68%. Benchmarked in Claude Code, the same agent with and without the skill: 39 tasks including a real FastAPI + React repo, Opus 5.5, 5 runs each. Details . Español &middot; 한국어 &middot; 简体中文 &middot; 日本語 --- Already built with Ponytail --- You know him. Long ponytail. Oval glasses. Has been at the company longer than the version control. You show him fifty lines; he looks at them, says nothing, and replaces them with one. Ponytail puts him inside your AI agent. Numbers Two things the chart does not show: in a blind comparison, Ponytail 5's replies beat the previous Ponytail's 110 to 67. And on the six security tasks (SQL injection, path traversal, forged tokens, rate limiting, malformed CSV rows, caching) it passed all 30 runs: less code, no less safe. Method, per-task tables and limits: benchmarks/results/2026-10-07-agentic.md. The rule was never \"fewest tokens.\" It is: write only what the task needs, and never cut validation, error handling, security, or accessibility. The code ends up small because it is necessary, not golfed. Lower cost and latency are a side effect. Before / after You ask for a date picker. Without Ponytail, the agent installs a ",
+        "headings": [
+          "Already built with Ponytail",
+          "Numbers",
+          "Before / after",
+          "The review, rebuilt",
+          "The audit, rebuilt",
+          "New in 5.3: the band",
+          "How it works",
+          "The prompt",
+          "Install",
+          "Commands",
+          "FAQ",
+          "Sponsors",
+          "License",
+          "Star History"
+        ],
+        "chars": 7620,
+        "fetchedAt": "2026-10-26T06:17:02.763Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-26"
     },
     {
       "slug": "sherlock",
