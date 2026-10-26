@@ -1,0 +1,65 @@
+{
+  "slug": "ponytail",
+  "repoInput": "DietrichGebert/ponytail",
+  "fetchedAt": "2026-10-26T06:17:02.763Z",
+  "github": {
+    "owner": "DietrichGebert",
+    "name": "ponytail",
+    "fullName": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "homepage": "https://ponytail.dev",
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "stars": 176339,
+    "forks": 9634,
+    "openIssues": 137,
+    "language": "JavaScript",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "cursor-rules",
+      "developer-tools",
+      "llm",
+      "prompt-engineering",
+      "yagni"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "createdAt": "2026-06-12T00:52:37Z",
+    "pushedAt": "2026-10-18T01:55:14Z",
+    "archived": false,
+    "fetchedAt": "2026-10-26T06:17:02.763Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "main",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 7620,
+    "headings": [
+      "Already built with Ponytail",
+      "Numbers",
+      "Before / after",
+      "The review, rebuilt",
+      "The audit, rebuilt",
+      "New in 5.3: the band",
+      "How it works",
+      "The prompt",
+      "Install",
+      "Commands",
+      "FAQ",
+      "Sponsors",
+      "License",
+      "Star History"
+    ],
+    "excerpt": "Ponytail He says nothing. He writes one line. It works. Ponytail 5: rebuilt from the ground up. -53% code &middot; -41% time &middot; -26% cost &middot; -45% tokens And yet: 98% of risky logic ships with a test. Without Ponytail: 68%. Benchmarked in Claude Code, the same agent with and without the skill: 39 tasks including a real FastAPI + React repo, Opus 5.5, 5 runs each. Details . Español &middot; 한국어 &middot; 简体中文 &middot; 日本語 --- Already built with Ponytail --- You know him. Long ponytail. Oval glasses. Has been at the company longer than the version control. You show him fifty lines; he looks at them, says nothing, and replaces them with one. Ponytail puts him inside your AI agent. Numbers Two things the chart does not show: in a blind comparison, Ponytail 5's replies beat the previous Ponytail's 110 to 67. And on the six security tasks (SQL injection, path traversal, forged tokens, rate limiting, malformed CSV rows, caching) it passed all 30 runs: less code, no less safe. Method, per-task tables and limits: benchmarks/results/2026-10-07-agentic.md. The rule was never \"fewest tokens.\" It is: write only what the task needs, and never cut validation, error handling, security, or accessibility. The code ends up small because it is necessary, not golfed. Lower cost and latency are a side effect. Before / after You ask for a date picker. Without Ponytail, the agent installs a ",
+    "truncated": true,
+    "rawFile": "data/readme/ponytail.md"
+  }
+}

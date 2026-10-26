@@ -1,0 +1,75 @@
+{
+  "slug": "firecrawl",
+  "name": "firecrawl",
+  "tagline": "AI 工具 · Supercharge your AI agents with data from the…",
+  "summary": "（自动整理，未经人工校对）firecrawl 是一个用 TypeScript 写的开源项目。仓库自述「Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥」。已抓取 README 约 6,476 字；其中有「🔥 Firecrawl」「Feature Overview」「Search」「Scrape」「Firecrawl」等章节可对应到具体能力。仓库 Topics 涉及：AI、大语言模型。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+  "category": "ai-tools",
+  "tags": [
+    "AI",
+    "大语言模型",
+    "AI 工具",
+    "AGPL-3.0"
+  ],
+  "aliases": [
+    "firecrawl/firecrawl"
+  ],
+  "audience": "开发者",
+  "audienceFor": [
+    "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+    "愿意自己读 README 确认细节的开发者"
+  ],
+  "features": [
+    {
+      "title": "Firecrawl",
+      "detail": "（自动整理）README 中有「🔥 Firecrawl」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Feature Overview",
+      "detail": "（自动整理）README 中有「Feature Overview」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Search",
+      "detail": "（自动整理）README 中有「Search」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Scrape",
+      "detail": "（自动整理）README 中有「Scrape」章节，此处只标注来源，未展开复述。"
+    }
+  ],
+  "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 6476 字，抓取于 2026-10-26）汇总；未经人工校对，页面上已标注「自动收录」。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "门槛未评估：请以 README 的安装说明为准",
+    "requires": [],
+    "steps": [
+      {
+        "title": "阅读安装章节",
+        "detail": "（自动整理）README 未提供可识别的安装命令。"
+      }
+    ],
+    "cost": "开源免费（以仓库许可证为准）"
+  },
+  "officialUrl": "https://firecrawl.dev",
+  "demoUrl": null,
+  "linkStatus": "unchecked",
+  "linkCheckedAt": null,
+  "featured": false,
+  "screenshots": [
+    {
+      "src": "/shots/firecrawl.jpg",
+      "alt": "firecrawl 的官方站点截图",
+      "origin": "live",
+      "capturedAt": "2026-10-26T06:16:28.740Z",
+      "credit": "页面截图：https://firecrawl.dev",
+      "synthetic": false
+    }
+  ],
+  "addedAt": "2026-10-26",
+  "review": {
+    "status": "published",
+    "mode": "auto",
+    "reviewedBy": "autopipeline",
+    "reviewedAt": "2026-10-26",
+    "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+  }
+}

@@ -1,0 +1,40 @@
+{"at":"2026-10-26T06:16:28.737Z","event":"run_start","name":"auto","startedAt":"2026-10-26T06:16:28.737Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-10-26T06:16:28.744Z","event":"existing","detail":"catalogue has 33 projects","level":"info"}
+{"at":"2026-10-26T06:16:29.324Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Allm%20stars%3A%3E3000%20pushed%3A%3E2026-06-28%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":29,"ms":579}
+{"at":"2026-10-26T06:16:29.324Z","event":"search","detail":"ai-tools: 8 hits (quota 29)","level":"info"}
+{"at":"2026-10-26T06:16:31.023Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adeveloper-tools%20stars%3A%3E2000%20pushed%3A%3E2026-06-28%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":28,"ms":497}
+{"at":"2026-10-26T06:16:31.023Z","event":"search","detail":"dev-tools: 8 hits (quota 28)","level":"info"}
+{"at":"2026-10-26T06:16:32.659Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aproductivity%20stars%3A%3E1500%20pushed%3A%3E2026-06-28%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":27,"ms":435}
+{"at":"2026-10-26T06:16:32.659Z","event":"search","detail":"productivity: 8 hits (quota 27)","level":"info"}
+{"at":"2026-10-26T06:16:34.326Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adata-visualization%20stars%3A%3E800%20pushed%3A%3E2026-06-28%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":26,"ms":467}
+{"at":"2026-10-26T06:16:34.326Z","event":"search","detail":"data-viz: 8 hits (quota 26)","level":"info"}
+{"at":"2026-10-26T06:16:36.048Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Acreative-coding%20stars%3A%3E800%20pushed%3A%3E2026-06-28%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":25,"ms":521}
+{"at":"2026-10-26T06:16:36.048Z","event":"search","detail":"creative: 8 hits (quota 25)","level":"info"}
+{"at":"2026-10-26T06:16:37.621Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Atutorial%20stars%3A%3E3000%20pushed%3A%3E2026-06-28%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":24,"ms":373}
+{"at":"2026-10-26T06:16:37.621Z","event":"search","detail":"learning: 8 hits (quota 24)","level":"info"}
+{"at":"2026-10-26T06:16:39.257Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Afirmware%20stars%3A%3E1000%20pushed%3A%3E2026-06-28%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":23,"ms":435}
+{"at":"2026-10-26T06:16:39.257Z","event":"search","detail":"hardware: 8 hits (quota 23)","level":"info"}
+{"at":"2026-10-26T06:16:40.865Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Awebapp%20stars%3A%3E1500%20pushed%3A%3E2026-06-28%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":22,"ms":408}
+{"at":"2026-10-26T06:16:40.865Z","event":"search","detail":"internet-toys: 8 hits (quota 22)","level":"info"}
+{"at":"2026-10-26T06:16:42.509Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aself-hosted%20stars%3A%3E2000%20pushed%3A%3E2026-06-28%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":21,"ms":443}
+{"at":"2026-10-26T06:16:42.509Z","event":"search","detail":"self-hosted: 8 hits (quota 21)","level":"info"}
+{"at":"2026-10-26T06:16:44.151Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aethereum%20stars%3A%3E1000%20pushed%3A%3E2026-06-28%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":20,"ms":442}
+{"at":"2026-10-26T06:16:44.151Z","event":"search","detail":"web3: 8 hits (quota 20)","level":"info"}
+{"at":"2026-10-26T06:16:45.354Z","event":"picked","detail":"ohmyzsh/ohmyzsh (productivity, ★190164) | firecrawl/firecrawl (ai-tools, ★195398) | DietrichGebert/ponytail (dev-tools, ★176339)","level":"info"}
+{"at":"2026-10-26T06:16:45.621Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ohmyzsh/ohmyzsh","status":200,"remaining":4997,"ms":266}
+{"at":"2026-10-26T06:16:45.866Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ohmyzsh/ohmyzsh/readme","status":200,"remaining":4996,"ms":243}
+{"at":"2026-10-26T06:16:45.868Z","event":"saved","detail":"ohmyzsh ★190164 MIT README=16019 字","level":"info"}
+{"at":"2026-10-26T06:16:57.072Z","event":"shot","detail":"ohmyzsh -> /shots/ohmyzsh.jpg","level":"info"}
+{"at":"2026-10-26T06:16:57.088Z","event":"published","detail":"ohmyzsh (productivity) ★190164","level":"info"}
+{"at":"2026-10-26T06:16:57.419Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/firecrawl/firecrawl","status":200,"remaining":4995,"ms":330}
+{"at":"2026-10-26T06:16:57.676Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/firecrawl/firecrawl/readme","status":200,"remaining":4994,"ms":257}
+{"at":"2026-10-26T06:16:57.678Z","event":"saved","detail":"firecrawl ★195398 AGPL-3.0 README=6476 字","level":"info"}
+{"at":"2026-10-26T06:17:02.428Z","event":"shot","detail":"firecrawl -> /shots/firecrawl.jpg","level":"info"}
+{"at":"2026-10-26T06:17:02.430Z","event":"published","detail":"firecrawl (ai-tools) ★195398","level":"info"}
+{"at":"2026-10-26T06:17:02.762Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DietrichGebert/ponytail","status":200,"remaining":4993,"ms":332}
+{"at":"2026-10-26T06:17:02.959Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DietrichGebert/ponytail/readme","status":200,"remaining":4992,"ms":196}
+{"at":"2026-10-26T06:17:02.960Z","event":"saved","detail":"ponytail ★176339 MIT README=7620 字","level":"info"}
+{"at":"2026-10-26T06:17:07.260Z","event":"shot","detail":"ponytail -> /shots/ponytail.jpg","level":"info"}
+{"at":"2026-10-26T06:17:07.260Z","event":"published","detail":"ponytail (dev-tools) ★176339","level":"info"}
+{"at":"2026-10-26T06:17:07.315Z","event":"rebuilt","detail":"[data:build] 36 个项目 → public/data/projects.json","level":"info"}
+{"at":"2026-10-26T06:17:07.316Z","event":"run_end","level":"info","detail":"{\"ranAt\":\"2026-10-26T06:16:28.740Z\",\"auth\":\"token\",\"searched\":10,\"picked\":[{\"repo\":\"ohmyzsh/ohmyzsh\",\"category\":\"productivity\"},{\"repo\":\"firecrawl/firecrawl\",\"category\":\"ai-tools\"},{\"repo\":\"DietrichGebert/ponytail\",\"category\":\"dev-tools\"}],\"added\":[{\"slug\":\"ohmyzsh\",\"repo\":\"ohmyzsh/ohmyzsh\",\"category\":\"productivity\",\"stars\":190164,\"shot\":true},{\"slug\":\"firecrawl\",\"repo\":\"firecrawl/firecrawl\",\"category\":\"ai-tools\",\"stars\":195398,\"shot\":true},{\"slug\":\"ponytail\",\"repo\":\"DietrichGebert/ponytail\",\"category\":\"dev-tools\",\"stars\":176339,\"shot\":true}]}"}

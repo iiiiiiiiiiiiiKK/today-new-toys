@@ -306,5 +306,29 @@
     "title": "n8n-io/n8n",
     "capturedAt": "2026-10-25T17:49:53.122Z",
     "auto": true
+  },
+  "ohmyzsh": {
+    "src": "/shots/ohmyzsh.jpg",
+    "captureUrl": "https://ohmyz.sh",
+    "origin": "live",
+    "title": "ohmyzsh",
+    "capturedAt": "2026-10-26T06:16:57.071Z",
+    "auto": true
+  },
+  "firecrawl": {
+    "src": "/shots/firecrawl.jpg",
+    "captureUrl": "https://firecrawl.dev",
+    "origin": "live",
+    "title": "firecrawl",
+    "capturedAt": "2026-10-26T06:17:02.428Z",
+    "auto": true
+  },
+  "ponytail": {
+    "src": "/shots/ponytail.jpg",
+    "captureUrl": "https://ponytail.dev",
+    "origin": "live",
+    "title": "ponytail",
+    "capturedAt": "2026-10-26T06:17:07.259Z",
+    "auto": true
   }
 }
