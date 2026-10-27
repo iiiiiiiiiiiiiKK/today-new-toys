@@ -8,6 +8,7 @@ import { assetUrl } from '../lib/asset';
 
 /** Author link, shown in the masthead on every page. */
 const AUTHOR_X = 'https://x.com/0xkillcoin';
+const REPO = 'https://github.com/iiiiiiiiiiiiiKK/today-new-toys';
 
 function SearchInline() {
   const navigate = useNavigate();
@@ -15,7 +16,7 @@ function SearchInline() {
   const params = new URLSearchParams(location.search);
   return (
     <form
-      className="search-inline"
+      className="search"
       role="search"
       onSubmit={(event) => {
         event.preventDefault();
@@ -24,7 +25,7 @@ function SearchInline() {
         navigate(q ? `/discover?q=${encodeURIComponent(q)}` : '/discover');
       }}
     >
-      <svg viewBox="0 0 24 24" aria-hidden="true" className="search-inline__icon">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
         <circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" strokeWidth="1.6" />
         <path d="m16 16 4.5 4.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
       </svg>
@@ -49,7 +50,7 @@ export function Layout({ children }: { children: ReactNode }) {
       const typing = target && /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName);
       if (event.key === '/' && !typing) {
         event.preventDefault();
-        document.querySelector<HTMLInputElement>('.search-inline input')?.focus();
+        document.querySelector<HTMLInputElement>('.search input')?.focus();
       }
     };
     window.addEventListener('keydown', onKey);
@@ -69,52 +70,53 @@ export function Layout({ children }: { children: ReactNode }) {
         跳到正文
       </a>
       <header className="masthead">
-        <div className="shell masthead__inner">
+        <div className="shell masthead__bar">
           <div className="masthead__brand">
-            <Link to="/" className="wordmark" aria-label="今天又有什么新玩具，返回首页">
-              <span className="wordmark__cn">今天又有什么</span>
-              <span className="wordmark__cn wordmark__cn--accent">新玩具</span>
+            <Link to="/" className="brand" aria-label="今天又有什么新玩具，返回首页">
+              <span className="brand__cn">
+                今天又有什么<span className="brand__accent">新玩具</span>
+              </span>
+              <span className="brand__en">A daily magazine of open-source toys &amp; internet tools</span>
             </Link>
-            <p className="masthead__meta">
-              <span className="mono">{issue.id}</span>
+            <p className="masthead__dateline">
+              <span>{issue.id}</span>
               <span className="dot">·</span>
               <span>{dateLabel}</span>
-              <span className="dot">·</span>
-              <span>每天发现一个值得打开的东西</span>
+              <span className="dot masthead__freq">·</span>
+              <span className="masthead__freq">每天更新</span>
             </p>
           </div>
 
           <div className="masthead__side">
             <SearchInline />
-            <nav className="nav" aria-label="主导航">
-              <NavLink to="/discover" className={({ isActive }) => (isActive ? 'nav__link is-active' : 'nav__link')}>
+            <nav className="masthead__nav" aria-label="主导航">
+              <NavLink to="/discover" className={({ isActive }) => (isActive ? 'navlink is-active' : 'navlink')}>
                 发现
               </NavLink>
-              <NavLink to="/categories" className={({ isActive }) => (isActive ? 'nav__link is-active' : 'nav__link')}>
+              <NavLink to="/categories" className={({ isActive }) => (isActive ? 'navlink is-active' : 'navlink')}>
                 分类
               </NavLink>
-              <NavLink to="/favorites" className={({ isActive }) => (isActive ? 'nav__link is-active' : 'nav__link')}>
+              <NavLink to="/favorites" className={({ isActive }) => (isActive ? 'navlink is-active' : 'navlink')}>
                 收藏
-                {favorites.count > 0 ? <span className="nav__count">{favorites.count}</span> : null}
+                {favorites.count > 0 ? <span className="navlink__count">{favorites.count}</span> : null}
               </NavLink>
-              <NavLink to="/about" className={({ isActive }) => (isActive ? 'nav__link is-active' : 'nav__link')}>
+              <NavLink to="/about" className={({ isActive }) => (isActive ? 'navlink is-active' : 'navlink')}>
                 关于
               </NavLink>
               <a
-                className="nav__link nav__x"
+                className="navlink navlink--icon"
                 href={AUTHOR_X}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="作者 𝕏：@0xkillcoin（在新标签页打开）"
                 title="作者 @0xkillcoin"
               >
-                <XLogo size={15} />
-                <span className="nav__x-handle">@0xkillcoin</span>
+                <XLogo size={14} />
               </a>
             </nav>
           </div>
         </div>
-        <div className="masthead__rule" />
+        <div className="shell masthead__rule rule rule--ink" />
       </header>
 
       <main id="main" className="shell page">
@@ -135,10 +137,10 @@ export function Layout({ children }: { children: ReactNode }) {
 
       <footer className="footer">
         <div className="shell footer__grid">
-          <div className="footer__brand">
+          <div>
             <p className="footer__title">今天又有什么新玩具</p>
             <p className="footer__desc">
-              中文开源项目与互联网工具发现站。人工撰写介绍，数据只取公开来源；取不到的数字一律写作「未知」，不猜、不补、不美化。
+              一本每天更新的独立数字杂志，专门发现值得使用的开源项目与互联网工具。介绍由人读过 README 后写成；取不到的数据写作「未知」，不猜、不补。
             </p>
           </div>
           <div className="footer__col">
@@ -151,29 +153,29 @@ export function Layout({ children }: { children: ReactNode }) {
             </button>
           </div>
           <div className="footer__col">
-            <p className="footer__head">数据</p>
-            <Link to="/about#data">数据来源与更新</Link>
-            <Link to="/about#license">许可证与署名</Link>
+            <p className="footer__head">编辑部</p>
+            <Link to="/about">编辑原则</Link>
+            <Link to="/about#data">数据来源</Link>
+            <Link to="/about#contribute">如何贡献</Link>
+            <Link to="/about#faq">常见问题</Link>
+          </div>
+          <div className="footer__col">
+            <p className="footer__head">订阅与源码</p>
             <a href={assetUrl('feed.xml') ?? '/feed.xml'}>RSS 订阅</a>
-            <a href="https://github.com/iiiiiiiiiiiiiKK/today-new-toys" target="_blank" rel="noopener noreferrer">
+            <a href={REPO} target="_blank" rel="noopener noreferrer">
               源码仓库 ↗
             </a>
             <a href={AUTHOR_X} target="_blank" rel="noopener noreferrer">
               作者 𝕏 ↗
             </a>
           </div>
-          <div className="footer__col">
-            <p className="footer__head">本期</p>
-            <p className="mono footer__num">{issue.id}</p>
-            <p className="footer__tiny">
-              {state.status === 'ready' ? `${state.data.counts.projects} 个项目 · ${state.data.counts.categories} 个分类` : '清单加载中'}
-            </p>
-            <p className="footer__tiny">快照 {state.status === 'ready' ? state.data.snapshotDate : '—'}</p>
-          </div>
         </div>
         <div className="shell footer__bottom">
-          <span>© {new Date().getFullYear()} 今天又有什么新玩具</span>
-          <span className="mono">MADE FOR CURIOUS PEOPLE</span>
+          <span className="mono">
+            {issue.id} · {dateLabel} · 快照 {state.status === 'ready' ? state.data.snapshotDate : '—'} ·{' '}
+            {state.status === 'ready' ? `${state.data.counts.projects} 个项目 / ${state.data.counts.categories} 个分类` : '加载中'}
+          </span>
+          <span className="mono">© {new Date().getFullYear()} 独立出版 · 保留所有权利</span>
         </div>
       </footer>
     </>

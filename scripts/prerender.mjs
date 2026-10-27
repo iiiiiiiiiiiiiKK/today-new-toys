@@ -70,7 +70,11 @@ async function renderRoute(route) {
     try {
       if (!browser || !browser.isConnected()) await launch();
       await page.goto(site.local(port, route), { waitUntil: 'networkidle', timeout: 45000 });
-      await page.waitForSelector('.project-card, .hero, .pagehead, .state', { timeout: 15000 }).catch(() => {});
+      // Wait for the route's own content, not just any DOM. Keep this list in sync
+      // with the page roots: a stale selector silently costs 15s per route.
+      await page
+        .waitForSelector('.hero, .pagehead, .project__head, .about-hero, .state, .catsections, .toolbar, .results', { timeout: 15000 })
+        .catch(() => {});
       const html = await page.content();
       const title = await page.title();
       const desc = await page.getAttribute('meta[name="description"]', 'content').catch(() => null);

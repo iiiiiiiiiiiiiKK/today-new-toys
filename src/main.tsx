@@ -5,7 +5,7 @@ import App from './App';
 import { DataProvider } from './context/DataContext';
 import { FavoritesProvider } from './context/FavoritesContext';
 import { ToastProvider } from './context/ToastContext';
-import './styles/global.css';
+import './styles/base.css';
 import './styles/pages.css';
 
 /**

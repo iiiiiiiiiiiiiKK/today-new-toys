@@ -50,7 +50,7 @@ function CategoryInner() {
       )}
 
       <nav className="crossnav" aria-label="其它分类">
-        <p className="eyebrow">继续逛</p>
+        <p className="eyebrow">继续逛 / KEEP READING</p>
         <div className="crossnav__list">
           {others.map((c) => (
             <Link key={c.id} to={`/category/${c.id}`} className="crossnav__item">

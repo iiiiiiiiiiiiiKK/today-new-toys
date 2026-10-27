@@ -60,7 +60,7 @@ function DiscoverInner() {
   return (
     <div className="discover">
       <header className="pagehead">
-        <p className="eyebrow">Index · 全部项目</p>
+        <p className="eyebrow">INDEX / 全部项目</p>
         <div className="pagehead__row">
           <h1 className="pagehead__title">发现</h1>
           <p className="pagehead__lede">

@@ -16,7 +16,7 @@ function CategoriesInner() {
   return (
     <div>
       <header className="pagehead">
-        <p className="eyebrow">Sections · 分类索引</p>
+        <p className="eyebrow">SECTIONS / 分类索引</p>
         <div className="pagehead__row">
           <h1 className="pagehead__title">十个抽屉</h1>
           <p className="pagehead__lede">分类不是标签云，是编辑面对「这东西该放哪」时的第一反应。每栏都有一段自己的说明。</p>

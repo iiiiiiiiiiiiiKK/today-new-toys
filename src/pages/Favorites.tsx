@@ -76,7 +76,7 @@ function FavoritesInner() {
   return (
     <div>
       <header className="pagehead">
-        <p className="eyebrow">Saved · 本地收藏</p>
+        <p className="eyebrow">SAVED / 本地收藏</p>
         <div className="pagehead__row">
           <h1 className="pagehead__title">
             我的收藏 <span className="pagehead__count mono">{String(items.length).padStart(2, '0')}</span>

@@ -67,9 +67,10 @@ async function main() {
   await page.goto(HOME, { waitUntil: 'networkidle' });
 
   await test('首页渲染真实数据（项目数与数据文件一致）', async () => {
-    await page.waitForSelector('.project-card');
-    const cards = await page.locator('.project-card').count();
-    assert(cards >= 6, `首页卡片数 ${cards}`);
+    // Home is an editorial index now: six rows in 最新收录, plus the cover story.
+    await page.waitForSelector('.index-row');
+    const cards = await page.locator('.index-row').count();
+    assert(cards >= 6, `最新收录行数 ${cards}`);
     // The catalogue grows automatically, so compare against the data file served by
     // the site under test — not against a number baked into this script.
     const served = await (await fetch(`${BASE}/data/projects.json`)).json();
@@ -81,13 +82,15 @@ async function main() {
     return `${cards} 张卡片 / 共 ${expected} 个项目`;
   });
 
-  await test('每个首页项目卡片都有名称、一句话、分类、许可证、门槛、官网/GitHub', async () => {
-    const first = page.locator('.project-card').first();
+  await test('每个首页条目都有截图、名称、一句话、元数据与外链', async () => {
+    const first = page.locator('.index-row').first();
     const text = await first.innerText();
-    assert(text.length > 40, '卡片文本过短');
-    assert((await first.locator('.project-card__name').count()) === 1, '缺少名称');
-    assert((await first.locator('.project-card__tagline').count()) === 1, '缺少一句话介绍');
-    assert((await first.locator('.project-card__links a').count()) >= 1, '缺少外链');
+    assert(text.length > 30, '条目文本过短');
+    assert((await first.locator('.index-row__name').count()) === 1, '缺少名称');
+    assert((await first.locator('.index-row__tag').count()) === 1, '缺少一句话介绍');
+    assert((await first.locator('.index-row__meta').count()) === 1, '缺少元数据行');
+    assert((await first.locator('.index-row__thumb img, .index-row__thumb .cover__fallback').count()) >= 1, '缺少截图或占位图');
+    assert((await first.locator('.index-row__links a').count()) >= 2, '缺少详情/外部链接');
     return text.split('\n').slice(0, 2).join(' / ');
   });
 
@@ -96,8 +99,9 @@ async function main() {
     for (const h of ['最新收录', '本周热门', '编辑精选', '分类入口']) {
       assert(headings.some((x) => x.includes(h)), `缺少区块 ${h}: ${headings.join('|')}`);
     }
-    assert((await page.locator('.hero').count()) === 1, '缺少今日推荐 hero');
-    assert((await page.locator('.search-inline').count()) === 1, '缺少搜索框');
+    assert((await page.locator('.hero .cover-story__title').count()) === 1, '缺少今日推荐封面标题');
+    assert((await page.locator('.hero__stats').count()) === 1, '缺少本期数据条');
+    assert((await page.locator('.search').count()) === 1, '缺少搜索框');
     const randomBtn = page.getByRole('button', { name: /随机发现/ }).first();
     assert((await randomBtn.count()) === 1, '缺少随机发现按钮');
   });
@@ -291,21 +295,40 @@ async function main() {
     assert(bad.length === 0, `不安全的外链: ${bad.join(', ')}`);
   });
 
-  await test('移动端 390px 无横向溢出，卡片单列，导航可点', async () => {
+  await test('移动端 390px 无横向溢出，列表单列，导航可点', async () => {
     const mobile = await context.newPage();
     await mobile.setViewportSize({ width: 390, height: 844 });
     await mobile.goto(HOME, { waitUntil: 'networkidle' });
     const overflow = await mobile.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
     assert(overflow <= 1, `横向溢出 ${overflow}px`);
-    const cols = await mobile.evaluate(() => getComputedStyle(document.querySelector('.grid--3')).gridTemplateColumns.split(' ').length);
-    assert(cols === 1, `移动端网格列数 ${cols}`);
-    const navVisible = await mobile.locator('.nav__link').first().isVisible();
+    // The editorial index must collapse to one column on a phone.
+    const cols = await mobile.evaluate(() => getComputedStyle(document.querySelector('.index-list')).gridTemplateColumns.split(' ').length);
+    assert(cols === 1, `移动端索引列数 ${cols}`);
+    // Every row's thumbnail and text must sit side by side inside the viewport.
+    const rowBox = await mobile.locator('.index-row').first().boundingBox();
+    assert(rowBox && rowBox.width <= 390 && rowBox.height < 260, `条目尺寸异常 ${JSON.stringify(rowBox)}`);
+    const navVisible = await mobile.locator('.navlink').first().isVisible();
     assert(navVisible, '移动端导航不可见');
-    await mobile.goto(`${BASE}/project/immich`, { waitUntil: 'networkidle' });
+    // The masthead must not eat the first screen.
+    const masthead = await mobile.locator('.masthead').boundingBox();
+    assert(masthead && masthead.height < 180, `移动端头部过高 ${masthead && masthead.height}px`);
+    await mobile.goto(`${BASE}/discover`, { waitUntil: 'networkidle' });
+    const gridCols = await mobile.evaluate(() => getComputedStyle(document.querySelector('.grid--3')).gridTemplateColumns.split(' ').length);
+    assert(gridCols === 1, `发现页网格列数 ${gridCols}`);
     const overflow2 = await mobile.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
-    assert(overflow2 <= 1, `详情页横向溢出 ${overflow2}px`);
+    assert(overflow2 <= 1, `发现页横向溢出 ${overflow2}px`);
+    await mobile.goto(`${BASE}/project/immich`, { waitUntil: 'networkidle' });
+    const overflow3 = await mobile.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
+    assert(overflow3 <= 1, `详情页横向溢出 ${overflow3}px`);
+    // Detail page must show the screenshot above the fact table on a phone.
+    const order = await mobile.evaluate(() => {
+      const shots = document.querySelector('.project__shots').getBoundingClientRect().top;
+      const facts = document.querySelector('.project__facts').getBoundingClientRect().top;
+      return shots < facts;
+    });
+    assert(order, '详情页截图为应在数据表之前');
     await mobile.close();
-    return '390px 无溢出';
+    return '390px 无溢出 · 头部 <180px · 单列';
   });
 
   await test('外链图片失败时显示占位图而不是破图', async () => {
