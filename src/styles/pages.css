@@ -50,6 +50,11 @@
   align-items: center;
   gap: 0.6rem;
 }
+.cover-story__issue {
+  color: var(--ink-mute);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+}
 .cover-story__title {
   margin: 0.65rem 0 0.5rem;
   font-size: var(--text-4xl);
@@ -2128,102 +2133,173 @@
 }
 
 @media (max-width: 620px) {
-  /* The running head repeats what the masthead dateline and footer already say;
-     on a phone it is pure height cost. */
+  /* ------------------------------------------------------------------------
+     Mobile is a text-first edition of the magazine. Screenshots are noisy at
+     thumbnail size, so lists and picks drop them entirely; the type, the
+     numbering and the hairlines carry the page. Only the detail page keeps one
+     large screenshot, where it is actually readable.
+     ------------------------------------------------------------------------ */
   .standfirst {
     display: none;
   }
+
+  /* ---- cover story ---- */
   .hero {
-    padding-top: 1rem;
-    gap: 1rem;
+    padding-top: 0.85rem;
+    gap: 0.85rem;
   }
   .cover-story__title {
-    margin: 0.5rem 0 0.4rem;
-    font-size: clamp(2rem, 9.4vw, 2.5rem);
+    margin: 0.45rem 0 0.35rem;
+    font-size: clamp(1.95rem, 9.2vw, 2.4rem);
   }
   .cover-story__deck {
-    font-size: 1rem;
+    font-size: 0.98rem;
+    line-height: 1.5;
   }
   .cover-story__intro {
-    margin-top: 0.7rem;
-    font-size: 0.9rem;
-    line-height: 1.75;
+    margin-top: 0.6rem;
+    font-size: 0.88rem;
+    line-height: 1.7;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
   .cover-story__meta {
-    margin-top: 0.8rem;
-    padding-top: 0.6rem;
-  }
-  .cover-story__actions {
-    margin-top: 0.9rem;
-  }
-  .hero__caption {
+    margin-top: 0.7rem;
+    padding-top: 0.55rem;
+    gap: 0.2rem 0.45rem;
     font-size: 0.7rem;
-    flex-wrap: wrap;
-  }
-  .hero__stats {
-    gap: 0.9rem;
-    flex-wrap: wrap;
-    padding-top: 0.7rem;
-  }
-  .hero__stats dd {
-    font-size: 1.12rem;
-  }
-  .hero__stats-more {
-    margin-left: 0;
-    width: 100%;
-  }
-
-  /* index rows: 96px thumb, tight text block */
-  .index-row {
-    grid-template-columns: 96px minmax(0, 1fr);
-    gap: 0 0.85rem;
-    padding: 0.8rem 0;
-  }
-  .index-row__name {
-    font-size: 1rem;
-  }
-  .index-row__tag {
-    font-size: 0.8rem;
-    line-height: 1.5;
-    -webkit-line-clamp: 2;
-  }
-  .index-row__name {
-    font-size: 0.98rem;
-  }
-  /* the 收录 date is secondary on a phone; the meta line already carries 更新 */
-  .index-row__date {
-    display: none;
-  }
-  .index-row__meta {
-    font-size: 0.7rem;
-    gap: 0.15rem 0.4rem;
     white-space: nowrap;
     overflow: hidden;
   }
-  .index-row__links {
-    font-size: 0.7rem;
-    gap: 0.7rem;
+  /* keep 分类 · 许可证 · 更新 on one line; effort lives on the detail page */
+  .cover-story__meta > span:nth-last-child(-n + 2) {
+    display: none;
   }
-  .index-row__thumb .cover {
-    aspect-ratio: 1 / 1;
+  .cover-story__actions {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.35rem;
+    margin-top: 0.8rem;
+  }
+  .cover-story__actions .btn {
+    min-height: 2.45rem;
+    padding-inline: 0.4rem;
+    font-size: 0.78rem;
+  }
+  .cover-story__actions .btn--ink {
+    grid-column: span 3;
+  }
+  .hero__media {
+    display: none;
+  }
+  .hero__also {
+    margin-top: 0.15rem;
+  }
+  .hero__also-label {
+    padding-bottom: 0.3rem;
+  }
+  .also-pick {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0 0.6rem;
+    padding: 0.45rem 0;
+  }
+  .also-pick__tag {
+    font-size: 0.76rem;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .also-pick__meta {
+    font-size: 0.7rem;
+  }
+  .hero__stats {
+    margin-top: 0.75rem;
+    padding-top: 0.6rem;
+    gap: 0.45rem 1.1rem;
+  }
+  .hero__stats dd {
+    font-size: 1.05rem;
+  }
+  /* 浏览全部 / 编辑原则 already live in the nav and footer */
+  .hero__stats-more {
+    display: none;
   }
 
+  /* ---- 最新收录: numbered text rows ----
+     Explicit areas matter here: with implicit auto-placement, `meta` and `links`
+     fall into the 1.7rem number column and the row looks broken. */
+  .index-row {
+    grid-template-columns: 1.7rem minmax(0, 1fr);
+    grid-template-areas:
+      'num name'
+      'num tag'
+      'num meta'
+      'num links';
+    gap: 0 0.6rem;
+    padding: 0.6rem 0;
+  }
+  .index-row__num {
+    grid-area: num;
+    display: block;
+    padding-top: 0.2rem;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.04em;
+    color: var(--accent);
+  }
+  .index-row__name {
+    grid-area: name;
+    font-size: 1rem;
+    gap: 0.35rem;
+  }
+  .index-row__tag {
+    grid-area: tag;
+    margin-top: 0.08rem;
+    font-size: 0.8rem;
+    line-height: 1.45;
+    -webkit-line-clamp: 2;
+  }
+  .index-row__meta {
+    grid-area: meta;
+    margin-top: 0.18rem;
+    font-size: 0.7rem;
+    gap: 0.1rem 0.3rem;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  /* effort is the least important of the four; the detail page still has it */
+  .index-row__meta > span:nth-last-child(-n + 2) {
+    display: none;
+  }
+  .index-row__links {
+    grid-area: links;
+    margin-top: 0.28rem;
+    padding-top: 0.28rem;
+    font-size: 0.7rem;
+    gap: 0.6rem;
+  }
+  .index-row__thumb,
+  .index-row__date {
+    display: none;
+  }
+
+  /* ---- 本周热门 ---- */
   .chart__row {
-    grid-template-columns: 2rem minmax(0, 1fr);
-    gap: 0.2rem 0.7rem;
-    padding: 0.75rem 0;
+    grid-template-columns: 1.9rem minmax(0, 1fr);
+    gap: 0.15rem 0.55rem;
+    padding: 0.6rem 0;
   }
   .chart__rank {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
   }
   .chart__name {
-    font-size: 1rem;
+    font-size: 0.98rem;
   }
   .chart__tag {
+    font-size: 0.78rem;
     white-space: normal;
     display: -webkit-box;
     -webkit-line-clamp: 1;
@@ -2235,23 +2311,57 @@
     font-size: 0.7rem;
   }
 
+  /* ---- 编辑精选: numbered notes, no covers ---- */
   .picks {
     grid-template-columns: minmax(0, 1fr);
-    gap: 1.3rem;
+    gap: 0;
+  }
+  .pick {
+    gap: 0.3rem;
+    padding: 0.8rem 0;
+    border-top: 1px solid var(--rule);
+  }
+  .pick--lead {
+    border-top: 2px solid var(--ink);
+  }
+  .pick > a {
+    display: none;
+  }
+  .pick__label {
+    font-size: 0.7rem;
+  }
+  .pick__title {
+    font-size: 1.02rem;
   }
   .pick--lead .pick__title {
-    font-size: 1.35rem;
+    font-size: 1.1rem;
+  }
+  .pick__note {
+    font-size: 0.86rem;
+    line-height: 1.65;
+  }
+  .pick__meta {
+    font-size: 0.7rem;
   }
 
+  /* ---- 分类入口: a two-column index ---- */
   .sections-index {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .section-link {
-    min-height: 6.6rem;
-    padding: 0.7rem 0.75rem 1rem;
+    min-height: 0;
+    padding: 0.55rem 0.7rem 0.6rem;
   }
+  .section-link__en,
   .section-link__blurb {
     display: none;
+  }
+  .section-link__name {
+    font-size: 0.95rem;
+  }
+  .section-link__count {
+    position: static;
+    margin-top: 0.1rem;
   }
 
   .grid--3,
@@ -2259,39 +2369,44 @@
   .grid--4 {
     grid-template-columns: minmax(0, 1fr);
   }
+  /* Discover / category / favorites cards follow the same text-first rule. */
   .project-card {
-    display: grid;
-    grid-template-columns: 104px minmax(0, 1fr);
-    grid-template-areas:
-      'cover head'
-      'cover tagline'
-      'cover meta'
-      'links links';
-    column-gap: 0.85rem;
-    row-gap: 0.2rem;
+    display: block;
+    gap: 0.25rem;
+    padding-top: 0.7rem;
   }
   .project-card__coverlink {
-    grid-area: cover;
-  }
-  .project-card__coverlink .cover {
-    aspect-ratio: 1 / 1;
+    display: none;
   }
   .project-card__head {
-    grid-area: head;
+    margin-bottom: 0.05rem;
+  }
+  .project-card__name {
+    font-size: 1.02rem;
   }
   .project-card__tagline {
-    grid-area: tagline;
-    -webkit-line-clamp: 3;
+    font-size: 0.82rem;
+    line-height: 1.45;
+    -webkit-line-clamp: 2;
+    margin-top: 0.1rem;
   }
   .project-card__meta {
-    grid-area: meta;
+    margin-top: 0.2rem;
+    font-size: 0.7rem;
+    gap: 0.1rem 0.35rem;
   }
   .project-card__meta + .project-card__meta {
     display: none;
   }
   .project-card__links {
-    grid-area: links;
     margin-top: 0.3rem;
+    padding-top: 0.3rem;
+    font-size: 0.7rem;
+  }
+  .favcard__coverlink,
+  .favcard > a:first-child,
+  .catsection__hero {
+    display: none;
   }
 
   /* detail */

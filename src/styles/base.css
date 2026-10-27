@@ -953,13 +953,14 @@ a.cover:hover img,
 @media (max-width: 620px) {
   :root {
     --gutter: 1.15rem;
-    --section-gap: 3rem;
+    --section-gap: 2.4rem;
   }
   .masthead {
     padding-top: 0.7rem;
   }
   .brand__cn {
     font-size: 1.5rem;
+    white-space: nowrap;
   }
   /* the italic English standfirst is decoration; drop it before it steals height */
   .brand__en {
@@ -1018,16 +1019,33 @@ a.cover:hover img,
   }
   .section__head {
     flex-wrap: wrap;
-    gap: 0.4rem 0.8rem;
+    gap: 0.25rem 0.7rem;
     align-items: baseline;
+    padding-top: 0.55rem;
+    margin-bottom: 0.7rem;
   }
   .section__heading {
     flex: 1 1 auto;
+    gap: 0.55rem;
+  }
+  .section__title {
+    font-size: 1.22rem;
+  }
+  .section__num {
+    transform: translateY(-0.25em);
+  }
+  .section__more {
+    font-size: 0.7rem;
   }
   .section__note {
     flex-basis: 100%;
-    font-size: 0.8rem;
     margin-top: 0;
+    font-size: 0.76rem;
+    line-height: 1.6;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   .footer__grid {
     grid-template-columns: 1fr;
@@ -1038,6 +1056,24 @@ a.cover:hover img,
   .share__text,
   .rev__select {
     font-size: 17px;
+  }
+}
+
+@media (max-width: 400px) {
+  /* 375px: the wordmark and the dateline both want the same line */
+  .brand__cn {
+    font-size: 1.28rem;
+  }
+  .masthead__dateline {
+    font-size: 0.7rem;
+    letter-spacing: 0.02em;
+  }
+  .navlink {
+    font-size: 0.8rem;
+    padding-inline: 0.3rem;
+  }
+  .search input {
+    font-size: 16px;
   }
 }
 

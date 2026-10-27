@@ -36,7 +36,7 @@ function CoverStory() {
             {issue.id} · 今日推荐
           </span>
           <span className="kicker__rule" aria-hidden="true" />
-          <span className="mono" style={{ color: 'var(--ink-mute)', fontSize: '0.66rem' }}>
+          <span className="mono cover-story__issue">
             第 {String(issue.number).padStart(3, '0')} 期
           </span>
         </p>
@@ -172,12 +172,15 @@ function Section({
   );
 }
 
-/** 最新收录 — an editorial index: thumbnail, name, one line, one metadata row. */
-function IndexRow({ project, badge }: { project: ReturnType<typeof newArrivals>[number]; badge?: string }) {
+/** 最新收录 — an editorial index: number, name, one line, one metadata row. */
+function IndexRow({ project, index, badge }: { project: ReturnType<typeof newArrivals>[number]; index: number; badge?: string }) {
   const data = useDataReady();
   const shot = project.screenshots[0];
   return (
     <article className="index-row">
+      <span className="index-row__num" aria-hidden="true">
+        {String(index + 1).padStart(2, '0')}
+      </span>
       <Link to={`/project/${project.slug}`} className="index-row__thumb" aria-label={`查看 ${project.name}`}>
         <Cover src={shot?.card || shot?.src || null} alt={shot?.alt || project.name} name={project.name} ratio="4x3" label={badge} fallbackNote={shot ? undefined : '未取得截图'} />
       </Link>
@@ -239,8 +242,8 @@ function HomeInner() {
 
       <Section num="01" title="最新收录" note="按进入清单的时间排列。新不代表好，只是我们刚刚读到它。" more={{ to: '/discover?sort=newest', label: '全部项目' }}>
         <div className="index-list">
-          {fresh.map((p) => (
-            <IndexRow key={p.slug} project={p} badge={`NEW ${fmtDate(p.addedAt)}`} />
+          {fresh.map((p, i) => (
+            <IndexRow key={p.slug} project={p} index={i} badge={`NEW ${fmtDate(p.addedAt)}`} />
           ))}
         </div>
       </Section>

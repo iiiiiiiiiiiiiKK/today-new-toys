@@ -40,6 +40,8 @@ for (const vp of viewports) {
         if (fs < 11 && (el.textContent || '').trim().length > 3 && !el.closest('.mono')) out.tiny.push(`${el.tagName} ${fs}px: ${(el.textContent || '').slice(0, 30)}`);
       }
       for (const img of document.querySelectorAll('img')) {
+        // Hidden-by-design images (mobile drops list thumbnails) are not failures.
+        if (!img.offsetParent) continue;
         const r = img.getBoundingClientRect();
         if (r.width < 2 || r.height < 2) out.zero.push(img.currentSrc || img.src);
       }
