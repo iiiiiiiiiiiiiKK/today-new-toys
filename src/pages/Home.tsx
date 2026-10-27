@@ -7,8 +7,12 @@ import { categoryName, featured, newArrivals, randomProject, todayPicks, weeklyH
 import { currentIssue, issueFor } from '../lib/issue';
 import { fmtDate, relativeTo } from '../lib/utils';
 
-/** English names get the display serif; Chinese names keep the CJK serif. */
-const isLatin = (name: string) => !/[\u4e00-\u9fa5]/.test(name);
+/**
+ * Only pure-ASCII names get the display serif. A name like "LobeHub（LobeChat）"
+ * mixes Latin letters with full-width brackets, and switching faces mid-word reads
+ * as a bug — those keep the CJK serif for the whole line.
+ */
+const isLatin = (name: string) => /^[\x20-\x7E]+$/.test(name);
 
 /** First two sentences of the summary — the cover story should read, not truncate. */
 function lede(summary: string): string {
