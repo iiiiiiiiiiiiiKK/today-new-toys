@@ -1,0 +1,84 @@
+{
+  "slug": "rtk",
+  "name": "rtk",
+  "tagline": "效率工具 · CLI proxy that reduces LLM token consumption…",
+  "summary": "（自动整理，未经人工校对）rtk 是一个用 Rust 写的开源项目。仓库自述「CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies」。已抓取 README 约 10,411 字；其中有「What RTK Does」「How Savings Work」「What You Install」「1. Install for your AI tool」「2. Restart your AI tool, then test」等章节可对应到具体能力。仓库 Topics 涉及：命令行、开发者工具、大语言模型、效率。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+  "category": "productivity",
+  "tags": [
+    "命令行",
+    "开发者工具",
+    "大语言模型",
+    "效率",
+    "效率工具"
+  ],
+  "aliases": [
+    "rtk-ai/rtk"
+  ],
+  "audience": "开发者",
+  "audienceFor": [
+    "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+    "愿意自己读 README 确认细节的开发者"
+  ],
+  "features": [
+    {
+      "title": "What RTK Does",
+      "detail": "（自动整理）README 中有「What RTK Does」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "How Savings Work",
+      "detail": "（自动整理）README 中有「How Savings Work」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "What You Install",
+      "detail": "（自动整理）README 中有「What You Install」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "1. Install for your AI t",
+      "detail": "（自动整理）README 中有「1. Install for your AI tool」章节，此处只标注来源，未展开复述。"
+    }
+  ],
+  "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 10411 字，抓取于 2026-10-27）汇总；未经人工校对，页面上已标注「自动收录」。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "门槛未评估：请以 README 的安装说明为准",
+    "requires": [],
+    "steps": [
+      {
+        "title": "安装 / 运行",
+        "detail": "README 中给出的命令：brew install rtk"
+      },
+      {
+        "title": "第 2 步",
+        "detail": "README 中给出的命令：winget install rtk-ai.rtk"
+      },
+      {
+        "title": "第 3 步",
+        "detail": "README 中给出的命令：curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/refs/heads/master/install.sh | sh"
+      }
+    ],
+    "cost": "开源免费（以仓库许可证为准）"
+  },
+  "officialUrl": "https://www.rtk-ai.app",
+  "demoUrl": null,
+  "linkStatus": "unchecked",
+  "linkCheckedAt": null,
+  "featured": false,
+  "screenshots": [
+    {
+      "src": "/shots/rtk.jpg",
+      "alt": "rtk 的官方站点截图",
+      "origin": "live",
+      "capturedAt": "2026-10-27T06:17:58.249Z",
+      "credit": "页面截图：https://www.rtk-ai.app",
+      "synthetic": false
+    }
+  ],
+  "addedAt": "2026-10-27",
+  "review": {
+    "status": "published",
+    "mode": "auto",
+    "reviewedBy": "autopipeline",
+    "reviewedAt": "2026-10-27",
+    "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+  }
+}

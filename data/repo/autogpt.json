@@ -1,0 +1,66 @@
+{
+  "slug": "autogpt",
+  "repoInput": "Significant-Gravitas/AutoGPT",
+  "fetchedAt": "2026-10-27T06:18:28.796Z",
+  "github": {
+    "owner": "Significant-Gravitas",
+    "name": "AutoGPT",
+    "fullName": "Significant-Gravitas/AutoGPT",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "homepage": "https://agpt.co",
+    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+    "stars": 187783,
+    "forks": 45902,
+    "openIssues": 703,
+    "language": "Python",
+    "topics": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "autonomous-agents",
+      "claude",
+      "gpt",
+      "llama-api",
+      "llm",
+      "openai",
+      "python"
+    ],
+    "license": {
+      "spdx": null,
+      "name": "Other",
+      "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+      "url": null
+    },
+    "createdAt": "2023-03-16T09:21:07Z",
+    "pushedAt": "2026-10-27T06:16:08Z",
+    "archived": false,
+    "fetchedAt": "2026-10-27T06:18:28.796Z",
+    "source": "api",
+    "warnings": [
+      "仓库未声明可识别的开源许可证"
+    ]
+  },
+  "defaultBranch": "master",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 4767,
+    "headings": [
+      "One conversation. The right expertise.",
+      "See the team at work",
+      "From a first brief to a routine",
+      "Get started",
+      "AutoGPT Platform",
+      "Self-host AutoGPT",
+      "Workflows when you need more control",
+      "Build with us",
+      "License",
+      "AutoGPT Classic",
+      "Contributors"
+    ],
+    "excerpt": "AutoGPT — Your team of AI Experts Bring in specialists for content, sales, research, and recurring work. Brief them in plain English. Let Otto coordinate. Sign up for a trial · Watch the demo · Meet the Experts · Pricing · Self-host · Contribute One conversation. The right expertise. Tell Otto what's on your plate. It brings in the right Experts, hands over the work, and keeps you up to date. Talk to a specialist directly when you want to get into the details. Each Expert has a role you can shape with your instructions, context, skills, and connected apps. Start with a ready-made specialist or create your own. Meet your team Put them to work --- --- Otto · Head of AI Coordinate a job across specialists and bring their work back to you. Maria · SEO Content Manager Turn a target keyword into a content brief and article draft. Max · Account Executive Research prospects, draft outreach, and prepare the next conversation. Frankie · Executive Assistant Prepare meeting context, email drafts, and a digest for the day. Explore the Experts → See the team at work One launch brief to Otto. Maria prepares the article, Max researches prospects, and Frankie prepares the launch review. https://github.com/user-attachments/assets/83cddd83-00f8-46e7-be9e-e0a7237c7eea Watch the full 45-second demo → · Sign up for a trial A 15-second highlight of a real run, edited and sped up. In this example, the",
+    "truncated": true,
+    "rawFile": "data/readme/autogpt.md"
+  }
+}

@@ -330,5 +330,29 @@
     "title": "ponytail",
     "capturedAt": "2026-10-26T06:17:07.259Z",
     "auto": true
+  },
+  "graphify": {
+    "src": "/shots/graphify.jpg",
+    "captureUrl": "https://www.graphify.com",
+    "origin": "live",
+    "title": "graphify",
+    "capturedAt": "2026-10-27T06:18:28.414Z",
+    "auto": true
+  },
+  "autogpt": {
+    "src": "/shots/autogpt.jpg",
+    "captureUrl": "https://agpt.co",
+    "origin": "live",
+    "title": "AutoGPT",
+    "capturedAt": "2026-10-27T06:18:33.276Z",
+    "auto": true
+  },
+  "rtk": {
+    "src": "/shots/rtk.jpg",
+    "captureUrl": "https://www.rtk-ai.app",
+    "origin": "live",
+    "title": "rtk",
+    "capturedAt": "2026-10-27T06:18:38.616Z",
+    "auto": true
   }
 }

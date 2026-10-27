@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-10-26T06:16:28.740Z",
+  "ranAt": "2026-10-27T06:17:58.249Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "ohmyzsh/ohmyzsh",
-      "category": "productivity"
+      "repo": "Graphify-Labs/graphify",
+      "category": "dev-tools"
     },
     {
-      "repo": "firecrawl/firecrawl",
+      "repo": "Significant-Gravitas/AutoGPT",
       "category": "ai-tools"
     },
     {
-      "repo": "DietrichGebert/ponytail",
-      "category": "dev-tools"
+      "repo": "rtk-ai/rtk",
+      "category": "productivity"
     }
   ],
   "added": [
     {
-      "slug": "ohmyzsh",
-      "repo": "ohmyzsh/ohmyzsh",
-      "category": "productivity",
-      "stars": 190164,
-      "shot": true
-    },
-    {
-      "slug": "firecrawl",
-      "repo": "firecrawl/firecrawl",
-      "category": "ai-tools",
-      "stars": 195398,
-      "shot": true
-    },
-    {
-      "slug": "ponytail",
-      "repo": "DietrichGebert/ponytail",
+      "slug": "graphify",
+      "repo": "Graphify-Labs/graphify",
       "category": "dev-tools",
-      "stars": 176339,
+      "stars": 136342,
+      "shot": true
+    },
+    {
+      "slug": "autogpt",
+      "repo": "Significant-Gravitas/AutoGPT",
+      "category": "ai-tools",
+      "stars": 187783,
+      "shot": true
+    },
+    {
+      "slug": "rtk",
+      "repo": "rtk-ai/rtk",
+      "category": "productivity",
+      "stars": 84682,
       "shot": true
     }
   ]
