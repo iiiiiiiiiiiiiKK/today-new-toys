@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-26T06:17:11.249Z",
-  "snapshotDate": "2026-10-26",
+  "generatedAt": "2026-10-27T06:18:42.712Z",
+  "snapshotDate": "2026-10-27",
   "counts": {
-    "projects": 36,
+    "projects": 39,
     "categories": 10
   },
   "categories": [
@@ -1906,6 +1906,154 @@
       "updatedAt": "2026-10-26"
     },
     {
+      "slug": "autogpt",
+      "name": "AutoGPT",
+      "tagline": "AI 工具 · AutoGPT is the vision of accessible AI for ev…",
+      "summary": "（自动整理，未经人工校对）AutoGPT 是一个用 Python 写的开源项目。仓库自述「AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters」。已抓取 README 约 4,767 字；其中有「See the team at work」「Get started」「AutoGPT Platform」「Self-host AutoGPT」「Workflows when you need more control」等章节可对应到具体能力。仓库 Topics 涉及：AI、大语言模型、Python。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "ai-tools",
+      "tags": [
+        "AI",
+        "大语言模型",
+        "Python",
+        "AI 工具"
+      ],
+      "aliases": [
+        "Significant-Gravitas/AutoGPT"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "See the team at work",
+          "detail": "（自动整理）README 中有「See the team at work」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Get started",
+          "detail": "（自动整理）README 中有「Get started」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "AutoGPT Platform",
+          "detail": "（自动整理）README 中有「AutoGPT Platform」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Self-host AutoGPT",
+          "detail": "（自动整理）README 中有「Self-host AutoGPT」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 4767 字，抓取于 2026-10-27）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：docker run -d \\"
+          },
+          {
+            "title": "第 2 步",
+            "detail": "README 中给出的命令：docker exec autogpt autogpt-admin promote you@example.com"
+          }
+        ],
+        "cost": "费用未知"
+      },
+      "officialUrl": "https://agpt.co",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/autogpt.jpg",
+          "alt": "AutoGPT 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-27T06:18:33.276Z",
+          "credit": "页面截图：https://agpt.co",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-27",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-27",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 527,
+      "weeklyScore": 647,
+      "categoryName": "AI 工具",
+      "license": {
+        "spdx": null,
+        "name": "Other",
+        "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+        "url": null
+      },
+      "repo": {
+        "owner": "Significant-Gravitas",
+        "name": "AutoGPT",
+        "fullName": "Significant-Gravitas/AutoGPT",
+        "url": "https://github.com/Significant-Gravitas/AutoGPT",
+        "homepage": "https://agpt.co",
+        "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+        "stars": 187783,
+        "forks": 45902,
+        "openIssues": 703,
+        "language": "Python",
+        "topics": [
+          "agentic-ai",
+          "agents",
+          "ai",
+          "artificial-intelligence",
+          "autonomous-agents",
+          "claude",
+          "gpt",
+          "llama-api",
+          "llm",
+          "openai",
+          "python"
+        ],
+        "license": {
+          "spdx": null,
+          "name": "Other",
+          "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+          "url": null
+        },
+        "createdAt": "2023-03-16T09:21:07Z",
+        "pushedAt": "2026-10-27T06:16:08Z",
+        "archived": false,
+        "fetchedAt": "2026-10-27T06:18:28.796Z",
+        "source": "api",
+        "warnings": [
+          "仓库未声明可识别的开源许可证"
+        ]
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "AutoGPT — Your team of AI Experts Bring in specialists for content, sales, research, and recurring work. Brief them in plain English. Let Otto coordinate. Sign up for a trial · Watch the demo · Meet the Experts · Pricing · Self-host · Contribute One conversation. The right expertise. Tell Otto what's on your plate. It brings in the right Experts, hands over the work, and keeps you up to date. Talk to a specialist directly when you want to get into the details. Each Expert has a role you can shape with your instructions, context, skills, and connected apps. Start with a ready-made specialist or create your own. Meet your team Put them to work --- --- Otto · Head of AI Coordinate a job across specialists and bring their work back to you. Maria · SEO Content Manager Turn a target keyword into a content brief and article draft. Max · Account Executive Research prospects, draft outreach, and prepare the next conversation. Frankie · Executive Assistant Prepare meeting context, email drafts, and a digest for the day. Explore the Experts → See the team at work One launch brief to Otto. Maria prepares the article, Max researches prospects, and Frankie prepares the launch review. https://github.com/user-attachments/assets/83cddd83-00f8-46e7-be9e-e0a7237c7eea Watch the full 45-second demo → · Sign up for a trial A 15-second highlight of a real run, edited and sped up. In this example, the",
+        "headings": [
+          "One conversation. The right expertise.",
+          "See the team at work",
+          "From a first brief to a routine",
+          "Get started",
+          "AutoGPT Platform",
+          "Self-host AutoGPT",
+          "Workflows when you need more control",
+          "Build with us",
+          "License",
+          "AutoGPT Classic",
+          "Contributors"
+        ],
+        "chars": 4767,
+        "fetchedAt": "2026-10-27T06:18:28.796Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-27"
+    },
+    {
       "slug": "ponytail",
       "name": "ponytail",
       "tagline": "开发者工具 · Makes your AI agent think like the laziest se…",
@@ -2045,6 +2193,175 @@
         "truncated": true
       },
       "updatedAt": "2026-10-26"
+    },
+    {
+      "slug": "graphify",
+      "name": "graphify",
+      "tagline": "开发者工具 · Turn any codebase, with its docs, SQL schemas…",
+      "summary": "（自动整理，未经人工校对）graphify 是一个用 Python 写的开源项目。仓库自述「Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store」。已抓取 README 约 23,260 字；其中有「See it in action」「What it does」「or install uv:」「CLI skills or MCP instructions?」「What's in the report」等章节可对应到具体能力。仓库 Topics 涉及：开发者工具、大语言模型。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "dev-tools",
+      "tags": [
+        "开发者工具",
+        "大语言模型",
+        "Apache-2.0"
+      ],
+      "aliases": [
+        "Graphify-Labs/graphify"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "See it in action",
+          "detail": "（自动整理）README 中有「See it in action」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "What it does",
+          "detail": "（自动整理）README 中有「What it does」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "or install uv:",
+          "detail": "（自动整理）README 中有「or install uv:」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "CLI skills or MCP instru",
+          "detail": "（自动整理）README 中有「CLI skills or MCP instructions?」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 23260 字，抓取于 2026-10-27）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：uv tool install graphifyy"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://www.graphify.com",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/graphify.jpg",
+          "alt": "graphify 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-27T06:18:28.414Z",
+          "credit": "页面截图：https://www.graphify.com",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-27",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-27",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 513,
+      "weeklyScore": 633,
+      "categoryName": "开发者工具",
+      "license": {
+        "spdx": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "Graphify-Labs",
+        "name": "graphify",
+        "fullName": "Graphify-Labs/graphify",
+        "url": "https://github.com/Graphify-Labs/graphify",
+        "homepage": "https://www.graphify.com",
+        "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+        "stars": 136342,
+        "forks": 13015,
+        "openIssues": 1646,
+        "language": "Python",
+        "topics": [
+          "ai-agents",
+          "antigravity",
+          "ast",
+          "claude-code",
+          "code-analysis",
+          "code-search",
+          "codex",
+          "cursor",
+          "developer-tools",
+          "gemini",
+          "graphify",
+          "graphrag",
+          "knowledge-graph",
+          "leiden",
+          "llm",
+          "mcp",
+          "openclaw",
+          "rag",
+          "skills",
+          "tree-sitter"
+        ],
+        "license": {
+          "spdx": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "url": null
+        },
+        "createdAt": "2026-04-03T15:49:07Z",
+        "pushedAt": "2026-10-26T15:18:22Z",
+        "archived": false,
+        "fetchedAt": "2026-10-27T06:18:14.858Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Read this in other languages English 简体中文 日本語 한국어 Deutsch Français Español हिन्दी Português Русский العربية فارسی Italiano Polski Nederlands Türkçe Українська Tiếng Việt Bahasa Indonesia Svenska Ελληνικά Română Čeština Suomi Dansk Norsk Magyar ภาษาไทย Oʻzbekcha 繁體中文 Filipino עברית Cut agent token spend by 80%. Graphify Cloud is always-on memory that governs your agents, keeps code quality high, and proves correctness with formal verification. Start a free 14-day trial &rarr; Type `/graphify` in your AI coding assistant and it maps your entire project (code, docs, PDFs, images, videos) into a knowledge graph you can query instead of grepping through files. - Code maps for free, fully local. Code is parsed with tree-sitter AST: deterministic, no LLM, nothing leaves your machine. (Docs, PDFs, images and video use your assistant's model, or a configured API key, for a semantic pass.) - Every edge is explained. Each connection is tagged `EXTRACTED` (explicit in the source) or `INFERRED` (resolved by graphify), so you can tell what was read directly from what was inferred. - Not a vector index. No embeddings, no vector store: a real graph you traverse. Ask a question, trace the path between two things, or explain one concept. [!NOTE] Want this always-on? Graphify Cloud keeps the graph live across your entire SDLC: monorepo and cross-repo support, formal verification, and code review ",
+        "headings": [
+          "See it in action",
+          "What it does",
+          "Benchmarks: 0.497 recall@10, 0 LLM credits",
+          "Documentation",
+          "Prerequisites",
+          "or install uv:",
+          "Install",
+          "Make your assistant always use the graph",
+          "CLI skills or MCP instructions?",
+          "What's in the report",
+          "What files it handles: ~40 languages",
+          "Common commands",
+          "Labeling and rendering limits",
+          "Ignoring files",
+          "Project configuration",
+          ".graphifyrc",
+          "A language name:",
+          "Or an extension graphify already knows:",
+          "Baked into the git hooks (see Team setup):",
+          "Team setup",
+          "Using the graph directly",
+          "Environment variables",
+          "Privacy",
+          "Troubleshooting",
+          "Full command reference",
+          "Learn more",
+          "Graphify Cloud",
+          "Contributing",
+          "Contributors",
+          "Translations",
+          "Building on graphify",
+          "Community and links"
+        ],
+        "chars": 23260,
+        "fetchedAt": "2026-10-27T06:18:14.858Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-27"
     },
     {
       "slug": "sherlock",
@@ -2353,6 +2670,167 @@
         "truncated": true
       },
       "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "rtk",
+      "name": "rtk",
+      "tagline": "效率工具 · CLI proxy that reduces LLM token consumption…",
+      "summary": "（自动整理，未经人工校对）rtk 是一个用 Rust 写的开源项目。仓库自述「CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies」。已抓取 README 约 10,411 字；其中有「What RTK Does」「How Savings Work」「What You Install」「1. Install for your AI tool」「2. Restart your AI tool, then test」等章节可对应到具体能力。仓库 Topics 涉及：命令行、开发者工具、大语言模型、效率。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "productivity",
+      "tags": [
+        "命令行",
+        "开发者工具",
+        "大语言模型",
+        "效率",
+        "效率工具"
+      ],
+      "aliases": [
+        "rtk-ai/rtk"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "What RTK Does",
+          "detail": "（自动整理）README 中有「What RTK Does」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "How Savings Work",
+          "detail": "（自动整理）README 中有「How Savings Work」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "What You Install",
+          "detail": "（自动整理）README 中有「What You Install」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "1. Install for your AI t",
+          "detail": "（自动整理）README 中有「1. Install for your AI tool」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 10411 字，抓取于 2026-10-27）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：brew install rtk"
+          },
+          {
+            "title": "第 2 步",
+            "detail": "README 中给出的命令：winget install rtk-ai.rtk"
+          },
+          {
+            "title": "第 3 步",
+            "detail": "README 中给出的命令：curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/refs/heads/master/install.sh | sh"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://www.rtk-ai.app",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/rtk.jpg",
+          "alt": "rtk 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-27T06:18:38.616Z",
+          "credit": "页面截图：https://www.rtk-ai.app",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-27",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-27",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 493,
+      "weeklyScore": 613,
+      "categoryName": "效率工具",
+      "license": {
+        "spdx": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "rtk-ai",
+        "name": "rtk",
+        "fullName": "rtk-ai/rtk",
+        "url": "https://github.com/rtk-ai/rtk",
+        "homepage": "https://www.rtk-ai.app",
+        "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+        "stars": 84683,
+        "forks": 5382,
+        "openIssues": 1602,
+        "language": "Rust",
+        "topics": [
+          "agentic-coding",
+          "ai-coding",
+          "anthropic",
+          "claude-code",
+          "cli",
+          "command-line-tool",
+          "cost-reduction",
+          "developer-tools",
+          "llm",
+          "open-source",
+          "productivity",
+          "rust",
+          "token-optimization"
+        ],
+        "license": {
+          "spdx": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "url": null
+        },
+        "createdAt": "2026-01-22T16:54:16Z",
+        "pushedAt": "2026-10-26T16:41:15Z",
+        "archived": false,
+        "fetchedAt": "2026-10-27T06:18:33.632Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Agent-agnostic token optimization: compress, route, filter, and more. One composable pipeline across everything your AI agent reads and sends — built on RTK's battle-tested bash-output compression (up to 90% smaller). Website &bull; Install &bull; Troubleshooting &bull; Architecture &bull; Discord English &bull; Francais &bull; 中文 &bull; 日本語 &bull; 한국어 &bull; Espanol &bull; Português --- rtk filters and compresses command outputs before they reach your LLM context. Single Rust binary, 100+ supported commands, Full explanation: How RTK Savings Work Installation Then check you have the right package — another project named \"rtk\" exists on crates.io: Cargo, pre-built binaries, native Windows, WSL, and uninstall: Installation guide What You Install RTK ships as three downloads. The two `rtk` editions install a binary with the same name — hooks, scripts and agent config work unchanged across both — so they cannot be installed together. Uninstall one before installing the other. Download Licence Contains --- --- --- `rtk- ` Apache-2.0 + BUSL-1.1 Hook core, every command filter, and the compression engine `rtk-oss- ` Apache-2.0 only Hook core and every command filter. No engine. `rtk-proxy- ` BUSL-1.1 The RTK Proxy daemon. Never bundled with either `rtk`. Production use is free , engine and daemon included. What the BUSL grant does not cover is offering RTK or a derivative to third pa",
+        "headings": [
+          "What RTK Does",
+          "How Savings Work",
+          "Installation",
+          "What You Install",
+          "Quick Start",
+          "1. Install for your AI tool",
+          "2. Restart your AI tool, then test",
+          "How It Works",
+          "Supported AI Tools",
+          "What RTK Covers",
+          "Measure It",
+          "RTK Proxy (optional)",
+          "The Engine (pipeline.toml)",
+          "~/.config/rtk/pipeline.toml",
+          "Documentation",
+          "Star History",
+          "StarMapper",
+          "Core team",
+          "Contributing",
+          "License",
+          "Disclaimer"
+        ],
+        "chars": 10411,
+        "fetchedAt": "2026-10-27T06:18:33.632Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-27"
     },
     {
       "slug": "lobe-chat",
@@ -3824,7 +4302,7 @@
         "todo": "确认 config.qmk.fm 可访问"
       },
       "popularityScore": 432,
-      "weeklyScore": 552,
+      "weeklyScore": 492,
       "categoryName": "开源硬件",
       "license": {
         "spdx": "GPL-2.0",
