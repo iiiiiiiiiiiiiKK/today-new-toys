@@ -1,0 +1,84 @@
+{
+  "slug": "unsloth",
+  "name": "unsloth",
+  "tagline": "自托管项目 · Local UI to run and train LLMs and diffusion…",
+  "summary": "（自动整理，未经人工校对）unsloth 是一个用 Python 写的开源项目。仓库自述「Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more」。已抓取 README 约 11,573 字；其中有「⚡ Get started」「Run & Build with AI」「Train & Deploy」「🚀 Unsloth Start」「Unsloth Desktop (recommended)」等章节可对应到具体能力。仓库 Topics 涉及：AI、大语言模型、Python、自托管。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+  "category": "self-hosted",
+  "tags": [
+    "AI",
+    "大语言模型",
+    "Python",
+    "自托管",
+    "自托管项目"
+  ],
+  "aliases": [
+    "unslothai/unsloth"
+  ],
+  "audience": "开发者",
+  "audienceFor": [
+    "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+    "愿意自己读 README 确认细节的开发者"
+  ],
+  "features": [
+    {
+      "title": "Get started",
+      "detail": "（自动整理）README 中有「⚡ Get started」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Run & Build with AI",
+      "detail": "（自动整理）README 中有「Run & Build with AI」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Train & Deploy",
+      "detail": "（自动整理）README 中有「Train & Deploy」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Unsloth Start",
+      "detail": "（自动整理）README 中有「🚀 Unsloth Start」章节，此处只标注来源，未展开复述。"
+    }
+  ],
+  "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 11573 字，抓取于 2026-10-28）汇总；未经人工校对，页面上已标注「自动收录」。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "门槛未评估：请以 README 的安装说明为准",
+    "requires": [],
+    "steps": [
+      {
+        "title": "安装 / 运行",
+        "detail": "README 中给出的命令：curl -fsSL https://unsloth.ai/install.sh | sh"
+      },
+      {
+        "title": "第 2 步",
+        "detail": "README 中给出的命令：docker run -d --name unsloth --gpus all --ipc=host \\"
+      },
+      {
+        "title": "第 3 步",
+        "detail": "README 中给出的命令：curl -LsSf https://astral.sh/uv/install.sh | sh"
+      }
+    ],
+    "cost": "开源免费（以仓库许可证为准）"
+  },
+  "officialUrl": "https://unsloth.ai/docs",
+  "demoUrl": null,
+  "linkStatus": "unchecked",
+  "linkCheckedAt": null,
+  "featured": false,
+  "screenshots": [
+    {
+      "src": "/shots/unsloth.jpg",
+      "alt": "unsloth 的官方站点截图",
+      "origin": "live",
+      "capturedAt": "2026-10-28T06:52:34.966Z",
+      "credit": "页面截图：https://unsloth.ai/docs",
+      "synthetic": false
+    }
+  ],
+  "addedAt": "2026-10-28",
+  "review": {
+    "status": "published",
+    "mode": "auto",
+    "reviewedBy": "autopipeline",
+    "reviewedAt": "2026-10-28",
+    "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+  }
+}

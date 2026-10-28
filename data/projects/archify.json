@@ -1,0 +1,75 @@
+{
+  "slug": "archify",
+  "name": "archify",
+  "tagline": "开发者工具 · Turn any idea, plan, or codebase into a beaut…",
+  "summary": "（自动整理，未经人工校对）archify 是一个用 JavaScript 写的开源项目。仓库自述「Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more」。已抓取 README 约 22,304 字；其中有「See Archify in action」「Install, then describe your idea」「Ask a question, get a one-page answer」「Show what matters」「Understand a real repository」等章节可对应到具体能力。仓库 Topics 涉及：开发者工具、大语言模型、可视化。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+  "category": "dev-tools",
+  "tags": [
+    "开发者工具",
+    "大语言模型",
+    "可视化",
+    "Apache-2.0"
+  ],
+  "aliases": [
+    "tt-a1i/archify"
+  ],
+  "audience": "开发者",
+  "audienceFor": [
+    "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+    "愿意自己读 README 确认细节的开发者"
+  ],
+  "features": [
+    {
+      "title": "See Archify in action",
+      "detail": "（自动整理）README 中有「See Archify in action」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Install, then describe y",
+      "detail": "（自动整理）README 中有「Install, then describe your idea」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Ask a question, get a on",
+      "detail": "（自动整理）README 中有「Ask a question, get a one-page answer」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Show what matters",
+      "detail": "（自动整理）README 中有「Show what matters」章节，此处只标注来源，未展开复述。"
+    }
+  ],
+  "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 22304 字，抓取于 2026-10-28）汇总；未经人工校对，页面上已标注「自动收录」。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "门槛未评估：请以 README 的安装说明为准",
+    "requires": [],
+    "steps": [
+      {
+        "title": "安装 / 运行",
+        "detail": "README 中给出的命令：npx skills add tt-a1i/archify -g"
+      }
+    ],
+    "cost": "开源免费（以仓库许可证为准）"
+  },
+  "officialUrl": "https://archify.si",
+  "demoUrl": null,
+  "linkStatus": "unchecked",
+  "linkCheckedAt": null,
+  "featured": false,
+  "screenshots": [
+    {
+      "src": "/shots/archify.jpg",
+      "alt": "archify 的官方站点截图",
+      "origin": "live",
+      "capturedAt": "2026-10-28T06:52:34.966Z",
+      "credit": "页面截图：https://archify.si",
+      "synthetic": false
+    }
+  ],
+  "addedAt": "2026-10-28",
+  "review": {
+    "status": "published",
+    "mode": "auto",
+    "reviewedBy": "autopipeline",
+    "reviewedAt": "2026-10-28",
+    "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+  }
+}

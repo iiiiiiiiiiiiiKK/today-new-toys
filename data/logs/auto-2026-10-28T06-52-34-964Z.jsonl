@@ -1,0 +1,40 @@
+{"at":"2026-10-28T06:52:34.964Z","event":"run_start","name":"auto","startedAt":"2026-10-28T06:52:34.964Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-10-28T06:52:34.971Z","event":"existing","detail":"catalogue has 39 projects","level":"info"}
+{"at":"2026-10-28T06:52:35.586Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Allm%20stars%3A%3E3000%20pushed%3A%3E2026-06-30%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":29,"ms":614}
+{"at":"2026-10-28T06:52:35.586Z","event":"search","detail":"ai-tools: 8 hits (quota 29)","level":"info"}
+{"at":"2026-10-28T06:52:37.272Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adeveloper-tools%20stars%3A%3E2000%20pushed%3A%3E2026-06-30%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":28,"ms":485}
+{"at":"2026-10-28T06:52:37.272Z","event":"search","detail":"dev-tools: 8 hits (quota 28)","level":"info"}
+{"at":"2026-10-28T06:52:39.019Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aproductivity%20stars%3A%3E1500%20pushed%3A%3E2026-06-30%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":27,"ms":546}
+{"at":"2026-10-28T06:52:39.019Z","event":"search","detail":"productivity: 8 hits (quota 27)","level":"info"}
+{"at":"2026-10-28T06:52:40.659Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adata-visualization%20stars%3A%3E800%20pushed%3A%3E2026-06-30%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":26,"ms":440}
+{"at":"2026-10-28T06:52:40.659Z","event":"search","detail":"data-viz: 8 hits (quota 26)","level":"info"}
+{"at":"2026-10-28T06:52:42.400Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Acreative-coding%20stars%3A%3E800%20pushed%3A%3E2026-06-30%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":25,"ms":540}
+{"at":"2026-10-28T06:52:42.400Z","event":"search","detail":"creative: 8 hits (quota 25)","level":"info"}
+{"at":"2026-10-28T06:52:44.091Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Atutorial%20stars%3A%3E3000%20pushed%3A%3E2026-06-30%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":24,"ms":491}
+{"at":"2026-10-28T06:52:44.091Z","event":"search","detail":"learning: 8 hits (quota 24)","level":"info"}
+{"at":"2026-10-28T06:52:45.752Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Afirmware%20stars%3A%3E1000%20pushed%3A%3E2026-06-30%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":23,"ms":460}
+{"at":"2026-10-28T06:52:45.752Z","event":"search","detail":"hardware: 8 hits (quota 23)","level":"info"}
+{"at":"2026-10-28T06:52:47.377Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Awebapp%20stars%3A%3E1500%20pushed%3A%3E2026-06-30%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":22,"ms":424}
+{"at":"2026-10-28T06:52:47.377Z","event":"search","detail":"internet-toys: 8 hits (quota 22)","level":"info"}
+{"at":"2026-10-28T06:52:49.097Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aself-hosted%20stars%3A%3E2000%20pushed%3A%3E2026-06-30%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":21,"ms":519}
+{"at":"2026-10-28T06:52:49.097Z","event":"search","detail":"self-hosted: 8 hits (quota 21)","level":"info"}
+{"at":"2026-10-28T06:52:50.790Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aethereum%20stars%3A%3E1000%20pushed%3A%3E2026-06-30%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":20,"ms":492}
+{"at":"2026-10-28T06:52:50.791Z","event":"search","detail":"web3: 8 hits (quota 20)","level":"info"}
+{"at":"2026-10-28T06:52:51.993Z","event":"picked","detail":"NousResearch/hermes-agent (ai-tools, ★257830) | tt-a1i/archify (dev-tools, ★90624) | unslothai/unsloth (self-hosted, ★78657)","level":"info"}
+{"at":"2026-10-28T06:52:52.286Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/NousResearch/hermes-agent","status":200,"remaining":4997,"ms":293}
+{"at":"2026-10-28T06:52:52.581Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/NousResearch/hermes-agent/readme","status":200,"remaining":4996,"ms":295}
+{"at":"2026-10-28T06:52:52.582Z","event":"saved","detail":"hermes-agent ★257830 MIT README=11407 字","level":"info"}
+{"at":"2026-10-28T06:53:02.955Z","event":"shot","detail":"hermes-agent -> /shots/hermes-agent.jpg","level":"info"}
+{"at":"2026-10-28T06:53:02.968Z","event":"published","detail":"hermes-agent (ai-tools) ★257830","level":"info"}
+{"at":"2026-10-28T06:53:03.369Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/tt-a1i/archify","status":200,"remaining":4995,"ms":400}
+{"at":"2026-10-28T06:53:03.690Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/tt-a1i/archify/readme","status":200,"remaining":4994,"ms":321}
+{"at":"2026-10-28T06:53:03.692Z","event":"saved","detail":"archify ★90624 Apache-2.0 README=22304 字","level":"info"}
+{"at":"2026-10-28T06:53:08.384Z","event":"shot","detail":"archify -> /shots/archify.jpg","level":"info"}
+{"at":"2026-10-28T06:53:08.384Z","event":"published","detail":"archify (dev-tools) ★90624","level":"info"}
+{"at":"2026-10-28T06:53:08.767Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/unslothai/unsloth","status":200,"remaining":4993,"ms":382}
+{"at":"2026-10-28T06:53:09.092Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/unslothai/unsloth/readme","status":200,"remaining":4992,"ms":325}
+{"at":"2026-10-28T06:53:09.093Z","event":"saved","detail":"unsloth ★78657 Apache-2.0 README=11573 字","level":"info"}
+{"at":"2026-10-28T06:53:13.973Z","event":"shot","detail":"unsloth -> /shots/unsloth.jpg","level":"info"}
+{"at":"2026-10-28T06:53:13.974Z","event":"published","detail":"unsloth (self-hosted) ★78657","level":"info"}
+{"at":"2026-10-28T06:53:14.019Z","event":"rebuilt","detail":"[data:build] 42 个项目 → public/data/projects.json","level":"info"}
+{"at":"2026-10-28T06:53:14.019Z","event":"run_end","level":"info","detail":"{\"ranAt\":\"2026-10-28T06:52:34.966Z\",\"auth\":\"token\",\"searched\":10,\"picked\":[{\"repo\":\"NousResearch/hermes-agent\",\"category\":\"ai-tools\"},{\"repo\":\"tt-a1i/archify\",\"category\":\"dev-tools\"},{\"repo\":\"unslothai/unsloth\",\"category\":\"self-hosted\"}],\"added\":[{\"slug\":\"hermes-agent\",\"repo\":\"NousResearch/hermes-agent\",\"category\":\"ai-tools\",\"stars\":257830,\"shot\":true},{\"slug\":\"archify\",\"repo\":\"tt-a1i/archify\",\"category\":\"dev-tools\",\"stars\":90624,\"shot\":true},{\"slug\":\"unsloth\",\"repo\":\"unslothai/unsloth\",\"category\":\"self-hosted\",\"stars\":78657,\"shot\":true}]}"}

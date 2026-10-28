@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-27T11:49:25.728Z",
-  "snapshotDate": "2026-10-27",
+  "generatedAt": "2026-10-28T06:53:14.000Z",
+  "snapshotDate": "2026-10-28",
   "counts": {
-    "projects": 39,
+    "projects": 42,
     "categories": 10
   },
   "categories": [
@@ -1126,7 +1126,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 546,
-      "weeklyScore": 666,
+      "weeklyScore": 606,
       "categoryName": "效率工具",
       "license": {
         "spdx": "MIT",
@@ -1226,6 +1226,153 @@
         "truncated": true
       },
       "updatedAt": "2026-10-25"
+    },
+    {
+      "slug": "hermes-agent",
+      "name": "hermes-agent",
+      "tagline": "AI 工具 · The agent that grows with you",
+      "summary": "（自动整理，未经人工校对）hermes-agent 是一个用 Python 写的开源项目。仓库自述「The agent that grows with you」。已抓取 README 约 11,407 字；其中有「Hermes Agent ☤」「Quick Install」「Linux, macOS, WSL2」「Windows (native, PowerShell)」「Troubleshooting」等章节可对应到具体能力。仓库 Topics 涉及：AI、大语言模型。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "ai-tools",
+      "tags": [
+        "AI",
+        "大语言模型",
+        "AI 工具",
+        "MIT"
+      ],
+      "aliases": [
+        "NousResearch/hermes-agent"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Hermes Agent ☤",
+          "detail": "（自动整理）README 中有「Hermes Agent ☤」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Quick Install",
+          "detail": "（自动整理）README 中有「Quick Install」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Linux, macOS, WSL2",
+          "detail": "（自动整理）README 中有「Linux, macOS, WSL2」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Windows (native, PowerSh",
+          "detail": "（自动整理）README 中有「Windows (native, PowerShell)」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 11407 字，抓取于 2026-10-28）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://hermes-agent.nousresearch.com",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/hermes-agent.jpg",
+          "alt": "hermes-agent 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-28T06:53:02.954Z",
+          "credit": "页面截图：https://hermes-agent.nousresearch.com",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-28",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 541,
+      "weeklyScore": 661,
+      "categoryName": "AI 工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "NousResearch",
+        "name": "hermes-agent",
+        "fullName": "NousResearch/hermes-agent",
+        "url": "https://github.com/NousResearch/hermes-agent",
+        "homepage": "https://hermes-agent.nousresearch.com",
+        "description": "The agent that grows with you",
+        "stars": 257830,
+        "forks": 56553,
+        "openIssues": 51567,
+        "language": "Python",
+        "topics": [
+          "ai",
+          "ai-agent",
+          "ai-agents",
+          "anthropic",
+          "chatgpt",
+          "claude",
+          "claude-code",
+          "codex",
+          "hermes",
+          "hermes-agent",
+          "llm",
+          "nous-research",
+          "openai"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2025-07-22T22:22:28Z",
+        "pushedAt": "2026-10-28T06:52:37Z",
+        "archived": false,
+        "fetchedAt": "2026-10-28T06:52:52.286Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Hermes Agent ☤ Hermes Agent Hermes Desktop The self-improving AI agent built by Nous Research. It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of who you are across sessions. Run it on a $5 VPS, a GPU cluster, or serverless infrastructure that costs nearly nothing when idle. It's not tied to your laptop — talk to it from Telegram while it works on a cloud VM. Use any model you want — Nous Portal, OpenRouter, OpenAI, your own endpoint, and many others. Switch with `hermes model` — no code changes, no lock-in. A real terminal interface Full TUI with multiline editing, slash-command autocomplete, conversation history, interrupt-and-redirect, and streaming tool output. Lives where you do Telegram, Discord, Slack, WhatsApp, Signal, and CLI — all from a single gateway process. Voice memo transcription, cross-platform conversation continuity. A closed learning loop Agent-curated memory with periodic nudges. Autonomous skill creation after complex tasks. Skills self-improve during use. FTS5 session search with LLM summarization for cross-session recall. Honcho dialectic user modeling. Compatible with the agentskills.io open standard. Scheduled automations Built-in cron scheduler with delivery to any platform. Daily report",
+        "headings": [
+          "Hermes Agent ☤",
+          "Quick Install",
+          "Linux, macOS, WSL2",
+          "Windows (native, PowerShell)",
+          "Troubleshooting",
+          "Install GitHub CLI if needed",
+          "Login to GitHub",
+          "Run verification",
+          "Getting Started",
+          "Skip the API-key collection — Nous Portal",
+          "CLI vs Messaging Quick Reference",
+          "Documentation",
+          "Migrating from OpenClaw or another agent",
+          "Contributing",
+          "Community",
+          "License"
+        ],
+        "chars": 11407,
+        "fetchedAt": "2026-10-28T06:52:52.286Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-28"
     },
     {
       "slug": "n8n",
@@ -2518,6 +2665,172 @@
       "updatedAt": "2026-10-24"
     },
     {
+      "slug": "archify",
+      "name": "archify",
+      "tagline": "开发者工具 · Turn any idea, plan, or codebase into a beaut…",
+      "summary": "（自动整理，未经人工校对）archify 是一个用 JavaScript 写的开源项目。仓库自述「Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more」。已抓取 README 约 22,304 字；其中有「See Archify in action」「Install, then describe your idea」「Ask a question, get a one-page answer」「Show what matters」「Understand a real repository」等章节可对应到具体能力。仓库 Topics 涉及：开发者工具、大语言模型、可视化。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "dev-tools",
+      "tags": [
+        "开发者工具",
+        "大语言模型",
+        "可视化",
+        "Apache-2.0"
+      ],
+      "aliases": [
+        "tt-a1i/archify"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "See Archify in action",
+          "detail": "（自动整理）README 中有「See Archify in action」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Install, then describe y",
+          "detail": "（自动整理）README 中有「Install, then describe your idea」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Ask a question, get a on",
+          "detail": "（自动整理）README 中有「Ask a question, get a one-page answer」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Show what matters",
+          "detail": "（自动整理）README 中有「Show what matters」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 22304 字，抓取于 2026-10-28）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：npx skills add tt-a1i/archify -g"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://archify.si",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/archify.jpg",
+          "alt": "archify 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-28T06:53:08.383Z",
+          "credit": "页面截图：https://archify.si",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-28",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 496,
+      "weeklyScore": 616,
+      "categoryName": "开发者工具",
+      "license": {
+        "spdx": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "tt-a1i",
+        "name": "archify",
+        "fullName": "tt-a1i/archify",
+        "url": "https://github.com/tt-a1i/archify",
+        "homepage": "https://archify.si",
+        "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+        "stars": 90624,
+        "forks": 6152,
+        "openIssues": 259,
+        "language": "JavaScript",
+        "topics": [
+          "agent-skills",
+          "ai-agents",
+          "architecture-diagram",
+          "claude-code",
+          "claude-skills",
+          "codex",
+          "coding-agents",
+          "deepseek-harness",
+          "developer-tools",
+          "diagrams",
+          "diagrams-as-code",
+          "dsh-plugin",
+          "flowchart",
+          "llm",
+          "mermaid",
+          "opencode",
+          "sequence-diagram",
+          "software-architecture",
+          "system-design",
+          "visualization"
+        ],
+        "license": {
+          "spdx": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "url": null
+        },
+        "createdAt": "2026-04-15T05:27:37Z",
+        "pushedAt": "2026-10-28T06:51:56Z",
+        "archived": false,
+        "fetchedAt": "2026-10-28T06:53:03.369Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Turn anything you want to understand, plan, or share into an interactive visual. Official channels： archify.si · GitHub Archify is free and open source. Third-party online services and paid plans are operated by their respective providers and do not represent Archify. Service details → Start with an idea, a question, or a plan. Describe it to your AI agent, and Archify turns it into an interactive HTML you can explore, customize, and share. From travel itineraries and learning maps to complex systems—make it your own. See what the community is creating—and imagine what you could make next. Live demos &nbsp;·&nbsp; Get started &nbsp;·&nbsp; Scenario guide &nbsp;·&nbsp; Community &nbsp;·&nbsp; 简体中文 &nbsp;·&nbsp; 日本語 &nbsp;·&nbsp; 한국어 ❤️ Partners & sponsors: Kimi Work · Supercode · OpenLux See Archify in action https://github.com/user-attachments/assets/78570807-ba1d-4737-953f-55504a378a87 One sentence. Your repo, mapped. Watch the 35-second demo: explore the diagram, follow source links, and trace a path. Try the interactive examples ↗ Install, then describe your idea Works with Cursor, Claude Code, Codex CLI, and OpenCode. See installation options below for additional integrations. Send this to your agent: Then continue: “Add authentication”, “Highlight the cache-miss path”, or “Switch to the light theme”. No repository is required: start with a description, or ask your agent to",
+        "headings": [
+          "See Archify in action",
+          "Install, then describe your idea",
+          "Ask a question, get a one-page answer",
+          "❤️ Sponsors",
+          "Show what matters",
+          "Understand a real repository",
+          "Easy to extend. More ways to make it yours.",
+          "Download it. Open it. Explore it.",
+          "Community and recognition",
+          "Preview",
+          "Quick start",
+          "1. Install",
+          "Stay updated",
+          "2. Start from a description — no repository required",
+          "3. Refine in chat",
+          "Choose the right diagram",
+          "Why Archify",
+          "How it works",
+          "Explore and share the output",
+          "Installation options",
+          "Reference and scope",
+          "Community",
+          "Official channels and third-party services",
+          "License",
+          "Contributing",
+          "Support Archify",
+          "Contributors",
+          "Star History"
+        ],
+        "chars": 22304,
+        "fetchedAt": "2026-10-28T06:53:03.369Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-28"
+    },
+    {
       "slug": "uv",
       "name": "uv",
       "tagline": "Rust 写的 Python 包管理器，顺手把 pyenv 也替了",
@@ -3313,6 +3626,169 @@
         "truncated": true
       },
       "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "unsloth",
+      "name": "unsloth",
+      "tagline": "自托管项目 · Local UI to run and train LLMs and diffusion…",
+      "summary": "（自动整理，未经人工校对）unsloth 是一个用 Python 写的开源项目。仓库自述「Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more」。已抓取 README 约 11,573 字；其中有「⚡ Get started」「Run & Build with AI」「Train & Deploy」「🚀 Unsloth Start」「Unsloth Desktop (recommended)」等章节可对应到具体能力。仓库 Topics 涉及：AI、大语言模型、Python、自托管。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "self-hosted",
+      "tags": [
+        "AI",
+        "大语言模型",
+        "Python",
+        "自托管",
+        "自托管项目"
+      ],
+      "aliases": [
+        "unslothai/unsloth"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Get started",
+          "detail": "（自动整理）README 中有「⚡ Get started」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Run & Build with AI",
+          "detail": "（自动整理）README 中有「Run & Build with AI」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Train & Deploy",
+          "detail": "（自动整理）README 中有「Train & Deploy」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Unsloth Start",
+          "detail": "（自动整理）README 中有「🚀 Unsloth Start」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 11573 字，抓取于 2026-10-28）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：curl -fsSL https://unsloth.ai/install.sh | sh"
+          },
+          {
+            "title": "第 2 步",
+            "detail": "README 中给出的命令：docker run -d --name unsloth --gpus all --ipc=host \\"
+          },
+          {
+            "title": "第 3 步",
+            "detail": "README 中给出的命令：curl -LsSf https://astral.sh/uv/install.sh | sh"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://unsloth.ai/docs",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/unsloth.jpg",
+          "alt": "unsloth 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-28T06:53:13.973Z",
+          "credit": "页面截图：https://unsloth.ai/docs",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-28",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-28",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 490,
+      "weeklyScore": 610,
+      "categoryName": "自托管项目",
+      "license": {
+        "spdx": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "unslothai",
+        "name": "unsloth",
+        "fullName": "unslothai/unsloth",
+        "url": "https://github.com/unslothai/unsloth",
+        "homepage": "https://unsloth.ai/docs",
+        "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+        "stars": 78657,
+        "forks": 7306,
+        "openIssues": 446,
+        "language": "Python",
+        "topics": [
+          "agent",
+          "ai",
+          "chatgpt",
+          "deepseek",
+          "fine-tuning",
+          "gemma",
+          "image-generation",
+          "llama",
+          "llm",
+          "llms",
+          "openai",
+          "python",
+          "qwen",
+          "reinforcement-learning",
+          "self-hosted",
+          "stable-diffusion",
+          "text-to-speech",
+          "tts",
+          "ui",
+          "unsloth"
+        ],
+        "license": {
+          "spdx": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "url": null
+        },
+        "createdAt": "2023-11-29T16:50:09Z",
+        "pushedAt": "2026-10-28T06:52:10Z",
+        "archived": false,
+        "fetchedAt": "2026-10-28T06:53:08.767Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Unsloth is the first desktop app to run and train models. Features • Quickstart • Notebooks • Documentation ⚡ Get started Download the native Unsloth Desktop app for your operating system: Platform Link Windows Download macOS Download Linux / Ubuntu (deb) Download Linux / Ubuntu (ARM64) (deb) Download Linux (AppImage) Download Windows (ARM64) Download Download from Unsloth or GitHub Releases. Or if you prefer to install manually: macOS, Linux, WSL: Windows: Docker: The Unsloth Docker image `unsloth/unsloth` is available on Docker. Read guide. Homebrew: Winget (Windows): Community: - Discord - 𝕏 (Twitter) - Reddit ⭐ Features Unsloth works on Windows, Linux, WSL and macOS . We support Multi GPU setups, NVIDIA, AMD, Intel GPUs, CPUs and the Vulkan backend. Run & Build with AI Run and train LLMs, MLX, GGUF, diffusion, decision, embedding, audio models: Qwen3.8, GLM-5.3-Flash, Kimi K3, Qwen-Image-2.1, MiniMax-H3, DeepSeek-V4, Gemma 4. Agents & Tools: Use local models with Claude Code, Codex, and MCP, including tool calling and code execution. Search & RAG: Use private and unlimited web search, deep research, auto-compaction (rolling context window) and RAG. Image and video: Run and train image and video diffusion or multimodal models Remote & LAN: Access your local models from any device on LAN or remotely through secure Cloudflare HTTPS. Connect: Serve models through an OpenAI com",
+        "headings": [
+          "⚡ Get started",
+          "⭐ Features",
+          "Run & Build with AI",
+          "Train & Deploy",
+          "🚀 Unsloth Start",
+          "📥 Install",
+          "Unsloth Desktop (recommended)",
+          "Unsloth Studio (web UI)",
+          "for a public Cloudflare HTTPS link: use -e UNSLOTHSTUDIOSECURE=1 instead of -p 8000:8000, and -p 127.0.0.1:8888:8888 instead of -p 8888:8888",
+          "Unsloth Core (code-based)",
+          "📒 Free Notebooks",
+          "📥 Advanced Installation",
+          "💚 Community and Links",
+          "Citation",
+          "License",
+          "Thank You to"
+        ],
+        "chars": 11573,
+        "fetchedAt": "2026-10-28T06:53:08.767Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-28"
     },
     {
       "slug": "cs-self-learning",

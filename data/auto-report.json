@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-10-27T06:17:58.249Z",
+  "ranAt": "2026-10-28T06:52:34.966Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "Graphify-Labs/graphify",
-      "category": "dev-tools"
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
+      "repo": "NousResearch/hermes-agent",
       "category": "ai-tools"
     },
     {
-      "repo": "rtk-ai/rtk",
-      "category": "productivity"
+      "repo": "tt-a1i/archify",
+      "category": "dev-tools"
+    },
+    {
+      "repo": "unslothai/unsloth",
+      "category": "self-hosted"
     }
   ],
   "added": [
     {
-      "slug": "graphify",
-      "repo": "Graphify-Labs/graphify",
-      "category": "dev-tools",
-      "stars": 136342,
-      "shot": true
-    },
-    {
-      "slug": "autogpt",
-      "repo": "Significant-Gravitas/AutoGPT",
+      "slug": "hermes-agent",
+      "repo": "NousResearch/hermes-agent",
       "category": "ai-tools",
-      "stars": 187783,
+      "stars": 257830,
       "shot": true
     },
     {
-      "slug": "rtk",
-      "repo": "rtk-ai/rtk",
-      "category": "productivity",
-      "stars": 84682,
+      "slug": "archify",
+      "repo": "tt-a1i/archify",
+      "category": "dev-tools",
+      "stars": 90624,
+      "shot": true
+    },
+    {
+      "slug": "unsloth",
+      "repo": "unslothai/unsloth",
+      "category": "self-hosted",
+      "stars": 78657,
       "shot": true
     }
   ]

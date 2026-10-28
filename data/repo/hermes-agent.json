@@ -1,0 +1,70 @@
+{
+  "slug": "hermes-agent",
+  "repoInput": "NousResearch/hermes-agent",
+  "fetchedAt": "2026-10-28T06:52:52.286Z",
+  "github": {
+    "owner": "NousResearch",
+    "name": "hermes-agent",
+    "fullName": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "homepage": "https://hermes-agent.nousresearch.com",
+    "description": "The agent that grows with you",
+    "stars": 257830,
+    "forks": 56553,
+    "openIssues": 51567,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "codex",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "nous-research",
+      "openai"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "createdAt": "2025-07-22T22:22:28Z",
+    "pushedAt": "2026-10-28T06:52:37Z",
+    "archived": false,
+    "fetchedAt": "2026-10-28T06:52:52.286Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "main",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 11407,
+    "headings": [
+      "Hermes Agent ☤",
+      "Quick Install",
+      "Linux, macOS, WSL2",
+      "Windows (native, PowerShell)",
+      "Troubleshooting",
+      "Install GitHub CLI if needed",
+      "Login to GitHub",
+      "Run verification",
+      "Getting Started",
+      "Skip the API-key collection — Nous Portal",
+      "CLI vs Messaging Quick Reference",
+      "Documentation",
+      "Migrating from OpenClaw or another agent",
+      "Contributing",
+      "Community",
+      "License"
+    ],
+    "excerpt": "Hermes Agent ☤ Hermes Agent Hermes Desktop The self-improving AI agent built by Nous Research. It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of who you are across sessions. Run it on a $5 VPS, a GPU cluster, or serverless infrastructure that costs nearly nothing when idle. It's not tied to your laptop — talk to it from Telegram while it works on a cloud VM. Use any model you want — Nous Portal, OpenRouter, OpenAI, your own endpoint, and many others. Switch with `hermes model` — no code changes, no lock-in. A real terminal interface Full TUI with multiline editing, slash-command autocomplete, conversation history, interrupt-and-redirect, and streaming tool output. Lives where you do Telegram, Discord, Slack, WhatsApp, Signal, and CLI — all from a single gateway process. Voice memo transcription, cross-platform conversation continuity. A closed learning loop Agent-curated memory with periodic nudges. Autonomous skill creation after complex tasks. Skills self-improve during use. FTS5 session search with LLM summarization for cross-session recall. Honcho dialectic user modeling. Compatible with the agentskills.io open standard. Scheduled automations Built-in cron scheduler with delivery to any platform. Daily report",
+    "truncated": true,
+    "rawFile": "data/readme/hermes-agent.md"
+  }
+}
