@@ -1,0 +1,61 @@
+{
+  "slug": "grafana",
+  "repoInput": "grafana/grafana",
+  "fetchedAt": "2026-10-29T07:08:01.503Z",
+  "github": {
+    "owner": "grafana",
+    "name": "grafana",
+    "fullName": "grafana/grafana",
+    "url": "https://github.com/grafana/grafana",
+    "homepage": "https://grafana.com",
+    "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
+    "stars": 77582,
+    "forks": 14879,
+    "openIssues": 3277,
+    "language": "TypeScript",
+    "topics": [
+      "alerting",
+      "analytics",
+      "business-intelligence",
+      "dashboard",
+      "data-visualization",
+      "elasticsearch",
+      "go",
+      "grafana",
+      "hacktoberfest",
+      "influxdb",
+      "metrics",
+      "monitoring",
+      "mysql",
+      "postgres",
+      "prometheus"
+    ],
+    "license": {
+      "spdx": "AGPL-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "url": null
+    },
+    "createdAt": "2013-12-11T15:59:56Z",
+    "pushedAt": "2026-10-29T06:41:02Z",
+    "archived": false,
+    "fetchedAt": "2026-10-29T07:08:01.503Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "main",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 2165,
+    "headings": [
+      "Get started",
+      "Documentation",
+      "Contributing",
+      "Get involved",
+      "License"
+    ],
+    "excerpt": "The open-source platform for monitoring and observability Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team and foster a data-driven culture: - Visualizations: Fast and flexible client side graphs with a multitude of options. Panel plugins offer many different ways to visualize metrics and logs. - Dynamic Dashboards: Create dynamic & reusable dashboards with template variables that appear as dropdowns at the top of the dashboard. - Explore Metrics: Explore your data through ad-hoc queries and dynamic drilldown. Split view and compare different time ranges, queries and data sources side by side. - Explore Logs: Experience the magic of switching from metrics to logs with preserved label filters. Quickly search through all your logs or streaming them live. - Alerting: Visually define alert rules for your most important metrics. Grafana will continuously evaluate and send notifications to systems like Slack, PagerDuty, VictorOps, OpsGenie. - Mixed Data Sources: Mix different data sources in the same graph! You can specify a data source on a per-query basis. This works for even custom datasources. Get started - Get Grafana - Installation guides Unsure if Grafana is for you? Watch Grafana in action on play.grafana.org! Documentation The Grafana documentation is available a",
+    "truncated": true,
+    "rawFile": "data/readme/grafana.md"
+  }
+}

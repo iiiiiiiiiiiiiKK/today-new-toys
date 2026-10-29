@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-28T06:53:14.000Z",
-  "snapshotDate": "2026-10-28",
+  "generatedAt": "2026-10-29T07:08:17.906Z",
+  "snapshotDate": "2026-10-29",
   "counts": {
-    "projects": 42,
+    "projects": 45,
     "categories": 10
   },
   "categories": [
@@ -821,7 +821,7 @@
         "todo": "复查各平台安装包链接"
       },
       "popularityScore": 498,
-      "weeklyScore": 618,
+      "weeklyScore": 558,
       "categoryName": "效率工具",
       "license": {
         "spdx": "Apache-2.0",
@@ -1226,6 +1226,171 @@
         "truncated": true
       },
       "updatedAt": "2026-10-25"
+    },
+    {
+      "slug": "project-based-learning",
+      "name": "project-based-learning",
+      "tagline": "学习工具 · Curated list of project-based tutorials",
+      "summary": "（自动整理，未经人工校对）project-based-learning 是一个用 Python 写的开源项目。仓库自述「Curated list of project-based tutorials」。已抓取 README 约 18,372 字；其中有「Project Based Learning」「C/C++:」「Network programming」「OpenGL:」「Clojure:」等章节可对应到具体能力。仓库 Topics 涉及：Python。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "learning",
+      "tags": [
+        "Python",
+        "学习工具",
+        "MIT"
+      ],
+      "aliases": [
+        "practical-tutorials/project-based-learning"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Project Based Learning",
+          "detail": "（自动整理）README 中有「Project Based Learning」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "C/C++:",
+          "detail": "（自动整理）README 中有「C/C++:」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Network programming",
+          "detail": "（自动整理）README 中有「Network programming」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "OpenGL:",
+          "detail": "（自动整理）README 中有「OpenGL:」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 18372 字，抓取于 2026-10-29）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": null,
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/project-based-learning.jpg",
+          "alt": "project-based-learning 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-29T07:08:12.699Z",
+          "credit": "页面截图：https://github.com/practical-tutorials/project-based-learning",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-29",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 546,
+      "weeklyScore": 666,
+      "categoryName": "学习工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "practical-tutorials",
+        "name": "project-based-learning",
+        "fullName": "practical-tutorials/project-based-learning",
+        "url": "https://github.com/practical-tutorials/project-based-learning",
+        "homepage": null,
+        "description": "Curated list of project-based tutorials",
+        "stars": 288343,
+        "forks": 36748,
+        "openIssues": 236,
+        "language": "Python",
+        "topics": [
+          "beginner-project",
+          "cpp",
+          "golang",
+          "javascript",
+          "project",
+          "python",
+          "tutorial",
+          "webdevelopment"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2017-04-12T05:07:46Z",
+        "pushedAt": "2026-10-26T07:13:08Z",
+        "archived": false,
+        "fetchedAt": "2026-10-29T07:08:07.337Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Project Based Learning A list of programming tutorials in which aspiring software developers learn how to build an application from scratch. These tutorials are divided into different primary programming languages. Tutorials may involve multiple technologies and languages. To get started, simply fork this repo. Please refer to CONTRIBUTING.md for contribution guidelines. Table of Contents: - C# - C/C++ - Clojure - Dart - Elixir - Erlang - F# - Go - Haskell - HTML/CSS - Java - JavaScript - Kotlin - Lua - OCaml - PHP - Python - R - Ruby - Rust - Scala - Swift - Additional resources C/C++: - Build an Interpreter (Chapter 14 on is written in C) - Memory Allocators 101 - Write a simple memory allocator - Write a Shell in C - Write a FUSE Filesystem - Build Your Own Text Editor - Build Your Own Lisp - How to Program an NES Game in C - Write an OS from scratch - How to create an OS from scratch - Building a CHIP-8 Emulator - Beginning Game Programming with C++ and SDL - Implementing a Key-Value Store - Tiny 3D graphics projects - Tiny Renderer or how OpenGL works: software rendering in 500 lines of code - Understandable RayTracing in 256 lines of bare C++ - KABOOM! in 180 lines of bare C++ - 486 lines of C++: old-school FPS in a weekend - Writing a minimal x86-64 JIT compiler in C++ - Part 1 - Part 2 - Build a Live Code-reloader Library for C++ - Write a hash table in C - Let's Build ",
+        "headings": [
+          "Project Based Learning",
+          "Table of Contents:",
+          "C/C++:",
+          "Network programming",
+          "OpenGL:",
+          "C:",
+          "Clojure:",
+          "Dart:",
+          "Flutter:",
+          "Elixir",
+          "Erlang",
+          "F:",
+          "Java:",
+          "JavaScript:",
+          "HTML and CSS:",
+          "Mobile Application:",
+          "Web Applications:",
+          "Game Development:",
+          "Desktop Application:",
+          "Miscellaneous:",
+          "Kotlin:",
+          "Lua:",
+          "LÖVE:",
+          "Python:",
+          "Web Scraping:",
+          "Web Applications:",
+          "Bots:",
+          "Data Science:",
+          "Machine Learning:",
+          "OpenCV:",
+          "Deep Learning:",
+          "Miscellaneous:",
+          "Go:",
+          "PHP:",
+          "OCaml:",
+          "Ruby:",
+          "Ruby on Rails:",
+          "Haskell:",
+          "R:",
+          "Rust:"
+        ],
+        "chars": 18372,
+        "fetchedAt": "2026-10-29T07:08:07.337Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-29"
     },
     {
       "slug": "hermes-agent",
@@ -3791,6 +3956,139 @@
       "updatedAt": "2026-10-28"
     },
     {
+      "slug": "grafana",
+      "name": "grafana",
+      "tagline": "数据可视化 · The open and composable observability and dat…",
+      "summary": "（自动整理，未经人工校对）grafana 是一个用 TypeScript 写的开源项目。仓库自述「The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more」。已抓取 README 约 2,165 字；其中有「Get started」「Get involved」等章节可对应到具体能力。仓库 Topics 涉及：数据可视化、Go。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "data-viz",
+      "tags": [
+        "数据可视化",
+        "Go",
+        "AGPL-3.0"
+      ],
+      "aliases": [
+        "grafana/grafana"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Get started",
+          "detail": "（自动整理）README 中有「Get started」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Get involved",
+          "detail": "（自动整理）README 中有「Get involved」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "待补全",
+          "detail": "（自动整理）请依据 README 补全。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 2165 字，抓取于 2026-10-29）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://grafana.com",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/grafana.jpg",
+          "alt": "grafana 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-29T07:08:07.006Z",
+          "credit": "页面截图：https://grafana.com",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-29",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 489,
+      "weeklyScore": 609,
+      "categoryName": "数据可视化",
+      "license": {
+        "spdx": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "grafana",
+        "name": "grafana",
+        "fullName": "grafana/grafana",
+        "url": "https://github.com/grafana/grafana",
+        "homepage": "https://grafana.com",
+        "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
+        "stars": 77582,
+        "forks": 14879,
+        "openIssues": 3277,
+        "language": "TypeScript",
+        "topics": [
+          "alerting",
+          "analytics",
+          "business-intelligence",
+          "dashboard",
+          "data-visualization",
+          "elasticsearch",
+          "go",
+          "grafana",
+          "hacktoberfest",
+          "influxdb",
+          "metrics",
+          "monitoring",
+          "mysql",
+          "postgres",
+          "prometheus"
+        ],
+        "license": {
+          "spdx": "AGPL-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "url": null
+        },
+        "createdAt": "2013-12-11T15:59:56Z",
+        "pushedAt": "2026-10-29T06:41:02Z",
+        "archived": false,
+        "fetchedAt": "2026-10-29T07:08:01.503Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "The open-source platform for monitoring and observability Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team and foster a data-driven culture: - Visualizations: Fast and flexible client side graphs with a multitude of options. Panel plugins offer many different ways to visualize metrics and logs. - Dynamic Dashboards: Create dynamic & reusable dashboards with template variables that appear as dropdowns at the top of the dashboard. - Explore Metrics: Explore your data through ad-hoc queries and dynamic drilldown. Split view and compare different time ranges, queries and data sources side by side. - Explore Logs: Experience the magic of switching from metrics to logs with preserved label filters. Quickly search through all your logs or streaming them live. - Alerting: Visually define alert rules for your most important metrics. Grafana will continuously evaluate and send notifications to systems like Slack, PagerDuty, VictorOps, OpsGenie. - Mixed Data Sources: Mix different data sources in the same graph! You can specify a data source on a per-query basis. This works for even custom datasources. Get started - Get Grafana - Installation guides Unsure if Grafana is for you? Watch Grafana in action on play.grafana.org! Documentation The Grafana documentation is available a",
+        "headings": [
+          "Get started",
+          "Documentation",
+          "Contributing",
+          "Get involved",
+          "License"
+        ],
+        "chars": 2165,
+        "fetchedAt": "2026-10-29T07:08:01.503Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-29"
+    },
+    {
       "slug": "cs-self-learning",
       "name": "CS 自学指南",
       "tagline": "一份把名校公开课排成路线的中文自学地图",
@@ -3927,6 +4225,155 @@
         "truncated": true
       },
       "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "coolify",
+      "name": "coolify",
+      "tagline": "自托管项目 · An open-source, self-hostable PaaS alternativ…",
+      "summary": "（自动整理，未经人工校对）coolify 是一个用 PHP 写的开源项目。仓库自述「An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers」。已抓取 README 约 6,049 字；其中有「Coolify」「What is Coolify?」「What can Coolify do?」「Self-hosted or Cloud」「Community and support」等章节可对应到具体能力。仓库 Topics 涉及：Docker、自托管。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "self-hosted",
+      "tags": [
+        "Docker",
+        "自托管",
+        "自托管项目",
+        "Apache-2.0"
+      ],
+      "aliases": [
+        "coollabsio/coolify"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "What is Coolify?",
+          "detail": "（自动整理）README 中有「What is Coolify?」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "What can Coolify do?",
+          "detail": "（自动整理）README 中有「What can Coolify do?」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Self-hosted or Cloud",
+          "detail": "（自动整理）README 中有「Self-hosted or Cloud」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Community and support",
+          "detail": "（自动整理）README 中有「Community and support」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 6049 字，抓取于 2026-10-29）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://coolify.io",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/coolify.jpg",
+          "alt": "coolify 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-29T07:08:17.870Z",
+          "credit": "页面截图：https://coolify.io",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-29",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-29",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 481,
+      "weeklyScore": 601,
+      "categoryName": "自托管项目",
+      "license": {
+        "spdx": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "coollabsio",
+        "name": "coolify",
+        "fullName": "coollabsio/coolify",
+        "url": "https://github.com/coollabsio/coolify",
+        "homepage": "https://coolify.io",
+        "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.",
+        "stars": 65229,
+        "forks": 5863,
+        "openIssues": 322,
+        "language": "PHP",
+        "topics": [
+          "coolify",
+          "databases",
+          "deployment",
+          "docker",
+          "docker-compose",
+          "inertiajs",
+          "laravel",
+          "mariadb",
+          "mysql",
+          "nextjs",
+          "nodejs",
+          "php",
+          "postgres",
+          "redis",
+          "self-hosted",
+          "self-hosting",
+          "server",
+          "static-site",
+          "svelte",
+          "svelte5"
+        ],
+        "license": {
+          "spdx": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "url": null
+        },
+        "createdAt": "2021-01-25T20:54:01Z",
+        "pushedAt": "2026-10-28T23:00:26Z",
+        "archived": false,
+        "fetchedAt": "2026-10-29T07:08:12.991Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Coolify An open-source platform to deploy applications, databases, and services on your own servers. Open source & free forever, backed by our philosophy. Website · Documentation · Cloud · Discord · Community What is Coolify? Coolify is an open-source and self-hostable alternative to Heroku, Netlify, and Vercel. It helps you manage servers, applications, and databases on your own hardware. You only need an SSH connection. You can use a VPS, a bare-metal server, a Raspberry Pi, or any other server that accepts SSH connections. Coolify gives you the convenience of a cloud platform while you keep control of your infrastructure. Your configurations stay on your servers. If you stop using Coolify, your running resources continue to work and remain manageable. What can Coolify do? - Deploy any application: Build from GitHub, GitLab, Bitbucket, or Gitea with Nixpacks, Railpack, Dockerfile, Docker Compose, or a prebuilt Docker image. - Run databases and services: Deploy managed databases and more than 360 one-click services with persistent storage and generated credentials. - Automate deployments: Deploy on every Git push, create pull-request previews, call deployment webhooks, and roll back to retained application images. - Manage networking: Configure custom domains, automatic HTTPS certificates, reverse proxies, health checks, and container networks. - Operate your infrastructure: M",
+        "headings": [
+          "Coolify",
+          "What is Coolify?",
+          "What can Coolify do?",
+          "Quick start",
+          "Self-hosted or Cloud",
+          "Community and support",
+          "Donations",
+          "Huge Sponsors",
+          "Big Sponsors",
+          "Small Sponsors",
+          "Star History"
+        ],
+        "chars": 6049,
+        "fetchedAt": "2026-10-29T07:08:12.991Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-29"
     },
     {
       "slug": "penpot",
@@ -5082,7 +5529,7 @@
         "todo": "复查官网域名（flipper.net / flipperzero.one）"
       },
       "popularityScore": 422,
-      "weeklyScore": 542,
+      "weeklyScore": 482,
       "categoryName": "开源硬件",
       "license": {
         "spdx": "GPL-3.0",
@@ -6052,7 +6499,7 @@
         "todo": "核对 SDK 包名与版本"
       },
       "popularityScore": 400,
-      "weeklyScore": 520,
+      "weeklyScore": 460,
       "categoryName": "互联网玩具",
       "license": {
         "spdx": "MIT",

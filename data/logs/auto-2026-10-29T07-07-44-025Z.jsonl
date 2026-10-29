@@ -1,0 +1,40 @@
+{"at":"2026-10-29T07:07:44.025Z","event":"run_start","name":"auto","startedAt":"2026-10-29T07:07:44.025Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-10-29T07:07:44.034Z","event":"existing","detail":"catalogue has 42 projects","level":"info"}
+{"at":"2026-10-29T07:07:44.560Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Allm%20stars%3A%3E3000%20pushed%3A%3E2026-07-01%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":29,"ms":525}
+{"at":"2026-10-29T07:07:44.560Z","event":"search","detail":"ai-tools: 8 hits (quota 29)","level":"info"}
+{"at":"2026-10-29T07:07:46.265Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adeveloper-tools%20stars%3A%3E2000%20pushed%3A%3E2026-07-01%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":28,"ms":503}
+{"at":"2026-10-29T07:07:46.265Z","event":"search","detail":"dev-tools: 8 hits (quota 28)","level":"info"}
+{"at":"2026-10-29T07:07:47.887Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aproductivity%20stars%3A%3E1500%20pushed%3A%3E2026-07-01%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":27,"ms":420}
+{"at":"2026-10-29T07:07:47.887Z","event":"search","detail":"productivity: 8 hits (quota 27)","level":"info"}
+{"at":"2026-10-29T07:07:49.555Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adata-visualization%20stars%3A%3E800%20pushed%3A%3E2026-07-01%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":26,"ms":467}
+{"at":"2026-10-29T07:07:49.555Z","event":"search","detail":"data-viz: 8 hits (quota 26)","level":"info"}
+{"at":"2026-10-29T07:07:51.287Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Acreative-coding%20stars%3A%3E800%20pushed%3A%3E2026-07-01%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":25,"ms":531}
+{"at":"2026-10-29T07:07:51.287Z","event":"search","detail":"creative: 8 hits (quota 25)","level":"info"}
+{"at":"2026-10-29T07:07:52.952Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Atutorial%20stars%3A%3E3000%20pushed%3A%3E2026-07-01%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":24,"ms":464}
+{"at":"2026-10-29T07:07:52.952Z","event":"search","detail":"learning: 8 hits (quota 24)","level":"info"}
+{"at":"2026-10-29T07:07:54.757Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Afirmware%20stars%3A%3E1000%20pushed%3A%3E2026-07-01%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":23,"ms":604}
+{"at":"2026-10-29T07:07:54.757Z","event":"search","detail":"hardware: 8 hits (quota 23)","level":"info"}
+{"at":"2026-10-29T07:07:56.689Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Awebapp%20stars%3A%3E1500%20pushed%3A%3E2026-07-01%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":22,"ms":731}
+{"at":"2026-10-29T07:07:56.689Z","event":"search","detail":"internet-toys: 8 hits (quota 22)","level":"info"}
+{"at":"2026-10-29T07:07:58.335Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aself-hosted%20stars%3A%3E2000%20pushed%3A%3E2026-07-01%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":21,"ms":445}
+{"at":"2026-10-29T07:07:58.335Z","event":"search","detail":"self-hosted: 8 hits (quota 21)","level":"info"}
+{"at":"2026-10-29T07:08:00.040Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aethereum%20stars%3A%3E1000%20pushed%3A%3E2026-07-01%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":20,"ms":504}
+{"at":"2026-10-29T07:08:00.040Z","event":"search","detail":"web3: 8 hits (quota 20)","level":"info"}
+{"at":"2026-10-29T07:08:01.243Z","event":"picked","detail":"grafana/grafana (data-viz, ★77582) | practical-tutorials/project-based-learning (learning, ★288343) | coollabsio/coolify (self-hosted, ★65229)","level":"info"}
+{"at":"2026-10-29T07:08:01.503Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/grafana/grafana","status":200,"remaining":4998,"ms":259}
+{"at":"2026-10-29T07:08:01.736Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/grafana/grafana/readme","status":200,"remaining":4997,"ms":231}
+{"at":"2026-10-29T07:08:01.736Z","event":"saved","detail":"grafana ★77582 AGPL-3.0 README=2165 字","level":"info"}
+{"at":"2026-10-29T07:08:07.006Z","event":"shot","detail":"grafana -> /shots/grafana.jpg","level":"info"}
+{"at":"2026-10-29T07:08:07.022Z","event":"published","detail":"grafana (data-viz) ★77582","level":"info"}
+{"at":"2026-10-29T07:08:07.337Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/practical-tutorials/project-based-learning","status":200,"remaining":4996,"ms":314}
+{"at":"2026-10-29T07:08:07.564Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/practical-tutorials/project-based-learning/readme","status":200,"remaining":4995,"ms":227}
+{"at":"2026-10-29T07:08:07.566Z","event":"saved","detail":"project-based-learning ★288343 MIT README=18372 字","level":"info"}
+{"at":"2026-10-29T07:08:12.700Z","event":"shot","detail":"project-based-learning -> /shots/project-based-learning.jpg","level":"info"}
+{"at":"2026-10-29T07:08:12.701Z","event":"published","detail":"project-based-learning (learning) ★288343","level":"info"}
+{"at":"2026-10-29T07:08:12.991Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/coollabsio/coolify","status":200,"remaining":4994,"ms":289}
+{"at":"2026-10-29T07:08:13.169Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/coollabsio/coolify/readme","status":200,"remaining":4993,"ms":177}
+{"at":"2026-10-29T07:08:13.170Z","event":"saved","detail":"coolify ★65229 Apache-2.0 README=6049 字","level":"info"}
+{"at":"2026-10-29T07:08:17.870Z","event":"shot","detail":"coolify -> /shots/coolify.jpg","level":"info"}
+{"at":"2026-10-29T07:08:17.871Z","event":"published","detail":"coolify (self-hosted) ★65229","level":"info"}
+{"at":"2026-10-29T07:08:17.931Z","event":"rebuilt","detail":"[data:build] 45 个项目 → public/data/projects.json","level":"info"}
+{"at":"2026-10-29T07:08:17.931Z","event":"run_end","level":"info","detail":"{\"ranAt\":\"2026-10-29T07:07:44.028Z\",\"auth\":\"token\",\"searched\":10,\"picked\":[{\"repo\":\"grafana/grafana\",\"category\":\"data-viz\"},{\"repo\":\"practical-tutorials/project-based-learning\",\"category\":\"learning\"},{\"repo\":\"coollabsio/coolify\",\"category\":\"self-hosted\"}],\"added\":[{\"slug\":\"grafana\",\"repo\":\"grafana/grafana\",\"category\":\"data-viz\",\"stars\":77582,\"shot\":true},{\"slug\":\"project-based-learning\",\"repo\":\"practical-tutorials/project-based-learning\",\"category\":\"learning\",\"stars\":288343,\"shot\":true},{\"slug\":\"coolify\",\"repo\":\"coollabsio/coolify\",\"category\":\"self-hosted\",\"stars\":65229,\"shot\":true}]}"}

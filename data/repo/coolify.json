@@ -1,0 +1,72 @@
+{
+  "slug": "coolify",
+  "repoInput": "coollabsio/coolify",
+  "fetchedAt": "2026-10-29T07:08:12.991Z",
+  "github": {
+    "owner": "coollabsio",
+    "name": "coolify",
+    "fullName": "coollabsio/coolify",
+    "url": "https://github.com/coollabsio/coolify",
+    "homepage": "https://coolify.io",
+    "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.",
+    "stars": 65229,
+    "forks": 5863,
+    "openIssues": 322,
+    "language": "PHP",
+    "topics": [
+      "coolify",
+      "databases",
+      "deployment",
+      "docker",
+      "docker-compose",
+      "inertiajs",
+      "laravel",
+      "mariadb",
+      "mysql",
+      "nextjs",
+      "nodejs",
+      "php",
+      "postgres",
+      "redis",
+      "self-hosted",
+      "self-hosting",
+      "server",
+      "static-site",
+      "svelte",
+      "svelte5"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "name": "Apache License 2.0",
+      "url": null
+    },
+    "createdAt": "2021-01-25T20:54:01Z",
+    "pushedAt": "2026-10-28T23:00:26Z",
+    "archived": false,
+    "fetchedAt": "2026-10-29T07:08:12.991Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "main",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 6049,
+    "headings": [
+      "Coolify",
+      "What is Coolify?",
+      "What can Coolify do?",
+      "Quick start",
+      "Self-hosted or Cloud",
+      "Community and support",
+      "Donations",
+      "Huge Sponsors",
+      "Big Sponsors",
+      "Small Sponsors",
+      "Star History"
+    ],
+    "excerpt": "Coolify An open-source platform to deploy applications, databases, and services on your own servers. Open source & free forever, backed by our philosophy. Website · Documentation · Cloud · Discord · Community What is Coolify? Coolify is an open-source and self-hostable alternative to Heroku, Netlify, and Vercel. It helps you manage servers, applications, and databases on your own hardware. You only need an SSH connection. You can use a VPS, a bare-metal server, a Raspberry Pi, or any other server that accepts SSH connections. Coolify gives you the convenience of a cloud platform while you keep control of your infrastructure. Your configurations stay on your servers. If you stop using Coolify, your running resources continue to work and remain manageable. What can Coolify do? - Deploy any application: Build from GitHub, GitLab, Bitbucket, or Gitea with Nixpacks, Railpack, Dockerfile, Docker Compose, or a prebuilt Docker image. - Run databases and services: Deploy managed databases and more than 360 one-click services with persistent storage and generated credentials. - Automate deployments: Deploy on every Git push, create pull-request previews, call deployment webhooks, and roll back to retained application images. - Manage networking: Configure custom domains, automatic HTTPS certificates, reverse proxies, health checks, and container networks. - Operate your infrastructure: M",
+    "truncated": true,
+    "rawFile": "data/readme/coolify.md"
+  }
+}
