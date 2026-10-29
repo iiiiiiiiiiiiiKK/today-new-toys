@@ -378,5 +378,29 @@
     "title": "unsloth",
     "capturedAt": "2026-10-28T06:53:13.973Z",
     "auto": true
+  },
+  "grafana": {
+    "src": "/shots/grafana.jpg",
+    "captureUrl": "https://grafana.com",
+    "origin": "live",
+    "title": "grafana",
+    "capturedAt": "2026-10-29T07:08:07.006Z",
+    "auto": true
+  },
+  "project-based-learning": {
+    "src": "/shots/project-based-learning.jpg",
+    "captureUrl": "https://github.com/practical-tutorials/project-based-learning",
+    "origin": "live",
+    "title": "project-based-learning",
+    "capturedAt": "2026-10-29T07:08:12.699Z",
+    "auto": true
+  },
+  "coolify": {
+    "src": "/shots/coolify.jpg",
+    "captureUrl": "https://coolify.io",
+    "origin": "live",
+    "title": "coolify",
+    "capturedAt": "2026-10-29T07:08:17.870Z",
+    "auto": true
   }
 }
