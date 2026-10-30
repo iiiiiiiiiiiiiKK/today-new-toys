@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-29T07:08:22.090Z",
-  "snapshotDate": "2026-10-29",
+  "generatedAt": "2026-10-30T07:09:24.908Z",
+  "snapshotDate": "2026-10-30",
   "counts": {
-    "projects": 45,
+    "projects": 48,
     "categories": 10
   },
   "categories": [
@@ -2676,6 +2676,253 @@
       "updatedAt": "2026-10-27"
     },
     {
+      "slug": "d3",
+      "name": "d3",
+      "tagline": "数据可视化 · Bring data to life with SVG, Canvas and HTML.",
+      "summary": "（自动整理，未经人工校对）d3 是一个用 Shell 写的开源项目。仓库自述「Bring data to life with SVG, Canvas and HTML」。已抓取 README 约 594 字；其中有「D3: Data-Driven Documents」「Resources」等章节可对应到具体能力。仓库 Topics 涉及：数据可视化、可视化。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "data-viz",
+      "tags": [
+        "数据可视化",
+        "可视化",
+        "ISC"
+      ],
+      "aliases": [
+        "d3/d3"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "D3: Data-Driven Document",
+          "detail": "（自动整理）README 中有「D3: Data-Driven Documents」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Resources",
+          "detail": "（自动整理）README 中有「Resources」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "待补全",
+          "detail": "（自动整理）请依据 README 补全。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 594 字，抓取于 2026-10-30）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://d3js.org",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/d3.jpg",
+          "alt": "d3 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-30T07:09:12.019Z",
+          "credit": "页面截图：https://d3js.org",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-30",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-30",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 506,
+      "weeklyScore": 566,
+      "categoryName": "数据可视化",
+      "license": {
+        "spdx": "ISC",
+        "name": "ISC License",
+        "url": null
+      },
+      "repo": {
+        "owner": "d3",
+        "name": "d3",
+        "fullName": "d3/d3",
+        "url": "https://github.com/d3/d3",
+        "homepage": "https://d3js.org",
+        "description": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",
+        "stars": 113825,
+        "forks": 22708,
+        "openIssues": 22,
+        "language": "Shell",
+        "topics": [
+          "chart",
+          "charts",
+          "d3",
+          "data-visualization",
+          "svg",
+          "visualization"
+        ],
+        "license": {
+          "spdx": "ISC",
+          "name": "ISC License",
+          "url": null
+        },
+        "createdAt": "2010-09-27T17:22:42Z",
+        "pushedAt": "2026-10-21T22:24:11Z",
+        "archived": false,
+        "fetchedAt": "2026-10-30T07:09:00.328Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "D3: Data-Driven Documents D3 (or D3.js ) is a free, open-source JavaScript library for visualizing data. Its low-level approach built on web standards offers unparalleled flexibility in authoring dynamic, data-driven graphics. For more than a decade D3 has powered groundbreaking and award-winning visualizations, become a foundational building block of higher-level chart libraries, and fostered a vibrant community of data practitioners around the world. Daily downloads of D3 · oss-analytics Resources Documentation Examples Releases Getting help",
+        "headings": [
+          "D3: Data-Driven Documents",
+          "Resources"
+        ],
+        "chars": 594,
+        "fetchedAt": "2026-10-30T07:09:00.328Z",
+        "truncated": false
+      },
+      "updatedAt": "2026-10-30"
+    },
+    {
+      "slug": "puppeteer",
+      "name": "puppeteer",
+      "tagline": "开发者工具 · JavaScript API for Chrome and Firefox",
+      "summary": "（自动整理，未经人工校对）puppeteer 是一个用 TypeScript 写的开源项目。仓库自述「JavaScript API for Chrome and Firefox」。已抓取 README 约 980 字；其中有「Puppeteer」「MCP」等章节可对应到具体能力。仓库 Topics 涉及：开发者工具。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "dev-tools",
+      "tags": [
+        "开发者工具",
+        "Apache-2.0"
+      ],
+      "aliases": [
+        "puppeteer/puppeteer"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "MCP",
+          "detail": "（自动整理）README 中有「MCP」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "待补全",
+          "detail": "（自动整理）请依据 README 补全。"
+        },
+        {
+          "title": "待补全",
+          "detail": "（自动整理）请依据 README 补全。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 980 字，抓取于 2026-10-30）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://pptr.dev",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/puppeteer.jpg",
+          "alt": "puppeteer 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-30T07:09:21.876Z",
+          "credit": "页面截图：https://pptr.dev",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-30",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-30",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 498,
+      "weeklyScore": 618,
+      "categoryName": "开发者工具",
+      "license": {
+        "spdx": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "puppeteer",
+        "name": "puppeteer",
+        "fullName": "puppeteer/puppeteer",
+        "url": "https://github.com/puppeteer/puppeteer",
+        "homepage": "https://pptr.dev",
+        "description": "JavaScript API for Chrome and Firefox",
+        "stars": 95767,
+        "forks": 9593,
+        "openIssues": 218,
+        "language": "TypeScript",
+        "topics": [
+          "automation",
+          "chrome",
+          "chromium",
+          "developer-tools",
+          "firefox",
+          "headless-chrome",
+          "node-module",
+          "testing",
+          "web"
+        ],
+        "license": {
+          "spdx": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "url": null
+        },
+        "createdAt": "2017-05-09T22:16:13Z",
+        "pushedAt": "2026-10-30T06:12:45Z",
+        "archived": false,
+        "fetchedAt": "2026-10-30T07:09:17.338Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Puppeteer Puppeteer is a JavaScript library which provides a high-level API to control Chrome or Firefox over the DevTools Protocol or WebDriver BiDi. Puppeteer runs in the headless (no visible UI) by default Get started API FAQ Contributing Troubleshooting Installation :::note Modern package managers (including npm (see the RFC), pnpm, Yarn, Bun, and Deno) block dependency install scripts by default. If the install script is blocked, Puppeteer will not download the browser during installation, leading to runtime errors. You can manually download the required browsers after installation by running: Alternatively, you can configure your package manager to allow the install script to run (for example, with npm, by adding `\"puppeteer\"` to `\"allowScripts\"` in your `package.json`). ::: MCP Install `chrome-devtools-mcp`, a Puppeteer-based MCP server for browser automation and debugging. Puppeteer also supports the experimental WebMCP API. Example",
+        "headings": [
+          "Puppeteer",
+          "Get started | API | FAQ | Contributing | Troubleshooting",
+          "Installation",
+          "MCP",
+          "Example"
+        ],
+        "chars": 980,
+        "fetchedAt": "2026-10-30T07:09:17.338Z",
+        "truncated": false
+      },
+      "updatedAt": "2026-10-30"
+    },
+    {
       "slug": "sherlock",
       "name": "Sherlock",
       "tagline": "给一个用户名，扫遍 400 多个社交平台",
@@ -3793,6 +4040,159 @@
       "updatedAt": "2026-10-24"
     },
     {
+      "slug": "learn-claude-code",
+      "name": "learn-claude-code",
+      "tagline": "学习工具 · Bash is all you need - A nano claude code–lik…",
+      "summary": "（自动整理，未经人工校对）learn-claude-code 是一个用 Python 写的开源项目。仓库自述「Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1」。已抓取 README 约 16,331 字；其中有「Where Agency Comes From」「What an Agent Is NOT」「What Harness Engineers Actually Do」「Core Pattern」「Version Status」等章节可对应到具体能力。仓库 Topics 涉及：大语言模型、Python。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "learning",
+      "tags": [
+        "大语言模型",
+        "Python",
+        "学习工具",
+        "MIT"
+      ],
+      "aliases": [
+        "shareAI-lab/learn-claude-code"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Where Agency Comes From",
+          "detail": "（自动整理）README 中有「Where Agency Comes From」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "What an Agent Is NOT",
+          "detail": "（自动整理）README 中有「What an Agent Is NOT」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "What Harness Engineers A",
+          "detail": "（自动整理）README 中有「What Harness Engineers Actually Do」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Core Pattern",
+          "detail": "（自动整理）README 中有「Core Pattern」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 16331 字，抓取于 2026-10-30）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://learn.shareai.run",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/learn-claude-code.jpg",
+          "alt": "learn-claude-code 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-30T07:09:16.959Z",
+          "credit": "页面截图：https://learn.shareai.run",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-30",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-30",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 490,
+      "weeklyScore": 610,
+      "categoryName": "学习工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "shareAI-lab",
+        "name": "learn-claude-code",
+        "fullName": "shareAI-lab/learn-claude-code",
+        "url": "https://github.com/shareAI-lab/learn-claude-code",
+        "homepage": "https://learn.shareai.run",
+        "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+        "stars": 79548,
+        "forks": 12730,
+        "openIssues": 51,
+        "language": "Python",
+        "topics": [
+          "agent",
+          "agent-development",
+          "ai-agent",
+          "claude",
+          "claude-code",
+          "educational",
+          "llm",
+          "python",
+          "teaching",
+          "tutorial"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2025-06-29T15:34:15Z",
+        "pushedAt": "2026-10-27T04:47:00Z",
+        "archived": false,
+        "fetchedAt": "2026-10-30T07:09:12.387Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "English 中文 日本語 Learn Claude Code -- Harness Engineering for Real Agents Agency Comes from the Model. An Agent Product = Model + Harness. Before we write any code, one thing needs to be clear. Agency -- the capacity to perceive, reason, and act -- comes from model training, not from external code orchestration. But a working agent product needs both the model and the harness. The model is the driver. The harness is the vehicle. This repository teaches you how to build the vehicle. Where Agency Comes From At the core of every agent is a neural network -- a Transformer, an RNN, a trained function -- shaped by billions of gradient updates on sequences of perception, reasoning, and action. Agency was never bestowed by the surrounding code. It was learned during training. Humans are the original proof. A biological neural network, refined by millions of years of evolutionary pressure, perceives the world through senses, reasons through a brain, and acts through a body. When DeepMind, OpenAI, or Anthropic say \"agent,\" they all mean the same core thing: a model that learned to act through training, plus the infrastructure that lets it operate in a specific environment. The historical record is unambiguous: - 2013 -- DeepMind DQN plays Atari. A single neural network, receiving only raw pixels and game scores, learned 7 Atari 2600 games -- surpassing prior algorithms and beating human ex",
+        "headings": [
+          "Learn Claude Code -- Harness Engineering for Real Agents",
+          "Agency Comes from the Model. An Agent Product = Model + Harness.",
+          "Where Agency Comes From",
+          "What an Agent Is NOT",
+          "The Mindshift: From \"Building Agents\" to Building Harnesses",
+          "What Harness Engineers Actually Do",
+          "Why Claude Code",
+          "Core Pattern",
+          "Version Status",
+          "Legacy-to-Current Mapping",
+          "Course Boundary",
+          "17 Progressive Lessons",
+          "Learning Path",
+          "All Chapters",
+          "How to Read",
+          "Quick Start",
+          "Current 17-Lesson Track",
+          "Legacy 12-Lesson Track",
+          "Web Platform",
+          "Project Structure",
+          "What's Next",
+          "Kode Agent CLI -- Open-Source Coding Agent CLI",
+          "Kode Agent SDK -- Embed Agent Capabilities in Your Application",
+          "Sister Tutorial: From Passive Sessions to Always-On Assistants",
+          "License"
+        ],
+        "chars": 16331,
+        "fetchedAt": "2026-10-30T07:09:12.387Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-30"
+    },
+    {
       "slug": "unsloth",
       "name": "unsloth",
       "tagline": "自托管项目 · Local UI to run and train LLMs and diffusion…",
@@ -4608,7 +5008,7 @@
         "todo": "确认镜像标签与部署文档"
       },
       "popularityScore": 461,
-      "weeklyScore": 581,
+      "weeklyScore": 521,
       "categoryName": "互联网玩具",
       "license": {
         "spdx": "GPL-3.0",
@@ -4765,7 +5165,7 @@
         "todo": "确认中文界面入口"
       },
       "popularityScore": 453,
-      "weeklyScore": 573,
+      "weeklyScore": 513,
       "categoryName": "学习工具",
       "license": {
         "spdx": "MIT",
