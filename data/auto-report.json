@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-10-29T07:07:44.028Z",
+  "ranAt": "2026-10-30T07:08:43.262Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "grafana/grafana",
+      "repo": "d3/d3",
       "category": "data-viz"
     },
     {
-      "repo": "practical-tutorials/project-based-learning",
+      "repo": "shareAI-lab/learn-claude-code",
       "category": "learning"
     },
     {
-      "repo": "coollabsio/coolify",
-      "category": "self-hosted"
+      "repo": "puppeteer/puppeteer",
+      "category": "dev-tools"
     }
   ],
   "added": [
     {
-      "slug": "grafana",
-      "repo": "grafana/grafana",
+      "slug": "d3",
+      "repo": "d3/d3",
       "category": "data-viz",
-      "stars": 77582,
+      "stars": 113825,
       "shot": true
     },
     {
-      "slug": "project-based-learning",
-      "repo": "practical-tutorials/project-based-learning",
+      "slug": "learn-claude-code",
+      "repo": "shareAI-lab/learn-claude-code",
       "category": "learning",
-      "stars": 288343,
+      "stars": 79548,
       "shot": true
     },
     {
-      "slug": "coolify",
-      "repo": "coollabsio/coolify",
-      "category": "self-hosted",
-      "stars": 65229,
+      "slug": "puppeteer",
+      "repo": "puppeteer/puppeteer",
+      "category": "dev-tools",
+      "stars": 95767,
       "shot": true
     }
   ]

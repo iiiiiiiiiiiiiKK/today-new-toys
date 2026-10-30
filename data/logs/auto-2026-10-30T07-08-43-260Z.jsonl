@@ -1,0 +1,40 @@
+{"at":"2026-10-30T07:08:43.260Z","event":"run_start","name":"auto","startedAt":"2026-10-30T07:08:43.260Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-10-30T07:08:43.266Z","event":"existing","detail":"catalogue has 45 projects","level":"info"}
+{"at":"2026-10-30T07:08:43.808Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Allm%20stars%3A%3E3000%20pushed%3A%3E2026-07-02%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":29,"ms":542}
+{"at":"2026-10-30T07:08:43.808Z","event":"search","detail":"ai-tools: 8 hits (quota 29)","level":"info"}
+{"at":"2026-10-30T07:08:45.522Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adeveloper-tools%20stars%3A%3E2000%20pushed%3A%3E2026-07-02%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":28,"ms":513}
+{"at":"2026-10-30T07:08:45.522Z","event":"search","detail":"dev-tools: 8 hits (quota 28)","level":"info"}
+{"at":"2026-10-30T07:08:47.178Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aproductivity%20stars%3A%3E1500%20pushed%3A%3E2026-07-02%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":27,"ms":456}
+{"at":"2026-10-30T07:08:47.178Z","event":"search","detail":"productivity: 8 hits (quota 27)","level":"info"}
+{"at":"2026-10-30T07:08:48.913Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adata-visualization%20stars%3A%3E800%20pushed%3A%3E2026-07-02%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":26,"ms":535}
+{"at":"2026-10-30T07:08:48.913Z","event":"search","detail":"data-viz: 8 hits (quota 26)","level":"info"}
+{"at":"2026-10-30T07:08:50.604Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Acreative-coding%20stars%3A%3E800%20pushed%3A%3E2026-07-02%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":25,"ms":491}
+{"at":"2026-10-30T07:08:50.604Z","event":"search","detail":"creative: 8 hits (quota 25)","level":"info"}
+{"at":"2026-10-30T07:08:52.254Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Atutorial%20stars%3A%3E3000%20pushed%3A%3E2026-07-02%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":24,"ms":449}
+{"at":"2026-10-30T07:08:52.254Z","event":"search","detail":"learning: 8 hits (quota 24)","level":"info"}
+{"at":"2026-10-30T07:08:53.867Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Afirmware%20stars%3A%3E1000%20pushed%3A%3E2026-07-02%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":23,"ms":413}
+{"at":"2026-10-30T07:08:53.867Z","event":"search","detail":"hardware: 8 hits (quota 23)","level":"info"}
+{"at":"2026-10-30T07:08:55.540Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Awebapp%20stars%3A%3E1500%20pushed%3A%3E2026-07-02%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":22,"ms":473}
+{"at":"2026-10-30T07:08:55.541Z","event":"search","detail":"internet-toys: 8 hits (quota 22)","level":"info"}
+{"at":"2026-10-30T07:08:57.179Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aself-hosted%20stars%3A%3E2000%20pushed%3A%3E2026-07-02%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":21,"ms":438}
+{"at":"2026-10-30T07:08:57.179Z","event":"search","detail":"self-hosted: 8 hits (quota 21)","level":"info"}
+{"at":"2026-10-30T07:08:58.869Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aethereum%20stars%3A%3E1000%20pushed%3A%3E2026-07-02%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":20,"ms":489}
+{"at":"2026-10-30T07:08:58.869Z","event":"search","detail":"web3: 8 hits (quota 20)","level":"info"}
+{"at":"2026-10-30T07:09:00.070Z","event":"picked","detail":"d3/d3 (data-viz, ★113825) | shareAI-lab/learn-claude-code (learning, ★79548) | puppeteer/puppeteer (dev-tools, ★95767)","level":"info"}
+{"at":"2026-10-30T07:09:00.328Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/d3/d3","status":200,"remaining":4997,"ms":257}
+{"at":"2026-10-30T07:09:00.597Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/d3/d3/readme","status":200,"remaining":4996,"ms":269}
+{"at":"2026-10-30T07:09:00.598Z","event":"saved","detail":"d3 ★113825 ISC README=594 字","level":"info"}
+{"at":"2026-10-30T07:09:12.019Z","event":"shot","detail":"d3 -> /shots/d3.jpg","level":"info"}
+{"at":"2026-10-30T07:09:12.028Z","event":"published","detail":"d3 (data-viz) ★113825","level":"info"}
+{"at":"2026-10-30T07:09:12.387Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/shareAI-lab/learn-claude-code","status":200,"remaining":4995,"ms":358}
+{"at":"2026-10-30T07:09:12.706Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/shareAI-lab/learn-claude-code/readme","status":200,"remaining":4994,"ms":319}
+{"at":"2026-10-30T07:09:12.706Z","event":"saved","detail":"learn-claude-code ★79548 MIT README=16331 字","level":"info"}
+{"at":"2026-10-30T07:09:16.960Z","event":"shot","detail":"learn-claude-code -> /shots/learn-claude-code.jpg","level":"info"}
+{"at":"2026-10-30T07:09:16.961Z","event":"published","detail":"learn-claude-code (learning) ★79548","level":"info"}
+{"at":"2026-10-30T07:09:17.338Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/puppeteer/puppeteer","status":200,"remaining":4993,"ms":377}
+{"at":"2026-10-30T07:09:17.603Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/puppeteer/puppeteer/readme","status":200,"remaining":4992,"ms":265}
+{"at":"2026-10-30T07:09:17.604Z","event":"saved","detail":"puppeteer ★95767 Apache-2.0 README=980 字","level":"info"}
+{"at":"2026-10-30T07:09:21.876Z","event":"shot","detail":"puppeteer -> /shots/puppeteer.jpg","level":"info"}
+{"at":"2026-10-30T07:09:21.877Z","event":"published","detail":"puppeteer (dev-tools) ★95767","level":"info"}
+{"at":"2026-10-30T07:09:21.915Z","event":"rebuilt","detail":"[data:build] 48 个项目 → public/data/projects.json","level":"info"}
+{"at":"2026-10-30T07:09:21.920Z","event":"run_end","level":"info","detail":"{\"ranAt\":\"2026-10-30T07:08:43.262Z\",\"auth\":\"token\",\"searched\":10,\"picked\":[{\"repo\":\"d3/d3\",\"category\":\"data-viz\"},{\"repo\":\"shareAI-lab/learn-claude-code\",\"category\":\"learning\"},{\"repo\":\"puppeteer/puppeteer\",\"category\":\"dev-tools\"}],\"added\":[{\"slug\":\"d3\",\"repo\":\"d3/d3\",\"category\":\"data-viz\",\"stars\":113825,\"shot\":true},{\"slug\":\"learn-claude-code\",\"repo\":\"shareAI-lab/learn-claude-code\",\"category\":\"learning\",\"stars\":79548,\"shot\":true},{\"slug\":\"puppeteer\",\"repo\":\"puppeteer/puppeteer\",\"category\":\"dev-tools\",\"stars\":95767,\"shot\":true}]}"}

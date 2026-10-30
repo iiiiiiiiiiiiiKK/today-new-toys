@@ -402,5 +402,29 @@
     "title": "coolify",
     "capturedAt": "2026-10-29T07:08:17.870Z",
     "auto": true
+  },
+  "d3": {
+    "src": "/shots/d3.jpg",
+    "captureUrl": "https://d3js.org",
+    "origin": "live",
+    "title": "d3",
+    "capturedAt": "2026-10-30T07:09:12.019Z",
+    "auto": true
+  },
+  "learn-claude-code": {
+    "src": "/shots/learn-claude-code.jpg",
+    "captureUrl": "https://learn.shareai.run",
+    "origin": "live",
+    "title": "learn-claude-code",
+    "capturedAt": "2026-10-30T07:09:16.959Z",
+    "auto": true
+  },
+  "puppeteer": {
+    "src": "/shots/puppeteer.jpg",
+    "captureUrl": "https://pptr.dev",
+    "origin": "live",
+    "title": "puppeteer",
+    "capturedAt": "2026-10-30T07:09:21.876Z",
+    "auto": true
   }
 }
