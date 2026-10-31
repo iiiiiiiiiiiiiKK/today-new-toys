@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-30T07:09:24.908Z",
-  "snapshotDate": "2026-10-30",
+  "generatedAt": "2026-10-31T07:01:04.699Z",
+  "snapshotDate": "2026-10-31",
   "counts": {
-    "projects": 48,
+    "projects": 51,
     "categories": 10
   },
   "categories": [
@@ -347,7 +347,7 @@
         "todo": "下期核对插件市场链接与 Enterprise 定价页是否仍公开"
       },
       "popularityScore": 519,
-      "weeklyScore": 639,
+      "weeklyScore": 579,
       "categoryName": "AI 工具",
       "license": {
         "spdx": null,
@@ -515,7 +515,7 @@
         "todo": "确认 Excalidraw+ 定价页"
       },
       "popularityScore": 513,
-      "weeklyScore": 633,
+      "weeklyScore": 573,
       "categoryName": "创意与设计",
       "license": {
         "spdx": "MIT",
@@ -1956,7 +1956,7 @@
         "todo": "确认插件生态与 OCR 插件链接"
       },
       "popularityScore": 528,
-      "weeklyScore": 648,
+      "weeklyScore": 588,
       "categoryName": "效率工具",
       "license": {
         "spdx": "MIT",
@@ -3001,7 +3001,7 @@
         "todo": "确认站点列表与官方站点是否仍在线"
       },
       "popularityScore": 498,
-      "weeklyScore": 618,
+      "weeklyScore": 558,
       "categoryName": "互联网玩具",
       "license": {
         "spdx": "MIT",
@@ -3075,6 +3075,173 @@
         "truncated": false
       },
       "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "uptime-kuma",
+      "name": "uptime-kuma",
+      "tagline": "互联网玩具 · A fancy self-hosted monitoring tool",
+      "summary": "（自动整理，未经人工校对）uptime-kuma 是一个用 JavaScript 写的开源项目。仓库自述「A fancy self-hosted monitoring tool」。已抓取 README 约 3,972 字；其中有「Uptime Kuma」「🥔 Live Demo」「🔧 How to Install」「🐳 Docker Compose」「🐳 Docker Command」等章节可对应到具体能力。仓库 Topics 涉及：Docker、自托管。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "internet-toys",
+      "tags": [
+        "Docker",
+        "自托管",
+        "互联网玩具",
+        "MIT"
+      ],
+      "aliases": [
+        "louislam/uptime-kuma"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Uptime Kuma",
+          "detail": "（自动整理）README 中有「Uptime Kuma」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Live Demo",
+          "detail": "（自动整理）README 中有「🥔 Live Demo」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "How to Install",
+          "detail": "（自动整理）README 中有「🔧 How to Install」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Docker Compose",
+          "detail": "（自动整理）README 中有「🐳 Docker Compose」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 3972 字，抓取于 2026-10-31）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：curl -o compose.yaml https://raw.githubusercontent.com/louislam/uptime-kuma/master/compose.yaml"
+          },
+          {
+            "title": "第 2 步",
+            "detail": "README 中给出的命令：docker compose up -d"
+          },
+          {
+            "title": "第 3 步",
+            "detail": "README 中给出的命令：docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:2"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://uptime.kuma.pet",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/uptime-kuma.jpg",
+          "alt": "uptime-kuma 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-31T07:00:55.516Z",
+          "credit": "页面截图：https://uptime.kuma.pet",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-31",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-31",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 497,
+      "weeklyScore": 617,
+      "categoryName": "互联网玩具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "louislam",
+        "name": "uptime-kuma",
+        "fullName": "louislam/uptime-kuma",
+        "url": "https://github.com/louislam/uptime-kuma",
+        "homepage": "https://uptime.kuma.pet",
+        "description": "A fancy self-hosted monitoring tool",
+        "stars": 93117,
+        "forks": 8639,
+        "openIssues": 849,
+        "language": "JavaScript",
+        "topics": [
+          "docker",
+          "monitor",
+          "monitoring",
+          "responsive",
+          "self-hosted",
+          "selfhosted",
+          "single-page-app",
+          "socket-io",
+          "uptime",
+          "uptime-monitoring",
+          "webapp",
+          "websocket"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2021-07-03T01:02:42Z",
+        "pushedAt": "2026-10-31T06:31:32Z",
+        "archived": false,
+        "fetchedAt": "2026-10-31T07:00:50.839Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Uptime Kuma Uptime Kuma is an easy-to-use self-hosted monitoring tool. 🥔 Live Demo Try it! Demo Server (Location: Frankfurt - Germany): It is a temporary live demo, all data will be deleted after 10 minutes. Sponsored by Uptime Kuma Sponsors. ⭐ Features - Monitoring uptime for HTTP(s) / TCP / HTTP(s) Keyword / HTTP(s) Json Query / Websocket / Ping / DNS Record / Push / Steam Game Server / Docker Containers - Fancy, Reactive, Fast UI/UX - Notifications via Telegram, Discord, Gotify, Slack, Pushover, Email (SMTP), and 90+ notification services, click here for the full list - 20-second intervals - Multi Languages - Multiple status pages - Map status pages to specific domains - Ping chart - Certificate info - Proxy support - 2FA support 🔧 How to Install 🐳 Docker Compose Uptime Kuma is now running on all network interfaces (e.g. http://localhost:3001 or http://your-ip:3001). [!WARNING] File Systems like NFS (Network File System) are NOT supported. Please map to a local directory or volume. 🐳 Docker Command Uptime Kuma is now running on all network interfaces (e.g. http://localhost:3001 or http://your-ip:3001). If you want to limit exposure to localhost only: 💪🏻 Non-Docker Requirements: - Platform - ✅ Major Linux distros such as Debian, Ubuntu, Fedora and ArchLinux etc. - ✅ Windows 10 (x64), Windows Server 2012 R2 (x64) or higher - ❌ FreeBSD / OpenBSD / NetBSD - ❌ Replit / Hero",
+        "headings": [
+          "Uptime Kuma",
+          "🥔 Live Demo",
+          "⭐ Features",
+          "🔧 How to Install",
+          "🐳 Docker Compose",
+          "🐳 Docker Command",
+          "💪🏻 Non-Docker",
+          "Option 1. Try it",
+          "(Recommended) Option 2. Run in the background using PM2",
+          "Install PM2 if you don't have it:",
+          "Start Server",
+          "If you want to see the current console output",
+          "If you want to add it to startup",
+          "Advanced Installation",
+          "🆙 How to Update",
+          "🆕 What's Next?",
+          "❤️ Sponsors",
+          "Special Sponsors",
+          "Open Collective and GitHub Sponsors",
+          "🖼 More Screenshots",
+          "Motivation",
+          "🗣️ Discussion / Ask for Help",
+          "Contributions",
+          "Create Pull Requests",
+          "Test Pull Requests",
+          "Test Beta Version",
+          "Bug Reports / Feature Requests",
+          "Translations",
+          "Spelling & Grammar"
+        ],
+        "chars": 3972,
+        "fetchedAt": "2026-10-31T07:00:50.839Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-31"
     },
     {
       "slug": "archify",
@@ -3815,7 +3982,7 @@
         "todo": "核对自托管文档与云版定价页"
       },
       "popularityScore": 491,
-      "weeklyScore": 611,
+      "weeklyScore": 551,
       "categoryName": "开发者工具",
       "license": {
         "spdx": "MIT",
@@ -4776,6 +4943,160 @@
       "updatedAt": "2026-10-29"
     },
     {
+      "slug": "diagram-design",
+      "name": "diagram-design",
+      "tagline": "数据可视化 · Editorial diagram design for Claude Code, Cod…",
+      "summary": "（自动整理，未经人工校对）diagram-design 是一个用 HTML 写的开源项目。仓库自述「Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop」。已抓取 README 约 29,529 字；其中有「Claude Code: symlink the inner skill」「How it compares」「What it makes」「The flow」「What gets extracted」等章节可对应到具体能力。仓库 Topics 涉及：数据可视化。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "data-viz",
+      "tags": [
+        "数据可视化",
+        "MIT"
+      ],
+      "aliases": [
+        "cathrynlavery/diagram-design"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Claude Code: symlink the",
+          "detail": "（自动整理）README 中有「Claude Code: symlink the inner skill」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "How it compares",
+          "detail": "（自动整理）README 中有「How it compares」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "What it makes",
+          "detail": "（自动整理）README 中有「What it makes」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "The flow",
+          "detail": "（自动整理）README 中有「The flow」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 29529 字，抓取于 2026-10-31）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：npx skills add cathrynlavery/diagram-design"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://diagramdesign.dev",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/diagram-design.jpg",
+          "alt": "diagram-design 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-31T07:00:50.504Z",
+          "credit": "页面截图：https://diagramdesign.dev",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-31",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-31",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 480,
+      "weeklyScore": 600,
+      "categoryName": "数据可视化",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "cathrynlavery",
+        "name": "diagram-design",
+        "fullName": "cathrynlavery/diagram-design",
+        "url": "https://github.com/cathrynlavery/diagram-design",
+        "homepage": "https://diagramdesign.dev",
+        "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "stars": 63314,
+        "forks": 4157,
+        "openIssues": 50,
+        "language": "HTML",
+        "topics": [
+          "agent-skills",
+          "claude-code",
+          "codex",
+          "data-visualization",
+          "diagrams",
+          "drawio",
+          "mermaid",
+          "svg"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2026-04-16T18:01:16Z",
+        "pushedAt": "2026-10-27T20:01:35Z",
+        "archived": false,
+        "fetchedAt": "2026-10-31T07:00:34.550Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand. 45 diagram types. No shadows. No Mermaid slop. Website · Gallery · Changelog Install · What it makes · Quickstart · Match your brand · Import · Export · Contributing npx skills add cathrynlavery/diagram-design Ask your agent in plain words: - \"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\" - \"I need a quadrant showing Q2 projects by impact vs effort.\" - \"Give me a sequence of a bearer call with token refresh on 401.\" - \"Onboard diagram-design to https://yoursite.com\" (pulls your palette and fonts so every diagram after this one matches your site) The agent picks the type, states its plan, and writes one `.html` file you can open by double-clicking. --- Install Works with any host that reads Agent Skills, including Cursor, Claude Code, Codex, Qoder, GitHub Copilot, Gemini CLI, Cline, Windsurf and Amp: In Claude Code, the plugin marketplace gets you updates and the slash commands: Official builds come only from this repository. LittleMight, Cathryn Lavery's company, publishes the plugin directory listings; a listing under any other name is an unofficial copy. PRIVACY.md lists what the skill sends over the network. Claude Code : turn on auto-update After installing, run `/plugin`, open Marketplaces , select diagram-design , and choose Enable auto-update .",
+        "headings": [
+          "Install",
+          "Pi: register the checkout as a local package",
+          "Claude Code: symlink the inner skill",
+          "Other Agent Skills hosts: create only the roots you use",
+          "How it compares",
+          "Why I built it",
+          "What it makes",
+          "Onboarding: make it look like your brand",
+          "The flow",
+          "What gets extracted",
+          "Contrast checks happen automatically",
+          "Accessible by default",
+          "Offline fonts",
+          "Manual override",
+          "First-run gate",
+          "Working with multiple clients",
+          "Quickstart",
+          "From a cloned checkout, open the gallery to see every diagram",
+          "Semantic patterns and optional motion",
+          "Import from draw.io, Mermaid, or Excalidraw",
+          "The four dials",
+          "Export to PNG / SVG",
+          "Architecture",
+          "What loads when",
+          "It's working if…",
+          "The design system (in one paragraph)",
+          "Primitives",
+          "When not to use this skill",
+          "Contributing",
+          "About"
+        ],
+        "chars": 29529,
+        "fetchedAt": "2026-10-31T07:00:34.550Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-31"
+    },
+    {
       "slug": "penpot",
       "name": "Penpot",
       "tagline": "能自己部署的开源设计协作平台",
@@ -4854,7 +5175,7 @@
         "todo": "核对自托管文档入口"
       },
       "popularityScore": 479,
-      "weeklyScore": 599,
+      "weeklyScore": 539,
       "categoryName": "创意与设计",
       "license": {
         "spdx": "MPL-2.0",
@@ -4928,6 +5249,183 @@
         "truncated": true
       },
       "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "ccxt",
+      "name": "ccxt",
+      "tagline": "加密与 Web3 · A unified trading API with more than 100 cryp…",
+      "summary": "（自动整理，未经人工校对）ccxt 是一个用 Python 写的开源项目。仓库自述「A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust」。已抓取 README 约 64,416 字；其中有「CCXT Terminal」「See Also」「Certified Cryptocurrency Exchanges」「Supported Cryptocurrency Exchanges」「Prediction Market Exchanges」等章节可对应到具体能力。仓库 Topics 涉及：API、以太坊。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "web3",
+      "tags": [
+        "API",
+        "以太坊",
+        "加密与 Web3",
+        "MIT"
+      ],
+      "aliases": [
+        "ccxt/ccxt"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "CCXT Terminal",
+          "detail": "（自动整理）README 中有「CCXT Terminal」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "See Also",
+          "detail": "（自动整理）README 中有「See Also」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Certified Cryptocurrency",
+          "detail": "（自动整理）README 中有「Certified Cryptocurrency Exchanges」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Supported Cryptocurrency",
+          "detail": "（自动整理）README 中有「Supported Cryptocurrency Exchanges」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 64416 字，抓取于 2026-10-31）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://docs.ccxt.com",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/ccxt.jpg",
+          "alt": "ccxt 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-31T07:01:00.806Z",
+          "credit": "页面截图：https://docs.ccxt.com",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-31",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-31",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 465,
+      "weeklyScore": 585,
+      "categoryName": "加密与 Web3",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "ccxt",
+        "name": "ccxt",
+        "fullName": "ccxt/ccxt",
+        "url": "https://github.com/ccxt/ccxt",
+        "homepage": "https://docs.ccxt.com",
+        "description": "A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust",
+        "stars": 44635,
+        "forks": 8930,
+        "openIssues": 742,
+        "language": "Python",
+        "topics": [
+          "altcoin",
+          "api",
+          "arbitrage",
+          "bitcoin",
+          "bot",
+          "btc",
+          "crypto",
+          "cryptocurrencies",
+          "cryptocurrency",
+          "eth",
+          "ethereum",
+          "exchange",
+          "invest",
+          "library",
+          "market-data",
+          "memecoin",
+          "strategy",
+          "trade",
+          "trading"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2017-05-14T15:41:56Z",
+        "pushedAt": "2026-10-30T11:43:48Z",
+        "archived": false,
+        "fetchedAt": "2026-10-31T07:00:55.825Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "CCXT – CryptoCurrency eXchange Trading Library A crypto trading API with more than 100 exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust. Install · Usage · Manual · FAQ · Examples · Contributing · Disclaimer · Social The CCXT library is used to connect and trade with cryptocurrency exchanges worldwide. It provides quick access to market data for storage, analysis, visualization, indicator development, algorithmic trading, strategy backtesting, bot programming, and related software engineering. It is intended to be used by coders, developers, technically-skilled traders, data-scientists and financial analysts for building trading algorithms. Current feature list: - supports 100+ cryptocurrency exchanges and prediction markets: - Polymarket - Kalshi - Hyperliquid - Limitless - Myriad - more coming soon! - implements public and private APIs, both REST and WebSocket - optionally normalizes data for cross-exchange analytics and arbitrage - has an out of the box unified API that is extremely easy to integrate - ideal for AI agents, LLMs and vibe coding - works in Node 18+, Python 3, PHP 8.1+, netstandard2.0/2.1, Go 1.20+, Java 21+ and web browsers CCXT Terminal CCXT Terminal is a non-custodial trading platform built on the same open-source CCXT library you already use. It takes you from market analysis to order execution in one place, ",
+        "headings": [
+          "CCXT – CryptoCurrency eXchange Trading Library",
+          "Install · Usage · Manual · FAQ · Examples · Contributing · Disclaimer · Social",
+          "CCXT Terminal",
+          "See Also",
+          "Certified Cryptocurrency Exchanges",
+          "Supported Cryptocurrency Exchanges",
+          "Prediction Market Exchanges",
+          "Builder Code Exchanges",
+          "Install",
+          "or",
+          "JavaScript (NPM)",
+          "JavaScript (for use with the tag):",
+          "Python",
+          "PHP",
+          ".net/C",
+          "Go",
+          "Java",
+          "Rust",
+          "Docker",
+          "AI Assistant Support",
+          "Usage",
+          "Intro",
+          "JavaScript",
+          "Python",
+          "coding=utf-8",
+          "sell one ฿ for market price and receive $ right now",
+          "limit buy BTC/EUR, you pay €2500 and receive ฿1 when the order is closed",
+          "pass/redefine custom exchange-specific order params: type, amount, price, flags, etc...",
+          "PHP",
+          ".net/C",
+          "Go",
+          "Java",
+          "Rust",
+          "Rate limiting",
+          "CCXT CLI",
+          "Installation",
+          "Usage",
+          "CCXT MCP Server",
+          "Contributing",
+          "Support Developer Team"
+        ],
+        "chars": 64416,
+        "fetchedAt": "2026-10-31T07:00:55.825Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-31"
     },
     {
       "slug": "it-tools",
@@ -5773,7 +6271,7 @@
         "todo": "确认 demo 地址与云版定价"
       },
       "popularityScore": 431,
-      "weeklyScore": 551,
+      "weeklyScore": 491,
       "categoryName": "自托管项目",
       "license": {
         "spdx": "AGPL-3.0",
@@ -6256,7 +6754,7 @@
         "todo": "跟踪 Wayland 支持状态"
       },
       "popularityScore": 417,
-      "weeklyScore": 537,
+      "weeklyScore": 477,
       "categoryName": "效率工具",
       "license": {
         "spdx": "GPL-3.0",
@@ -6419,7 +6917,7 @@
         "todo": "许可证条款需法务复核后再对外引用"
       },
       "popularityScore": 412,
-      "weeklyScore": 532,
+      "weeklyScore": 472,
       "categoryName": "加密与 Web3",
       "license": {
         "spdx": null,
@@ -7047,7 +7545,7 @@
         "todo": "确认 demo 站点是否仍可访问"
       },
       "popularityScore": 385,
-      "weeklyScore": 505,
+      "weeklyScore": 445,
       "categoryName": "数据可视化",
       "license": {
         "spdx": "MIT",
@@ -7349,7 +7847,7 @@
         "todo": "核对扩展商店链接"
       },
       "popularityScore": 364,
-      "weeklyScore": 484,
+      "weeklyScore": 424,
       "categoryName": "加密与 Web3",
       "license": {
         "spdx": "GPL-3.0",
