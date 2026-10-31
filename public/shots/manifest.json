@@ -426,5 +426,29 @@
     "title": "puppeteer",
     "capturedAt": "2026-10-30T07:09:21.876Z",
     "auto": true
+  },
+  "diagram-design": {
+    "src": "/shots/diagram-design.jpg",
+    "captureUrl": "https://diagramdesign.dev",
+    "origin": "live",
+    "title": "diagram-design",
+    "capturedAt": "2026-10-31T07:00:50.504Z",
+    "auto": true
+  },
+  "uptime-kuma": {
+    "src": "/shots/uptime-kuma.jpg",
+    "captureUrl": "https://uptime.kuma.pet",
+    "origin": "live",
+    "title": "uptime-kuma",
+    "capturedAt": "2026-10-31T07:00:55.516Z",
+    "auto": true
+  },
+  "ccxt": {
+    "src": "/shots/ccxt.jpg",
+    "captureUrl": "https://docs.ccxt.com",
+    "origin": "live",
+    "title": "ccxt",
+    "capturedAt": "2026-10-31T07:01:00.806Z",
+    "auto": true
   }
 }

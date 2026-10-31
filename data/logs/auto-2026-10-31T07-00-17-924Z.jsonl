@@ -1,0 +1,40 @@
+{"at":"2026-10-31T07:00:17.925Z","event":"run_start","name":"auto","startedAt":"2026-10-31T07:00:17.925Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-10-31T07:00:17.935Z","event":"existing","detail":"catalogue has 48 projects","level":"info"}
+{"at":"2026-10-31T07:00:18.450Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Allm%20stars%3A%3E3000%20pushed%3A%3E2026-07-03%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":29,"ms":515}
+{"at":"2026-10-31T07:00:18.451Z","event":"search","detail":"ai-tools: 8 hits (quota 29)","level":"info"}
+{"at":"2026-10-31T07:00:20.051Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adeveloper-tools%20stars%3A%3E2000%20pushed%3A%3E2026-07-03%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":28,"ms":400}
+{"at":"2026-10-31T07:00:20.051Z","event":"search","detail":"dev-tools: 8 hits (quota 28)","level":"info"}
+{"at":"2026-10-31T07:00:21.671Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aproductivity%20stars%3A%3E1500%20pushed%3A%3E2026-07-03%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":27,"ms":420}
+{"at":"2026-10-31T07:00:21.671Z","event":"search","detail":"productivity: 8 hits (quota 27)","level":"info"}
+{"at":"2026-10-31T07:00:23.425Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adata-visualization%20stars%3A%3E800%20pushed%3A%3E2026-07-03%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":26,"ms":553}
+{"at":"2026-10-31T07:00:23.425Z","event":"search","detail":"data-viz: 8 hits (quota 26)","level":"info"}
+{"at":"2026-10-31T07:00:25.075Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Acreative-coding%20stars%3A%3E800%20pushed%3A%3E2026-07-03%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":25,"ms":449}
+{"at":"2026-10-31T07:00:25.075Z","event":"search","detail":"creative: 8 hits (quota 25)","level":"info"}
+{"at":"2026-10-31T07:00:26.644Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Atutorial%20stars%3A%3E3000%20pushed%3A%3E2026-07-03%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":24,"ms":369}
+{"at":"2026-10-31T07:00:26.645Z","event":"search","detail":"learning: 8 hits (quota 24)","level":"info"}
+{"at":"2026-10-31T07:00:28.262Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Afirmware%20stars%3A%3E1000%20pushed%3A%3E2026-07-03%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":23,"ms":417}
+{"at":"2026-10-31T07:00:28.262Z","event":"search","detail":"hardware: 8 hits (quota 23)","level":"info"}
+{"at":"2026-10-31T07:00:29.870Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Awebapp%20stars%3A%3E1500%20pushed%3A%3E2026-07-03%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":22,"ms":408}
+{"at":"2026-10-31T07:00:29.870Z","event":"search","detail":"internet-toys: 8 hits (quota 22)","level":"info"}
+{"at":"2026-10-31T07:00:31.474Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aself-hosted%20stars%3A%3E2000%20pushed%3A%3E2026-07-03%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":21,"ms":403}
+{"at":"2026-10-31T07:00:31.474Z","event":"search","detail":"self-hosted: 8 hits (quota 21)","level":"info"}
+{"at":"2026-10-31T07:00:33.134Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aethereum%20stars%3A%3E1000%20pushed%3A%3E2026-07-03%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":20,"ms":459}
+{"at":"2026-10-31T07:00:33.134Z","event":"search","detail":"web3: 8 hits (quota 20)","level":"info"}
+{"at":"2026-10-31T07:00:34.337Z","event":"picked","detail":"cathrynlavery/diagram-design (data-viz, ★63314) | louislam/uptime-kuma (internet-toys, ★93117) | ccxt/ccxt (web3, ★44635)","level":"info"}
+{"at":"2026-10-31T07:00:34.550Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/cathrynlavery/diagram-design","status":200,"remaining":4997,"ms":213}
+{"at":"2026-10-31T07:00:34.787Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/cathrynlavery/diagram-design/readme","status":200,"remaining":4996,"ms":237}
+{"at":"2026-10-31T07:00:34.790Z","event":"saved","detail":"diagram-design ★63314 MIT README=29529 字","level":"info"}
+{"at":"2026-10-31T07:00:50.504Z","event":"shot","detail":"diagram-design -> /shots/diagram-design.jpg","level":"info"}
+{"at":"2026-10-31T07:00:50.521Z","event":"published","detail":"diagram-design (data-viz) ★63314","level":"info"}
+{"at":"2026-10-31T07:00:50.839Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/louislam/uptime-kuma","status":200,"remaining":4995,"ms":317}
+{"at":"2026-10-31T07:00:51.072Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/louislam/uptime-kuma/readme","status":200,"remaining":4994,"ms":233}
+{"at":"2026-10-31T07:00:51.073Z","event":"saved","detail":"uptime-kuma ★93117 MIT README=3972 字","level":"info"}
+{"at":"2026-10-31T07:00:55.516Z","event":"shot","detail":"uptime-kuma -> /shots/uptime-kuma.jpg","level":"info"}
+{"at":"2026-10-31T07:00:55.517Z","event":"published","detail":"uptime-kuma (internet-toys) ★93117","level":"info"}
+{"at":"2026-10-31T07:00:55.824Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ccxt/ccxt","status":200,"remaining":4993,"ms":306}
+{"at":"2026-10-31T07:00:56.090Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ccxt/ccxt/readme","status":200,"remaining":4992,"ms":265}
+{"at":"2026-10-31T07:00:56.093Z","event":"saved","detail":"ccxt ★44635 MIT README=64416 字","level":"info"}
+{"at":"2026-10-31T07:01:00.806Z","event":"shot","detail":"ccxt -> /shots/ccxt.jpg","level":"info"}
+{"at":"2026-10-31T07:01:00.807Z","event":"published","detail":"ccxt (web3) ★44635","level":"info"}
+{"at":"2026-10-31T07:01:00.867Z","event":"rebuilt","detail":"[data:build] 51 个项目 → public/data/projects.json","level":"info"}
+{"at":"2026-10-31T07:01:00.868Z","event":"run_end","level":"info","detail":"{\"ranAt\":\"2026-10-31T07:00:17.927Z\",\"auth\":\"token\",\"searched\":10,\"picked\":[{\"repo\":\"cathrynlavery/diagram-design\",\"category\":\"data-viz\"},{\"repo\":\"louislam/uptime-kuma\",\"category\":\"internet-toys\"},{\"repo\":\"ccxt/ccxt\",\"category\":\"web3\"}],\"added\":[{\"slug\":\"diagram-design\",\"repo\":\"cathrynlavery/diagram-design\",\"category\":\"data-viz\",\"stars\":63314,\"shot\":true},{\"slug\":\"uptime-kuma\",\"repo\":\"louislam/uptime-kuma\",\"category\":\"internet-toys\",\"stars\":93117,\"shot\":true},{\"slug\":\"ccxt\",\"repo\":\"ccxt/ccxt\",\"category\":\"web3\",\"stars\":44635,\"shot\":true}]}"}

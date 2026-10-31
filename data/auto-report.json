@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-10-30T07:08:43.262Z",
+  "ranAt": "2026-10-31T07:00:17.927Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "d3/d3",
+      "repo": "cathrynlavery/diagram-design",
       "category": "data-viz"
     },
     {
-      "repo": "shareAI-lab/learn-claude-code",
-      "category": "learning"
+      "repo": "louislam/uptime-kuma",
+      "category": "internet-toys"
     },
     {
-      "repo": "puppeteer/puppeteer",
-      "category": "dev-tools"
+      "repo": "ccxt/ccxt",
+      "category": "web3"
     }
   ],
   "added": [
     {
-      "slug": "d3",
-      "repo": "d3/d3",
+      "slug": "diagram-design",
+      "repo": "cathrynlavery/diagram-design",
       "category": "data-viz",
-      "stars": 113825,
+      "stars": 63314,
       "shot": true
     },
     {
-      "slug": "learn-claude-code",
-      "repo": "shareAI-lab/learn-claude-code",
-      "category": "learning",
-      "stars": 79548,
+      "slug": "uptime-kuma",
+      "repo": "louislam/uptime-kuma",
+      "category": "internet-toys",
+      "stars": 93117,
       "shot": true
     },
     {
-      "slug": "puppeteer",
-      "repo": "puppeteer/puppeteer",
-      "category": "dev-tools",
-      "stars": 95767,
+      "slug": "ccxt",
+      "repo": "ccxt/ccxt",
+      "category": "web3",
+      "stars": 44635,
       "shot": true
     }
   ]
