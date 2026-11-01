@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-10-31T07:00:17.927Z",
+  "ranAt": "2026-11-01T07:34:18.055Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "cathrynlavery/diagram-design",
+      "repo": "huggingface/transformers",
+      "category": "ai-tools"
+    },
+    {
+      "repo": "netdata/netdata",
       "category": "data-viz"
     },
     {
-      "repo": "louislam/uptime-kuma",
-      "category": "internet-toys"
-    },
-    {
-      "repo": "ccxt/ccxt",
-      "category": "web3"
+      "repo": "OpenHands/OpenHands",
+      "category": "dev-tools"
     }
   ],
   "added": [
     {
-      "slug": "diagram-design",
-      "repo": "cathrynlavery/diagram-design",
+      "slug": "transformers",
+      "repo": "huggingface/transformers",
+      "category": "ai-tools",
+      "stars": 168400,
+      "shot": true
+    },
+    {
+      "slug": "netdata",
+      "repo": "netdata/netdata",
       "category": "data-viz",
-      "stars": 63314,
+      "stars": 81238,
       "shot": true
     },
     {
-      "slug": "uptime-kuma",
-      "repo": "louislam/uptime-kuma",
-      "category": "internet-toys",
-      "stars": 93117,
-      "shot": true
-    },
-    {
-      "slug": "ccxt",
-      "repo": "ccxt/ccxt",
-      "category": "web3",
-      "stars": 44635,
+      "slug": "openhands",
+      "repo": "OpenHands/OpenHands",
+      "category": "dev-tools",
+      "stars": 92388,
       "shot": true
     }
   ]

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-31T07:01:00.841Z",
-  "snapshotDate": "2026-10-31",
+  "generatedAt": "2026-11-01T07:35:03.845Z",
+  "snapshotDate": "2026-11-01",
   "counts": {
-    "projects": 51,
+    "projects": 54,
     "categories": 10
   },
   "categories": [
@@ -162,7 +162,7 @@
         "todo": "核对云端模型定价页与本地模型库的可用性"
       },
       "popularityScore": 527,
-      "weeklyScore": 647,
+      "weeklyScore": 587,
       "categoryName": "AI 工具",
       "license": {
         "spdx": "MIT",
@@ -665,7 +665,7 @@
         "todo": "确认 demo 凭据是否仍有效"
       },
       "popularityScore": 507,
-      "weeklyScore": 627,
+      "weeklyScore": 567,
       "categoryName": "自托管项目",
       "license": {
         "spdx": "AGPL-3.0",
@@ -2507,6 +2507,156 @@
       "updatedAt": "2026-10-26"
     },
     {
+      "slug": "transformers",
+      "name": "transformers",
+      "tagline": "AI 工具 · 🤗 Transformers: the model-definition framewo…",
+      "summary": "（自动整理，未经人工校对）transformers 是一个用 Python 写的开源项目。仓库自述「🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training」。已抓取 README 约 6,699 字；其中有「venv」「uv」「pip」「When shouldn't I use Transformers?」「100 projects using Transformers」等章节可对应到具体能力。仓库 Topics 涉及：大语言模型、Python。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "ai-tools",
+      "tags": [
+        "大语言模型",
+        "Python",
+        "AI 工具",
+        "Apache-2.0"
+      ],
+      "aliases": [
+        "huggingface/transformers"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "venv",
+          "detail": "（自动整理）README 中有「venv」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "uv",
+          "detail": "（自动整理）README 中有「uv」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "pip",
+          "detail": "（自动整理）README 中有「pip」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "When shouldn't I use Tra",
+          "detail": "（自动整理）README 中有「When shouldn't I use Transformers?」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 6699 字，抓取于 2026-11-01）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://huggingface.co/transformers",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/transformers.jpg",
+          "alt": "transformers 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-01T07:34:51.621Z",
+          "credit": "页面截图：https://huggingface.co/transformers",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-01",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-01",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 523,
+      "weeklyScore": 643,
+      "categoryName": "AI 工具",
+      "license": {
+        "spdx": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "huggingface",
+        "name": "transformers",
+        "fullName": "huggingface/transformers",
+        "url": "https://github.com/huggingface/transformers",
+        "homepage": "https://huggingface.co/transformers",
+        "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+        "stars": 168400,
+        "forks": 35066,
+        "openIssues": 1042,
+        "language": "Python",
+        "topics": [
+          "audio",
+          "deep-learning",
+          "deepseek",
+          "gemma",
+          "glm",
+          "hacktoberfest",
+          "llm",
+          "machine-learning",
+          "model-hub",
+          "natural-language-processing",
+          "nlp",
+          "pretrained-models",
+          "python",
+          "pytorch",
+          "pytorch-transformers",
+          "qwen",
+          "speech-recognition",
+          "transformer",
+          "vlm"
+        ],
+        "license": {
+          "spdx": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "url": null
+        },
+        "createdAt": "2018-10-29T13:56:00Z",
+        "pushedAt": "2026-11-01T00:34:38Z",
+        "archived": false,
+        "fetchedAt": "2026-11-01T07:34:34.637Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "English 简体中文 繁體中文 한국어 Español 日本語 हिन्दी मराठी Русский Português తెలుగు Français Deutsch Italiano Tiếng Việt العربية اردو বাংলা فارسی Română Türkçe State-of-the-art pretrained models for inference and training Transformers acts as the model-definition framework for state-of-the-art machine learning with text, computer vision, audio, video, and multimodal models, for both inference and training. It centralizes the model definition so that this definition is agreed upon across the ecosystem. `transformers` is the pivot across frameworks: if a model definition is supported, it will be compatible with the majority of training frameworks (Axolotl, Unsloth, DeepSpeed, FSDP, PyTorch-Lightning, ...), inference engines (vLLM, SGLang, TGI, ...), and adjacent modeling libraries (llama.cpp, mlx, ...) which leverage the model definition from `transformers`. We pledge to help support new state-of-the-art models and democratize their usage by having their model definition be simple, customizable, and efficient. There are over 1M+ Transformers model checkpoints on the Hugging Face Hub you can use. Explore the Hub today to find a model and use Transformers to help you get started right away. Installation Transformers works with Python 3.11+, and PyTorch 2.6+. Create and activate a virtual environment with venv or uv, a fast Rust-based Python package and project manager. Install Transformers in ",
+        "headings": [
+          "Installation",
+          "venv",
+          "uv",
+          "pip",
+          "uv",
+          "pip",
+          "uv",
+          "Quickstart",
+          "Why should I use Transformers?",
+          "When shouldn't I use Transformers?",
+          "100 projects using Transformers",
+          "Example models",
+          "Citation"
+        ],
+        "chars": 6699,
+        "fetchedAt": "2026-11-01T07:34:34.637Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-01"
+    },
+    {
       "slug": "graphify",
       "name": "graphify",
       "tagline": "开发者工具 · Turn any codebase, with its docs, SQL schemas…",
@@ -3077,6 +3227,145 @@
       "updatedAt": "2026-10-24"
     },
     {
+      "slug": "openhands",
+      "name": "OpenHands",
+      "tagline": "开发者工具 · 🙌 OpenHands: AI-Driven Development",
+      "summary": "（自动整理，未经人工校对）OpenHands 是一个用 TypeScript 写的开源项目。仓库自述「🙌 OpenHands: AI-Driven Development」。已抓取 README 约 9,433 字；其中有「Architecture」「Repository boundaries」「More documentation」等章节可对应到具体能力。仓库 Topics 涉及：命令行、开发者工具、大语言模型。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "dev-tools",
+      "tags": [
+        "命令行",
+        "开发者工具",
+        "大语言模型",
+        "MIT"
+      ],
+      "aliases": [
+        "OpenHands/OpenHands"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Architecture",
+          "detail": "（自动整理）README 中有「Architecture」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Repository boundaries",
+          "detail": "（自动整理）README 中有「Repository boundaries」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "More documentation",
+          "detail": "（自动整理）README 中有「More documentation」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 9433 字，抓取于 2026-11-01）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：npm install -g @openhands/agent-canvas"
+          },
+          {
+            "title": "第 2 步",
+            "detail": "README 中给出的命令：docker run -it --rm \\"
+          },
+          {
+            "title": "第 3 步",
+            "detail": "README 中给出的命令：git clone https://github.com/OpenHands/OpenHands.git"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://openhands.dev",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/openhands.jpg",
+          "alt": "OpenHands 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-01T07:35:03.811Z",
+          "credit": "页面截图：https://openhands.dev",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-01",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-01",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 497,
+      "weeklyScore": 617,
+      "categoryName": "开发者工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "OpenHands",
+        "name": "OpenHands",
+        "fullName": "OpenHands/OpenHands",
+        "url": "https://github.com/OpenHands/OpenHands",
+        "homepage": "https://openhands.dev",
+        "description": "🙌 OpenHands: AI-Driven Development",
+        "stars": 92388,
+        "forks": 12306,
+        "openIssues": 1170,
+        "language": "TypeScript",
+        "topics": [
+          "agent",
+          "artificial-intelligence",
+          "chatgpt",
+          "claude-ai",
+          "cli",
+          "developer-tools",
+          "gpt",
+          "llm",
+          "openai"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2024-03-13T03:33:31Z",
+        "pushedAt": "2026-11-01T04:23:10Z",
+        "archived": false,
+        "fetchedAt": "2026-11-01T07:34:57.170Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Agent Canvas The self-hosted developer control center for coding agents and automations. Run OpenHands, Claude Code, Codex, Gemini, Pi, OpenCode, or any ACP-compatible agent across local, remote, and cloud backends. Quickstart Docs Self-Hosting ACP Agents Automations Slack OpenHands Agent Canvas turns your coding agents into a self-hosted, always-on engineering team. It's a developer control center for starting conversations and automating everyday tasks — like generating reports that publish to Slack or automatically decomposing GitHub issues into tasks. It runs locally on your machine by default, but can connect to multiple “agent backends”, e.g. running agents in Docker containers, on VMs, or within your company infrastructure. You can optionally choose to run agents on OpenHands Cloud or OpenHands Enterprise infrastructure. Agent Canvas runs the open source OpenHands agent out-of-the-box, but can use third-party agents such as Claude Code, Codex, Gemini CLI, Pi, and OpenCode. -------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------- Self-host your way Run agents locally, in Docker, on VMs, or anywhere you can run an agent server backend Switch between different backends Switch betw",
+        "headings": [
+          "Quickstart",
+          "Option 1: Without a Sandbox",
+          "Option 2: With a Docker Sandbox",
+          "Option 3: With Multiple Docker Sandboxes",
+          "Option 4: From Source",
+          "Architecture",
+          "Repository boundaries",
+          "More documentation"
+        ],
+        "chars": 9433,
+        "fetchedAt": "2026-11-01T07:34:57.170Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-01"
+    },
+    {
       "slug": "uptime-kuma",
       "name": "uptime-kuma",
       "tagline": "互联网玩具 · A fancy self-hosted monitoring tool",
@@ -3487,7 +3776,7 @@
         "todo": "复查 Windows 安装脚本地址"
       },
       "popularityScore": 496,
-      "weeklyScore": 616,
+      "weeklyScore": 556,
       "categoryName": "开发者工具",
       "license": {
         "spdx": "Apache-2.0",
@@ -3811,7 +4100,7 @@
         "todo": "下季度复查许可证条款是否变化，并确认演示站是否仍开放"
       },
       "popularityScore": 492,
-      "weeklyScore": 612,
+      "weeklyScore": 552,
       "categoryName": "AI 工具",
       "license": {
         "spdx": null,
@@ -4062,6 +4351,164 @@
         "truncated": true
       },
       "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "netdata",
+      "name": "netdata",
+      "tagline": "数据可视化 · The fastest path to AI-powered full stack obs…",
+      "summary": "（自动整理，未经人工校对）netdata 是一个用 Go 写的开源项目。仓库自述「The fastest path to AI-powered full stack observability, even for lean teams」。已抓取 README 约 17,619 字；其中有「WHO WE ARE」「Key Features」「Netdata Ecosystem」「What You Can Monitor」「1. Install Netdata」等章节可对应到具体能力。仓库 Topics 涉及：AI、数据可视化、Docker。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "data-viz",
+      "tags": [
+        "AI",
+        "数据可视化",
+        "Docker",
+        "GPL-3.0"
+      ],
+      "aliases": [
+        "netdata/netdata"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "WHO WE ARE",
+          "detail": "（自动整理）README 中有「WHO WE ARE」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Key Features",
+          "detail": "（自动整理）README 中有「Key Features」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Netdata Ecosystem",
+          "detail": "（自动整理）README 中有「Netdata Ecosystem」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "What You Can Monitor",
+          "detail": "（自动整理）README 中有「What You Can Monitor」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 17619 字，抓取于 2026-11-01）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://www.netdata.cloud",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/netdata.jpg",
+          "alt": "netdata 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-01T07:34:56.822Z",
+          "credit": "页面截图：https://www.netdata.cloud",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-01",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-01",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 491,
+      "weeklyScore": 611,
+      "categoryName": "数据可视化",
+      "license": {
+        "spdx": "GPL-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "netdata",
+        "name": "netdata",
+        "fullName": "netdata/netdata",
+        "url": "https://github.com/netdata/netdata",
+        "homepage": "https://www.netdata.cloud",
+        "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+        "stars": 81238,
+        "forks": 6712,
+        "openIssues": 455,
+        "language": "Go",
+        "topics": [
+          "ai",
+          "alerting",
+          "cncf",
+          "data-visualization",
+          "database",
+          "devops",
+          "docker",
+          "grafana",
+          "influxdb",
+          "kubernetes",
+          "linux",
+          "machine-learning",
+          "mcp",
+          "mongodb",
+          "monitoring",
+          "mysql",
+          "netdata",
+          "observability",
+          "postgresql",
+          "prometheus"
+        ],
+        "license": {
+          "spdx": "GPL-3.0",
+          "name": "GNU General Public License v3.0",
+          "url": null
+        },
+        "createdAt": "2013-06-17T18:39:10Z",
+        "pushedAt": "2026-11-01T07:01:24Z",
+        "archived": false,
+        "fetchedAt": "2026-11-01T07:34:52.001Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "X-Ray Vision for your infrastructure! Every Metric, Every Second. No BS. Visit our Home Page MENU: WHO WE ARE KEY FEATURES GETTING STARTED HOW IT WORKS FAQ DOCS COMMUNITY CONTRIBUTE LICENSE [!WARNING] People get addicted to Netdata. Once you use it on your systems, there's no going back. --- WHO WE ARE Netdata is an open-source, real-time infrastructure monitoring platform. Monitor, detect, and act across your entire infrastructure. Core Advantages: Instant Insights – With Netdata you can access per-second metrics and visualizations. Zero Configuration – You can deploy immediately without complex setup. ML-Powered – You can detect anomalies, predict issues, and automate analysis. Efficient – You can monitor with minimal resource usage and maximum scalability. Secure & Distributed – You can keep your data local with no central collection needed. With Netdata, you get real-time, per-second updates. Clear insights at a glance , no complexity. All heroes have a great origin story. Click to discover ours. In 2013, at the company where Costa Tsaousis was COO, a significant percentage of their cloud-based transactions failed silently, severely impacting business performance. Costa and his team tried every troubleshooting tool available at the time. None could identify the root cause. As Costa later wrote: “ I couldn’t believe that monitoring systems provide so few metrics and with suc",
+        "headings": [
+          "WHO WE ARE",
+          "Most Energy-Efficient Monitoring Tool",
+          "Key Features",
+          "Netdata Ecosystem",
+          "What You Can Monitor",
+          "Getting Started",
+          "1. Install Netdata",
+          "2. Configure Collectors",
+          "3. Configure Alerts",
+          "4. Configure Parents",
+          "5. Connect to Netdata Cloud",
+          "Live Demo Sites",
+          "How It Works",
+          "Agent Capabilities",
+          "CNCF Membership",
+          "FAQ",
+          "\\:book: Documentation",
+          "\\:tada: Community",
+          "\\:pray: Contribute",
+          "\\:scroll: License"
+        ],
+        "chars": 17619,
+        "fetchedAt": "2026-11-01T07:34:52.001Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-01"
     },
     {
       "slug": "screenshot-to-code",
@@ -5809,7 +6256,7 @@
         "todo": "确认改名后的域名与演示站"
       },
       "popularityScore": 448,
-      "weeklyScore": 568,
+      "weeklyScore": 508,
       "categoryName": "自托管项目",
       "license": {
         "spdx": "AGPL-3.0",
@@ -5964,7 +6411,7 @@
         "todo": "确认 playground 是否仍在线"
       },
       "popularityScore": 441,
-      "weeklyScore": 561,
+      "weeklyScore": 501,
       "categoryName": "开发者工具",
       "license": {
         "spdx": "Apache-2.0",
@@ -7092,7 +7539,7 @@
         "todo": "复查许可证文件所在分支（dev）是否变更"
       },
       "popularityScore": 408,
-      "weeklyScore": 528,
+      "weeklyScore": 468,
       "categoryName": "开源硬件",
       "license": {
         "spdx": null,
@@ -7240,7 +7687,7 @@
         "todo": "确认双许可表述与安装脚本地址"
       },
       "popularityScore": 403,
-      "weeklyScore": 523,
+      "weeklyScore": 463,
       "categoryName": "加密与 Web3",
       "license": {
         "spdx": "Apache-2.0",
