@@ -450,5 +450,29 @@
     "title": "ccxt",
     "capturedAt": "2026-10-31T07:01:00.806Z",
     "auto": true
+  },
+  "transformers": {
+    "src": "/shots/transformers.jpg",
+    "captureUrl": "https://huggingface.co/transformers",
+    "origin": "live",
+    "title": "transformers",
+    "capturedAt": "2026-11-01T07:34:51.621Z",
+    "auto": true
+  },
+  "netdata": {
+    "src": "/shots/netdata.jpg",
+    "captureUrl": "https://www.netdata.cloud",
+    "origin": "live",
+    "title": "netdata",
+    "capturedAt": "2026-11-01T07:34:56.822Z",
+    "auto": true
+  },
+  "openhands": {
+    "src": "/shots/openhands.jpg",
+    "captureUrl": "https://openhands.dev",
+    "origin": "live",
+    "title": "OpenHands",
+    "capturedAt": "2026-11-01T07:35:03.811Z",
+    "auto": true
   }
 }
