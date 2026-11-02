@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-01T07:35:07.843Z",
-  "snapshotDate": "2026-11-01",
+  "generatedAt": "2026-11-02T07:42:15.931Z",
+  "snapshotDate": "2026-11-02",
   "counts": {
-    "projects": 54,
+    "projects": 57,
     "categories": 10
   },
   "categories": [
@@ -966,7 +966,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 558,
-      "weeklyScore": 678,
+      "weeklyScore": 618,
       "categoryName": "AI 工具",
       "license": {
         "spdx": "MIT",
@@ -1301,7 +1301,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 546,
-      "weeklyScore": 666,
+      "weeklyScore": 606,
       "categoryName": "学习工具",
       "license": {
         "spdx": "MIT",
@@ -1613,7 +1613,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 532,
-      "weeklyScore": 652,
+      "weeklyScore": 592,
       "categoryName": "自托管项目",
       "license": {
         "spdx": null,
@@ -1774,7 +1774,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 529,
-      "weeklyScore": 649,
+      "weeklyScore": 589,
       "categoryName": "AI 工具",
       "license": {
         "spdx": "AGPL-3.0",
@@ -2122,7 +2122,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 528,
-      "weeklyScore": 648,
+      "weeklyScore": 588,
       "categoryName": "效率工具",
       "license": {
         "spdx": "MIT",
@@ -3225,6 +3225,142 @@
         "truncated": false
       },
       "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "stirling-pdf",
+      "name": "Stirling-PDF",
+      "tagline": "自托管项目 · #1 PDF Application on GitHub that lets you ed…",
+      "summary": "（自动整理，未经人工校对）Stirling-PDF 是一个用 TypeScript 写的开源项目。仓库自述「#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere」。已抓取 README 约 1,706 字；其中有「Key Capabilities」「Resources」等章节可对应到具体能力。仓库 Topics 涉及：Docker、自托管。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "self-hosted",
+      "tags": [
+        "Docker",
+        "自托管",
+        "自托管项目"
+      ],
+      "aliases": [
+        "Stirling-Tools/Stirling-PDF"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Key Capabilities",
+          "detail": "（自动整理）README 中有「Key Capabilities」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Resources",
+          "detail": "（自动整理）README 中有「Resources」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "待补全",
+          "detail": "（自动整理）请依据 README 补全。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 1706 字，抓取于 2026-11-02）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：docker run -p 8080:8080 docker.stirlingpdf.com/stirlingtools/stirling-pdf"
+          }
+        ],
+        "cost": "费用未知"
+      },
+      "officialUrl": "https://stirling.com",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/stirling-pdf.jpg",
+          "alt": "Stirling-PDF 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-02T07:42:12.067Z",
+          "credit": "页面截图：https://stirling.com",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-02",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-02",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 498,
+      "weeklyScore": 618,
+      "categoryName": "自托管项目",
+      "license": {
+        "spdx": null,
+        "name": "Other",
+        "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+        "url": null
+      },
+      "repo": {
+        "owner": "Stirling-Tools",
+        "name": "Stirling-PDF",
+        "fullName": "Stirling-Tools/Stirling-PDF",
+        "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+        "homepage": "https://stirling.com",
+        "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
+        "stars": 95542,
+        "forks": 10008,
+        "openIssues": 504,
+        "language": "TypeScript",
+        "topics": [
+          "docker",
+          "hacktoberfest",
+          "java",
+          "pdf",
+          "pdf-converter",
+          "pdf-editor",
+          "pdf-manipulation",
+          "pdf-merger",
+          "pdf-ocr",
+          "pdf-tools",
+          "pdf-web-apps",
+          "pdfmerger",
+          "self-hosted"
+        ],
+        "license": {
+          "spdx": null,
+          "name": "Other",
+          "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+          "url": null
+        },
+        "createdAt": "2023-01-27T18:22:42Z",
+        "pushedAt": "2026-11-02T06:05:53Z",
+        "archived": false,
+        "fetchedAt": "2026-11-02T07:42:07.374Z",
+        "source": "api",
+        "warnings": [
+          "仓库未声明可识别的开源许可证"
+        ]
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Stirling PDF - The Open-Source PDF Platform Stirling PDF is a powerful, open-source PDF editing platform. Run it as a personal desktop app, in the browser, or deploy it on your own servers with a private API. Edit, sign, redact, convert, and automate PDFs without sending documents to external services. Key Capabilities - Everywhere you work - Desktop client, browser UI, and self-hosted server with a private API. - 50+ PDF tools - Edit, merge, split, sign, redact, convert, OCR, compress, and more. - Automation & workflows - No-code pipelines direct in UI with APIs to process millions of PDFs. - Enterprise‑grade - SSO, auditing, and flexible on‑prem deployments. - Developer platform - REST APIs available for nearly all tools to integrate into your existing systems. - Global UI - Interface available in 40+ languages. For a full feature list, see the docs: https://docs.stirlingpdf.com Quick Start Then open: http://localhost:8080 For full installation options (including desktop and Kubernetes), see our Documentation Guide. Resources - Documentation - Homepage - API Docs - Server Plan & Enterprise Support - Community : Discord - Bug Reports : GitHub Issues Contributing We welcome contributions! Please see CONTRIBUTING.md for guidelines. This project uses Task as a unified command runner for all build, dev, and test commands. Run `task dev` to get started running the editor, run `task",
+        "headings": [
+          "Key Capabilities",
+          "Quick Start",
+          "Resources",
+          "Support",
+          "Contributing",
+          "License"
+        ],
+        "chars": 1706,
+        "fetchedAt": "2026-11-02T07:42:07.374Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-02"
     },
     {
       "slug": "openhands",
@@ -5241,6 +5377,151 @@
       "updatedAt": "2026-10-24"
     },
     {
+      "slug": "superset",
+      "name": "superset",
+      "tagline": "数据可视化 · Apache Superset is a Data Visualization and D…",
+      "summary": "（自动整理，未经人工校对）superset 是一个用 Python 写的开源项目。仓库自述「Apache Superset is a Data Visualization and Data Exploration Platform」。已抓取 README 约 5,352 字；其中有「Superset」「Screenshots & Gifs」「Supported Databases」「Installation and Configuration」「Get Involved」等章节可对应到具体能力。仓库 Topics 涉及：数据可视化、Python、React。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "data-viz",
+      "tags": [
+        "数据可视化",
+        "Python",
+        "React",
+        "Apache-2.0"
+      ],
+      "aliases": [
+        "apache/superset"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Screenshots & Gifs",
+          "detail": "（自动整理）README 中有「Screenshots & Gifs」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Supported Databases",
+          "detail": "（自动整理）README 中有「Supported Databases」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Installation and Configu",
+          "detail": "（自动整理）README 中有「Installation and Configuration」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Get Involved",
+          "detail": "（自动整理）README 中有「Get Involved」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 5352 字，抓取于 2026-11-02）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://superset.apache.org/",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/superset.jpg",
+          "alt": "superset 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-02T07:42:02.104Z",
+          "credit": "页面截图：https://superset.apache.org/",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-02",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-02",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 488,
+      "weeklyScore": 608,
+      "categoryName": "数据可视化",
+      "license": {
+        "spdx": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "apache",
+        "name": "superset",
+        "fullName": "apache/superset",
+        "url": "https://github.com/apache/superset",
+        "homepage": "https://superset.apache.org/",
+        "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+        "stars": 75388,
+        "forks": 18571,
+        "openIssues": 614,
+        "language": "Python",
+        "topics": [
+          "analytics",
+          "apache",
+          "apache-superset",
+          "asf",
+          "bi",
+          "business-analytics",
+          "business-intelligence",
+          "data-analysis",
+          "data-analytics",
+          "data-engineering",
+          "data-science",
+          "data-visualization",
+          "data-viz",
+          "flask",
+          "python",
+          "react",
+          "sql-editor",
+          "superset"
+        ],
+        "license": {
+          "spdx": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "url": null
+        },
+        "createdAt": "2015-07-21T18:55:34Z",
+        "pushedAt": "2026-11-02T07:35:21Z",
+        "archived": false,
+        "fetchedAt": "2026-11-02T07:41:50.465Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Superset A modern, enterprise-ready business intelligence web application. Documentation - User Guide — For analysts and business users. Explore data, build charts, create dashboards, and connect databases. - Administrator Guide — Install, configure, and operate Superset. Covers security, scaling, and database drivers. - Developer Guide — Contribute to Superset or build on its REST API and extension framework. Why Superset? Supported Databases Release Notes Get Involved Resources Organizations Using Superset Why Superset? Superset is a modern data exploration and data visualization platform. Superset can replace or augment proprietary business intelligence tools for many teams. Superset integrates well with a variety of data sources. Superset provides: - A no-code interface for building charts quickly - A powerful, web-based SQL Editor for advanced querying - A lightweight semantic layer for quickly defining custom dimensions and metrics - Out of the box support for nearly any SQL database or data engine - A wide array of beautiful visualizations to showcase your data, ranging from simple bar charts to geospatial visualizations - Lightweight, configurable caching layer to help ease database load - Highly extensible security roles and authentication options - An API for programmatic customization - A cloud-native architecture designed from the ground up for scale Screenshots & G",
+        "headings": [
+          "Superset",
+          "Documentation",
+          "Why Superset?",
+          "Screenshots & Gifs",
+          "Supported Databases",
+          "Installation and Configuration",
+          "Get Involved",
+          "Contributor Guide",
+          "Resources"
+        ],
+        "chars": 5352,
+        "fetchedAt": "2026-11-02T07:41:50.465Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-02"
+    },
+    {
       "slug": "coolify",
       "name": "coolify",
       "tagline": "自托管项目 · An open-source, self-hostable PaaS alternativ…",
@@ -5696,6 +5977,165 @@
         "truncated": true
       },
       "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "claude-howto",
+      "name": "claude-howto",
+      "tagline": "学习工具 · A visual, example-driven guide to Claude Code…",
+      "summary": "（自动整理，未经人工校对）claude-howto 是一个用 Python 写的开源项目。仓库自述「A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value」。已抓取 README 约 20,457 字；其中有「Master Claude Code in a Weekend」「The Problem」「How Claude How To Fixes This」「What you get:」「How It Works」等章节可对应到具体能力。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "learning",
+      "tags": [
+        "学习工具",
+        "MIT"
+      ],
+      "aliases": [
+        "luongnv89/claude-howto"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Master Claude Code in a ",
+          "detail": "（自动整理）README 中有「Master Claude Code in a Weekend」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "The Problem",
+          "detail": "（自动整理）README 中有「The Problem」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "How Claude How To Fixes ",
+          "detail": "（自动整理）README 中有「How Claude How To Fixes This」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "What you get:",
+          "detail": "（自动整理）README 中有「What you get:」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 20457 字，抓取于 2026-11-02）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：git clone https://github.com/luongnv89/claude-howto.git"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "http://luongnv.com/claude-howto/",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/claude-howto.jpg",
+          "alt": "claude-howto 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-02T07:42:07.047Z",
+          "credit": "页面截图：http://luongnv.com/claude-howto/",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-02",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-02",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 467,
+      "weeklyScore": 587,
+      "categoryName": "学习工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "luongnv89",
+        "name": "claude-howto",
+        "fullName": "luongnv89/claude-howto",
+        "url": "https://github.com/luongnv89/claude-howto",
+        "homepage": "http://luongnv.com/claude-howto/",
+        "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+        "stars": 46388,
+        "forks": 5691,
+        "openIssues": 51,
+        "language": "Python",
+        "topics": [
+          "claude-code",
+          "guide",
+          "tutorial"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2025-11-07T22:59:34Z",
+        "pushedAt": "2026-11-02T05:48:59Z",
+        "archived": false,
+        "fetchedAt": "2026-11-02T07:42:02.420Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "🌐 Language / Ngôn ngữ / 语言 / Мова: English Tiếng Việt 中文 Українська 日本語 Master Claude Code in a Weekend Go from typing `claude` to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path. Get Started in 15 Minutes Find Your Level Browse the Feature Catalog --- Table of Contents - The Problem - How Claude How To Fixes This - How It Works - Not Sure Where to Start? - Get Started in 15 Minutes - What Can You Build With This? - FAQ - Contributing - License --- The Problem You installed Claude Code. You ran a few prompts. Now what? - The official docs describe features — but don't show you how to combine them. You know slash commands exist, but not how to chain them with hooks, memory, and subagents into a workflow that actually saves hours. - There's no clear learning path. Should you learn MCP before hooks? Skills before subagents? You end up skimming everything and mastering nothing. - Examples are too basic. A \"hello world\" slash command doesn't help you build a production code review pipeline that uses memory, delegates to specialized agents, and runs security scans automatically. You're leaving 90% of Claude Code's power on the table — and you don't know what you don't know. --- How Claude How To Fixes This This isn't another feature reference. It's a structured, visual, example-driven guide that teaches y",
+        "headings": [
+          "Master Claude Code in a Weekend",
+          "Table of Contents",
+          "The Problem",
+          "How Claude How To Fixes This",
+          "What you get:",
+          "How It Works",
+          "1. Find your level",
+          "2. Follow the guided path",
+          "3. Combine features into workflows",
+          "4. Test your understanding",
+          "Trusted by Developers",
+          "Not Sure Where to Start?",
+          "Get Started in 15 Minutes",
+          "1. Clone the guide",
+          "2. Copy your first slash command",
+          "3. Try it — in Claude Code, type:",
+          "/optimize",
+          "4. Ready for more? Set up project memory:",
+          "5. Install a skill:",
+          "Slash commands (15 min)",
+          "Project memory (15 min)",
+          "Install a skill (15 min)",
+          "Weekend goal: add hooks, subagents, MCP, and plugins",
+          "Follow the learning path for guided setup",
+          "What Can You Build With This?",
+          "FAQ",
+          "Start Mastering Claude Code Today",
+          "Slash Commands",
+          "Memory",
+          "Skills",
+          "Subagents",
+          "MCP",
+          "Hooks",
+          "Plugins (load a local plugin from the repo root)",
+          "Checkpoints (auto-enabled, configure in settings)",
+          "See 08-checkpoints/README.md",
+          "Advanced Features (configure in settings)",
+          "See 09-advanced-features/config-examples.json",
+          "CLI Reference (no installation needed)",
+          "See 10-cli/README.md for usage examples"
+        ],
+        "chars": 20457,
+        "fetchedAt": "2026-11-02T07:42:02.420Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-02"
     },
     {
       "slug": "ccxt",
