@@ -474,5 +474,29 @@
     "title": "OpenHands",
     "capturedAt": "2026-11-01T07:35:03.811Z",
     "auto": true
+  },
+  "superset": {
+    "src": "/shots/superset.jpg",
+    "captureUrl": "https://superset.apache.org/",
+    "origin": "live",
+    "title": "superset",
+    "capturedAt": "2026-11-02T07:42:02.104Z",
+    "auto": true
+  },
+  "claude-howto": {
+    "src": "/shots/claude-howto.jpg",
+    "captureUrl": "http://luongnv.com/claude-howto/",
+    "origin": "live",
+    "title": "claude-howto",
+    "capturedAt": "2026-11-02T07:42:07.047Z",
+    "auto": true
+  },
+  "stirling-pdf": {
+    "src": "/shots/stirling-pdf.jpg",
+    "captureUrl": "https://stirling.com",
+    "origin": "live",
+    "title": "Stirling-PDF",
+    "capturedAt": "2026-11-02T07:42:12.067Z",
+    "auto": true
   }
 }

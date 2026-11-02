@@ -1,0 +1,70 @@
+{
+  "slug": "stirling-pdf",
+  "name": "Stirling-PDF",
+  "tagline": "自托管项目 · #1 PDF Application on GitHub that lets you ed…",
+  "summary": "（自动整理，未经人工校对）Stirling-PDF 是一个用 TypeScript 写的开源项目。仓库自述「#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere」。已抓取 README 约 1,706 字；其中有「Key Capabilities」「Resources」等章节可对应到具体能力。仓库 Topics 涉及：Docker、自托管。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+  "category": "self-hosted",
+  "tags": [
+    "Docker",
+    "自托管",
+    "自托管项目"
+  ],
+  "aliases": [
+    "Stirling-Tools/Stirling-PDF"
+  ],
+  "audience": "开发者",
+  "audienceFor": [
+    "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+    "愿意自己读 README 确认细节的开发者"
+  ],
+  "features": [
+    {
+      "title": "Key Capabilities",
+      "detail": "（自动整理）README 中有「Key Capabilities」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Resources",
+      "detail": "（自动整理）README 中有「Resources」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "待补全",
+      "detail": "（自动整理）请依据 README 补全。"
+    }
+  ],
+  "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 1706 字，抓取于 2026-11-02）汇总；未经人工校对，页面上已标注「自动收录」。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "门槛未评估：请以 README 的安装说明为准",
+    "requires": [],
+    "steps": [
+      {
+        "title": "安装 / 运行",
+        "detail": "README 中给出的命令：docker run -p 8080:8080 docker.stirlingpdf.com/stirlingtools/stirling-pdf"
+      }
+    ],
+    "cost": "费用未知"
+  },
+  "officialUrl": "https://stirling.com",
+  "demoUrl": null,
+  "linkStatus": "unchecked",
+  "linkCheckedAt": null,
+  "featured": false,
+  "screenshots": [
+    {
+      "src": "/shots/stirling-pdf.jpg",
+      "alt": "Stirling-PDF 的官方站点截图",
+      "origin": "live",
+      "capturedAt": "2026-11-02T07:41:33.727Z",
+      "credit": "页面截图：https://stirling.com",
+      "synthetic": false
+    }
+  ],
+  "addedAt": "2026-11-02",
+  "review": {
+    "status": "published",
+    "mode": "auto",
+    "reviewedBy": "autopipeline",
+    "reviewedAt": "2026-11-02",
+    "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+  }
+}

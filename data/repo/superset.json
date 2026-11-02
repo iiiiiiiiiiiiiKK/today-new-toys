@@ -1,0 +1,68 @@
+{
+  "slug": "superset",
+  "repoInput": "apache/superset",
+  "fetchedAt": "2026-11-02T07:41:50.465Z",
+  "github": {
+    "owner": "apache",
+    "name": "superset",
+    "fullName": "apache/superset",
+    "url": "https://github.com/apache/superset",
+    "homepage": "https://superset.apache.org/",
+    "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+    "stars": 75388,
+    "forks": 18571,
+    "openIssues": 614,
+    "language": "Python",
+    "topics": [
+      "analytics",
+      "apache",
+      "apache-superset",
+      "asf",
+      "bi",
+      "business-analytics",
+      "business-intelligence",
+      "data-analysis",
+      "data-analytics",
+      "data-engineering",
+      "data-science",
+      "data-visualization",
+      "data-viz",
+      "flask",
+      "python",
+      "react",
+      "sql-editor",
+      "superset"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "name": "Apache License 2.0",
+      "url": null
+    },
+    "createdAt": "2015-07-21T18:55:34Z",
+    "pushedAt": "2026-11-02T07:35:21Z",
+    "archived": false,
+    "fetchedAt": "2026-11-02T07:41:50.465Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "master",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 5352,
+    "headings": [
+      "Superset",
+      "Documentation",
+      "Why Superset?",
+      "Screenshots & Gifs",
+      "Supported Databases",
+      "Installation and Configuration",
+      "Get Involved",
+      "Contributor Guide",
+      "Resources"
+    ],
+    "excerpt": "Superset A modern, enterprise-ready business intelligence web application. Documentation - User Guide — For analysts and business users. Explore data, build charts, create dashboards, and connect databases. - Administrator Guide — Install, configure, and operate Superset. Covers security, scaling, and database drivers. - Developer Guide — Contribute to Superset or build on its REST API and extension framework. Why Superset? Supported Databases Release Notes Get Involved Resources Organizations Using Superset Why Superset? Superset is a modern data exploration and data visualization platform. Superset can replace or augment proprietary business intelligence tools for many teams. Superset integrates well with a variety of data sources. Superset provides: - A no-code interface for building charts quickly - A powerful, web-based SQL Editor for advanced querying - A lightweight semantic layer for quickly defining custom dimensions and metrics - Out of the box support for nearly any SQL database or data engine - A wide array of beautiful visualizations to showcase your data, ranging from simple bar charts to geospatial visualizations - Lightweight, configurable caching layer to help ease database load - Highly extensible security roles and authentication options - An API for programmatic customization - A cloud-native architecture designed from the ground up for scale Screenshots & G",
+    "truncated": true,
+    "rawFile": "data/readme/superset.md"
+  }
+}

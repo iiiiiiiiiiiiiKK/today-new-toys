@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-11-01T07:34:18.055Z",
+  "ranAt": "2026-11-02T07:41:33.727Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "huggingface/transformers",
-      "category": "ai-tools"
-    },
-    {
-      "repo": "netdata/netdata",
+      "repo": "apache/superset",
       "category": "data-viz"
     },
     {
-      "repo": "OpenHands/OpenHands",
-      "category": "dev-tools"
+      "repo": "luongnv89/claude-howto",
+      "category": "learning"
+    },
+    {
+      "repo": "Stirling-Tools/Stirling-PDF",
+      "category": "self-hosted"
     }
   ],
   "added": [
     {
-      "slug": "transformers",
-      "repo": "huggingface/transformers",
-      "category": "ai-tools",
-      "stars": 168400,
-      "shot": true
-    },
-    {
-      "slug": "netdata",
-      "repo": "netdata/netdata",
+      "slug": "superset",
+      "repo": "apache/superset",
       "category": "data-viz",
-      "stars": 81238,
+      "stars": 75388,
       "shot": true
     },
     {
-      "slug": "openhands",
-      "repo": "OpenHands/OpenHands",
-      "category": "dev-tools",
-      "stars": 92388,
+      "slug": "claude-howto",
+      "repo": "luongnv89/claude-howto",
+      "category": "learning",
+      "stars": 46388,
+      "shot": true
+    },
+    {
+      "slug": "stirling-pdf",
+      "repo": "Stirling-Tools/Stirling-PDF",
+      "category": "self-hosted",
+      "stars": 95542,
       "shot": true
     }
   ]
