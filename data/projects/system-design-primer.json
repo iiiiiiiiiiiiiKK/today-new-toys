@@ -1,0 +1,74 @@
+{
+  "slug": "system-design-primer",
+  "name": "system-design-primer",
+  "tagline": "互联网玩具 · Learn how to design large-scale systems. Prep…",
+  "summary": "（自动整理，未经人工校对）system-design-primer 是一个用 Python 写的开源项目。仓库自述「Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards」。已抓取 README 约 71,953 字；其中有「The System Design Primer」「Motivation」「Learn from the open source community」「Prep for the system design interview」「Anki flashcards」等章节可对应到具体能力。仓库 Topics 涉及：设计、Python。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+  "category": "internet-toys",
+  "tags": [
+    "设计",
+    "Python",
+    "互联网玩具"
+  ],
+  "aliases": [
+    "donnemartin/system-design-primer"
+  ],
+  "audience": "开发者",
+  "audienceFor": [
+    "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+    "愿意自己读 README 确认细节的开发者"
+  ],
+  "features": [
+    {
+      "title": "The System Design Primer",
+      "detail": "（自动整理）README 中有「The System Design Primer」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Motivation",
+      "detail": "（自动整理）README 中有「Motivation」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Learn from the open sour",
+      "detail": "（自动整理）README 中有「Learn from the open source community」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Prep for the system desi",
+      "detail": "（自动整理）README 中有「Prep for the system design interview」章节，此处只标注来源，未展开复述。"
+    }
+  ],
+  "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 71953 字，抓取于 2026-11-03）汇总；未经人工校对，页面上已标注「自动收录」。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "门槛未评估：请以 README 的安装说明为准",
+    "requires": [],
+    "steps": [
+      {
+        "title": "阅读安装章节",
+        "detail": "（自动整理）README 未提供可识别的安装命令。"
+      }
+    ],
+    "cost": "费用未知"
+  },
+  "officialUrl": null,
+  "demoUrl": null,
+  "linkStatus": "unchecked",
+  "linkCheckedAt": null,
+  "featured": false,
+  "screenshots": [
+    {
+      "src": "/shots/system-design-primer.jpg",
+      "alt": "system-design-primer 的官方站点截图",
+      "origin": "live",
+      "capturedAt": "2026-11-03T07:56:09.424Z",
+      "credit": "页面截图：",
+      "synthetic": false
+    }
+  ],
+  "addedAt": "2026-11-03",
+  "review": {
+    "status": "published",
+    "mode": "auto",
+    "reviewedBy": "autopipeline",
+    "reviewedAt": "2026-11-03",
+    "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+  }
+}

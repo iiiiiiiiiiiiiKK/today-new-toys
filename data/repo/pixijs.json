@@ -1,0 +1,62 @@
+{
+  "slug": "pixijs",
+  "repoInput": "pixijs/pixijs",
+  "fetchedAt": "2026-11-03T07:56:32.500Z",
+  "github": {
+    "owner": "pixijs",
+    "name": "pixijs",
+    "fullName": "pixijs/pixijs",
+    "url": "https://github.com/pixijs/pixijs",
+    "homepage": "http://pixijs.com",
+    "description": "The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer.",
+    "stars": 48621,
+    "forks": 5134,
+    "openIssues": 412,
+    "language": "TypeScript",
+    "topics": [
+      "canvas",
+      "canvas2d",
+      "data-visualization",
+      "game",
+      "glsl",
+      "javascript",
+      "pixi",
+      "pixijs",
+      "renderer",
+      "rendering",
+      "rendering-2d-graphics",
+      "rendering-engine",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "createdAt": "2013-01-21T22:40:50Z",
+    "pushedAt": "2026-10-30T22:31:56Z",
+    "archived": false,
+    "fetchedAt": "2026-11-03T07:56:32.500Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "dev",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 2031,
+    "headings": [
+      "PixiJS ⚡️",
+      "Setup",
+      "Usage",
+      "TypeScript",
+      "Contribute",
+      "License",
+      "Change Log",
+      "Support"
+    ],
+    "excerpt": "Guides Tutorials Examples API Docs Discord Bluesky 𝕏 PixiJS ⚡️ Next-Generation, Fastest HTML5 Creation Engine for the Web - 🚀 WebGL & WebGPU Renderers - ⚡️ Unmatched Performance & Speed - 🎨 Easy to use, yet powerful API - 📦 Asset Loader - ✋ Full Mouse & Multi-touch Support - ✍️ Flexible Text Rendering - 📐 Versatile Primitive and SVG Drawing - 🖼️ Dynamic Textures - 🎭 Masking - 🪄 Powerful Filters - 🌈 Advanced Blend Modes PixiJS is the fastest, most lightweight 2D library available for the web, working across all devices and allowing you to create rich, interactive graphics and cross-platform applications using WebGL and WebGPU. Setup It's easy to get started with PixiJS! Just use our PixiJS Create CLI and get set up in just one command: or to add it to an existing project: Usage TypeScript PixiJS supports WebGPU, so its type declarations depend on the WebGPU types. Where those come from depends on your TypeScript version. TypeScript 5: no WebGPU types are built in, so PixiJS adds `@webgpu/types` for you. No additional setup required. TypeScript 6 and 7: the WebGPU types are built into the `\"dom\"` library, but some releases leave parts out, such as `GPUTextureUsage`. Use `@types/web`, which has the full set, in place of `\"dom\"`. Remove `@webgpu/types` from `types` if it's there, since it conflicts with the built-in types. Contribute Want to be part of the PixiJS project? ",
+    "truncated": true,
+    "rawFile": "data/readme/pixijs.md"
+  }
+}

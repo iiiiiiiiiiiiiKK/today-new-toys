@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-11-02T07:41:33.727Z",
+  "ranAt": "2026-11-03T07:56:09.424Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "apache/superset",
-      "category": "data-viz"
-    },
-    {
-      "repo": "luongnv89/claude-howto",
+      "repo": "rohitg00/ai-engineering-from-scratch",
       "category": "learning"
     },
     {
-      "repo": "Stirling-Tools/Stirling-PDF",
-      "category": "self-hosted"
+      "repo": "pixijs/pixijs",
+      "category": "data-viz"
+    },
+    {
+      "repo": "donnemartin/system-design-primer",
+      "category": "internet-toys"
     }
   ],
   "added": [
     {
-      "slug": "superset",
-      "repo": "apache/superset",
-      "category": "data-viz",
-      "stars": 75388,
-      "shot": true
-    },
-    {
-      "slug": "claude-howto",
-      "repo": "luongnv89/claude-howto",
+      "slug": "ai-engineering-from-scratch",
+      "repo": "rohitg00/ai-engineering-from-scratch",
       "category": "learning",
-      "stars": 46388,
+      "stars": 76437,
       "shot": true
     },
     {
-      "slug": "stirling-pdf",
-      "repo": "Stirling-Tools/Stirling-PDF",
-      "category": "self-hosted",
-      "stars": 95542,
+      "slug": "pixijs",
+      "repo": "pixijs/pixijs",
+      "category": "data-viz",
+      "stars": 48621,
+      "shot": true
+    },
+    {
+      "slug": "system-design-primer",
+      "repo": "donnemartin/system-design-primer",
+      "category": "internet-toys",
+      "stars": 376615,
       "shot": true
     }
   ]
