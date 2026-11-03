@@ -498,5 +498,29 @@
     "title": "Stirling-PDF",
     "capturedAt": "2026-11-02T07:42:12.067Z",
     "auto": true
+  },
+  "ai-engineering-from-scratch": {
+    "src": "/shots/ai-engineering-from-scratch.jpg",
+    "captureUrl": "https://aiengineeringfromscratch.com",
+    "origin": "live",
+    "title": "ai-engineering-from-scratch",
+    "capturedAt": "2026-11-03T07:56:32.150Z",
+    "auto": true
+  },
+  "pixijs": {
+    "src": "/shots/pixijs.jpg",
+    "captureUrl": "http://pixijs.com",
+    "origin": "live",
+    "title": "pixijs",
+    "capturedAt": "2026-11-03T07:56:38.201Z",
+    "auto": true
+  },
+  "system-design-primer": {
+    "src": "/shots/system-design-primer.jpg",
+    "captureUrl": "https://github.com/donnemartin/system-design-primer",
+    "origin": "live",
+    "title": "system-design-primer",
+    "capturedAt": "2026-11-03T07:56:44.421Z",
+    "auto": true
   }
 }

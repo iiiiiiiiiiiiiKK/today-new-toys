@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-02T07:42:15.931Z",
-  "snapshotDate": "2026-11-02",
+  "generatedAt": "2026-11-03T07:56:48.679Z",
+  "snapshotDate": "2026-11-03",
   "counts": {
-    "projects": 57,
+    "projects": 60,
     "categories": 10
   },
   "categories": [
@@ -1059,6 +1059,180 @@
         "truncated": true
       },
       "updatedAt": "2026-10-25"
+    },
+    {
+      "slug": "system-design-primer",
+      "name": "system-design-primer",
+      "tagline": "互联网玩具 · Learn how to design large-scale systems. Prep…",
+      "summary": "（自动整理，未经人工校对）system-design-primer 是一个用 Python 写的开源项目。仓库自述「Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards」。已抓取 README 约 71,953 字；其中有「The System Design Primer」「Motivation」「Learn from the open source community」「Prep for the system design interview」「Anki flashcards」等章节可对应到具体能力。仓库 Topics 涉及：设计、Python。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "internet-toys",
+      "tags": [
+        "设计",
+        "Python",
+        "互联网玩具"
+      ],
+      "aliases": [
+        "donnemartin/system-design-primer"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "The System Design Primer",
+          "detail": "（自动整理）README 中有「The System Design Primer」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Motivation",
+          "detail": "（自动整理）README 中有「Motivation」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Learn from the open sour",
+          "detail": "（自动整理）README 中有「Learn from the open source community」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Prep for the system desi",
+          "detail": "（自动整理）README 中有「Prep for the system design interview」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 71953 字，抓取于 2026-11-03）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "费用未知"
+      },
+      "officialUrl": null,
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/system-design-primer.jpg",
+          "alt": "system-design-primer 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-03T07:56:44.421Z",
+          "credit": "页面截图：https://github.com/donnemartin/system-design-primer",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-03",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-03",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 558,
+      "weeklyScore": 578,
+      "categoryName": "互联网玩具",
+      "license": {
+        "spdx": null,
+        "name": "Other",
+        "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+        "url": null
+      },
+      "repo": {
+        "owner": "donnemartin",
+        "name": "system-design-primer",
+        "fullName": "donnemartin/system-design-primer",
+        "url": "https://github.com/donnemartin/system-design-primer",
+        "homepage": null,
+        "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+        "stars": 376615,
+        "forks": 59135,
+        "openIssues": 634,
+        "language": "Python",
+        "topics": [
+          "design",
+          "design-patterns",
+          "design-system",
+          "development",
+          "interview",
+          "interview-practice",
+          "interview-questions",
+          "programming",
+          "python",
+          "system",
+          "web",
+          "web-application",
+          "webapp"
+        ],
+        "license": {
+          "spdx": null,
+          "name": "Other",
+          "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+          "url": null
+        },
+        "createdAt": "2017-02-26T16:15:28Z",
+        "pushedAt": "2026-09-15T01:10:09Z",
+        "archived": false,
+        "fetchedAt": "2026-11-03T07:56:38.492Z",
+        "source": "api",
+        "warnings": [
+          "仓库未声明可识别的开源许可证"
+        ]
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "English ∙ 日本語 ∙ 简体中文 ∙ 繁體中文 العَرَبِيَّة‎ ∙ বাংলা ∙ Português do Brasil ∙ Deutsch ∙ ελληνικά ∙ עברית ∙ Italiano ∙ 한국어 ∙ فارسی ∙ Polski ∙ русский язык ∙ Español ∙ ภาษาไทย ∙ Türkçe ∙ tiếng Việt ∙ Français Add Translation Help translate this guide! The System Design Primer Motivation Learn how to design large-scale systems. Prep for the system design interview. Learn how to design large-scale systems Learning how to design scalable systems will help you become a better engineer. System design is a broad topic. There are a vast number of resources scattered throughout the web on system design principles. This repo is an organized collection of resources to help you learn how to build systems at scale. Learn from the open source community This is a continually updated, open source project. Contributions are welcome! Prep for the system design interview In addition to coding interviews, system design is a required component of the technical interview process at many tech companies. Practice common system design interview questions and compare your results with sample solutions : discussions, code, and diagrams. Additional topics for interview prep: Study guide How to approach a system design interview question System design interview questions, with solutions Object-oriented design interview questions, with solutions Additional system design interview questions Anki flashcards The pr",
+        "headings": [
+          "The System Design Primer",
+          "Motivation",
+          "Learn how to design large-scale systems",
+          "Learn from the open source community",
+          "Prep for the system design interview",
+          "Anki flashcards",
+          "Coding Resource: Interactive Coding Challenges",
+          "Contributing",
+          "Index of system design topics",
+          "Study guide",
+          "How to approach a system design interview question",
+          "Step 1: Outline use cases, constraints, and assumptions",
+          "Step 2: Create a high level design",
+          "Step 3: Design core components",
+          "Step 4: Scale the design",
+          "Back-of-the-envelope calculations",
+          "Source(s) and further reading",
+          "System design interview questions with solutions",
+          "Design Pastebin.com (or Bit.ly)",
+          "Design the Twitter timeline and search (or Facebook feed and search)",
+          "Design a web crawler",
+          "Design Mint.com",
+          "Design the data structures for a social network",
+          "Design a key-value store for a search engine",
+          "Design Amazon's sales ranking by category feature",
+          "Design a system that scales to millions of users on AWS",
+          "Object-oriented design interview questions with solutions",
+          "System design topics: start here",
+          "Step 1: Review the scalability video lecture",
+          "Step 2: Review the scalability article",
+          "Next steps",
+          "Performance vs scalability",
+          "Source(s) and further reading",
+          "Latency vs throughput",
+          "Source(s) and further reading",
+          "Availability vs consistency",
+          "CAP theorem",
+          "Source(s) and further reading",
+          "Consistency patterns",
+          "Weak consistency"
+        ],
+        "chars": 71953,
+        "fetchedAt": "2026-11-03T07:56:38.492Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-03"
     },
     {
       "slug": "ecc",
@@ -2296,7 +2470,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 527,
-      "weeklyScore": 647,
+      "weeklyScore": 587,
       "categoryName": "AI 工具",
       "license": {
         "spdx": null,
@@ -2730,7 +2904,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 513,
-      "weeklyScore": 633,
+      "weeklyScore": 573,
       "categoryName": "开发者工具",
       "license": {
         "spdx": "Apache-2.0",
@@ -4072,7 +4246,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 493,
-      "weeklyScore": 613,
+      "weeklyScore": 553,
       "categoryName": "效率工具",
       "license": {
         "spdx": "Apache-2.0",
@@ -4864,7 +5038,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 490,
-      "weeklyScore": 610,
+      "weeklyScore": 550,
       "categoryName": "学习工具",
       "license": {
         "spdx": "MIT",
@@ -5237,6 +5411,176 @@
         "truncated": true
       },
       "updatedAt": "2026-10-29"
+    },
+    {
+      "slug": "ai-engineering-from-scratch",
+      "name": "ai-engineering-from-scratch",
+      "tagline": "学习工具 · Learn AI Engineering! Learn it. Build it. Shi…",
+      "summary": "（自动整理，未经人工校对）ai-engineering-from-scratch 是一个用 Python 写的开源项目。仓库自述「Learn AI Engineering! Learn it. Build it. Ship it for others」。已抓取 README 约 62,538 字；其中有「Learning paths」「Gradient descent」「Projects」「Choose how to learn」「The learning skills」等章节可对应到具体能力。仓库 Topics 涉及：AI、大语言模型、Python、Rust。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "learning",
+      "tags": [
+        "AI",
+        "大语言模型",
+        "Python",
+        "Rust",
+        "学习工具"
+      ],
+      "aliases": [
+        "rohitg00/ai-engineering-from-scratch"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Learning paths",
+          "detail": "（自动整理）README 中有「Learning paths」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Gradient descent",
+          "detail": "（自动整理）README 中有「Gradient descent」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Projects",
+          "detail": "（自动整理）README 中有「Projects」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Choose how to learn",
+          "detail": "（自动整理）README 中有「Choose how to learn」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 62538 字，抓取于 2026-11-03）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：npx skills add rohitg00/ai-engineering-from-scratch"
+          },
+          {
+            "title": "第 2 步",
+            "detail": "README 中给出的命令：npx --version"
+          },
+          {
+            "title": "第 3 步",
+            "detail": "README 中给出的命令：git clone https://github.com/rohitg00/ai-engineering-from-scratch.git"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://aiengineeringfromscratch.com",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/ai-engineering-from-scratch.jpg",
+          "alt": "ai-engineering-from-scratch 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-03T07:56:32.150Z",
+          "credit": "页面截图：https://aiengineeringfromscratch.com",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-03",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-03",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 488,
+      "weeklyScore": 608,
+      "categoryName": "学习工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "rohitg00",
+        "name": "ai-engineering-from-scratch",
+        "fullName": "rohitg00/ai-engineering-from-scratch",
+        "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+        "homepage": "https://aiengineeringfromscratch.com",
+        "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
+        "stars": 76437,
+        "forks": 13545,
+        "openIssues": 92,
+        "language": "Python",
+        "topics": [
+          "agents",
+          "ai",
+          "ai-agents",
+          "ai-engineering",
+          "computer-vision",
+          "course",
+          "deep-learning",
+          "dsh",
+          "from-scratch",
+          "generative-ai",
+          "llm",
+          "machine-learning",
+          "mcp",
+          "python",
+          "rea",
+          "reinforcement-learning",
+          "rust",
+          "transformers",
+          "tutorial",
+          "typescript"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2026-03-18T18:38:02Z",
+        "pushedAt": "2026-11-02T04:26:52Z",
+        "archived": false,
+        "fetchedAt": "2026-11-03T07:56:26.348Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Implement model internals, retrieval pipelines, and agent runtimes. Test them, inspect failures, and keep the code and evaluation results. Start learning · Choose a path · Try a lab · Build a project · Browse the curriculum Free, open source, MIT. Learn on the website, with a coding agent, or by running local code. 542 lessons. 20 phases. Python, TypeScript, Rust, Julia. Read in your language 🇬🇧 English · 🇨🇳 简体中文 · 🇹🇼 繁體中文（台灣） · 🇯🇵 日本語 · 🇰🇷 한국어 · 🇵🇹 Português · 🇧🇷 Português (Brasil) · 🇪🇸 Español · 🇩🇪 Deutsch · 🇫🇷 Français · 🇮🇹 Italiano · 🇳🇱 Nederlands · 🇵🇱 Polski · 🇨🇿 Čeština · 🇷🇴 Română · 🇭🇺 Magyar · 🇬🇷 Ελληνικά · 🇸🇪 Svenska · 🇩🇰 Dansk · 🇳🇴 Norsk · 🇫🇮 Suomi · 🇷🇺 Русский · 🇺🇦 Українська · 🇹🇷 Türkçe · 🇮🇱 עברית · 🇸🇦 العربية · 🇮🇷 فارسی · 🇮🇳 हिन्दी · 🇧🇩 বাংলা · 🇵🇰 اردو · 🇹🇭 ไทย · 🇻🇳 Tiếng Việt · 🇮🇩 Bahasa Indonesia · 🇵🇭 Tagalog Sponsors Your support keeps every lesson free and open source. See all supporters · Become a sponsor Learning paths Route Starting lesson --- --- Model foundations Setup and tooling LLM systems Prompt engineering Agents and delivery The agent loop Compare career paths · Prerequisites and study time Gradient descent Twenty starting points follow gradient descent on a quadratic loss. The graph shows their positions and mean loss after each update. Adjust the learning rate in the lesson · Compa",
+        "headings": [
+          "Sponsors",
+          "Learning paths",
+          "Gradient descent",
+          "Projects",
+          "Choose how to learn",
+          "On the website",
+          "With an AI tutor",
+          "The learning skills",
+          "Run local code",
+          "Use every lesson the same way",
+          "Choose a learning path",
+          "Prerequisites",
+          "Where to start",
+          "The shape of the curriculum",
+          "Contents",
+          "Phase 0: Setup & Tooling 13 lessons",
+          "Books and certifications",
+          "The toolkit",
+          "The shape of a lesson",
+          "Every lesson ships something",
+          "Contributing",
+          "Sponsor the work",
+          "License"
+        ],
+        "chars": 62538,
+        "fetchedAt": "2026-11-03T07:56:26.348Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-03"
     },
     {
       "slug": "cs-self-learning",
@@ -5977,6 +6321,147 @@
         "truncated": true
       },
       "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "pixijs",
+      "name": "pixijs",
+      "tagline": "数据可视化 · The HTML5 Creation Engine: Create beautiful d…",
+      "summary": "（自动整理，未经人工校对）pixijs 是一个用 TypeScript 写的开源项目。仓库自述「The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer」。已抓取 README 约 2,031 字；其中有「PixiJS ⚡️」「TypeScript」「Contribute」「Change Log」等章节可对应到具体能力。仓库 Topics 涉及：数据可视化。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "data-viz",
+      "tags": [
+        "数据可视化",
+        "MIT"
+      ],
+      "aliases": [
+        "pixijs/pixijs"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "PixiJS ⚡️",
+          "detail": "（自动整理）README 中有「PixiJS ⚡️」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "TypeScript",
+          "detail": "（自动整理）README 中有「TypeScript」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Contribute",
+          "detail": "（自动整理）README 中有「Contribute」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Change Log",
+          "detail": "（自动整理）README 中有「Change Log」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 2031 字，抓取于 2026-11-03）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：npm create pixi.js@latest"
+          },
+          {
+            "title": "第 2 步",
+            "detail": "README 中给出的命令：npm install pixi.js"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "http://pixijs.com",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/pixijs.jpg",
+          "alt": "pixijs 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-03T07:56:38.201Z",
+          "credit": "页面截图：http://pixijs.com",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-03",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-03",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 469,
+      "weeklyScore": 589,
+      "categoryName": "数据可视化",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "pixijs",
+        "name": "pixijs",
+        "fullName": "pixijs/pixijs",
+        "url": "https://github.com/pixijs/pixijs",
+        "homepage": "http://pixijs.com",
+        "description": "The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer.",
+        "stars": 48621,
+        "forks": 5134,
+        "openIssues": 412,
+        "language": "TypeScript",
+        "topics": [
+          "canvas",
+          "canvas2d",
+          "data-visualization",
+          "game",
+          "glsl",
+          "javascript",
+          "pixi",
+          "pixijs",
+          "renderer",
+          "rendering",
+          "rendering-2d-graphics",
+          "rendering-engine",
+          "webgl"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2013-01-21T22:40:50Z",
+        "pushedAt": "2026-10-30T22:31:56Z",
+        "archived": false,
+        "fetchedAt": "2026-11-03T07:56:32.500Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Guides Tutorials Examples API Docs Discord Bluesky 𝕏 PixiJS ⚡️ Next-Generation, Fastest HTML5 Creation Engine for the Web - 🚀 WebGL & WebGPU Renderers - ⚡️ Unmatched Performance & Speed - 🎨 Easy to use, yet powerful API - 📦 Asset Loader - ✋ Full Mouse & Multi-touch Support - ✍️ Flexible Text Rendering - 📐 Versatile Primitive and SVG Drawing - 🖼️ Dynamic Textures - 🎭 Masking - 🪄 Powerful Filters - 🌈 Advanced Blend Modes PixiJS is the fastest, most lightweight 2D library available for the web, working across all devices and allowing you to create rich, interactive graphics and cross-platform applications using WebGL and WebGPU. Setup It's easy to get started with PixiJS! Just use our PixiJS Create CLI and get set up in just one command: or to add it to an existing project: Usage TypeScript PixiJS supports WebGPU, so its type declarations depend on the WebGPU types. Where those come from depends on your TypeScript version. TypeScript 5: no WebGPU types are built in, so PixiJS adds `@webgpu/types` for you. No additional setup required. TypeScript 6 and 7: the WebGPU types are built into the `\"dom\"` library, but some releases leave parts out, such as `GPUTextureUsage`. Use `@types/web`, which has the full set, in place of `\"dom\"`. Remove `@webgpu/types` from `types` if it's there, since it conflicts with the built-in types. Contribute Want to be part of the PixiJS project? ",
+        "headings": [
+          "PixiJS ⚡️",
+          "Setup",
+          "Usage",
+          "TypeScript",
+          "Contribute",
+          "License",
+          "Change Log",
+          "Support"
+        ],
+        "chars": 2031,
+        "fetchedAt": "2026-11-03T07:56:32.500Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-03"
     },
     {
       "slug": "claude-howto",
