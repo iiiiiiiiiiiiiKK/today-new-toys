@@ -1,0 +1,40 @@
+{"at":"2026-11-04T07:30:24.232Z","event":"run_start","name":"auto","startedAt":"2026-11-04T07:30:24.232Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-11-04T07:30:24.240Z","event":"existing","detail":"catalogue has 60 projects","level":"info"}
+{"at":"2026-11-04T07:30:24.886Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Allm%20stars%3A%3E3000%20pushed%3A%3E2026-07-07%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":29,"ms":646}
+{"at":"2026-11-04T07:30:24.886Z","event":"search","detail":"ai-tools: 8 hits (quota 29)","level":"info"}
+{"at":"2026-11-04T07:30:26.621Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adeveloper-tools%20stars%3A%3E2000%20pushed%3A%3E2026-07-07%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":28,"ms":534}
+{"at":"2026-11-04T07:30:26.621Z","event":"search","detail":"dev-tools: 8 hits (quota 28)","level":"info"}
+{"at":"2026-11-04T07:30:28.235Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aproductivity%20stars%3A%3E1500%20pushed%3A%3E2026-07-07%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":27,"ms":414}
+{"at":"2026-11-04T07:30:28.235Z","event":"search","detail":"productivity: 8 hits (quota 27)","level":"info"}
+{"at":"2026-11-04T07:30:29.999Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adata-visualization%20stars%3A%3E800%20pushed%3A%3E2026-07-07%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":26,"ms":563}
+{"at":"2026-11-04T07:30:29.999Z","event":"search","detail":"data-viz: 8 hits (quota 26)","level":"info"}
+{"at":"2026-11-04T07:30:31.684Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Acreative-coding%20stars%3A%3E800%20pushed%3A%3E2026-07-07%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":25,"ms":484}
+{"at":"2026-11-04T07:30:31.684Z","event":"search","detail":"creative: 8 hits (quota 25)","level":"info"}
+{"at":"2026-11-04T07:30:33.326Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Atutorial%20stars%3A%3E3000%20pushed%3A%3E2026-07-07%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":24,"ms":441}
+{"at":"2026-11-04T07:30:33.326Z","event":"search","detail":"learning: 8 hits (quota 24)","level":"info"}
+{"at":"2026-11-04T07:30:35.014Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Afirmware%20stars%3A%3E1000%20pushed%3A%3E2026-07-07%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":23,"ms":487}
+{"at":"2026-11-04T07:30:35.014Z","event":"search","detail":"hardware: 8 hits (quota 23)","level":"info"}
+{"at":"2026-11-04T07:30:36.719Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Awebapp%20stars%3A%3E1500%20pushed%3A%3E2026-07-07%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":22,"ms":504}
+{"at":"2026-11-04T07:30:36.719Z","event":"search","detail":"internet-toys: 8 hits (quota 22)","level":"info"}
+{"at":"2026-11-04T07:30:38.429Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aself-hosted%20stars%3A%3E2000%20pushed%3A%3E2026-07-07%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":21,"ms":509}
+{"at":"2026-11-04T07:30:38.429Z","event":"search","detail":"self-hosted: 8 hits (quota 21)","level":"info"}
+{"at":"2026-11-04T07:30:40.186Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aethereum%20stars%3A%3E1000%20pushed%3A%3E2026-07-07%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":20,"ms":555}
+{"at":"2026-11-04T07:30:40.186Z","event":"search","detail":"web3: 8 hits (quota 20)","level":"info"}
+{"at":"2026-11-04T07:30:41.388Z","event":"picked","detail":"metabase/metabase (data-viz, ★50149) | firstcontributions/first-contributions (learning, ★56694) | files-community/Files (productivity, ★46484)","level":"info"}
+{"at":"2026-11-04T07:30:41.654Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/metabase/metabase","status":200,"remaining":4997,"ms":265}
+{"at":"2026-11-04T07:30:41.958Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/metabase/metabase/readme","status":200,"remaining":4996,"ms":303}
+{"at":"2026-11-04T07:30:41.959Z","event":"saved","detail":"metabase ★50149 无 SPDX 许可证 README=3088 字","level":"info"}
+{"at":"2026-11-04T07:30:55.668Z","event":"shot","detail":"metabase -> /shots/metabase.jpg","level":"info"}
+{"at":"2026-11-04T07:30:55.682Z","event":"published","detail":"metabase (data-viz) ★50149","level":"info"}
+{"at":"2026-11-04T07:30:56.194Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/firstcontributions/first-contributions","status":200,"remaining":4995,"ms":512}
+{"at":"2026-11-04T07:30:56.458Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/firstcontributions/first-contributions/readme","status":200,"remaining":4994,"ms":264}
+{"at":"2026-11-04T07:30:56.459Z","event":"saved","detail":"first-contributions ★56694 MIT README=6195 字","level":"info"}
+{"at":"2026-11-04T07:31:00.599Z","event":"shot","detail":"first-contributions -> /shots/first-contributions.jpg","level":"info"}
+{"at":"2026-11-04T07:31:00.600Z","event":"published","detail":"first-contributions (learning) ★56694","level":"info"}
+{"at":"2026-11-04T07:31:01.033Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/files-community/Files","status":200,"remaining":4993,"ms":433}
+{"at":"2026-11-04T07:31:01.277Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/files-community/Files/readme","status":200,"remaining":4992,"ms":243}
+{"at":"2026-11-04T07:31:01.277Z","event":"saved","detail":"files ★46484 MIT README=1386 字","level":"info"}
+{"at":"2026-11-04T07:31:05.536Z","event":"shot","detail":"files -> /shots/files.jpg","level":"info"}
+{"at":"2026-11-04T07:31:05.537Z","event":"published","detail":"files (productivity) ★46484","level":"info"}
+{"at":"2026-11-04T07:31:05.587Z","event":"rebuilt","detail":"[data:build] 63 个项目 → public/data/projects.json","level":"info"}
+{"at":"2026-11-04T07:31:05.588Z","event":"run_end","level":"info","detail":"{\"ranAt\":\"2026-11-04T07:30:24.234Z\",\"auth\":\"token\",\"searched\":10,\"picked\":[{\"repo\":\"metabase/metabase\",\"category\":\"data-viz\"},{\"repo\":\"firstcontributions/first-contributions\",\"category\":\"learning\"},{\"repo\":\"files-community/Files\",\"category\":\"productivity\"}],\"added\":[{\"slug\":\"metabase\",\"repo\":\"metabase/metabase\",\"category\":\"data-viz\",\"stars\":50149,\"shot\":true},{\"slug\":\"first-contributions\",\"repo\":\"firstcontributions/first-contributions\",\"category\":\"learning\",\"stars\":56694,\"shot\":true},{\"slug\":\"files\",\"repo\":\"files-community/Files\",\"category\":\"productivity\",\"stars\":46484,\"shot\":true}]}"}

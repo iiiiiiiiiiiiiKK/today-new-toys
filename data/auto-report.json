@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-11-03T07:56:09.424Z",
+  "ranAt": "2026-11-04T07:30:24.234Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "rohitg00/ai-engineering-from-scratch",
-      "category": "learning"
-    },
-    {
-      "repo": "pixijs/pixijs",
+      "repo": "metabase/metabase",
       "category": "data-viz"
     },
     {
-      "repo": "donnemartin/system-design-primer",
-      "category": "internet-toys"
+      "repo": "firstcontributions/first-contributions",
+      "category": "learning"
+    },
+    {
+      "repo": "files-community/Files",
+      "category": "productivity"
     }
   ],
   "added": [
     {
-      "slug": "ai-engineering-from-scratch",
-      "repo": "rohitg00/ai-engineering-from-scratch",
-      "category": "learning",
-      "stars": 76437,
-      "shot": true
-    },
-    {
-      "slug": "pixijs",
-      "repo": "pixijs/pixijs",
+      "slug": "metabase",
+      "repo": "metabase/metabase",
       "category": "data-viz",
-      "stars": 48621,
+      "stars": 50149,
       "shot": true
     },
     {
-      "slug": "system-design-primer",
-      "repo": "donnemartin/system-design-primer",
-      "category": "internet-toys",
-      "stars": 376615,
+      "slug": "first-contributions",
+      "repo": "firstcontributions/first-contributions",
+      "category": "learning",
+      "stars": 56694,
+      "shot": true
+    },
+    {
+      "slug": "files",
+      "repo": "files-community/Files",
+      "category": "productivity",
+      "stars": 46484,
       "shot": true
     }
   ]

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-03T07:56:44.458Z",
-  "snapshotDate": "2026-11-03",
+  "generatedAt": "2026-11-04T07:31:05.565Z",
+  "snapshotDate": "2026-11-04",
   "counts": {
-    "projects": 60,
+    "projects": 63,
     "categories": 10
   },
   "categories": [
@@ -1641,7 +1641,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 541,
-      "weeklyScore": 661,
+      "weeklyScore": 601,
       "categoryName": "AI 工具",
       "license": {
         "spdx": "MIT",
@@ -3917,7 +3917,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 496,
-      "weeklyScore": 616,
+      "weeklyScore": 556,
       "categoryName": "开发者工具",
       "license": {
         "spdx": "Apache-2.0",
@@ -5200,7 +5200,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 490,
-      "weeklyScore": 610,
+      "weeklyScore": 550,
       "categoryName": "自托管项目",
       "license": {
         "spdx": "Apache-2.0",
@@ -6087,7 +6087,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 480,
-      "weeklyScore": 600,
+      "weeklyScore": 540,
       "categoryName": "数据可视化",
       "license": {
         "spdx": "MIT",
@@ -6321,6 +6321,297 @@
         "truncated": true
       },
       "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "first-contributions",
+      "name": "first-contributions",
+      "tagline": "学习工具 · 🚀✨ Help beginners to contribute to open sour…",
+      "summary": "（自动整理，未经人工校对）first-contributions 是一个开源项目（主要语言未取到）。仓库自述「🚀✨ Help beginners to contribute to open source projects」。已抓取 README 约 6,195 字；其中有「First Contributions」「Fork this repository」「Clone the repository」「Create a branch」「Push changes to GitHub」等章节可对应到具体能力。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "learning",
+      "tags": [
+        "学习工具",
+        "MIT"
+      ],
+      "aliases": [
+        "firstcontributions/first-contributions"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "First Contributions",
+          "detail": "（自动整理）README 中有「First Contributions」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Fork this repository",
+          "detail": "（自动整理）README 中有「Fork this repository」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Clone the repository",
+          "detail": "（自动整理）README 中有「Clone the repository」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Create a branch",
+          "detail": "（自动整理）README 中有「Create a branch」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 6195 字，抓取于 2026-11-04）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：git clone \"url you just copied\""
+          },
+          {
+            "title": "第 2 步",
+            "detail": "README 中给出的命令：git clone git@github.com:this-is-you/first-contributions.git"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://firstcontributions.github.io",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/first-contributions.jpg",
+          "alt": "first-contributions 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-04T07:31:00.598Z",
+          "credit": "页面截图：https://firstcontributions.github.io",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-04",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-04",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 475,
+      "weeklyScore": 595,
+      "categoryName": "学习工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "firstcontributions",
+        "name": "first-contributions",
+        "fullName": "firstcontributions/first-contributions",
+        "url": "https://github.com/firstcontributions/first-contributions",
+        "homepage": "https://firstcontributions.github.io",
+        "description": "🚀✨ Help beginners to contribute to open source projects",
+        "stars": 56694,
+        "forks": 112255,
+        "openIssues": 633,
+        "language": null,
+        "topics": [
+          "beginner",
+          "beginner-friendly",
+          "contribute",
+          "contribution",
+          "contributions-welcome",
+          "good-first-contribution",
+          "good-first-issue",
+          "good-first-pr",
+          "open-source",
+          "tutorial"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2016-09-20T14:35:09Z",
+        "pushedAt": "2026-11-04T07:24:36Z",
+        "archived": false,
+        "fetchedAt": "2026-11-04T07:30:56.194Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Read this in other languages. First Contributions This project aims to simplify and guide the way beginners make their first contribution. If you are looking to make your first contribution, follow the steps below. If you're not comfortable with command line, here are tutorials using GUI tools. If you don't have git on your machine, install it. Fork this repository Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account. Clone the repository Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button, then on SSH tab and then click the copy url to clipboard icon. Open a terminal and run the following git command: where \"url you just copied\" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url. For example: where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer. Create a branch Change to the repository directory on your computer (if you are not already there): Now create a branch using the `git switch` command: For example: If you get any errors using git switch, click here: If the error message \"Git: `switch` is not a git command. See `git –help`\" appears, it's likely b",
+        "headings": [
+          "First Contributions",
+          "Fork this repository",
+          "Clone the repository",
+          "Create a branch",
+          "Make necessary changes and commit those changes",
+          "Push changes to GitHub",
+          "Submit your changes for review",
+          "Where to go from here?",
+          "Additional material",
+          "Tutorials Using Other Tools"
+        ],
+        "chars": 6195,
+        "fetchedAt": "2026-11-04T07:30:56.194Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-04"
+    },
+    {
+      "slug": "metabase",
+      "name": "metabase",
+      "tagline": "数据可视化 · The easy-to-use open source Business Intellig…",
+      "summary": "（自动整理，未经人工校对）metabase 是一个用 Clojure 写的开源项目。仓库自述「The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data」。已抓取 README 约 3,088 字；其中有「Metabase」「Get started」「Key Features」「Supported databases」「Extending Metabase」等章节可对应到具体能力。仓库 Topics 涉及：数据可视化、可视化。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "data-viz",
+      "tags": [
+        "数据可视化",
+        "可视化"
+      ],
+      "aliases": [
+        "metabase/metabase"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Get started",
+          "detail": "（自动整理）README 中有「Get started」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Key Features",
+          "detail": "（自动整理）README 中有「Key Features」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Supported databases",
+          "detail": "（自动整理）README 中有「Supported databases」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Extending Metabase",
+          "detail": "（自动整理）README 中有「Extending Metabase」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 3088 字，抓取于 2026-11-04）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "费用未知"
+      },
+      "officialUrl": "https://metabase.com",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/metabase.jpg",
+          "alt": "metabase 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-04T07:30:55.668Z",
+          "credit": "页面截图：https://metabase.com",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-04",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-04",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 470,
+      "weeklyScore": 590,
+      "categoryName": "数据可视化",
+      "license": {
+        "spdx": null,
+        "name": "Other",
+        "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+        "url": null
+      },
+      "repo": {
+        "owner": "metabase",
+        "name": "metabase",
+        "fullName": "metabase/metabase",
+        "url": "https://github.com/metabase/metabase",
+        "homepage": "https://metabase.com",
+        "description": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:",
+        "stars": 50149,
+        "forks": 6979,
+        "openIssues": 4659,
+        "language": "Clojure",
+        "topics": [
+          "analytics",
+          "bi",
+          "business-intelligence",
+          "businessintelligence",
+          "clojure",
+          "dashboard",
+          "data",
+          "data-analysis",
+          "data-visualization",
+          "database",
+          "metabase",
+          "mysql",
+          "postgres",
+          "postgresql",
+          "reporting",
+          "slack",
+          "sql-editor",
+          "visualization"
+        ],
+        "license": {
+          "spdx": null,
+          "name": "Other",
+          "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+          "url": null
+        },
+        "createdAt": "2015-02-02T19:25:47Z",
+        "pushedAt": "2026-11-04T07:22:24Z",
+        "archived": false,
+        "fetchedAt": "2026-11-04T07:30:41.654Z",
+        "source": "api",
+        "warnings": [
+          "仓库未声明可识别的开源许可证"
+        ]
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Metabase Metabase is the easy, open-source way for everyone in your company to ask questions and learn from data. Get started The easiest way to get started with Metabase is to sign up for a free trial of Metabase Cloud. You get expert support, backups, upgrades, an SMTP server, SSL certificate, SoC2 Type 2 security auditing, and more (plus your money goes toward improving a major open-source project). Check out our quick overview of cloud vs self-hosting. If you need to, you can always switch to self-hosting Metabase at any time (or vice versa). Key Features - Set up in five minutes (we're not kidding), or have us host Metabase for you so you don't even need to think about it. - Let anyone on your team ask questions without knowing SQL. - Use the SQL editor for more complex queries. - Ask AI: Metabot gives you answers you can trust, helps you write queries, and more. Or build your own AI agent to query your data. - Build handsome, interactive dashboards with filters, auto-refresh, fullscreen, custom click behavior, and more. - Use documents for long-form data analysis, and invite people to comment. - Transform raw data into analytics-ready tables, track down broken dependencies, and define canonical metrics in Metabase's Data Studio. - Set up alerts on your data, or schedule dashboard subscriptions to email, Slack, or even a webhook. - Curate content in a Library, and version ",
+        "headings": [
+          "Metabase",
+          "Get started",
+          "Key Features",
+          "Supported databases",
+          "Installation",
+          "Documentation",
+          "Contributing",
+          "Extending Metabase",
+          "Internationalization",
+          "Security Disclosure",
+          "License",
+          "Community",
+          "Metabase Experts"
+        ],
+        "chars": 3088,
+        "fetchedAt": "2026-11-04T07:30:41.654Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-04"
     },
     {
       "slug": "pixijs",
@@ -6621,6 +6912,144 @@
         "truncated": true
       },
       "updatedAt": "2026-11-02"
+    },
+    {
+      "slug": "files",
+      "name": "Files",
+      "tagline": "效率工具 · A modern file manager that helps users organi…",
+      "summary": "（自动整理，未经人工校对）Files 是一个用 C# 写的开源项目。仓库自述「A modern file manager that helps users organize their files and folders」。已抓取 README 约 1,386 字；其中有「Installing and running Files」「Building from source」「Contributing to Files」等章节可对应到具体能力。仓库 Topics 涉及：开发者工具、效率。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "productivity",
+      "tags": [
+        "开发者工具",
+        "效率",
+        "效率工具",
+        "MIT"
+      ],
+      "aliases": [
+        "files-community/Files"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Installing and running F",
+          "detail": "（自动整理）README 中有「Installing and running Files」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Building from source",
+          "detail": "（自动整理）README 中有「Building from source」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Contributing to Files",
+          "detail": "（自动整理）README 中有「Contributing to Files」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（.github/README.md，约 1386 字，抓取于 2026-11-04）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://files.community",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/files.jpg",
+          "alt": "Files 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-04T07:31:05.535Z",
+          "credit": "页面截图：https://files.community",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-04",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-04",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 467,
+      "weeklyScore": 587,
+      "categoryName": "效率工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "files-community",
+        "name": "Files",
+        "fullName": "files-community/Files",
+        "url": "https://github.com/files-community/Files",
+        "homepage": "https://files.community",
+        "description": "A modern file manager that helps users organize their files and folders.",
+        "stars": 46484,
+        "forks": 3016,
+        "openIssues": 460,
+        "language": "C#",
+        "topics": [
+          "alternatives",
+          "csharp",
+          "customization",
+          "developer-tools",
+          "dotnet",
+          "file-manager",
+          "files",
+          "fluent",
+          "fluent-design",
+          "git",
+          "good-first-issue",
+          "power-user",
+          "productivity",
+          "utilities",
+          "winappsdk",
+          "windows",
+          "windows-10",
+          "windows-11",
+          "winui",
+          "xaml"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2019-01-04T18:19:14Z",
+        "pushedAt": "2026-11-03T23:44:56Z",
+        "archived": false,
+        "fetchedAt": "2026-11-04T07:31:01.034Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": ".github/README.md",
+        "excerpt": "Files is a modern file manager that helps users organize their files and folders. Our mission with Files is to build the best file manager for Windows, and we’re proud to be building it out in the open so everyone can participate. User feedback helps shape the features we work on, & the bug reports on GitHub help to make Files more reliable. Built and maintained by the open-source community, Files features robust multitasking experiences, file tags, deep integrations, and an intuitive design. Installing and running Files Files is a community-driven project that depends on your support to grow and improve. Please consider purchasing Files through the Microsoft Store or supporting us on GitHub if you use the classic installer. You can also use the preview version alongside the stable release to get early access to new features and improvements. &ensp; Building from source Instructions for building the source code can be found on our documentation site. Contributing to Files Want to contribute to this project? Let us know with an issue that communicates your intent to create a pull request. Also, view our contributing guidelines to make sure you're up to date on the coding conventions. Looking for a place to start? Check out the task board, where you can sort tasks by size and priority. Screenshots",
+        "headings": [
+          "Installing and running Files",
+          "Building from source",
+          "Contributing to Files",
+          "Screenshots"
+        ],
+        "chars": 1386,
+        "fetchedAt": "2026-11-04T07:31:01.034Z",
+        "truncated": false
+      },
+      "updatedAt": "2026-11-04"
     },
     {
       "slug": "ccxt",
