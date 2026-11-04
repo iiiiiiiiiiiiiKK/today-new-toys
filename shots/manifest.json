@@ -522,5 +522,29 @@
     "title": "system-design-primer",
     "capturedAt": "2026-11-03T07:56:44.421Z",
     "auto": true
+  },
+  "metabase": {
+    "src": "/shots/metabase.jpg",
+    "captureUrl": "https://metabase.com",
+    "origin": "live",
+    "title": "metabase",
+    "capturedAt": "2026-11-04T07:30:55.668Z",
+    "auto": true
+  },
+  "first-contributions": {
+    "src": "/shots/first-contributions.jpg",
+    "captureUrl": "https://firstcontributions.github.io",
+    "origin": "live",
+    "title": "first-contributions",
+    "capturedAt": "2026-11-04T07:31:00.598Z",
+    "auto": true
+  },
+  "files": {
+    "src": "/shots/files.jpg",
+    "captureUrl": "https://files.community",
+    "origin": "live",
+    "title": "Files",
+    "capturedAt": "2026-11-04T07:31:05.535Z",
+    "auto": true
   }
 }
