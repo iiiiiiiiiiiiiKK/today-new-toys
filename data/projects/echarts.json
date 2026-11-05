@@ -1,0 +1,82 @@
+{
+  "slug": "echarts",
+  "name": "echarts",
+  "tagline": "数据可视化 · Apache ECharts is a powerful, interactive cha…",
+  "summary": "（自动整理，未经人工校对）echarts 是一个用 TypeScript 写的开源项目。仓库自述「Apache ECharts is a powerful, interactive charting and data visualization library for browser」。已抓取 README 约 1,750 字；其中有「Apache ECharts」「Get Apache ECharts」「Get Help」「Install the dependencies from NPM:」「Contribution」等章节可对应到具体能力。仓库 Topics 涉及：数据可视化、可视化。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+  "category": "data-viz",
+  "tags": [
+    "数据可视化",
+    "可视化",
+    "Apache-2.0"
+  ],
+  "aliases": [
+    "apache/echarts"
+  ],
+  "audience": "开发者",
+  "audienceFor": [
+    "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+    "愿意自己读 README 确认细节的开发者"
+  ],
+  "features": [
+    {
+      "title": "Apache ECharts",
+      "detail": "（自动整理）README 中有「Apache ECharts」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Get Apache ECharts",
+      "detail": "（自动整理）README 中有「Get Apache ECharts」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Get Help",
+      "detail": "（自动整理）README 中有「Get Help」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Install the dependencies",
+      "detail": "（自动整理）README 中有「Install the dependencies from NPM:」章节，此处只标注来源，未展开复述。"
+    }
+  ],
+  "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 1750 字，抓取于 2026-11-05）汇总；未经人工校对，页面上已标注「自动收录」。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "门槛未评估：请以 README 的安装说明为准",
+    "requires": [],
+    "steps": [
+      {
+        "title": "安装 / 运行",
+        "detail": "README 中给出的命令：npm install"
+      },
+      {
+        "title": "第 2 步",
+        "detail": "README 中给出的命令：npm run dev"
+      },
+      {
+        "title": "第 3 步",
+        "detail": "README 中给出的命令：npm run checktype"
+      }
+    ],
+    "cost": "开源免费（以仓库许可证为准）"
+  },
+  "officialUrl": "https://echarts.apache.org",
+  "demoUrl": null,
+  "linkStatus": "unchecked",
+  "linkCheckedAt": null,
+  "featured": false,
+  "screenshots": [
+    {
+      "src": "/shots/echarts.jpg",
+      "alt": "echarts 的官方站点截图",
+      "origin": "live",
+      "capturedAt": "2026-11-05T07:55:59.192Z",
+      "credit": "页面截图：https://echarts.apache.org",
+      "synthetic": false
+    }
+  ],
+  "addedAt": "2026-11-05",
+  "review": {
+    "status": "published",
+    "mode": "auto",
+    "reviewedBy": "autopipeline",
+    "reviewedAt": "2026-11-05",
+    "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+  }
+}

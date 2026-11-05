@@ -546,5 +546,29 @@
     "title": "Files",
     "capturedAt": "2026-11-04T07:31:05.535Z",
     "auto": true
+  },
+  "echarts": {
+    "src": "/shots/echarts.jpg",
+    "captureUrl": "https://echarts.apache.org",
+    "origin": "live",
+    "title": "echarts",
+    "capturedAt": "2026-11-05T07:56:35.397Z",
+    "auto": true
+  },
+  "yazi": {
+    "src": "/shots/yazi.jpg",
+    "captureUrl": "https://yazi-rs.github.io",
+    "origin": "live",
+    "title": "yazi",
+    "capturedAt": "2026-11-05T07:56:40.048Z",
+    "auto": true
+  },
+  "graphite": {
+    "src": "/shots/graphite.jpg",
+    "captureUrl": "https://graphite.art",
+    "origin": "live",
+    "title": "Graphite",
+    "capturedAt": "2026-11-05T07:56:44.945Z",
+    "auto": true
   }
 }

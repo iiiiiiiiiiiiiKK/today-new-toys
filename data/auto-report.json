@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-11-04T07:30:24.234Z",
+  "ranAt": "2026-11-05T07:55:59.192Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "metabase/metabase",
+      "repo": "apache/echarts",
       "category": "data-viz"
     },
     {
-      "repo": "firstcontributions/first-contributions",
-      "category": "learning"
+      "repo": "sxyazi/yazi",
+      "category": "productivity"
     },
     {
-      "repo": "files-community/Files",
-      "category": "productivity"
+      "repo": "GraphiteEditor/Graphite",
+      "category": "creative"
     }
   ],
   "added": [
     {
-      "slug": "metabase",
-      "repo": "metabase/metabase",
+      "slug": "echarts",
+      "repo": "apache/echarts",
       "category": "data-viz",
-      "stars": 50149,
+      "stars": 67683,
       "shot": true
     },
     {
-      "slug": "first-contributions",
-      "repo": "firstcontributions/first-contributions",
-      "category": "learning",
-      "stars": 56694,
-      "shot": true
-    },
-    {
-      "slug": "files",
-      "repo": "files-community/Files",
+      "slug": "yazi",
+      "repo": "sxyazi/yazi",
       "category": "productivity",
-      "stars": 46484,
+      "stars": 43238,
+      "shot": true
+    },
+    {
+      "slug": "graphite",
+      "repo": "GraphiteEditor/Graphite",
+      "category": "creative",
+      "stars": 27842,
       "shot": true
     }
   ]
