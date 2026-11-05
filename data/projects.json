@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-04T07:31:09.282Z",
-  "snapshotDate": "2026-11-04",
+  "generatedAt": "2026-11-05T07:56:48.549Z",
+  "snapshotDate": "2026-11-05",
   "counts": {
-    "projects": 63,
+    "projects": 66,
     "categories": 10
   },
   "categories": [
@@ -5349,7 +5349,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 489,
-      "weeklyScore": 609,
+      "weeklyScore": 549,
       "categoryName": "数据可视化",
       "license": {
         "spdx": "AGPL-3.0",
@@ -5866,6 +5866,159 @@
       "updatedAt": "2026-11-02"
     },
     {
+      "slug": "echarts",
+      "name": "echarts",
+      "tagline": "数据可视化 · Apache ECharts is a powerful, interactive cha…",
+      "summary": "（自动整理，未经人工校对）echarts 是一个用 TypeScript 写的开源项目。仓库自述「Apache ECharts is a powerful, interactive charting and data visualization library for browser」。已抓取 README 约 1,750 字；其中有「Apache ECharts」「Get Apache ECharts」「Get Help」「Install the dependencies from NPM:」「Contribution」等章节可对应到具体能力。仓库 Topics 涉及：数据可视化、可视化。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "data-viz",
+      "tags": [
+        "数据可视化",
+        "可视化",
+        "Apache-2.0"
+      ],
+      "aliases": [
+        "apache/echarts"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Apache ECharts",
+          "detail": "（自动整理）README 中有「Apache ECharts」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Get Apache ECharts",
+          "detail": "（自动整理）README 中有「Get Apache ECharts」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Get Help",
+          "detail": "（自动整理）README 中有「Get Help」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Install the dependencies",
+          "detail": "（自动整理）README 中有「Install the dependencies from NPM:」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 1750 字，抓取于 2026-11-05）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：npm install"
+          },
+          {
+            "title": "第 2 步",
+            "detail": "README 中给出的命令：npm run dev"
+          },
+          {
+            "title": "第 3 步",
+            "detail": "README 中给出的命令：npm run checktype"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://echarts.apache.org",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/echarts.jpg",
+          "alt": "echarts 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-05T07:56:35.397Z",
+          "credit": "页面截图：https://echarts.apache.org",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-05",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-05",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 483,
+      "weeklyScore": 543,
+      "categoryName": "数据可视化",
+      "license": {
+        "spdx": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "apache",
+        "name": "echarts",
+        "fullName": "apache/echarts",
+        "url": "https://github.com/apache/echarts",
+        "homepage": "https://echarts.apache.org",
+        "description": "Apache ECharts is a powerful, interactive charting and data visualization library for browser",
+        "stars": 67683,
+        "forks": 19936,
+        "openIssues": 1484,
+        "language": "TypeScript",
+        "topics": [
+          "apache",
+          "canvas",
+          "charting-library",
+          "charts",
+          "data-visualization",
+          "data-viz",
+          "echarts",
+          "svg",
+          "visualization"
+        ],
+        "license": {
+          "spdx": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "url": null
+        },
+        "createdAt": "2013-04-03T03:18:59Z",
+        "pushedAt": "2026-10-13T09:27:20Z",
+        "archived": false,
+        "fetchedAt": "2026-11-05T07:56:16.035Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Apache ECharts Apache ECharts is a free, powerful charting and visualization library offering easy ways to add intuitive, interactive, and highly customizable charts to your commercial products. It is written in pure JavaScript and based on zrender , which is a whole new lightweight canvas library. 中文官网 ENGLISH HOMEPAGE Get Apache ECharts You may choose one of the following methods: + Download from the official website + `npm install echarts --save` + CDN: jsDelivr CDN Docs + Get Started + API + Option Manual + Examples Get Help + GitHub Issues for bug report and feature requests + Email dev@echarts.apache.org for general questions + Subscribe to the mailing list to get updated with the project Build Build echarts source code: Execute the instructions in the root directory of the echarts: (Node.js is required) Then the \"production\" files are generated in the `dist` directory. Contribution Please refer to the contributing document if you wish to debug locally or make pull requests. Resources Awesome ECharts https://github.com/ecomfe/awesome-echarts Extensions + ECharts GL An extension pack of ECharts, which provides 3D plots, globe visualization, and WebGL acceleration. + Liquidfill 水球图 + Wordcloud 字符云 + Extension for Baidu Map 百度地图扩展 An extension provides a wrapper of Baidu Map Service SDK. + vue-echarts ECharts component for Vue.js + echarts-stat Statistics tool for ECharts Li",
+        "headings": [
+          "Apache ECharts",
+          "Get Apache ECharts",
+          "Docs",
+          "Get Help",
+          "Build",
+          "Install the dependencies from NPM:",
+          "Rebuild source code immediately in watch mode when changing the source code.",
+          "It opens the ./test directory, and you may open -cases.html to get the list",
+          "of all test cases.",
+          "If you wish to create a test case, run npm run mktest:help to learn more.",
+          "Check the correctness of TypeScript code.",
+          "If intending to build and get all types of the \"production\" files:",
+          "Contribution",
+          "Resources",
+          "Awesome ECharts",
+          "Extensions",
+          "License",
+          "Code of Conduct",
+          "Paper"
+        ],
+        "chars": 1750,
+        "fetchedAt": "2026-11-05T07:56:16.035Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-05"
+    },
+    {
       "slug": "coolify",
       "name": "coolify",
       "tagline": "自托管项目 · An open-source, self-hostable PaaS alternativ…",
@@ -5940,7 +6093,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 481,
-      "weeklyScore": 601,
+      "weeklyScore": 541,
       "categoryName": "自托管项目",
       "license": {
         "spdx": "Apache-2.0",
@@ -7229,6 +7382,151 @@
       "updatedAt": "2026-10-31"
     },
     {
+      "slug": "yazi",
+      "name": "yazi",
+      "tagline": "效率工具 · 💥 Blazing fast terminal file manager written…",
+      "summary": "（自动整理，未经人工校对）yazi 是一个用 Rust 写的开源项目。仓库自述「💥 Blazing fast terminal file manager written in Rust, based on async I/O」。已抓取 README 约 6,042 字；其中有「Project status」「Discussion」「Image Preview」「Special Thanks」等章节可对应到具体能力。仓库 Topics 涉及：命令行、开发者工具、效率、Rust。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "productivity",
+      "tags": [
+        "命令行",
+        "开发者工具",
+        "效率",
+        "Rust",
+        "效率工具"
+      ],
+      "aliases": [
+        "sxyazi/yazi"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Project status",
+          "detail": "（自动整理）README 中有「Project status」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Discussion",
+          "detail": "（自动整理）README 中有「Discussion」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Image Preview",
+          "detail": "（自动整理）README 中有「Image Preview」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Special Thanks",
+          "detail": "（自动整理）README 中有「Special Thanks」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 6042 字，抓取于 2026-11-05）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://yazi-rs.github.io",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/yazi.jpg",
+          "alt": "yazi 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-05T07:56:40.048Z",
+          "credit": "页面截图：https://yazi-rs.github.io",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-05",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-05",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 464,
+      "weeklyScore": 584,
+      "categoryName": "效率工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "sxyazi",
+        "name": "yazi",
+        "fullName": "sxyazi/yazi",
+        "url": "https://github.com/sxyazi/yazi",
+        "homepage": "https://yazi-rs.github.io",
+        "description": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
+        "stars": 43238,
+        "forks": 1059,
+        "openIssues": 64,
+        "language": "Rust",
+        "topics": [
+          "android",
+          "asyncio",
+          "cli",
+          "command-line",
+          "concurrency",
+          "cross-platform",
+          "developer-tools",
+          "file-explorer",
+          "file-manager",
+          "filesystem",
+          "linux",
+          "macos",
+          "neovim",
+          "productivity",
+          "rust",
+          "terminal",
+          "tui",
+          "vim",
+          "windows"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2023-07-08T11:45:55Z",
+        "pushedAt": "2026-11-04T18:52:51Z",
+        "archived": false,
+        "fetchedAt": "2026-11-05T07:56:35.638Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Special thanks to: Warp, built for coding with multiple AI agents Available for macOS, Linux and Windows ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- Yazi - ⚡️ Blazing Fast Terminal File Manager Yazi (means \"duck\") is a terminal file manager written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience. 💡 A new article explaining its internal workings: Why is Yazi Fast? - 🚀 Full Asynchronous Support : All I/O operations are asynchronous, CPU tasks are spread across multiple threads, making the most of available resources. - 💪 Powerful Async Task Scheduling and Management : Provides real-time progress updates, task cancellation, and internal task priority assignment. - 🖼️ Built-in Support for Multiple Image Protocols : Also integrated with Überzug++ and Chafa, covering almost all terminals. - 🌟 Built-in Code Highlighting and Image Decoding : Combined with the pre-loading mechanism, greatly accelerates image and normal file loading. - 🔌 Concurrent Plugin System : UI plugins (rewriting most of the UI), functional plugins, custom previewer/preload",
+        "headings": [
+          "Yazi - ⚡️ Blazing Fast Terminal File Manager",
+          "Project status",
+          "Documentation",
+          "Discussion",
+          "Image Preview",
+          "Special Thanks",
+          "License"
+        ],
+        "chars": 6042,
+        "fetchedAt": "2026-11-05T07:56:35.638Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-05"
+    },
+    {
       "slug": "it-tools",
       "name": "IT-Tools",
       "tagline": "一个网页里塞满了开发者会临时用到的小工具",
@@ -7685,6 +7983,143 @@
         "truncated": true
       },
       "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "graphite",
+      "name": "Graphite",
+      "tagline": "创意与设计 · Community-built comprehensive 2D content crea…",
+      "summary": "（自动整理，未经人工校对）Graphite 是一个用 Rust 写的开源项目。仓库自述「Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine」。已抓取 README 约 2,342 字；其中有「Support our mission ❤️」「Contributing/building the code」等章节可对应到具体能力。仓库 Topics 涉及：设计。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "creative",
+      "tags": [
+        "设计",
+        "创意与设计",
+        "Apache-2.0"
+      ],
+      "aliases": [
+        "GraphiteEditor/Graphite"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Support our mission ❤️",
+          "detail": "（自动整理）README 中有「Support our mission ❤️」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Contributing/building th",
+          "detail": "（自动整理）README 中有「Contributing/building the code」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "待补全",
+          "detail": "（自动整理）请依据 README 补全。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 2342 字，抓取于 2026-11-05）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://graphite.art",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/graphite.jpg",
+          "alt": "Graphite 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-05T07:56:44.945Z",
+          "credit": "页面截图：https://graphite.art",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-05",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-05",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 444,
+      "weeklyScore": 564,
+      "categoryName": "创意与设计",
+      "license": {
+        "spdx": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "GraphiteEditor",
+        "name": "Graphite",
+        "fullName": "GraphiteEditor/Graphite",
+        "url": "https://github.com/GraphiteEditor/Graphite",
+        "homepage": "https://graphite.art",
+        "description": "Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine",
+        "stars": 27842,
+        "forks": 1315,
+        "openIssues": 458,
+        "language": "Rust",
+        "topics": [
+          "2d-graphics",
+          "animation",
+          "art",
+          "creative-coding",
+          "design",
+          "graphic-design",
+          "graphics",
+          "graphics-editor",
+          "image-manipulation",
+          "image-processing",
+          "motion-design",
+          "motion-graphics",
+          "node-graph",
+          "photo-editor",
+          "procedural",
+          "procedural-drawing",
+          "procedural-generation",
+          "svg-editor",
+          "vector-graphics"
+        ],
+        "license": {
+          "spdx": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "url": null
+        },
+        "createdAt": "2020-04-26T07:29:29Z",
+        "pushedAt": "2026-11-05T02:36:02Z",
+        "archived": false,
+        "fetchedAt": "2026-11-05T07:56:40.310Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Your procedural toolbox for 2D content creation Graphite is a free, open source vector and raster graphics engine, available now in alpha. Get creative with a fully nondestructive editing workflow that combines layer-based compositing with node-based generative design. Having begun life as a vector editor, Graphite continues evolving into a generalized, all-in-one graphics toolbox that's built more like a game engine than a conventional creative app. The editor's tools wrap its node graph core, providing user-friendly workflows for vector, raster, and beyond. Photo editing, motion graphics, digital painting, desktop publishing, and VFX compositing are additional competencies on the planned roadmap making Graphite into a highly versatile content creation tool. Learn more from the website, subscribe to the newsletter, consider volunteering or donating, and remember to give this repository a ⭐! &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; https://github.com/user-attachments/assets/f4604aea-e8f1-45ce-9218-46ddc666f11d Support our mission ❤️ Graphite is 100% community built and funded. Please become a part of keeping the project alive and thriving with a donation if you share a belief in our mission : Graphite strives to unshackle the creativity of every budding artist and seasoned professional by building the best comprehensive",
+        "headings": [
+          "Your procedural toolbox for 2D content creation",
+          "Support our mission ❤️",
+          "Screenshots",
+          "Contributing/building the code",
+          "License"
+        ],
+        "chars": 2342,
+        "fetchedAt": "2026-11-05T07:56:40.310Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-05"
     },
     {
       "slug": "biome",
