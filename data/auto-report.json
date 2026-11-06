@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-11-05T07:55:59.192Z",
+  "ranAt": "2026-11-06T07:56:26.446Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "apache/echarts",
-      "category": "data-viz"
+      "repo": "ethereum/go-ethereum",
+      "category": "web3"
     },
     {
-      "repo": "sxyazi/yazi",
-      "category": "productivity"
+      "repo": "arendst/Tasmota",
+      "category": "hardware"
     },
     {
-      "repo": "GraphiteEditor/Graphite",
+      "repo": "processing/p5.js",
       "category": "creative"
     }
   ],
   "added": [
     {
-      "slug": "echarts",
-      "repo": "apache/echarts",
-      "category": "data-viz",
-      "stars": 67683,
+      "slug": "go-ethereum",
+      "repo": "ethereum/go-ethereum",
+      "category": "web3",
+      "stars": 51462,
       "shot": true
     },
     {
-      "slug": "yazi",
-      "repo": "sxyazi/yazi",
-      "category": "productivity",
-      "stars": 43238,
+      "slug": "tasmota",
+      "repo": "arendst/Tasmota",
+      "category": "hardware",
+      "stars": 24968,
       "shot": true
     },
     {
-      "slug": "graphite",
-      "repo": "GraphiteEditor/Graphite",
+      "slug": "p5-js",
+      "repo": "processing/p5.js",
       "category": "creative",
-      "stars": 27842,
+      "stars": 24309,
       "shot": true
     }
   ]

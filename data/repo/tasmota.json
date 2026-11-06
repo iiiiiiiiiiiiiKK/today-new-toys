@@ -1,0 +1,70 @@
+{
+  "slug": "tasmota",
+  "repoInput": "arendst/Tasmota",
+  "fetchedAt": "2026-11-06T07:56:50.636Z",
+  "github": {
+    "owner": "arendst",
+    "name": "Tasmota",
+    "fullName": "arendst/Tasmota",
+    "url": "https://github.com/arendst/Tasmota",
+    "homepage": "https://tasmota.github.io/docs",
+    "description": "Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, Serial or KNX. Full documentation at",
+    "stars": 24968,
+    "forks": 5209,
+    "openIssues": 16,
+    "language": "C",
+    "topics": [
+      "arduino",
+      "automation",
+      "esp32",
+      "esp8266",
+      "firmware",
+      "iot",
+      "knx",
+      "mqtt",
+      "ota",
+      "smart-home",
+      "sonoff",
+      "tasmota",
+      "tuya"
+    ],
+    "license": {
+      "spdx": "GPL-3.0",
+      "name": "GNU General Public License v3.0",
+      "url": null
+    },
+    "createdAt": "2017-01-28T13:37:08Z",
+    "pushedAt": "2026-11-05T14:40:26Z",
+    "archived": false,
+    "fetchedAt": "2026-11-06T07:56:50.636Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "development",
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 13122,
+    "headings": [
+      "Why Tasmota?",
+      "Easy install",
+      "Development",
+      "Disclaimer",
+      "Note",
+      "Quick Install",
+      "Important User Compilation Information",
+      "Configuration Information",
+      "Migration Information",
+      "Support Information",
+      "Documentation",
+      "Support's Community",
+      "Unofficial Community Resources",
+      "Contribute",
+      "Credits",
+      "License"
+    ],
+    "excerpt": "Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, Serial or KNX . Written for PlatformIO. In light of current events we like to support the people behind PlatformIO Project , especially Ivan Kravets, and wish them the strength to help stop the war. See platformio-is-ukrainian-project-please-help-us-stop-the-war for what you can do. Why Tasmota? Tasmota is open-source firmware born for the ESP8266 / ESP8285 , now covering the whole ESP32 family: ESP32 , ESP32-S2 , ESP32-S3 , ESP32-C2 , ESP32-C3 , ESP32-C5 , ESP32-C6 , ESP32-C61 , ESP32-P4 , with PSRAM and USB/CDC support where available. It talks MQTT (v3.1.1 or v5) to your own broker or a cloud one over TLS (AWS IoT Core and Azure IoT Hub), or runs entirely standalone with no server at all — your choice. Here's a tour of what it can do: Area What you get --- --- Smart home integrations Plugs into Home Assistant, Domoticz, openHAB, Node-RED, KNX and more via MQTT, local or cloud (AWS IoT Core and Azure IoT Hub). See Smart Home Integrations. Matter protocol Runs natively on ESP32, no MQTT, hub or companion app required. Pairs directly with Apple Home, Google Home, Amazon Alexa and Home Assistant. An ESP32 can also bridge your existing ESP8266 devices into Matter. See Matter. Sensors ",
+    "truncated": true,
+    "rawFile": "data/readme/tasmota.md"
+  }
+}

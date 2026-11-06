@@ -570,5 +570,29 @@
     "title": "Graphite",
     "capturedAt": "2026-11-05T07:56:44.945Z",
     "auto": true
+  },
+  "go-ethereum": {
+    "src": "/shots/go-ethereum.jpg",
+    "captureUrl": "https://geth.ethereum.org",
+    "origin": "live",
+    "title": "go-ethereum",
+    "capturedAt": "2026-11-06T07:56:50.260Z",
+    "auto": true
+  },
+  "tasmota": {
+    "src": "/shots/tasmota.jpg",
+    "captureUrl": "https://tasmota.github.io/docs",
+    "origin": "live",
+    "title": "Tasmota",
+    "capturedAt": "2026-11-06T07:56:55.407Z",
+    "auto": true
+  },
+  "p5-js": {
+    "src": "/shots/p5-js.jpg",
+    "captureUrl": "http://p5js.org/",
+    "origin": "live",
+    "title": "p5.js",
+    "capturedAt": "2026-11-06T07:57:00.208Z",
+    "auto": true
   }
 }
