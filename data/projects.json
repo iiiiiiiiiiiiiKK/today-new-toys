@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-05T07:56:48.549Z",
-  "snapshotDate": "2026-11-05",
+  "generatedAt": "2026-11-06T07:57:04.180Z",
+  "snapshotDate": "2026-11-06",
   "counts": {
-    "projects": 66,
+    "projects": 69,
     "categories": 10
   },
   "categories": [
@@ -3189,7 +3189,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 498,
-      "weeklyScore": 618,
+      "weeklyScore": 558,
       "categoryName": "开发者工具",
       "license": {
         "spdx": "Apache-2.0",
@@ -6616,6 +6616,142 @@
       "updatedAt": "2026-11-04"
     },
     {
+      "slug": "go-ethereum",
+      "name": "go-ethereum",
+      "tagline": "加密与 Web3 · Go implementation of the Ethereum protocol",
+      "summary": "（自动整理，未经人工校对）go-ethereum 是一个用 Go 写的开源项目。仓库自述「Go implementation of the Ethereum protocol」。已抓取 README 约 13,075 字；其中有「Go Ethereum」「Building the source」「Executables」「Running geth」「Hardware Requirements」等章节可对应到具体能力。仓库 Topics 涉及：以太坊、Go。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "web3",
+      "tags": [
+        "以太坊",
+        "Go",
+        "加密与 Web3",
+        "LGPL-3.0"
+      ],
+      "aliases": [
+        "ethereum/go-ethereum"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Go Ethereum",
+          "detail": "（自动整理）README 中有「Go Ethereum」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Building the source",
+          "detail": "（自动整理）README 中有「Building the source」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Executables",
+          "detail": "（自动整理）README 中有「Executables」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Running geth",
+          "detail": "（自动整理）README 中有「Running geth」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 13075 字，抓取于 2026-11-06）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：docker run -d --name ethereum-node -v /Users/alice/ethereum:/root \\"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://geth.ethereum.org",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/go-ethereum.jpg",
+          "alt": "go-ethereum 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-06T07:56:50.260Z",
+          "credit": "页面截图：https://geth.ethereum.org",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-06",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-06",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 471,
+      "weeklyScore": 591,
+      "categoryName": "加密与 Web3",
+      "license": {
+        "spdx": "LGPL-3.0",
+        "name": "GNU Lesser General Public License v3.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "ethereum",
+        "name": "go-ethereum",
+        "fullName": "ethereum/go-ethereum",
+        "url": "https://github.com/ethereum/go-ethereum",
+        "homepage": "https://geth.ethereum.org",
+        "description": "Go implementation of the Ethereum protocol",
+        "stars": 51462,
+        "forks": 22110,
+        "openIssues": 492,
+        "language": "Go",
+        "topics": [
+          "blockchain",
+          "ethereum",
+          "geth",
+          "go",
+          "p2p"
+        ],
+        "license": {
+          "spdx": "LGPL-3.0",
+          "name": "GNU Lesser General Public License v3.0",
+          "url": null
+        },
+        "createdAt": "2013-12-26T13:05:46Z",
+        "pushedAt": "2026-11-05T22:06:46Z",
+        "archived": false,
+        "fetchedAt": "2026-11-06T07:56:43.777Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Go Ethereum Golang execution layer implementation of the Ethereum protocol. Automated builds are available for stable releases and the unstable master branch. Binary archives are published at https://geth.ethereum.org/downloads/. Building the source For prerequisites and detailed build instructions please read the Installation Instructions. Building `geth` requires both a Go (version 1.25 or later) and a C compiler. You can install them using your favourite package manager. Once the dependencies are installed, run or, to build the full suite of utilities: Executables The go-ethereum project comes with several wrappers/executables found in the `cmd` directory. Command Description :--------: ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- `geth` Our main Ethereum CLI client. It is the entry point into the Ethereum network (main-, test- or private net), capable of running as a full node (default) or archive node (retaining",
+        "headings": [
+          "Go Ethereum",
+          "Building the source",
+          "Executables",
+          "Running geth",
+          "Hardware Requirements",
+          "Full node on the main Ethereum network",
+          "A Full node on the Sepolia test network",
+          "Configuration",
+          "Programmatically interfacing geth nodes",
+          "Operating a private network",
+          "Contribution",
+          "Contributing to geth.ethereum.org",
+          "License"
+        ],
+        "chars": 13075,
+        "fetchedAt": "2026-11-06T07:56:43.777Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-06"
+    },
+    {
       "slug": "metabase",
       "name": "metabase",
       "tagline": "数据可视化 · The easy-to-use open source Business Intellig…",
@@ -8277,6 +8413,288 @@
         "truncated": true
       },
       "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "tasmota",
+      "name": "Tasmota",
+      "tagline": "开源硬件 · Alternative firmware for ESP8266 and ESP32 ba…",
+      "summary": "（自动整理，未经人工校对）Tasmota 是一个用 C 写的开源项目。仓库自述「Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, Serial or KNX. Full documentation at」。已抓取 README 约 13,122 字；其中有「Easy install」「Disclaimer」「Note」「Quick Install」「Configuration Information」等章节可对应到具体能力。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "hardware",
+      "tags": [
+        "开源硬件",
+        "GPL-3.0"
+      ],
+      "aliases": [
+        "arendst/Tasmota"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Easy install",
+          "detail": "（自动整理）README 中有「Easy install」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Disclaimer",
+          "detail": "（自动整理）README 中有「Disclaimer」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Note",
+          "detail": "（自动整理）README 中有「Note」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Quick Install",
+          "detail": "（自动整理）README 中有「Quick Install」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 13122 字，抓取于 2026-11-06）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://tasmota.github.io/docs",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/tasmota.jpg",
+          "alt": "Tasmota 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-06T07:56:55.407Z",
+          "credit": "页面截图：https://tasmota.github.io/docs",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-06",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-06",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 440,
+      "weeklyScore": 560,
+      "categoryName": "开源硬件",
+      "license": {
+        "spdx": "GPL-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "arendst",
+        "name": "Tasmota",
+        "fullName": "arendst/Tasmota",
+        "url": "https://github.com/arendst/Tasmota",
+        "homepage": "https://tasmota.github.io/docs",
+        "description": "Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, Serial or KNX. Full documentation at",
+        "stars": 24968,
+        "forks": 5209,
+        "openIssues": 16,
+        "language": "C",
+        "topics": [
+          "arduino",
+          "automation",
+          "esp32",
+          "esp8266",
+          "firmware",
+          "iot",
+          "knx",
+          "mqtt",
+          "ota",
+          "smart-home",
+          "sonoff",
+          "tasmota",
+          "tuya"
+        ],
+        "license": {
+          "spdx": "GPL-3.0",
+          "name": "GNU General Public License v3.0",
+          "url": null
+        },
+        "createdAt": "2017-01-28T13:37:08Z",
+        "pushedAt": "2026-11-05T14:40:26Z",
+        "archived": false,
+        "fetchedAt": "2026-11-06T07:56:50.636Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, Serial or KNX . Written for PlatformIO. In light of current events we like to support the people behind PlatformIO Project , especially Ivan Kravets, and wish them the strength to help stop the war. See platformio-is-ukrainian-project-please-help-us-stop-the-war for what you can do. Why Tasmota? Tasmota is open-source firmware born for the ESP8266 / ESP8285 , now covering the whole ESP32 family: ESP32 , ESP32-S2 , ESP32-S3 , ESP32-C2 , ESP32-C3 , ESP32-C5 , ESP32-C6 , ESP32-C61 , ESP32-P4 , with PSRAM and USB/CDC support where available. It talks MQTT (v3.1.1 or v5) to your own broker or a cloud one over TLS (AWS IoT Core and Azure IoT Hub), or runs entirely standalone with no server at all — your choice. Here's a tour of what it can do: Area What you get --- --- Smart home integrations Plugs into Home Assistant, Domoticz, openHAB, Node-RED, KNX and more via MQTT, local or cloud (AWS IoT Core and Azure IoT Hub). See Smart Home Integrations. Matter protocol Runs natively on ESP32, no MQTT, hub or companion app required. Pairs directly with Apple Home, Google Home, Amazon Alexa and Home Assistant. An ESP32 can also bridge your existing ESP8266 devices into Matter. See Matter. Sensors ",
+        "headings": [
+          "Why Tasmota?",
+          "Easy install",
+          "Development",
+          "Disclaimer",
+          "Note",
+          "Quick Install",
+          "Important User Compilation Information",
+          "Configuration Information",
+          "Migration Information",
+          "Support Information",
+          "Documentation",
+          "Support's Community",
+          "Unofficial Community Resources",
+          "Contribute",
+          "Credits",
+          "License"
+        ],
+        "chars": 13122,
+        "fetchedAt": "2026-11-06T07:56:50.636Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-06"
+    },
+    {
+      "slug": "p5-js",
+      "name": "p5.js",
+      "tagline": "创意与设计 · p5.js is a client-side JS platform that empow…",
+      "summary": "（自动整理，未经人工校对）p5.js 是一个用 JavaScript 写的开源项目。仓库自述「p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org」。已抓取 README 约 6,506 字；其中有「p5.js」「Issues」「Get Started for Contributors」「AI Usage Policy」「Stewards」等章节可对应到具体能力。仓库 Topics 涉及：设计、学习。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "creative",
+      "tags": [
+        "设计",
+        "学习",
+        "创意与设计",
+        "LGPL-2.1"
+      ],
+      "aliases": [
+        "processing/p5.js"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Issues",
+          "detail": "（自动整理）README 中有「Issues」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Get Started for Contribu",
+          "detail": "（自动整理）README 中有「Get Started for Contributors」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "AI Usage Policy",
+          "detail": "（自动整理）README 中有「AI Usage Policy」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Stewards",
+          "detail": "（自动整理）README 中有「Stewards」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 6506 字，抓取于 2026-11-06）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "http://p5js.org/",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/p5-js.jpg",
+          "alt": "p5.js 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-06T07:57:00.208Z",
+          "credit": "页面截图：http://p5js.org/",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-06",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-06",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 439,
+      "weeklyScore": 559,
+      "categoryName": "创意与设计",
+      "license": {
+        "spdx": "LGPL-2.1",
+        "name": "GNU Lesser General Public License v2.1",
+        "url": null
+      },
+      "repo": {
+        "owner": "processing",
+        "name": "p5.js",
+        "fullName": "processing/p5.js",
+        "url": "https://github.com/processing/p5.js",
+        "homepage": "http://p5js.org/",
+        "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
+        "stars": 24309,
+        "forks": 3892,
+        "openIssues": 530,
+        "language": "JavaScript",
+        "topics": [
+          "art",
+          "creative-coding",
+          "design",
+          "education",
+          "graphics",
+          "html",
+          "javascript",
+          "learning",
+          "p5js",
+          "processing",
+          "sound"
+        ],
+        "license": {
+          "spdx": "LGPL-2.1",
+          "name": "GNU Lesser General Public License v2.1",
+          "url": null
+        },
+        "createdAt": "2013-02-26T03:14:47Z",
+        "pushedAt": "2026-11-05T20:31:11Z",
+        "archived": false,
+        "fetchedAt": "2026-11-06T07:56:55.756Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "p5.js Welcome! 👋👋🏿👋🏽👋🏻👋🏾👋🏼 p5.js is a free and open-source JavaScript library for accessible creative coding. It is a nurturing community, an approachable language, an exploratory tool, an accessible environment, an inclusive platform, welcoming and playful for artists, designers, educators, beginners, and anyone else! Get Started — Reference — Tutorials — Examples — Libraries — Forum — Discord About p5.js is built and organized to prioritize accessibility, inclusivity, community, and joy. Similar to sketching, p5.js has a full set of tools to draw. It also supports creating audio-visual, interactive, experimental, and generative works for the web. p5.js enables thinking of a web page as your sketch. p5.js is accessible in multiple languages and has an expansive documentation with visual examples. You can find tutorials on the p5.js website and start coding right now in the p5.js web editor. You can extend p5.js with many community-created libraries that bring different capabilities. Its community provides endless inspiration and support for creators. p5.js encourages iterative and exploratory code for creative expression. Its friendly, diverse community shares art, code, and learning resources to help elevate all voices. We share our values in open source and access for all, to learn, create, imagine, design, share and code freely. Community The p5.js community shar",
+        "headings": [
+          "p5.js",
+          "About",
+          "Community",
+          "Issues",
+          "Get Started for Contributors",
+          "AI Usage Policy",
+          "Stewards",
+          "Contributors"
+        ],
+        "chars": 6506,
+        "fetchedAt": "2026-11-06T07:56:55.756Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-06"
     },
     {
       "slug": "qmk-firmware",
