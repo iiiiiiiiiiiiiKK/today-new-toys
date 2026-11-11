@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-11-11T07:45:38.508Z",
+  "ranAt": "2026-10-27T06:17:58.249Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "ruvnet/RuView",
-      "category": "hardware"
+      "repo": "Graphify-Labs/graphify",
+      "category": "dev-tools"
     },
     {
-      "repo": "datawhalechina/hello-agents",
-      "category": "learning"
+      "repo": "Significant-Gravitas/AutoGPT",
+      "category": "ai-tools"
     },
     {
-      "repo": "OpenZeppelin/openzeppelin-contracts",
-      "category": "web3"
+      "repo": "rtk-ai/rtk",
+      "category": "productivity"
     }
   ],
   "added": [
     {
-      "slug": "ruview",
-      "repo": "ruvnet/RuView",
-      "category": "hardware",
-      "stars": 103957,
+      "slug": "graphify",
+      "repo": "Graphify-Labs/graphify",
+      "category": "dev-tools",
+      "stars": 136342,
       "shot": true
     },
     {
-      "slug": "hello-agents",
-      "repo": "datawhalechina/hello-agents",
-      "category": "learning",
-      "stars": 86668,
+      "slug": "autogpt",
+      "repo": "Significant-Gravitas/AutoGPT",
+      "category": "ai-tools",
+      "stars": 187783,
       "shot": true
     },
     {
-      "slug": "openzeppelin-contracts",
-      "repo": "OpenZeppelin/openzeppelin-contracts",
-      "category": "web3",
-      "stars": 27354,
+      "slug": "rtk",
+      "repo": "rtk-ai/rtk",
+      "category": "productivity",
+      "stars": 84682,
       "shot": true
     }
   ]

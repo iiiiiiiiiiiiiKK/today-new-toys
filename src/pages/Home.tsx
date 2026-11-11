@@ -31,15 +31,11 @@ function CoverStory() {
   return (
     <section className="hero" aria-labelledby="cover-title">
       <div className="cover-story">
-        <p className="cover-story__kicker">
-          <span className="kicker">
-            {issue.id} · 今日推荐
-          </span>
-          <span className="kicker__rule" aria-hidden="true" />
-          <span className="mono cover-story__issue">
-            第 {String(issue.number).padStart(3, '0')} 期
-          </span>
-        </p>
+        <div className="cover-story__flags">
+          <span className="sticker">今日推荐 · {issue.id}</span>
+          <span className="sticker sticker--muted">第 {String(issue.number).padStart(3, '0')} 期</span>
+          {lead.review.mode === 'auto' ? <span className="sticker sticker--electric">自动收录</span> : null}
+        </div>
 
         <h1 className={`cover-story__title${isLatin(lead.name) ? ' cover-story__title--latin' : ''}`} id="cover-title">
           <Link to={`/project/${lead.slug}`}>{lead.name}</Link>
@@ -50,13 +46,9 @@ function CoverStory() {
 
         <div className="cover-story__meta">
           <span className="pill pill--accent">{categoryName(data, lead.category)}</span>
-          {lead.review.mode === 'auto' ? <span className="pill pill--auto">自动收录</span> : null}
           <span>{lead.license.spdx ?? '许可证未知'}</span>
-          <span className="dot">·</span>
           <span>门槛 {lead.setup.effort}</span>
-          <span className="dot">·</span>
           <span>{lead.repo.pushedAt ? `更新 ${relativeTo(lead.repo.pushedAt, data.snapshotDate)}` : '更新未知'}</span>
-          <span className="dot">·</span>
           <span className="mono">{issueFor(lead.slug).id}</span>
         </div>
 
@@ -83,16 +75,26 @@ function CoverStory() {
       </div>
 
       <figure className="hero__media">
-        <Link to={`/project/${lead.slug}`} aria-label={`今日推荐：${lead.name}`}>
-          <Cover
-            src={shot?.card || shot?.src || null}
-            alt={shot?.alt || `${lead.name} 官方页面截图`}
-            name={lead.name}
-            ratio="16x10"
-            label={`封面 · ${issueFor(lead.slug).id}`}
-            fallbackNote={shot ? undefined : '未取得可用截图'}
-          />
-        </Link>
+        <div className="sticker-cluster" aria-hidden="true">
+          <span className="sticker">LIVE CAPTURE</span>
+        </div>
+        <div className="frame">
+          <div className="frame__bar" aria-hidden="true">
+            <span className="frame__dot" />
+            <span className="frame__dot" />
+            <span className="frame__dot" />
+            <span className="frame__url">{lead.officialUrl?.replace(/^https?:\/\//, '') || lead.repo.fullName}</span>
+          </div>
+          <Link to={`/project/${lead.slug}`} aria-label={`今日推荐：${lead.name}`}>
+            <Cover
+              src={shot?.card || shot?.src || null}
+              alt={shot?.alt || `${lead.name} 官方页面截图`}
+              name={lead.name}
+              ratio="16x10"
+              fallbackNote={shot ? undefined : '未取得可用截图'}
+            />
+          </Link>
+        </div>
         <figcaption className="hero__caption">
           <span>{shot?.origin === 'og' ? '仓库页面截图' : '官方网站截图'}</span>
           <span>{shot?.capturedAt ? `${fmtDate(shot.capturedAt)} 抓取 · 点击进入项目页` : '点击进入项目页'}</span>
@@ -100,11 +102,13 @@ function CoverStory() {
       </figure>
 
       <aside className="hero__also" aria-label="今日另外两个推荐">
-        <p className="hero__also-label">今日还有</p>
+        <p className="hero__also-label">今日还有 / ALSO TODAY</p>
         {picks.slice(1).map((p) => (
           <Link key={p.slug} to={`/project/${p.slug}`} className="also-pick">
-            <span className="also-pick__name">{p.name}</span>
-            <span className="also-pick__tag">{p.tagline}</span>
+            <span>
+              <span className="also-pick__name">{p.name}</span>
+              <span className="also-pick__tag">{p.tagline}</span>
+            </span>
             <span className="also-pick__meta">
               {categoryName(data, p.category)} · {p.setup.effort}
             </span>
@@ -123,9 +127,7 @@ function CoverStory() {
         </div>
         <div>
           <dt>数据快照</dt>
-          <dd className="mono" style={{ fontSize: '0.85rem', fontFamily: 'var(--font-mono)' }}>
-            {data.snapshotDate}
-          </dd>
+          <dd className="mono">{data.snapshotDate}</dd>
         </div>
         <div className="hero__stats-more">
           <Link className="btn btn--sm btn--quiet" to="/discover">
@@ -137,6 +139,36 @@ function CoverStory() {
         </div>
       </dl>
     </section>
+  );
+}
+
+/** The marquee under the cover: facts, not decoration. */
+function Ticker() {
+  const data = useDataReady();
+  const issue = currentIssue();
+  const hot = weeklyHot(data, 3);
+  const items = [
+    `第 ${String(issue.number).padStart(3, '0')} 期`,
+    `收录 ${data.projects.length} 个项目`,
+    `${data.categories.length} 个分类`,
+    `自动收录 ${data.projects.filter((p) => p.review.mode === 'auto').length} 个`,
+    `本周热门 ${hot.map((p) => p.name).join(' · ')}`,
+    `数据快照 ${data.snapshotDate}`,
+    '未知就是未知',
+    '不伪造 Star 与评分',
+  ];
+  const track = [...items, ...items];
+  return (
+    <div className="ticker" aria-hidden="true">
+      <div className="ticker__track">
+        {track.map((item, i) => (
+          <span className="ticker__item" key={`${item}-${i}`}>
+            <b>✦</b>
+            {item}
+          </span>
+        ))}
+      </div>
+    </div>
   );
 }
 
@@ -231,14 +263,8 @@ function HomeInner() {
 
   return (
     <>
-      <div className="standfirst">
-        <span className="standfirst__note">一本每天更新的独立数字杂志，专门发现值得使用的开源项目与互联网工具。</span>
-        <span>
-          收录 {data.projects.length} · 分类 {data.categories.length} · 快照 {data.snapshotDate}
-        </span>
-      </div>
-
       <CoverStory />
+      <Ticker />
 
       <Section num="01" title="最新收录" note="按进入清单的时间排列。新不代表好，只是我们刚刚读到它。" more={{ to: '/discover?sort=newest', label: '全部项目' }}>
         <div className="index-list">

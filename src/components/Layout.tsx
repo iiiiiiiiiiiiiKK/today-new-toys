@@ -73,17 +73,18 @@ export function Layout({ children }: { children: ReactNode }) {
         <div className="shell masthead__bar">
           <div className="masthead__brand">
             <Link to="/" className="brand" aria-label="今天又有什么新玩具，返回首页">
-              <span className="brand__cn">
-                今天又有什么<span className="brand__accent">新玩具</span>
+              <span className="logo-mark" aria-hidden="true">新</span>
+              <span className="brand__text">
+                <span className="brand__cn">
+                  今天又有什么<span className="brand__accent">新玩具</span>
+                </span>
+                <span className="brand__en">A daily magazine of open-source toys</span>
               </span>
-              <span className="brand__en">A daily magazine of open-source toys &amp; internet tools</span>
             </Link>
             <p className="masthead__dateline">
               <span>{issue.id}</span>
               <span className="dot">·</span>
               <span>{dateLabel}</span>
-              <span className="dot masthead__freq">·</span>
-              <span className="masthead__freq">每天更新</span>
             </p>
           </div>
 
@@ -116,7 +117,6 @@ export function Layout({ children }: { children: ReactNode }) {
             </nav>
           </div>
         </div>
-        <div className="shell masthead__rule rule rule--ink" />
       </header>
 
       <main id="main" className="shell page">

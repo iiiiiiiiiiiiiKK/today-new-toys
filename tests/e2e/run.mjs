@@ -302,7 +302,10 @@ async function main() {
     const overflow = await mobile.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
     assert(overflow <= 1, `横向溢出 ${overflow}px`);
     // The editorial index must collapse to one column on a phone.
-    const cols = await mobile.evaluate(() => getComputedStyle(document.querySelector('.index-list')).gridTemplateColumns.split(' ').length);
+    await mobile.waitForSelector('.index-list .index-row', { timeout: 15000 });
+    const cols = await mobile.evaluate(
+      () => getComputedStyle(document.querySelector('.index-list')).gridTemplateColumns.split(' ').length,
+    );
     assert(cols === 1, `移动端索引列数 ${cols}`);
     // Every row's thumbnail and text must sit side by side inside the viewport.
     const rowBox = await mobile.locator('.index-row').first().boundingBox();
@@ -313,7 +316,10 @@ async function main() {
     const masthead = await mobile.locator('.masthead').boundingBox();
     assert(masthead && masthead.height < 180, `移动端头部过高 ${masthead && masthead.height}px`);
     await mobile.goto(`${BASE}/discover`, { waitUntil: 'networkidle' });
-    const gridCols = await mobile.evaluate(() => getComputedStyle(document.querySelector('.grid--3')).gridTemplateColumns.split(' ').length);
+    await mobile.waitForSelector('.grid--3 .project-card', { timeout: 15000 });
+    const gridCols = await mobile.evaluate(
+      () => getComputedStyle(document.querySelector('.grid--3')).gridTemplateColumns.split(' ').length,
+    );
     assert(gridCols === 1, `发现页网格列数 ${gridCols}`);
     const overflow2 = await mobile.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
     assert(overflow2 <= 1, `发现页横向溢出 ${overflow2}px`);

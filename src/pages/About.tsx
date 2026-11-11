@@ -99,7 +99,9 @@ function AboutInner() {
         <p className="about-hero__label">
           ABOUT <span aria-hidden="true">/</span> EDITORIAL POLICY
         </p>
-        <h1 className="about-hero__title">我们只写能核实的事。</h1>
+        <h1 className="about-hero__title">
+          我们只写<span className="hl">能核实</span>的事。
+        </h1>
         <p className="about-hero__lede">
           这是一个中文的开源项目与互联网工具发现站。我们打开项目、阅读说明、核对公开信息，再决定是否把它放进清单。
         </p>

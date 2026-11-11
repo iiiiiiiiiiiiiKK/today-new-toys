@@ -32,8 +32,8 @@ for (const vp of viewports) {
         if (r.width === 0 || r.height === 0) continue;
         if (r.right > vw + 2 || r.left < -2) {
           const text = (el.textContent || '').trim().slice(0, 40);
-          // Chip rails scroll horizontally by design; the page itself must not overflow.
-          if (text && !el.closest('.filters__chips')) out.clipped.push(`${el.tagName}.${el.className}: ${text} [${Math.round(r.left)}..${Math.round(r.right)}]`);
+          // Chip rails and the ticker scroll horizontally by design; the page itself must not overflow.
+          if (text && !el.closest('.filters__chips') && !el.closest('.ticker')) out.clipped.push(`${el.tagName}.${el.className}: ${text} [${Math.round(r.left)}..${Math.round(r.right)}]`);
         }
         const cs = getComputedStyle(el);
         const fs = parseFloat(cs.fontSize);
@@ -74,7 +74,7 @@ const page = await ctx.newPage();
 await page.goto(BASE, { waitUntil: 'networkidle' });
 await page.evaluate(() => document.fonts.ready);
 const fonts = await page.evaluate(() =>
-  ['Noto Serif SC', 'Instrument Serif', 'JetBrains Mono'].map((f) => ({
+  ['Archivo Black', 'JetBrains Mono'].map((f) => ({
     family: f,
     loaded: document.fonts.check(`16px "${f}"`),
   })),

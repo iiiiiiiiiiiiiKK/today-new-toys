@@ -193,7 +193,15 @@ function ProjectInner() {
           <p className="mono">FIG. 01{shot ? ` · ${shot.origin === 'og' ? 'REPO PREVIEW' : 'LIVE CAPTURE'}` : ''}</p>
         </div>
         <figure className="project__shot">
-          <Cover src={shot?.src || null} alt={shot?.alt || `${project.name} 官方页面`} name={project.name} ratio="16x10" label={shot?.origin === 'og' ? 'REPO PREVIEW' : shot ? 'LIVE CAPTURE' : undefined} labelTone="muted" />
+          <div className="frame">
+            <div className="frame__bar" aria-hidden="true">
+              <span className="frame__dot" />
+              <span className="frame__dot" />
+              <span className="frame__dot" />
+              <span className="frame__url">{project.officialUrl?.replace(/^https?:\/\//, '') || project.repo.fullName}</span>
+            </div>
+            <Cover src={shot?.src || null} alt={shot?.alt || `${project.name} 官方页面`} name={project.name} ratio="16x10" />
+          </div>
           <figcaption>
             {shot ? (
               <>
