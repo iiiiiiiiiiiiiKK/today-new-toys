@@ -1,6 +1,7 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import { HomePage } from './pages/Home';
+import { RankingsPage } from './pages/Rankings';
 import { DiscoverPage } from './pages/Discover';
 import { CategoriesPage } from './pages/Categories';
 import { CategoryPage } from './pages/CategoryPage';
@@ -14,6 +15,7 @@ export default function App() {
     <Layout>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/rankings" element={<RankingsPage />} />
         <Route path="/discover" element={<DiscoverPage />} />
         <Route path="/categories" element={<CategoriesPage />} />
         <Route path="/category/:id" element={<CategoryPage />} />

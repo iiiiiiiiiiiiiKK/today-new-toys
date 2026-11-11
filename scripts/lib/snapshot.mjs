@@ -6,6 +6,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { digestReadme, parseRepoInput, repoRecord } from './github.mjs';
 import { PATHS, readJson, writeJson } from './fs.mjs';
+import { fetchActivity, fetchCommitTotal, fetchReleases, recordStarHistory } from './signals.mjs';
 
 export async function captureSnapshot({ slug, repoInput, client, logger }) {
   const parsed = parseRepoInput(repoInput);
@@ -30,6 +31,15 @@ export async function captureSnapshot({ slug, repoInput, client, logger }) {
   if (!readme.ok) record.warnings.push('README 读取失败，摘要只能基于仓库元信息');
   if (!record.license.spdx) record.warnings.push('仓库未声明可识别的开源许可证');
 
+  // ---- momentum signals (each is optional; null means "we could not measure it") ----
+  const [activity, releases, commitTotal] = await Promise.all([
+    fetchActivity(client, parsed.owner, parsed.repo),
+    fetchReleases(client, parsed.owner, parsed.repo),
+    fetchCommitTotal(client, parsed.owner, parsed.repo),
+  ]);
+  // Record today's star count so future runs can compute real day/week/month deltas.
+  recordStarHistory(slug, record);
+
   mkdirSync(join(PATHS.root, 'data', 'repo'), { recursive: true });
   writeJson(outFile, {
     slug,
@@ -37,6 +47,9 @@ export async function captureSnapshot({ slug, repoInput, client, logger }) {
     fetchedAt: record.fetchedAt,
     github: record,
     defaultBranch: branch,
+    activity,
+    releases,
+    commitTotal,
     readme: {
       path: readme.path,
       via: readme.via,

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T11:49:25.728Z",
-  "snapshotDate": "2026-10-27",
+  "generatedAt": "2026-11-11T23:00:10.116Z",
+  "snapshotDate": "2026-11-11",
   "counts": {
     "projects": 39,
     "categories": 10
@@ -82,6 +82,14 @@
     42,
     93
   ],
+  "rankCoverage": {
+    "day": 0,
+    "week": 0,
+    "month": 0,
+    "stars": 39,
+    "releases": 33,
+    "commits": 39
+  },
   "projects": [
     {
       "slug": "ollama",
@@ -163,6 +171,26 @@
       },
       "popularityScore": 527,
       "weeklyScore": 647,
+      "momentum": {
+        "stars": 186680,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 24,
+        "commits4w": 102,
+        "commits52w": 1207,
+        "commitTotal": 5991,
+        "latestRelease": {
+          "tag": "v0.40.16",
+          "name": "v0.40.16",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+          "publishedAt": "2026-11-09T18:21:19Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "AI 工具",
       "license": {
         "spdx": "MIT",
@@ -176,24 +204,23 @@
         "url": "https://github.com/ollama/ollama",
         "homepage": "https://ollama.com",
         "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-        "stars": 184639,
-        "forks": 18540,
-        "openIssues": 4412,
+        "stars": 186680,
+        "forks": 19024,
+        "openIssues": 4623,
         "language": "Go",
         "topics": [
           "deepseek",
           "gemma",
-          "gemma3",
           "glm",
           "go",
           "golang",
           "gpt-oss",
           "llama",
-          "llama3",
           "llm",
           "llms",
           "minimax",
           "mistral",
+          "muse",
           "ollama",
           "qwen"
         ],
@@ -203,9 +230,9 @@
           "url": null
         },
         "createdAt": "2023-06-26T19:39:32Z",
-        "pushedAt": "2026-10-24T17:47:05Z",
+        "pushedAt": "2026-11-11T20:39:35Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:27.860Z",
+        "fetchedAt": "2026-11-11T21:50:27.361Z",
         "source": "api",
         "warnings": []
       },
@@ -254,8 +281,8 @@
           "Database & Embeddings",
           "Infrastructure & Deployment"
         ],
-        "chars": 8718,
-        "fetchedAt": "2026-10-24T17:55:27.860Z",
+        "chars": 8763,
+        "fetchedAt": "2026-11-11T21:50:27.361Z",
         "truncated": true
       },
       "updatedAt": "2026-10-25"
@@ -346,8 +373,28 @@
         "reviewedAt": "2026-10-25",
         "todo": "下期核对插件市场链接与 Enterprise 定价页是否仍公开"
       },
-      "popularityScore": 519,
-      "weeklyScore": 639,
+      "popularityScore": 520,
+      "weeklyScore": 640,
+      "momentum": {
+        "stars": 158410,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 292,
+        "commits4w": 1184,
+        "commits52w": 6502,
+        "commitTotal": 20598,
+        "latestRelease": {
+          "tag": "v0.13.3",
+          "name": "v0.13.3",
+          "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.3",
+          "publishedAt": "2026-11-08T23:48:24Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "AI 工具",
       "license": {
         "spdx": null,
@@ -362,10 +409,10 @@
         "url": "https://github.com/open-webui/open-webui",
         "homepage": "https://openwebui.com",
         "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-        "stars": 156644,
-        "forks": 22800,
-        "openIssues": 227,
-        "language": "Python",
+        "stars": 158410,
+        "forks": 23033,
+        "openIssues": 288,
+        "language": "Svelte",
         "topics": [
           "ai",
           "llm",
@@ -390,11 +437,13 @@
           "url": "https://github.com/open-webui/open-webui/blob/main/LICENSE"
         },
         "createdAt": "2023-10-06T22:08:27Z",
-        "pushedAt": "2026-10-24T06:04:47Z",
+        "pushedAt": "2026-11-11T08:00:11Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:25.630Z",
+        "fetchedAt": "2026-11-11T21:49:57.648Z",
         "source": "api",
-        "warnings": []
+        "warnings": [
+          "仓库未声明可识别的开源许可证"
+        ]
       },
       "screenshots": [
         {
@@ -409,30 +458,20 @@
       ],
       "readme": {
         "path": "README.md",
-        "excerpt": "Open WebUI 👋 Open WebUI is a home for AI , a self-hosted AI platform that's extensible , feature-rich , user-friendly, and built to run entirely offline . With support for Ollama and OpenAI-compatible APIs , it gives you a powerful, provider-agnostic interface for both local and cloud-based models. Passionate about open-source AI? Join our team → [!TIP] Looking for an Enterprise Plan? – Speak with Our Sales Team Today! For more information, be sure to check out our Open WebUI Documentation. Key Features of Open WebUI ⭐ - 🚀 Effortless Setup : Install seamlessly via pip, uv, Docker, or Kubernetes (kubectl, kustomize, or helm), with `:ollama` and `:cuda` tagged images available for container deployments. - 🤝 Broad Model & API Integration : Connect any OpenAI-compatible API alongside local Ollama models. Point the API URL at LMStudio, GroqCloud, Mistral, OpenRouter, vLLM, and more to mix and match providers freely. - 🔐 Granular RBAC & User Groups : Administrators define detailed roles, groups, and permissions, giving each user exactly the access they need. Secure by default, with tailored experiences per group. - 🧩 Plugin Support : Extend Open WebUI with Filters , Actions , Pipes , Tools , and Skills . Connect external services through MCP , MCPO , and OpenAPI tool servers . Build custom integrations, rate limits, approval flows, data connections, and more. - 🤖 Models & Agent",
+        "excerpt": "Open WebUI Open WebUI is a home for AI : an extensible, easy-to-use, self-hosted platform built to run entirely offline. Connect local models through Ollama or use OpenAI-compatible APIs for local and cloud models. English 简体中文 繁體中文 한국어 Deutsch Español Français Italiano Dansk 日本語 Polski Русский Bosanski العربية Norsk Português (Brasil) ไทย Türkçe Українська বাংলা Ελληνικά Tiếng Việt Explore Open WebUI → Installation Python Then open http://localhost:8080. Docker Then open http://localhost:3000. Image tag Includes --------- ---------------------------------------------------------------------------------------- `:main` Standard image with local AI dependencies `:slim` Lightweight image using external services for embeddings, document extraction, and voice `:cuda` Open WebUI with CUDA acceleration `:ollama` Open WebUI bundled with Ollama `:dev` Latest development build Add these options to `docker run` before the image name as needed: Option Purpose ---------------------------------------------------- ---------------------------------------------------------------------------------------- `-e OLLAMA BASE URL=http://your-ollama-server:11434` Connect to Ollama on another server `-e OPENAI API KEY=your secret key` Set your OpenAI API key `-e HF HUB OFFLINE=1` Disable Hugging Face model downloads for offline use `--gpus all` Enable Nvidia GPU access for `:cuda` or `:ollama`; requires",
         "headings": [
-          "Open WebUI 👋",
-          "Key Features of Open WebUI ⭐",
-          "The Open WebUI Ecosystem 🌐",
-          "How to Install 🚀",
-          "Installation via Python pip 🐍",
-          "Quick Start with Docker 🐳",
-          "Installation with Default Configuration",
-          "Installation for OpenAI API Usage Only",
-          "Installing Open WebUI with Bundled Ollama Support",
-          "Other Installation Methods",
-          "Troubleshooting",
-          "Keeping Your Docker Installation Up-to-Date",
-          "Using the Dev Branch 🌙",
-          "Offline Mode",
-          "What's Next? 🌟",
-          "License 📜",
-          "Support 💬",
-          "Security 🛡️",
+          "Installation",
+          "With uv installed (macOS/Linux)",
+          "Or install and run with pip (Python 3.12)",
+          "Ecosystem",
+          "Troubleshooting and Updates",
+          "Documentation",
+          "Support",
+          "Security",
           "Star History"
         ],
-        "chars": 13648,
-        "fetchedAt": "2026-10-24T17:55:25.630Z",
+        "chars": 3747,
+        "fetchedAt": "2026-11-11T21:49:57.648Z",
         "truncated": true
       },
       "updatedAt": "2026-10-25"
@@ -516,6 +555,26 @@
       },
       "popularityScore": 513,
       "weeklyScore": 633,
+      "momentum": {
+        "stars": 135514,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 3,
+        "commits4w": 23,
+        "commits52w": 283,
+        "commitTotal": 4149,
+        "latestRelease": {
+          "tag": "v0.18.1",
+          "name": "v0.18.1",
+          "url": "https://github.com/excalidraw/excalidraw/releases/tag/v0.18.1",
+          "publishedAt": "2026-04-21T08:43:20Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "创意与设计",
       "license": {
         "spdx": "MIT",
@@ -529,9 +588,9 @@
         "url": "https://github.com/excalidraw/excalidraw",
         "homepage": "https://excalidraw.com",
         "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
-        "stars": 134483,
-        "forks": 15813,
-        "openIssues": 3411,
+        "stars": 135514,
+        "forks": 16113,
+        "openIssues": 3520,
         "language": "TypeScript",
         "topics": [
           "canvas",
@@ -548,9 +607,9 @@
           "url": null
         },
         "createdAt": "2020-01-02T01:04:43Z",
-        "pushedAt": "2026-10-23T15:10:12Z",
+        "pushedAt": "2026-11-11T12:53:18Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:35.411Z",
+        "fetchedAt": "2026-11-11T21:51:20.297Z",
         "source": "api",
         "warnings": []
       },
@@ -580,7 +639,7 @@
           "Thank you for supporting Excalidraw"
         ],
         "chars": 2508,
-        "fetchedAt": "2026-10-24T17:55:35.411Z",
+        "fetchedAt": "2026-11-11T21:51:20.297Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -664,8 +723,28 @@
         "reviewedAt": "2026-10-24",
         "todo": "确认 demo 凭据是否仍有效"
       },
-      "popularityScore": 507,
-      "weeklyScore": 627,
+      "popularityScore": 508,
+      "weeklyScore": 628,
+      "momentum": {
+        "stars": 118880,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 114,
+        "commits4w": 319,
+        "commits52w": 2957,
+        "commitTotal": 11565,
+        "latestRelease": {
+          "tag": "v3.4.1",
+          "name": "v3.4.1",
+          "url": "https://github.com/immich-app/immich/releases/tag/v3.4.1",
+          "publishedAt": "2026-11-11T18:27:16Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "自托管项目",
       "license": {
         "spdx": "AGPL-3.0",
@@ -679,9 +758,9 @@
         "url": "https://github.com/immich-app/immich",
         "homepage": "https://immich.app",
         "description": "High performance self-hosted photo and video management solution.",
-        "stars": 117091,
-        "forks": 7329,
-        "openIssues": 724,
+        "stars": 118880,
+        "forks": 7560,
+        "openIssues": 664,
         "language": "TypeScript",
         "topics": [
           "backup-tool",
@@ -707,9 +786,9 @@
           "url": null
         },
         "createdAt": "2022-02-03T15:56:27Z",
-        "pushedAt": "2026-10-24T15:51:30Z",
+        "pushedAt": "2026-11-11T21:51:27Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:44.036Z",
+        "fetchedAt": "2026-11-11T21:51:48.784Z",
         "source": "api",
         "warnings": []
       },
@@ -726,7 +805,7 @@
       ],
       "readme": {
         "path": "README.md",
-        "excerpt": "High performance self-hosted photo and video management solution Català Español Français Italiano 日本語 한국어 Deutsch Nederlands Türkçe 简体中文 正體中文 Українська Русский Български Português Brasileiro Svenska العربية Tiếng Việt ภาษาไทย മലയാളം [!WARNING] ⚠️ Always follow 3-2-1 backup plan for your precious photos and videos! [!NOTE] You can find the main documentation, including installation guides, at https://immich.app/. Links - Documentation - About - Installation - Roadmap - Demo - Features - Translations - Contributing Demo Access the demo here. For the mobile app, you can use `https://demo.immich.app` for the `Server Endpoint URL`. Login credentials Email Password --------------- -------- demo@immich.app demo Features Features Mobile Web :------------------------------------------- ------ --- Upload and view videos and photos Yes Yes Auto backup when the app is opened Yes N/A Prevent duplication of assets Yes Yes Selective album(s) for backup Yes N/A Download photos and videos to local device Yes Yes Multi-user support Yes Yes Album and Shared albums Yes Yes Scrubbable/draggable scrollbar Yes Yes Support raw formats Yes Yes Metadata view (EXIF, map) Yes Yes Search by metadata, objects, faces, and CLIP Yes Yes Administrative functions (user management) No Yes Background backup Yes N/A Virtual scroll Yes Yes OAuth support Yes Yes API Keys N/A Yes LivePhoto/MotionPhoto backup and play",
+        "excerpt": "High performance self-hosted photo and video management solution Català Español Français Italiano 日本語 한국어 Deutsch Nederlands Türkçe 简体中文 正體中文 Українська Русский Български Polski Português Brasileiro Svenska العربية Tiếng Việt ภาษาไทย മലയാളം [!WARNING] ⚠️ Always follow 3-2-1 backup plan for your precious photos and videos! [!NOTE] You can find the main documentation, including installation guides, at https://immich.app/. Links - Documentation - About - Installation - Roadmap - Demo - Features - Translations - Contributing Demo Access the demo here. For the mobile app, you can use `https://demo.immich.app` for the `Server Endpoint URL`. Login credentials Email Password --------------- -------- demo@immich.app demo Features Features Mobile Web :------------------------------------------- ------ --- Upload and view videos and photos Yes Yes Auto backup when the app is opened Yes N/A Prevent duplication of assets Yes Yes Selective album(s) for backup Yes N/A Download photos and videos to local device Yes Yes Multi-user support Yes Yes Album and Shared albums Yes Yes Scrubbable/draggable scrollbar Yes Yes Support raw formats Yes Yes Metadata view (EXIF, map) Yes Yes Search by metadata, objects, faces, and CLIP Yes Yes Administrative functions (user management) No Yes Background backup Yes N/A Virtual scroll Yes Yes OAuth support Yes Yes API Keys N/A Yes LivePhoto/MotionPhoto backup a",
         "headings": [
           "Links",
           "Demo",
@@ -736,8 +815,8 @@
           "Repository activity",
           "Contributors"
         ],
-        "chars": 3000,
-        "fetchedAt": "2026-10-24T17:55:44.036Z",
+        "chars": 3011,
+        "fetchedAt": "2026-11-11T21:51:48.784Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -820,8 +899,28 @@
         "reviewedAt": "2026-10-24",
         "todo": "复查各平台安装包链接"
       },
-      "popularityScore": 498,
-      "weeklyScore": 618,
+      "popularityScore": 499,
+      "weeklyScore": 619,
+      "momentum": {
+        "stars": 98477,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 10,
+        "commits4w": 33,
+        "commits52w": 379,
+        "commitTotal": 2201,
+        "latestRelease": {
+          "tag": "v1.18.2",
+          "name": "v1.18.2",
+          "url": "https://github.com/localsend/localsend/releases/tag/v1.18.2",
+          "publishedAt": "2026-08-21T14:02:01Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "效率工具",
       "license": {
         "spdx": "Apache-2.0",
@@ -835,9 +934,9 @@
         "url": "https://github.com/localsend/localsend",
         "homepage": "https://localsend.org",
         "description": "An open-source cross-platform alternative to AirDrop",
-        "stars": 95447,
-        "forks": 5370,
-        "openIssues": 1029,
+        "stars": 98477,
+        "forks": 5623,
+        "openIssues": 1032,
         "language": "Dart",
         "topics": [
           "dart",
@@ -851,9 +950,9 @@
           "url": null
         },
         "createdAt": "2022-12-16T00:46:07Z",
-        "pushedAt": "2026-10-21T10:17:17Z",
+        "pushedAt": "2026-11-11T03:19:56Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:31.809Z",
+        "fetchedAt": "2026-11-11T21:51:01.260Z",
         "source": "api",
         "warnings": []
       },
@@ -894,8 +993,8 @@
           "Linux",
           "Contributors"
         ],
-        "chars": 12156,
-        "fetchedAt": "2026-10-24T17:55:31.809Z",
+        "chars": 12295,
+        "fetchedAt": "2026-11-11T21:51:01.260Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -965,8 +1064,28 @@
         "reviewedAt": "2026-10-25",
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
-      "popularityScore": 558,
-      "weeklyScore": 678,
+      "popularityScore": 566,
+      "weeklyScore": 686,
+      "momentum": {
+        "stars": 452523,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 536,
+        "commits4w": 3992,
+        "commits52w": 6921,
+        "commitTotal": 7270,
+        "latestRelease": {
+          "tag": "rea-agents-6.8.0",
+          "name": "rea-agents: v6.8.0",
+          "url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.8.0",
+          "publishedAt": "2026-10-25T08:36:02Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "AI 工具",
       "license": {
         "spdx": "MIT",
@@ -980,31 +1099,31 @@
         "url": "https://github.com/morluto/rea",
         "homepage": "https://rea.tools",
         "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-        "stars": 383297,
-        "forks": 95909,
-        "openIssues": 1071,
+        "stars": 452523,
+        "forks": 111266,
+        "openIssues": 1709,
         "language": "TypeScript",
         "topics": [
           "agent-skills",
-          "ai-agents",
-          "binary-analysis",
+          "ai",
+          "android",
           "claude-code",
           "cli",
-          "codex",
-          "cordis",
-          "decompiler",
-          "developer-tools",
-          "dsh",
+          "cpp",
           "dsh-plugin",
-          "ghidra",
-          "hopper",
-          "llm",
+          "html",
+          "java",
+          "javascript",
+          "linux",
           "mcp",
-          "model-context-protocol",
+          "nodejs",
+          "python",
           "rea",
-          "reverse-engineering",
-          "static-analysis",
-          "touhou"
+          "react",
+          "rust",
+          "security",
+          "touhou",
+          "typescript"
         ],
         "license": {
           "spdx": "MIT",
@@ -1012,9 +1131,9 @@
           "url": null
         },
         "createdAt": "2026-04-14T00:51:32Z",
-        "pushedAt": "2026-10-25T17:42:52Z",
+        "pushedAt": "2026-11-11T21:53:01Z",
         "archived": false,
-        "fetchedAt": "2026-10-25T17:47:00.552Z",
+        "fetchedAt": "2026-11-11T21:57:16.640Z",
         "source": "api",
         "warnings": []
       },
@@ -1030,7 +1149,7 @@
       ],
       "readme": {
         "path": "README.md",
-        "excerpt": "English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی · Bahasa Indonesia · Italiano · Ελληνικά · മലയാളം · Roman Urdu · Română REA: Reverse Engineer Anything One MCP for reverse engineering across binaries, applications, and runtime behavior. See a feature you like. Understand how it works, down to the binary level. Website · Guides · Showcases Quick start · How REA works · What you can analyze · Showcases · Build RL environments · FAQ · Documentation npx rea-agents setup [!IMPORTANT] Get REA from morluto/rea, rea.tools, or the rea-agents npm package. Follow the installation and release links from these official sources. A similar repository name or copied README does not establish that a download is official. Join the Reverse Engineering Community Discord · Q&amp;A · Show and Tell --- See a feature in an app that you want in your own product? Ask your agent to investigate it with REA. It can inspect the app without its source code, explain how the feature works, show the evidence, and build a version for your project. REA connects your agent to tools for inspecting native binaries, JavaScript and Electron apps, .NET assemblies, and websites. You can also use the same tools from your terminal. Analysis runs locally, and results include the evidence and limitations behind",
+        "excerpt": "English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی · Bahasa Indonesia · Italiano · Ελληνικά · മലയാളം · Roman Urdu · Română · Български REA: Reverse Engineer Anything One MCP for reverse engineering across binaries, applications, and runtime behavior. See a feature you like. Understand how it works, down to the binary level. Website · Guides · Showcases Quick start · How REA works · What you can analyze · Showcases · Build RL environments · FAQ · Documentation npx rea-agents setup [!IMPORTANT] Get REA from morluto/rea, rea.tools, or the rea-agents npm package. Follow the installation and release links from these official sources. A similar repository name or copied README does not establish that a download is official. Join the Reverse Engineering Community Discord · Q&amp;A · Show and Tell --- See a feature in an app that you want in your own product? Ask your agent to investigate it with REA. It can inspect the app without its source code, explain how the feature works, show the evidence, and build a version for your project. REA connects your agent to tools for inspecting native binaries, JavaScript and Electron apps, .NET assemblies, and websites. You can also use the same tools from your terminal. Analysis runs locally, and results include the evidence and limita",
         "headings": [
           "REA: Reverse Engineer Anything",
           "One MCP for reverse engineering across binaries, applications, and runtime behavior.",
@@ -1047,6 +1166,7 @@
           "TH04: recover a DOS bullet-ring calculation",
           "Build RL environments with REA",
           "Build RL environments",
+          "Desktop app environments",
           "FAQ",
           "Documentation",
           "Star history",
@@ -1054,8 +1174,8 @@
           "Contributing",
           "License"
         ],
-        "chars": 21354,
-        "fetchedAt": "2026-10-25T17:47:00.552Z",
+        "chars": 24445,
+        "fetchedAt": "2026-11-11T21:57:16.640Z",
         "truncated": true
       },
       "updatedAt": "2026-10-25"
@@ -1125,8 +1245,28 @@
         "reviewedAt": "2026-10-25",
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
-      "popularityScore": 546,
-      "weeklyScore": 666,
+      "popularityScore": 548,
+      "weeklyScore": 668,
+      "momentum": {
+        "stars": 301321,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 2,
+        "commits4w": 374,
+        "commits52w": 4327,
+        "commitTotal": 4327,
+        "latestRelease": {
+          "tag": "v2.2.3",
+          "name": "v2.2.3",
+          "url": "https://github.com/affaan-m/ECC/releases/tag/v2.2.3",
+          "publishedAt": "2026-10-01T23:00:36Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "效率工具",
       "license": {
         "spdx": "MIT",
@@ -1140,9 +1280,9 @@
         "url": "https://github.com/affaan-m/ECC",
         "homepage": "https://ecc.tools",
         "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "stars": 288643,
-        "forks": 42797,
-        "openIssues": 309,
+        "stars": 301321,
+        "forks": 44457,
+        "openIssues": 271,
         "language": "JavaScript",
         "topics": [
           "ai-agents",
@@ -1160,9 +1300,9 @@
           "url": null
         },
         "createdAt": "2026-01-18T00:51:51Z",
-        "pushedAt": "2026-10-20T23:08:28Z",
+        "pushedAt": "2026-11-09T04:56:24Z",
         "archived": false,
-        "fetchedAt": "2026-10-25T17:47:27.279Z",
+        "fetchedAt": "2026-11-11T21:57:19.268Z",
         "source": "api",
         "warnings": []
       },
@@ -1221,8 +1361,8 @@
           "Write a handoff body to a regular file, then target the next harness.",
           "Recall it from another harness."
         ],
-        "chars": 72758,
-        "fetchedAt": "2026-10-25T17:47:27.279Z",
+        "chars": 73566,
+        "fetchedAt": "2026-11-11T21:57:19.268Z",
         "truncated": true
       },
       "updatedAt": "2026-10-25"
@@ -1302,6 +1442,26 @@
       },
       "popularityScore": 532,
       "weeklyScore": 652,
+      "momentum": {
+        "stars": 210212,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 202,
+        "commits4w": 1395,
+        "commits52w": 10803,
+        "commitTotal": 27209,
+        "latestRelease": {
+          "tag": "stable",
+          "name": "stable",
+          "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+          "publishedAt": "2026-11-11T08:40:18Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "自托管项目",
       "license": {
         "spdx": null,
@@ -1316,9 +1476,9 @@
         "url": "https://github.com/n8n-io/n8n",
         "homepage": "https://n8n.io",
         "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-        "stars": 208563,
-        "forks": 61250,
-        "openIssues": 1249,
+        "stars": 210212,
+        "forks": 61471,
+        "openIssues": 1212,
         "language": "TypeScript",
         "topics": [
           "ai",
@@ -1349,9 +1509,9 @@
           "url": null
         },
         "createdAt": "2019-06-22T09:24:21Z",
-        "pushedAt": "2026-10-25T17:42:46Z",
+        "pushedAt": "2026-11-11T21:42:00Z",
         "archived": false,
-        "fetchedAt": "2026-10-25T17:48:05.518Z",
+        "fetchedAt": "2026-11-11T21:57:05.711Z",
         "source": "api",
         "warnings": [
           "仓库未声明可识别的开源许可证"
@@ -1382,7 +1542,7 @@
           "What does n8n mean?"
         ],
         "chars": 2895,
-        "fetchedAt": "2026-10-25T17:48:05.518Z",
+        "fetchedAt": "2026-11-11T21:57:05.711Z",
         "truncated": true
       },
       "updatedAt": "2026-10-25"
@@ -1461,8 +1621,28 @@
         "reviewedAt": "2026-10-26",
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
-      "popularityScore": 529,
-      "weeklyScore": 649,
+      "popularityScore": 530,
+      "weeklyScore": 650,
+      "momentum": {
+        "stars": 200935,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 48,
+        "commits4w": 273,
+        "commits52w": 2308,
+        "commitTotal": 6837,
+        "latestRelease": {
+          "tag": "v2.11.0",
+          "name": "Firecrawl v2.11.0",
+          "url": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0",
+          "publishedAt": "2026-06-19T15:09:30Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "AI 工具",
       "license": {
         "spdx": "AGPL-3.0",
@@ -1476,9 +1656,9 @@
         "url": "https://github.com/firecrawl/firecrawl",
         "homepage": "https://firecrawl.dev",
         "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
-        "stars": 195398,
-        "forks": 10307,
-        "openIssues": 681,
+        "stars": 200935,
+        "forks": 10556,
+        "openIssues": 792,
         "language": "TypeScript",
         "topics": [
           "ai",
@@ -1507,9 +1687,9 @@
           "url": null
         },
         "createdAt": "2024-04-15T21:02:29Z",
-        "pushedAt": "2026-10-26T04:20:44Z",
+        "pushedAt": "2026-11-11T21:46:16Z",
         "archived": false,
-        "fetchedAt": "2026-10-26T06:16:57.419Z",
+        "fetchedAt": "2026-11-11T21:57:12.510Z",
         "source": "api",
         "warnings": []
       },
@@ -1559,7 +1739,7 @@
           "Crawl a website (automatically waits for completion)"
         ],
         "chars": 6476,
-        "fetchedAt": "2026-10-26T06:16:57.419Z",
+        "fetchedAt": "2026-11-11T21:57:12.510Z",
         "truncated": true
       },
       "updatedAt": "2026-10-26"
@@ -1643,8 +1823,28 @@
         "reviewedAt": "2026-10-24",
         "todo": "确认插件生态与 OCR 插件链接"
       },
-      "popularityScore": 528,
-      "weeklyScore": 648,
+      "popularityScore": 529,
+      "weeklyScore": 649,
+      "momentum": {
+        "stars": 194949,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 3,
+        "commits4w": 9,
+        "commits52w": 134,
+        "commitTotal": 429,
+        "latestRelease": {
+          "tag": "v0.1.9",
+          "name": "Version 0.1.9",
+          "url": "https://github.com/microsoft/markitdown/releases/tag/v0.1.9",
+          "publishedAt": "2026-10-21T19:40:32Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "效率工具",
       "license": {
         "spdx": "MIT",
@@ -1658,9 +1858,9 @@
         "url": "https://github.com/microsoft/markitdown",
         "homepage": null,
         "description": "Python tool for converting files and office documents to Markdown.",
-        "stars": 191944,
-        "forks": 14325,
-        "openIssues": 758,
+        "stars": 194949,
+        "forks": 14701,
+        "openIssues": 806,
         "language": "Python",
         "topics": [
           "autogen",
@@ -1677,9 +1877,9 @@
           "url": null
         },
         "createdAt": "2024-11-13T19:56:40Z",
-        "pushedAt": "2026-10-23T17:04:06Z",
+        "pushedAt": "2026-11-07T00:14:01Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:31.080Z",
+        "fetchedAt": "2026-11-11T21:50:58.196Z",
         "source": "api",
         "warnings": []
       },
@@ -1696,7 +1896,7 @@
       ],
       "readme": {
         "path": "README.md",
-        "excerpt": "MarkItDown [!IMPORTANT] MarkItDown performs I/O with the privileges of the current process. Like open() or requests.get(), it will access resources that the process itself can access. Sanitize your inputs in untrusted environments, and call the narrowest `convert ` function needed for your use case (e.g., `convert stream()`, or `convert local()`). See the Security Considerations section of the documentation for more information. MarkItDown is a lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines. To this end, it is most comparable to textract, but with a focus on preserving important document structure and content as Markdown (including: headings, lists, tables, links, etc.) While the output is often reasonably presentable and human-friendly, it is meant to be consumed by text analysis tools -- and may not be the best option for high-fidelity document conversions for human consumption. MarkItDown currently supports the conversion from: - PDF - PowerPoint - Word - Excel - Images (EXIF metadata and OCR) - Audio (EXIF metadata and speech transcription) - HTML - Text-based formats (CSV, JSON, XML) - ZIP files (iterates over contents) - YouTube URLs - EPubs - ... and more! Why Markdown? Markdown is extremely close to plain text, with minimal markup or formatting, but still provides a way to represent important doc",
+        "excerpt": "MarkItDown [!IMPORTANT] MarkItDown performs I/O with the privileges of the current process. Like open() or requests.get(), it will access resources that the process itself can access. Sanitize your inputs in untrusted environments, and call the narrowest `convert ` function needed for your use case (e.g., `convert stream()`, or `convert local()`). See the Security Considerations section of the documentation for more information. MarkItDown is a lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines. To this end, it is most comparable to textract, but with a focus on preserving important document structure and content as Markdown (including: headings, lists, tables, links, etc.) While the output is often reasonably presentable and human-friendly, it is meant to be consumed by text analysis tools -- and may not be the best option for high-fidelity document conversions for human consumption. MarkItDown currently supports the conversion from: - PDF - PowerPoint - Word - Excel - Images (EXIF metadata and captioning) - Audio (EXIF metadata and speech transcription) - HTML - Text-based formats (CSV, JSON, XML) - ZIP files (iterates over contents) - YouTube URLs - EPubs - ... and more! NOTE: Image captioning and speech transcription rely on web-hosted services. Why Markdown? Markdown is extremely close to plain text, wi",
         "headings": [
           "MarkItDown",
           "Why Markdown?",
@@ -1716,7 +1916,6 @@
           "VendorName: CONTOSO LTD.",
           "InvoiceDate: '2019-11-15'",
           "---",
-          "<!-- page 1 -->",
           "...",
           "Azure Document Intelligence",
           "Python API",
@@ -1729,8 +1928,8 @@
           "Security Considerations",
           "Trademarks"
         ],
-        "chars": 14748,
-        "fetchedAt": "2026-10-24T17:55:31.080Z",
+        "chars": 15085,
+        "fetchedAt": "2026-11-11T21:50:58.196Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -1811,6 +2010,19 @@
       },
       "popularityScore": 528,
       "weeklyScore": 648,
+      "momentum": {
+        "stars": 190571,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 6,
+        "commits4w": 19,
+        "commits52w": 375,
+        "commitTotal": 8009,
+        "latestRelease": null,
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "效率工具",
       "license": {
         "spdx": "MIT",
@@ -1824,9 +2036,9 @@
         "url": "https://github.com/ohmyzsh/ohmyzsh",
         "homepage": "https://ohmyz.sh",
         "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
-        "stars": 190164,
-        "forks": 28613,
-        "openIssues": 294,
+        "stars": 190571,
+        "forks": 27307,
+        "openIssues": 311,
         "language": "Shell",
         "topics": [
           "cli",
@@ -1851,9 +2063,9 @@
           "url": null
         },
         "createdAt": "2009-08-28T18:15:37Z",
-        "pushedAt": "2026-10-25T14:39:33Z",
+        "pushedAt": "2026-11-09T12:36:12Z",
         "archived": false,
-        "fetchedAt": "2026-10-26T06:16:45.621Z",
+        "fetchedAt": "2026-11-11T21:57:14.641Z",
         "source": "api",
         "warnings": []
       },
@@ -1900,7 +2112,168 @@
           "About Planet Argon"
         ],
         "chars": 16019,
-        "fetchedAt": "2026-10-26T06:16:45.621Z",
+        "fetchedAt": "2026-11-11T21:57:14.641Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-10-26"
+    },
+    {
+      "slug": "ponytail",
+      "name": "ponytail",
+      "tagline": "开发者工具 · Makes your AI agent think like the laziest se…",
+      "summary": "（自动整理，未经人工校对）ponytail 是一个用 JavaScript 写的开源项目。仓库自述「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote」。已抓取 README 约 7,620 字；其中有「Already built with Ponytail」「Numbers」「Before / after」「The review, rebuilt」「The audit, rebuilt」等章节可对应到具体能力。仓库 Topics 涉及：开发者工具、大语言模型。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "dev-tools",
+      "tags": [
+        "开发者工具",
+        "大语言模型",
+        "MIT"
+      ],
+      "aliases": [
+        "DietrichGebert/ponytail"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Already built with Ponyt",
+          "detail": "（自动整理）README 中有「Already built with Ponytail」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Numbers",
+          "detail": "（自动整理）README 中有「Numbers」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Before / after",
+          "detail": "（自动整理）README 中有「Before / after」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "The review, rebuilt",
+          "detail": "（自动整理）README 中有「The review, rebuilt」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 7620 字，抓取于 2026-10-26）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://ponytail.dev",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/ponytail.jpg",
+          "alt": "ponytail 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-10-26T06:17:07.259Z",
+          "credit": "页面截图：https://ponytail.dev",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-10-26",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-10-26",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 528,
+      "weeklyScore": 588,
+      "momentum": {
+        "stars": 189098,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 0,
+        "commits4w": 25,
+        "commits52w": 369,
+        "commitTotal": 369,
+        "latestRelease": {
+          "tag": "v5.3.3",
+          "name": "v5.3.3",
+          "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.3",
+          "publishedAt": "2026-10-29T03:11:08Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
+      "categoryName": "开发者工具",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "DietrichGebert",
+        "name": "ponytail",
+        "fullName": "DietrichGebert/ponytail",
+        "url": "https://github.com/DietrichGebert/ponytail",
+        "homepage": "https://ponytail.dev",
+        "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+        "stars": 189098,
+        "forks": 10515,
+        "openIssues": 215,
+        "language": "JavaScript",
+        "topics": [
+          "agent-skills",
+          "ai-agents",
+          "claude",
+          "claude-code",
+          "claude-code-plugin",
+          "cursor-rules",
+          "developer-tools",
+          "llm",
+          "prompt-engineering",
+          "yagni"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2026-06-12T00:52:37Z",
+        "pushedAt": "2026-10-29T11:59:31Z",
+        "archived": false,
+        "fetchedAt": "2026-11-11T21:57:24.131Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Ponytail He says nothing. He writes one line. It works. Ponytail 5: rebuilt from the ground up. -53% code &middot; -41% time &middot; -26% cost &middot; -45% tokens And yet: 98% of risky logic ships with a test. Without Ponytail: 68%. Benchmarked in Claude Code, the same agent with and without the skill: 39 tasks including a real FastAPI + React repo, Opus 5.5, 5 runs each. Details . Español &middot; 한국어 &middot; 简体中文 &middot; 日本語 --- Already built with Ponytail --- You know him. Long ponytail. Oval glasses. Has been at the company longer than the version control. You show him fifty lines; he looks at them, says nothing, and replaces them with one. Ponytail puts him inside your AI agent. Numbers Two things the chart does not show: in a blind comparison, Ponytail 5's replies beat the previous Ponytail's 110 to 67. And on the six security tasks (SQL injection, path traversal, forged tokens, rate limiting, malformed CSV rows, caching) it passed all 30 runs: less code, no less safe. Method, per-task tables and limits: benchmarks/results/2026-10-07-agentic.md. The rule was never \"fewest tokens.\" It is: write only what the task needs, and never cut validation, error handling, security, or accessibility. The code ends up small because it is necessary, not golfed. Lower cost and latency are a side effect. Before / after You ask for a date picker. Without Ponytail, the agent installs a ",
+        "headings": [
+          "Already built with Ponytail",
+          "Numbers",
+          "Before / after",
+          "The review, rebuilt",
+          "The audit, rebuilt",
+          "New in 5.3: the band",
+          "How it works",
+          "The prompt",
+          "Install",
+          "Commands",
+          "FAQ",
+          "Sponsors",
+          "License",
+          "Star History"
+        ],
+        "chars": 7644,
+        "fetchedAt": "2026-11-11T21:57:24.131Z",
         "truncated": true
       },
       "updatedAt": "2026-10-26"
@@ -1985,6 +2358,26 @@
       },
       "popularityScore": 527,
       "weeklyScore": 647,
+      "momentum": {
+        "stars": 187999,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 131,
+        "commits4w": 827,
+        "commits52w": 3033,
+        "commitTotal": 10574,
+        "latestRelease": {
+          "tag": "autogpt-platform-beta-v0.11.2",
+          "name": "autogpt-platform-beta-v0.11.2",
+          "url": "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.2",
+          "publishedAt": "2026-11-11T16:51:27Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "AI 工具",
       "license": {
         "spdx": null,
@@ -1999,9 +2392,9 @@
         "url": "https://github.com/Significant-Gravitas/AutoGPT",
         "homepage": "https://agpt.co",
         "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-        "stars": 187783,
-        "forks": 45902,
-        "openIssues": 703,
+        "stars": 187999,
+        "forks": 45876,
+        "openIssues": 717,
         "language": "Python",
         "topics": [
           "agentic-ai",
@@ -2023,9 +2416,9 @@
           "url": null
         },
         "createdAt": "2023-03-16T09:21:07Z",
-        "pushedAt": "2026-10-27T06:16:08Z",
+        "pushedAt": "2026-11-11T21:48:24Z",
         "archived": false,
-        "fetchedAt": "2026-10-27T06:18:28.796Z",
+        "fetchedAt": "2026-11-11T21:57:02.679Z",
         "source": "api",
         "warnings": [
           "仓库未声明可识别的开源许可证"
@@ -2047,152 +2440,11 @@
           "AutoGPT Classic",
           "Contributors"
         ],
-        "chars": 4767,
-        "fetchedAt": "2026-10-27T06:18:28.796Z",
+        "chars": 4865,
+        "fetchedAt": "2026-11-11T21:57:02.679Z",
         "truncated": true
       },
       "updatedAt": "2026-10-27"
-    },
-    {
-      "slug": "ponytail",
-      "name": "ponytail",
-      "tagline": "开发者工具 · Makes your AI agent think like the laziest se…",
-      "summary": "（自动整理，未经人工校对）ponytail 是一个用 JavaScript 写的开源项目。仓库自述「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote」。已抓取 README 约 7,620 字；其中有「Already built with Ponytail」「Numbers」「Before / after」「The review, rebuilt」「The audit, rebuilt」等章节可对应到具体能力。仓库 Topics 涉及：开发者工具、大语言模型。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
-      "category": "dev-tools",
-      "tags": [
-        "开发者工具",
-        "大语言模型",
-        "MIT"
-      ],
-      "aliases": [
-        "DietrichGebert/ponytail"
-      ],
-      "audience": "开发者",
-      "audienceFor": [
-        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
-        "愿意自己读 README 确认细节的开发者"
-      ],
-      "features": [
-        {
-          "title": "Already built with Ponyt",
-          "detail": "（自动整理）README 中有「Already built with Ponytail」章节，此处只标注来源，未展开复述。"
-        },
-        {
-          "title": "Numbers",
-          "detail": "（自动整理）README 中有「Numbers」章节，此处只标注来源，未展开复述。"
-        },
-        {
-          "title": "Before / after",
-          "detail": "（自动整理）README 中有「Before / after」章节，此处只标注来源，未展开复述。"
-        },
-        {
-          "title": "The review, rebuilt",
-          "detail": "（自动整理）README 中有「The review, rebuilt」章节，此处只标注来源，未展开复述。"
-        }
-      ],
-      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 7620 字，抓取于 2026-10-26）汇总；未经人工校对，页面上已标注「自动收录」。",
-      "setup": {
-        "effort": "低门槛",
-        "effortNote": "门槛未评估：请以 README 的安装说明为准",
-        "requires": [],
-        "steps": [
-          {
-            "title": "阅读安装章节",
-            "detail": "（自动整理）README 未提供可识别的安装命令。"
-          }
-        ],
-        "cost": "开源免费（以仓库许可证为准）"
-      },
-      "officialUrl": "https://ponytail.dev",
-      "demoUrl": null,
-      "linkStatus": "unchecked",
-      "linkCheckedAt": null,
-      "featured": false,
-      "screenshots": [
-        {
-          "src": "/shots/ponytail.jpg",
-          "alt": "ponytail 的官方站点截图",
-          "origin": "live",
-          "capturedAt": "2026-10-26T06:17:07.259Z",
-          "credit": "页面截图：https://ponytail.dev",
-          "synthetic": false
-        }
-      ],
-      "addedAt": "2026-10-26",
-      "review": {
-        "status": "published",
-        "mode": "auto",
-        "reviewedBy": "autopipeline",
-        "reviewedAt": "2026-10-26",
-        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
-      },
-      "popularityScore": 525,
-      "weeklyScore": 585,
-      "categoryName": "开发者工具",
-      "license": {
-        "spdx": "MIT",
-        "name": "MIT License",
-        "url": null
-      },
-      "repo": {
-        "owner": "DietrichGebert",
-        "name": "ponytail",
-        "fullName": "DietrichGebert/ponytail",
-        "url": "https://github.com/DietrichGebert/ponytail",
-        "homepage": "https://ponytail.dev",
-        "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-        "stars": 176339,
-        "forks": 9634,
-        "openIssues": 137,
-        "language": "JavaScript",
-        "topics": [
-          "agent-skills",
-          "ai-agents",
-          "claude",
-          "claude-code",
-          "claude-code-plugin",
-          "cursor-rules",
-          "developer-tools",
-          "llm",
-          "prompt-engineering",
-          "yagni"
-        ],
-        "license": {
-          "spdx": "MIT",
-          "name": "MIT License",
-          "url": null
-        },
-        "createdAt": "2026-06-12T00:52:37Z",
-        "pushedAt": "2026-10-18T01:55:14Z",
-        "archived": false,
-        "fetchedAt": "2026-10-26T06:17:02.763Z",
-        "source": "api",
-        "warnings": []
-      },
-      "readme": {
-        "path": "README.md",
-        "excerpt": "Ponytail He says nothing. He writes one line. It works. Ponytail 5: rebuilt from the ground up. -53% code &middot; -41% time &middot; -26% cost &middot; -45% tokens And yet: 98% of risky logic ships with a test. Without Ponytail: 68%. Benchmarked in Claude Code, the same agent with and without the skill: 39 tasks including a real FastAPI + React repo, Opus 5.5, 5 runs each. Details . Español &middot; 한국어 &middot; 简体中文 &middot; 日本語 --- Already built with Ponytail --- You know him. Long ponytail. Oval glasses. Has been at the company longer than the version control. You show him fifty lines; he looks at them, says nothing, and replaces them with one. Ponytail puts him inside your AI agent. Numbers Two things the chart does not show: in a blind comparison, Ponytail 5's replies beat the previous Ponytail's 110 to 67. And on the six security tasks (SQL injection, path traversal, forged tokens, rate limiting, malformed CSV rows, caching) it passed all 30 runs: less code, no less safe. Method, per-task tables and limits: benchmarks/results/2026-10-07-agentic.md. The rule was never \"fewest tokens.\" It is: write only what the task needs, and never cut validation, error handling, security, or accessibility. The code ends up small because it is necessary, not golfed. Lower cost and latency are a side effect. Before / after You ask for a date picker. Without Ponytail, the agent installs a ",
-        "headings": [
-          "Already built with Ponytail",
-          "Numbers",
-          "Before / after",
-          "The review, rebuilt",
-          "The audit, rebuilt",
-          "New in 5.3: the band",
-          "How it works",
-          "The prompt",
-          "Install",
-          "Commands",
-          "FAQ",
-          "Sponsors",
-          "License",
-          "Star History"
-        ],
-        "chars": 7620,
-        "fetchedAt": "2026-10-26T06:17:02.763Z",
-        "truncated": true
-      },
-      "updatedAt": "2026-10-26"
     },
     {
       "slug": "graphify",
@@ -2267,8 +2519,28 @@
         "reviewedAt": "2026-10-27",
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
-      "popularityScore": 513,
-      "weeklyScore": 633,
+      "popularityScore": 516,
+      "weeklyScore": 636,
+      "momentum": {
+        "stars": 146121,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 133,
+        "commits4w": 589,
+        "commits52w": 2988,
+        "commitTotal": 3008,
+        "latestRelease": {
+          "tag": "v0.9.107",
+          "name": "graphify 0.9.107",
+          "url": "https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.107",
+          "publishedAt": "2026-11-11T20:29:19Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "开发者工具",
       "license": {
         "spdx": "Apache-2.0",
@@ -2282,9 +2554,9 @@
         "url": "https://github.com/Graphify-Labs/graphify",
         "homepage": "https://www.graphify.com",
         "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-        "stars": 136342,
-        "forks": 13015,
-        "openIssues": 1646,
+        "stars": 146121,
+        "forks": 14001,
+        "openIssues": 1648,
         "language": "Python",
         "topics": [
           "ai-agents",
@@ -2314,22 +2586,23 @@
           "url": null
         },
         "createdAt": "2026-04-03T15:49:07Z",
-        "pushedAt": "2026-10-26T15:18:22Z",
+        "pushedAt": "2026-11-11T20:54:10Z",
         "archived": false,
-        "fetchedAt": "2026-10-27T06:18:14.858Z",
+        "fetchedAt": "2026-11-11T21:57:21.791Z",
         "source": "api",
         "warnings": []
       },
       "readme": {
         "path": "README.md",
-        "excerpt": "Read this in other languages English 简体中文 日本語 한국어 Deutsch Français Español हिन्दी Português Русский العربية فارسی Italiano Polski Nederlands Türkçe Українська Tiếng Việt Bahasa Indonesia Svenska Ελληνικά Română Čeština Suomi Dansk Norsk Magyar ภาษาไทย Oʻzbekcha 繁體中文 Filipino עברית Cut agent token spend by 80%. Graphify Cloud is always-on memory that governs your agents, keeps code quality high, and proves correctness with formal verification. Start a free 14-day trial &rarr; Type `/graphify` in your AI coding assistant and it maps your entire project (code, docs, PDFs, images, videos) into a knowledge graph you can query instead of grepping through files. - Code maps for free, fully local. Code is parsed with tree-sitter AST: deterministic, no LLM, nothing leaves your machine. (Docs, PDFs, images and video use your assistant's model, or a configured API key, for a semantic pass.) - Every edge is explained. Each connection is tagged `EXTRACTED` (explicit in the source) or `INFERRED` (resolved by graphify), so you can tell what was read directly from what was inferred. - Not a vector index. No embeddings, no vector store: a real graph you traverse. Ask a question, trace the path between two things, or explain one concept. [!NOTE] Want this always-on? Graphify Cloud keeps the graph live across your entire SDLC: monorepo and cross-repo support, formal verification, and code review ",
+        "excerpt": "Read this in other languages English 简体中文 日本語 한국어 Deutsch Français Español हिन्दी Português Русский العربية فارسی Italiano Polski Nederlands Türkçe Українська Tiếng Việt Bahasa Indonesia Svenska Ελληνικά Română Čeština Suomi Dansk Norsk Magyar ภาษาไทย Oʻzbekcha 繁體中文 Filipino עברית Start free, no card required &rarr; Cut agent token spend by 80%. Graphify Cloud is always-on memory that governs your agents, keeps code quality high, and proves correctness with formal verification. Type `/graphify` in your AI coding assistant and it maps your entire project (code, docs, PDFs, images, videos) into a knowledge graph you can query instead of grepping through files. - Code maps for free, fully local. Code is parsed with tree-sitter AST: deterministic, no LLM, nothing leaves your machine. (Docs, PDFs, images and video use your assistant's model, or a configured API key, for a semantic pass.) - Every edge is explained. Each connection is tagged `EXTRACTED` (explicit in the source) or `INFERRED` (resolved by graphify), so you can tell what was read directly from what was inferred. - Not a vector index. No embeddings, no vector store: a real graph you traverse. Ask a question, trace the path between two things, or explain one concept. [!NOTE] Want this always-on? Graphify Cloud keeps the graph live across your entire SDLC: monorepo and cross-repo support, formal verification, and code revi",
         "headings": [
           "See it in action",
           "What it does",
           "Benchmarks: 0.497 recall@10, 0 LLM credits",
           "Documentation",
           "Prerequisites",
-          "or install uv:",
+          "uv manages its own Python, so this is the only step you need:",
+          "or use the system Python with pipx:",
           "Install",
           "Make your assistant always use the graph",
           "CLI skills or MCP instructions?",
@@ -2357,8 +2630,8 @@
           "Building on graphify",
           "Community and links"
         ],
-        "chars": 23260,
-        "fetchedAt": "2026-10-27T06:18:14.858Z",
+        "chars": 27115,
+        "fetchedAt": "2026-11-11T21:57:21.791Z",
         "truncated": true
       },
       "updatedAt": "2026-10-27"
@@ -2441,8 +2714,28 @@
         "reviewedAt": "2026-10-24",
         "todo": "确认站点列表与官方站点是否仍在线"
       },
-      "popularityScore": 498,
-      "weeklyScore": 618,
+      "popularityScore": 504,
+      "weeklyScore": 624,
+      "momentum": {
+        "stars": 110021,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 0,
+        "commits4w": 1,
+        "commits52w": 57,
+        "commitTotal": 2934,
+        "latestRelease": {
+          "tag": "v0.16.2",
+          "name": "v0.16.2",
+          "url": "https://github.com/sherlock-project/sherlock/releases/tag/v0.16.2",
+          "publishedAt": "2026-09-08T20:54:15Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "互联网玩具",
       "license": {
         "spdx": "MIT",
@@ -2456,9 +2749,9 @@
         "url": "https://github.com/sherlock-project/sherlock",
         "homepage": "https://sherlockproject.xyz",
         "description": "Hunt down social media accounts by username across social networks",
-        "stars": 94837,
-        "forks": 11232,
-        "openIssues": 351,
+        "stars": 110021,
+        "forks": 12740,
+        "openIssues": 410,
         "language": "Python",
         "topics": [
           "cli",
@@ -2484,9 +2777,9 @@
           "url": null
         },
         "createdAt": "2018-12-24T14:30:48Z",
-        "pushedAt": "2026-10-24T05:17:34Z",
+        "pushedAt": "2026-11-11T05:13:32Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:41.918Z",
+        "fetchedAt": "2026-11-11T21:51:42.222Z",
         "source": "api",
         "warnings": []
       },
@@ -2503,7 +2796,7 @@
       ],
       "readme": {
         "path": "docs/README.md",
-        "excerpt": "Hunt down social media accounts by username across 400+ social networks Installation &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp; Usage &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp; Contributing Installation [!WARNING] Packages for ParrotOS and Ubuntu 24.04, maintained by a third party, appear to be broken . Users of these systems should defer to `uv`/`pipx`/`pip` or Docker. Method Notes - - `pipx install sherlock-project` `pip` or `uv` may be used in place of `pipx` `docker run -it --rm sherlock/sherlock` `dnf install sherlock-project` Community-maintained packages are available for Debian ( = 13), Ubuntu ( = 22.10), Homebrew, Kali, and BlackArch. These packages are not directly supported or maintained by the Sherlock Project. See all alternative installation methods here. General usage To search for only one user: To search for more than one user: Accounts found will be stored in an individual text file with the corresponding username (e.g ). Credits Thank you to everyone who has contributed to Sherlock! ❤️ Star History License MIT © Sherlock Project Creator - Siddharth Dushantha [ext pypi]: https://pypi.org/project/sherlock-project/ [ext brew]: https://formulae.brew.sh/formula/sherlock",
+        "excerpt": "Hunt down social media accounts by username across 400+ social networks Installation &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp; Usage &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp; Contributing Installation &#8202;&#8202; [!WARNING] Packages for ParrotOS and Ubuntu 24.04, maintained by a third party, appear to be broken . Users of these systems should defer to `uv`/`pipx`/`pip` or Docker. Method Notes - - `pipx install sherlock-project` `pip` or `uv` may be used in place of `pipx` `docker run -it --rm sherlock/sherlock` `dnf install sherlock-project` Community-maintained packages are available for Debian ( = 13), Ubuntu ( = 22.10), Homebrew, Kali, and BlackArch. These packages are not directly supported or maintained by the Sherlock Project. See all alternative installation methods here. General usage To search for only one user: To search for more than one user: Accounts found will be stored in an individual text file with the corresponding username (e.g ). Credits Thank you to everyone who has contributed to Sherlock! ❤️ Star History License MIT © Sherlock Project Creator - Siddharth Dushantha [ext pypi]: https://pypi.org/project/sherlock-project/ [ext brew]: https://formulae.brew.sh/formula/sherlock",
         "headings": [
           "Installation",
           "General usage",
@@ -2511,8 +2804,8 @@
           "Star History",
           "License"
         ],
-        "chars": 1324,
-        "fetchedAt": "2026-10-24T17:55:41.918Z",
+        "chars": 1339,
+        "fetchedAt": "2026-11-11T21:51:42.222Z",
         "truncated": false
       },
       "updatedAt": "2026-10-24"
@@ -2596,6 +2889,26 @@
       },
       "popularityScore": 496,
       "weeklyScore": 616,
+      "momentum": {
+        "stars": 91916,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 44,
+        "commits4w": 388,
+        "commits52w": 3559,
+        "commitTotal": 11371,
+        "latestRelease": {
+          "tag": "0.13.7",
+          "name": "0.13.7",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.13.7",
+          "publishedAt": "2026-11-03T02:45:04Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "开发者工具",
       "license": {
         "spdx": "Apache-2.0",
@@ -2609,9 +2922,9 @@
         "url": "https://github.com/astral-sh/uv",
         "homepage": "https://docs.astral.sh/uv",
         "description": "An extremely fast Python package and project manager, written in Rust.",
-        "stars": 91115,
-        "forks": 3689,
-        "openIssues": 2988,
+        "stars": 91916,
+        "forks": 3809,
+        "openIssues": 3082,
         "language": "Rust",
         "topics": [
           "packaging",
@@ -2625,9 +2938,9 @@
           "url": null
         },
         "createdAt": "2023-10-02T20:24:11Z",
-        "pushedAt": "2026-10-24T17:02:31Z",
+        "pushedAt": "2026-11-11T15:49:58Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:29.664Z",
+        "fetchedAt": "2026-11-11T21:50:38.142Z",
         "source": "api",
         "warnings": []
       },
@@ -2666,7 +2979,7 @@
           "License"
         ],
         "chars": 4363,
-        "fetchedAt": "2026-10-24T17:55:29.664Z",
+        "fetchedAt": "2026-11-11T21:50:38.142Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -2754,8 +3067,28 @@
         "reviewedAt": "2026-10-27",
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
-      "popularityScore": 493,
-      "weeklyScore": 613,
+      "popularityScore": 494,
+      "weeklyScore": 614,
+      "momentum": {
+        "stars": 86247,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 34,
+        "commits4w": 299,
+        "commits52w": 2737,
+        "commitTotal": 2743,
+        "latestRelease": {
+          "tag": "v1.2.0",
+          "name": "v1.2.0",
+          "url": "https://github.com/rtk-ai/rtk/releases/tag/v1.2.0",
+          "publishedAt": "2026-11-08T10:46:00Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "效率工具",
       "license": {
         "spdx": "Apache-2.0",
@@ -2769,9 +3102,9 @@
         "url": "https://github.com/rtk-ai/rtk",
         "homepage": "https://www.rtk-ai.app",
         "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
-        "stars": 84683,
-        "forks": 5382,
-        "openIssues": 1602,
+        "stars": 86247,
+        "forks": 5524,
+        "openIssues": 1674,
         "language": "Rust",
         "topics": [
           "agentic-coding",
@@ -2794,40 +3127,32 @@
           "url": null
         },
         "createdAt": "2026-01-22T16:54:16Z",
-        "pushedAt": "2026-10-26T16:41:15Z",
+        "pushedAt": "2026-11-11T11:50:11Z",
         "archived": false,
-        "fetchedAt": "2026-10-27T06:18:33.632Z",
+        "fetchedAt": "2026-11-11T21:57:26.205Z",
         "source": "api",
         "warnings": []
       },
       "readme": {
         "path": "README.md",
-        "excerpt": "Agent-agnostic token optimization: compress, route, filter, and more. One composable pipeline across everything your AI agent reads and sends — built on RTK's battle-tested bash-output compression (up to 90% smaller). Website &bull; Install &bull; Troubleshooting &bull; Architecture &bull; Discord English &bull; Francais &bull; 中文 &bull; 日本語 &bull; 한국어 &bull; Espanol &bull; Português --- rtk filters and compresses command outputs before they reach your LLM context. Single Rust binary, 100+ supported commands, Full explanation: How RTK Savings Work Installation Then check you have the right package — another project named \"rtk\" exists on crates.io: Cargo, pre-built binaries, native Windows, WSL, and uninstall: Installation guide What You Install RTK ships as three downloads. The two `rtk` editions install a binary with the same name — hooks, scripts and agent config work unchanged across both — so they cannot be installed together. Uninstall one before installing the other. Download Licence Contains --- --- --- `rtk- ` Apache-2.0 + BUSL-1.1 Hook core, every command filter, and the compression engine `rtk-oss- ` Apache-2.0 only Hook core and every command filter. No engine. `rtk-proxy- ` BUSL-1.1 The RTK Proxy daemon. Never bundled with either `rtk`. Production use is free , engine and daemon included. What the BUSL grant does not cover is offering RTK or a derivative to third pa",
+        "excerpt": "The cost reduction engine for AI coding agents. Install it and forget it, then go as far as you want with pipelines. Install &bull; Pipelines &bull; Docs &bull; Website &bull; RTK Pro &bull; Discord English &bull; Francais &bull; 中文 &bull; 日本語 &bull; 한국어 &bull; Espanol &bull; Português ① Install & forget: up to 90% less command output. Test runs, diffs, logs and builds are compressed before your agent reads them. 100+ commands, under 25 ms per command, no config, nothing changes in how you work. `rtk gain` shows what you saved. ② Go further with pipelines, as far as you take it. Hand heavy reads to a cheaper model, compress more than bash, clean the API traffic without breaking the prompt cache. One agent-agnostic file: start from a built-in, install one someone shared, or write and share your own. The community built the bash compressor 85k developers starred. Now it is building pipelines: the best one listed today cuts total cost by 20.2% in its author's benchmark. Agents across the whole company? RTK Pro is the control layer for every AI agent: one gateway for every AI call, costs, secrets and personal data, policies, team catalog, audit. Discover RTK Pro ↓ --- Install & forget macOS, and Linux with Homebrew Windows, with winget Linux, macOS or WSL, with the install script Then plug it into your agent Restart your agent. That's it: when it runs `git status`, RTK runs `rtk gi",
         "headings": [
-          "What RTK Does",
-          "How Savings Work",
-          "Installation",
-          "What You Install",
-          "Quick Start",
-          "1. Install for your AI tool",
-          "2. Restart your AI tool, then test",
-          "How It Works",
-          "Supported AI Tools",
-          "What RTK Covers",
-          "Measure It",
+          "Install & forget",
+          "Measure it: rtk gain",
+          "Out of the box: the bash compressor",
+          "Want to go further? Pipelines.",
           "RTK Proxy (optional)",
-          "The Engine (pipeline.toml)",
-          "~/.config/rtk/pipeline.toml",
+          "Agents across the whole company? Know what they cost, what they touch, and who ran what.",
+          "Works in your agent",
           "Documentation",
-          "Star History",
-          "StarMapper",
+          "Editions and licence",
+          "Community",
           "Core team",
           "Contributing",
-          "License",
           "Disclaimer"
         ],
-        "chars": 10411,
-        "fetchedAt": "2026-10-27T06:18:33.632Z",
+        "chars": 12873,
+        "fetchedAt": "2026-11-11T21:57:26.205Z",
         "truncated": true
       },
       "updatedAt": "2026-10-27"
@@ -2918,8 +3243,28 @@
         "reviewedAt": "2026-10-25",
         "todo": "下季度复查许可证条款是否变化，并确认演示站是否仍开放"
       },
-      "popularityScore": 492,
-      "weeklyScore": 612,
+      "popularityScore": 493,
+      "weeklyScore": 613,
+      "momentum": {
+        "stars": 85018,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 293,
+        "commits4w": 1291,
+        "commits52w": 9016,
+        "commitTotal": 16054,
+        "latestRelease": {
+          "tag": "v0.0.0-nightly.pr22826.39064",
+          "name": "PR Build v0.0.0-nightly.pr22826.39064",
+          "url": "https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22826.39064",
+          "publishedAt": "2026-11-11T14:55:41Z",
+          "prerelease": true,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "AI 工具",
       "license": {
         "spdx": null,
@@ -2933,30 +3278,22 @@
         "fullName": "lobehub/lobehub",
         "url": "https://github.com/lobehub/lobehub",
         "homepage": "https://lobehub.com",
-        "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
-        "stars": 83466,
-        "forks": 16017,
-        "openIssues": 1165,
+        "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
+        "stars": 85018,
+        "forks": 16234,
+        "openIssues": 1324,
         "language": "TypeScript",
         "topics": [
           "agent",
           "agent-collaboration",
           "agent-harness",
-          "ai",
-          "cao",
-          "chatgpt",
-          "chief-agent-operator",
-          "claude",
-          "deepseek",
-          "fable",
-          "gemini",
-          "glm",
-          "gpt",
-          "knowledge-base",
           "loop-engineering",
           "mcp",
-          "openai",
-          "skills"
+          "personal-assistant",
+          "proactive-agent",
+          "skills",
+          "super-agent",
+          "task-management"
         ],
         "license": {
           "spdx": null,
@@ -2965,11 +3302,13 @@
           "url": "https://github.com/lobehub/lobe-chat/blob/main/LICENSE"
         },
         "createdAt": "2023-05-21T07:19:12Z",
-        "pushedAt": "2026-10-24T17:51:14Z",
+        "pushedAt": "2026-11-11T21:17:18Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:26.793Z",
+        "fetchedAt": "2026-11-11T21:50:15.879Z",
         "source": "api",
-        "warnings": []
+        "warnings": [
+          "仓库未声明可识别的开源许可证"
+        ]
       },
       "screenshots": [
         {
@@ -2984,29 +3323,29 @@
       ],
       "readme": {
         "path": "README.md",
-        "excerpt": "[![][image-banner]][vercel-link] LobeHub LobeHub organizes your agents into 7×24 operation. It hires, schedules, reports on your entire AI team. You stay in charge — without staying online. English · 简体中文 · [Official Site][official-site] · [Changelog][changelog] · [Documents][docs] · [Blog][blog] · [Feedback][github-issues-link] [![][github-release-shield]][github-release-link] [![][docker-release-shield]][docker-release-link] [![][vercel-shield]][vercel-link] [![][discord-shield]][discord-link] [![][codecov-shield]][codecov-link] [![][github-action-test-shield]][github-action-test-link] [![][github-action-release-shield]][github-action-release-link] [![][github-releasedate-shield]][github-releasedate-link] [![][github-contributors-shield]][github-contributors-link] [![][github-forks-shield]][github-forks-link] [![][github-stars-shield]][github-stars-link] [![][github-issues-shield]][github-issues-link] [![][github-license-shield]][github-license-link] Share LobeHub Repository [![][share-x-shield]][share-x-link] [![][share-telegram-shield]][share-telegram-link] [![][share-whatsapp-shield]][share-whatsapp-link] [![][share-reddit-shield]][share-reddit-link] [![][share-weibo-shield]][share-weibo-link] [![][share-mastodon-shield]][share-mastodon-link] [![][share-linkedin-shield]][share-linkedin-link] Your Chief Agent Operator Table of contents TOC - 👋🏻 Getting Started & Join Our ",
+        "excerpt": "[![][image-banner]][vercel-link] LobeHub Super-Agents on Your Team Add super-agents to the chats your team already uses. They take on work by themselves and get better every week. English · 简体中文 · [Official Site][official-site] · [Changelog][changelog] · [Documents][docs] · [Blog][blog] · [Feedback][github-issues-link] [![][github-release-shield]][github-release-link] [![][docker-release-shield]][docker-release-link] [![][vercel-shield]][vercel-link] [![][discord-shield]][discord-link] [![][codecov-shield]][codecov-link] [![][github-action-test-shield]][github-action-test-link] [![][github-action-release-shield]][github-action-release-link] [![][github-releasedate-shield]][github-releasedate-link] [![][github-contributors-shield]][github-contributors-link] [![][github-forks-shield]][github-forks-link] [![][github-stars-shield]][github-stars-link] [![][github-issues-shield]][github-issues-link] [![][github-license-shield]][github-license-link] Share LobeHub Repository [![][share-x-shield]][share-x-link] [![][share-telegram-shield]][share-telegram-link] [![][share-whatsapp-shield]][share-whatsapp-link] [![][share-reddit-shield]][share-reddit-link] [![][share-weibo-shield]][share-weibo-link] [![][share-mastodon-shield]][share-mastodon-link] [![][share-linkedin-shield]][share-linkedin-link] Table of contents TOC - 👋🏻 Getting Started & Join Our Community - ✨ Features - From new hi",
         "headings": [
           "LobeHub",
           "👋🏻 Getting Started & Join Our Community",
           "✨ Features",
-          "Operator: Agents as the Unit of Work",
-          "Create: Agents as the Unit of Work",
-          "Collaborate: Scale New Forms of Collaboration Networks",
-          "Evolve: Co-evolution of Humans and Agents",
+          "From new hire to one of the team",
+          "Day 1 Welcome to the team",
+          "Week 1 Its first task",
+          "Month 1–2 Settling in as the team grows",
+          "Month 3 It passes its review",
+          "Bring them onto your team",
+          "🧩 Marketplace",
+          "📖 Documentation",
           "🛳 Self Hosting",
-          "A Deploying with Vercel, Zeabur , Sealos or Alibaba Cloud",
-          "B Deploying with Docker",
-          "Environment Variable",
-          "Obtain OpenAI API Key",
-          "📦 Ecosystem",
-          "🧩 Plugins",
+          "A Docker Compose (recommended)",
+          "B One-click deploy",
           "⌨️ Local Development",
           "🤝 Contributing",
           "❤️ Sponsor",
-          "🔗 More Products"
+          "🔬 Research"
         ],
-        "chars": 32540,
-        "fetchedAt": "2026-10-24T17:55:26.793Z",
+        "chars": 24205,
+        "fetchedAt": "2026-11-11T21:50:15.879Z",
         "truncated": true
       },
       "updatedAt": "2026-10-25"
@@ -3091,6 +3430,19 @@
       },
       "popularityScore": 491,
       "weeklyScore": 611,
+      "momentum": {
+        "stars": 80781,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 2,
+        "commits4w": 11,
+        "commits52w": 303,
+        "commitTotal": null,
+        "latestRelease": null,
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "开发者工具",
       "license": {
         "spdx": "MIT",
@@ -3104,9 +3456,9 @@
         "url": "https://github.com/hoppscotch/hoppscotch",
         "homepage": "https://hoppscotch.io",
         "description": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
-        "stars": 80678,
-        "forks": 6181,
-        "openIssues": 862,
+        "stars": 80781,
+        "forks": 6234,
+        "openIssues": 895,
         "language": "TypeScript",
         "topics": [
           "api",
@@ -3134,9 +3486,9 @@
           "url": null
         },
         "createdAt": "2019-08-21T13:15:24Z",
-        "pushedAt": "2026-10-23T08:14:56Z",
+        "pushedAt": "2026-11-05T08:16:25Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:30.373Z",
+        "fetchedAt": "2026-11-11T21:50:46.822Z",
         "source": "api",
         "warnings": []
       },
@@ -3166,7 +3518,7 @@
           "License"
         ],
         "chars": 7859,
-        "fetchedAt": "2026-10-24T17:55:30.373Z",
+        "fetchedAt": "2026-11-11T21:50:46.822Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -3251,7 +3603,20 @@
         "todo": "确认托管站是否仍开放"
       },
       "popularityScore": 491,
-      "weeklyScore": 551,
+      "weeklyScore": 611,
+      "momentum": {
+        "stars": 81162,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 0,
+        "commits4w": 0,
+        "commits52w": 557,
+        "commitTotal": 1457,
+        "latestRelease": null,
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "创意与设计",
       "license": {
         "spdx": "MIT",
@@ -3265,9 +3630,9 @@
         "url": "https://github.com/abi/screenshot-to-code",
         "homepage": "https://screenshottocode.com",
         "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
-        "stars": 80685,
-        "forks": 9864,
-        "openIssues": 148,
+        "stars": 81162,
+        "forks": 9939,
+        "openIssues": 149,
         "language": "Python",
         "topics": [],
         "license": {
@@ -3276,9 +3641,9 @@
           "url": null
         },
         "createdAt": "2023-11-14T17:53:32Z",
-        "pushedAt": "2026-10-09T20:02:05Z",
+        "pushedAt": "2026-11-05T18:29:51Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:36.831Z",
+        "fetchedAt": "2026-11-11T21:51:25.624Z",
         "source": "api",
         "warnings": []
       },
@@ -3309,7 +3674,7 @@
           "📚 Examples"
         ],
         "chars": 5729,
-        "fetchedAt": "2026-10-24T17:55:36.831Z",
+        "fetchedAt": "2026-11-11T21:51:25.624Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -3394,6 +3759,26 @@
       },
       "popularityScore": 488,
       "weeklyScore": 508,
+      "momentum": {
+        "stars": 76711,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 0,
+        "commits4w": 0,
+        "commits52w": 21,
+        "commitTotal": 576,
+        "latestRelease": {
+          "tag": "v1.2.0",
+          "name": "Release v1.2.0",
+          "url": "https://github.com/PKUFlyingPig/cs-self-learning/releases/tag/v1.2.0",
+          "publishedAt": "2025-06-08T05:41:57Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "学习工具",
       "license": {
         "spdx": "MIT",
@@ -3407,8 +3792,8 @@
         "url": "https://github.com/PKUFlyingPig/cs-self-learning",
         "homepage": "https://csdiy.wiki",
         "description": "计算机自学指南",
-        "stars": 76399,
-        "forks": 8006,
+        "stars": 76711,
+        "forks": 8033,
         "openIssues": 167,
         "language": "HTML",
         "topics": [],
@@ -3420,7 +3805,7 @@
         "createdAt": "2021-10-20T13:43:42Z",
         "pushedAt": "2026-09-17T02:11:53Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:38.247Z",
+        "fetchedAt": "2026-11-11T21:51:30.710Z",
         "source": "api",
         "warnings": []
       },
@@ -3447,7 +3832,7 @@
           "许可"
         ],
         "chars": 1431,
-        "fetchedAt": "2026-10-24T17:55:38.247Z",
+        "fetchedAt": "2026-11-11T21:51:30.710Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -3532,6 +3917,26 @@
       },
       "popularityScore": 479,
       "weeklyScore": 599,
+      "momentum": {
+        "stars": 62279,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 157,
+        "commits4w": 473,
+        "commits52w": 5401,
+        "commitTotal": 24704,
+        "latestRelease": {
+          "tag": "2.19.1",
+          "name": "2.19.1",
+          "url": "https://github.com/penpot/penpot/releases/tag/2.19.1",
+          "publishedAt": "2026-11-11T10:03:30Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "创意与设计",
       "license": {
         "spdx": "MPL-2.0",
@@ -3545,9 +3950,9 @@
         "url": "https://github.com/penpot/penpot",
         "homepage": "https://penpot.app",
         "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
-        "stars": 61608,
-        "forks": 4271,
-        "openIssues": 926,
+        "stars": 62279,
+        "forks": 4404,
+        "openIssues": 948,
         "language": "Clojure",
         "topics": [
           "clojure",
@@ -3564,9 +3969,9 @@
           "url": null
         },
         "createdAt": "2015-12-29T22:09:07Z",
-        "pushedAt": "2026-10-23T21:31:19Z",
+        "pushedAt": "2026-11-11T20:44:39Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:36.109Z",
+        "fetchedAt": "2026-11-11T21:51:22.586Z",
         "source": "api",
         "warnings": []
       },
@@ -3601,7 +4006,7 @@
           "License"
         ],
         "chars": 6410,
-        "fetchedAt": "2026-10-24T17:55:36.109Z",
+        "fetchedAt": "2026-11-11T21:51:22.586Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -3686,6 +4091,26 @@
       },
       "popularityScore": 461,
       "weeklyScore": 581,
+      "momentum": {
+        "stars": 41208,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 0,
+        "commits4w": 0,
+        "commits52w": 1,
+        "commitTotal": 618,
+        "latestRelease": {
+          "tag": "v2024.10.22-7ca5933",
+          "name": "v2024.10.22-7ca5933",
+          "url": "https://github.com/CorentinTh/it-tools/releases/tag/v2024.10.22-7ca5933",
+          "publishedAt": "2024-10-22T09:58:03Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "互联网玩具",
       "license": {
         "spdx": "GPL-3.0",
@@ -3699,9 +4124,9 @@
         "url": "https://github.com/CorentinTh/it-tools",
         "homepage": "https://it-tools.tech",
         "description": "Collection of handy online tools for developers, with great UX. ",
-        "stars": 40960,
-        "forks": 5517,
-        "openIssues": 859,
+        "stars": 41208,
+        "forks": 5579,
+        "openIssues": 864,
         "language": "Vue",
         "topics": [
           "converter",
@@ -3722,9 +4147,9 @@
           "url": null
         },
         "createdAt": "2020-04-05T11:50:24Z",
-        "pushedAt": "2026-10-22T20:10:52Z",
+        "pushedAt": "2026-11-11T11:44:35Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:42.617Z",
+        "fetchedAt": "2026-11-11T21:51:44.009Z",
         "source": "api",
         "warnings": []
       },
@@ -3751,15 +4176,15 @@
           "Project Setup",
           "Compile and Hot-Reload for Development",
           "Type-Check, Compile and Minify for Production",
-          "Run Unit Tests with [Vitest](https://vitest.dev/)",
-          "Lint with [ESLint](https://eslint.org/)",
+          "Run Unit Tests with Vitest",
+          "Lint with ESLint",
           "Create a new tool",
           "Contributors",
           "Credits",
           "License"
         ],
         "chars": 2083,
-        "fetchedAt": "2026-10-24T17:55:42.617Z",
+        "fetchedAt": "2026-11-11T21:51:44.009Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -3843,6 +4268,19 @@
       },
       "popularityScore": 453,
       "weeklyScore": 573,
+      "momentum": {
+        "stars": 34207,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 17,
+        "commits4w": 121,
+        "commits52w": 523,
+        "commitTotal": 3585,
+        "latestRelease": null,
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "学习工具",
       "license": {
         "spdx": "MIT",
@@ -3856,9 +4294,9 @@
         "url": "https://github.com/pcottle/learnGitBranching",
         "homepage": "https://pcottle.github.io/learnGitBranching/",
         "description": "An interactive git visualization and tutorial. Aspiring students of git can use this app to educate and challenge themselves towards mastery of git!",
-        "stars": 34157,
-        "forks": 6033,
-        "openIssues": 58,
+        "stars": 34207,
+        "forks": 6036,
+        "openIssues": 56,
         "language": "JavaScript",
         "topics": [],
         "license": {
@@ -3867,9 +4305,9 @@
           "url": null
         },
         "createdAt": "2012-08-13T22:36:09Z",
-        "pushedAt": "2026-10-22T12:06:49Z",
+        "pushedAt": "2026-11-09T18:30:47Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:37.530Z",
+        "fetchedAt": "2026-11-11T21:51:27.560Z",
         "source": "api",
         "warnings": []
       },
@@ -3902,8 +4340,8 @@
           "Some of our amazing contributors",
           "Helpful Folks"
         ],
-        "chars": 5691,
-        "fetchedAt": "2026-10-24T17:55:37.530Z",
+        "chars": 5688,
+        "fetchedAt": "2026-11-11T21:51:27.560Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -3989,6 +4427,26 @@
       },
       "popularityScore": 448,
       "weeklyScore": 568,
+      "momentum": {
+        "stars": 30463,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 61,
+        "commits4w": 137,
+        "commits52w": 997,
+        "commitTotal": 2472,
+        "latestRelease": {
+          "tag": "v0.34.1",
+          "name": "0.34.1",
+          "url": "https://github.com/karakeep-app/karakeep/releases/tag/v0.34.1",
+          "publishedAt": "2026-10-22T06:42:02Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "自托管项目",
       "license": {
         "spdx": "AGPL-3.0",
@@ -4000,11 +4458,11 @@
         "name": "karakeep",
         "fullName": "karakeep-app/karakeep",
         "url": "https://github.com/karakeep-app/karakeep",
-        "homepage": "https://karakeep.app",
+        "homepage": "https://karakeep.com",
         "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
-        "stars": 29954,
-        "forks": 1595,
-        "openIssues": 716,
+        "stars": 30463,
+        "forks": 1633,
+        "openIssues": 729,
         "language": "TypeScript",
         "topics": [
           "bookmark-manager",
@@ -4021,9 +4479,9 @@
           "url": null
         },
         "createdAt": "2024-02-06T12:28:31Z",
-        "pushedAt": "2026-10-24T13:26:04Z",
+        "pushedAt": "2026-11-11T20:53:30Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:44.744Z",
+        "fetchedAt": "2026-11-11T21:51:54.553Z",
         "source": "api",
         "warnings": []
       },
@@ -4042,7 +4500,6 @@
         "path": "README.md",
         "excerpt": "Karakeep (previously Hoarder) is a self-hostable bookmark-everything app with a touch of AI for the data hoarders out there. Features - Bookmark links, take simple notes and store images and pdfs. - Automatic fetching for link titles, descriptions and images. - Sort your bookmarks into lists. - Collaborate with others on the same list. - Full text & semantic search of all the content stored. - LLM-based automatic tagging and summarization. With supports for local models using ollama! - LLM Agents (e.g. OpenClaw, Hermes) friendly with powerful CLI, and official skills. - Rule-based engine for customized management. - OCR for extracting text from images. - Chrome plugin, Firefox addon, and Safari extension for quick bookmarking. - An iOS app, and an Android app. - Mobile offline reading. - Auto hoarding from RSS feeds. - REST API and multiple clients. - Multi-language support. - Mark and store highlights from your hoarded content. - Full page archival (using monolith) to protect against link rot. - Auto video archiving using yt-dlp. - Bulk actions support. - SSO support. - Dark mode support. - Self-hosting first. - Bookmark importers from Chrome, Pocket, Linkwarden, Omnivore, Tab Session Manager. - Automatic sync with browser bookmarks via floccus. Documentation - Installation - Configuration - Screenshots - Security Considerations - Development Demo You can access the demo at ht",
         "headings": [
-          "<img height=\"50px\" src=\"./screenshots/logo.png\" />",
           "Features",
           "Documentation",
           "Demo",
@@ -4059,7 +4516,7 @@
           "Star History"
         ],
         "chars": 5601,
-        "fetchedAt": "2026-10-24T17:55:44.744Z",
+        "fetchedAt": "2026-11-11T21:51:54.553Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -4142,8 +4599,28 @@
         "reviewedAt": "2026-10-24",
         "todo": "确认 playground 是否仍在线"
       },
-      "popularityScore": 441,
-      "weeklyScore": 561,
+      "popularityScore": 442,
+      "weeklyScore": 562,
+      "momentum": {
+        "stars": 26097,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 85,
+        "commits4w": 417,
+        "commits52w": 2867,
+        "commitTotal": 11702,
+        "latestRelease": {
+          "tag": "@biomejs/biome@2.6.7",
+          "name": "Biome CLI v2.6.7\n",
+          "url": "https://github.com/biomejs/biome/releases/tag/%40biomejs/biome%402.6.7",
+          "publishedAt": "2026-11-11T21:45:25Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "开发者工具",
       "license": {
         "spdx": "Apache-2.0",
@@ -4157,9 +4634,9 @@
         "url": "https://github.com/biomejs/biome",
         "homepage": "https://biomejs.dev",
         "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
-        "stars": 25990,
-        "forks": 1292,
-        "openIssues": 553,
+        "stars": 26097,
+        "forks": 1339,
+        "openIssues": 536,
         "language": "Rust",
         "topics": [
           "css",
@@ -4178,9 +4655,9 @@
           "url": null
         },
         "createdAt": "2023-07-27T20:30:22Z",
-        "pushedAt": "2026-10-24T21:48:04Z",
+        "pushedAt": "2026-11-11T21:45:25Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T21:48:37.024Z",
+        "fetchedAt": "2026-11-11T21:50:32.616Z",
         "source": "api",
         "warnings": []
       },
@@ -4215,8 +4692,8 @@
           "Silver Sponsors",
           "Bronze Sponsors"
         ],
-        "chars": 4974,
-        "fetchedAt": "2026-10-24T21:48:37.024Z",
+        "chars": 4962,
+        "fetchedAt": "2026-11-11T21:50:32.616Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -4302,7 +4779,20 @@
         "todo": "确认 config.qmk.fm 可访问"
       },
       "popularityScore": 432,
-      "weeklyScore": 492,
+      "weeklyScore": 552,
+      "momentum": {
+        "stars": 20806,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 2,
+        "commits4w": 4,
+        "commits52w": 518,
+        "commitTotal": 29688,
+        "latestRelease": null,
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "开源硬件",
       "license": {
         "spdx": "GPL-2.0",
@@ -4316,9 +4806,9 @@
         "url": "https://github.com/qmk/qmk_firmware",
         "homepage": "https://qmk.fm",
         "description": "Open-source keyboard firmware for Atmel AVR and Arm USB families",
-        "stars": 20778,
-        "forks": 44381,
-        "openIssues": 563,
+        "stars": 20806,
+        "forks": 44410,
+        "openIssues": 582,
         "language": "C",
         "topics": [
           "atmel-avr",
@@ -4337,9 +4827,9 @@
           "url": null
         },
         "createdAt": "2014-12-08T22:02:05Z",
-        "pushedAt": "2026-10-19T12:28:04Z",
+        "pushedAt": "2026-11-10T06:53:56Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:39.705Z",
+        "fetchedAt": "2026-11-11T21:51:34.444Z",
         "source": "api",
         "warnings": []
       },
@@ -4365,7 +4855,7 @@
           "Official Website"
         ],
         "chars": 1118,
-        "fetchedAt": "2026-10-24T17:55:39.705Z",
+        "fetchedAt": "2026-11-11T21:51:34.444Z",
         "truncated": false
       },
       "updatedAt": "2026-10-24"
@@ -4451,6 +4941,26 @@
       },
       "popularityScore": 431,
       "weeklyScore": 551,
+      "momentum": {
+        "stars": 20388,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 23,
+        "commits4w": 80,
+        "commits52w": 640,
+        "commitTotal": 3305,
+        "latestRelease": {
+          "tag": "v2.17.0",
+          "name": "v2.17.0",
+          "url": "https://github.com/linkwarden/linkwarden/releases/tag/v2.17.0",
+          "publishedAt": "2026-11-10T18:30:29Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "自托管项目",
       "license": {
         "spdx": "AGPL-3.0",
@@ -4464,9 +4974,9 @@
         "url": "https://github.com/linkwarden/linkwarden",
         "homepage": "https://linkwarden.app",
         "description": "⚡️⚡️⚡️ Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.",
-        "stars": 20202,
-        "forks": 877,
-        "openIssues": 693,
+        "stars": 20388,
+        "forks": 891,
+        "openIssues": 699,
         "language": "TypeScript",
         "topics": [
           "bookmark",
@@ -4484,9 +4994,9 @@
           "url": null
         },
         "createdAt": "2022-04-09T07:53:01Z",
-        "pushedAt": "2026-10-24T03:12:52Z",
+        "pushedAt": "2026-11-10T18:30:29Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:45.523Z",
+        "fetchedAt": "2026-11-11T21:52:01.678Z",
         "source": "api",
         "warnings": []
       },
@@ -4520,7 +5030,7 @@
           "Thanks to All the Contributors 💪"
         ],
         "chars": 4814,
-        "fetchedAt": "2026-10-24T17:55:45.523Z",
+        "fetchedAt": "2026-11-11T21:52:01.678Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -4605,8 +5115,28 @@
         "reviewedAt": "2026-10-24",
         "todo": "复查官网域名（flipper.net / flipperzero.one）"
       },
-      "popularityScore": 422,
-      "weeklyScore": 542,
+      "popularityScore": 423,
+      "weeklyScore": 543,
+      "momentum": {
+        "stars": 16875,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 4,
+        "commits4w": 7,
+        "commits52w": 72,
+        "commitTotal": 2806,
+        "latestRelease": {
+          "tag": "1.5.1",
+          "name": "1.5.1",
+          "url": "https://github.com/flipperdevices/flipperzero-firmware/releases/tag/1.5.1",
+          "publishedAt": "2026-10-15T09:28:40Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "开源硬件",
       "license": {
         "spdx": "GPL-3.0",
@@ -4620,9 +5150,9 @@
         "url": "https://github.com/flipperdevices/flipperzero-firmware",
         "homepage": "https://flipper.net",
         "description": "Flipper Zero firmware source code",
-        "stars": 16772,
-        "forks": 3500,
-        "openIssues": 248,
+        "stars": 16875,
+        "forks": 3530,
+        "openIssues": 278,
         "language": "C",
         "topics": [
           "armv7m",
@@ -4643,9 +5173,9 @@
           "url": null
         },
         "createdAt": "2020-07-31T21:43:20Z",
-        "pushedAt": "2026-10-22T00:33:44Z",
+        "pushedAt": "2026-11-08T19:00:04Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:41.199Z",
+        "fetchedAt": "2026-11-11T21:51:39.680Z",
         "source": "api",
         "warnings": []
       },
@@ -4682,7 +5212,7 @@
           "SAST Tools"
         ],
         "chars": 4652,
-        "fetchedAt": "2026-10-24T17:55:41.199Z",
+        "fetchedAt": "2026-11-11T21:51:39.680Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -4768,6 +5298,26 @@
       },
       "popularityScore": 420,
       "weeklyScore": 440,
+      "momentum": {
+        "stars": 16007,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 0,
+        "commits4w": 0,
+        "commits52w": 151,
+        "commitTotal": 775,
+        "latestRelease": {
+          "tag": "0.5.0.1",
+          "name": "0.5.0.1",
+          "url": "https://github.com/Kanaries/pygwalker/releases/tag/0.5.0.1",
+          "publishedAt": "2026-04-04T02:09:15Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "数据可视化",
       "license": {
         "spdx": "Apache-2.0",
@@ -4781,9 +5331,9 @@
         "url": "https://github.com/Kanaries/pygwalker",
         "homepage": "https://kanaries.net/pygwalker",
         "description": "PyGWalker: Turn your dataframe into an interactive UI for visual analysis",
-        "stars": 15992,
+        "stars": 16007,
         "forks": 894,
-        "openIssues": 70,
+        "openIssues": 71,
         "language": "Python",
         "topics": [
           "data-analysis",
@@ -4804,7 +5354,7 @@
         "createdAt": "2023-02-16T05:17:24Z",
         "pushedAt": "2026-09-05T19:19:19Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:33.973Z",
+        "fetchedAt": "2026-11-11T21:51:14.423Z",
         "source": "api",
         "warnings": []
       },
@@ -4839,8 +5389,8 @@
           "Adjust the width of the Streamlit page",
           "Add Title",
           "You should cache your pygwalker renderer, if you don't want your memory to explode",
-          "[API Reference](https://pygwalker-docs.vercel.app/api-reference/jupyter)",
-          "[pygwalker.walk](https://pygwalker-docs.vercel.app/api-reference/jupyterwalk)",
+          "API Reference",
+          "pygwalker.walk",
           "Development",
           "Tested Environments",
           "Configuration And Privacy Policy(pygwalker >= 0.3.10)",
@@ -4849,7 +5399,7 @@
           "Resources"
         ],
         "chars": 13725,
-        "fetchedAt": "2026-10-24T17:55:33.973Z",
+        "fetchedAt": "2026-11-11T21:51:14.423Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -4934,6 +5484,26 @@
       },
       "popularityScore": 417,
       "weeklyScore": 537,
+      "momentum": {
+        "stars": 14767,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 0,
+        "commits4w": 2,
+        "commits52w": 101,
+        "commitTotal": 1655,
+        "latestRelease": {
+          "tag": "v2.4.1",
+          "name": "v2.4.1",
+          "url": "https://github.com/espanso/espanso/releases/tag/v2.4.1",
+          "publishedAt": "2026-09-02T17:17:57Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "效率工具",
       "license": {
         "spdx": "GPL-3.0",
@@ -4947,9 +5517,9 @@
         "url": "https://github.com/espanso/espanso",
         "homepage": "https://espanso.org",
         "description": "A Privacy-first, Cross-platform Text Expander written in Rust",
-        "stars": 14686,
-        "forks": 487,
-        "openIssues": 576,
+        "stars": 14767,
+        "forks": 489,
+        "openIssues": 591,
         "language": "Rust",
         "topics": [
           "espanso",
@@ -4967,9 +5537,9 @@
           "url": null
         },
         "createdAt": "2019-08-30T07:16:58Z",
-        "pushedAt": "2026-10-23T20:18:41Z",
+        "pushedAt": "2026-11-08T00:15:00Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:32.512Z",
+        "fetchedAt": "2026-11-11T21:51:06.021Z",
         "source": "api",
         "warnings": []
       },
@@ -4988,7 +5558,7 @@
         "path": "README.md",
         "excerpt": "A cross-platform Text Expander written in Rust Example: 2019 Example: 2025 :----------------------------: :-------------------------------------: Quick Links espanso website espanso hub What is a Text Expander? A text expander is a program that detects when you type a specific keyword and replaces it with something else . This is useful in many ways: Save a lot of typing , expanding common sentences Create system-wide code snippets Execute custom scripts Use emojis like a pro System-wide 'autocorrect' specific to you Key Features Cross-platform ( Windows , macOS , Linux ) Privacy-first (100% local, no tracking) Works with almost any program Emoji support 😄 Image support Includes a powerful Search Bar 🔎 Date expansion support Custom scripts support Shell commands support App-specific configurations Support Forms Expandable with packages Built-in package manager for espanso hub File based configuration Support Regex triggers Experimental Wayland support Written in Rust (Fast, Reliable) Community & Support 💬 espanso Discord Server 📖 official documentation 💬 official Subreddit 🐛 Report Issues 💡 Feature Requests Quick Start Examples You can create additional files to organize your matches any way you want. Make sure to adhere to proper YAML spacing. Team Members and Contributors Team Federico Terzi (Creator of espanso) Rest of team in Alphabetical Order Archigos (Maintainer) ",
         "headings": [
-          "![Espanso Logo](images/espanso-dark.pnggh-dark-mode-only) ![Espanso Logo](images/espanso-light.pnggh-light-mode-only)",
+          "!Espanso Logo !Espanso Logo",
           "Quick Links",
           "What is a Text Expander?",
           "Key Features",
@@ -5004,7 +5574,7 @@
           "License"
         ],
         "chars": 2602,
-        "fetchedAt": "2026-10-24T17:55:32.512Z",
+        "fetchedAt": "2026-11-11T21:51:06.021Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -5097,6 +5667,26 @@
       },
       "popularityScore": 412,
       "weeklyScore": 532,
+      "momentum": {
+        "stars": 13255,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 138,
+        "commits4w": 488,
+        "commits52w": 6261,
+        "commitTotal": 33262,
+        "latestRelease": {
+          "tag": "v13.56.0",
+          "name": "Version 13.56.0",
+          "url": "https://github.com/MetaMask/metamask-extension/releases/tag/v13.56.0",
+          "publishedAt": "2026-11-06T08:37:00Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "加密与 Web3",
       "license": {
         "spdx": null,
@@ -5110,10 +5700,10 @@
         "fullName": "MetaMask/metamask-extension",
         "url": "https://github.com/MetaMask/metamask-extension",
         "homepage": "https://metamask.io",
-        "description": "The MetaMask browser extension enables browsing Ethereum blockchain enabled websites",
-        "stars": 13246,
-        "forks": 5601,
-        "openIssues": null,
+        "description": ":globe_with_meridians: :electric_plug: The MetaMask browser extension enables browsing Ethereum blockchain enabled websites",
+        "stars": 13255,
+        "forks": 5608,
+        "openIssues": 2933,
         "language": "TypeScript",
         "topics": [
           "brave",
@@ -5124,9 +5714,7 @@
           "ethereum",
           "extension",
           "firefox",
-          "opera",
-          "wallet",
-          "web3"
+          "opera"
         ],
         "license": {
           "spdx": null,
@@ -5134,13 +5722,13 @@
           "note": "GitHub 未识别为标准许可证。仓库 LICENSE 为 ConsenSys Software Inc. 的自定义条款，限制商用与再分发；这不是 OSI 认可的开源许可证，使用前必须阅读原文。",
           "url": "https://github.com/MetaMask/metamask-extension/blob/main/LICENSE"
         },
-        "createdAt": null,
-        "pushedAt": "2026-10-23T18:20:11Z",
+        "createdAt": "2015-09-06T16:34:48Z",
+        "pushedAt": "2026-11-11T21:48:12Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T18:00:00.000Z",
+        "fetchedAt": "2026-11-11T21:52:19.822Z",
         "source": "api",
         "warnings": [
-          "GitHub API 额度耗尽后由网页兜底补齐；language/pushedAt 为人工核对值"
+          "仓库未声明可识别的开源许可证"
         ]
       },
       "screenshots": [
@@ -5156,15 +5744,15 @@
       ],
       "readme": {
         "path": "README.md",
-        "excerpt": " MetaMask Browser Extension You can find the latest version of MetaMask on [our official website](https://metamask.io/). For help using MetaMask, visit our [User Support Site](https://support.metamask.io/). For [general questions](https://community.metamask.io/c/learn/26), [feature requests](https://community.metamask.io/c/feature-requests-ideas/13), or [developer questions](https://community.metamask.io/c/developer-questions/11), visit our [Community Forum](https://community.metamask.io/). MetaMask supports Firefox, Google Chrome, and Chromium-based browsers. We recommend using the latest available browser version. For up to the minute news, follow us on [X](https://x.com/MetaMask). To learn how to develop MetaMask-compatible applications, visit our [Developer Docs](https://docs.metamask.io/). To learn how to contribute to the MetaMask codebase, visit our [Contributor Docs](https://gith",
+        "excerpt": "MetaMask Browser Extension You can find the latest version of MetaMask on our official website. For help using MetaMask, visit our User Support Site. For general questions, feature requests, or developer questions, visit our Community Forum. MetaMask supports Firefox, Google Chrome, and Chromium-based browsers. We recommend using the latest available browser version. For up to the minute news, follow us on X. To learn how to develop MetaMask-compatible applications, visit our Developer Docs. To learn how to contribute to the MetaMask codebase, visit our Contributor Docs. To learn how to contribute to the MetaMask Extension project itself, visit our Extension Docs. GitHub Codespaces quickstart As an alternative to building on your local machine, there is a new option to get a development environment up and running in less than 5 minutes by using GitHub Codespaces. Please note that there is a Limited Free Monthly Quota, and after that GitHub will start charging you. Note: You are billed for both time spent running, and for storage used 1. Start by clicking the button above 2. A new browser tab will open with a remote version of Visual Studio Code (this will take a few minutes to load) 3. A \"Simple Browser\" will open inside the browser with noVNC -- click Connect - Optional steps: - Click the button at the upper-right of the Simple Browser tab to open the noVNC window in its own t",
         "headings": [
           "MetaMask Browser Extension",
           "GitHub Codespaces quickstart",
           "Tips to keep your Codespaces usage lower",
           "Codespaces on a fork",
           "Building on your local machine",
-          "AI Agent Skills (`yarn skills`)",
-          "edit .skills.local to set SKILLS_DOMAINS or override skills source paths",
+          "AI Agent Skills (yarn skills)",
+          "edit .skills.local to set SKILLSDOMAINS or override skills source paths",
           "Git Hooks",
           "Contributing",
           "Development builds",
@@ -5179,9 +5767,9 @@
           "Other Docs",
           "Dapp Developer Resources"
         ],
-        "chars": 30022,
-        "fetchedAt": "2026-10-24T18:00:00.000Z",
-        "truncated": false
+        "chars": 24289,
+        "fetchedAt": "2026-11-11T21:52:19.822Z",
+        "truncated": true
       },
       "updatedAt": "2026-10-24"
     },
@@ -5272,6 +5860,26 @@
       },
       "popularityScore": 408,
       "weeklyScore": 528,
+      "momentum": {
+        "stars": 12089,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 298,
+        "commits4w": 1504,
+        "commits52w": 8777,
+        "commitTotal": 20025,
+        "latestRelease": {
+          "tag": "2026.10.2",
+          "name": "2026.10.2",
+          "url": "https://github.com/esphome/esphome/releases/tag/2026.10.2",
+          "publishedAt": "2026-11-02T21:30:29Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "开源硬件",
       "license": {
         "spdx": null,
@@ -5286,9 +5894,9 @@
         "url": "https://github.com/esphome/esphome",
         "homepage": "https://esphome.io/",
         "description": "ESPHome is a system to control your ESP32, ESP8266, BK72xx, RP2040 by simple yet powerful configuration files and control them remotely through Home Automation systems.",
-        "stars": 11948,
-        "forks": 5746,
-        "openIssues": 722,
+        "stars": 12089,
+        "forks": 5798,
+        "openIssues": 644,
         "language": "C++",
         "topics": [
           "esp32",
@@ -5309,11 +5917,13 @@
           "url": "https://github.com/esphome/esphome/blob/dev/LICENSE"
         },
         "createdAt": "2018-04-06T23:23:25Z",
-        "pushedAt": "2026-10-24T16:58:12Z",
+        "pushedAt": "2026-11-11T21:43:24Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:40.498Z",
+        "fetchedAt": "2026-11-11T21:51:37.169Z",
         "source": "api",
-        "warnings": []
+        "warnings": [
+          "仓库未声明可识别的开源许可证"
+        ]
       },
       "screenshots": [
         {
@@ -5330,10 +5940,10 @@
         "path": "README.md",
         "excerpt": "ESPHome --- Documentation -- Issues -- Feature requests ---",
         "headings": [
-          "ESPHome [![Discord Chat](https://img.shields.io/discord/429907082951524364.svg)](https://discord.gg/KhAMKrd) [![GitHub release](https://img.shields.io/github/release/esphome/esphome.svg)](https://GitHub.com/esphome/esphome/releases/) [![CodSpeed](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json)](https://codspeed.io/esphome/esphome)"
+          "ESPHome ![Discord Chat](https://discord.gg/KhAMKrd) ![GitHub release](https://GitHub.com/esphome/esphome/releases/) ![CodSpeed](https://codspeed.io/esphome/esphome)"
         ],
         "chars": 89,
-        "fetchedAt": "2026-10-24T17:55:40.498Z",
+        "fetchedAt": "2026-11-11T21:51:37.169Z",
         "truncated": false
       },
       "updatedAt": "2026-10-24"
@@ -5420,6 +6030,26 @@
       },
       "popularityScore": 403,
       "weeklyScore": 523,
+      "momentum": {
+        "stars": 10772,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 123,
+        "commits4w": 419,
+        "commits52w": 3729,
+        "commitTotal": 9489,
+        "latestRelease": {
+          "tag": "nightly-e940f4f1a0f7db780611b923bb5209a98630e881",
+          "name": "Nightly (2026-11-11)",
+          "url": "https://github.com/foundry-rs/foundry/releases/tag/nightly-e940f4f1a0f7db780611b923bb5209a98630e881",
+          "publishedAt": "2026-11-11T07:06:21Z",
+          "prerelease": true,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "加密与 Web3",
       "license": {
         "spdx": "Apache-2.0",
@@ -5433,9 +6063,9 @@
         "url": "https://github.com/foundry-rs/foundry",
         "homepage": "https://getfoundry.sh/",
         "description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
-        "stars": 10692,
-        "forks": 2691,
-        "openIssues": 244,
+        "stars": 10772,
+        "forks": 2727,
+        "openIssues": 273,
         "language": "Rust",
         "topics": [
           "alloy",
@@ -5465,9 +6095,9 @@
           "url": null
         },
         "createdAt": "2021-09-08T11:23:11Z",
-        "pushedAt": "2026-10-24T15:22:30Z",
+        "pushedAt": "2026-11-11T21:32:41Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:46.216Z",
+        "fetchedAt": "2026-11-11T21:52:06.801Z",
         "source": "api",
         "warnings": []
       },
@@ -5493,7 +6123,7 @@
           "Support"
         ],
         "chars": 3206,
-        "fetchedAt": "2026-10-24T17:55:46.216Z",
+        "fetchedAt": "2026-11-11T21:52:06.801Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -5577,6 +6207,26 @@
       },
       "popularityScore": 400,
       "weeklyScore": 520,
+      "momentum": {
+        "stars": 10066,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 1,
+        "commits4w": 1,
+        "commits52w": 666,
+        "commitTotal": 1687,
+        "latestRelease": {
+          "tag": "v10.7.0",
+          "name": "DiceBear 10.7 - Release Notes",
+          "url": "https://github.com/dicebear/dicebear/releases/tag/v10.7.0",
+          "publishedAt": "2026-08-26T21:12:47Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "互联网玩具",
       "license": {
         "spdx": "MIT",
@@ -5590,8 +6240,8 @@
         "url": "https://github.com/dicebear/dicebear",
         "homepage": "https://www.dicebear.com",
         "description": "DiceBear is an avatar library for designers and developers. 🌍",
-        "stars": 9924,
-        "forks": 434,
+        "stars": 10066,
+        "forks": 442,
         "openIssues": 7,
         "language": "Vue",
         "topics": [
@@ -5611,9 +6261,9 @@
           "url": null
         },
         "createdAt": "2017-03-21T12:58:17Z",
-        "pushedAt": "2026-10-21T07:28:37Z",
+        "pushedAt": "2026-11-05T23:45:53Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:43.327Z",
+        "fetchedAt": "2026-11-11T21:51:45.846Z",
         "source": "api",
         "warnings": []
       },
@@ -5640,7 +6290,7 @@
           "Sponsors"
         ],
         "chars": 3698,
-        "fetchedAt": "2026-10-24T17:55:43.327Z",
+        "fetchedAt": "2026-11-11T21:51:45.846Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -5725,6 +6375,26 @@
       },
       "popularityScore": 385,
       "weeklyScore": 505,
+      "momentum": {
+        "stars": 7109,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 9,
+        "commits4w": 60,
+        "commits52w": 205,
+        "commitTotal": 10104,
+        "latestRelease": {
+          "tag": "@evidence-dev/universal-sql@3.0.1",
+          "name": "@evidence-dev/universal-sql@3.0.1",
+          "url": "https://github.com/evidence-dev/evidence/releases/tag/%40evidence-dev/universal-sql%403.0.1",
+          "publishedAt": "2026-02-06T16:08:13Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "数据可视化",
       "license": {
         "spdx": "MIT",
@@ -5738,9 +6408,9 @@
         "url": "https://github.com/evidence-dev/evidence",
         "homepage": "https://evidence.dev",
         "description": "Business intelligence as code: build fast, interactive data visualizations in SQL and markdown",
-        "stars": 7056,
-        "forks": 429,
-        "openIssues": 15,
+        "stars": 7109,
+        "forks": 443,
+        "openIssues": 37,
         "language": "TypeScript",
         "topics": [
           "analytics",
@@ -5764,9 +6434,9 @@
           "url": null
         },
         "createdAt": "2021-05-27T03:50:19Z",
-        "pushedAt": "2026-10-23T14:42:41Z",
+        "pushedAt": "2026-11-11T14:57:38Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:33.248Z",
+        "fetchedAt": "2026-11-11T21:51:09.693Z",
         "source": "api",
         "warnings": []
       },
@@ -5785,7 +6455,7 @@
         "path": "README.md",
         "excerpt": "Evidence is an agent-ready tool for creating reports using your data Docs Slack How It Works Evidence is an open-source, code-based alternative to drag-and-drop business intelligence tools. - Create reports in code using SQL and markdown - Develop using Evidence's Agent, or on your local machine with Claude Code / Cursor etc - Self-host or publish on Evidence Studio Install macOS / Linux Windows Create a Project Publish Publish your project on Evidence Studio for hosted reports, or self-host the generated static site on your own infrastructure. See the publishing docs for options. Join the Evidence Community Join our Slack channel to get involved in the community's discussion, share what you're working on, or ask for help. Contributing Contributions are welcome — see CONTRIBUTING.md for how pull requests are reviewed and merged. License Evidence is licensed under the MIT license. See LICENSE for details.",
         "headings": [
-          "[Docs](https://docs.evidence.studio) | [Slack](https://slack.evidence.dev)",
+          "Docs | Slack",
           "How It Works",
           "Install",
           "macOS / Linux",
@@ -5797,7 +6467,7 @@
           "License"
         ],
         "chars": 931,
-        "fetchedAt": "2026-10-24T17:55:33.248Z",
+        "fetchedAt": "2026-11-11T21:51:09.693Z",
         "truncated": false
       },
       "updatedAt": "2026-10-24"
@@ -5881,7 +6551,27 @@
         "todo": "核对示例链接"
       },
       "popularityScore": 373,
-      "weeklyScore": 393,
+      "weeklyScore": 493,
+      "momentum": {
+        "stars": 5425,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 11,
+        "commits4w": 13,
+        "commits52w": 51,
+        "commitTotal": 2143,
+        "latestRelease": {
+          "tag": "v0.6.19",
+          "name": "v0.6.19",
+          "url": "https://github.com/observablehq/plot/releases/tag/v0.6.19",
+          "publishedAt": "2026-11-05T22:27:53Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "数据可视化",
       "license": {
         "spdx": "ISC",
@@ -5893,11 +6583,11 @@
         "name": "plot",
         "fullName": "observablehq/plot",
         "url": "https://github.com/observablehq/plot",
-        "homepage": "https://observablehq.com/plot/",
+        "homepage": "https://observablehq.github.io/plot/",
         "description": "A concise API for exploratory data visualization implementing a layered grammar of graphics",
-        "stars": 5411,
+        "stars": 5425,
         "forks": 251,
-        "openIssues": 350,
+        "openIssues": 347,
         "language": "HTML",
         "topics": [
           "charts",
@@ -5912,9 +6602,9 @@
           "url": null
         },
         "createdAt": "2020-10-29T22:30:31Z",
-        "pushedAt": "2026-09-01T17:19:43Z",
+        "pushedAt": "2026-11-05T22:31:26Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:34.715Z",
+        "fetchedAt": "2026-11-11T21:51:18.004Z",
         "source": "api",
         "warnings": []
       },
@@ -5931,7 +6621,7 @@
       ],
       "readme": {
         "path": "README.md",
-        "excerpt": "Observable Plot Observable Plot is a free, open-source, JavaScript library for visualizing tabular data, focused on accelerating exploratory data analysis. It has a concise, memorable, yet expressive API, featuring scales and layered marks in the grammar of graphics style. Daily downloads of Observable Plot · oss-analytics Documentation 📚 https://observablehq.com/plot/ Examples 🖼️ https://observablehq.com/@observablehq/plot-gallery Releases 🚀 See our CHANGELOG and summary release notes. Getting help 🏠 See our community guide. Contributing 🙏 See CONTRIBUTING.md.",
+        "excerpt": "Observable Plot Observable Plot is a free, open-source, JavaScript library for visualizing tabular data, focused on accelerating exploratory data analysis. It has a concise, memorable, yet expressive API, featuring scales and layered marks in the grammar of graphics style. Daily downloads of Observable Plot · oss-analytics Documentation 📚 https://observablehq.github.io/plot/ Examples 🖼️ https://observablehq.com/@observablehq/plot-gallery Releases 🚀 See our CHANGELOG and summary release notes. Getting help 🏠 See our community guide. Contributing 🙏 See CONTRIBUTING.md.",
         "headings": [
           "Observable Plot",
           "Documentation 📚",
@@ -5940,8 +6630,8 @@
           "Getting help 🏠",
           "Contributing 🙏"
         ],
-        "chars": 606,
-        "fetchedAt": "2026-10-24T17:55:34.715Z",
+        "chars": 612,
+        "fetchedAt": "2026-11-11T21:51:18.004Z",
         "truncated": false
       },
       "updatedAt": "2026-10-24"
@@ -6027,6 +6717,26 @@
       },
       "popularityScore": 364,
       "weeklyScore": 484,
+      "momentum": {
+        "stars": 4401,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 11,
+        "commits4w": 54,
+        "commits52w": 753,
+        "commitTotal": 9421,
+        "latestRelease": {
+          "tag": "v2.0.48",
+          "name": "v2.0.48",
+          "url": "https://github.com/rainbow-me/rainbow/releases/tag/v2.0.48",
+          "publishedAt": "2026-11-09T05:36:39Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "加密与 Web3",
       "license": {
         "spdx": "GPL-3.0",
@@ -6040,9 +6750,9 @@
         "url": "https://github.com/rainbow-me/rainbow",
         "homepage": "https://rainbow.me",
         "description": "🌈‒ the Ethereum wallet that lives in your pocket ",
-        "stars": 4397,
-        "forks": 764,
-        "openIssues": 47,
+        "stars": 4401,
+        "forks": 766,
+        "openIssues": 34,
         "language": "TypeScript",
         "topics": [
           "defi",
@@ -6057,9 +6767,9 @@
           "url": null
         },
         "createdAt": "2019-03-20T16:46:57Z",
-        "pushedAt": "2026-10-23T19:28:21Z",
+        "pushedAt": "2026-11-11T21:08:46Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:47.258Z",
+        "fetchedAt": "2026-11-11T21:52:14.051Z",
         "source": "api",
         "warnings": []
       },
@@ -6088,7 +6798,7 @@
           "Developing"
         ],
         "chars": 4276,
-        "fetchedAt": "2026-10-24T17:55:47.258Z",
+        "fetchedAt": "2026-11-11T21:52:14.051Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -6173,6 +6883,19 @@
       },
       "popularityScore": 348,
       "weeklyScore": 348,
+      "momentum": {
+        "stars": 3010,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 0,
+        "commits4w": 0,
+        "commits52w": 2,
+        "commitTotal": 181,
+        "latestRelease": null,
+        "velocity": null,
+        "measuredAt": "2026-11-11"
+      },
       "categoryName": "学习工具",
       "license": {
         "spdx": "MIT",
@@ -6186,8 +6909,8 @@
         "url": "https://github.com/typescript-exercises/typescript-exercises",
         "homepage": "https://typescript-exercises.github.io",
         "description": "A set of interactive TypeScript exercises",
-        "stars": 3008,
-        "forks": 486,
+        "stars": 3010,
+        "forks": 487,
         "openIssues": 22,
         "language": "TypeScript",
         "topics": [],
@@ -6199,7 +6922,7 @@
         "createdAt": "2020-04-29T14:47:59Z",
         "pushedAt": "2026-03-29T12:34:31Z",
         "archived": false,
-        "fetchedAt": "2026-10-24T17:55:38.980Z",
+        "fetchedAt": "2026-11-11T21:51:32.620Z",
         "source": "api",
         "warnings": []
       },
@@ -6224,7 +6947,7 @@
           "Contributing"
         ],
         "chars": 802,
-        "fetchedAt": "2026-10-24T17:55:38.980Z",
+        "fetchedAt": "2026-11-11T21:51:32.620Z",
         "truncated": false
       },
       "updatedAt": "2026-10-24"

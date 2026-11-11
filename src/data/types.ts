@@ -104,6 +104,53 @@ export interface Setup {
   cost: string;
 }
 
+/** Weekly commit counts from GitHub's `stats/participation` (52 weeks, oldest first). */
+export interface Activity {
+  weekly: number[];
+  commits52w: number;
+  commits4w: number;
+  commits1w: number;
+  fetchedAt: string | null;
+}
+
+export interface Release {
+  tag: string | null;
+  name: string | null;
+  url: string | null;
+  publishedAt: string | null;
+  prerelease: boolean;
+  draft: boolean;
+}
+
+/**
+ * A star delta we actually measured across our own snapshots.
+ * `null` everywhere means "not enough history yet" — never zero.
+ */
+export interface StarDelta {
+  delta: number;
+  from: string;
+  to: string;
+  days: number;
+}
+
+export interface Momentum {
+  stars: number | null;
+  day: StarDelta | null;
+  week: StarDelta | null;
+  month: StarDelta | null;
+  /** Commit totals, when the API answered. */
+  commits1w: number | null;
+  commits4w: number | null;
+  commits52w: number | null;
+  commitTotal: number | null;
+  /** Newest stable release, if the repo publishes any. */
+  latestRelease: Release | null;
+  /** Unix-ish rank key: stars/day over the last month, used for the daily board. */
+  velocity: number | null;
+  /** When the whole momentum block was computed (our snapshot date). */
+  measuredAt: string;
+}
+
 export interface Project {
   slug: string;
   name: string;
@@ -142,6 +189,8 @@ export interface Project {
   /** Yesterday's / this week's numbers that we can actually compute from our own data. */
   popularityScore: number;
   weeklyScore: number;
+  /** Measured momentum: star deltas from our own history, commits, releases. */
+  momentum: Momentum;
   review: {
     status: 'published' | 'draft' | 'needs-review';
     /** Who produced the Chinese copy: a person, or the automatic pipeline. */

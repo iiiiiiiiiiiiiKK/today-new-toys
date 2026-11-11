@@ -26,6 +26,7 @@ const port = Number(process.env.PRERENDER_PORT || 4188);
 
 const routes = [
   '/',
+  '/rankings',
   '/discover',
   '/categories',
   '/favorites',
@@ -139,7 +140,7 @@ try {
   // project site the file simply sits unused next to 404.html.
   writeFileSync(
     join(dist, '_redirects'),
-    ['/project/*  /project/:splat  200', '/category/*  /category/:splat  200', '/*  /index.html  200', ''].join('\n'),
+    ['/project/*  /project/:splat  200', '/category/*  /category/:splat  200', '/rankings  /rankings  200', '/*  /index.html  200', ''].join('\n'),
     'utf8',
   );
   writeFileSync(join(dist, '.nojekyll'), '', 'utf8');

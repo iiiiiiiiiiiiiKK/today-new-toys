@@ -1,7 +1,7 @@
 {
   "slug": "esphome",
   "repoInput": "esphome/esphome",
-  "fetchedAt": "2026-10-24T17:55:40.498Z",
+  "fetchedAt": "2026-11-11T21:51:37.169Z",
   "github": {
     "owner": "esphome",
     "name": "esphome",
@@ -9,9 +9,9 @@
     "url": "https://github.com/esphome/esphome",
     "homepage": "https://esphome.io/",
     "description": "ESPHome is a system to control your ESP32, ESP8266, BK72xx, RP2040 by simple yet powerful configuration files and control them remotely through Home Automation systems.",
-    "stars": 11948,
-    "forks": 5746,
-    "openIssues": 722,
+    "stars": 12089,
+    "forks": 5798,
+    "openIssues": 644,
     "language": "C++",
     "topics": [
       "esp32",
@@ -32,19 +32,124 @@
       "url": null
     },
     "createdAt": "2018-04-06T23:23:25Z",
-    "pushedAt": "2026-10-24T16:58:12Z",
+    "pushedAt": "2026-11-11T21:43:24Z",
     "archived": false,
-    "fetchedAt": "2026-10-24T17:55:40.498Z",
+    "fetchedAt": "2026-11-11T21:51:37.169Z",
     "source": "api",
-    "warnings": []
+    "warnings": [
+      "仓库未声明可识别的开源许可证"
+    ]
   },
   "defaultBranch": "dev",
+  "activity": {
+    "weekly": [
+      105,
+      115,
+      102,
+      115,
+      81,
+      116,
+      40,
+      288,
+      143,
+      160,
+      152,
+      115,
+      148,
+      92,
+      186,
+      175,
+      188,
+      220,
+      216,
+      167,
+      171,
+      158,
+      123,
+      149,
+      136,
+      104,
+      123,
+      143,
+      42,
+      81,
+      65,
+      149,
+      127,
+      95,
+      119,
+      152,
+      94,
+      105,
+      174,
+      160,
+      221,
+      123,
+      104,
+      120,
+      159,
+      390,
+      247,
+      515,
+      397,
+      518,
+      291,
+      298
+    ],
+    "commits52w": 8777,
+    "commits4w": 1504,
+    "commits1w": 298,
+    "fetchedAt": "2026-11-11T21:51:38.605Z"
+  },
+  "releases": [
+    {
+      "tag": "2026.11.0b3",
+      "name": "2026.11.0b3",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.11.0b3",
+      "publishedAt": "2026-11-09T01:04:57Z",
+      "prerelease": true,
+      "draft": false
+    },
+    {
+      "tag": "2026.11.0b2",
+      "name": "2026.11.0b2",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.11.0b2",
+      "publishedAt": "2026-11-06T02:38:12Z",
+      "prerelease": true,
+      "draft": false
+    },
+    {
+      "tag": "2026.11.0b1",
+      "name": "2026.11.0b1",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.11.0b1",
+      "publishedAt": "2026-11-04T09:32:45Z",
+      "prerelease": true,
+      "draft": false
+    },
+    {
+      "tag": "2026.10.2",
+      "name": "2026.10.2",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.10.2",
+      "publishedAt": "2026-11-02T21:30:29Z",
+      "prerelease": false,
+      "draft": false
+    },
+    {
+      "tag": "2026.10.1",
+      "name": "2026.10.1",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.10.1",
+      "publishedAt": "2026-10-27T18:33:13Z",
+      "prerelease": false,
+      "draft": false
+    }
+  ],
+  "commitTotal": 20025,
   "readme": {
     "path": "README.md",
     "via": "api",
     "chars": 89,
     "headings": [
-      "ESPHome [![Discord Chat](https://img.shields.io/discord/429907082951524364.svg)](https://discord.gg/KhAMKrd) [![GitHub release](https://img.shields.io/github/release/esphome/esphome.svg)](https://GitHub.com/esphome/esphome/releases/) [![CodSpeed](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json)](https://codspeed.io/esphome/esphome)"
+      "ESPHome ![Discord Chat](https://discord.gg/KhAMKrd) ![GitHub release](https://GitHub.com/esphome/esphome/releases/) ![CodSpeed](https://codspeed.io/esphome/esphome)"
     ],
     "excerpt": "ESPHome --- Documentation -- Issues -- Feature requests ---",
     "truncated": false,

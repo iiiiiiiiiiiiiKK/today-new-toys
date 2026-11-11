@@ -80,8 +80,14 @@ export function createClient({ token = process.env.GITHUB_TOKEN, log = () => {},
       return { ok: false, status: res.status, error: body || `HTTP ${res.status}`, data: null };
     }
     const data = await res.json();
+    // Pagination Link header: `page=N>; rel="last"` with per_page=1 gives a total
+    // without fetching every page. Used for commit counts.
+    const link = res.headers.get('link') || '';
+    const lastPage = link.match(/[?&]page=(\d+)>;\s*rel="last"/);
+    const perPage = Number(new URL(url).searchParams.get('per_page') || 0);
+    const total = lastPage && perPage ? Number(lastPage[1]) * perPage : null;
     log({ event: 'http_ok', url, status: res.status, remaining: state.remaining, ms: Date.now() - started });
-    return { ok: true, status: res.status, data };
+    return { ok: true, status: res.status, data, total };
   }
 
   async function repo(owner, name) {

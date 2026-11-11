@@ -1,0 +1,9 @@
+{"at":"2026-11-11T21:48:44.740Z","event":"run_start","name":"fetch","startedAt":"2026-11-11T21:48:44.739Z","cwd":"C:\\Users\\Administrator\\Documents\\deepseek-harness\\default-workspace\\new-toys","node":"v24.22.2"}
+{"at":"2026-11-11T21:48:44.745Z","event":"auth","detail":"GITHUB_TOKEN 已提供（不计入匿名 60 次额度）","level":"info"}
+{"at":"2026-11-11T21:48:46.339Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/biomejs/biome","status":200,"remaining":4969,"ms":1582}
+{"at":"2026-11-11T21:48:46.972Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/biomejs/biome/readme","status":200,"remaining":4968,"ms":628}
+{"at":"2026-11-11T21:48:47.573Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/biomejs/biome/stats/participation","status":200,"remaining":4967,"ms":595}
+{"at":"2026-11-11T21:48:48.162Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/biomejs/biome/commits?per_page=1","status":200,"remaining":4966,"ms":1176}
+{"at":"2026-11-11T21:48:48.843Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/biomejs/biome/releases?per_page=5","status":200,"remaining":4965,"ms":1861}
+{"at":"2026-11-11T21:48:48.869Z","event":"saved","detail":"biome ★26097 Apache-2.0 README=4962 字","level":"info"}
+{"at":"2026-11-11T21:48:48.871Z","event":"run_end","level":"info","detail":"{\"requested\":1,\"ok\":1,\"failed\":0}"}

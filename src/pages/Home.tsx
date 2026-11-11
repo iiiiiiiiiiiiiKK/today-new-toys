@@ -3,7 +3,19 @@ import { Link, useNavigate } from 'react-router-dom';
 import { DataGate } from '../components/DataGate';
 import { Cover } from '../components/Cover';
 import { useDataReady } from '../context/DataContext';
-import { categoryName, featured, newArrivals, randomProject, todayPicks, weeklyHot } from '../lib/data';
+import {
+  boardCoverage,
+  boardNote,
+  boardValue,
+  categoryName,
+  feedEvents,
+  featured,
+  newArrivals,
+  randomProject,
+  rankProjects,
+  todayPicks,
+  type BoardId,
+} from '../lib/data';
 import { currentIssue, issueFor } from '../lib/issue';
 import { fmtDate, relativeTo } from '../lib/utils';
 
@@ -146,7 +158,7 @@ function CoverStory() {
 function Ticker() {
   const data = useDataReady();
   const issue = currentIssue();
-  const hot = weeklyHot(data, 3);
+  const hot = rankProjects(data, 'week', 3);
   const items = [
     `第 ${String(issue.number).padStart(3, '0')} 期`,
     `收录 ${data.projects.length} 个项目`,
@@ -169,6 +181,70 @@ function Ticker() {
         ))}
       </div>
     </div>
+  );
+}
+
+/** Three live boards side by side + the newest real events. */
+function BoardsAndEvents() {
+  const data = useDataReady();
+  const boards: Array<{ id: BoardId; label: string }> = [
+    { id: 'today', label: '今日活跃' },
+    { id: 'week', label: '本周热榜' },
+    { id: 'month', label: '本月热榜' },
+  ];
+  const events = feedEvents(data, 6);
+
+  return (
+    <>
+      <Section
+        num="02"
+        title="今天该看什么"
+        note="三个榜单，全部由仓库自己的提交与发版数据排出。没有埋点，也没有编辑偏好——点进去能看到每个数字的出处。"
+        more={{ to: '/rankings', label: '完整榜单' }}
+      >
+        <div className="boardstrip">
+          {boards.map((b) => {
+            const top = rankProjects(data, b.id, 1)[0];
+            const coverage = boardCoverage(data, b.id);
+            if (!top) {
+              return (
+                <div key={b.id} className="boardtile">
+                  <span className="boardtile__label">{b.label}</span>
+                  <p className="boardtile__note">今天还没有满足条件的项目</p>
+                </div>
+              );
+            }
+            return (
+              <article key={b.id} className="boardtile">
+                <span className="boardtile__label">{b.label}</span>
+                <p className="boardtile__name">
+                  <Link to={`/project/${top.slug}`}>{top.name}</Link>
+                </p>
+                <p className="boardtile__value">
+                  {boardValue(top, b.id)} · 共 {coverage} 个有数据
+                </p>
+                <p className="boardtile__note">{boardNote(top, data.snapshotDate)}</p>
+              </article>
+            );
+          })}
+        </div>
+
+        <div className="eventstrip">
+          {events.map((e, i) => (
+            <div key={`${e.project.slug}-${e.kind}-${i}`} className="eventstrip__row">
+              <span className={`eventstrip__kind eventstrip__kind--${e.kind}`}>
+                {e.kind === 'release' ? '发版' : e.kind === 'commit' ? '推送' : '收录'}
+              </span>
+              <Link to={`/project/${e.project.slug}`} className="eventstrip__name">
+                {e.project.name}
+              </Link>
+              <span className="eventstrip__label">{e.label}</span>
+              <span className="eventstrip__when">{relativeTo(e.at, data.snapshotDate)}</span>
+            </div>
+          ))}
+        </div>
+      </Section>
+    </>
   );
 }
 
@@ -259,14 +335,16 @@ function HomeInner() {
   const data = useDataReady();
   const editors = featured(data, 3);
   const fresh = newArrivals(data, 6);
-  const hot = weeklyHot(data, 6);
+  const hot = rankProjects(data, 'week', 6);
 
   return (
     <>
       <CoverStory />
       <Ticker />
 
-      <Section num="01" title="最新收录" note="按进入清单的时间排列。新不代表好，只是我们刚刚读到它。" more={{ to: '/discover?sort=newest', label: '全部项目' }}>
+      <BoardsAndEvents />
+
+      <Section num="03" title="最新收录" note="按进入清单的时间排列。新不代表好，只是我们刚刚读到它。" more={{ to: '/discover?sort=newest', label: '全部项目' }}>
         <div className="index-list">
           {fresh.map((p, i) => (
             <IndexRow key={p.slug} project={p} index={i} badge={`NEW ${fmtDate(p.addedAt)}`} />
@@ -275,10 +353,10 @@ function HomeInner() {
       </Section>
 
       <Section
-        num="02"
-        title="本周热门"
-        note="站内没有埋点。排名只由两件公开数据决定：仓库 Star 规模与最近推送时间，算法写在 scripts/build-data.mjs 里，可复核。"
-        more={{ to: '/discover?sort=updated', label: '按更新排序' }}
+        num="04"
+        title="本周热榜"
+        note="最近 7 天的提交数 + 7 天内是否发版。两个数都来自 GitHub 仓库统计，不是我们的估算，也没有埋点。"
+        more={{ to: '/rankings?board=week', label: '完整榜单' }}
       >
         <ol className="chart">
           {hot.map((p, i) => (
@@ -295,10 +373,10 @@ function HomeInner() {
                 </p>
                 <p className="chart__tag">{p.tagline}</p>
               </div>
-              <span className="chart__stars" title="GitHub Star（快照数据，非周增量）">
-                {p.repo.stars === null ? '★ 未知' : `★ ${p.repo.stars.toLocaleString('en-US')}`}
+              <span className="chart__stars" title="本周提交数">
+                {boardValue(p, 'week')}
               </span>
-              <span className="chart__cat">{categoryName(data, p.category)}</span>
+              <span className="chart__cat">{boardNote(p, data.snapshotDate)}</span>
             </li>
           ))}
         </ol>

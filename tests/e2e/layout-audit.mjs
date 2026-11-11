@@ -13,7 +13,7 @@ const viewports = [
   { name: 'tablet', width: 820, height: 1100 },
   { name: 'phone', width: 390, height: 844 },
 ];
-const pages = ['/', '/discover', '/categories', '/category/ai-tools', '/project/excalidraw', '/favorites', '/about'];
+const pages = ['/', '/rankings', '/discover', '/categories', '/category/ai-tools', '/project/excalidraw', '/favorites', '/about'];
 
 const browser = await chromium.launch({ executablePath: chrome, headless: true });
 let problems = 0;
@@ -32,8 +32,9 @@ for (const vp of viewports) {
         if (r.width === 0 || r.height === 0) continue;
         if (r.right > vw + 2 || r.left < -2) {
           const text = (el.textContent || '').trim().slice(0, 40);
-          // Chip rails and the ticker scroll horizontally by design; the page itself must not overflow.
-          if (text && !el.closest('.filters__chips') && !el.closest('.ticker')) out.clipped.push(`${el.tagName}.${el.className}: ${text} [${Math.round(r.left)}..${Math.round(r.right)}]`);
+          // Chip rails, the ticker and the board tab strip scroll horizontally by
+          // design; the page itself must not overflow.
+          if (text && !el.closest('.filters__chips') && !el.closest('.ticker') && !el.closest('.boardtabs')) out.clipped.push(`${el.tagName}.${el.className}: ${text} [${Math.round(r.left)}..${Math.round(r.right)}]`);
         }
         const cs = getComputedStyle(el);
         const fs = parseFloat(cs.fontSize);

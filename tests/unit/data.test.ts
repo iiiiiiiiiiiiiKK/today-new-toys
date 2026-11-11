@@ -53,6 +53,19 @@ function project(overrides: Partial<Project> & { slug: string }): Project {
     updatedAt: '2026-10-01',
     popularityScore: 50,
     weeklyScore: 50,
+    momentum: {
+      stars: 1000,
+      day: null,
+      week: null,
+      month: null,
+      commits1w: 10,
+      commits4w: 40,
+      commits52w: 500,
+      commitTotal: 1000,
+      latestRelease: null,
+      velocity: null,
+      measuredAt: '2026-10-25',
+    },
     review: { status: 'published', reviewedBy: '编辑部', reviewedAt: '2026-10-01' },
   };
   return { ...base, ...overrides };

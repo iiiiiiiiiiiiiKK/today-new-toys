@@ -4,8 +4,10 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import { DataProvider } from './context/DataContext';
 import { FavoritesProvider } from './context/FavoritesContext';
+import { ThemeProvider } from './context/ThemeContext';
 import { ToastProvider } from './context/ToastContext';
 import './styles/base.css';
+import './styles/theme-light.css';
 import './styles/pages.css';
 
 /**
@@ -17,13 +19,15 @@ const basename = import.meta.env.BASE_URL.replace(/\/$/, '') || undefined;
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter basename={basename}>
-      <DataProvider>
-        <FavoritesProvider>
-          <ToastProvider>
-            <App />
-          </ToastProvider>
-        </FavoritesProvider>
-      </DataProvider>
+      <ThemeProvider>
+        <DataProvider>
+          <FavoritesProvider>
+            <ToastProvider>
+              <App />
+            </ToastProvider>
+          </FavoritesProvider>
+        </DataProvider>
+      </ThemeProvider>
     </BrowserRouter>
   </React.StrictMode>,
 );

@@ -56,7 +56,7 @@ git clone <your fork of the repo>
 cd learnGitBranching
 yarn install
 
-git checkout -b newAwesomeFeature
+git switch -c newAwesomeFeature
 vim ./src/js/git/index.js # some changes
 yarn dev # dev server with live reload at http://localhost:5173
 
@@ -97,9 +97,9 @@ Use `yarn dev` while developing, or run `yarn build` and serve the resulting
 
 ### Docker
 
-You can run the most recently built stable image with `docker run -p 8080:80 ghcr.io/pcottle/learngitbranching:main`. Access your environment at [http://localhost:8080/](<http://localhost:8080/>)
+You can run the most recently built stable image with `docker run -p 8080:80 ghcr.io/pcottle/learngitbranching`. Access your environment at [http://localhost:8080/](<http://localhost:8080/>)
 
-You can build the app and image with the command: `docker build -t ghcr.io/pcottle/learngitbranching:latest`. See the [Makefile](Makefile) for information on how to build locally with docker.
+You can build the app and image with the command: `docker build -t ghcr.io/pcottle/learngitbranching:latest .`. See the [Makefile](Makefile) for information on how to build locally with docker.
 
 ## Some of our amazing contributors
 
@@ -166,6 +166,8 @@ And the following heroes for assisting in translating:
 * Mizunashi Mana ("mizunashi-mana")
 * YourSenseiCreeper
 * Olsza
+
+
 
 Also huge shoutout for everyone who has put up a pull request that was pulled! Check out the 30+ contributors we have in the [Contributors View](https://github.com/pcottle/learnGitBranching/graphs/contributors)
 

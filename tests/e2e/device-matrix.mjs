@@ -35,7 +35,7 @@ const devices = [
   { name: 'Desktop 1024', width: 1024, height: 768, dpr: 1, mobile: false },
 ];
 
-const pages = ['/', '/discover', '/categories', '/project/excalidraw', '/favorites', '/about'];
+const pages = ['/', '/rankings', '/discover', '/categories', '/project/excalidraw', '/favorites', '/about'];
 
 const browser = await chromium.launch({ executablePath: chrome, headless: true });
 const findings = [];
@@ -66,6 +66,7 @@ for (const device of devices) {
         if (r.width === 0 || r.height === 0 || cs.visibility === 'hidden' || cs.display === 'none') continue;
         if (el.closest('.filters__chips')) continue; // horizontally scrollable rails, by design
         if (el.closest('.ticker')) continue; // marquee track, clipped by its own overflow:hidden
+        if (el.closest('.boardtabs')) continue; // board tab strip scrolls sideways by design
         if (r.right > vw + 1.5 || r.left < -1.5) {
           clipped.push(`${el.tagName}:${(el.textContent || '').trim().slice(0, 24)} [${Math.round(r.left)}..${Math.round(r.right)}]`);
         }

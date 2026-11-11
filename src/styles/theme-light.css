@@ -1,0 +1,289 @@
+/* ==========================================================================
+   Light theme
+   --------------------------------------------------------------------------
+   Only tokens are redefined here â€?every component reads the same variable names,
+   so nothing in the app knows which theme is active. `data-theme` is set on <html>
+   by an inline boot script (no flash) and kept in sync by ThemeProvider.
+
+   The signal colour has to change too: #b6ff3c on paper is unreadable, so light
+   mode uses a deep moss green with the same "one accent" role.
+   ========================================================================== */
+
+[data-theme='light'] {
+  color-scheme: light;
+
+  --bg: #f7f4ec;
+  --bg-2: #ffffff;
+  --bg-3: #efeade;
+  --line: #d8d1c0;
+  --line-soft: #e6e0d2;
+  --paper: #16150f;
+  --paper-dim: #33302a;
+  --mute: #61625c;
+  --on-neon: #06070a;
+
+  --neon: #1f7a3f;
+  --electric: #2b4fd0;
+  --hot: #c62a5c;
+  --warn: #96590a;
+
+  /* Shadows stay hard, but black-on-white needs less weight than on the dark canvas. */
+  --shadow-hard: 6px 6px 0 #16150f;
+  --shadow-hard-sm: 3px 3px 0 #16150f;
+  --shadow-panel: 0 0 0 1px var(--line), 10px 10px 0 rgba(22, 21, 15, 0.86);
+}
+
+/* The dot grid is a canvas hint: much fainter on paper, or it looks like dirt. */
+[data-theme='light'] body::before {
+  background-image: radial-gradient(circle at 1px 1px, rgba(22, 21, 15, 0.16) 1px, transparent 0);
+}
+
+[data-theme='light'] .masthead {
+  background: rgba(247, 244, 236, 0.94);
+}
+
+/* Filled surfaces: white text on the accent needs the darker green. */
+[data-theme='light'] .btn,
+[data-theme='light'] .btn--ink,
+[data-theme='light'] .btn--accent,
+[data-theme='light'] .logo-mark,
+[data-theme='light'] .sticker,
+[data-theme='light'] .chip.is-on,
+[data-theme='light'] .tagchip.is-on,
+[data-theme='light'] .pager__num.is-on,
+[data-theme='light'] .fav-btn.is-on,
+[data-theme='light'] .cover__badge,
+[data-theme='light'] .navlink__count,
+[data-theme='light'] .principle-flag__label,
+[data-theme='light'] .hl {
+  background: var(--neon);
+  color: #ffffff;
+}
+
+[data-theme='light'] .sticker {
+  border-color: #16150f;
+}
+
+[data-theme='light'] .sticker--hot {
+  background: var(--hot);
+  color: #ffffff;
+}
+
+[data-theme='light'] .sticker--electric {
+  background: var(--electric);
+  color: #ffffff;
+}
+
+[data-theme='light'] .sticker--muted,
+[data-theme='light'] .btn--quiet,
+[data-theme='light'] .btn--ghost {
+  background: var(--bg-2);
+  color: var(--paper);
+  border-color: var(--line);
+  box-shadow: none;
+}
+
+[data-theme='light'] .btn--quiet:hover,
+[data-theme='light'] .btn--ghost:hover {
+  border-color: var(--neon);
+  color: var(--neon);
+}
+
+/* Inverted-on-hover category tiles: text must flip, not stay white-on-white. */
+[data-theme='light'] .section-link:hover {
+  background: var(--neon);
+  border-color: var(--neon);
+  color: #ffffff;
+}
+
+[data-theme='light'] .section-link:hover .section-link__num,
+[data-theme='light'] .section-link:hover .section-link__en,
+[data-theme='light'] .section-link:hover .section-link__blurb,
+[data-theme='light'] .section-link:hover .section-link__count {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+/* Hairline-heavy UI needs slightly stronger borders on light backgrounds. */
+[data-theme='light'] .project-card,
+[data-theme='light'] .index-row,
+[data-theme='light'] .pick,
+[data-theme='light'] .chart,
+[data-theme='light'] .section-link,
+[data-theme='light'] .also-pick,
+[data-theme='light'] .boardrow,
+[data-theme='light'] .feedrow,
+[data-theme='light'] .filters,
+[data-theme='light'] .about-block,
+[data-theme='light'] .colophon,
+[data-theme='light'] .project__facts,
+[data-theme='light'] .modal__panel {
+  box-shadow: none;
+}
+
+/* Browser chrome around screenshots: a light window frame reads better. */
+[data-theme='light'] .frame {
+  background: var(--bg-2);
+}
+
+[data-theme='light'] .frame__url {
+  color: var(--mute);
+}
+
+/* Toast/pill tinting was designed on black; retint for paper. */
+[data-theme='light'] .pill--accent {
+  border-color: rgba(31, 122, 63, 0.45);
+  color: #14612f;
+  background: rgba(31, 122, 63, 0.1);
+}
+
+[data-theme='light'] .pill--auto {
+  border-color: rgba(43, 79, 208, 0.4);
+  color: #23409f;
+  background: rgba(43, 79, 208, 0.1);
+}
+
+[data-theme='light'] .toast {
+  background: var(--bg-2);
+  color: var(--paper);
+}
+
+/* Selection: keep the accent, flip the text. */
+[data-theme='light'] ::selection {
+  background: var(--neon);
+  color: #ffffff;
+}
+
+[data-theme='light'] .cover__fallback {
+  background:
+    repeating-linear-gradient(135deg, transparent 0 12px, rgba(22, 21, 15, 0.05) 12px 13px),
+    var(--bg-3);
+}
+
+[data-theme='light'] .skeleton {
+  background: linear-gradient(90deg, var(--bg-3) 25%, var(--bg-2) 37%, var(--bg-3) 63%);
+  background-size: 400% 100%;
+}
+
+[data-theme='light'] .chart__rank {
+  color: #c9c2b2;
+}
+
+[data-theme='light'] .section__num {
+  -webkit-text-stroke-color: var(--neon);
+}
+
+[data-theme='light'] .modal {
+  background: rgba(247, 244, 236, 0.82);
+}
+
+[data-theme='light'] .skip-link {
+  color: #ffffff;
+}
+
+/* ---- contrast repairs found by the automated audit ----
+   These all use colours tuned for the dark canvas; on paper they fall under 4.5:1. */
+
+/* Rank numerals are decoration, but 1.6:1 is unreadable â€?use a warm grey. */
+[data-theme='light'] .chart__rank {
+  color: #7a7161;
+}
+
+[data-theme='light'] .boardrow__rank {
+  color: #7a7161;
+}
+
+[data-theme='light'] .boardrow__rank.is-top,
+[data-theme='light'] .chart__row:nth-child(-n + 3) .chart__rank {
+  color: #17703a;
+}
+
+/* Event kind chips: #9db8ff on white is ~1.8:1. */
+[data-theme='light'] .eventstrip__kind--commit,
+[data-theme='light'] .feedrow__kind--commit {
+  border-color: rgba(43, 79, 208, 0.4);
+  color: #23409f;
+}
+
+[data-theme='light'] .eventstrip__kind--release,
+[data-theme='light'] .feedrow__kind--release {
+  border-color: rgba(31, 122, 63, 0.45);
+  color: #14612f;
+}
+
+/* Selected board tab: white text on the accent, not the dark on-neon label. */
+[data-theme='light'] .boardtab.is-on {
+  color: #ffffff;
+}
+
+[data-theme='light'] .boardtab.is-on .boardtab__n {
+  color: #ffffff;
+  opacity: 0.86;
+}
+
+/* Muted greys that were chosen against #07070a. */
+[data-theme='light'] .basis__meta,
+[data-theme='light'] .rev__basis {
+  color: #5f5a4e !important;
+}
+
+[data-theme='light'] .boardrow__note,
+[data-theme='light'] .feedrow__when,
+[data-theme='light'] .eventstrip__when {
+  color: #5f5a4e;
+}
+
+/* The solid accent as *text* needs one more notch down to clear 4.5:1 on paper. */
+[data-theme='light'] .mono,
+[data-theme='light'] .flow__num,
+[data-theme='light'] .principle__num,
+[data-theme='light'] .section__num {
+  color: inherit;
+}
+
+[data-theme='light'] .flow__num,
+[data-theme='light'] .principle__num {
+  color: #17703a;
+}
+
+[data-theme='light'] .about-block .mono,
+[data-theme='light'] .transparency__term .mono,
+[data-theme='light'] .credits__item .mono,
+[data-theme='light'] .colophon .mono,
+[data-theme='light'] .field dt .mono {
+  color: #17703a;
+}
+
+[data-theme='light'] .eyebrow,
+[data-theme='light'] .kicker,
+[data-theme='light'] .pagehead__label .eyebrow,
+[data-theme='light'] .footer__head,
+[data-theme='light'] .boardtile__label,
+[data-theme='light'] .pick__label,
+[data-theme='light'] .basis__label,
+[data-theme='light'] .colophon__label,
+[data-theme='light'] .about-hero__label,
+[data-theme='light'] .section__num,
+[data-theme='light'] .pagehead__count,
+[data-theme='light'] .results__count strong,
+[data-theme='light'] .similar__cat,
+[data-theme='light'] .catsection__index,
+[data-theme='light'] .share__textlabel,
+[data-theme='light'] .project__kicker {
+  color: #17703a;
+}
+
+[data-theme='light'] .section__num {
+  color: transparent;
+  -webkit-text-stroke-color: #17703a;
+}
+
+/* Inline links that use the accent as text. */
+[data-theme='light'] .boardcontact a,
+[data-theme='light'] .filters__reset,
+[data-theme='light'] .prose code {
+  color: #17703a;
+}
+
+[data-theme='light'] .boardcontact a {
+  border-bottom-color: #17703a;
+}

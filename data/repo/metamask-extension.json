@@ -1,17 +1,17 @@
 {
   "slug": "metamask-extension",
   "repoInput": "MetaMask/metamask-extension",
-  "fetchedAt": "2026-10-24T18:00:00.000Z",
+  "fetchedAt": "2026-11-11T21:52:19.822Z",
   "github": {
     "owner": "MetaMask",
     "name": "metamask-extension",
     "fullName": "MetaMask/metamask-extension",
     "url": "https://github.com/MetaMask/metamask-extension",
     "homepage": "https://metamask.io",
-    "description": "The MetaMask browser extension enables browsing Ethereum blockchain enabled websites",
-    "stars": 13246,
-    "forks": 5601,
-    "openIssues": null,
+    "description": ":globe_with_meridians: :electric_plug: The MetaMask browser extension enables browsing Ethereum blockchain enabled websites",
+    "stars": 13255,
+    "forks": 5608,
+    "openIssues": 2933,
     "language": "TypeScript",
     "topics": [
       "brave",
@@ -22,38 +22,139 @@
       "ethereum",
       "extension",
       "firefox",
-      "opera",
-      "wallet",
-      "web3"
+      "opera"
     ],
     "license": {
       "spdx": null,
-      "name": "ConsenSys 自定义许可（非 OSI 认可）",
-      "note": "LICENSE 为 ConsenSys Software Inc. 自定义条款，非 OSI 认可的开源许可证；商用/再分发前请阅读原文",
-      "url": "https://github.com/MetaMask/metamask-extension/blob/main/LICENSE"
+      "name": "Other",
+      "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+      "url": null
     },
-    "createdAt": null,
-    "pushedAt": "2026-10-23T18:20:11Z",
+    "createdAt": "2015-09-06T16:34:48Z",
+    "pushedAt": "2026-11-11T21:48:12Z",
     "archived": false,
-    "fetchedAt": "2026-10-24T18:00:00.000Z",
+    "fetchedAt": "2026-11-11T21:52:19.822Z",
     "source": "api",
     "warnings": [
-      "GitHub API 额度耗尽后由网页兜底补齐；language/pushedAt 为人工核对值"
+      "仓库未声明可识别的开源许可证"
     ]
   },
   "defaultBranch": "main",
+  "activity": {
+    "weekly": [
+      146,
+      193,
+      137,
+      134,
+      149,
+      51,
+      0,
+      20,
+      118,
+      112,
+      119,
+      111,
+      129,
+      116,
+      98,
+      150,
+      118,
+      110,
+      145,
+      139,
+      85,
+      159,
+      145,
+      127,
+      101,
+      125,
+      108,
+      89,
+      104,
+      116,
+      184,
+      112,
+      114,
+      128,
+      189,
+      123,
+      178,
+      149,
+      106,
+      128,
+      102,
+      136,
+      113,
+      130,
+      127,
+      137,
+      48,
+      115,
+      105,
+      128,
+      117,
+      138
+    ],
+    "commits52w": 6261,
+    "commits4w": 488,
+    "commits1w": 138,
+    "fetchedAt": "2026-11-11T21:52:25.854Z"
+  },
+  "releases": [
+    {
+      "tag": "v13.56.0",
+      "name": "Version 13.56.0",
+      "url": "https://github.com/MetaMask/metamask-extension/releases/tag/v13.56.0",
+      "publishedAt": "2026-11-06T08:37:00Z",
+      "prerelease": false,
+      "draft": false
+    },
+    {
+      "tag": "v13.55.0",
+      "name": "Version 13.55.0",
+      "url": "https://github.com/MetaMask/metamask-extension/releases/tag/v13.55.0",
+      "publishedAt": "2026-10-29T17:28:24Z",
+      "prerelease": false,
+      "draft": false
+    },
+    {
+      "tag": "v13.54.0",
+      "name": "Version 13.54.0",
+      "url": "https://github.com/MetaMask/metamask-extension/releases/tag/v13.54.0",
+      "publishedAt": "2026-10-26T20:18:31Z",
+      "prerelease": false,
+      "draft": false
+    },
+    {
+      "tag": "v13.53.0",
+      "name": "Version 13.53.0",
+      "url": "https://github.com/MetaMask/metamask-extension/releases/tag/v13.53.0",
+      "publishedAt": "2026-10-19T07:14:57Z",
+      "prerelease": false,
+      "draft": false
+    },
+    {
+      "tag": "v13.52.0",
+      "name": "Version 13.52.0",
+      "url": "https://github.com/MetaMask/metamask-extension/releases/tag/v13.52.0",
+      "publishedAt": "2026-10-14T08:38:03Z",
+      "prerelease": false,
+      "draft": false
+    }
+  ],
+  "commitTotal": 33262,
   "readme": {
     "path": "README.md",
-    "via": "raw",
-    "chars": 30022,
+    "via": "api",
+    "chars": 24289,
     "headings": [
       "MetaMask Browser Extension",
       "GitHub Codespaces quickstart",
       "Tips to keep your Codespaces usage lower",
       "Codespaces on a fork",
       "Building on your local machine",
-      "AI Agent Skills (`yarn skills`)",
-      "edit .skills.local to set SKILLS_DOMAINS or override skills source paths",
+      "AI Agent Skills (yarn skills)",
+      "edit .skills.local to set SKILLSDOMAINS or override skills source paths",
       "Git Hooks",
       "Contributing",
       "Development builds",
@@ -68,8 +169,8 @@
       "Other Docs",
       "Dapp Developer Resources"
     ],
-    "excerpt": " MetaMask Browser Extension You can find the latest version of MetaMask on [our official website](https://metamask.io/). For help using MetaMask, visit our [User Support Site](https://support.metamask.io/). For [general questions](https://community.metamask.io/c/learn/26), [feature requests](https://community.metamask.io/c/feature-requests-ideas/13), or [developer questions](https://community.metamask.io/c/developer-questions/11), visit our [Community Forum](https://community.metamask.io/). MetaMask supports Firefox, Google Chrome, and Chromium-based browsers. We recommend using the latest available browser version. For up to the minute news, follow us on [X](https://x.com/MetaMask). To learn how to develop MetaMask-compatible applications, visit our [Developer Docs](https://docs.metamask.io/). To learn how to contribute to the MetaMask codebase, visit our [Contributor Docs](https://gith",
-    "truncated": false,
+    "excerpt": "MetaMask Browser Extension You can find the latest version of MetaMask on our official website. For help using MetaMask, visit our User Support Site. For general questions, feature requests, or developer questions, visit our Community Forum. MetaMask supports Firefox, Google Chrome, and Chromium-based browsers. We recommend using the latest available browser version. For up to the minute news, follow us on X. To learn how to develop MetaMask-compatible applications, visit our Developer Docs. To learn how to contribute to the MetaMask codebase, visit our Contributor Docs. To learn how to contribute to the MetaMask Extension project itself, visit our Extension Docs. GitHub Codespaces quickstart As an alternative to building on your local machine, there is a new option to get a development environment up and running in less than 5 minutes by using GitHub Codespaces. Please note that there is a Limited Free Monthly Quota, and after that GitHub will start charging you. Note: You are billed for both time spent running, and for storage used 1. Start by clicking the button above 2. A new browser tab will open with a remote version of Visual Studio Code (this will take a few minutes to load) 3. A \"Simple Browser\" will open inside the browser with noVNC -- click Connect - Optional steps: - Click the button at the upper-right of the Simple Browser tab to open the noVNC window in its own t",
+    "truncated": true,
     "rawFile": "data/readme/metamask-extension.md"
   }
 }

@@ -14,6 +14,7 @@
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { PATHS, loadProjects, readJson, writeJson } from './lib/fs.mjs';
+import { readStarHistory, starDelta } from './lib/signals.mjs';
 
 const categories = readJson(PATHS.categories, { categories: [] }).categories;
 const categoryIds = new Set(categories.map((c) => c.id));
@@ -105,10 +106,53 @@ for (const { file, project: editorial } of loadProjects()) {
   const popularityScore = Math.round(Math.log10(stars + 1) * 100);
   const weeklyScore = popularityScore + (daysSincePush <= 7 ? 120 : daysSincePush <= 30 ? 60 : daysSincePush <= 90 ? 20 : 0);
 
+  // ---- measured momentum ----------------------------------------------------------
+  // Star deltas come from our own recorded history (data/history/<slug>.json), so a
+  // "7 天涨了 312" claim is backed by two real snapshots. With one snapshot there is no
+  // delta and the UI says 数据不足 instead of printing 0.
+  const history = readStarHistory(editorial.slug);
+  const day = starDelta(history, today, 1);
+  const week = starDelta(history, today, 7);
+  const month = starDelta(history, today, 30);
+  const activity = snap.activity ?? null;
+  const releases = Array.isArray(snap.releases) ? snap.releases : [];
+  const latestRelease = releases.find((r) => !r.draft && !r.prerelease) ?? releases[0] ?? null;
+  // Velocity = measured stars/day over the widest window we actually have.
+  const velocity = month
+    ? Math.round((month.delta / 30) * 100) / 100
+    : week
+      ? Math.round((week.delta / 7) * 100) / 100
+      : day
+        ? day.delta
+        : null;
+  const momentum = {
+    stars: typeof gh.stars === 'number' ? gh.stars : null,
+    day,
+    week,
+    month,
+    commits1w: activity?.commits1w ?? null,
+    commits4w: activity?.commits4w ?? null,
+    commits52w: activity?.commits52w ?? null,
+    commitTotal: snap.commitTotal ?? null,
+    latestRelease: latestRelease
+      ? {
+          tag: latestRelease.tag,
+          name: latestRelease.name,
+          url: latestRelease.url,
+          publishedAt: latestRelease.publishedAt,
+          prerelease: Boolean(latestRelease.prerelease),
+          draft: Boolean(latestRelease.draft),
+        }
+      : null,
+    velocity,
+    measuredAt: today,
+  };
+
   const published = {
     ...editorial,
     popularityScore,
     weeklyScore,
+    momentum,
     categoryName: categories.find((c) => c.id === editorial.category)?.name,
     license,
     repo: {
@@ -162,6 +206,16 @@ const data = {
   counts: { projects: projects.length, categories: categories.length },
   categories,
   seed: [17, 42, 93],
+  // What the ranking boards can honestly claim today. The UI reads this to explain
+  // a partially-filled daily board instead of pretending the numbers are missing.
+  rankCoverage: {
+    day: projects.filter((p) => p.momentum.day).length,
+    week: projects.filter((p) => p.momentum.week).length,
+    month: projects.filter((p) => p.momentum.month).length,
+    stars: projects.filter((p) => p.momentum.stars !== null).length,
+    releases: projects.filter((p) => p.momentum.latestRelease).length,
+    commits: projects.filter((p) => p.momentum.commits4w !== null).length,
+  },
   projects,
 };
 
@@ -173,3 +227,15 @@ console.log(
     `许可证已确认 ${projects.filter((p) => p.license.spdx).length}/${projects.length}；` +
     `分类覆盖 ${new Set(projects.map((p) => p.category)).size}/${categories.length}`,
 );
+console.log(
+  `[data:build] 星标涨幅可算 日 ${data.rankCoverage.day} / 周 ${data.rankCoverage.week} / 月 ${data.rankCoverage.month}` +
+    `（历史快照 ${historyCount()} 天；首日只能记数，涨幅从第二天开始出现）`,
+);
+
+function historyCount() {
+  try {
+    return readStarHistory(projects[0]?.slug ?? '').length;
+  } catch {
+    return 0;
+  }
+}

@@ -2,8 +2,9 @@ import { useEffect, type ReactNode } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { useData } from '../context/DataContext';
 import { useFavorites } from '../context/FavoritesContext';
+import { useTheme } from '../context/ThemeContext';
 import { currentIssue } from '../lib/issue';
-import { XLogo } from './icons';
+import { MoonIcon, SunIcon, XLogo, ChartIcon, GridIcon, HomeIcon, BookmarkIcon } from './icons';
 import { assetUrl } from '../lib/asset';
 
 /** Author link, shown in the masthead on every page. */
@@ -32,6 +33,42 @@ function SearchInline() {
       <input name="q" type="search" placeholder="搜索项目、标签、关键词" defaultValue={params.get('q') ?? ''} aria-label="搜索项目" autoComplete="off" />
       <kbd>/</kbd>
     </form>
+  );
+}
+
+function ThemeToggle() {
+  const { theme, toggle } = useTheme();
+  const next = theme === 'dark' ? '浅色' : '深色';
+  return (
+    <button
+      type="button"
+      className="navlink navlink--icon themebtn"
+      onClick={toggle}
+      aria-label={`切换到${next}主题`}
+      title={`切换到${next}主题（当前 ${theme === 'dark' ? '深色' : '浅色'}）`}
+    >
+      {theme === 'dark' ? <SunIcon size={15} /> : <MoonIcon size={15} />}
+    </button>
+  );
+}
+
+/** Phone-only bottom tab bar: the primary destinations within thumb reach. */
+function TabBar() {
+  const favorites = useFavorites();
+  const item = (to: string, label: string, icon: ReactNode) => (
+    <NavLink to={to} className={({ isActive }) => (isActive ? 'tabbar__item is-active' : 'tabbar__item')}>
+      {icon}
+      <span className="tabbar__label">{label}</span>
+      {label === '收藏' && favorites.count > 0 ? <span className="tabbar__badge">{favorites.count}</span> : null}
+    </NavLink>
+  );
+  return (
+    <nav className="tabbar" aria-label="底部导航">
+      {item('/', '首页', <HomeIcon size={19} />)}
+      {item('/rankings', '榜单', <ChartIcon size={19} />)}
+      {item('/discover', '发现', <GridIcon size={19} />)}
+      {item('/favorites', '收藏', <BookmarkIcon size={19} />)}
+    </nav>
   );
 }
 
@@ -91,6 +128,9 @@ export function Layout({ children }: { children: ReactNode }) {
           <div className="masthead__side">
             <SearchInline />
             <nav className="masthead__nav" aria-label="主导航">
+              <NavLink to="/rankings" className={({ isActive }) => (isActive ? 'navlink is-active' : 'navlink')}>
+                榜单
+              </NavLink>
               <NavLink to="/discover" className={({ isActive }) => (isActive ? 'navlink is-active' : 'navlink')}>
                 发现
               </NavLink>
@@ -104,6 +144,7 @@ export function Layout({ children }: { children: ReactNode }) {
               <NavLink to="/about" className={({ isActive }) => (isActive ? 'navlink is-active' : 'navlink')}>
                 关于
               </NavLink>
+              <ThemeToggle />
               <a
                 className="navlink navlink--icon"
                 href={AUTHOR_X}
@@ -145,6 +186,7 @@ export function Layout({ children }: { children: ReactNode }) {
           </div>
           <div className="footer__col">
             <p className="footer__head">逛</p>
+            <Link to="/rankings">榜单</Link>
             <Link to="/discover">全部项目</Link>
             <Link to="/categories">分类索引</Link>
             <Link to="/favorites">我的收藏</Link>
@@ -178,6 +220,8 @@ export function Layout({ children }: { children: ReactNode }) {
           <span className="mono">© {new Date().getFullYear()} 独立出版 · 保留所有权利</span>
         </div>
       </footer>
+
+      <TabBar />
     </>
   );
 }

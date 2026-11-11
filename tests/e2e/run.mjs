@@ -94,16 +94,76 @@ async function main() {
     return text.split('\n').slice(0, 2).join(' / ');
   });
 
-  await test('今日推荐、最新收录、本周热门、编辑精选、分类入口、搜索框、随机发现都在', async () => {
+  await test('今日推荐、榜单、最新收录、编辑精选、分类入口、搜索框、随机发现都在', async () => {
     const headings = await page.locator('h2.section__title').allInnerTexts();
-    for (const h of ['最新收录', '本周热门', '编辑精选', '分类入口']) {
+    for (const h of ['今天该看什么', '最新收录', '本周热榜', '编辑精选', '分类入口']) {
       assert(headings.some((x) => x.includes(h)), `缺少区块 ${h}: ${headings.join('|')}`);
     }
+    assert((await page.locator('.boardtile').count()) === 3, '首页三张榜单卡不全');
+    assert((await page.locator('.eventstrip__row').count()) > 0, '缺少「刚刚发生」事件流');
     assert((await page.locator('.hero .cover-story__title').count()) === 1, '缺少今日推荐封面标题');
     assert((await page.locator('.hero__stats').count()) === 1, '缺少本期数据条');
     assert((await page.locator('.search').count()) === 1, '缺少搜索框');
     const randomBtn = page.getByRole('button', { name: /随机发现/ }).first();
     assert((await randomBtn.count()) === 1, '缺少随机发现按钮');
+  });
+
+  await test('榜单页有六个榜单，每个都有排名与方法说明', async () => {
+    await page.goto(`${BASE}/rankings`, { waitUntil: 'networkidle' });
+    await page.waitForSelector('.boardrow, .empty__title', { timeout: 15000 });
+    const tabCount = await page.locator('.boardtab').count();
+    assert(tabCount === 6, `榜单数 ${tabCount}`);
+    // Switching boards must change the query string and keep a real list or an honest empty state.
+    await page.locator('.boardtab').nth(3).click();
+    await page.waitForTimeout(300);
+    const qs = new URL(page.url()).search;
+    assert(qs.includes('board='), `切换榜单没写进 URL: ${qs}`);
+    const rows = await page.locator('.boardrow').count();
+    const empty = await page.locator('.empty__title').count();
+    assert(rows + empty > 0, '切换后既没有榜单也没有空状态');
+    assert((await page.locator('.boardfoot__list li').count()) >= 3, '缺少算法说明');
+  });
+
+  await test('主题可切换、可记忆，且不再闪回默认色', async () => {
+    // `BASE` has no trailing slash; on a sub-path preview that 404s, so use HOME.
+    await page.goto(HOME, { waitUntil: 'networkidle' });
+    const before = await page.evaluate(() => document.documentElement.dataset.theme);
+    assert(before === 'dark' || before === 'light', `初始主题异常 ${before}`);
+    await page.locator('.themebtn').click();
+    await page.waitForTimeout(250);
+    const after = await page.evaluate(() => document.documentElement.dataset.theme);
+    assert(after !== before, '点击后主题没有变化');
+    const bg = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
+    assert(after === 'light' ? bg === 'rgb(247, 244, 236)' : bg === 'rgb(7, 7, 10)', `背景色没跟着主题变: ${bg}`);
+    await page.reload({ waitUntil: 'networkidle' });
+    const persisted = await page.evaluate(() => document.documentElement.dataset.theme);
+    assert(persisted === after, `刷新后主题丢失 ${persisted}`);
+    // restore for later tests
+    await page.locator('.themebtn').click();
+  });
+
+  await test('手机端有底部导航，且不遮挡正文', async () => {
+    const m = await context.newPage();
+    await m.setViewportSize({ width: 390, height: 844 });
+    await m.goto(HOME, { waitUntil: 'networkidle' });
+    await m.waitForSelector('.tabbar', { timeout: 15000 });
+    const tab = await m.locator('.tabbar').boundingBox();
+    assert(tab && tab.height >= 44 && tab.height <= 80, `底部导航高度异常 ${tab && tab.height}`);
+    const items = await m.locator('.tabbar__item').count();
+    assert(items === 4, `底部导航项数 ${items}`);
+    // The last content block must end above the bar.
+    const clearance = await m.evaluate(() => {
+      const bar = document.querySelector('.tabbar').getBoundingClientRect().height;
+      const footer = document.querySelector('.footer').getBoundingClientRect();
+      return { bar, footerBottomGap: window.innerHeight - footer.bottom };
+    });
+    assert(clearance.bar > 0, '底部导航没有高度');
+    const overflow = await m.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
+    assert(overflow <= 1, `有底部导航时横向溢出 ${overflow}px`);
+    await m.locator('.tabbar__item').nth(1).click();
+    await m.waitForTimeout(400);
+    assert(m.url().includes('/rankings'), `底部导航没有跳到榜单: ${m.url()}`);
+    await m.close();
   });
 
   await test('随机发现会跳到某个项目详情页', async () => {
