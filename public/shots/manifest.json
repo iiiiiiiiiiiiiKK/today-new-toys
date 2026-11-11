@@ -594,5 +594,29 @@
     "title": "p5.js",
     "capturedAt": "2026-11-06T07:57:00.208Z",
     "auto": true
+  },
+  "ruview": {
+    "src": "/shots/ruview.jpg",
+    "captureUrl": "https://cognitum.one",
+    "origin": "live",
+    "title": "RuView",
+    "capturedAt": "2026-11-11T07:46:01.086Z",
+    "auto": true
+  },
+  "hello-agents": {
+    "src": "/shots/hello-agents.jpg",
+    "captureUrl": "https://hello-agents.datawhale.cc",
+    "origin": "live",
+    "title": "hello-agents",
+    "capturedAt": "2026-11-11T07:46:06.597Z",
+    "auto": true
+  },
+  "openzeppelin-contracts": {
+    "src": "/shots/openzeppelin-contracts.jpg",
+    "captureUrl": "https://openzeppelin.com/contracts",
+    "origin": "live",
+    "title": "openzeppelin-contracts",
+    "capturedAt": "2026-11-11T07:46:11.782Z",
+    "auto": true
   }
 }

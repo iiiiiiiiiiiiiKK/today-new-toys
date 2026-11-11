@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-06T07:57:00.240Z",
-  "snapshotDate": "2026-11-06",
+  "generatedAt": "2026-11-11T07:46:11.809Z",
+  "snapshotDate": "2026-11-11",
   "counts": {
-    "projects": 69,
+    "projects": 72,
     "categories": 10
   },
   "categories": [
@@ -2755,7 +2755,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 523,
-      "weeklyScore": 643,
+      "weeklyScore": 583,
       "categoryName": "AI 工具",
       "license": {
         "spdx": "Apache-2.0",
@@ -3121,6 +3121,191 @@
       "updatedAt": "2026-10-30"
     },
     {
+      "slug": "ruview",
+      "name": "RuView",
+      "tagline": "开源硬件 · π RuView turns commodity WiFi signals into re…",
+      "summary": "（自动整理，未经人工校对）RuView 是一个用 Rust 写的开源项目。仓库自述「π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video」。已抓取 README 约 51,206 字；其中有「π RuView」「See through walls with WiFi」「Open http://localhost:3000」「🤗 Pretrained model on Hugging Face」「Download the model bundle」等章节可对应到具体能力。仓库 Topics 涉及：React、TypeScript。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "hardware",
+      "tags": [
+        "React",
+        "TypeScript",
+        "开源硬件",
+        "MIT"
+      ],
+      "aliases": [
+        "ruvnet/RuView"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "π RuView",
+          "detail": "（自动整理）README 中有「π RuView」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "See through walls with W",
+          "detail": "（自动整理）README 中有「See through walls with WiFi」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Open http://localhost:30",
+          "detail": "（自动整理）README 中有「Open http://localhost:3000」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Pretrained model on Hugg",
+          "detail": "（自动整理）README 中有「🤗 Pretrained model on Hugging Face」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 51206 字，抓取于 2026-11-11）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：npx @ruvnet/ruview@0.9.1 doctor"
+          },
+          {
+            "title": "第 2 步",
+            "detail": "README 中给出的命令：npx @ruvnet/ruview@0.9.1 guidance --topic sensing --query \"model loading\""
+          },
+          {
+            "title": "第 3 步",
+            "detail": "README 中给出的命令：npx @ruvnet/ruview@0.9.1 devices"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://cognitum.one",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/ruview.jpg",
+          "alt": "RuView 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-11T07:46:01.086Z",
+          "credit": "页面截图：https://cognitum.one",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-11",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-11",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 502,
+      "weeklyScore": 622,
+      "categoryName": "开源硬件",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "ruvnet",
+        "name": "RuView",
+        "fullName": "ruvnet/RuView",
+        "url": "https://github.com/ruvnet/RuView",
+        "homepage": "https://cognitum.one",
+        "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+        "stars": 103957,
+        "forks": 13529,
+        "openIssues": 567,
+        "language": "Rust",
+        "topics": [
+          "claude",
+          "claude-code",
+          "esp32",
+          "firmware",
+          "home-assistant",
+          "home-automation",
+          "iot",
+          "mcp",
+          "monitoring",
+          "networking",
+          "pose-estimation",
+          "react",
+          "rf",
+          "self-learning",
+          "spatial-intelligence",
+          "typescript",
+          "webassembly",
+          "wifi",
+          "wifi-security"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2025-06-07T04:32:30Z",
+        "pushedAt": "2026-11-11T06:16:41Z",
+        "archived": false,
+        "fetchedAt": "2026-11-11T07:45:55.704Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "π RuView Start here Hardware Models AI toolkit Smart home Cognitum Seed See through walls with WiFi ## Turn ordinary WiFi into a spatial intelligence / sensing system. Detect people, measure breathing and heart rate, track movement, and monitor rooms — through walls, in the dark, with no cameras or wearables. Just physics. Works natively with the four major smart-home ecosystems: Home Assistant via the HA-DISCO MQTT publisher, Apple Home & HomePod as a discoverable HAP-1.1 bridge, Google Home + Amazon Alexa via the same HA bridge or a Matter endpoint. Siri, Google Assistant, and Alexa can voice presence and vitals by room with zero custom skills. Drop into any Home Assistant install with one `--mqtt` flag. Or pair into Apple Home / Google Home / Alexa / SmartThings as a Matter Bridge. Ships 21 entities per node (11 raw signals + 10 inferred semantic states: someone-sleeping, possible-distress, room-active, elderly-inactivity-anomaly, meeting-in-progress, bathroom-occupied, fall-risk-elevated, bed-exit, no-movement, multi-room-transition) plus 3 starter HA Blueprints. See `docs/integrations/home-assistant.md` · ADR-115. π RuView is a WiFi sensing platform that turns radio signals into spatial intelligence. Every WiFi router already fills your space with radio waves. When people move, breathe, or even sit still, they disturb those waves in measurable ways. RuView captures these d",
+        "headings": [
+          "π RuView",
+          "See through walls with WiFi",
+          "π RuView is a WiFi sensing platform that turns radio signals into spatial intelligence.",
+          "Check the local setup and get source-cited guidance",
+          "Hardware: what is plugged in, live CSI from your nodes, a 60 GHz radar kit",
+          "Agents: MCP over stdio, or over HTTP for ChatGPT (token-protected, read tools only)",
+          "Claude Code: a live sensing pane (/ruview), shipped in the package",
+          "Run a read-only RuView agent through Codex",
+          "Check claims, replay the deterministic proof, search the reviewed brain",
+          "Built for low-power edge applications",
+          "Option 1: Docker (simulated data, no hardware needed)",
+          "Open http://localhost:3000",
+          "ESP32 nodes in Docker also need a UDP source guard (RUVIEWUDPALLOW);",
+          "see docs/user-guide.md \"Receiving ESP32 frames in Docker\".",
+          "Option 2a: Live sensing with ESP32-S3 hardware ($9)",
+          "Flash firmware, provision WiFi, and start sensing:",
+          "Option 2b: WiFi 6 + 802.15.4 research sensing with ESP32-C6 ($6-10, ADR-110)",
+          "Same csi-node firmware compiled for the C6 target — picks up the C6",
+          "overlay (sdkconfig.defaults.esp32c6) automatically.",
+          "C6 boot extras (vs S3): HE-LTF subcarrier tagging in ADR-018 bytes 18-19,",
+          "802.15.4 mesh time-sync on channel 15, TWT setup when the AP supports it,",
+          "opt-in LP-core wake-on-motion for ~5 µA battery seed nodes.",
+          "v0.6.7 adds: real LP-core RISC-V motion-gate program (debounce + motion",
+          "counter) and a Wi-Fi 6 soft-AP with TWT Responder so two C6 boards can",
+          "benchmark real iTWT without buying an 11ax router. Both default off,",
+          "flip CONFIGC6{LPCORE,SOFTAPHE}ENABLE to turn them on.",
+          "Option 3: Full system with Cognitum Seed ($140)",
+          "ESP32 streams CSI → bridge forwards to Seed for persistent storage + kNN + witness chain",
+          "Option 4: Python — live on PyPI (ADR-117)",
+          "Both ship the same compiled PyO3 wheel (~250 KB, abi3-py310, Linux/macOS/Windows).",
+          "Add [client] for the asyncio WebSocket + paho-mqtt clients:",
+          "from ruview import BreathingExtractor, HeartRateExtractor equivalent to:",
+          "from wifidensepose import BreathingExtractor, HeartRateExtractor",
+          "from ruview.client import SensingClient, RuViewMqttClient",
+          "🤗 Pretrained model on Hugging Face",
+          "Download the model bundle",
+          "Results & proof",
+          "Reproduce the deterministic pipeline proof yourself (must print VERDICT: PASS):",
+          "Model weights: what's real, what's not",
+          "🧩 Edge Module Catalog"
+        ],
+        "chars": 51206,
+        "fetchedAt": "2026-11-11T07:45:55.704Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-11"
+    },
+    {
       "slug": "puppeteer",
       "name": "puppeteer",
       "tagline": "开发者工具 · JavaScript API for Chrome and Firefox",
@@ -3470,7 +3655,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 498,
-      "weeklyScore": 618,
+      "weeklyScore": 558,
       "categoryName": "自托管项目",
       "license": {
         "spdx": null,
@@ -3615,7 +3800,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 497,
-      "weeklyScore": 617,
+      "weeklyScore": 557,
       "categoryName": "开发者工具",
       "license": {
         "spdx": "MIT",
@@ -3758,7 +3943,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 497,
-      "weeklyScore": 617,
+      "weeklyScore": 557,
       "categoryName": "互联网玩具",
       "license": {
         "spdx": "MIT",
@@ -4161,6 +4346,151 @@
         "truncated": true
       },
       "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "hello-agents",
+      "name": "hello-agents",
+      "tagline": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "summary": "（自动整理，未经人工校对）hello-agents 是一个用 Python 写的开源项目。仓库自述「📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程」。已抓取 README 约 7,925 字；其中有「🎯 项目介绍」「📚 快速开始」「在线阅读」「本地阅读」「✨ 你将收获什么？」等章节可对应到具体能力。仓库 Topics 涉及：大语言模型。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "learning",
+      "tags": [
+        "大语言模型",
+        "学习工具"
+      ],
+      "aliases": [
+        "datawhalechina/hello-agents"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "项目介绍",
+          "detail": "（自动整理）README 中有「🎯 项目介绍」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "快速开始",
+          "detail": "（自动整理）README 中有「📚 快速开始」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "在线阅读",
+          "detail": "（自动整理）README 中有「在线阅读」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "本地阅读",
+          "detail": "（自动整理）README 中有「本地阅读」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 7925 字，抓取于 2026-11-11）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "费用未知"
+      },
+      "officialUrl": "https://hello-agents.datawhale.cc",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/hello-agents.jpg",
+          "alt": "hello-agents 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-11T07:46:06.597Z",
+          "credit": "页面截图：https://hello-agents.datawhale.cc",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-11",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-11",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 494,
+      "weeklyScore": 614,
+      "categoryName": "学习工具",
+      "license": {
+        "spdx": null,
+        "name": "Other",
+        "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+        "url": null
+      },
+      "repo": {
+        "owner": "datawhalechina",
+        "name": "hello-agents",
+        "fullName": "datawhalechina/hello-agents",
+        "url": "https://github.com/datawhalechina/hello-agents",
+        "homepage": "https://hello-agents.datawhale.cc",
+        "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+        "stars": 86668,
+        "forks": 10822,
+        "openIssues": 175,
+        "language": "Python",
+        "topics": [
+          "agent",
+          "llm",
+          "rag",
+          "tutorial"
+        ],
+        "license": {
+          "spdx": null,
+          "name": "Other",
+          "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+          "url": null
+        },
+        "createdAt": "2025-09-07T09:50:24Z",
+        "pushedAt": "2026-11-11T06:18:57Z",
+        "archived": false,
+        "fetchedAt": "2026-11-11T07:46:01.548Z",
+        "source": "api",
+        "warnings": [
+          "仓库未声明可识别的开源许可证"
+        ]
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "English 中文 Hello-Agents 🤖 《从零开始构建智能体》 从基础理论到实际应用，全面掌握智能体系统的设计与实现 --- 🎯 项目介绍 &emsp;&emsp;如果说 2024 年是\"百模大战\"的元年，那么 2025 年无疑开启了\"Agent 元年\"。技术的焦点正从训练更大的基础模型，转向构建更聪明的智能体应用。然而，当前系统性、重实践的教程却极度匮乏。为此，我们发起了 Hello-Agents 项目，希望能为社区提供一本从零开始、理论与实战并重的智能体系统构建指南。 &emsp;&emsp;Hello-Agents 是 Datawhale 社区的 系统性智能体学习教程 。如今 Agent 构建主要分为两派，一派是 Dify，Coze，n8n 这类软件工程类 Agent，其本质是流程驱动的软件开发，LLM 作为数据处理的后端；另一派则是 AI 原生的 Agent，即真正以 AI 驱动的 Agent。本教程旨在带领大家深入理解并构建后者——真正的 AI Native Agent。教程将带领你穿透框架表象，从智能体的核心原理出发，深入其核心架构，理解其经典范式，并最终亲手构建起属于自己的多智能体应用。我们相信，最好的学习方式就是动手实践。希望这本教程能成为你探索智能体世界的起点，能够从一名大语言模型的\"使用者\"，蜕变为一名智能体系统的\"构建者\"。 📚 快速开始 在线阅读 🌐 国外访问 🚀 国内加速 - 无需下载，随时随地学习 本地阅读 如果您希望在本地阅读或贡献内容，请参考下方的学习指南。 ✨ 你将收获什么？ - 📖 Datawhale 开源免费 完全免费学习本项目所有内容，与社区共同成长 - 🔍 理解核心原理 深入理解智能体的概念、历史与经典范式 - 🏗️ 亲手实现 掌握热门低代码平台和智能体代码框架的使用 - 🛠️ 自研框架 HelloAgents 基于 Openai 原生 API 从零构建一个自己的智能体框架 - ⚙️ 掌握高级技能 一步步实现上下文工程、Memory、协议、评估等系统性技术 - 🤝 模型训练 掌握 Agentic RL，从 SFT 到 GRPO 的全流程实战训练 LLM - 🚀 驱动真实案例 实战开发智能旅行助手、赛博小镇等综合项目 - 📖 求职面试 学习智能体求职相关面试问题 📖 内容导航 章节 关键内容 状态 ------------------------------------------------------------------------------------------- --------------------------------------------- ---- 前言 项目的缘起、背景及读者建议 ✅ 第一部分：智能体与语言模型基础 第一章 初识智能体 智能体定义、类型、范式与应用 ✅ 第二章 智能体发展史 从符号主义到 LLM 驱动的智能体演进 ✅ 第三章 大语言模型基础 Transformer、提示、主流 LLM 及其局限 ✅ 第二部分：构建你的大语言模型智能体 第四章 智能体经典范式构建 手把手实现 ReAct、Plan-and-Solve、Reflection ✅ 第五章 基于低代码平台的智能体搭建 了解 Coze、Dify、n8n 等低代码智能体平台",
+        "headings": [
+          "🎯 项目介绍",
+          "📚 快速开始",
+          "在线阅读",
+          "本地阅读",
+          "✨ 你将收获什么？",
+          "📖 内容导航",
+          "社区贡献精选 (Community Blog)",
+          "PDF 版本下载",
+          "💡 如何学习",
+          "下一步规划",
+          "🤝 如何贡献",
+          "🙏 致谢",
+          "核心贡献者",
+          "Extra-Chapter 贡献者",
+          "视频课程贡献者",
+          "特别感谢",
+          "Star History",
+          "读者交流群",
+          "关于 Datawhale",
+          "🎓 引用",
+          "📜 开源协议"
+        ],
+        "chars": 7925,
+        "fetchedAt": "2026-11-11T07:46:01.548Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-11"
     },
     {
       "slug": "rtk",
@@ -4737,7 +5067,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 491,
-      "weeklyScore": 611,
+      "weeklyScore": 551,
       "categoryName": "数据可视化",
       "license": {
         "spdx": "GPL-3.0",
@@ -4900,7 +5230,7 @@
         "todo": "确认托管站是否仍开放"
       },
       "popularityScore": 491,
-      "weeklyScore": 551,
+      "weeklyScore": 511,
       "categoryName": "创意与设计",
       "license": {
         "spdx": "MIT",
@@ -5496,7 +5826,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 488,
-      "weeklyScore": 608,
+      "weeklyScore": 548,
       "categoryName": "学习工具",
       "license": {
         "spdx": "MIT",
@@ -5795,7 +6125,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 488,
-      "weeklyScore": 608,
+      "weeklyScore": 548,
       "categoryName": "数据可视化",
       "license": {
         "spdx": "Apache-2.0",
@@ -6552,7 +6882,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 475,
-      "weeklyScore": 595,
+      "weeklyScore": 535,
       "categoryName": "学习工具",
       "license": {
         "spdx": "MIT",
@@ -6824,7 +7154,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 470,
-      "weeklyScore": 590,
+      "weeklyScore": 530,
       "categoryName": "数据可视化",
       "license": {
         "spdx": null,
@@ -6979,7 +7309,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 469,
-      "weeklyScore": 589,
+      "weeklyScore": 529,
       "categoryName": "数据可视化",
       "license": {
         "spdx": "MIT",
@@ -7116,7 +7446,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 467,
-      "weeklyScore": 587,
+      "weeklyScore": 527,
       "categoryName": "学习工具",
       "license": {
         "spdx": "MIT",
@@ -7273,7 +7603,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 467,
-      "weeklyScore": 587,
+      "weeklyScore": 527,
       "categoryName": "效率工具",
       "license": {
         "spdx": "MIT",
@@ -7415,7 +7745,7 @@
         "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
       },
       "popularityScore": 465,
-      "weeklyScore": 585,
+      "weeklyScore": 525,
       "categoryName": "加密与 Web3",
       "license": {
         "spdx": "MIT",
@@ -8256,6 +8586,141 @@
         "truncated": true
       },
       "updatedAt": "2026-11-05"
+    },
+    {
+      "slug": "openzeppelin-contracts",
+      "name": "openzeppelin-contracts",
+      "tagline": "加密与 Web3 · OpenZeppelin Contracts is a library for secur…",
+      "summary": "（自动整理，未经人工校对）openzeppelin-contracts 是一个用 Solidity 写的开源项目。仓库自述「OpenZeppelin Contracts is a library for secure smart contract development」。已抓取 README 约 6,563 字；其中有「Overview」「Release tags」「Learn More」「Contribute」「Legal」等章节可对应到具体能力。仓库 Topics 涉及：以太坊。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "web3",
+      "tags": [
+        "以太坊",
+        "加密与 Web3",
+        "MIT"
+      ],
+      "aliases": [
+        "OpenZeppelin/openzeppelin-contracts"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Overview",
+          "detail": "（自动整理）README 中有「Overview」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Release tags",
+          "detail": "（自动整理）README 中有「Release tags」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Learn More",
+          "detail": "（自动整理）README 中有「Learn More」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Contribute",
+          "detail": "（自动整理）README 中有「Contribute」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 6563 字，抓取于 2026-11-11）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：npm install @openzeppelin/contracts"
+          },
+          {
+            "title": "第 2 步",
+            "detail": "README 中给出的命令：npm install @openzeppelin/contracts@dev"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://openzeppelin.com/contracts",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/openzeppelin-contracts.jpg",
+          "alt": "openzeppelin-contracts 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-11T07:46:11.782Z",
+          "credit": "页面截图：https://openzeppelin.com/contracts",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-11",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-11",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 444,
+      "weeklyScore": 564,
+      "categoryName": "加密与 Web3",
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "repo": {
+        "owner": "OpenZeppelin",
+        "name": "openzeppelin-contracts",
+        "fullName": "OpenZeppelin/openzeppelin-contracts",
+        "url": "https://github.com/OpenZeppelin/openzeppelin-contracts",
+        "homepage": "https://openzeppelin.com/contracts",
+        "description": "OpenZeppelin Contracts is a library for secure smart contract development.",
+        "stars": 27354,
+        "forks": 12414,
+        "openIssues": 339,
+        "language": "Solidity",
+        "topics": [
+          "ethereum",
+          "evm",
+          "security",
+          "smart-contracts",
+          "solidity"
+        ],
+        "license": {
+          "spdx": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "createdAt": "2016-08-01T20:54:54Z",
+        "pushedAt": "2026-11-10T14:39:46Z",
+        "archived": false,
+        "fetchedAt": "2026-11-11T07:46:06.960Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "A library for secure smart contract development. Build on a solid foundation of community-vetted code. Implementations of standards like ERC20 and ERC721. Flexible role-based permissioning scheme. Reusable Solidity components to build custom contracts and complex decentralized systems. :mage: Not sure how to get started? Check out Contracts Wizard — an interactive smart contract generator. [!IMPORTANT] OpenZeppelin Contracts uses semantic versioning to communicate backwards compatibility of its API and storage layout. For upgradeable contracts, the storage layout of different major versions should be assumed incompatible, for example, it is unsafe to upgrade from 4.9.3 to 5.0.0. Learn more at Backwards Compatibility. Overview Release tags We use NPM tags to clearly distinguish between audited and non-audited versions of our package: Tag Purpose Description :--------- :----------------------- :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- latest ✅ Audited releases Stable, audited versions of the package. This is the default version installed when users run `npm install @openzeppelin/contracts`. dev 🧪 Final but not audited Versions that are finalized and feature-complete but have not yet been audited . This version is fully tested, can be used in product",
+        "headings": [
+          "Overview",
+          "Release tags",
+          "Installation",
+          "Usage",
+          "Learn More",
+          "Security",
+          "Contribute",
+          "License",
+          "Legal"
+        ],
+        "chars": 6563,
+        "fetchedAt": "2026-11-11T07:46:06.960Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-11"
     },
     {
       "slug": "biome",

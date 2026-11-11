@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-11-06T07:56:26.446Z",
+  "ranAt": "2026-11-11T07:45:38.508Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "ethereum/go-ethereum",
-      "category": "web3"
-    },
-    {
-      "repo": "arendst/Tasmota",
+      "repo": "ruvnet/RuView",
       "category": "hardware"
     },
     {
-      "repo": "processing/p5.js",
-      "category": "creative"
+      "repo": "datawhalechina/hello-agents",
+      "category": "learning"
+    },
+    {
+      "repo": "OpenZeppelin/openzeppelin-contracts",
+      "category": "web3"
     }
   ],
   "added": [
     {
-      "slug": "go-ethereum",
-      "repo": "ethereum/go-ethereum",
-      "category": "web3",
-      "stars": 51462,
-      "shot": true
-    },
-    {
-      "slug": "tasmota",
-      "repo": "arendst/Tasmota",
+      "slug": "ruview",
+      "repo": "ruvnet/RuView",
       "category": "hardware",
-      "stars": 24968,
+      "stars": 103957,
       "shot": true
     },
     {
-      "slug": "p5-js",
-      "repo": "processing/p5.js",
-      "category": "creative",
-      "stars": 24309,
+      "slug": "hello-agents",
+      "repo": "datawhalechina/hello-agents",
+      "category": "learning",
+      "stars": 86668,
+      "shot": true
+    },
+    {
+      "slug": "openzeppelin-contracts",
+      "repo": "OpenZeppelin/openzeppelin-contracts",
+      "category": "web3",
+      "stars": 27354,
       "shot": true
     }
   ]

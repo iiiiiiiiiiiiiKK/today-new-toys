@@ -1,0 +1,40 @@
+{"at":"2026-11-11T07:45:38.506Z","event":"run_start","name":"auto","startedAt":"2026-11-11T07:45:38.506Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-11-11T07:45:38.514Z","event":"existing","detail":"catalogue has 69 projects","level":"info"}
+{"at":"2026-11-11T07:45:39.144Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Allm%20stars%3A%3E3000%20pushed%3A%3E2026-07-14%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":29,"ms":629}
+{"at":"2026-11-11T07:45:39.145Z","event":"search","detail":"ai-tools: 8 hits (quota 29)","level":"info"}
+{"at":"2026-11-11T07:45:40.782Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adeveloper-tools%20stars%3A%3E2000%20pushed%3A%3E2026-07-14%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":28,"ms":437}
+{"at":"2026-11-11T07:45:40.782Z","event":"search","detail":"dev-tools: 8 hits (quota 28)","level":"info"}
+{"at":"2026-11-11T07:45:42.440Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aproductivity%20stars%3A%3E1500%20pushed%3A%3E2026-07-14%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":27,"ms":457}
+{"at":"2026-11-11T07:45:42.440Z","event":"search","detail":"productivity: 8 hits (quota 27)","level":"info"}
+{"at":"2026-11-11T07:45:44.142Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adata-visualization%20stars%3A%3E800%20pushed%3A%3E2026-07-14%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":26,"ms":501}
+{"at":"2026-11-11T07:45:44.142Z","event":"search","detail":"data-viz: 8 hits (quota 26)","level":"info"}
+{"at":"2026-11-11T07:45:45.843Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Acreative-coding%20stars%3A%3E800%20pushed%3A%3E2026-07-14%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":25,"ms":501}
+{"at":"2026-11-11T07:45:45.843Z","event":"search","detail":"creative: 8 hits (quota 25)","level":"info"}
+{"at":"2026-11-11T07:45:47.497Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Atutorial%20stars%3A%3E3000%20pushed%3A%3E2026-07-14%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":24,"ms":452}
+{"at":"2026-11-11T07:45:47.497Z","event":"search","detail":"learning: 8 hits (quota 24)","level":"info"}
+{"at":"2026-11-11T07:45:49.148Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Afirmware%20stars%3A%3E1000%20pushed%3A%3E2026-07-14%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":23,"ms":450}
+{"at":"2026-11-11T07:45:49.148Z","event":"search","detail":"hardware: 8 hits (quota 23)","level":"info"}
+{"at":"2026-11-11T07:45:50.744Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Awebapp%20stars%3A%3E1500%20pushed%3A%3E2026-07-14%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":22,"ms":395}
+{"at":"2026-11-11T07:45:50.744Z","event":"search","detail":"internet-toys: 8 hits (quota 22)","level":"info"}
+{"at":"2026-11-11T07:45:52.379Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aself-hosted%20stars%3A%3E2000%20pushed%3A%3E2026-07-14%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":21,"ms":434}
+{"at":"2026-11-11T07:45:52.379Z","event":"search","detail":"self-hosted: 8 hits (quota 21)","level":"info"}
+{"at":"2026-11-11T07:45:54.166Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aethereum%20stars%3A%3E1000%20pushed%3A%3E2026-07-14%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":20,"ms":586}
+{"at":"2026-11-11T07:45:54.166Z","event":"search","detail":"web3: 8 hits (quota 20)","level":"info"}
+{"at":"2026-11-11T07:45:55.368Z","event":"picked","detail":"ruvnet/RuView (hardware, ★103957) | datawhalechina/hello-agents (learning, ★86668) | OpenZeppelin/openzeppelin-contracts (web3, ★27354)","level":"info"}
+{"at":"2026-11-11T07:45:55.704Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ruvnet/RuView","status":200,"remaining":4997,"ms":336}
+{"at":"2026-11-11T07:45:55.936Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ruvnet/RuView/readme","status":200,"remaining":4996,"ms":232}
+{"at":"2026-11-11T07:45:55.938Z","event":"saved","detail":"ruview ★103957 MIT README=51206 字","level":"info"}
+{"at":"2026-11-11T07:46:01.087Z","event":"shot","detail":"ruview -> /shots/ruview.jpg","level":"info"}
+{"at":"2026-11-11T07:46:01.100Z","event":"published","detail":"ruview (hardware) ★103957","level":"info"}
+{"at":"2026-11-11T07:46:01.548Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/datawhalechina/hello-agents","status":200,"remaining":4995,"ms":448}
+{"at":"2026-11-11T07:46:01.911Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/datawhalechina/hello-agents/readme","status":200,"remaining":4994,"ms":363}
+{"at":"2026-11-11T07:46:01.912Z","event":"saved","detail":"hello-agents ★86668 无 SPDX 许可证 README=7925 字","level":"info"}
+{"at":"2026-11-11T07:46:06.598Z","event":"shot","detail":"hello-agents -> /shots/hello-agents.jpg","level":"info"}
+{"at":"2026-11-11T07:46:06.600Z","event":"published","detail":"hello-agents (learning) ★86668","level":"info"}
+{"at":"2026-11-11T07:46:06.960Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/OpenZeppelin/openzeppelin-contracts","status":200,"remaining":4993,"ms":359}
+{"at":"2026-11-11T07:46:07.263Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/OpenZeppelin/openzeppelin-contracts/readme","status":200,"remaining":4992,"ms":303}
+{"at":"2026-11-11T07:46:07.264Z","event":"saved","detail":"openzeppelin-contracts ★27354 MIT README=6563 字","level":"info"}
+{"at":"2026-11-11T07:46:11.783Z","event":"shot","detail":"openzeppelin-contracts -> /shots/openzeppelin-contracts.jpg","level":"info"}
+{"at":"2026-11-11T07:46:11.784Z","event":"published","detail":"openzeppelin-contracts (web3) ★27354","level":"info"}
+{"at":"2026-11-11T07:46:11.829Z","event":"rebuilt","detail":"[data:build] 72 个项目 → public/data/projects.json","level":"info"}
+{"at":"2026-11-11T07:46:11.830Z","event":"run_end","level":"info","detail":"{\"ranAt\":\"2026-11-11T07:45:38.508Z\",\"auth\":\"token\",\"searched\":10,\"picked\":[{\"repo\":\"ruvnet/RuView\",\"category\":\"hardware\"},{\"repo\":\"datawhalechina/hello-agents\",\"category\":\"learning\"},{\"repo\":\"OpenZeppelin/openzeppelin-contracts\",\"category\":\"web3\"}],\"added\":[{\"slug\":\"ruview\",\"repo\":\"ruvnet/RuView\",\"category\":\"hardware\",\"stars\":103957,\"shot\":true},{\"slug\":\"hello-agents\",\"repo\":\"datawhalechina/hello-agents\",\"category\":\"learning\",\"stars\":86668,\"shot\":true},{\"slug\":\"openzeppelin-contracts\",\"repo\":\"OpenZeppelin/openzeppelin-contracts\",\"category\":\"web3\",\"stars\":27354,\"shot\":true}]}"}
