@@ -1,3 +1,4 @@
 /project/*  /project/:splat  200
 /category/*  /category/:splat  200
+/rankings  /rankings  200
 /*  /index.html  200
