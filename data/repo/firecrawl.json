@@ -1,7 +1,7 @@
 {
   "slug": "firecrawl",
   "repoInput": "firecrawl/firecrawl",
-  "fetchedAt": "2026-11-12T08:21:59.088Z",
+  "fetchedAt": "2026-11-12T00:32:21.087Z",
   "github": {
     "owner": "firecrawl",
     "name": "firecrawl",
@@ -9,9 +9,9 @@
     "url": "https://github.com/firecrawl/firecrawl",
     "homepage": "https://firecrawl.dev",
     "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
-    "stars": 201057,
-    "forks": 10560,
-    "openIssues": 794,
+    "stars": 200962,
+    "forks": 10556,
+    "openIssues": 790,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -40,9 +40,9 @@
       "url": null
     },
     "createdAt": "2024-04-15T21:02:29Z",
-    "pushedAt": "2026-11-12T06:16:51Z",
+    "pushedAt": "2026-11-12T00:27:34Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T08:21:59.088Z",
+    "fetchedAt": "2026-11-12T00:32:21.087Z",
     "source": "api",
     "warnings": []
   },
@@ -105,7 +105,7 @@
     "commits52w": 2313,
     "commits4w": 279,
     "commits1w": 51,
-    "fetchedAt": "2026-11-12T08:21:59.520Z"
+    "fetchedAt": "2026-11-12T00:32:22.255Z"
   },
   "releases": [
     {
@@ -149,7 +149,7 @@
       "draft": false
     }
   ],
-  "commitTotal": 6844,
+  "commitTotal": 6842,
   "readme": {
     "path": "README.md",
     "via": "api",

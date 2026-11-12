@@ -116,15 +116,32 @@ for (const { file, project: editorial } of loadProjects()) {
   const month = starDelta(history, today, 30);
   const activity = snap.activity ?? null;
   const releases = Array.isArray(snap.releases) ? snap.releases : [];
-  const latestRelease = releases.find((r) => !r.draft && !r.prerelease) ?? releases[0] ?? null;
-  // Velocity = measured stars/day over the widest window we actually have.
-  const velocity = month
-    ? Math.round((month.delta / 30) * 100) / 100
-    : week
-      ? Math.round((week.delta / 7) * 100) / 100
-      : day
-        ? day.delta
-        : null;
+
+  // A prerelease is not a release: it must never feed the board weighting or the
+  // "just shipped" event, but we keep the newest one so the UI can say so.
+  const stableRelease = releases.find((r) => !r.draft && !r.prerelease) ?? null;
+  const latestPrerelease =
+    releases.find((r) => !r.draft && r.prerelease && r.publishedAt) ?? null;
+
+  // Velocity = measured stars/day over the widest window we actually have. The divisor
+  // is the REAL span between the two snapshots, never the nominal window.
+  const widest = month ?? week ?? day;
+  const velocity = widest
+    ? Math.round((widest.delta / widest.spanDays) * 100) / 100
+    : null;
+
+  const toRelease = (r) =>
+    r
+      ? {
+          tag: r.tag ?? null,
+          name: r.name ?? null,
+          url: r.url ?? null,
+          publishedAt: r.publishedAt ?? null,
+          prerelease: Boolean(r.prerelease),
+          draft: Boolean(r.draft),
+        }
+      : null;
+
   const momentum = {
     stars: typeof gh.stars === 'number' ? gh.stars : null,
     day,
@@ -134,16 +151,8 @@ for (const { file, project: editorial } of loadProjects()) {
     commits4w: activity?.commits4w ?? null,
     commits52w: activity?.commits52w ?? null,
     commitTotal: snap.commitTotal ?? null,
-    latestRelease: latestRelease
-      ? {
-          tag: latestRelease.tag,
-          name: latestRelease.name,
-          url: latestRelease.url,
-          publishedAt: latestRelease.publishedAt,
-          prerelease: Boolean(latestRelease.prerelease),
-          draft: Boolean(latestRelease.draft),
-        }
-      : null,
+    latestRelease: toRelease(stableRelease),
+    latestPrerelease: toRelease(latestPrerelease),
     velocity,
     measuredAt: today,
   };

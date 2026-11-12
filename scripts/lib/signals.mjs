@@ -50,8 +50,13 @@ export function readStarHistory(slug) {
 }
 
 /**
- * Stars gained in the last `days` days, or `null` when no snapshot is old enough.
+ * Stars gained over the last `days` days, or `null` when no snapshot is old enough.
  * `today` is the snapshot date (YYYY-MM-DD) so builds are deterministic.
+ *
+ * The baseline is the newest snapshot at or before the cutoff, which can be *older*
+ * than the requested window when a run was skipped. We therefore report both
+ * `requestedDays` (what the UI labels) and `spanDays` (the real distance between the
+ * two snapshots). Any per-day rate must divide by `spanDays`.
  */
 export function starDelta(points, today, days) {
   if (!points.length) return null;
@@ -61,8 +66,20 @@ export function starDelta(points, today, days) {
   // The baseline must be at least `days` old, otherwise the delta would be a
   // shorter window wearing a longer label.
   const baseline = [...points].reverse().find((p) => p.date <= cutoffDate);
-  if (!baseline || baseline.date === latest.date) return null;
-  return { delta: latest.stars - baseline.stars, from: baseline.date, to: latest.date, days };
+  if (!baseline || baseline.date >= latest.date) return null;
+
+  const spanDays = Math.round(
+    (new Date(`${latest.date}T00:00:00Z`).getTime() - new Date(`${baseline.date}T00:00:00Z`).getTime()) / 86_400_000,
+  );
+  if (!Number.isFinite(spanDays) || spanDays <= 0) return null;
+
+  return {
+    delta: latest.stars - baseline.stars,
+    from: baseline.date,
+    to: latest.date,
+    requestedDays: days,
+    spanDays,
+  };
 }
 
 /** Commit counts: 52 weeks of weekly totals, plus the windows we display. */

@@ -37,7 +37,7 @@ function SearchInline() {
 }
 
 function ThemeToggle() {
-  const { theme, toggle } = useTheme();
+  const { theme, explicit, toggle } = useTheme();
   const next = theme === 'dark' ? '浅色' : '深色';
   return (
     <button
@@ -45,7 +45,8 @@ function ThemeToggle() {
       className="navlink navlink--icon themebtn"
       onClick={toggle}
       aria-label={`切换到${next}主题`}
-      title={`切换到${next}主题（当前 ${theme === 'dark' ? '深色' : '浅色'}）`}
+      aria-pressed={theme === 'light'}
+      title={`切换到${next}主题（当前 ${theme === 'dark' ? '深色' : '浅色'}${explicit ? '' : '，跟随系统'}）`}
     >
       {theme === 'dark' ? <SunIcon size={15} /> : <MoonIcon size={15} />}
     </button>

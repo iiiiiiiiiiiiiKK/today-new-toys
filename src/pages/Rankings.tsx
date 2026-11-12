@@ -6,10 +6,13 @@ import {
   BOARDS,
   boardCoverage,
   boardNote,
+  boardSpan,
   boardValue,
   feedEvents,
+  feedKindLabel,
   historyDepth,
   rankProjects,
+  shippedWithin,
   type BoardId,
 } from '../lib/data';
 import { fmtDate } from '../lib/utils';
@@ -107,6 +110,11 @@ function BoardPage() {
               <div className="boardrow__main">
                 <h2 className="boardrow__name">
                   <Link to={`/project/${p.slug}`}>{p.name}</Link>
+                  {shippedWithin(p, active, data.snapshotDate) ? (
+                    <span className="pill pill--accent" title="窗口内有正式版本发布（只作标注，不参与排序）">
+                      发版
+                    </span>
+                  ) : null}
                   {p.review.mode === 'auto' ? (
                     <span className="pill pill--auto" title="自动收录，中文文案未经人工校对">
                       自动
@@ -115,6 +123,9 @@ function BoardPage() {
                 </h2>
                 <p className="boardrow__tag">{p.tagline}</p>
                 <p className="boardrow__note">{boardNote(p, data.snapshotDate)}</p>
+                {active === 'rising' && boardSpan(p) ? (
+                  <p className="boardrow__note boardrow__note--span">{boardSpan(p)}</p>
+                ) : null}
               </div>
               <div className="boardrow__side">
                 <span className="boardrow__value mono" title={board.unit}>
@@ -152,7 +163,7 @@ function BoardPage() {
           {events.map((e, i) => (
             <li key={`${e.project.slug}-${e.kind}-${i}`} className="feedrow">
               <span className={`feedrow__kind feedrow__kind--${e.kind} mono`}>
-                {e.kind === 'release' ? '发版' : e.kind === 'commit' ? '推送' : '收录'}
+                {feedKindLabel(e.kind)}
               </span>
               <Link to={`/project/${e.project.slug}`} className="feedrow__name">
                 {e.project.name}

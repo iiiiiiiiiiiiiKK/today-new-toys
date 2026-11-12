@@ -125,12 +125,17 @@ export interface Release {
 /**
  * A star delta we actually measured across our own snapshots.
  * `null` everywhere means "not enough history yet" — never zero.
+ *
+ * `requestedDays` is the window we asked for (1 / 7 / 30); `spanDays` is the real
+ * distance between the two snapshots we compared, which may be longer when a run was
+ * skipped. Rates must always divide by `spanDays`, and the UI prints it.
  */
 export interface StarDelta {
   delta: number;
   from: string;
   to: string;
-  days: number;
+  requestedDays: number;
+  spanDays: number;
 }
 
 export interface Momentum {
@@ -143,9 +148,11 @@ export interface Momentum {
   commits4w: number | null;
   commits52w: number | null;
   commitTotal: number | null;
-  /** Newest stable release, if the repo publishes any. */
+  /** Newest STABLE release (never a prerelease, never a draft). */
   latestRelease: Release | null;
-  /** Unix-ish rank key: stars/day over the last month, used for the daily board. */
+  /** Newest release of any kind, kept separately so the UI can label it honestly. */
+  latestPrerelease: Release | null;
+  /** Unix-ish rank key: stars/day over the widest window we have. */
   velocity: number | null;
   /** When the whole momentum block was computed (our snapshot date). */
   measuredAt: string;

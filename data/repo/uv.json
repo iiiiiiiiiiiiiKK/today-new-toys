@@ -1,7 +1,7 @@
 {
   "slug": "uv",
   "repoInput": "astral-sh/uv",
-  "fetchedAt": "2026-11-12T08:22:24.876Z",
+  "fetchedAt": "2026-11-12T00:33:30.246Z",
   "github": {
     "owner": "astral-sh",
     "name": "uv",
@@ -9,7 +9,7 @@
     "url": "https://github.com/astral-sh/uv",
     "homepage": "https://docs.astral.sh/uv",
     "description": "An extremely fast Python package and project manager, written in Rust.",
-    "stars": 91932,
+    "stars": 91923,
     "forks": 3810,
     "openIssues": 3083,
     "language": "Rust",
@@ -27,7 +27,7 @@
     "createdAt": "2023-10-02T20:24:11Z",
     "pushedAt": "2026-11-11T15:49:58Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T08:22:24.876Z",
+    "fetchedAt": "2026-11-12T00:33:30.246Z",
     "source": "api",
     "warnings": []
   },
@@ -90,7 +90,7 @@
     "commits52w": 3547,
     "commits4w": 349,
     "commits1w": 39,
-    "fetchedAt": "2026-11-12T08:22:25.346Z"
+    "fetchedAt": "2026-11-12T00:33:31.672Z"
   },
   "releases": [
     {

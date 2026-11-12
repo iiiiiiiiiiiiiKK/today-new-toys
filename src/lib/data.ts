@@ -40,12 +40,39 @@ export const PAGE_SIZE = 12;
 
 let cache: DataFile | null = null;
 
+/** Give up on a static JSON request that has not answered within this window. */
+const LOAD_TIMEOUT_MS = 12_000;
+/** One retry doubles the worst case to ~25s; beyond that the offline state is better. */
+const LOAD_ATTEMPTS = 2;
+
+async function fetchOnce(signal: AbortSignal): Promise<Response> {
+  return fetch(`${import.meta.env.BASE_URL}data/projects.json`, { cache: 'no-cache', signal });
+}
+
 export async function loadData(): Promise<DataFile> {
   if (cache) return cache;
-  const res = await fetch(`${import.meta.env.BASE_URL}data/projects.json`, { cache: 'no-cache' });
-  if (!res.ok) throw new Error(`无法加载项目数据（HTTP ${res.status}）`);
-  cache = (await res.json()) as DataFile;
-  return cache;
+
+  let lastError: string = '未知错误';
+  for (let attempt = 1; attempt <= LOAD_ATTEMPTS; attempt++) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), LOAD_TIMEOUT_MS);
+    try {
+      const res = await fetchOnce(controller.signal);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      cache = (await res.json()) as DataFile;
+      return cache;
+    } catch (error) {
+      const aborted = controller.signal.aborted;
+      lastError = aborted
+        ? `请求超过 ${LOAD_TIMEOUT_MS / 1000} 秒没有响应`
+        : error instanceof Error
+          ? error.message
+          : String(error);
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+  throw new Error(`无法加载项目数据（${lastError}）`);
 }
 
 /** Test seam: lets unit tests inject a fixture without touching the network. */
@@ -180,27 +207,28 @@ export interface Board {
 export const BOARDS: Board[] = [
   {
     id: 'today',
-    name: '今日活跃',
-    method: '仓库在过去 24 小时内收到推送。排序用最近一周的提交数——不是 Star，也不是我们的好感。',
+    name: '今日有推送',
+    method: '仓库在过去 24 小时内收到推送，按最近一周的提交数排列。Star 不参与排序。',
     unit: '本周提交',
   },
   {
     id: 'week',
     name: '本周热榜',
-    method: '最近 7 天的提交数，加上 7 天内是否发版。两个数都直接来自仓库，可复核。',
+    method: '按最近 7 天的提交数排列。是否发版单独标出来，不参与排序——看得见的数字就是排序依据。',
     unit: '本周提交',
   },
   {
     id: 'month',
     name: '本月热榜',
-    method: '最近 4 周的提交数（GitHub 的分周统计），30 天内发版额外加权。',
+    method: '按最近 4 周的提交数（GitHub 的分周统计）排列。发版情况单独标注，不加权。',
     unit: '近 4 周提交',
   },
   {
     id: 'rising',
     name: '星标涨幅',
-    method: '本站每天记录一次 Star 总数，涨幅 = 两次真实快照的差。历史不够长时写「数据不足」，不补零。',
-    unit: '期间涨幅',
+    method:
+      '本站每天记录一次 Star 总数，涨幅 = 两次真实快照的差；排序按「每天涨多少星」，所以窗口长短不会互相压制。历史不够长时写「数据不足」，不补零。',
+    unit: '每天涨星',
   },
   {
     id: 'stars',
@@ -241,34 +269,43 @@ function releasedWithin(p: Project, snapshotDate: string, days: number): boolean
   return diff >= 0 && diff <= days * DAY;
 }
 
-/** Score for one board. `null` means "no data for this board", never zero. */
+/**
+ * Score for one board. `null` means "no data for this board", never zero.
+ *
+ * Every score here is a number the row already displays, so ordering can always be
+ * checked against the visible value. Release events are *notes*, not weights.
+ */
 function score(p: Project, board: BoardId, snapshotDate: string): number | null {
   const m = p.momentum;
   if (!m) return null;
   switch (board) {
     case 'today':
       if (!pushedWithin(p, snapshotDate, 1)) return null;
-      return m.commits1w ?? 0;
+      return m.commits1w ?? null;
     case 'week':
-      if (m.commits1w === null && m.commits4w === null) return null;
-      return (m.commits1w ?? 0) + (releasedWithin(p, snapshotDate, 7) ? 40 : 0);
+      return m.commits1w;
     case 'month':
-      if (m.commits4w === null) return null;
-      return (m.commits4w ?? 0) + (releasedWithin(p, snapshotDate, 30) ? 60 : 0);
+      return m.commits4w;
     case 'rising': {
-      // Rank by stars PER DAY, not absolute delta: a 1-day window and a 30-day
-      // window would otherwise be incomparable (30 days always wins).
+      // Rank by stars PER DAY over the real span, so a 1-day window and a 30-day
+      // window are comparable instead of the longer one always winning.
       const d = m.month ?? m.week ?? m.day;
-      if (!d || d.days <= 0) return null;
-      return Math.round((d.delta / d.days) * 100) / 100;
+      if (!d || d.spanDays <= 0) return null;
+      return Math.round((d.delta / d.spanDays) * 100) / 100;
     }
     case 'stars':
-      return m.stars ?? null;
+      return m.stars;
     case 'newest':
       return p.addedAt ? new Date(p.addedAt).getTime() : null;
     default:
       return null;
   }
+}
+
+/** Does a stable release fall inside the board window? Used as a badge, not a weight. */
+export function shippedWithin(p: Project, board: BoardId, snapshotDate: string): boolean {
+  if (board !== 'week' && board !== 'month') return false;
+  return releasedWithin(p, snapshotDate, board === 'week' ? 7 : 30);
 }
 
 export function rankProjects(data: DataFile, board: BoardId, limit = 20): Project[] {
@@ -290,7 +327,7 @@ export function boardCoverage(data: DataFile, board: BoardId): number {
   return data.projects.filter((p) => score(p, board, data.snapshotDate) !== null).length;
 }
 
-/** The number to print next to a ranked row, already formatted for that board. */
+/** The number to print next to a ranked row, and the exact value used for ordering. */
 export function boardValue(p: Project, board: BoardId): string {
   const m = p.momentum;
   if (!m) return '未知';
@@ -302,9 +339,10 @@ export function boardValue(p: Project, board: BoardId): string {
   }
   if (board === 'rising') {
     const d = m.month ?? m.week ?? m.day;
-    if (!d) return '数据不足';
-    // State the window: a 1-day delta and a 30-day delta must not look identical.
-    return `${d.delta > 0 ? '+' : ''}${d.delta} / ${d.days}天`;
+    if (!d || d.spanDays <= 0) return '数据不足';
+    // The rate is the sort key; spell it out so ordering is verifiable.
+    const perDay = Math.round((d.delta / d.spanDays) * 100) / 100;
+    return `${perDay > 0 ? '+' : ''}${perDay} ★/天`;
   }
   if (board === 'stars') {
     return m.stars === null ? '未知' : `★ ${m.stars.toLocaleString('en-US')}`;
@@ -312,13 +350,29 @@ export function boardValue(p: Project, board: BoardId): string {
   return p.addedAt ? p.addedAt.slice(5, 10) : '未知';
 }
 
-/** One line of context under a row title: what just happened, with a real date. */
+/** Second line under a rising row: the raw delta and the span it was measured over. */
+export function boardSpan(p: Project): string | null {
+  const d = p.momentum?.month ?? p.momentum?.week ?? p.momentum?.day;
+  if (!d) return null;
+  const sign = d.delta > 0 ? '+' : '';
+  return `${sign}${d.delta} ★ / ${d.spanDays} 天（${d.from} → ${d.to}）`;
+}
+
+/**
+ * One line of context under a row title: what just happened, with a real date.
+ * Only STABLE releases are treated as "shipped"; a nightly build is labelled as such
+ * and never becomes the headline event.
+ */
 export function boardNote(p: Project, snapshotDate: string): string {
   const rel = p.momentum?.latestRelease;
   if (rel?.publishedAt) {
     const days = Math.max(0, Math.round((endOf(snapshotDate) - new Date(rel.publishedAt).getTime()) / DAY));
     const when = days === 0 ? '今天' : days === 1 ? '昨天' : `${days} 天前`;
     return `${rel.tag ?? '新版本'} · ${when}发布`;
+  }
+  const pre = p.momentum?.latestPrerelease;
+  if (pre?.publishedAt) {
+    return `${pre.tag ?? '预发布'} · 预发布，不计入发版`;
   }
   if (p.repo.pushedAt) return `最近推送 ${relativeTo(p.repo.pushedAt, snapshotDate)}`;
   return p.tagline;
@@ -329,7 +383,7 @@ export function boardNote(p: Project, snapshotDate: string): string {
  * Powers 「刚刚发生」 on the home page and the /feed page.
  */
 export interface FeedEvent {
-  kind: 'release' | 'commit' | 'added';
+  kind: 'release' | 'prerelease' | 'commit' | 'added';
   project: Project;
   at: string;
   label: string;
@@ -341,6 +395,12 @@ export function feedEvents(data: DataFile, limit = 20): FeedEvent[] {
     const rel = p.momentum?.latestRelease;
     if (rel?.publishedAt) {
       events.push({ kind: 'release', project: p, at: rel.publishedAt, label: `发布 ${rel.tag ?? '新版本'}` });
+    }
+    const pre = p.momentum?.latestPrerelease;
+    if (pre?.publishedAt) {
+      // Nightly/pre-release builds are real events but not releases; label them so
+      // they can never be mistaken for a shipped version.
+      events.push({ kind: 'prerelease', project: p, at: pre.publishedAt, label: `预发布 ${pre.tag ?? ''}`.trim() });
     }
     if (p.repo.pushedAt) {
       events.push({
@@ -355,12 +415,17 @@ export function feedEvents(data: DataFile, limit = 20): FeedEvent[] {
   return events.sort((a, b) => b.at.localeCompare(a.at)).slice(0, limit);
 }
 
+/** Human label for a feed event kind. Kept here so both pages agree. */
+export function feedKindLabel(kind: FeedEvent['kind']): string {
+  return { release: '发版', prerelease: '预发布', commit: '推送', added: '收录' }[kind];
+}
+
 /** Deepest star-delta window we can prove, for the footnote on the rising board. */
 export function historyDepth(data: DataFile): { days: number | null; enough: boolean } {
   let best: number | null = null;
   for (const p of data.projects) {
     const d = p.momentum?.month ?? p.momentum?.week ?? p.momentum?.day;
-    if (d) best = Math.max(best ?? 0, d.days);
+    if (d) best = Math.max(best ?? 0, d.spanDays);
   }
   return { days: best, enough: best !== null };
 }

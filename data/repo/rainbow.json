@@ -1,7 +1,7 @@
 {
   "slug": "rainbow",
   "repoInput": "rainbow-me/rainbow",
-  "fetchedAt": "2026-11-12T08:22:19.614Z",
+  "fetchedAt": "2026-11-12T00:33:17.771Z",
   "github": {
     "owner": "rainbow-me",
     "name": "rainbow",
@@ -11,7 +11,7 @@
     "description": "🌈‒ the Ethereum wallet that lives in your pocket ",
     "stars": 4401,
     "forks": 767,
-    "openIssues": 34,
+    "openIssues": 33,
     "language": "TypeScript",
     "topics": [
       "defi",
@@ -26,9 +26,9 @@
       "url": null
     },
     "createdAt": "2019-03-20T16:46:57Z",
-    "pushedAt": "2026-11-12T01:07:34Z",
+    "pushedAt": "2026-11-11T21:08:46Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T08:22:19.614Z",
+    "fetchedAt": "2026-11-12T00:33:17.771Z",
     "source": "api",
     "warnings": []
   },
@@ -91,7 +91,7 @@
     "commits52w": 757,
     "commits4w": 58,
     "commits1w": 15,
-    "fetchedAt": "2026-11-12T08:22:20.195Z"
+    "fetchedAt": "2026-11-12T00:33:19.292Z"
   },
   "releases": [
     {

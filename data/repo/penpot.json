@@ -1,7 +1,7 @@
 {
   "slug": "penpot",
   "repoInput": "penpot/penpot",
-  "fetchedAt": "2026-11-12T08:22:16.201Z",
+  "fetchedAt": "2026-11-12T00:33:10.884Z",
   "github": {
     "owner": "penpot",
     "name": "penpot",
@@ -9,9 +9,9 @@
     "url": "https://github.com/penpot/penpot",
     "homepage": "https://penpot.app",
     "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
-    "stars": 62286,
-    "forks": 4408,
-    "openIssues": 949,
+    "stars": 62279,
+    "forks": 4405,
+    "openIssues": 948,
     "language": "Clojure",
     "topics": [
       "clojure",
@@ -28,9 +28,9 @@
       "url": null
     },
     "createdAt": "2015-12-29T22:09:07Z",
-    "pushedAt": "2026-11-12T07:35:34Z",
+    "pushedAt": "2026-11-11T23:53:49Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T08:22:16.201Z",
+    "fetchedAt": "2026-11-12T00:33:10.884Z",
     "source": "api",
     "warnings": []
   },
@@ -93,7 +93,7 @@
     "commits52w": 5388,
     "commits4w": 457,
     "commits1w": 131,
-    "fetchedAt": "2026-11-12T08:22:16.695Z"
+    "fetchedAt": "2026-11-12T00:33:11.843Z"
   },
   "releases": [
     {

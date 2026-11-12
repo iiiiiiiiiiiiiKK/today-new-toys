@@ -1,7 +1,7 @@
 {
   "slug": "open-webui",
   "repoInput": "open-webui/open-webui",
-  "fetchedAt": "2026-11-12T08:22:15.403Z",
+  "fetchedAt": "2026-11-12T00:33:08.080Z",
   "github": {
     "owner": "open-webui",
     "name": "open-webui",
@@ -9,9 +9,9 @@
     "url": "https://github.com/open-webui/open-webui",
     "homepage": "https://openwebui.com",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-    "stars": 158448,
-    "forks": 23036,
-    "openIssues": 320,
+    "stars": 158418,
+    "forks": 23033,
+    "openIssues": 291,
     "language": "Svelte",
     "topics": [
       "ai",
@@ -37,9 +37,9 @@
       "url": null
     },
     "createdAt": "2023-10-06T22:08:27Z",
-    "pushedAt": "2026-11-12T04:39:37Z",
+    "pushedAt": "2026-11-11T08:00:11Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T08:22:15.403Z",
+    "fetchedAt": "2026-11-12T00:33:08.080Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -104,7 +104,7 @@
     "commits52w": 6501,
     "commits4w": 1086,
     "commits1w": 273,
-    "fetchedAt": "2026-11-12T08:22:15.819Z"
+    "fetchedAt": "2026-11-12T00:33:09.012Z"
   },
   "releases": [
     {

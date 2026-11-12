@@ -33,3 +33,18 @@ declare module '*lib/fs.mjs' {
   export function slugify(input: string): string;
   export function normalizeUrl(url: string | null | undefined): string | null;
 }
+
+declare module '*lib/signals.mjs' {
+  export interface StarHistoryPoint {
+    date: string;
+    stars: number;
+  }
+  export interface StarDeltaResult {
+    delta: number;
+    from: string;
+    to: string;
+    requestedDays: number;
+    spanDays: number;
+  }
+  export function starDelta(points: StarHistoryPoint[], today: string, days: number): StarDeltaResult | null;
+}

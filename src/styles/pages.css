@@ -2906,6 +2906,11 @@
   font-size: 0.7rem;
   color: #8a8aa0;
 }
+/* Second note line: the raw star delta and the span it was measured over. */
+.boardrow__note--span {
+  margin-top: 0.05rem;
+  color: #6f6f85;
+}
 .boardrow__side {
   display: flex;
   flex-direction: column;
@@ -2991,6 +2996,11 @@
 .feedrow__kind--release {
   border-color: rgba(182, 255, 60, 0.5);
   color: var(--neon);
+}
+.feedrow__kind--prerelease {
+  border-style: dashed;
+  border-color: rgba(255, 176, 32, 0.5);
+  color: var(--warn);
 }
 .feedrow__kind--commit {
   border-color: rgba(77, 124, 255, 0.5);
@@ -3123,6 +3133,11 @@
 .eventstrip__kind--release {
   border-color: rgba(182, 255, 60, 0.5);
   color: var(--neon);
+}
+.eventstrip__kind--prerelease {
+  border-style: dashed;
+  border-color: rgba(255, 176, 32, 0.5);
+  color: var(--warn);
 }
 .eventstrip__kind--commit {
   border-color: rgba(77, 124, 255, 0.5);
@@ -3324,4 +3339,7 @@
 [data-theme='light'] .feedrow__when,
 [data-theme='light'] .eventstrip__when {
   color: #5f5a4e;
+}
+[data-theme='light'] .boardrow__note--span {
+  color: #6b6659;
 }

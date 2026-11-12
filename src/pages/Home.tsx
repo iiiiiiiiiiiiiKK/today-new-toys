@@ -9,6 +9,7 @@ import {
   boardValue,
   categoryName,
   feedEvents,
+  feedKindLabel,
   featured,
   newArrivals,
   randomProject,
@@ -188,7 +189,7 @@ function Ticker() {
 function BoardsAndEvents() {
   const data = useDataReady();
   const boards: Array<{ id: BoardId; label: string }> = [
-    { id: 'today', label: '今日活跃' },
+    { id: 'today', label: '今日有推送' },
     { id: 'week', label: '本周热榜' },
     { id: 'month', label: '本月热榜' },
   ];
@@ -199,7 +200,7 @@ function BoardsAndEvents() {
       <Section
         num="02"
         title="今天该看什么"
-        note="三个榜单，全部由仓库自己的提交与发版数据排出。没有埋点，也没有编辑偏好——点进去能看到每个数字的出处。"
+        note="三个榜单，全部由仓库自己的提交数排出，发版情况单独标注。没有埋点，也没有编辑偏好——每个数字都能回仓库核对。"
         more={{ to: '/rankings', label: '完整榜单' }}
       >
         <div className="boardstrip">
@@ -233,7 +234,7 @@ function BoardsAndEvents() {
           {events.map((e, i) => (
             <div key={`${e.project.slug}-${e.kind}-${i}`} className="eventstrip__row">
               <span className={`eventstrip__kind eventstrip__kind--${e.kind}`}>
-                {e.kind === 'release' ? '发版' : e.kind === 'commit' ? '推送' : '收录'}
+                {feedKindLabel(e.kind)}
               </span>
               <Link to={`/project/${e.project.slug}`} className="eventstrip__name">
                 {e.project.name}

@@ -1,5 +1,22 @@
 import { describe, expect, it } from 'vitest';
-import { filterProjects, allTags, similar, featured, PAGE_SIZE, __setData, type DataFile, todayPicks, randomProject } from '../../src/lib/data';
+import {
+  filterProjects,
+  allTags,
+  similar,
+  featured,
+  PAGE_SIZE,
+  __setData,
+  type DataFile,
+  todayPicks,
+  randomProject,
+  boardCoverage,
+  boardSpan,
+  boardValue,
+  feedEvents,
+  feedKindLabel,
+  rankProjects,
+  shippedWithin,
+} from '../../src/lib/data';
 import type { Project } from '../../src/data/types';
 import { issueFor } from '../../src/lib/issue';
 import { fmtDate, relativeTo, seededShuffle, hashString } from '../../src/lib/utils';
@@ -63,6 +80,7 @@ function project(overrides: Partial<Project> & { slug: string }): Project {
       commits52w: 500,
       commitTotal: 1000,
       latestRelease: null,
+      latestPrerelease: null,
       velocity: null,
       measuredAt: '2026-10-25',
     },
@@ -181,5 +199,144 @@ describe('formatting & issue codes', () => {
     expect(a).toEqual(b);
     expect(a.sort()).toEqual([1, 2, 3, 4, 5]);
     expect(hashString('abc')).toBe(hashString('abc'));
+  });
+});
+
+describe('ranking boards', () => {
+  const snapshot = '2026-11-12';
+  const board = (overrides: Partial<Project> & { slug: string }) => {
+    const p = project({
+      ...overrides,
+      repo: {
+        ...project({ slug: 'x' }).repo,
+        pushedAt: overrides.repo?.pushedAt ?? null,
+        ...overrides.repo,
+      },
+    });
+    return p;
+  };
+  const withMomentum = (
+    slug: string,
+    m: Partial<Project['momentum']>,
+    extra: Partial<Project> = {},
+  ) =>
+    board({
+      slug,
+      ...extra,
+      momentum: {
+        stars: null,
+        day: null,
+        week: null,
+        month: null,
+        commits1w: null,
+        commits4w: null,
+        commits52w: null,
+        commitTotal: null,
+        latestRelease: null,
+        latestPrerelease: null,
+        velocity: null,
+        measuredAt: snapshot,
+        ...m,
+      },
+    });
+
+  const data: DataFile = {
+    generatedAt: '2026-11-12T00:00:00Z',
+    snapshotDate: snapshot,
+    counts: { projects: 3, categories: 1 },
+    categories: [],
+    seed: [],
+    projects: [
+      // Most commits this week, pushed today.
+      withMomentum('hot', { commits1w: 90, commits4w: 300, stars: 500 }, {
+        repo: { ...project({ slug: 'hot' }).repo, pushedAt: '2026-11-12T08:00:00Z' },
+      }),
+      // Fewer commits but shipped a release inside the window.
+      withMomentum('shipped', {
+        commits1w: 10,
+        commits4w: 40,
+        stars: 9000,
+        latestRelease: {
+          tag: 'v9.0.0',
+          name: 'v9.0.0',
+          url: null,
+          publishedAt: '2026-11-11T00:00:00Z',
+          prerelease: false,
+          draft: false,
+        },
+      }),
+      // Only a prerelease; must not be treated as a shipped release.
+      withMomentum('nightly', {
+        commits1w: 5,
+        commits4w: 20,
+        stars: 70000,
+        latestPrerelease: {
+          tag: 'nightly-1',
+          name: 'nightly-1',
+          url: null,
+          publishedAt: '2026-11-11T00:00:00Z',
+          prerelease: true,
+          draft: false,
+        },
+      }),
+    ],
+  };
+
+  it('orders the weekly board strictly by the weekly commit count it displays', () => {
+    const rows = rankProjects(data, 'week', 10);
+    expect(rows.map((p) => p.slug)).toEqual(['hot', 'shipped', 'nightly']);
+    expect(boardValue(rows[0], 'week')).toBe('90 次');
+  });
+
+  it('does not let a release reorder the board above a busier repo', () => {
+    // `shipped` has 9k stars and a fresh release; `hot` still wins on commits.
+    const rows = rankProjects(data, 'week', 10);
+    expect(rows[0].slug).toBe('hot');
+  });
+
+  it('labels shipped releases as badges rather than weights', () => {
+    expect(shippedWithin(data.projects[1], 'week', snapshot)).toBe(true);
+    expect(shippedWithin(data.projects[2], 'week', snapshot)).toBe(false);
+  });
+
+  it('keeps nightly builds out of the release slot and flags them in the feed', () => {
+    const nightly = data.projects[2];
+    expect(nightly.momentum.latestRelease).toBeNull();
+    const kinds = feedEvents(data, 50).filter((e) => e.project.slug === 'nightly').map((e) => e.kind);
+    expect(kinds).toContain('prerelease');
+    expect(kinds).not.toContain('release');
+    expect(feedKindLabel('prerelease')).toBe('预发布');
+  });
+
+  it('ranks the rising board by stars per day over the real span', () => {
+    const rising: DataFile = {
+      ...data,
+      projects: [
+        withMomentum('fast', {
+          day: { delta: 20, from: '2026-11-11', to: '2026-11-12', requestedDays: 1, spanDays: 1 },
+        }),
+        withMomentum('long-window', {
+          month: { delta: 300, from: '2026-10-13', to: '2026-11-12', requestedDays: 30, spanDays: 30 },
+        }),
+        withMomentum('thin', { day: null, week: null, month: null }),
+      ],
+    };
+    const rows = rankProjects(rising, 'rising', 10);
+    // 20★/day beats 300★/30d (=10★/day): the longer window must not win by size alone.
+    expect(rows.map((p) => p.slug)).toEqual(['fast', 'long-window']);
+    expect(boardValue(rows[0], 'rising')).toBe('+20 ★/天');
+    expect(boardValue(rows[1], 'rising')).toBe('+10 ★/天');
+    expect(boardValue(rising.projects[2], 'rising')).toBe('数据不足');
+    expect(boardSpan(rising.projects[1])).toContain('300');
+    expect(boardSpan(rising.projects[1])).toContain('30 天');
+  });
+
+  it('drops a project from a board when its only signal is missing, instead of scoring 0', () => {
+    const rows = rankProjects(data, 'month', 10);
+    expect(rows.every((p) => p.momentum.commits4w !== null)).toBe(true);
+    expect(boardCoverage(data, 'month')).toBe(3);
+    const none: DataFile = { ...data, projects: [withMomentum('empty', {})] };
+    expect(rankProjects(none, 'week', 10)).toEqual([]);
+    expect(boardCoverage(none, 'week')).toBe(0);
   });
 });

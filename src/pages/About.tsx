@@ -186,7 +186,7 @@ function AboutInner() {
               </div>
               <div className="credits__item">
                 <strong>字体</strong>
-                标题使用 Noto Serif SC 与 Instrument Serif，元数据使用 JetBrains Mono，均为 SIL OFL 1.1，自托管并按站内字符子集化。
+                展示字使用 Archivo Black，元数据使用 JetBrains Mono，均为 SIL OFL 1.1，自托管，合计约 38KB；中文走系统字体，不下载 CJK 字库。
               </div>
               <div className="credits__item">
                 <strong>修改与移除</strong>
