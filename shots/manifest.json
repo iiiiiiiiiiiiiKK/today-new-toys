@@ -354,29 +354,5 @@
     "title": "rtk",
     "capturedAt": "2026-10-27T06:18:38.616Z",
     "auto": true
-  },
-  "transformers": {
-    "src": "/shots/transformers.jpg",
-    "captureUrl": "https://huggingface.co/transformers",
-    "origin": "live",
-    "title": "transformers",
-    "capturedAt": "2026-11-12T08:22:49.698Z",
-    "auto": true
-  },
-  "ruview": {
-    "src": "/shots/ruview.jpg",
-    "captureUrl": "https://cognitum.one",
-    "origin": "live",
-    "title": "RuView",
-    "capturedAt": "2026-11-12T08:22:55.157Z",
-    "auto": true
-  },
-  "archify": {
-    "src": "/shots/archify.jpg",
-    "captureUrl": "https://archify.si",
-    "origin": "live",
-    "title": "archify",
-    "capturedAt": "2026-11-12T08:23:00.706Z",
-    "auto": true
   }
 }
