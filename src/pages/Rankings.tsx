@@ -56,10 +56,11 @@ function BoardPage() {
           <h1 className="pagehead__title">{board.name}</h1>
           <p className="pagehead__lede">{board.method}</p>
         </div>
-        {active === 'rising' && !depth.enough ? (
+        {active === 'rising' ? (
           <p className="board-honest">
-            本站从 {data.snapshotDate} 开始每天记录 Star 总数。第一个快照只能作为基准，
-            所以涨幅要等下一次快照才会出现——现在这块是空的，不是 0。
+            {depth.enough
+              ? `涨幅来自本站自己记录的 Star 快照，当前最长窗口 ${depth.days} 天。窗口不足 30 天的项目会标出实际天数，不假装是月增。`
+              : `本站从 ${data.snapshotDate} 开始每天记录 Star 总数。第一个快照只能作为基准，所以涨幅要等下一次快照才会出现——现在这块是空的，不是 0。`}
           </p>
         ) : null}
       </header>

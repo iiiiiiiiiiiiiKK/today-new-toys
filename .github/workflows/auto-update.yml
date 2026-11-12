@@ -38,6 +38,13 @@ jobs:
 
       - run: npm ci
 
+      - name: 刷新已收录项目的仓库数据（Star 快照 / 提交 / 发版）
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # 每天记录一次每个项目的 Star 总数，榜单的「星标涨幅」靠这些快照相减得出。
+        # 同时更新 stats/participation 与 releases，让日/周/月榜保持真实。
+        run: npm run data:update
+
       - name: 自动收录（发现 → 抓取 → 生成 → 发布）
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

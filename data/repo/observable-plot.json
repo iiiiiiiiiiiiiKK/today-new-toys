@@ -1,7 +1,7 @@
 {
   "slug": "observable-plot",
   "repoInput": "observablehq/plot",
-  "fetchedAt": "2026-11-11T21:51:18.004Z",
+  "fetchedAt": "2026-11-12T00:32:49.935Z",
   "github": {
     "owner": "observablehq",
     "name": "plot",
@@ -28,7 +28,7 @@
     "createdAt": "2020-10-29T22:30:31Z",
     "pushedAt": "2026-11-05T22:31:26Z",
     "archived": false,
-    "fetchedAt": "2026-11-11T21:51:18.004Z",
+    "fetchedAt": "2026-11-12T00:32:49.935Z",
     "source": "api",
     "warnings": []
   },
@@ -51,11 +51,11 @@
       0,
       1,
       0,
-      0,
       1,
+      0,
       2,
-      7,
-      16,
+      11,
+      12,
       8,
       0,
       0,
@@ -91,7 +91,7 @@
     "commits52w": 51,
     "commits4w": 13,
     "commits1w": 11,
-    "fetchedAt": "2026-11-11T21:51:19.550Z"
+    "fetchedAt": "2026-11-12T00:32:51.367Z"
   },
   "releases": [
     {

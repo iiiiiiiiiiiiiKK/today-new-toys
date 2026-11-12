@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T23:00:10.116Z",
-  "snapshotDate": "2026-11-11",
+  "generatedAt": "2026-11-12T00:42:59.939Z",
+  "snapshotDate": "2026-11-12",
   "counts": {
     "projects": 39,
     "categories": 10
@@ -83,11 +83,11 @@
     93
   ],
   "rankCoverage": {
-    "day": 0,
+    "day": 39,
     "week": 0,
     "month": 0,
     "stars": 39,
-    "releases": 33,
+    "releases": 34,
     "commits": 39
   },
   "projects": [
@@ -172,13 +172,18 @@
       "popularityScore": 527,
       "weeklyScore": 647,
       "momentum": {
-        "stars": 186680,
-        "day": null,
+        "stars": 186691,
+        "day": {
+          "delta": 11,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 24,
-        "commits4w": 102,
-        "commits52w": 1207,
+        "commits1w": 21,
+        "commits4w": 95,
+        "commits52w": 1204,
         "commitTotal": 5991,
         "latestRelease": {
           "tag": "v0.40.16",
@@ -188,8 +193,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 11,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "AI 工具",
       "license": {
@@ -204,9 +209,9 @@
         "url": "https://github.com/ollama/ollama",
         "homepage": "https://ollama.com",
         "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-        "stars": 186680,
-        "forks": 19024,
-        "openIssues": 4623,
+        "stars": 186691,
+        "forks": 19027,
+        "openIssues": 4624,
         "language": "Go",
         "topics": [
           "deepseek",
@@ -230,9 +235,9 @@
           "url": null
         },
         "createdAt": "2023-06-26T19:39:32Z",
-        "pushedAt": "2026-11-11T20:39:35Z",
+        "pushedAt": "2026-11-11T23:33:52Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:50:27.361Z",
+        "fetchedAt": "2026-11-12T00:32:54.539Z",
         "source": "api",
         "warnings": []
       },
@@ -282,7 +287,7 @@
           "Infrastructure & Deployment"
         ],
         "chars": 8763,
-        "fetchedAt": "2026-11-11T21:50:27.361Z",
+        "fetchedAt": "2026-11-12T00:32:54.539Z",
         "truncated": true
       },
       "updatedAt": "2026-10-25"
@@ -376,13 +381,18 @@
       "popularityScore": 520,
       "weeklyScore": 640,
       "momentum": {
-        "stars": 158410,
-        "day": null,
+        "stars": 158418,
+        "day": {
+          "delta": 8,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 292,
-        "commits4w": 1184,
-        "commits52w": 6502,
+        "commits1w": 273,
+        "commits4w": 1086,
+        "commits52w": 6501,
         "commitTotal": 20598,
         "latestRelease": {
           "tag": "v0.13.3",
@@ -392,8 +402,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 8,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "AI 工具",
       "license": {
@@ -409,9 +419,9 @@
         "url": "https://github.com/open-webui/open-webui",
         "homepage": "https://openwebui.com",
         "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-        "stars": 158410,
+        "stars": 158418,
         "forks": 23033,
-        "openIssues": 288,
+        "openIssues": 291,
         "language": "Svelte",
         "topics": [
           "ai",
@@ -439,7 +449,7 @@
         "createdAt": "2023-10-06T22:08:27Z",
         "pushedAt": "2026-11-11T08:00:11Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:49:57.648Z",
+        "fetchedAt": "2026-11-12T00:33:08.080Z",
         "source": "api",
         "warnings": [
           "仓库未声明可识别的开源许可证"
@@ -471,7 +481,7 @@
           "Star History"
         ],
         "chars": 3747,
-        "fetchedAt": "2026-11-11T21:49:57.648Z",
+        "fetchedAt": "2026-11-12T00:33:08.080Z",
         "truncated": true
       },
       "updatedAt": "2026-10-25"
@@ -556,12 +566,17 @@
       "popularityScore": 513,
       "weeklyScore": 633,
       "momentum": {
-        "stars": 135514,
-        "day": null,
+        "stars": 135517,
+        "day": {
+          "delta": 3,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 3,
-        "commits4w": 23,
+        "commits1w": 2,
+        "commits4w": 22,
         "commits52w": 283,
         "commitTotal": 4149,
         "latestRelease": {
@@ -572,8 +587,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 3,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "创意与设计",
       "license": {
@@ -588,7 +603,7 @@
         "url": "https://github.com/excalidraw/excalidraw",
         "homepage": "https://excalidraw.com",
         "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
-        "stars": 135514,
+        "stars": 135517,
         "forks": 16113,
         "openIssues": 3520,
         "language": "TypeScript",
@@ -609,7 +624,7 @@
         "createdAt": "2020-01-02T01:04:43Z",
         "pushedAt": "2026-11-11T12:53:18Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:20.297Z",
+        "fetchedAt": "2026-11-12T00:32:18.725Z",
         "source": "api",
         "warnings": []
       },
@@ -639,7 +654,7 @@
           "Thank you for supporting Excalidraw"
         ],
         "chars": 2508,
-        "fetchedAt": "2026-11-11T21:51:20.297Z",
+        "fetchedAt": "2026-11-12T00:32:18.725Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -726,13 +741,18 @@
       "popularityScore": 508,
       "weeklyScore": 628,
       "momentum": {
-        "stars": 118880,
-        "day": null,
+        "stars": 118895,
+        "day": {
+          "delta": 15,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 114,
-        "commits4w": 319,
-        "commits52w": 2957,
+        "commits1w": 115,
+        "commits4w": 317,
+        "commits52w": 2958,
         "commitTotal": 11565,
         "latestRelease": {
           "tag": "v3.4.1",
@@ -742,8 +762,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 15,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "自托管项目",
       "license": {
@@ -758,9 +778,9 @@
         "url": "https://github.com/immich-app/immich",
         "homepage": "https://immich.app",
         "description": "High performance self-hosted photo and video management solution.",
-        "stars": 118880,
-        "forks": 7560,
-        "openIssues": 664,
+        "stars": 118895,
+        "forks": 7561,
+        "openIssues": 665,
         "language": "TypeScript",
         "topics": [
           "backup-tool",
@@ -786,9 +806,9 @@
           "url": null
         },
         "createdAt": "2022-02-03T15:56:27Z",
-        "pushedAt": "2026-11-11T21:51:27Z",
+        "pushedAt": "2026-11-11T23:00:33Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:48.784Z",
+        "fetchedAt": "2026-11-12T00:32:30.662Z",
         "source": "api",
         "warnings": []
       },
@@ -816,7 +836,7 @@
           "Contributors"
         ],
         "chars": 3011,
-        "fetchedAt": "2026-11-11T21:51:48.784Z",
+        "fetchedAt": "2026-11-12T00:32:30.662Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -902,13 +922,18 @@
       "popularityScore": 499,
       "weeklyScore": 619,
       "momentum": {
-        "stars": 98477,
-        "day": null,
+        "stars": 98488,
+        "day": {
+          "delta": 11,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 10,
-        "commits4w": 33,
-        "commits52w": 379,
+        "commits1w": 11,
+        "commits4w": 34,
+        "commits52w": 380,
         "commitTotal": 2201,
         "latestRelease": {
           "tag": "v1.18.2",
@@ -918,8 +943,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 11,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "效率工具",
       "license": {
@@ -934,8 +959,8 @@
         "url": "https://github.com/localsend/localsend",
         "homepage": "https://localsend.org",
         "description": "An open-source cross-platform alternative to AirDrop",
-        "stars": 98477,
-        "forks": 5623,
+        "stars": 98488,
+        "forks": 5624,
         "openIssues": 1032,
         "language": "Dart",
         "topics": [
@@ -952,7 +977,7 @@
         "createdAt": "2022-12-16T00:46:07Z",
         "pushedAt": "2026-11-11T03:19:56Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:01.260Z",
+        "fetchedAt": "2026-11-12T00:32:42.229Z",
         "source": "api",
         "warnings": []
       },
@@ -994,7 +1019,7 @@
           "Contributors"
         ],
         "chars": 12295,
-        "fetchedAt": "2026-11-11T21:51:01.260Z",
+        "fetchedAt": "2026-11-12T00:32:42.229Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -1067,14 +1092,19 @@
       "popularityScore": 566,
       "weeklyScore": 686,
       "momentum": {
-        "stars": 452523,
-        "day": null,
+        "stars": 452721,
+        "day": {
+          "delta": 198,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 536,
-        "commits4w": 3992,
-        "commits52w": 6921,
-        "commitTotal": 7270,
+        "commits1w": 803,
+        "commits4w": 4081,
+        "commits52w": 7283,
+        "commitTotal": 7283,
         "latestRelease": {
           "tag": "rea-agents-6.8.0",
           "name": "rea-agents: v6.8.0",
@@ -1083,8 +1113,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 198,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "AI 工具",
       "license": {
@@ -1099,9 +1129,9 @@
         "url": "https://github.com/morluto/rea",
         "homepage": "https://rea.tools",
         "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-        "stars": 452523,
-        "forks": 111266,
-        "openIssues": 1709,
+        "stars": 452721,
+        "forks": 111304,
+        "openIssues": 1693,
         "language": "TypeScript",
         "topics": [
           "agent-skills",
@@ -1131,9 +1161,9 @@
           "url": null
         },
         "createdAt": "2026-04-14T00:51:32Z",
-        "pushedAt": "2026-11-11T21:53:01Z",
+        "pushedAt": "2026-11-11T23:43:17Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:57:16.640Z",
+        "fetchedAt": "2026-11-12T00:33:19.870Z",
         "source": "api",
         "warnings": []
       },
@@ -1175,7 +1205,7 @@
           "License"
         ],
         "chars": 24445,
-        "fetchedAt": "2026-11-11T21:57:16.640Z",
+        "fetchedAt": "2026-11-12T00:33:19.870Z",
         "truncated": true
       },
       "updatedAt": "2026-10-25"
@@ -1248,12 +1278,17 @@
       "popularityScore": 548,
       "weeklyScore": 668,
       "momentum": {
-        "stars": 301321,
-        "day": null,
+        "stars": 301368,
+        "day": {
+          "delta": 47,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
         "commits1w": 2,
-        "commits4w": 374,
+        "commits4w": 338,
         "commits52w": 4327,
         "commitTotal": 4327,
         "latestRelease": {
@@ -1264,8 +1299,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 47,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "效率工具",
       "license": {
@@ -1280,8 +1315,8 @@
         "url": "https://github.com/affaan-m/ECC",
         "homepage": "https://ecc.tools",
         "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "stars": 301321,
-        "forks": 44457,
+        "stars": 301368,
+        "forks": 44466,
         "openIssues": 271,
         "language": "JavaScript",
         "topics": [
@@ -1302,7 +1337,7 @@
         "createdAt": "2026-01-18T00:51:51Z",
         "pushedAt": "2026-11-09T04:56:24Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:57:19.268Z",
+        "fetchedAt": "2026-11-12T00:32:10.986Z",
         "source": "api",
         "warnings": []
       },
@@ -1362,7 +1397,7 @@
           "Recall it from another harness."
         ],
         "chars": 73566,
-        "fetchedAt": "2026-11-11T21:57:19.268Z",
+        "fetchedAt": "2026-11-12T00:32:10.986Z",
         "truncated": true
       },
       "updatedAt": "2026-10-25"
@@ -1443,13 +1478,18 @@
       "popularityScore": 532,
       "weeklyScore": 652,
       "momentum": {
-        "stars": 210212,
-        "day": null,
+        "stars": 210217,
+        "day": {
+          "delta": 5,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 202,
-        "commits4w": 1395,
-        "commits52w": 10803,
+        "commits1w": 312,
+        "commits4w": 1449,
+        "commits52w": 10913,
         "commitTotal": 27209,
         "latestRelease": {
           "tag": "stable",
@@ -1459,8 +1499,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 5,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "自托管项目",
       "license": {
@@ -1476,9 +1516,9 @@
         "url": "https://github.com/n8n-io/n8n",
         "homepage": "https://n8n.io",
         "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-        "stars": 210212,
-        "forks": 61471,
-        "openIssues": 1212,
+        "stars": 210217,
+        "forks": 61470,
+        "openIssues": 1220,
         "language": "TypeScript",
         "topics": [
           "ai",
@@ -1509,9 +1549,9 @@
           "url": null
         },
         "createdAt": "2019-06-22T09:24:21Z",
-        "pushedAt": "2026-11-11T21:42:00Z",
+        "pushedAt": "2026-11-11T23:35:05Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:57:05.711Z",
+        "fetchedAt": "2026-11-12T00:32:48.297Z",
         "source": "api",
         "warnings": [
           "仓库未声明可识别的开源许可证"
@@ -1542,7 +1582,7 @@
           "What does n8n mean?"
         ],
         "chars": 2895,
-        "fetchedAt": "2026-11-11T21:57:05.711Z",
+        "fetchedAt": "2026-11-12T00:32:48.297Z",
         "truncated": true
       },
       "updatedAt": "2026-10-25"
@@ -1624,14 +1664,19 @@
       "popularityScore": 530,
       "weeklyScore": 650,
       "momentum": {
-        "stars": 200935,
-        "day": null,
+        "stars": 200962,
+        "day": {
+          "delta": 27,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 48,
-        "commits4w": 273,
-        "commits52w": 2308,
-        "commitTotal": 6837,
+        "commits1w": 51,
+        "commits4w": 279,
+        "commits52w": 2313,
+        "commitTotal": 6842,
         "latestRelease": {
           "tag": "v2.11.0",
           "name": "Firecrawl v2.11.0",
@@ -1640,8 +1685,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 27,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "AI 工具",
       "license": {
@@ -1656,9 +1701,9 @@
         "url": "https://github.com/firecrawl/firecrawl",
         "homepage": "https://firecrawl.dev",
         "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
-        "stars": 200935,
+        "stars": 200962,
         "forks": 10556,
-        "openIssues": 792,
+        "openIssues": 790,
         "language": "TypeScript",
         "topics": [
           "ai",
@@ -1687,9 +1732,9 @@
           "url": null
         },
         "createdAt": "2024-04-15T21:02:29Z",
-        "pushedAt": "2026-11-11T21:46:16Z",
+        "pushedAt": "2026-11-12T00:27:34Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:57:12.510Z",
+        "fetchedAt": "2026-11-12T00:32:21.087Z",
         "source": "api",
         "warnings": []
       },
@@ -1739,7 +1784,7 @@
           "Crawl a website (automatically waits for completion)"
         ],
         "chars": 6476,
-        "fetchedAt": "2026-11-11T21:57:12.510Z",
+        "fetchedAt": "2026-11-12T00:32:21.087Z",
         "truncated": true
       },
       "updatedAt": "2026-10-26"
@@ -1826,8 +1871,13 @@
       "popularityScore": 529,
       "weeklyScore": 649,
       "momentum": {
-        "stars": 194949,
-        "day": null,
+        "stars": 194961,
+        "day": {
+          "delta": 12,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
         "commits1w": 3,
@@ -1842,8 +1892,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 12,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "效率工具",
       "license": {
@@ -1858,8 +1908,8 @@
         "url": "https://github.com/microsoft/markitdown",
         "homepage": null,
         "description": "Python tool for converting files and office documents to Markdown.",
-        "stars": 194949,
-        "forks": 14701,
+        "stars": 194961,
+        "forks": 14705,
         "openIssues": 806,
         "language": "Python",
         "topics": [
@@ -1879,7 +1929,7 @@
         "createdAt": "2024-11-13T19:56:40Z",
         "pushedAt": "2026-11-07T00:14:01Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:50:58.196Z",
+        "fetchedAt": "2026-11-12T00:32:44.251Z",
         "source": "api",
         "warnings": []
       },
@@ -1929,7 +1979,7 @@
           "Trademarks"
         ],
         "chars": 15085,
-        "fetchedAt": "2026-11-11T21:50:58.196Z",
+        "fetchedAt": "2026-11-12T00:32:44.251Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -2011,17 +2061,22 @@
       "popularityScore": 528,
       "weeklyScore": 648,
       "momentum": {
-        "stars": 190571,
-        "day": null,
+        "stars": 190569,
+        "day": {
+          "delta": -2,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
         "commits1w": 6,
         "commits4w": 19,
-        "commits52w": 375,
+        "commits52w": 374,
         "commitTotal": 8009,
         "latestRelease": null,
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": -2,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "效率工具",
       "license": {
@@ -2036,7 +2091,7 @@
         "url": "https://github.com/ohmyzsh/ohmyzsh",
         "homepage": "https://ohmyz.sh",
         "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
-        "stars": 190571,
+        "stars": 190569,
         "forks": 27307,
         "openIssues": 311,
         "language": "Shell",
@@ -2065,7 +2120,7 @@
         "createdAt": "2009-08-28T18:15:37Z",
         "pushedAt": "2026-11-09T12:36:12Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:57:14.641Z",
+        "fetchedAt": "2026-11-12T00:32:52.404Z",
         "source": "api",
         "warnings": []
       },
@@ -2112,7 +2167,7 @@
           "About Planet Argon"
         ],
         "chars": 16019,
-        "fetchedAt": "2026-11-11T21:57:14.641Z",
+        "fetchedAt": "2026-11-12T00:32:52.404Z",
         "truncated": true
       },
       "updatedAt": "2026-10-26"
@@ -2193,8 +2248,13 @@
       "popularityScore": 528,
       "weeklyScore": 588,
       "momentum": {
-        "stars": 189098,
-        "day": null,
+        "stars": 189151,
+        "day": {
+          "delta": 53,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
         "commits1w": 0,
@@ -2209,8 +2269,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 53,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "开发者工具",
       "license": {
@@ -2225,8 +2285,8 @@
         "url": "https://github.com/DietrichGebert/ponytail",
         "homepage": "https://ponytail.dev",
         "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-        "stars": 189098,
-        "forks": 10515,
+        "stars": 189151,
+        "forks": 10520,
         "openIssues": 215,
         "language": "JavaScript",
         "topics": [
@@ -2249,7 +2309,7 @@
         "createdAt": "2026-06-12T00:52:37Z",
         "pushedAt": "2026-10-29T11:59:31Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:57:24.131Z",
+        "fetchedAt": "2026-11-12T00:33:12.766Z",
         "source": "api",
         "warnings": []
       },
@@ -2273,7 +2333,7 @@
           "Star History"
         ],
         "chars": 7644,
-        "fetchedAt": "2026-11-11T21:57:24.131Z",
+        "fetchedAt": "2026-11-12T00:33:12.766Z",
         "truncated": true
       },
       "updatedAt": "2026-10-26"
@@ -2359,13 +2419,18 @@
       "popularityScore": 527,
       "weeklyScore": 647,
       "momentum": {
-        "stars": 187999,
-        "day": null,
+        "stars": 187998,
+        "day": {
+          "delta": -1,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 131,
-        "commits4w": 827,
-        "commits52w": 3033,
+        "commits1w": 77,
+        "commits4w": 837,
+        "commits52w": 3051,
         "commitTotal": 10574,
         "latestRelease": {
           "tag": "autogpt-platform-beta-v0.11.2",
@@ -2375,8 +2440,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": -1,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "AI 工具",
       "license": {
@@ -2392,9 +2457,9 @@
         "url": "https://github.com/Significant-Gravitas/AutoGPT",
         "homepage": "https://agpt.co",
         "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-        "stars": 187999,
+        "stars": 187998,
         "forks": 45876,
-        "openIssues": 717,
+        "openIssues": 718,
         "language": "Python",
         "topics": [
           "agentic-ai",
@@ -2416,9 +2481,9 @@
           "url": null
         },
         "createdAt": "2023-03-16T09:21:07Z",
-        "pushedAt": "2026-11-11T21:48:24Z",
+        "pushedAt": "2026-11-12T00:30:16Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:57:02.679Z",
+        "fetchedAt": "2026-11-12T00:32:01.404Z",
         "source": "api",
         "warnings": [
           "仓库未声明可识别的开源许可证"
@@ -2441,7 +2506,7 @@
           "Contributors"
         ],
         "chars": 4865,
-        "fetchedAt": "2026-11-11T21:57:02.679Z",
+        "fetchedAt": "2026-11-12T00:32:01.404Z",
         "truncated": true
       },
       "updatedAt": "2026-10-27"
@@ -2522,14 +2587,19 @@
       "popularityScore": 516,
       "weeklyScore": 636,
       "momentum": {
-        "stars": 146121,
-        "day": null,
+        "stars": 146170,
+        "day": {
+          "delta": 49,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 133,
-        "commits4w": 589,
-        "commits52w": 2988,
-        "commitTotal": 3008,
+        "commits1w": 134,
+        "commits4w": 599,
+        "commits52w": 3009,
+        "commitTotal": 3009,
         "latestRelease": {
           "tag": "v0.9.107",
           "name": "graphify 0.9.107",
@@ -2538,8 +2608,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 49,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "开发者工具",
       "license": {
@@ -2554,8 +2624,8 @@
         "url": "https://github.com/Graphify-Labs/graphify",
         "homepage": "https://www.graphify.com",
         "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-        "stars": 146121,
-        "forks": 14001,
+        "stars": 146170,
+        "forks": 14007,
         "openIssues": 1648,
         "language": "Python",
         "topics": [
@@ -2586,9 +2656,9 @@
           "url": null
         },
         "createdAt": "2026-04-03T15:49:07Z",
-        "pushedAt": "2026-11-11T20:54:10Z",
+        "pushedAt": "2026-11-11T23:25:36Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:57:21.791Z",
+        "fetchedAt": "2026-11-12T00:32:27.205Z",
         "source": "api",
         "warnings": []
       },
@@ -2631,7 +2701,7 @@
           "Community and links"
         ],
         "chars": 27115,
-        "fetchedAt": "2026-11-11T21:57:21.791Z",
+        "fetchedAt": "2026-11-12T00:32:27.205Z",
         "truncated": true
       },
       "updatedAt": "2026-10-27"
@@ -2717,8 +2787,13 @@
       "popularityScore": 504,
       "weeklyScore": 624,
       "momentum": {
-        "stars": 110021,
-        "day": null,
+        "stars": 110070,
+        "day": {
+          "delta": 49,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
         "commits1w": 0,
@@ -2733,8 +2808,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 49,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "互联网玩具",
       "license": {
@@ -2749,8 +2824,8 @@
         "url": "https://github.com/sherlock-project/sherlock",
         "homepage": "https://sherlockproject.xyz",
         "description": "Hunt down social media accounts by username across social networks",
-        "stars": 110021,
-        "forks": 12740,
+        "stars": 110070,
+        "forks": 12747,
         "openIssues": 410,
         "language": "Python",
         "topics": [
@@ -2779,7 +2854,7 @@
         "createdAt": "2018-12-24T14:30:48Z",
         "pushedAt": "2026-11-11T05:13:32Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:42.222Z",
+        "fetchedAt": "2026-11-12T00:33:26.624Z",
         "source": "api",
         "warnings": []
       },
@@ -2805,7 +2880,7 @@
           "License"
         ],
         "chars": 1339,
-        "fetchedAt": "2026-11-11T21:51:42.222Z",
+        "fetchedAt": "2026-11-12T00:33:26.624Z",
         "truncated": false
       },
       "updatedAt": "2026-10-24"
@@ -2890,13 +2965,18 @@
       "popularityScore": 496,
       "weeklyScore": 616,
       "momentum": {
-        "stars": 91916,
-        "day": null,
+        "stars": 91923,
+        "day": {
+          "delta": 7,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 44,
-        "commits4w": 388,
-        "commits52w": 3559,
+        "commits1w": 39,
+        "commits4w": 349,
+        "commits52w": 3547,
         "commitTotal": 11371,
         "latestRelease": {
           "tag": "0.13.7",
@@ -2906,8 +2986,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 7,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "开发者工具",
       "license": {
@@ -2922,9 +3002,9 @@
         "url": "https://github.com/astral-sh/uv",
         "homepage": "https://docs.astral.sh/uv",
         "description": "An extremely fast Python package and project manager, written in Rust.",
-        "stars": 91916,
-        "forks": 3809,
-        "openIssues": 3082,
+        "stars": 91923,
+        "forks": 3810,
+        "openIssues": 3083,
         "language": "Rust",
         "topics": [
           "packaging",
@@ -2940,7 +3020,7 @@
         "createdAt": "2023-10-02T20:24:11Z",
         "pushedAt": "2026-11-11T15:49:58Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:50:38.142Z",
+        "fetchedAt": "2026-11-12T00:33:30.246Z",
         "source": "api",
         "warnings": []
       },
@@ -2979,7 +3059,7 @@
           "License"
         ],
         "chars": 4363,
-        "fetchedAt": "2026-11-11T21:50:38.142Z",
+        "fetchedAt": "2026-11-12T00:33:30.246Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -3070,13 +3150,18 @@
       "popularityScore": 494,
       "weeklyScore": 614,
       "momentum": {
-        "stars": 86247,
-        "day": null,
+        "stars": 86255,
+        "day": {
+          "delta": 8,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 34,
-        "commits4w": 299,
-        "commits52w": 2737,
+        "commits1w": 32,
+        "commits4w": 271,
+        "commits52w": 2743,
         "commitTotal": 2743,
         "latestRelease": {
           "tag": "v1.2.0",
@@ -3086,8 +3171,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 8,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "效率工具",
       "license": {
@@ -3102,9 +3187,9 @@
         "url": "https://github.com/rtk-ai/rtk",
         "homepage": "https://www.rtk-ai.app",
         "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
-        "stars": 86247,
+        "stars": 86255,
         "forks": 5524,
-        "openIssues": 1674,
+        "openIssues": 1675,
         "language": "Rust",
         "topics": [
           "agentic-coding",
@@ -3127,9 +3212,9 @@
           "url": null
         },
         "createdAt": "2026-01-22T16:54:16Z",
-        "pushedAt": "2026-11-11T11:50:11Z",
+        "pushedAt": "2026-11-12T00:06:11Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:57:26.205Z",
+        "fetchedAt": "2026-11-12T00:33:22.421Z",
         "source": "api",
         "warnings": []
       },
@@ -3152,7 +3237,7 @@
           "Disclaimer"
         ],
         "chars": 12873,
-        "fetchedAt": "2026-11-11T21:57:26.205Z",
+        "fetchedAt": "2026-11-12T00:33:22.421Z",
         "truncated": true
       },
       "updatedAt": "2026-10-27"
@@ -3246,14 +3331,19 @@
       "popularityScore": 493,
       "weeklyScore": 613,
       "momentum": {
-        "stars": 85018,
-        "day": null,
+        "stars": 85026,
+        "day": {
+          "delta": 8,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 293,
-        "commits4w": 1291,
-        "commits52w": 9016,
-        "commitTotal": 16054,
+        "commits1w": 306,
+        "commits4w": 1317,
+        "commits52w": 9063,
+        "commitTotal": 16055,
         "latestRelease": {
           "tag": "v0.0.0-nightly.pr22826.39064",
           "name": "PR Build v0.0.0-nightly.pr22826.39064",
@@ -3262,8 +3352,8 @@
           "prerelease": true,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 8,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "AI 工具",
       "license": {
@@ -3279,9 +3369,9 @@
         "url": "https://github.com/lobehub/lobehub",
         "homepage": "https://lobehub.com",
         "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
-        "stars": 85018,
+        "stars": 85026,
         "forks": 16234,
-        "openIssues": 1324,
+        "openIssues": 1326,
         "language": "TypeScript",
         "topics": [
           "agent",
@@ -3302,9 +3392,9 @@
           "url": "https://github.com/lobehub/lobe-chat/blob/main/LICENSE"
         },
         "createdAt": "2023-05-21T07:19:12Z",
-        "pushedAt": "2026-11-11T21:17:18Z",
+        "pushedAt": "2026-11-12T00:30:07Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:50:15.879Z",
+        "fetchedAt": "2026-11-12T00:32:40.580Z",
         "source": "api",
         "warnings": [
           "仓库未声明可识别的开源许可证"
@@ -3345,7 +3435,7 @@
           "🔬 Research"
         ],
         "chars": 24205,
-        "fetchedAt": "2026-11-11T21:50:15.879Z",
+        "fetchedAt": "2026-11-12T00:32:40.580Z",
         "truncated": true
       },
       "updatedAt": "2026-10-25"
@@ -3431,17 +3521,29 @@
       "popularityScore": 491,
       "weeklyScore": 611,
       "momentum": {
-        "stars": 80781,
-        "day": null,
+        "stars": 80779,
+        "day": {
+          "delta": -2,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 2,
+        "commits1w": 0,
         "commits4w": 11,
-        "commits52w": 303,
-        "commitTotal": null,
-        "latestRelease": null,
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "commits52w": 300,
+        "commitTotal": 6212,
+        "latestRelease": {
+          "tag": "2026.10.1",
+          "name": "2026.10.1",
+          "url": "https://github.com/hoppscotch/hoppscotch/releases/tag/2026.10.1",
+          "publishedAt": "2026-11-05T08:15:08Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "velocity": -2,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "开发者工具",
       "license": {
@@ -3456,7 +3558,7 @@
         "url": "https://github.com/hoppscotch/hoppscotch",
         "homepage": "https://hoppscotch.io",
         "description": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
-        "stars": 80781,
+        "stars": 80779,
         "forks": 6234,
         "openIssues": 895,
         "language": "TypeScript",
@@ -3488,7 +3590,7 @@
         "createdAt": "2019-08-21T13:15:24Z",
         "pushedAt": "2026-11-05T08:16:25Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:50:46.822Z",
+        "fetchedAt": "2026-11-12T00:32:29.044Z",
         "source": "api",
         "warnings": []
       },
@@ -3518,7 +3620,7 @@
           "License"
         ],
         "chars": 7859,
-        "fetchedAt": "2026-11-11T21:50:46.822Z",
+        "fetchedAt": "2026-11-12T00:32:29.044Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -3606,7 +3708,12 @@
       "weeklyScore": 611,
       "momentum": {
         "stars": 81162,
-        "day": null,
+        "day": {
+          "delta": 0,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
         "commits1w": 0,
@@ -3614,8 +3721,8 @@
         "commits52w": 557,
         "commitTotal": 1457,
         "latestRelease": null,
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 0,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "创意与设计",
       "license": {
@@ -3631,7 +3738,7 @@
         "homepage": "https://screenshottocode.com",
         "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
         "stars": 81162,
-        "forks": 9939,
+        "forks": 9940,
         "openIssues": 149,
         "language": "Python",
         "topics": [],
@@ -3643,7 +3750,7 @@
         "createdAt": "2023-11-14T17:53:32Z",
         "pushedAt": "2026-11-05T18:29:51Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:25.624Z",
+        "fetchedAt": "2026-11-12T00:33:24.734Z",
         "source": "api",
         "warnings": []
       },
@@ -3674,7 +3781,7 @@
           "📚 Examples"
         ],
         "chars": 5729,
-        "fetchedAt": "2026-11-11T21:51:25.624Z",
+        "fetchedAt": "2026-11-12T00:33:24.734Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -3761,7 +3868,12 @@
       "weeklyScore": 508,
       "momentum": {
         "stars": 76711,
-        "day": null,
+        "day": {
+          "delta": 0,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
         "commits1w": 0,
@@ -3776,8 +3888,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 0,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "学习工具",
       "license": {
@@ -3805,7 +3917,7 @@
         "createdAt": "2021-10-20T13:43:42Z",
         "pushedAt": "2026-09-17T02:11:53Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:30.710Z",
+        "fetchedAt": "2026-11-12T00:32:06.925Z",
         "source": "api",
         "warnings": []
       },
@@ -3832,7 +3944,7 @@
           "许可"
         ],
         "chars": 1431,
-        "fetchedAt": "2026-11-11T21:51:30.710Z",
+        "fetchedAt": "2026-11-12T00:32:06.925Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -3919,12 +4031,17 @@
       "weeklyScore": 599,
       "momentum": {
         "stars": 62279,
-        "day": null,
+        "day": {
+          "delta": 0,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 157,
-        "commits4w": 473,
-        "commits52w": 5401,
+        "commits1w": 131,
+        "commits4w": 457,
+        "commits52w": 5388,
         "commitTotal": 24704,
         "latestRelease": {
           "tag": "2.19.1",
@@ -3934,8 +4051,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 0,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "创意与设计",
       "license": {
@@ -3951,7 +4068,7 @@
         "homepage": "https://penpot.app",
         "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
         "stars": 62279,
-        "forks": 4404,
+        "forks": 4405,
         "openIssues": 948,
         "language": "Clojure",
         "topics": [
@@ -3969,9 +4086,9 @@
           "url": null
         },
         "createdAt": "2015-12-29T22:09:07Z",
-        "pushedAt": "2026-11-11T20:44:39Z",
+        "pushedAt": "2026-11-11T23:53:49Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:22.586Z",
+        "fetchedAt": "2026-11-12T00:33:10.884Z",
         "source": "api",
         "warnings": []
       },
@@ -4006,7 +4123,7 @@
           "License"
         ],
         "chars": 6410,
-        "fetchedAt": "2026-11-11T21:51:22.586Z",
+        "fetchedAt": "2026-11-12T00:33:10.884Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -4089,11 +4206,16 @@
         "reviewedAt": "2026-10-24",
         "todo": "确认镜像标签与部署文档"
       },
-      "popularityScore": 461,
-      "weeklyScore": 581,
+      "popularityScore": 462,
+      "weeklyScore": 582,
       "momentum": {
-        "stars": 41208,
-        "day": null,
+        "stars": 41209,
+        "day": {
+          "delta": 1,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
         "commits1w": 0,
@@ -4108,8 +4230,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 1,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "互联网玩具",
       "license": {
@@ -4124,7 +4246,7 @@
         "url": "https://github.com/CorentinTh/it-tools",
         "homepage": "https://it-tools.tech",
         "description": "Collection of handy online tools for developers, with great UX. ",
-        "stars": 41208,
+        "stars": 41209,
         "forks": 5579,
         "openIssues": 864,
         "language": "Vue",
@@ -4149,7 +4271,7 @@
         "createdAt": "2020-04-05T11:50:24Z",
         "pushedAt": "2026-11-11T11:44:35Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:44.009Z",
+        "fetchedAt": "2026-11-12T00:32:33.012Z",
         "source": "api",
         "warnings": []
       },
@@ -4184,7 +4306,7 @@
           "License"
         ],
         "chars": 2083,
-        "fetchedAt": "2026-11-11T21:51:44.009Z",
+        "fetchedAt": "2026-11-12T00:32:33.012Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -4269,17 +4391,22 @@
       "popularityScore": 453,
       "weeklyScore": 573,
       "momentum": {
-        "stars": 34207,
-        "day": null,
+        "stars": 34208,
+        "day": {
+          "delta": 1,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 17,
+        "commits1w": 14,
         "commits4w": 121,
-        "commits52w": 523,
+        "commits52w": 519,
         "commitTotal": 3585,
         "latestRelease": null,
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 1,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "学习工具",
       "license": {
@@ -4294,8 +4421,8 @@
         "url": "https://github.com/pcottle/learnGitBranching",
         "homepage": "https://pcottle.github.io/learnGitBranching/",
         "description": "An interactive git visualization and tutorial. Aspiring students of git can use this app to educate and challenge themselves towards mastery of git!",
-        "stars": 34207,
-        "forks": 6036,
+        "stars": 34208,
+        "forks": 6037,
         "openIssues": 56,
         "language": "JavaScript",
         "topics": [],
@@ -4307,7 +4434,7 @@
         "createdAt": "2012-08-13T22:36:09Z",
         "pushedAt": "2026-11-09T18:30:47Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:27.560Z",
+        "fetchedAt": "2026-11-12T00:32:36.683Z",
         "source": "api",
         "warnings": []
       },
@@ -4341,7 +4468,7 @@
           "Helpful Folks"
         ],
         "chars": 5688,
-        "fetchedAt": "2026-11-11T21:51:27.560Z",
+        "fetchedAt": "2026-11-12T00:32:36.683Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -4428,13 +4555,18 @@
       "popularityScore": 448,
       "weeklyScore": 568,
       "momentum": {
-        "stars": 30463,
-        "day": null,
+        "stars": 30464,
+        "day": {
+          "delta": 1,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 61,
-        "commits4w": 137,
-        "commits52w": 997,
+        "commits1w": 60,
+        "commits4w": 138,
+        "commits52w": 998,
         "commitTotal": 2472,
         "latestRelease": {
           "tag": "v0.34.1",
@@ -4444,8 +4576,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 1,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "自托管项目",
       "license": {
@@ -4460,9 +4592,9 @@
         "url": "https://github.com/karakeep-app/karakeep",
         "homepage": "https://karakeep.com",
         "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
-        "stars": 30463,
-        "forks": 1633,
-        "openIssues": 729,
+        "stars": 30464,
+        "forks": 1635,
+        "openIssues": 731,
         "language": "TypeScript",
         "topics": [
           "bookmark-manager",
@@ -4481,7 +4613,7 @@
         "createdAt": "2024-02-06T12:28:31Z",
         "pushedAt": "2026-11-11T20:53:30Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:54.553Z",
+        "fetchedAt": "2026-11-12T00:32:34.903Z",
         "source": "api",
         "warnings": []
       },
@@ -4516,7 +4648,7 @@
           "Star History"
         ],
         "chars": 5601,
-        "fetchedAt": "2026-11-11T21:51:54.553Z",
+        "fetchedAt": "2026-11-12T00:32:34.903Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -4602,14 +4734,19 @@
       "popularityScore": 442,
       "weeklyScore": 562,
       "momentum": {
-        "stars": 26097,
-        "day": null,
+        "stars": 26096,
+        "day": {
+          "delta": -1,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 85,
-        "commits4w": 417,
-        "commits52w": 2867,
-        "commitTotal": 11702,
+        "commits1w": 91,
+        "commits4w": 413,
+        "commits52w": 2869,
+        "commitTotal": 11703,
         "latestRelease": {
           "tag": "@biomejs/biome@2.6.7",
           "name": "Biome CLI v2.6.7\n",
@@ -4618,8 +4755,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": -1,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "开发者工具",
       "license": {
@@ -4634,9 +4771,9 @@
         "url": "https://github.com/biomejs/biome",
         "homepage": "https://biomejs.dev",
         "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
-        "stars": 26097,
+        "stars": 26096,
         "forks": 1339,
-        "openIssues": 536,
+        "openIssues": 542,
         "language": "Rust",
         "topics": [
           "css",
@@ -4655,9 +4792,9 @@
           "url": null
         },
         "createdAt": "2023-07-27T20:30:22Z",
-        "pushedAt": "2026-11-11T21:45:25Z",
+        "pushedAt": "2026-11-12T00:13:07Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:50:32.616Z",
+        "fetchedAt": "2026-11-12T00:32:04.416Z",
         "source": "api",
         "warnings": []
       },
@@ -4693,7 +4830,7 @@
           "Bronze Sponsors"
         ],
         "chars": 4962,
-        "fetchedAt": "2026-11-11T21:50:32.616Z",
+        "fetchedAt": "2026-11-12T00:32:04.416Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -4782,7 +4919,12 @@
       "weeklyScore": 552,
       "momentum": {
         "stars": 20806,
-        "day": null,
+        "day": {
+          "delta": 0,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
         "commits1w": 2,
@@ -4790,8 +4932,8 @@
         "commits52w": 518,
         "commitTotal": 29688,
         "latestRelease": null,
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 0,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "开源硬件",
       "license": {
@@ -4807,7 +4949,7 @@
         "homepage": "https://qmk.fm",
         "description": "Open-source keyboard firmware for Atmel AVR and Arm USB families",
         "stars": 20806,
-        "forks": 44410,
+        "forks": 44409,
         "openIssues": 582,
         "language": "C",
         "topics": [
@@ -4829,7 +4971,7 @@
         "createdAt": "2014-12-08T22:02:05Z",
         "pushedAt": "2026-11-10T06:53:56Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:34.444Z",
+        "fetchedAt": "2026-11-12T00:33:16.084Z",
         "source": "api",
         "warnings": []
       },
@@ -4855,7 +4997,7 @@
           "Official Website"
         ],
         "chars": 1118,
-        "fetchedAt": "2026-11-11T21:51:34.444Z",
+        "fetchedAt": "2026-11-12T00:33:16.084Z",
         "truncated": false
       },
       "updatedAt": "2026-10-24"
@@ -4942,13 +5084,18 @@
       "popularityScore": 431,
       "weeklyScore": 551,
       "momentum": {
-        "stars": 20388,
-        "day": null,
+        "stars": 20389,
+        "day": {
+          "delta": 1,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 23,
+        "commits1w": 21,
         "commits4w": 80,
-        "commits52w": 640,
+        "commits52w": 638,
         "commitTotal": 3305,
         "latestRelease": {
           "tag": "v2.17.0",
@@ -4958,8 +5105,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 1,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "自托管项目",
       "license": {
@@ -4974,7 +5121,7 @@
         "url": "https://github.com/linkwarden/linkwarden",
         "homepage": "https://linkwarden.app",
         "description": "⚡️⚡️⚡️ Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.",
-        "stars": 20388,
+        "stars": 20389,
         "forks": 891,
         "openIssues": 699,
         "language": "TypeScript",
@@ -4996,7 +5143,7 @@
         "createdAt": "2022-04-09T07:53:01Z",
         "pushedAt": "2026-11-10T18:30:29Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:52:01.678Z",
+        "fetchedAt": "2026-11-12T00:32:38.684Z",
         "source": "api",
         "warnings": []
       },
@@ -5030,7 +5177,7 @@
           "Thanks to All the Contributors 💪"
         ],
         "chars": 4814,
-        "fetchedAt": "2026-11-11T21:52:01.678Z",
+        "fetchedAt": "2026-11-12T00:32:38.684Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -5118,8 +5265,13 @@
       "popularityScore": 423,
       "weeklyScore": 543,
       "momentum": {
-        "stars": 16875,
-        "day": null,
+        "stars": 16876,
+        "day": {
+          "delta": 1,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
         "commits1w": 4,
@@ -5134,8 +5286,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 1,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "开源硬件",
       "license": {
@@ -5150,8 +5302,8 @@
         "url": "https://github.com/flipperdevices/flipperzero-firmware",
         "homepage": "https://flipper.net",
         "description": "Flipper Zero firmware source code",
-        "stars": 16875,
-        "forks": 3530,
+        "stars": 16876,
+        "forks": 3531,
         "openIssues": 278,
         "language": "C",
         "topics": [
@@ -5175,7 +5327,7 @@
         "createdAt": "2020-07-31T21:43:20Z",
         "pushedAt": "2026-11-08T19:00:04Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:39.680Z",
+        "fetchedAt": "2026-11-12T00:32:22.948Z",
         "source": "api",
         "warnings": []
       },
@@ -5212,7 +5364,7 @@
           "SAST Tools"
         ],
         "chars": 4652,
-        "fetchedAt": "2026-11-11T21:51:39.680Z",
+        "fetchedAt": "2026-11-12T00:32:22.948Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -5300,7 +5452,12 @@
       "weeklyScore": 440,
       "momentum": {
         "stars": 16007,
-        "day": null,
+        "day": {
+          "delta": 0,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
         "commits1w": 0,
@@ -5315,8 +5472,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 0,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "数据可视化",
       "license": {
@@ -5354,7 +5511,7 @@
         "createdAt": "2023-02-16T05:17:24Z",
         "pushedAt": "2026-09-05T19:19:19Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:14.423Z",
+        "fetchedAt": "2026-11-12T00:33:14.419Z",
         "source": "api",
         "warnings": []
       },
@@ -5399,7 +5556,7 @@
           "Resources"
         ],
         "chars": 13725,
-        "fetchedAt": "2026-11-11T21:51:14.423Z",
+        "fetchedAt": "2026-11-12T00:33:14.419Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -5485,8 +5642,13 @@
       "popularityScore": 417,
       "weeklyScore": 537,
       "momentum": {
-        "stars": 14767,
-        "day": null,
+        "stars": 14769,
+        "day": {
+          "delta": 2,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
         "commits1w": 0,
@@ -5501,8 +5663,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 2,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "效率工具",
       "license": {
@@ -5517,8 +5679,8 @@
         "url": "https://github.com/espanso/espanso",
         "homepage": "https://espanso.org",
         "description": "A Privacy-first, Cross-platform Text Expander written in Rust",
-        "stars": 14767,
-        "forks": 489,
+        "stars": 14769,
+        "forks": 490,
         "openIssues": 591,
         "language": "Rust",
         "topics": [
@@ -5539,7 +5701,7 @@
         "createdAt": "2019-08-30T07:16:58Z",
         "pushedAt": "2026-11-08T00:15:00Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:06.021Z",
+        "fetchedAt": "2026-11-12T00:32:13.007Z",
         "source": "api",
         "warnings": []
       },
@@ -5574,7 +5736,7 @@
           "License"
         ],
         "chars": 2602,
-        "fetchedAt": "2026-11-11T21:51:06.021Z",
+        "fetchedAt": "2026-11-12T00:32:13.007Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -5669,13 +5831,18 @@
       "weeklyScore": 532,
       "momentum": {
         "stars": 13255,
-        "day": null,
+        "day": {
+          "delta": 0,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 138,
-        "commits4w": 488,
+        "commits1w": 142,
+        "commits4w": 484,
         "commits52w": 6261,
-        "commitTotal": 33262,
+        "commitTotal": 33265,
         "latestRelease": {
           "tag": "v13.56.0",
           "name": "Version 13.56.0",
@@ -5684,8 +5851,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 0,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "加密与 Web3",
       "license": {
@@ -5703,7 +5870,7 @@
         "description": ":globe_with_meridians: :electric_plug: The MetaMask browser extension enables browsing Ethereum blockchain enabled websites",
         "stars": 13255,
         "forks": 5608,
-        "openIssues": 2933,
+        "openIssues": 2928,
         "language": "TypeScript",
         "topics": [
           "brave",
@@ -5723,9 +5890,9 @@
           "url": "https://github.com/MetaMask/metamask-extension/blob/main/LICENSE"
         },
         "createdAt": "2015-09-06T16:34:48Z",
-        "pushedAt": "2026-11-11T21:48:12Z",
+        "pushedAt": "2026-11-12T00:24:35Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:52:19.822Z",
+        "fetchedAt": "2026-11-12T00:32:46.306Z",
         "source": "api",
         "warnings": [
           "仓库未声明可识别的开源许可证"
@@ -5768,7 +5935,7 @@
           "Dapp Developer Resources"
         ],
         "chars": 24289,
-        "fetchedAt": "2026-11-11T21:52:19.822Z",
+        "fetchedAt": "2026-11-12T00:32:46.306Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -5861,14 +6028,19 @@
       "popularityScore": 408,
       "weeklyScore": 528,
       "momentum": {
-        "stars": 12089,
-        "day": null,
+        "stars": 12090,
+        "day": {
+          "delta": 1,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 298,
-        "commits4w": 1504,
-        "commits52w": 8777,
-        "commitTotal": 20025,
+        "commits1w": 243,
+        "commits4w": 1445,
+        "commits52w": 8784,
+        "commitTotal": 20031,
         "latestRelease": {
           "tag": "2026.10.2",
           "name": "2026.10.2",
@@ -5877,8 +6049,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 1,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "开源硬件",
       "license": {
@@ -5894,9 +6066,9 @@
         "url": "https://github.com/esphome/esphome",
         "homepage": "https://esphome.io/",
         "description": "ESPHome is a system to control your ESP32, ESP8266, BK72xx, RP2040 by simple yet powerful configuration files and control them remotely through Home Automation systems.",
-        "stars": 12089,
+        "stars": 12090,
         "forks": 5798,
-        "openIssues": 644,
+        "openIssues": 647,
         "language": "C++",
         "topics": [
           "esp32",
@@ -5917,9 +6089,9 @@
           "url": "https://github.com/esphome/esphome/blob/dev/LICENSE"
         },
         "createdAt": "2018-04-06T23:23:25Z",
-        "pushedAt": "2026-11-11T21:43:24Z",
+        "pushedAt": "2026-11-12T00:30:34Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:37.169Z",
+        "fetchedAt": "2026-11-12T00:32:15.206Z",
         "source": "api",
         "warnings": [
           "仓库未声明可识别的开源许可证"
@@ -5943,7 +6115,7 @@
           "ESPHome ![Discord Chat](https://discord.gg/KhAMKrd) ![GitHub release](https://GitHub.com/esphome/esphome/releases/) ![CodSpeed](https://codspeed.io/esphome/esphome)"
         ],
         "chars": 89,
-        "fetchedAt": "2026-11-11T21:51:37.169Z",
+        "fetchedAt": "2026-11-12T00:32:15.206Z",
         "truncated": false
       },
       "updatedAt": "2026-10-24"
@@ -6031,13 +6203,18 @@
       "popularityScore": 403,
       "weeklyScore": 523,
       "momentum": {
-        "stars": 10772,
-        "day": null,
+        "stars": 10771,
+        "day": {
+          "delta": -1,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 123,
-        "commits4w": 419,
-        "commits52w": 3729,
+        "commits1w": 113,
+        "commits4w": 434,
+        "commits52w": 3755,
         "commitTotal": 9489,
         "latestRelease": {
           "tag": "nightly-e940f4f1a0f7db780611b923bb5209a98630e881",
@@ -6047,8 +6224,8 @@
           "prerelease": true,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": -1,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "加密与 Web3",
       "license": {
@@ -6063,7 +6240,7 @@
         "url": "https://github.com/foundry-rs/foundry",
         "homepage": "https://getfoundry.sh/",
         "description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
-        "stars": 10772,
+        "stars": 10771,
         "forks": 2727,
         "openIssues": 273,
         "language": "Rust",
@@ -6095,9 +6272,9 @@
           "url": null
         },
         "createdAt": "2021-09-08T11:23:11Z",
-        "pushedAt": "2026-11-11T21:32:41Z",
+        "pushedAt": "2026-11-12T00:15:13Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:52:06.801Z",
+        "fetchedAt": "2026-11-12T00:32:25.284Z",
         "source": "api",
         "warnings": []
       },
@@ -6123,7 +6300,7 @@
           "Support"
         ],
         "chars": 3206,
-        "fetchedAt": "2026-11-11T21:52:06.801Z",
+        "fetchedAt": "2026-11-12T00:32:25.284Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -6208,8 +6385,13 @@
       "popularityScore": 400,
       "weeklyScore": 520,
       "momentum": {
-        "stars": 10066,
-        "day": null,
+        "stars": 10067,
+        "day": {
+          "delta": 1,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
         "commits1w": 1,
@@ -6224,8 +6406,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 1,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "互联网玩具",
       "license": {
@@ -6240,7 +6422,7 @@
         "url": "https://github.com/dicebear/dicebear",
         "homepage": "https://www.dicebear.com",
         "description": "DiceBear is an avatar library for designers and developers. 🌍",
-        "stars": 10066,
+        "stars": 10067,
         "forks": 442,
         "openIssues": 7,
         "language": "Vue",
@@ -6263,7 +6445,7 @@
         "createdAt": "2017-03-21T12:58:17Z",
         "pushedAt": "2026-11-05T23:45:53Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:45.846Z",
+        "fetchedAt": "2026-11-12T00:32:09.344Z",
         "source": "api",
         "warnings": []
       },
@@ -6290,7 +6472,7 @@
           "Sponsors"
         ],
         "chars": 3698,
-        "fetchedAt": "2026-11-11T21:51:45.846Z",
+        "fetchedAt": "2026-11-12T00:32:09.344Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -6376,13 +6558,18 @@
       "popularityScore": 385,
       "weeklyScore": 505,
       "momentum": {
-        "stars": 7109,
-        "day": null,
+        "stars": 7111,
+        "day": {
+          "delta": 2,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 9,
+        "commits1w": 11,
         "commits4w": 60,
-        "commits52w": 205,
+        "commits52w": 204,
         "commitTotal": 10104,
         "latestRelease": {
           "tag": "@evidence-dev/universal-sql@3.0.1",
@@ -6392,8 +6579,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 2,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "数据可视化",
       "license": {
@@ -6408,7 +6595,7 @@
         "url": "https://github.com/evidence-dev/evidence",
         "homepage": "https://evidence.dev",
         "description": "Business intelligence as code: build fast, interactive data visualizations in SQL and markdown",
-        "stars": 7109,
+        "stars": 7111,
         "forks": 443,
         "openIssues": 37,
         "language": "TypeScript",
@@ -6436,7 +6623,7 @@
         "createdAt": "2021-05-27T03:50:19Z",
         "pushedAt": "2026-11-11T14:57:38Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:09.693Z",
+        "fetchedAt": "2026-11-12T00:32:17.024Z",
         "source": "api",
         "warnings": []
       },
@@ -6467,7 +6654,7 @@
           "License"
         ],
         "chars": 931,
-        "fetchedAt": "2026-11-11T21:51:09.693Z",
+        "fetchedAt": "2026-11-12T00:32:17.024Z",
         "truncated": false
       },
       "updatedAt": "2026-10-24"
@@ -6554,7 +6741,12 @@
       "weeklyScore": 493,
       "momentum": {
         "stars": 5425,
-        "day": null,
+        "day": {
+          "delta": 0,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
         "commits1w": 11,
@@ -6569,8 +6761,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 0,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "数据可视化",
       "license": {
@@ -6604,7 +6796,7 @@
         "createdAt": "2020-10-29T22:30:31Z",
         "pushedAt": "2026-11-05T22:31:26Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:18.004Z",
+        "fetchedAt": "2026-11-12T00:32:49.935Z",
         "source": "api",
         "warnings": []
       },
@@ -6631,7 +6823,7 @@
           "Contributing 🙏"
         ],
         "chars": 612,
-        "fetchedAt": "2026-11-11T21:51:18.004Z",
+        "fetchedAt": "2026-11-12T00:32:49.935Z",
         "truncated": false
       },
       "updatedAt": "2026-10-24"
@@ -6719,12 +6911,17 @@
       "weeklyScore": 484,
       "momentum": {
         "stars": 4401,
-        "day": null,
+        "day": {
+          "delta": 0,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
-        "commits1w": 11,
-        "commits4w": 54,
-        "commits52w": 753,
+        "commits1w": 15,
+        "commits4w": 58,
+        "commits52w": 757,
         "commitTotal": 9421,
         "latestRelease": {
           "tag": "v2.0.48",
@@ -6734,8 +6931,8 @@
           "prerelease": false,
           "draft": false
         },
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 0,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "加密与 Web3",
       "license": {
@@ -6751,8 +6948,8 @@
         "homepage": "https://rainbow.me",
         "description": "🌈‒ the Ethereum wallet that lives in your pocket ",
         "stars": 4401,
-        "forks": 766,
-        "openIssues": 34,
+        "forks": 767,
+        "openIssues": 33,
         "language": "TypeScript",
         "topics": [
           "defi",
@@ -6769,7 +6966,7 @@
         "createdAt": "2019-03-20T16:46:57Z",
         "pushedAt": "2026-11-11T21:08:46Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:52:14.051Z",
+        "fetchedAt": "2026-11-12T00:33:17.771Z",
         "source": "api",
         "warnings": []
       },
@@ -6798,7 +6995,7 @@
           "Developing"
         ],
         "chars": 4276,
-        "fetchedAt": "2026-11-11T21:52:14.051Z",
+        "fetchedAt": "2026-11-12T00:33:17.771Z",
         "truncated": true
       },
       "updatedAt": "2026-10-24"
@@ -6885,7 +7082,12 @@
       "weeklyScore": 348,
       "momentum": {
         "stars": 3010,
-        "day": null,
+        "day": {
+          "delta": 0,
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "days": 1
+        },
         "week": null,
         "month": null,
         "commits1w": 0,
@@ -6893,8 +7095,8 @@
         "commits52w": 2,
         "commitTotal": 181,
         "latestRelease": null,
-        "velocity": null,
-        "measuredAt": "2026-11-11"
+        "velocity": 0,
+        "measuredAt": "2026-11-12"
       },
       "categoryName": "学习工具",
       "license": {
@@ -6922,7 +7124,7 @@
         "createdAt": "2020-04-29T14:47:59Z",
         "pushedAt": "2026-03-29T12:34:31Z",
         "archived": false,
-        "fetchedAt": "2026-11-11T21:51:32.620Z",
+        "fetchedAt": "2026-11-12T00:33:28.549Z",
         "source": "api",
         "warnings": []
       },
@@ -6947,7 +7149,7 @@
           "Contributing"
         ],
         "chars": 802,
-        "fetchedAt": "2026-11-11T21:51:32.620Z",
+        "fetchedAt": "2026-11-12T00:33:28.549Z",
         "truncated": false
       },
       "updatedAt": "2026-10-24"

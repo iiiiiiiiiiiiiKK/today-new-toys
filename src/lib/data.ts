@@ -256,8 +256,11 @@ function score(p: Project, board: BoardId, snapshotDate: string): number | null 
       if (m.commits4w === null) return null;
       return (m.commits4w ?? 0) + (releasedWithin(p, snapshotDate, 30) ? 60 : 0);
     case 'rising': {
+      // Rank by stars PER DAY, not absolute delta: a 1-day window and a 30-day
+      // window would otherwise be incomparable (30 days always wins).
       const d = m.month ?? m.week ?? m.day;
-      return d ? d.delta : null;
+      if (!d || d.days <= 0) return null;
+      return Math.round((d.delta / d.days) * 100) / 100;
     }
     case 'stars':
       return m.stars ?? null;
@@ -300,7 +303,8 @@ export function boardValue(p: Project, board: BoardId): string {
   if (board === 'rising') {
     const d = m.month ?? m.week ?? m.day;
     if (!d) return '数据不足';
-    return `${d.delta > 0 ? '+' : ''}${d.delta}`;
+    // State the window: a 1-day delta and a 30-day delta must not look identical.
+    return `${d.delta > 0 ? '+' : ''}${d.delta} / ${d.days}天`;
   }
   if (board === 'stars') {
     return m.stars === null ? '未知' : `★ ${m.stars.toLocaleString('en-US')}`;
