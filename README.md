@@ -34,6 +34,17 @@
 
 <table>
 <tr>
+<td width="50%"><img src="docs/screenshots/rankings-desktop.jpg" alt="榜单页：今日活跃 / 本周 / 本月 / 星标涨幅 / Star 总量 / 最新收录"></td>
+<td width="50%"><img src="docs/screenshots/home-light.jpg" alt="浅色主题首页"></td>
+</tr>
+<tr>
+<td align="center"><sub>榜单页 · 六个榜，每个都写明算法</sub></td>
+<td align="center"><sub>浅色主题 · 同一套 token，不是反色</sub></td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td width="50%"><img src="docs/screenshots/discover-desktop.jpg" alt="发现页：搜索、多标签筛选、排序与分页"></td>
 <td width="50%"><img src="docs/screenshots/detail-desktop.jpg" alt="项目详情页：概览、功能、门槛、许可证与截图"></td>
 </tr>
@@ -44,9 +55,10 @@
 </table>
 
 <div align="center">
-<img src="docs/screenshots/home-mobile.jpg" width="300" alt="iPhone 上的首页">
-<img src="docs/screenshots/about-mobile.jpg" width="300" alt="iPhone 上的关于页面">
-<br><sub>iPhone 390pt：首页（左）与编辑原则（右），实际渲染截图 · 手机端为纯文字版</sub>
+<img src="docs/screenshots/home-mobile.jpg" width="230" alt="iPhone 上的首页">
+<img src="docs/screenshots/rankings-mobile.jpg" width="230" alt="iPhone 上的榜单页">
+<img src="docs/screenshots/about-mobile.jpg" width="230" alt="iPhone 上的关于页面">
+<br><sub>iPhone 390pt：首页 / 榜单 / 编辑原则，实际渲染截图 · 底部是四项 tab bar</sub>
 </div>
 
 <table>
