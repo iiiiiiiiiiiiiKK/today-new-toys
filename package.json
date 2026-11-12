@@ -19,6 +19,8 @@
     "data:update": "node scripts/ingest.mjs update",
     "data:build": "node scripts/build-data.mjs",
     "data:check": "node scripts/validate-data.mjs",
+    "data:guard": "node scripts/guard-catalogue-shrink.mjs",
+    "data:restore": "node scripts/restore-lost-projects.mjs",
     "data:import": "node scripts/ingest.mjs import",
     "data:verify": "node scripts/ingest.mjs verify",
     "auto:publish": "node scripts/auto-pipeline.mjs",

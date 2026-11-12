@@ -1,0 +1,79 @@
+{
+  "slug": "openhands",
+  "name": "OpenHands",
+  "tagline": "开发者工具 · 🙌 OpenHands: AI-Driven Development",
+  "summary": "（自动整理，未经人工校对）OpenHands 是一个用 TypeScript 写的开源项目。仓库自述「🙌 OpenHands: AI-Driven Development」。已抓取 README 约 9,433 字；其中有「Architecture」「Repository boundaries」「More documentation」等章节可对应到具体能力。仓库 Topics 涉及：命令行、开发者工具、大语言模型。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+  "category": "dev-tools",
+  "tags": [
+    "命令行",
+    "开发者工具",
+    "大语言模型",
+    "MIT"
+  ],
+  "aliases": [
+    "OpenHands/OpenHands"
+  ],
+  "audience": "开发者",
+  "audienceFor": [
+    "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+    "愿意自己读 README 确认细节的开发者"
+  ],
+  "features": [
+    {
+      "title": "Architecture",
+      "detail": "（自动整理）README 中有「Architecture」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Repository boundaries",
+      "detail": "（自动整理）README 中有「Repository boundaries」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "More documentation",
+      "detail": "（自动整理）README 中有「More documentation」章节，此处只标注来源，未展开复述。"
+    }
+  ],
+  "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 9433 字，抓取于 2026-11-01）汇总；未经人工校对，页面上已标注「自动收录」。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "门槛未评估：请以 README 的安装说明为准",
+    "requires": [],
+    "steps": [
+      {
+        "title": "安装 / 运行",
+        "detail": "README 中给出的命令：npm install -g @openhands/agent-canvas"
+      },
+      {
+        "title": "第 2 步",
+        "detail": "README 中给出的命令：docker run -it --rm \\"
+      },
+      {
+        "title": "第 3 步",
+        "detail": "README 中给出的命令：git clone https://github.com/OpenHands/OpenHands.git"
+      }
+    ],
+    "cost": "开源免费（以仓库许可证为准）"
+  },
+  "officialUrl": "https://openhands.dev",
+  "demoUrl": null,
+  "linkStatus": "unchecked",
+  "linkCheckedAt": null,
+  "featured": false,
+  "screenshots": [
+    {
+      "src": "/shots/openhands.jpg",
+      "alt": "OpenHands 的官方站点截图",
+      "origin": "live",
+      "capturedAt": "2026-11-01T07:34:18.055Z",
+      "credit": "页面截图：https://openhands.dev",
+      "synthetic": false
+    }
+  ],
+  "addedAt": "2026-11-01",
+  "review": {
+    "status": "published",
+    "mode": "auto",
+    "reviewedBy": "autopipeline",
+    "reviewedAt": "2026-11-01",
+    "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+  }
+}

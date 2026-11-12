@@ -1,7 +1,7 @@
 {
   "slug": "lobe-chat",
   "repoInput": "lobehub/lobehub",
-  "fetchedAt": "2026-11-12T00:32:40.580Z",
+  "fetchedAt": "2026-11-12T18:09:59.259Z",
   "github": {
     "owner": "lobehub",
     "name": "lobehub",
@@ -9,9 +9,9 @@
     "url": "https://github.com/lobehub/lobehub",
     "homepage": "https://lobehub.com",
     "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
-    "stars": 85026,
-    "forks": 16234,
-    "openIssues": 1326,
+    "stars": 85163,
+    "forks": 16255,
+    "openIssues": 1313,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -32,9 +32,9 @@
       "url": null
     },
     "createdAt": "2023-05-21T07:19:12Z",
-    "pushedAt": "2026-11-12T00:30:07Z",
+    "pushedAt": "2026-11-12T18:07:38Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T00:32:40.580Z",
+    "fetchedAt": "2026-11-12T18:09:59.259Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -99,51 +99,51 @@
     "commits52w": 9063,
     "commits4w": 1317,
     "commits1w": 306,
-    "fetchedAt": "2026-11-12T00:32:41.542Z"
+    "fetchedAt": "2026-11-12T18:10:00.770Z"
   },
   "releases": [
     {
-      "tag": "v0.0.0-nightly.pr22826.39064",
-      "name": "PR Build v0.0.0-nightly.pr22826.39064",
-      "url": "https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22826.39064",
-      "publishedAt": "2026-11-11T14:55:41Z",
+      "tag": "v2.3.4-canary.1",
+      "name": "Desktop Canary v2.3.4-canary.1",
+      "url": "https://github.com/lobehub/lobehub/releases/tag/v2.3.4-canary.1",
+      "publishedAt": "2026-11-12T13:47:07Z",
       "prerelease": true,
       "draft": false
     },
     {
-      "tag": "v0.0.0-nightly.pr22826.39060",
-      "name": "PR Build v0.0.0-nightly.pr22826.39060",
-      "url": "https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22826.39060",
-      "publishedAt": "2026-11-11T14:08:43Z",
+      "tag": "v2.3.3",
+      "name": "🚀 Release v2.3.3",
+      "url": "https://github.com/lobehub/lobehub/releases/tag/v2.3.3",
+      "publishedAt": "2026-11-12T12:59:33Z",
+      "prerelease": false,
+      "draft": false
+    },
+    {
+      "tag": "v0.0.0-nightly.pr22902.39193",
+      "name": "PR Build v0.0.0-nightly.pr22902.39193",
+      "url": "https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22902.39193",
+      "publishedAt": "2026-11-12T09:14:26Z",
       "prerelease": true,
       "draft": false
     },
     {
-      "tag": "v0.0.0-nightly.pr22825.39050",
-      "name": "PR Build v0.0.0-nightly.pr22825.39050",
-      "url": "https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22825.39050",
-      "publishedAt": "2026-11-11T13:30:57Z",
+      "tag": "v0.0.0-nightly.pr22891.39167",
+      "name": "PR Build v0.0.0-nightly.pr22891.39167",
+      "url": "https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22891.39167",
+      "publishedAt": "2026-11-12T06:57:56Z",
       "prerelease": true,
       "draft": false
     },
     {
-      "tag": "v0.0.0-nightly.pr22794.38995",
-      "name": "PR Build v0.0.0-nightly.pr22794.38995",
-      "url": "https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22794.38995",
-      "publishedAt": "2026-11-11T03:18:41Z",
-      "prerelease": true,
-      "draft": false
-    },
-    {
-      "tag": "v0.0.0-nightly.pr22757.38928",
-      "name": "PR Build v0.0.0-nightly.pr22757.38928",
-      "url": "https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22757.38928",
-      "publishedAt": "2026-11-10T12:56:57Z",
+      "tag": "v0.0.0-nightly.pr22873.39179",
+      "name": "PR Build v0.0.0-nightly.pr22873.39179",
+      "url": "https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr22873.39179",
+      "publishedAt": "2026-11-12T07:30:25Z",
       "prerelease": true,
       "draft": false
     }
   ],
-  "commitTotal": 16055,
+  "commitTotal": 16129,
   "readme": {
     "path": "README.md",
     "via": "api",

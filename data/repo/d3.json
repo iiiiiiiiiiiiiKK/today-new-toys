@@ -1,0 +1,152 @@
+{
+  "slug": "d3",
+  "repoInput": "d3/d3",
+  "fetchedAt": "2026-11-12T18:09:02.964Z",
+  "github": {
+    "owner": "d3",
+    "name": "d3",
+    "fullName": "d3/d3",
+    "url": "https://github.com/d3/d3",
+    "homepage": "https://d3js.org",
+    "description": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",
+    "stars": 113918,
+    "forks": 22718,
+    "openIssues": 23,
+    "language": "Shell",
+    "topics": [
+      "chart",
+      "charts",
+      "d3",
+      "data-visualization",
+      "svg",
+      "visualization"
+    ],
+    "license": {
+      "spdx": "ISC",
+      "name": "ISC License",
+      "url": null
+    },
+    "createdAt": "2010-09-27T17:22:42Z",
+    "pushedAt": "2026-11-03T19:44:29Z",
+    "archived": false,
+    "fetchedAt": "2026-11-12T18:09:02.964Z",
+    "source": "api",
+    "warnings": []
+  },
+  "defaultBranch": "main",
+  "activity": {
+    "weekly": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      3,
+      0
+    ],
+    "commits52w": 6,
+    "commits4w": 4,
+    "commits1w": 0,
+    "fetchedAt": "2026-11-12T18:09:04.065Z"
+  },
+  "releases": [
+    {
+      "tag": "v7.9.2",
+      "name": "v7.9.2",
+      "url": "https://github.com/d3/d3/releases/tag/v7.9.2",
+      "publishedAt": "2026-11-03T19:44:29Z",
+      "prerelease": false,
+      "draft": false
+    },
+    {
+      "tag": "v7.9.1",
+      "name": "v7.9.1",
+      "url": "https://github.com/d3/d3/releases/tag/v7.9.1",
+      "publishedAt": "2026-11-03T08:36:55Z",
+      "prerelease": false,
+      "draft": false
+    },
+    {
+      "tag": "v7.9.0",
+      "name": "",
+      "url": "https://github.com/d3/d3/releases/tag/v7.9.0",
+      "publishedAt": "2024-03-12T22:18:19Z",
+      "prerelease": false,
+      "draft": false
+    },
+    {
+      "tag": "v7.8.5",
+      "name": "",
+      "url": "https://github.com/d3/d3/releases/tag/v7.8.5",
+      "publishedAt": "2023-06-03T00:30:02Z",
+      "prerelease": false,
+      "draft": false
+    },
+    {
+      "tag": "v7.8.4",
+      "name": "v7.8.4",
+      "url": "https://github.com/d3/d3/releases/tag/v7.8.4",
+      "publishedAt": "2023-04-01T02:43:36Z",
+      "prerelease": false,
+      "draft": false
+    }
+  ],
+  "commitTotal": 4515,
+  "readme": {
+    "path": "README.md",
+    "via": "api",
+    "chars": 594,
+    "headings": [
+      "D3: Data-Driven Documents",
+      "Resources"
+    ],
+    "excerpt": "D3: Data-Driven Documents D3 (or D3.js ) is a free, open-source JavaScript library for visualizing data. Its low-level approach built on web standards offers unparalleled flexibility in authoring dynamic, data-driven graphics. For more than a decade D3 has powered groundbreaking and award-winning visualizations, become a foundational building block of higher-level chart libraries, and fostered a vibrant community of data practitioners around the world. Daily downloads of D3 · oss-analytics Resources Documentation Examples Releases Getting help",
+    "truncated": false,
+    "rawFile": "data/readme/d3.md"
+  }
+}

@@ -1,39 +1,27 @@
 {
-  "open-webui": {
-    "src": "/shots/open-webui.webp",
-    "card": "/shots/open-webui-card.webp",
-    "captureUrl": "https://openwebui.com",
+  "ai-engineering-from-scratch": {
+    "src": "/shots/ai-engineering-from-scratch.jpg",
+    "captureUrl": "https://aiengineeringfromscratch.com",
     "origin": "live",
-    "title": "Open WebUI: Self-Hosted AI Platform",
-    "capturedAt": "2026-10-24T18:14:43.871Z",
-    "quality": {
-      "std": 61.8,
-      "edge": 4.58
-    }
+    "title": "ai-engineering-from-scratch",
+    "capturedAt": "2026-11-03T07:56:32.150Z",
+    "auto": true
   },
-  "lobe-chat": {
-    "src": "/shots/lobe-chat.webp",
-    "card": "/shots/lobe-chat-card.webp",
-    "captureUrl": "https://lobehub.com",
+  "archify": {
+    "src": "/shots/archify.jpg",
+    "captureUrl": "https://archify.si",
     "origin": "live",
-    "title": "LobeHub - Your Chief Agent Operator",
-    "capturedAt": "2026-10-24T18:15:29.583Z",
-    "quality": {
-      "std": 39,
-      "edge": 9.61
-    }
+    "title": "archify",
+    "capturedAt": "2026-10-28T06:53:08.383Z",
+    "auto": true
   },
-  "ollama": {
-    "src": "/shots/ollama.webp",
-    "card": "/shots/ollama-card.webp",
-    "captureUrl": "https://ollama.com",
+  "autogpt": {
+    "src": "/shots/autogpt.jpg",
+    "captureUrl": "https://agpt.co",
     "origin": "live",
-    "title": "Ollama · Run AI models locally and in the cloud",
-    "capturedAt": "2026-10-24T18:15:40.902Z",
-    "quality": {
-      "std": 24.1,
-      "edge": 4.86
-    }
+    "title": "AutoGPT",
+    "capturedAt": "2026-10-27T06:18:33.276Z",
+    "auto": true
   },
   "biome": {
     "src": "/shots/biome.webp",
@@ -43,117 +31,29 @@
     "title": "Biome, toolchain of the web",
     "capturedAt": "2026-10-24T18:01:42.887Z"
   },
-  "uv": {
-    "src": "/shots/uv.webp",
-    "card": "/shots/uv-card.webp",
-    "captureUrl": "https://docs.astral.sh/uv/",
+  "ccxt": {
+    "src": "/shots/ccxt.jpg",
+    "captureUrl": "https://docs.ccxt.com",
     "origin": "live",
-    "title": "uv",
-    "capturedAt": "2026-10-24T18:02:16.604Z"
+    "title": "ccxt",
+    "capturedAt": "2026-10-31T07:01:00.806Z",
+    "auto": true
   },
-  "hoppscotch": {
-    "src": "/shots/hoppscotch.webp",
-    "card": "/shots/hoppscotch-card.webp",
-    "captureUrl": "https://hoppscotch.io",
+  "claude-howto": {
+    "src": "/shots/claude-howto.jpg",
+    "captureUrl": "http://luongnv.com/claude-howto/",
     "origin": "live",
-    "title": "Hoppscotch • Open source API development ecosystem • Hoppscotch",
-    "capturedAt": "2026-10-24T18:16:41.472Z",
-    "quality": {
-      "std": 17.9,
-      "edge": 4.85
-    }
+    "title": "claude-howto",
+    "capturedAt": "2026-11-02T07:42:07.047Z",
+    "auto": true
   },
-  "markitdown": {
-    "src": "/shots/markitdown.webp",
-    "card": "/shots/markitdown-card.webp",
-    "captureUrl": "https://github.com/microsoft/markitdown",
-    "origin": "og",
-    "title": "GitHub - microsoft/markitdown: Python tool for converting files and office documents to Markdown. · GitHub",
-    "capturedAt": "2026-10-24T18:17:22.578Z",
-    "quality": {
-      "std": 71,
-      "edge": 14.91
-    }
-  },
-  "localsend": {
-    "src": "/shots/localsend.webp",
-    "card": "/shots/localsend-card.webp",
-    "captureUrl": "https://localsend.org",
+  "coolify": {
+    "src": "/shots/coolify.jpg",
+    "captureUrl": "https://coolify.io",
     "origin": "live",
-    "title": "LocalSend：与附近设备共享文件",
-    "capturedAt": "2026-10-24T18:03:34.025Z"
-  },
-  "espanso": {
-    "src": "/shots/espanso.webp",
-    "card": "/shots/espanso-card.webp",
-    "captureUrl": "https://espanso.org",
-    "origin": "live",
-    "title": "Espanso - A Privacy-first, Cross-platform Text Expander",
-    "capturedAt": "2026-10-24T18:04:07.922Z"
-  },
-  "evidence": {
-    "src": "/shots/evidence.webp",
-    "card": "/shots/evidence-card.webp",
-    "captureUrl": "https://evidence.dev",
-    "origin": "live",
-    "title": "Evidence - Business Intelligence as Code",
-    "capturedAt": "2026-10-24T18:21:30.438Z"
-  },
-  "pygwalker": {
-    "src": "/shots/pygwalker.webp",
-    "card": "/shots/pygwalker-card.webp",
-    "captureUrl": "https://kanaries.net/pygwalker",
-    "origin": "live",
-    "title": "PyGWalker：让数据变身可视化分析应用",
-    "capturedAt": "2026-10-24T18:05:22.704Z"
-  },
-  "observable-plot": {
-    "src": "/shots/observable-plot.webp",
-    "card": "/shots/observable-plot-card.webp",
-    "captureUrl": "https://observablehq.com/plot/",
-    "origin": "live",
-    "title": "Plot | The JavaScript library for exploratory data visualization",
-    "capturedAt": "2026-10-24T18:05:56.843Z"
-  },
-  "excalidraw": {
-    "src": "/shots/excalidraw.webp",
-    "card": "/shots/excalidraw-card.webp",
-    "captureUrl": "https://excalidraw.com",
-    "origin": "live",
-    "title": "Excalidraw Whiteboard",
-    "capturedAt": "2026-10-24T18:16:11.015Z",
-    "quality": {
-      "std": 16,
-      "edge": 3.45
-    }
-  },
-  "penpot": {
-    "src": "/shots/penpot.webp",
-    "card": "/shots/penpot-card.webp",
-    "captureUrl": "https://design.penpot.app",
-    "origin": "live",
-    "title": "Penpot - 面向团队，设计自由",
-    "capturedAt": "2026-10-24T18:18:05.166Z",
-    "quality": {
-      "std": 42.6,
-      "edge": 6
-    }
-  },
-  "screenshot-to-code": {
-    "src": "/shots/screenshot-to-code.webp",
-    "card": "/shots/screenshot-to-code-card.webp",
-    "captureUrl": "https://screenshottocode.com",
-    "origin": "live",
-    "title": "Screenshot to Code",
-    "capturedAt": "2026-10-24T18:07:24.416Z"
-  },
-  "learn-git-branching": {
-    "src": "/shots/learn-git-branching.webp",
-    "card": "/shots/learn-git-branching-card.webp",
-    "captureUrl": "https://learngitbranching.js.org/?locale=zh_CN",
-    "origin": "live",
-    "title": "Learn Git Branching",
-    "capturedAt": "2026-10-24T18:07:50.717Z"
+    "title": "coolify",
+    "capturedAt": "2026-10-29T07:08:17.870Z",
+    "auto": true
   },
   "cs-self-learning": {
     "src": "/shots/cs-self-learning.webp",
@@ -167,21 +67,53 @@
       "edge": 15.06
     }
   },
-  "typescript-exercises": {
-    "src": "/shots/typescript-exercises.webp",
-    "card": "/shots/typescript-exercises-card.webp",
-    "captureUrl": "https://typescript-exercises.github.io",
+  "d3": {
+    "src": "/shots/d3.jpg",
+    "captureUrl": "https://d3js.org",
     "origin": "live",
-    "title": "TypeScript Exercises",
-    "capturedAt": "2026-10-24T18:08:47.329Z"
+    "title": "d3",
+    "capturedAt": "2026-10-30T07:09:12.019Z",
+    "auto": true
   },
-  "qmk-firmware": {
-    "src": "/shots/qmk-firmware.webp",
-    "card": "/shots/qmk-firmware-card.webp",
-    "captureUrl": "https://config.qmk.fm",
+  "diagram-design": {
+    "src": "/shots/diagram-design.jpg",
+    "captureUrl": "https://diagramdesign.dev",
     "origin": "live",
-    "title": "QMK Configurator",
-    "capturedAt": "2026-10-24T18:09:12.076Z"
+    "title": "diagram-design",
+    "capturedAt": "2026-10-31T07:00:50.504Z",
+    "auto": true
+  },
+  "dicebear": {
+    "src": "/shots/dicebear.webp",
+    "card": "/shots/dicebear-card.webp",
+    "captureUrl": "https://dicebear.com/playground",
+    "origin": "live",
+    "title": "Playground | DiceBear",
+    "capturedAt": "2026-10-24T18:11:18.503Z"
+  },
+  "ecc": {
+    "src": "/shots/ecc.jpg",
+    "captureUrl": "https://ecc.tools",
+    "origin": "live",
+    "title": "affaan-m/ECC",
+    "capturedAt": "2026-10-25T17:49:53.117Z",
+    "auto": true
+  },
+  "echarts": {
+    "src": "/shots/echarts.jpg",
+    "captureUrl": "https://echarts.apache.org",
+    "origin": "live",
+    "title": "echarts",
+    "capturedAt": "2026-11-05T07:56:35.397Z",
+    "auto": true
+  },
+  "espanso": {
+    "src": "/shots/espanso.webp",
+    "card": "/shots/espanso-card.webp",
+    "captureUrl": "https://espanso.org",
+    "origin": "live",
+    "title": "Espanso - A Privacy-first, Cross-platform Text Expander",
+    "capturedAt": "2026-10-24T18:04:07.922Z"
   },
   "esphome": {
     "src": "/shots/esphome.webp",
@@ -190,6 +122,50 @@
     "origin": "live",
     "title": "ESPHome - Smart Home Made Simple",
     "capturedAt": "2026-10-24T18:09:23.644Z"
+  },
+  "evidence": {
+    "src": "/shots/evidence.webp",
+    "card": "/shots/evidence-card.webp",
+    "captureUrl": "https://evidence.dev",
+    "origin": "live",
+    "title": "Evidence - Business Intelligence as Code",
+    "capturedAt": "2026-10-24T18:21:30.438Z"
+  },
+  "excalidraw": {
+    "src": "/shots/excalidraw.webp",
+    "card": "/shots/excalidraw-card.webp",
+    "captureUrl": "https://excalidraw.com",
+    "origin": "live",
+    "title": "Excalidraw Whiteboard",
+    "capturedAt": "2026-10-24T18:16:11.015Z",
+    "quality": {
+      "std": 16,
+      "edge": 3.45
+    }
+  },
+  "files": {
+    "src": "/shots/files.jpg",
+    "captureUrl": "https://files.community",
+    "origin": "live",
+    "title": "Files",
+    "capturedAt": "2026-11-04T07:31:05.535Z",
+    "auto": true
+  },
+  "firecrawl": {
+    "src": "/shots/firecrawl.jpg",
+    "captureUrl": "https://firecrawl.dev",
+    "origin": "live",
+    "title": "firecrawl",
+    "capturedAt": "2026-10-26T06:17:02.428Z",
+    "auto": true
+  },
+  "first-contributions": {
+    "src": "/shots/first-contributions.jpg",
+    "captureUrl": "https://firstcontributions.github.io",
+    "origin": "live",
+    "title": "first-contributions",
+    "capturedAt": "2026-11-04T07:31:00.598Z",
+    "auto": true
   },
   "flipper-zero": {
     "src": "/shots/flipper-zero.webp",
@@ -203,33 +179,73 @@
       "edge": 9.19
     }
   },
-  "sherlock": {
-    "src": "/shots/sherlock.webp",
-    "card": "/shots/sherlock-card.webp",
-    "captureUrl": "https://sherlockproject.xyz",
+  "foundry": {
+    "src": "/shots/foundry.webp",
+    "card": "/shots/foundry-card.webp",
+    "captureUrl": "https://getfoundry.sh",
     "origin": "live",
-    "title": "Sherlock Project",
-    "capturedAt": "2026-10-24T18:19:56.611Z",
+    "title": "Foundry - Ethereum Development Framework – foundry - Ethereum Development Framework",
+    "capturedAt": "2026-10-24T18:12:46.402Z"
+  },
+  "go-ethereum": {
+    "src": "/shots/go-ethereum.jpg",
+    "captureUrl": "https://geth.ethereum.org",
+    "origin": "live",
+    "title": "go-ethereum",
+    "capturedAt": "2026-11-06T07:56:50.260Z",
+    "auto": true
+  },
+  "grafana": {
+    "src": "/shots/grafana.jpg",
+    "captureUrl": "https://grafana.com",
+    "origin": "live",
+    "title": "grafana",
+    "capturedAt": "2026-10-29T07:08:07.006Z",
+    "auto": true
+  },
+  "graphify": {
+    "src": "/shots/graphify.jpg",
+    "captureUrl": "https://www.graphify.com",
+    "origin": "live",
+    "title": "graphify",
+    "capturedAt": "2026-10-27T06:18:28.414Z",
+    "auto": true
+  },
+  "graphite": {
+    "src": "/shots/graphite.jpg",
+    "captureUrl": "https://graphite.art",
+    "origin": "live",
+    "title": "Graphite",
+    "capturedAt": "2026-11-05T07:56:44.945Z",
+    "auto": true
+  },
+  "hello-agents": {
+    "src": "/shots/hello-agents.jpg",
+    "captureUrl": "https://hello-agents.datawhale.cc",
+    "origin": "live",
+    "title": "hello-agents",
+    "capturedAt": "2026-11-11T07:46:06.597Z",
+    "auto": true
+  },
+  "hermes-agent": {
+    "src": "/shots/hermes-agent.jpg",
+    "captureUrl": "https://hermes-agent.nousresearch.com",
+    "origin": "live",
+    "title": "hermes-agent",
+    "capturedAt": "2026-10-28T06:53:02.954Z",
+    "auto": true
+  },
+  "hoppscotch": {
+    "src": "/shots/hoppscotch.webp",
+    "card": "/shots/hoppscotch-card.webp",
+    "captureUrl": "https://hoppscotch.io",
+    "origin": "live",
+    "title": "Hoppscotch • Open source API development ecosystem • Hoppscotch",
+    "capturedAt": "2026-10-24T18:16:41.472Z",
     "quality": {
-      "std": 116.5,
-      "edge": 12.13
+      "std": 17.9,
+      "edge": 4.85
     }
-  },
-  "it-tools": {
-    "src": "/shots/it-tools.webp",
-    "card": "/shots/it-tools-card.webp",
-    "captureUrl": "https://it-tools.tech",
-    "origin": "live",
-    "title": "IT Tools - Handy online tools for developers",
-    "capturedAt": "2026-10-24T18:10:42.573Z"
-  },
-  "dicebear": {
-    "src": "/shots/dicebear.webp",
-    "card": "/shots/dicebear-card.webp",
-    "captureUrl": "https://dicebear.com/playground",
-    "origin": "live",
-    "title": "Playground | DiceBear",
-    "capturedAt": "2026-10-24T18:11:18.503Z"
   },
   "immich": {
     "src": "/shots/immich.webp",
@@ -239,6 +255,14 @@
     "title": "Immich",
     "capturedAt": "2026-10-24T18:11:33.807Z"
   },
+  "it-tools": {
+    "src": "/shots/it-tools.webp",
+    "card": "/shots/it-tools-card.webp",
+    "captureUrl": "https://it-tools.tech",
+    "origin": "live",
+    "title": "IT Tools - Handy online tools for developers",
+    "capturedAt": "2026-10-24T18:10:42.573Z"
+  },
   "karakeep": {
     "src": "/shots/karakeep.webp",
     "card": "/shots/karakeep-card.webp",
@@ -246,6 +270,22 @@
     "origin": "live",
     "title": "Karakeep - The Bookmark Everything App | Save, Organize & Tag with AI",
     "capturedAt": "2026-10-24T18:12:05.103Z"
+  },
+  "learn-claude-code": {
+    "src": "/shots/learn-claude-code.jpg",
+    "captureUrl": "https://learn.shareai.run",
+    "origin": "live",
+    "title": "learn-claude-code",
+    "capturedAt": "2026-10-30T07:09:16.959Z",
+    "auto": true
+  },
+  "learn-git-branching": {
+    "src": "/shots/learn-git-branching.webp",
+    "card": "/shots/learn-git-branching-card.webp",
+    "captureUrl": "https://learngitbranching.js.org/?locale=zh_CN",
+    "origin": "live",
+    "title": "Learn Git Branching",
+    "capturedAt": "2026-10-24T18:07:50.717Z"
   },
   "linkwarden": {
     "src": "/shots/linkwarden.webp",
@@ -255,21 +295,45 @@
     "title": "Linkwarden — Bookmarks, Evolved",
     "capturedAt": "2026-10-24T18:12:21.918Z"
   },
-  "foundry": {
-    "src": "/shots/foundry.webp",
-    "card": "/shots/foundry-card.webp",
-    "captureUrl": "https://getfoundry.sh",
+  "lobe-chat": {
+    "src": "/shots/lobe-chat.webp",
+    "card": "/shots/lobe-chat-card.webp",
+    "captureUrl": "https://lobehub.com",
     "origin": "live",
-    "title": "Foundry - Ethereum Development Framework – foundry - Ethereum Development Framework",
-    "capturedAt": "2026-10-24T18:12:46.402Z"
+    "title": "LobeHub - Your Chief Agent Operator",
+    "capturedAt": "2026-10-24T18:15:29.583Z",
+    "quality": {
+      "std": 39,
+      "edge": 9.61
+    }
   },
-  "rainbow": {
-    "src": "/shots/rainbow.webp",
-    "card": "/shots/rainbow-card.webp",
-    "captureUrl": "https://rainbow.me",
+  "localsend": {
+    "src": "/shots/localsend.webp",
+    "card": "/shots/localsend-card.webp",
+    "captureUrl": "https://localsend.org",
     "origin": "live",
-    "title": "Rainbow | Trade Any Market from Your Phone",
-    "capturedAt": "2026-10-24T18:13:02.736Z"
+    "title": "LocalSend：与附近设备共享文件",
+    "capturedAt": "2026-10-24T18:03:34.025Z"
+  },
+  "markitdown": {
+    "src": "/shots/markitdown.webp",
+    "card": "/shots/markitdown-card.webp",
+    "captureUrl": "https://github.com/microsoft/markitdown",
+    "origin": "og",
+    "title": "GitHub - microsoft/markitdown: Python tool for converting files and office documents to Markdown. · GitHub",
+    "capturedAt": "2026-10-24T18:17:22.578Z",
+    "quality": {
+      "std": 71,
+      "edge": 14.91
+    }
+  },
+  "metabase": {
+    "src": "/shots/metabase.jpg",
+    "captureUrl": "https://metabase.com",
+    "origin": "live",
+    "title": "metabase",
+    "capturedAt": "2026-11-04T07:30:55.668Z",
+    "auto": true
   },
   "metamask-extension": {
     "src": "/shots/metamask-extension.webp",
@@ -283,22 +347,6 @@
       "edge": 8.55
     }
   },
-  "rea": {
-    "src": "/shots/rea.jpg",
-    "captureUrl": "https://rea.tools",
-    "origin": "live",
-    "title": "morluto/rea",
-    "capturedAt": "2026-10-25T17:49:53.107Z",
-    "auto": true
-  },
-  "ecc": {
-    "src": "/shots/ecc.jpg",
-    "captureUrl": "https://ecc.tools",
-    "origin": "live",
-    "title": "affaan-m/ECC",
-    "capturedAt": "2026-10-25T17:49:53.117Z",
-    "auto": true
-  },
   "n8n": {
     "src": "/shots/n8n.jpg",
     "captureUrl": "https://n8n.io",
@@ -306,6 +354,22 @@
     "title": "n8n-io/n8n",
     "capturedAt": "2026-10-25T17:49:53.122Z",
     "auto": true
+  },
+  "netdata": {
+    "src": "/shots/netdata.jpg",
+    "captureUrl": "https://www.netdata.cloud",
+    "origin": "live",
+    "title": "netdata",
+    "capturedAt": "2026-11-01T07:34:56.822Z",
+    "auto": true
+  },
+  "observable-plot": {
+    "src": "/shots/observable-plot.webp",
+    "card": "/shots/observable-plot-card.webp",
+    "captureUrl": "https://observablehq.com/plot/",
+    "origin": "live",
+    "title": "Plot | The JavaScript library for exploratory data visualization",
+    "capturedAt": "2026-10-24T18:05:56.843Z"
   },
   "ohmyzsh": {
     "src": "/shots/ohmyzsh.jpg",
@@ -315,12 +379,72 @@
     "capturedAt": "2026-10-26T06:16:57.071Z",
     "auto": true
   },
-  "firecrawl": {
-    "src": "/shots/firecrawl.jpg",
-    "captureUrl": "https://firecrawl.dev",
+  "ollama": {
+    "src": "/shots/ollama.webp",
+    "card": "/shots/ollama-card.webp",
+    "captureUrl": "https://ollama.com",
     "origin": "live",
-    "title": "firecrawl",
-    "capturedAt": "2026-10-26T06:17:02.428Z",
+    "title": "Ollama · Run AI models locally and in the cloud",
+    "capturedAt": "2026-10-24T18:15:40.902Z",
+    "quality": {
+      "std": 24.1,
+      "edge": 4.86
+    }
+  },
+  "open-webui": {
+    "src": "/shots/open-webui.webp",
+    "card": "/shots/open-webui-card.webp",
+    "captureUrl": "https://openwebui.com",
+    "origin": "live",
+    "title": "Open WebUI: Self-Hosted AI Platform",
+    "capturedAt": "2026-10-24T18:14:43.871Z",
+    "quality": {
+      "std": 61.8,
+      "edge": 4.58
+    }
+  },
+  "openhands": {
+    "src": "/shots/openhands.jpg",
+    "captureUrl": "https://openhands.dev",
+    "origin": "live",
+    "title": "OpenHands",
+    "capturedAt": "2026-11-01T07:35:03.811Z",
+    "auto": true
+  },
+  "openzeppelin-contracts": {
+    "src": "/shots/openzeppelin-contracts.jpg",
+    "captureUrl": "https://openzeppelin.com/contracts",
+    "origin": "live",
+    "title": "openzeppelin-contracts",
+    "capturedAt": "2026-11-11T07:46:11.782Z",
+    "auto": true
+  },
+  "p5-js": {
+    "src": "/shots/p5-js.jpg",
+    "captureUrl": "http://p5js.org/",
+    "origin": "live",
+    "title": "p5.js",
+    "capturedAt": "2026-11-06T07:57:00.208Z",
+    "auto": true
+  },
+  "penpot": {
+    "src": "/shots/penpot.webp",
+    "card": "/shots/penpot-card.webp",
+    "captureUrl": "https://design.penpot.app",
+    "origin": "live",
+    "title": "Penpot - 面向团队，设计自由",
+    "capturedAt": "2026-10-24T18:18:05.166Z",
+    "quality": {
+      "std": 42.6,
+      "edge": 6
+    }
+  },
+  "pixijs": {
+    "src": "/shots/pixijs.jpg",
+    "captureUrl": "http://pixijs.com",
+    "origin": "live",
+    "title": "pixijs",
+    "capturedAt": "2026-11-03T07:56:38.201Z",
     "auto": true
   },
   "ponytail": {
@@ -331,20 +455,52 @@
     "capturedAt": "2026-10-26T06:17:07.259Z",
     "auto": true
   },
-  "graphify": {
-    "src": "/shots/graphify.jpg",
-    "captureUrl": "https://www.graphify.com",
+  "project-based-learning": {
+    "src": "/shots/project-based-learning.jpg",
+    "captureUrl": "https://github.com/practical-tutorials/project-based-learning",
     "origin": "live",
-    "title": "graphify",
-    "capturedAt": "2026-10-27T06:18:28.414Z",
+    "title": "project-based-learning",
+    "capturedAt": "2026-10-29T07:08:12.699Z",
     "auto": true
   },
-  "autogpt": {
-    "src": "/shots/autogpt.jpg",
-    "captureUrl": "https://agpt.co",
+  "puppeteer": {
+    "src": "/shots/puppeteer.jpg",
+    "captureUrl": "https://pptr.dev",
     "origin": "live",
-    "title": "AutoGPT",
-    "capturedAt": "2026-10-27T06:18:33.276Z",
+    "title": "puppeteer",
+    "capturedAt": "2026-10-30T07:09:21.876Z",
+    "auto": true
+  },
+  "pygwalker": {
+    "src": "/shots/pygwalker.webp",
+    "card": "/shots/pygwalker-card.webp",
+    "captureUrl": "https://kanaries.net/pygwalker",
+    "origin": "live",
+    "title": "PyGWalker：让数据变身可视化分析应用",
+    "capturedAt": "2026-10-24T18:05:22.704Z"
+  },
+  "qmk-firmware": {
+    "src": "/shots/qmk-firmware.webp",
+    "card": "/shots/qmk-firmware-card.webp",
+    "captureUrl": "https://config.qmk.fm",
+    "origin": "live",
+    "title": "QMK Configurator",
+    "capturedAt": "2026-10-24T18:09:12.076Z"
+  },
+  "rainbow": {
+    "src": "/shots/rainbow.webp",
+    "card": "/shots/rainbow-card.webp",
+    "captureUrl": "https://rainbow.me",
+    "origin": "live",
+    "title": "Rainbow | Trade Any Market from Your Phone",
+    "capturedAt": "2026-10-24T18:13:02.736Z"
+  },
+  "rea": {
+    "src": "/shots/rea.jpg",
+    "captureUrl": "https://rea.tools",
+    "origin": "live",
+    "title": "morluto/rea",
+    "capturedAt": "2026-10-25T17:49:53.107Z",
     "auto": true
   },
   "rtk": {
@@ -353,6 +509,114 @@
     "origin": "live",
     "title": "rtk",
     "capturedAt": "2026-10-27T06:18:38.616Z",
+    "auto": true
+  },
+  "ruview": {
+    "src": "/shots/ruview.jpg",
+    "captureUrl": "https://cognitum.one",
+    "origin": "live",
+    "title": "RuView",
+    "capturedAt": "2026-11-11T07:46:01.086Z",
+    "auto": true
+  },
+  "screenshot-to-code": {
+    "src": "/shots/screenshot-to-code.webp",
+    "card": "/shots/screenshot-to-code-card.webp",
+    "captureUrl": "https://screenshottocode.com",
+    "origin": "live",
+    "title": "Screenshot to Code",
+    "capturedAt": "2026-10-24T18:07:24.416Z"
+  },
+  "sherlock": {
+    "src": "/shots/sherlock.webp",
+    "card": "/shots/sherlock-card.webp",
+    "captureUrl": "https://sherlockproject.xyz",
+    "origin": "live",
+    "title": "Sherlock Project",
+    "capturedAt": "2026-10-24T18:19:56.611Z",
+    "quality": {
+      "std": 116.5,
+      "edge": 12.13
+    }
+  },
+  "stirling-pdf": {
+    "src": "/shots/stirling-pdf.jpg",
+    "captureUrl": "https://stirling.com",
+    "origin": "live",
+    "title": "Stirling-PDF",
+    "capturedAt": "2026-11-02T07:42:12.067Z",
+    "auto": true
+  },
+  "superset": {
+    "src": "/shots/superset.jpg",
+    "captureUrl": "https://superset.apache.org/",
+    "origin": "live",
+    "title": "superset",
+    "capturedAt": "2026-11-02T07:42:02.104Z",
+    "auto": true
+  },
+  "system-design-primer": {
+    "src": "/shots/system-design-primer.jpg",
+    "captureUrl": "https://github.com/donnemartin/system-design-primer",
+    "origin": "live",
+    "title": "system-design-primer",
+    "capturedAt": "2026-11-03T07:56:44.421Z",
+    "auto": true
+  },
+  "tasmota": {
+    "src": "/shots/tasmota.jpg",
+    "captureUrl": "https://tasmota.github.io/docs",
+    "origin": "live",
+    "title": "Tasmota",
+    "capturedAt": "2026-11-06T07:56:55.407Z",
+    "auto": true
+  },
+  "transformers": {
+    "src": "/shots/transformers.jpg",
+    "captureUrl": "https://huggingface.co/transformers",
+    "origin": "live",
+    "title": "transformers",
+    "capturedAt": "2026-11-01T07:34:51.621Z",
+    "auto": true
+  },
+  "typescript-exercises": {
+    "src": "/shots/typescript-exercises.webp",
+    "card": "/shots/typescript-exercises-card.webp",
+    "captureUrl": "https://typescript-exercises.github.io",
+    "origin": "live",
+    "title": "TypeScript Exercises",
+    "capturedAt": "2026-10-24T18:08:47.329Z"
+  },
+  "unsloth": {
+    "src": "/shots/unsloth.jpg",
+    "captureUrl": "https://unsloth.ai/docs",
+    "origin": "live",
+    "title": "unsloth",
+    "capturedAt": "2026-10-28T06:53:13.973Z",
+    "auto": true
+  },
+  "uptime-kuma": {
+    "src": "/shots/uptime-kuma.jpg",
+    "captureUrl": "https://uptime.kuma.pet",
+    "origin": "live",
+    "title": "uptime-kuma",
+    "capturedAt": "2026-10-31T07:00:55.516Z",
+    "auto": true
+  },
+  "uv": {
+    "src": "/shots/uv.webp",
+    "card": "/shots/uv-card.webp",
+    "captureUrl": "https://docs.astral.sh/uv/",
+    "origin": "live",
+    "title": "uv",
+    "capturedAt": "2026-10-24T18:02:16.604Z"
+  },
+  "yazi": {
+    "src": "/shots/yazi.jpg",
+    "captureUrl": "https://yazi-rs.github.io",
+    "origin": "live",
+    "title": "yazi",
+    "capturedAt": "2026-11-05T07:56:40.048Z",
     "auto": true
   }
 }

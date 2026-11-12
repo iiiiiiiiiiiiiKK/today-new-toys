@@ -1,0 +1,73 @@
+{
+  "slug": "diagram-design",
+  "name": "diagram-design",
+  "tagline": "数据可视化 · Editorial diagram design for Claude Code, Cod…",
+  "summary": "（自动整理，未经人工校对）diagram-design 是一个用 HTML 写的开源项目。仓库自述「Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop」。已抓取 README 约 29,529 字；其中有「Claude Code: symlink the inner skill」「How it compares」「What it makes」「The flow」「What gets extracted」等章节可对应到具体能力。仓库 Topics 涉及：数据可视化。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+  "category": "data-viz",
+  "tags": [
+    "数据可视化",
+    "MIT"
+  ],
+  "aliases": [
+    "cathrynlavery/diagram-design"
+  ],
+  "audience": "开发者",
+  "audienceFor": [
+    "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+    "愿意自己读 README 确认细节的开发者"
+  ],
+  "features": [
+    {
+      "title": "Claude Code: symlink the",
+      "detail": "（自动整理）README 中有「Claude Code: symlink the inner skill」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "How it compares",
+      "detail": "（自动整理）README 中有「How it compares」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "What it makes",
+      "detail": "（自动整理）README 中有「What it makes」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "The flow",
+      "detail": "（自动整理）README 中有「The flow」章节，此处只标注来源，未展开复述。"
+    }
+  ],
+  "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 29529 字，抓取于 2026-10-31）汇总；未经人工校对，页面上已标注「自动收录」。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "门槛未评估：请以 README 的安装说明为准",
+    "requires": [],
+    "steps": [
+      {
+        "title": "安装 / 运行",
+        "detail": "README 中给出的命令：npx skills add cathrynlavery/diagram-design"
+      }
+    ],
+    "cost": "开源免费（以仓库许可证为准）"
+  },
+  "officialUrl": "https://diagramdesign.dev",
+  "demoUrl": null,
+  "linkStatus": "unchecked",
+  "linkCheckedAt": null,
+  "featured": false,
+  "screenshots": [
+    {
+      "src": "/shots/diagram-design.jpg",
+      "alt": "diagram-design 的官方站点截图",
+      "origin": "live",
+      "capturedAt": "2026-10-31T07:00:17.927Z",
+      "credit": "页面截图：https://diagramdesign.dev",
+      "synthetic": false
+    }
+  ],
+  "addedAt": "2026-10-31",
+  "review": {
+    "status": "published",
+    "mode": "auto",
+    "reviewedBy": "autopipeline",
+    "reviewedAt": "2026-10-31",
+    "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+  }
+}

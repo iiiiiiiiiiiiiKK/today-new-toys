@@ -1,0 +1,77 @@
+{
+  "slug": "pixijs",
+  "name": "pixijs",
+  "tagline": "数据可视化 · The HTML5 Creation Engine: Create beautiful d…",
+  "summary": "（自动整理，未经人工校对）pixijs 是一个用 TypeScript 写的开源项目。仓库自述「The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer」。已抓取 README 约 2,031 字；其中有「PixiJS ⚡️」「TypeScript」「Contribute」「Change Log」等章节可对应到具体能力。仓库 Topics 涉及：数据可视化。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+  "category": "data-viz",
+  "tags": [
+    "数据可视化",
+    "MIT"
+  ],
+  "aliases": [
+    "pixijs/pixijs"
+  ],
+  "audience": "开发者",
+  "audienceFor": [
+    "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+    "愿意自己读 README 确认细节的开发者"
+  ],
+  "features": [
+    {
+      "title": "PixiJS ⚡️",
+      "detail": "（自动整理）README 中有「PixiJS ⚡️」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "TypeScript",
+      "detail": "（自动整理）README 中有「TypeScript」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Contribute",
+      "detail": "（自动整理）README 中有「Contribute」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Change Log",
+      "detail": "（自动整理）README 中有「Change Log」章节，此处只标注来源，未展开复述。"
+    }
+  ],
+  "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 2031 字，抓取于 2026-11-03）汇总；未经人工校对，页面上已标注「自动收录」。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "门槛未评估：请以 README 的安装说明为准",
+    "requires": [],
+    "steps": [
+      {
+        "title": "安装 / 运行",
+        "detail": "README 中给出的命令：npm create pixi.js@latest"
+      },
+      {
+        "title": "第 2 步",
+        "detail": "README 中给出的命令：npm install pixi.js"
+      }
+    ],
+    "cost": "开源免费（以仓库许可证为准）"
+  },
+  "officialUrl": "http://pixijs.com",
+  "demoUrl": null,
+  "linkStatus": "unchecked",
+  "linkCheckedAt": null,
+  "featured": false,
+  "screenshots": [
+    {
+      "src": "/shots/pixijs.jpg",
+      "alt": "pixijs 的官方站点截图",
+      "origin": "live",
+      "capturedAt": "2026-11-03T07:56:09.424Z",
+      "credit": "页面截图：http://pixijs.com",
+      "synthetic": false
+    }
+  ],
+  "addedAt": "2026-11-03",
+  "review": {
+    "status": "published",
+    "mode": "auto",
+    "reviewedBy": "autopipeline",
+    "reviewedAt": "2026-11-03",
+    "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+  }
+}

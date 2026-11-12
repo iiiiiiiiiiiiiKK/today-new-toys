@@ -1,11 +1,17 @@
 /**
  * Push a local directory to a GitHub repo via the REST API (no git binary needed).
  *
- *   TOKEN=... OWNER=... REPO=... LOCAL_ROOT=... node upload-via-api.mjs
+ *   TOKEN=... OWNER=... REPO=... LOCAL_ROOT=... node upload-via-api.cjs
  *
  * Used because outbound git/443 is blocked in this environment while api.github.com
- * works. Uploads file blobs, builds one tree, creates a commit, updates the ref.
- * Content-addressed: unchanged files are skipped via the sha cache.
+ * works.
+ *
+ * IMPORTANT — this tool MERGES with the remote tree, it does not replace it:
+ * a local working copy is almost never a superset of the repo (the daily bot commits
+ * new projects straight to main). Building a tree from local files alone silently
+ * deletes everything the local copy is missing. We therefore start from the remote
+ * tree and overlay local files on top; deletion only happens for paths listed in
+ * DELETE_PATHS. Content-addressed: unchanged files are skipped via the sha cache.
  */
 const fs = require('fs');
 const path = require('path');
@@ -18,6 +24,11 @@ const LOCAL_ROOT = process.env.LOCAL_ROOT;
 const MESSAGE = process.env.COMMIT_MSG || 'chore: sync';
 const CACHE_FILE = process.env.CACHE_FILE || '.upload-cache.json';
 const ORPHAN = process.env.ORPHAN === '1';
+/** Comma-separated repo-relative paths to remove. Nothing else is ever deleted. */
+const DELETE_PATHS = (process.env.DELETE_PATHS || '')
+  .split(',')
+  .map((p) => p.trim())
+  .filter(Boolean);
 
 if (!TOKEN || !OWNER || !REPO || !LOCAL_ROOT) {
   console.error('需要 GITHUB_TOKEN / OWNER / REPO / LOCAL_ROOT');
@@ -54,7 +65,17 @@ async function api(p, opts = {}, retries = 4) {
   throw last;
 }
 
-const SKIP_DIRS = new Set(['node_modules', '.git', 'dist', '.tmp-e2e', '.tmp-shots', '.tmp-shots2', '.tmp-shots-review', '.tmp-device', '.tmp-visual']);
+const SKIP_DIRS = new Set([
+  'node_modules',
+  '.git',
+  'dist',
+  '.tmp-e2e',
+  '.tmp-shots',
+  '.tmp-shots2',
+  '.tmp-shots-review',
+  '.tmp-device',
+  '.tmp-visual',
+]);
 
 function walk(dir, base = '') {
   let out = [];
@@ -92,14 +113,37 @@ const cache = fs.existsSync(CACHE_FILE) ? JSON.parse(fs.readFileSync(CACHE_FILE,
   const baseCommit = baseBranch ? await api(`/git/commits/${baseBranch.object.sha}`) : null;
   console.log(baseBranch ? `branch: ${baseBranch.object.sha.slice(0, 7)}` : 'orphan commit mode');
 
+  // ---- remote tree (the source of truth we must not shrink) ------------------
+  const remoteEntries = new Map();
+  if (baseCommit) {
+    const remoteTree = await api(`/git/trees/${baseCommit.tree.sha}?recursive=1`);
+    if (remoteTree.truncated) {
+      console.error('远端 tree 被截断，拒绝继续（会误删文件）。请先用 git 同步一次。');
+      process.exit(1);
+    }
+    for (const item of remoteTree.tree) {
+      if (item.type === 'blob') remoteEntries.set(item.path, item.sha);
+    }
+    console.log(`remote tree: ${remoteEntries.size} blobs`);
+  }
+
+  const deleteSet = new Set(DELETE_PATHS.map((p) => p.replace(/^\/+/, '')));
+  for (const p of deleteSet) {
+    if (!remoteEntries.has(p)) console.log(`  delete: ${p} (not on remote, skipped)`);
+    remoteEntries.delete(p);
+  }
+
+  // ---- overlay local files --------------------------------------------------
   const files = walk(LOCAL_ROOT);
-  console.log(`files: ${files.length}`);
+  console.log(`local files: ${files.length}`);
 
   const entries = [];
   let uploaded = 0;
   let reused = 0;
+  let keptRemote = 0;
 
   for (const rel of files) {
+    if (deleteSet.has(rel)) continue;
     const abs = path.join(LOCAL_ROOT, rel);
     const buf = fs.readFileSync(abs);
     const key = `${rel}:${buf.length}`;
@@ -121,7 +165,19 @@ const cache = fs.existsSync(CACHE_FILE) ? JSON.parse(fs.readFileSync(CACHE_FILE,
     }
   }
   fs.writeFileSync(CACHE_FILE, JSON.stringify(cache), 'utf8');
-  console.log(`blobs: uploaded ${uploaded}, reused ${reused}`);
+
+  const localPaths = new Set(files);
+  for (const [rel, sha] of remoteEntries) {
+    if (localPaths.has(rel)) continue; // local version already wins above
+    entries.push({ path: rel, mode: '100644', type: 'blob', sha });
+    keptRemote += 1;
+  }
+
+  console.log(`blobs: uploaded ${uploaded}, cached ${reused}; kept ${keptRemote} remote-only files; deleted ${deleteSet.size}`);
+  if (keptRemote > 0) {
+    const sample = [...remoteEntries.keys()].filter((p) => !localPaths.has(p)).slice(0, 5);
+    console.log(`  preserved examples: ${sample.join(', ')}`);
+  }
 
   const tree = await api('/git/trees', {
     method: 'POST',
@@ -146,7 +202,3 @@ const cache = fs.existsSync(CACHE_FILE) ? JSON.parse(fs.readFileSync(CACHE_FILE,
   }
   console.log(`pushed to ${OWNER}/${REPO}#${BRANCH}`);
 })();
-
-function branchLabel(b) {
-  return b ? b.object.sha.slice(0, 7) : 'empty (first commit)';
-}

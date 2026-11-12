@@ -29,6 +29,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - uses: actions/setup-node@v4
         with:
@@ -36,6 +38,9 @@ jobs:
           cache: npm
 
       - run: npm ci
+
+      - name: 收录数量不得减少（防止误删远端自动收录的项目）
+        run: npm run data:guard
 
       - name: 数据质量闸门
         run: npm run data:check

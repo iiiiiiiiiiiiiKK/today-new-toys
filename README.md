@@ -134,7 +134,7 @@ box-shadow: var(--shadow-hard-sm);
 
 ## 收录了什么
 
-**30 个手工精选**（编辑逐条读过 README，10 个分类各 3 个），外加每日自动流水线补充的条目；当前数据快照共 **39 个项目**，其中 **9 个标了「自动」徽章**：
+**30 个手工精选**（编辑逐条读过 README，10 个分类各 3 个），外加每日自动流水线补充的条目；当前数据快照共 **72 个项目**，其中 **42 个标了「自动」徽章**：
 
 | 分类 | 项目 |
 | --- | --- |
@@ -242,7 +242,7 @@ npm run dev       # http://localhost:5180
 ```
 
 ```bash
-npm run build     # 数据校验 → 类型检查 → 打包 → 预渲染 55 个页面 → 后处理
+npm run build     # 数据校验 → 收录缩水闸门 → 类型检查 → 打包 → 预渲染 88 个页面 → 后处理
 npm run preview   # http://localhost:4188
 npm run check     # data:check + typecheck + unit test + build
 ```
@@ -294,9 +294,11 @@ tests/e2e/                   19 个端到端检查 + 布局审计 + 10 设备响
 | `npm run data:verify` | 检查所有官网与仓库链接，输出 `data/link-report.json` |
 | `npm run data:build` | 合并仓库快照 + 人工文案 → `public/data/projects.json` |
 | `npm run data:check` | 数据质量闸门（构建前自动执行） |
+| `npm run data:guard` | 收录数量不得减少（CI 闸门，误删自动收录项目会直接失败） |
+| `npm run data:restore` | 从历史提交恢复被误删的项目文件与截图（`--apply` 才写盘） |
 | `npm run shots` / `shots:retry` | 抓取官网截图 / 对空白截图二次抓取 |
 | `npm run og` | 用真实截图生成 1200×630 分享预览图 |
-| `npm run fonts` | 重新子集化中文字体（新增文案后运行） |
+| `npm run fonts` | 重新下载自托管字体（只拉实际使用的 Archivo Black + JetBrains Mono） |
 
 每次抓取 / 更新都会写一条 append-only JSONL 日志到 `data/logs/`，包含每条 HTTP 请求的状态码与剩余额度、失败原因、保留的旧快照。**日志随仓库提交**，可据此复核「某个数字是什么时候抓的」。
 

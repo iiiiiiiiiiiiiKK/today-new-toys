@@ -1,7 +1,7 @@
 {
   "slug": "firecrawl",
   "repoInput": "firecrawl/firecrawl",
-  "fetchedAt": "2026-11-12T00:32:21.087Z",
+  "fetchedAt": "2026-11-12T18:09:23.906Z",
   "github": {
     "owner": "firecrawl",
     "name": "firecrawl",
@@ -9,9 +9,9 @@
     "url": "https://github.com/firecrawl/firecrawl",
     "homepage": "https://firecrawl.dev",
     "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
-    "stars": 200962,
-    "forks": 10556,
-    "openIssues": 790,
+    "stars": 201221,
+    "forks": 10564,
+    "openIssues": 796,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -40,9 +40,9 @@
       "url": null
     },
     "createdAt": "2024-04-15T21:02:29Z",
-    "pushedAt": "2026-11-12T00:27:34Z",
+    "pushedAt": "2026-11-12T18:08:43Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T00:32:21.087Z",
+    "fetchedAt": "2026-11-12T18:09:23.906Z",
     "source": "api",
     "warnings": []
   },
@@ -105,7 +105,7 @@
     "commits52w": 2313,
     "commits4w": 279,
     "commits1w": 51,
-    "fetchedAt": "2026-11-12T00:32:22.255Z"
+    "fetchedAt": "2026-11-12T18:09:24.939Z"
   },
   "releases": [
     {
@@ -149,11 +149,11 @@
       "draft": false
     }
   ],
-  "commitTotal": 6842,
+  "commitTotal": 6849,
   "readme": {
     "path": "README.md",
     "via": "api",
-    "chars": 6476,
+    "chars": 7175,
     "headings": [
       "🔥 Firecrawl",
       "Why Firecrawl?",
@@ -170,6 +170,7 @@
       "Skill",
       "MCP",
       "Agent Onboarding",
+      "Alexandria",
       "More Endpoints",
       "Agent",
       "Crawl",
@@ -193,8 +194,7 @@
       "Rust",
       "Ruby",
       "Scrape a single URL",
-      "Use the Agent for autonomous data gathering",
-      "Crawl a website (automatically waits for completion)"
+      "Use the Agent for autonomous data gathering"
     ],
     "excerpt": "--- 🔥 Firecrawl The API to search, scrape, and interact with the web at scale. Firecrawl is the context API for AI agents. 🔥 Open source and available as a hosted service. Pst. Hey, you, join our stargazers :) --- Why Firecrawl? - Industry-leading reliability : Covers 96% of the web, including JS-heavy pages — no proxy headaches, just clean data (see benchmarks) - Blazingly fast : P95 latency of 3.4s across millions of pages, built for real-time agents and dynamic apps - LLM-ready output : Clean markdown, structured JSON, screenshots, and more — spend fewer tokens, build better AI apps - We handle the hard stuff : Rotating proxies, orchestration, rate limits, JS-blocked content, and more — zero configuration - Agent ready : Connect Firecrawl to any AI agent or MCP client with a single command - Document parsing : Turn PDFs, DOCX, and other documents into clean Markdown or structured JSON - Actions : Click, scroll, write, wait, and press before extracting content - Open source : Developed transparently and collaboratively — join our community --- Feature Overview Core Endpoints Feature Description --------- ------------- Search Search the web and get full page content from results Scrape Convert any URL to markdown, HTML, screenshots, or structured JSON Interact Scrape a page, then interact with it using AI prompts or code More Feature Description --------- ------------- Parse",
     "truncated": true,
