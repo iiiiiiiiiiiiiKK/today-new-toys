@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-10-27T06:17:58.249Z",
+  "ranAt": "2026-11-12T08:22:25.742Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "Graphify-Labs/graphify",
-      "category": "dev-tools"
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
+      "repo": "huggingface/transformers",
       "category": "ai-tools"
     },
     {
-      "repo": "rtk-ai/rtk",
-      "category": "productivity"
+      "repo": "ruvnet/RuView",
+      "category": "hardware"
+    },
+    {
+      "repo": "tt-a1i/archify",
+      "category": "dev-tools"
     }
   ],
   "added": [
     {
-      "slug": "graphify",
-      "repo": "Graphify-Labs/graphify",
-      "category": "dev-tools",
-      "stars": 136342,
-      "shot": true
-    },
-    {
-      "slug": "autogpt",
-      "repo": "Significant-Gravitas/AutoGPT",
+      "slug": "transformers",
+      "repo": "huggingface/transformers",
       "category": "ai-tools",
-      "stars": 187783,
+      "stars": 168889,
       "shot": true
     },
     {
-      "slug": "rtk",
-      "repo": "rtk-ai/rtk",
-      "category": "productivity",
-      "stars": 84682,
+      "slug": "ruview",
+      "repo": "ruvnet/RuView",
+      "category": "hardware",
+      "stars": 104097,
+      "shot": true
+    },
+    {
+      "slug": "archify",
+      "repo": "tt-a1i/archify",
+      "category": "dev-tools",
+      "stars": 95741,
       "shot": true
     }
   ]

@@ -1,7 +1,7 @@
 {
   "slug": "immich",
   "repoInput": "immich-app/immich",
-  "fetchedAt": "2026-11-12T00:32:30.662Z",
+  "fetchedAt": "2026-11-12T08:22:03.934Z",
   "github": {
     "owner": "immich-app",
     "name": "immich",
@@ -9,9 +9,9 @@
     "url": "https://github.com/immich-app/immich",
     "homepage": "https://immich.app",
     "description": "High performance self-hosted photo and video management solution.",
-    "stars": 118895,
-    "forks": 7561,
-    "openIssues": 665,
+    "stars": 118931,
+    "forks": 7567,
+    "openIssues": 671,
     "language": "TypeScript",
     "topics": [
       "backup-tool",
@@ -37,9 +37,9 @@
       "url": null
     },
     "createdAt": "2022-02-03T15:56:27Z",
-    "pushedAt": "2026-11-11T23:00:33Z",
+    "pushedAt": "2026-11-12T06:51:41Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T00:32:30.662Z",
+    "fetchedAt": "2026-11-12T08:22:03.934Z",
     "source": "api",
     "warnings": []
   },
@@ -102,7 +102,7 @@
     "commits52w": 2958,
     "commits4w": 317,
     "commits1w": 115,
-    "fetchedAt": "2026-11-12T00:32:32.053Z"
+    "fetchedAt": "2026-11-12T08:22:04.459Z"
   },
   "releases": [
     {

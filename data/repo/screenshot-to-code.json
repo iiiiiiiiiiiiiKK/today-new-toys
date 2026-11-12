@@ -1,7 +1,7 @@
 {
   "slug": "screenshot-to-code",
   "repoInput": "abi/screenshot-to-code",
-  "fetchedAt": "2026-11-12T00:33:24.734Z",
+  "fetchedAt": "2026-11-12T08:22:22.456Z",
   "github": {
     "owner": "abi",
     "name": "screenshot-to-code",
@@ -9,8 +9,8 @@
     "url": "https://github.com/abi/screenshot-to-code",
     "homepage": "https://screenshottocode.com",
     "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
-    "stars": 81162,
-    "forks": 9940,
+    "stars": 81169,
+    "forks": 9941,
     "openIssues": 149,
     "language": "Python",
     "topics": [],
@@ -22,7 +22,7 @@
     "createdAt": "2023-11-14T17:53:32Z",
     "pushedAt": "2026-11-05T18:29:51Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T00:33:24.734Z",
+    "fetchedAt": "2026-11-12T08:22:22.456Z",
     "source": "api",
     "warnings": []
   },
@@ -85,7 +85,7 @@
     "commits52w": 557,
     "commits4w": 0,
     "commits1w": 0,
-    "fetchedAt": "2026-11-12T00:33:26.071Z"
+    "fetchedAt": "2026-11-12T08:22:22.904Z"
   },
   "releases": [],
   "commitTotal": 1457,

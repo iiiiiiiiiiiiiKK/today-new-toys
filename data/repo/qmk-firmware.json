@@ -1,7 +1,7 @@
 {
   "slug": "qmk-firmware",
   "repoInput": "qmk/qmk_firmware",
-  "fetchedAt": "2026-11-12T00:33:16.084Z",
+  "fetchedAt": "2026-11-12T08:22:18.749Z",
   "github": {
     "owner": "qmk",
     "name": "qmk_firmware",
@@ -9,9 +9,9 @@
     "url": "https://github.com/qmk/qmk_firmware",
     "homepage": "https://qmk.fm",
     "description": "Open-source keyboard firmware for Atmel AVR and Arm USB families",
-    "stars": 20806,
-    "forks": 44409,
-    "openIssues": 582,
+    "stars": 20807,
+    "forks": 44410,
+    "openIssues": 579,
     "language": "C",
     "topics": [
       "atmel-avr",
@@ -30,9 +30,9 @@
       "url": null
     },
     "createdAt": "2014-12-08T22:02:05Z",
-    "pushedAt": "2026-11-10T06:53:56Z",
+    "pushedAt": "2026-11-12T04:33:46Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T00:33:16.084Z",
+    "fetchedAt": "2026-11-12T08:22:18.749Z",
     "source": "api",
     "warnings": []
   },
@@ -95,10 +95,10 @@
     "commits52w": 518,
     "commits4w": 4,
     "commits1w": 2,
-    "fetchedAt": "2026-11-12T00:33:17.100Z"
+    "fetchedAt": "2026-11-12T08:22:19.240Z"
   },
   "releases": [],
-  "commitTotal": 29688,
+  "commitTotal": 29690,
   "readme": {
     "path": "readme.md",
     "via": "api",

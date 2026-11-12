@@ -1,7 +1,7 @@
 {
   "slug": "autogpt",
   "repoInput": "Significant-Gravitas/AutoGPT",
-  "fetchedAt": "2026-11-12T00:32:01.404Z",
+  "fetchedAt": "2026-11-12T08:21:50.975Z",
   "github": {
     "owner": "Significant-Gravitas",
     "name": "AutoGPT",
@@ -9,9 +9,9 @@
     "url": "https://github.com/Significant-Gravitas/AutoGPT",
     "homepage": "https://agpt.co",
     "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-    "stars": 187998,
-    "forks": 45876,
-    "openIssues": 718,
+    "stars": 187999,
+    "forks": 45870,
+    "openIssues": 703,
     "language": "Python",
     "topics": [
       "agentic-ai",
@@ -33,9 +33,9 @@
       "url": null
     },
     "createdAt": "2023-03-16T09:21:07Z",
-    "pushedAt": "2026-11-12T00:30:16Z",
+    "pushedAt": "2026-11-12T08:12:52Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T00:32:01.404Z",
+    "fetchedAt": "2026-11-12T08:21:50.975Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -100,7 +100,7 @@
     "commits52w": 3051,
     "commits4w": 837,
     "commits1w": 77,
-    "fetchedAt": "2026-11-12T00:32:02.899Z"
+    "fetchedAt": "2026-11-12T08:21:51.513Z"
   },
   "releases": [
     {

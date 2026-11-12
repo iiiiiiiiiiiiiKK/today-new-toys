@@ -1,7 +1,7 @@
 {
   "slug": "hoppscotch",
   "repoInput": "hoppscotch/hoppscotch",
-  "fetchedAt": "2026-11-12T00:32:29.044Z",
+  "fetchedAt": "2026-11-12T08:22:03.013Z",
   "github": {
     "owner": "hoppscotch",
     "name": "hoppscotch",
@@ -9,7 +9,7 @@
     "url": "https://github.com/hoppscotch/hoppscotch",
     "homepage": "https://hoppscotch.io",
     "description": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
-    "stars": 80779,
+    "stars": 80783,
     "forks": 6234,
     "openIssues": 895,
     "language": "TypeScript",
@@ -41,7 +41,7 @@
     "createdAt": "2019-08-21T13:15:24Z",
     "pushedAt": "2026-11-05T08:16:25Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T00:32:29.044Z",
+    "fetchedAt": "2026-11-12T08:22:03.013Z",
     "source": "api",
     "warnings": []
   },
@@ -104,7 +104,7 @@
     "commits52w": 300,
     "commits4w": 11,
     "commits1w": 0,
-    "fetchedAt": "2026-11-12T00:32:30.044Z"
+    "fetchedAt": "2026-11-12T08:22:03.526Z"
   },
   "releases": [
     {

@@ -1,7 +1,7 @@
 {
   "slug": "ohmyzsh",
   "repoInput": "ohmyzsh/ohmyzsh",
-  "fetchedAt": "2026-11-12T00:32:52.404Z",
+  "fetchedAt": "2026-11-12T08:22:13.720Z",
   "github": {
     "owner": "ohmyzsh",
     "name": "ohmyzsh",
@@ -9,8 +9,8 @@
     "url": "https://github.com/ohmyzsh/ohmyzsh",
     "homepage": "https://ohmyz.sh",
     "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
-    "stars": 190569,
-    "forks": 27307,
+    "stars": 190573,
+    "forks": 27305,
     "openIssues": 311,
     "language": "Shell",
     "topics": [
@@ -38,7 +38,7 @@
     "createdAt": "2009-08-28T18:15:37Z",
     "pushedAt": "2026-11-09T12:36:12Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T00:32:52.404Z",
+    "fetchedAt": "2026-11-12T08:22:13.720Z",
     "source": "api",
     "warnings": []
   },
@@ -101,7 +101,7 @@
     "commits52w": 374,
     "commits4w": 19,
     "commits1w": 6,
-    "fetchedAt": "2026-11-12T00:32:53.933Z"
+    "fetchedAt": "2026-11-12T08:22:14.135Z"
   },
   "releases": [],
   "commitTotal": 8009,

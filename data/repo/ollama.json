@@ -1,7 +1,7 @@
 {
   "slug": "ollama",
   "repoInput": "ollama/ollama",
-  "fetchedAt": "2026-11-12T00:32:54.539Z",
+  "fetchedAt": "2026-11-12T08:22:14.493Z",
   "github": {
     "owner": "ollama",
     "name": "ollama",
@@ -9,9 +9,9 @@
     "url": "https://github.com/ollama/ollama",
     "homepage": "https://ollama.com",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-    "stars": 186691,
-    "forks": 19027,
-    "openIssues": 4624,
+    "stars": 186736,
+    "forks": 19033,
+    "openIssues": 4628,
     "language": "Go",
     "topics": [
       "deepseek",
@@ -35,9 +35,9 @@
       "url": null
     },
     "createdAt": "2023-06-26T19:39:32Z",
-    "pushedAt": "2026-11-11T23:33:52Z",
+    "pushedAt": "2026-11-12T03:21:12Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T00:32:54.539Z",
+    "fetchedAt": "2026-11-12T08:22:14.493Z",
     "source": "api",
     "warnings": []
   },
@@ -100,7 +100,7 @@
     "commits52w": 1204,
     "commits4w": 95,
     "commits1w": 21,
-    "fetchedAt": "2026-11-12T00:32:55.861Z"
+    "fetchedAt": "2026-11-12T08:22:14.920Z"
   },
   "releases": [
     {

@@ -1,7 +1,7 @@
 {
   "slug": "karakeep",
   "repoInput": "karakeep-app/karakeep",
-  "fetchedAt": "2026-11-12T00:32:34.903Z",
+  "fetchedAt": "2026-11-12T08:22:05.661Z",
   "github": {
     "owner": "karakeep-app",
     "name": "karakeep",
@@ -9,9 +9,9 @@
     "url": "https://github.com/karakeep-app/karakeep",
     "homepage": "https://karakeep.com",
     "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
-    "stars": 30464,
-    "forks": 1635,
-    "openIssues": 731,
+    "stars": 30471,
+    "forks": 1636,
+    "openIssues": 732,
     "language": "TypeScript",
     "topics": [
       "bookmark-manager",
@@ -30,7 +30,7 @@
     "createdAt": "2024-02-06T12:28:31Z",
     "pushedAt": "2026-11-11T20:53:30Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T00:32:34.903Z",
+    "fetchedAt": "2026-11-12T08:22:05.661Z",
     "source": "api",
     "warnings": []
   },
@@ -93,7 +93,7 @@
     "commits52w": 998,
     "commits4w": 138,
     "commits1w": 60,
-    "fetchedAt": "2026-11-12T00:32:35.924Z"
+    "fetchedAt": "2026-11-12T08:22:06.181Z"
   },
   "releases": [
     {

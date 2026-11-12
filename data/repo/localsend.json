@@ -1,7 +1,7 @@
 {
   "slug": "localsend",
   "repoInput": "localsend/localsend",
-  "fetchedAt": "2026-11-12T00:32:42.229Z",
+  "fetchedAt": "2026-11-12T08:22:09.224Z",
   "github": {
     "owner": "localsend",
     "name": "localsend",
@@ -9,8 +9,8 @@
     "url": "https://github.com/localsend/localsend",
     "homepage": "https://localsend.org",
     "description": "An open-source cross-platform alternative to AirDrop",
-    "stars": 98488,
-    "forks": 5624,
+    "stars": 98578,
+    "forks": 5628,
     "openIssues": 1032,
     "language": "Dart",
     "topics": [
@@ -27,7 +27,7 @@
     "createdAt": "2022-12-16T00:46:07Z",
     "pushedAt": "2026-11-11T03:19:56Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T00:32:42.229Z",
+    "fetchedAt": "2026-11-12T08:22:09.224Z",
     "source": "api",
     "warnings": []
   },
@@ -90,7 +90,7 @@
     "commits52w": 380,
     "commits4w": 34,
     "commits1w": 11,
-    "fetchedAt": "2026-11-12T00:32:43.584Z"
+    "fetchedAt": "2026-11-12T08:22:09.772Z"
   },
   "releases": [
     {

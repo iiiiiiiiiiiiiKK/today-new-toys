@@ -1,7 +1,7 @@
 {
   "slug": "excalidraw",
   "repoInput": "excalidraw/excalidraw",
-  "fetchedAt": "2026-11-12T00:32:18.725Z",
+  "fetchedAt": "2026-11-12T08:21:58.266Z",
   "github": {
     "owner": "excalidraw",
     "name": "excalidraw",
@@ -9,9 +9,9 @@
     "url": "https://github.com/excalidraw/excalidraw",
     "homepage": "https://excalidraw.com",
     "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
-    "stars": 135517,
-    "forks": 16113,
-    "openIssues": 3520,
+    "stars": 135534,
+    "forks": 16118,
+    "openIssues": 3522,
     "language": "TypeScript",
     "topics": [
       "canvas",
@@ -30,7 +30,7 @@
     "createdAt": "2020-01-02T01:04:43Z",
     "pushedAt": "2026-11-11T12:53:18Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T00:32:18.725Z",
+    "fetchedAt": "2026-11-12T08:21:58.266Z",
     "source": "api",
     "warnings": []
   },
@@ -93,7 +93,7 @@
     "commits52w": 283,
     "commits4w": 22,
     "commits1w": 2,
-    "fetchedAt": "2026-11-12T00:32:20.005Z"
+    "fetchedAt": "2026-11-12T08:21:58.762Z"
   },
   "releases": [
     {

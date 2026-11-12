@@ -1,0 +1,49 @@
+{"at":"2026-11-12T08:22:25.740Z","event":"run_start","name":"auto","startedAt":"2026-11-12T08:22:25.740Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-11-12T08:22:25.750Z","event":"existing","detail":"catalogue has 39 projects","level":"info"}
+{"at":"2026-11-12T08:22:26.453Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Allm%20stars%3A%3E3000%20pushed%3A%3E2026-07-15%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":29,"ms":703}
+{"at":"2026-11-12T08:22:26.453Z","event":"search","detail":"ai-tools: 8 hits (quota 29)","level":"info"}
+{"at":"2026-11-12T08:22:28.110Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adeveloper-tools%20stars%3A%3E2000%20pushed%3A%3E2026-07-15%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":28,"ms":456}
+{"at":"2026-11-12T08:22:28.110Z","event":"search","detail":"dev-tools: 8 hits (quota 28)","level":"info"}
+{"at":"2026-11-12T08:22:29.800Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aproductivity%20stars%3A%3E1500%20pushed%3A%3E2026-07-15%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":27,"ms":489}
+{"at":"2026-11-12T08:22:29.800Z","event":"search","detail":"productivity: 8 hits (quota 27)","level":"info"}
+{"at":"2026-11-12T08:22:31.465Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adata-visualization%20stars%3A%3E800%20pushed%3A%3E2026-07-15%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":26,"ms":464}
+{"at":"2026-11-12T08:22:31.465Z","event":"search","detail":"data-viz: 8 hits (quota 26)","level":"info"}
+{"at":"2026-11-12T08:22:33.129Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Acreative-coding%20stars%3A%3E800%20pushed%3A%3E2026-07-15%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":25,"ms":463}
+{"at":"2026-11-12T08:22:33.129Z","event":"search","detail":"creative: 8 hits (quota 25)","level":"info"}
+{"at":"2026-11-12T08:22:34.785Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Atutorial%20stars%3A%3E3000%20pushed%3A%3E2026-07-15%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":24,"ms":455}
+{"at":"2026-11-12T08:22:34.785Z","event":"search","detail":"learning: 8 hits (quota 24)","level":"info"}
+{"at":"2026-11-12T08:22:36.570Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Afirmware%20stars%3A%3E1000%20pushed%3A%3E2026-07-15%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":23,"ms":584}
+{"at":"2026-11-12T08:22:36.570Z","event":"search","detail":"hardware: 8 hits (quota 23)","level":"info"}
+{"at":"2026-11-12T08:22:38.220Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Awebapp%20stars%3A%3E1500%20pushed%3A%3E2026-07-15%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":22,"ms":448}
+{"at":"2026-11-12T08:22:38.220Z","event":"search","detail":"internet-toys: 8 hits (quota 22)","level":"info"}
+{"at":"2026-11-12T08:22:39.877Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aself-hosted%20stars%3A%3E2000%20pushed%3A%3E2026-07-15%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":21,"ms":456}
+{"at":"2026-11-12T08:22:39.877Z","event":"search","detail":"self-hosted: 8 hits (quota 21)","level":"info"}
+{"at":"2026-11-12T08:22:41.636Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aethereum%20stars%3A%3E1000%20pushed%3A%3E2026-07-15%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":20,"ms":559}
+{"at":"2026-11-12T08:22:41.637Z","event":"search","detail":"web3: 8 hits (quota 20)","level":"info"}
+{"at":"2026-11-12T08:22:42.840Z","event":"picked","detail":"huggingface/transformers (ai-tools, ★168889) | ruvnet/RuView (hardware, ★104097) | tt-a1i/archify (dev-tools, ★95741)","level":"info"}
+{"at":"2026-11-12T08:22:43.147Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/huggingface/transformers","status":200,"remaining":4802,"ms":306}
+{"at":"2026-11-12T08:22:43.420Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/huggingface/transformers/readme","status":200,"remaining":4801,"ms":272}
+{"at":"2026-11-12T08:22:43.595Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/huggingface/transformers/stats/participation","status":200,"remaining":4800,"ms":174}
+{"at":"2026-11-12T08:22:43.794Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/huggingface/transformers/commits?per_page=1","status":200,"remaining":4798,"ms":370}
+{"at":"2026-11-12T08:22:43.795Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/huggingface/transformers/releases?per_page=5","status":200,"remaining":4798,"ms":373}
+{"at":"2026-11-12T08:22:43.796Z","event":"saved","detail":"transformers ★168889 Apache-2.0 README=6699 字","level":"info"}
+{"at":"2026-11-12T08:22:49.699Z","event":"shot","detail":"transformers -> /shots/transformers.jpg","level":"info"}
+{"at":"2026-11-12T08:22:49.715Z","event":"published","detail":"transformers (ai-tools) ★168889","level":"info"}
+{"at":"2026-11-12T08:22:50.098Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ruvnet/RuView","status":200,"remaining":4797,"ms":382}
+{"at":"2026-11-12T08:22:50.409Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ruvnet/RuView/readme","status":200,"remaining":4796,"ms":311}
+{"at":"2026-11-12T08:22:50.617Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ruvnet/RuView/stats/participation","status":200,"remaining":4795,"ms":206}
+{"at":"2026-11-12T08:22:50.771Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ruvnet/RuView/commits?per_page=1","status":200,"remaining":4793,"ms":358}
+{"at":"2026-11-12T08:22:50.797Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ruvnet/RuView/releases?per_page=5","status":200,"remaining":4794,"ms":385}
+{"at":"2026-11-12T08:22:50.798Z","event":"saved","detail":"ruview ★104097 MIT README=51206 字","level":"info"}
+{"at":"2026-11-12T08:22:55.158Z","event":"shot","detail":"ruview -> /shots/ruview.jpg","level":"info"}
+{"at":"2026-11-12T08:22:55.161Z","event":"published","detail":"ruview (hardware) ★104097","level":"info"}
+{"at":"2026-11-12T08:22:55.491Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/tt-a1i/archify","status":200,"remaining":4792,"ms":330}
+{"at":"2026-11-12T08:22:55.744Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/tt-a1i/archify/readme","status":200,"remaining":4791,"ms":251}
+{"at":"2026-11-12T08:22:55.951Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/tt-a1i/archify/stats/participation","status":200,"remaining":4790,"ms":207}
+{"at":"2026-11-12T08:22:56.021Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/tt-a1i/archify/commits?per_page=1","status":200,"remaining":4789,"ms":275}
+{"at":"2026-11-12T08:22:56.107Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/tt-a1i/archify/releases?per_page=5","status":200,"remaining":4788,"ms":362}
+{"at":"2026-11-12T08:22:56.107Z","event":"saved","detail":"archify ★95741 Apache-2.0 README=22112 字","level":"info"}
+{"at":"2026-11-12T08:23:00.706Z","event":"shot","detail":"archify -> /shots/archify.jpg","level":"info"}
+{"at":"2026-11-12T08:23:00.707Z","event":"published","detail":"archify (dev-tools) ★95741","level":"info"}
+{"at":"2026-11-12T08:23:00.773Z","event":"rebuilt","detail":"[data:build] 42 个项目 → public/data/projects.json","level":"info"}
+{"at":"2026-11-12T08:23:00.774Z","event":"run_end","level":"info","detail":"{\"ranAt\":\"2026-11-12T08:22:25.742Z\",\"auth\":\"token\",\"searched\":10,\"picked\":[{\"repo\":\"huggingface/transformers\",\"category\":\"ai-tools\"},{\"repo\":\"ruvnet/RuView\",\"category\":\"hardware\"},{\"repo\":\"tt-a1i/archify\",\"category\":\"dev-tools\"}],\"added\":[{\"slug\":\"transformers\",\"repo\":\"huggingface/transformers\",\"category\":\"ai-tools\",\"stars\":168889,\"shot\":true},{\"slug\":\"ruview\",\"repo\":\"ruvnet/RuView\",\"category\":\"hardware\",\"stars\":104097,\"shot\":true},{\"slug\":\"archify\",\"repo\":\"tt-a1i/archify\",\"category\":\"dev-tools\",\"stars\":95741,\"shot\":true}]}"}

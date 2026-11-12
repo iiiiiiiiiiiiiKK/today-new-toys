@@ -1,7 +1,7 @@
 {
   "slug": "foundry",
   "repoInput": "foundry-rs/foundry",
-  "fetchedAt": "2026-11-12T00:32:25.284Z",
+  "fetchedAt": "2026-11-12T08:22:00.870Z",
   "github": {
     "owner": "foundry-rs",
     "name": "foundry",
@@ -11,7 +11,7 @@
     "description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
     "stars": 10771,
     "forks": 2727,
-    "openIssues": 273,
+    "openIssues": 274,
     "language": "Rust",
     "topics": [
       "alloy",
@@ -41,9 +41,9 @@
       "url": null
     },
     "createdAt": "2021-09-08T11:23:11Z",
-    "pushedAt": "2026-11-12T00:15:13Z",
+    "pushedAt": "2026-11-12T08:17:53Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T00:32:25.284Z",
+    "fetchedAt": "2026-11-12T08:22:00.870Z",
     "source": "api",
     "warnings": []
   },
@@ -106,9 +106,17 @@
     "commits52w": 3755,
     "commits4w": 434,
     "commits1w": 113,
-    "fetchedAt": "2026-11-12T00:32:26.651Z"
+    "fetchedAt": "2026-11-12T08:22:01.644Z"
   },
   "releases": [
+    {
+      "tag": "nightly-5717c1b8fea92d59da287e56e8b6c798a3a36e74",
+      "name": "Nightly (2026-11-12)",
+      "url": "https://github.com/foundry-rs/foundry/releases/tag/nightly-5717c1b8fea92d59da287e56e8b6c798a3a36e74",
+      "publishedAt": "2026-11-12T07:11:35Z",
+      "prerelease": true,
+      "draft": false
+    },
     {
       "tag": "nightly-e940f4f1a0f7db780611b923bb5209a98630e881",
       "name": "Nightly (2026-11-11)",
@@ -140,17 +148,9 @@
       "publishedAt": "2026-11-08T07:16:15Z",
       "prerelease": true,
       "draft": false
-    },
-    {
-      "tag": "nightly-9bf23ee03cb14cd24204cddd97d4036c0fe315ff",
-      "name": "Nightly (2026-11-06)",
-      "url": "https://github.com/foundry-rs/foundry/releases/tag/nightly-9bf23ee03cb14cd24204cddd97d4036c0fe315ff",
-      "publishedAt": "2026-11-06T07:16:40Z",
-      "prerelease": true,
-      "draft": false
     }
   ],
-  "commitTotal": 9489,
+  "commitTotal": 9493,
   "readme": {
     "path": "README.md",
     "via": "api",
