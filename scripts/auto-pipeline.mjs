@@ -108,6 +108,20 @@ for (const { category, repo } of picked) {
   const draft = buildChineseDraft({ slug, name: repo.name, record: snap.record, readme: repoSnap?.readme, readmeText, mode: 'auto' });
   const licence = repoSnap?.github?.license ?? { spdx: null, name: null, note: '仓库未声明可识别许可证' };
 
+  // Tags must be something we can source. Chinese translations of GitHub topics come
+  // first; when a repo's topics are all outside our dictionary we fall back to the raw
+  // topics and the detected language rather than emitting a one-tag record, which the
+  // data gate rejects (>= 2 tags).
+  const tags = unique(
+    [
+      ...draft.suggestedTopics,
+      categoryName(category),
+      licence.spdx,
+      ...(draft.suggestedTopics.length >= 2 ? [] : (repo.topics || []).slice(0, 3)),
+      repo.language,
+    ].filter(Boolean),
+  ).slice(0, 5);
+
   const project = {
     slug,
     name: repo.name,
@@ -115,7 +129,7 @@ for (const { category, repo } of picked) {
     tagline: autoTagline(categoryName(category), snap.record),
     summary: draft.summary,
     category,
-    tags: unique([...draft.suggestedTopics, categoryName(category), licence.spdx].filter(Boolean)).slice(0, 5),
+    tags,
     aliases: [repo.full_name],
     audience: '开发者',
     audienceFor: draft.audienceFor,

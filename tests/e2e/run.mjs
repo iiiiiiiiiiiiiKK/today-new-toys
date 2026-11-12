@@ -191,7 +191,8 @@ async function main() {
     const p = data.projects.find((x) => x.slug === slug);
     assert(p, `数据中没有 ${slug}`);
     const facts = await page.locator('.project__facts').innerText();
-    if (p.repo.stars !== null) assert(facts.includes(p.repo.stars.toLocaleString('en-US')), `Star 不一致: ${facts}`);
+    if (p.repo.stars !== null)
+      assert(facts.includes(p.repo.stars.toLocaleString('en-US')), `Star 不一致 (${slug}): ${facts.replace(/\s+/g, ' ').slice(0, 200)}`);
     if (p.license.spdx) assert(facts.includes(p.license.spdx), `许可证不一致: ${facts}`);
     else assert(facts.includes('未知'), '未确认许可证应显示未知');
     assert(facts.includes(p.setup.effort), '门槛不一致');

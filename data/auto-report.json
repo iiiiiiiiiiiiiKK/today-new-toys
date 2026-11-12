@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-10-27T06:17:58.249Z",
+  "ranAt": "2026-11-12T21:58:57.033Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "Graphify-Labs/graphify",
-      "category": "dev-tools"
+      "repo": "byoungd/up",
+      "category": "learning"
     },
     {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "category": "ai-tools"
+      "repo": "MarlinFirmware/Marlin",
+      "category": "hardware"
     },
     {
-      "repo": "rtk-ai/rtk",
-      "category": "productivity"
+      "repo": "hummingbot/hummingbot",
+      "category": "web3"
     }
   ],
   "added": [
     {
-      "slug": "graphify",
-      "repo": "Graphify-Labs/graphify",
-      "category": "dev-tools",
-      "stars": 136342,
+      "slug": "up",
+      "repo": "byoungd/up",
+      "category": "learning",
+      "stars": 70466,
       "shot": true
     },
     {
-      "slug": "autogpt",
-      "repo": "Significant-Gravitas/AutoGPT",
-      "category": "ai-tools",
-      "stars": 187783,
+      "slug": "marlin",
+      "repo": "MarlinFirmware/Marlin",
+      "category": "hardware",
+      "stars": 17659,
       "shot": true
     },
     {
-      "slug": "rtk",
-      "repo": "rtk-ai/rtk",
-      "category": "productivity",
-      "stars": 84682,
+      "slug": "hummingbot",
+      "repo": "hummingbot/hummingbot",
+      "category": "web3",
+      "stars": 21189,
       "shot": true
     }
   ]

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-12T18:23:05.396Z",
+  "generatedAt": "2026-11-12T22:06:03.489Z",
   "snapshotDate": "2026-11-12",
   "counts": {
-    "projects": 72,
+    "projects": 75,
     "categories": 10
   },
   "categories": [
@@ -86,9 +86,9 @@
     "day": 39,
     "week": 0,
     "month": 0,
-    "stars": 72,
-    "releases": 59,
-    "commits": 72
+    "stars": 75,
+    "releases": 61,
+    "commits": 75
   },
   "projects": [
     {
@@ -6023,7 +6023,7 @@
         "todo": "确认托管站是否仍开放"
       },
       "popularityScore": 491,
-      "weeklyScore": 611,
+      "weeklyScore": 551,
       "momentum": {
         "stars": 81181,
         "day": {
@@ -7139,6 +7139,165 @@
         "truncated": true
       },
       "updatedAt": "2026-11-02"
+    },
+    {
+      "slug": "up",
+      "name": "up",
+      "tagline": "韩先凯的人生进阶指南 AI时代 中英双语终身学习指南：AI、学习 、创业、财富、爱情与人生",
+      "summary": "（自动整理，未经人工校对）up 是一个用 JavaScript 写的开源项目。仓库自述「韩先凯的人生进阶指南 AI时代 中英双语终身学习指南：AI、学习 、创业、财富、爱情与人生」。已抓取 README 约 7,338 字；其中有「人生进阶指南」「先判断入口」「创业、自律与 AI：把方法用起来」「书稿主线」「从今天的一件小事开始」等章节可对应到具体能力。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "learning",
+      "tags": [
+        "终身学习",
+        "AI 素养",
+        "双语阅读",
+        "教育"
+      ],
+      "aliases": [
+        "byoungd/up"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "人生进阶指南",
+          "detail": "（自动整理）README 中有「人生进阶指南」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "先判断入口",
+          "detail": "（自动整理）README 中有「先判断入口」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "创业、自律与 AI：把方法用起来",
+          "detail": "（自动整理）README 中有「创业、自律与 AI：把方法用起来」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "书稿主线",
+          "detail": "（自动整理）README 中有「书稿主线」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 7338 字，抓取于 2026-11-12）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "费用未知"
+      },
+      "officialUrl": "https://byoungd.github.io/up/",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/up.jpg",
+          "alt": "up 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-12T21:59:30.425Z",
+          "credit": "页面截图：https://byoungd.github.io/up/",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-12",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-12",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 485,
+      "weeklyScore": 545,
+      "momentum": {
+        "stars": 70466,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 0,
+        "commits4w": 8,
+        "commits52w": 229,
+        "commitTotal": 531,
+        "latestRelease": null,
+        "latestPrerelease": null,
+        "velocity": null,
+        "measuredAt": "2026-11-12"
+      },
+      "categoryName": "学习工具",
+      "license": {
+        "spdx": null,
+        "name": "Other",
+        "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+        "url": null
+      },
+      "repo": {
+        "owner": "byoungd",
+        "name": "up",
+        "fullName": "byoungd/up",
+        "url": "https://github.com/byoungd/up",
+        "homepage": "https://byoungd.github.io/up/",
+        "description": "韩先凯的人生进阶指南 AI时代 中英双语终身学习指南：AI、学习 、创业、财富、爱情与人生",
+        "stars": 70466,
+        "forks": 7003,
+        "openIssues": 23,
+        "language": "JavaScript",
+        "topics": [
+          "ai-literacy",
+          "chinese",
+          "english-learning",
+          "lifelong-learning",
+          "open-education",
+          "self-directed-learning",
+          "tutorial"
+        ],
+        "license": {
+          "spdx": null,
+          "name": "Other",
+          "note": "GitHub 未识别到许可证文件；使用前请自行查看仓库 LICENSE",
+          "url": null
+        },
+        "createdAt": "2017-05-30T07:18:52Z",
+        "pushedAt": "2026-11-04T03:25:03Z",
+        "archived": false,
+        "fetchedAt": "2026-11-12T21:59:18.875Z",
+        "source": "api",
+        "warnings": [
+          "仓库未声明可识别的开源许可证"
+        ]
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "人生进阶指南 中文 English 韩先凯 著，绰号：法海（不懂AI） AI 时代终身学习指南。 这是一份持续更新的开放书稿：从英语这扇具体的门出发，走向 AI 学习、真实项目、创业验证、生活恢复，以及一个普通人如何把生活一点点交还给自己。 这不是把人生整理成一张漂亮计划表的书。它更像一间可以随时回来的工作室：你带着一个真实问题进来，找到当前的起点，完成一个足够小的动作，留下可以复查的证据，再决定下一步。答案可以借助 AI，判断、边界和责任仍然属于你。 你不必先证明自己足够聪明、足够自律，才配得到帮助；也不必一次读完整本。读几页，做一件事，允许结果改变你的阅读路线。这里没有保证成功的捷径，只有被行动、失败、恢复和重新出发反复检验过的记录。 你会得到： 中英双语开放书稿、可下载的 EPUB/PDF、可复制的工作表，以及一条从五分钟起步、十四天复测、九十天复盘的实践路径。 持续更新书稿 下载中心 下载中文 EPUB Download English EPUB 下载中文 PDF Download English PDF 源码与勘误 读者实践回执 引用格式 正文 CC BY-NC 4.0 从这里开始 先选一个动作，再决定读多远 第一次来不用读完整本。按今天的需要选一个入口，完成一个小动作，让结果告诉你下一页该去哪里。 5 分钟：我还不知道从哪里开始 用阅读指南按问题选路，知道该留下什么证据，也知道中断后怎样回来。 今天：我想做成一件事 写下真实问题、当前证据、最小动作和边界，然后完成一个能被看见的输出。 14 天：我想练习一项英语能力 从听、说、读、写中选一条训练线，保存首版，在新的条件下复测。 准备一个完整周期？从 九十日行动总表 开始，把一次练习带进真实项目和生活。 如果这份指南帮你完成了一个真实动作，欢迎 Star 本仓库，让更多学习者找到它；发现错误、翻译差异或可复现的实践结果，可以通过 Issue 模板 分享。 先判断入口 这份指南适合想提高英语、学习 AI、完成真实项目，或正在重新建立生活节律的人。你不需要从第一页开始，也不需要同时打开所有主题：从眼前的问题选一条线，完成一轮，再决定是否继续。 你现在面对的情况 先打开 一次留下什么 --- --- --- 不知道从哪一页开始 阅读指南 一条按问题选择的阅读路线 想测英语听说读写的真实起点 英语能力诊断 同一主题下的首版样本与一个障碍 想把 AI 用进工作而不外包判断 AI 学习 · AI 评测 一次可复核的小实验与验收标准 想完成作品、项目或创业验证 从问题到首批用户 · 创业实验卡 一个真实输出、用户反馈或失败记录 正在恢复节律或重新安排生活 生活进阶工作表 今天可照顾的边界与下一项最小任务 需要离线阅读或引用 下载中心 · 引用格式 EPUB/PDF 文件或规范化引用信息 所有主题共用一条工作线： 定义问题 → 保存基线 → 完成最小任务 → 记录证据 → 延迟复测 → 决定迁移。 AI 可以帮你拆解、提问、比较和反馈；目标、来源、隐私、验收和最终责任仍由人确认。 AI 让答案变得越来越便宜：几秒钟就能得到解释、代码、计划，甚至一句听起来很确定的人生建议。真正稀缺的东西没有消失： 知道什么问题值得追问，辨别什么证据可以相信，把建议变成真实作品，并为最后的判断负责。 项目在 2017 年从《离",
+        "headings": [
+          "人生进阶指南",
+          "先判断入口",
+          "创业、自律与 AI：把方法用起来",
+          "书稿主线",
+          "从今天的一件小事开始",
+          "AI 学习与项目实践：从回答走向交付",
+          "写给仍在寻找方向的人",
+          "写给年轻人",
+          "写给正在低谷中的人",
+          "基础能力：英语仍然是一扇重要的门",
+          "人生复盘与恢复：经验也需要重新解释",
+          "现实仍在继续",
+          "作者项目与透明说明",
+          "在抖音继续看",
+          "项目边界",
+          "在线阅读"
+        ],
+        "chars": 7338,
+        "fetchedAt": "2026-11-12T21:59:18.875Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-12"
     },
     {
       "slug": "echarts",
@@ -10563,6 +10722,182 @@
       "updatedAt": "2026-11-06"
     },
     {
+      "slug": "hummingbot",
+      "name": "hummingbot",
+      "tagline": "加密与 Web3 · Open source software that helps you create an…",
+      "summary": "（自动整理，未经人工校对）hummingbot 是一个用 Python 写的开源项目。仓库自述「Open source software that helps you create and deploy high-frequency crypto trading bots」。已抓取 README 约 9,944 字；其中有「Quick Links」「Condor (AI harness)」「hbot CLI」「Clone the repository」「Activate the environment」等章节可对应到具体能力。仓库 Topics 涉及：以太坊、Python。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "web3",
+      "tags": [
+        "以太坊",
+        "Python",
+        "加密与 Web3",
+        "Apache-2.0"
+      ],
+      "aliases": [
+        "hummingbot/hummingbot"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Quick Links",
+          "detail": "（自动整理）README 中有「Quick Links」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Condor (AI harness)",
+          "detail": "（自动整理）README 中有「Condor (AI harness)」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "hbot CLI",
+          "detail": "（自动整理）README 中有「hbot CLI」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Clone the repository",
+          "detail": "（自动整理）README 中有「Clone the repository」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 9944 字，抓取于 2026-11-12）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "安装 / 运行",
+            "detail": "README 中给出的命令：git clone https://github.com/hummingbot/hummingbot.git"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://hummingbot.org",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/hummingbot.jpg",
+          "alt": "hummingbot 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-12T21:59:53.418Z",
+          "credit": "页面截图：https://hummingbot.org",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-12",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-12",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 433,
+      "weeklyScore": 553,
+      "momentum": {
+        "stars": 21189,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 0,
+        "commits4w": 0,
+        "commits52w": 1688,
+        "commitTotal": 28074,
+        "latestRelease": {
+          "tag": "v2.17.0",
+          "name": "v2.17.0",
+          "url": "https://github.com/hummingbot/hummingbot/releases/tag/v2.17.0",
+          "publishedAt": "2026-09-22T08:55:11Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "latestPrerelease": null,
+        "velocity": null,
+        "measuredAt": "2026-11-12"
+      },
+      "categoryName": "加密与 Web3",
+      "license": {
+        "spdx": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "hummingbot",
+        "name": "hummingbot",
+        "fullName": "hummingbot/hummingbot",
+        "url": "https://github.com/hummingbot/hummingbot",
+        "homepage": "https://hummingbot.org",
+        "description": "Open source software that helps you create and deploy high-frequency crypto trading bots",
+        "stars": 21189,
+        "forks": 5144,
+        "openIssues": 215,
+        "language": "Python",
+        "topics": [
+          "ai-agents",
+          "algotrading",
+          "arbitrage",
+          "backtesting",
+          "binance",
+          "bitcoin",
+          "crypto",
+          "cryptocurrency",
+          "defi",
+          "ethereum",
+          "hft",
+          "hyperliquid",
+          "market-making",
+          "orderbook",
+          "python",
+          "quantitative-finance",
+          "solana",
+          "trading",
+          "trading-stategy"
+        ],
+        "license": {
+          "spdx": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "url": null
+        },
+        "createdAt": "2019-04-02T21:41:52Z",
+        "pushedAt": "2026-11-12T14:13:32Z",
+        "archived": false,
+        "fetchedAt": "2026-11-12T21:59:39.678Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "---- Hummingbot is an open-source framework that helps you design and deploy automated trading strategies, or bots , that can run on many centralized or decentralized exchanges. Over the past year, Hummingbot users have generated over $34 billion in trading volume across 140+ unique trading venues. The Hummingbot codebase is free and publicly available under the Apache 2.0 open-source license. Our mission is to democratize high-frequency trading by creating a global community of algorithmic traders and developers that share knowledge and contribute to the codebase. Quick Links Website and Docs: Official Hummingbot website and documentation Installation: Install Hummingbot on various platforms Discord: The main gathering spot for the global Hummingbot community YouTube: Videos that teach you how to get the most out of Hummingbot Twitter: Get the latest announcements about Hummingbot Reported Volumes: Reported trading volumes across all Hummingbot instances Newsletter: Get our newsletter whenever we ship a new release Getting Started Condor (AI harness) Condor is the AI harness for building and running agentic strategies and bot instances. It connects LLM-powered decision-making to deterministic trade execution via the Hummingbot API, controlled through Telegram or its web dashboard. See condor.hummingbot.org to get started. `hbot` CLI The recommended way to run the Hummingbot cl",
+        "headings": [
+          "Quick Links",
+          "Getting Started",
+          "Condor (AI harness)",
+          "hbot CLI",
+          "Clone the repository",
+          "Create the conda environment, build extensions, and expose the hbot CLI",
+          "Activate the environment",
+          "Docker",
+          "Interactive Client (TUI)",
+          "Strategies",
+          "Exchange Connectors",
+          "Connector Types",
+          "Exchange Sponsors",
+          "Other Exchange Connectors",
+          "Other Hummingbot Repos",
+          "Getting Help",
+          "Contributions",
+          "Legal"
+        ],
+        "chars": 9944,
+        "fetchedAt": "2026-11-12T21:59:39.678Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-12"
+    },
+    {
       "slug": "qmk-firmware",
       "name": "QMK Firmware",
       "tagline": "自己定义每一颗键位的键盘固件",
@@ -10912,6 +11247,167 @@
         "truncated": true
       },
       "updatedAt": "2026-10-24"
+    },
+    {
+      "slug": "marlin",
+      "name": "Marlin",
+      "tagline": "开源硬件 · Marlin is a firmware for RepRap 3D printers o…",
+      "summary": "（自动整理，未经人工校对）Marlin 是一个用 C++ 写的开源项目。仓库自述「Marlin is a firmware for RepRap 3D printers optimized for both 8 and 32 bit microcontrollers. Marlin supports all common platforms. Many commercial 3D printers come with Marlin installed. Check with your vendor if you need source code for your specific machine」。已抓取 README 约 9,361 字；其中有「🌍 Translations」「Marlin 2.1 Bugfix Branch」「Example Configurations」「Building Marlin 2.1」「32-bit ARM boards」等章节可对应到具体能力。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+      "category": "hardware",
+      "tags": [
+        "开源硬件",
+        "GPL-3.0"
+      ],
+      "aliases": [
+        "MarlinFirmware/Marlin"
+      ],
+      "audience": "开发者",
+      "audienceFor": [
+        "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+        "愿意自己读 README 确认细节的开发者"
+      ],
+      "features": [
+        {
+          "title": "Translations",
+          "detail": "（自动整理）README 中有「🌍 Translations」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Marlin 2.1 Bugfix Branch",
+          "detail": "（自动整理）README 中有「Marlin 2.1 Bugfix Branch」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Example Configurations",
+          "detail": "（自动整理）README 中有「Example Configurations」章节，此处只标注来源，未展开复述。"
+        },
+        {
+          "title": "Building Marlin 2.1",
+          "detail": "（自动整理）README 中有「Building Marlin 2.1」章节，此处只标注来源，未展开复述。"
+        }
+      ],
+      "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 9361 字，抓取于 2026-11-12）汇总；未经人工校对，页面上已标注「自动收录」。",
+      "setup": {
+        "effort": "低门槛",
+        "effortNote": "门槛未评估：请以 README 的安装说明为准",
+        "requires": [],
+        "steps": [
+          {
+            "title": "阅读安装章节",
+            "detail": "（自动整理）README 未提供可识别的安装命令。"
+          }
+        ],
+        "cost": "开源免费（以仓库许可证为准）"
+      },
+      "officialUrl": "https://marlinfw.org",
+      "demoUrl": null,
+      "linkStatus": "unchecked",
+      "linkCheckedAt": null,
+      "featured": false,
+      "screenshots": [
+        {
+          "src": "/shots/marlin.jpg",
+          "alt": "Marlin 的官方站点截图",
+          "origin": "live",
+          "capturedAt": "2026-11-12T21:59:38.761Z",
+          "credit": "页面截图：https://marlinfw.org",
+          "synthetic": false
+        }
+      ],
+      "addedAt": "2026-11-12",
+      "review": {
+        "status": "published",
+        "mode": "auto",
+        "reviewedBy": "autopipeline",
+        "reviewedAt": "2026-11-12",
+        "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+      },
+      "popularityScore": 425,
+      "weeklyScore": 545,
+      "momentum": {
+        "stars": 17659,
+        "day": null,
+        "week": null,
+        "month": null,
+        "commits1w": 46,
+        "commits4w": 196,
+        "commits52w": 794,
+        "commitTotal": 22336,
+        "latestRelease": {
+          "tag": "2.1.2.9",
+          "name": "Marlin 2.1.2.9",
+          "url": "https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.2.9",
+          "publishedAt": "2026-10-12T22:09:45Z",
+          "prerelease": false,
+          "draft": false
+        },
+        "latestPrerelease": null,
+        "velocity": null,
+        "measuredAt": "2026-11-12"
+      },
+      "categoryName": "开源硬件",
+      "license": {
+        "spdx": "GPL-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": null
+      },
+      "repo": {
+        "owner": "MarlinFirmware",
+        "name": "Marlin",
+        "fullName": "MarlinFirmware/Marlin",
+        "url": "https://github.com/MarlinFirmware/Marlin",
+        "homepage": "https://marlinfw.org",
+        "description": "Marlin is a firmware for RepRap 3D printers optimized for both 8 and 32 bit microcontrollers.  Marlin supports all common platforms.   Many commercial 3D printers come with Marlin installed.  Check with your vendor if you need source code for your specific machine.",
+        "stars": 17659,
+        "forks": 19704,
+        "openIssues": 712,
+        "language": "C++",
+        "topics": [
+          "3d-printing",
+          "arduino",
+          "atmel",
+          "avr",
+          "esp32",
+          "firmware",
+          "hacktoberfest",
+          "reprap",
+          "stmicro"
+        ],
+        "license": {
+          "spdx": "GPL-3.0",
+          "name": "GNU General Public License v3.0",
+          "url": null
+        },
+        "createdAt": "2011-08-13T08:07:20Z",
+        "pushedAt": "2026-11-12T20:31:51Z",
+        "archived": false,
+        "fetchedAt": "2026-11-12T21:59:31.465Z",
+        "source": "api",
+        "warnings": []
+      },
+      "readme": {
+        "path": "README.md",
+        "excerpt": "Marlin 3D Printer Firmware 🌍 Translations Aragonés Български Català Čeština Dansk Deutsch Ελληνικά English Español Euskara Suomi Français Galego Hrvatski Magyar Italiano にほんご 한국어 Nederlands Polski Português Português (Brasil) Română Русский Slovenčina Svenska Türkçe Українська Tiếng Việt 简体中文 繁體中文 Official documentation can be found at the Marlin Home Page. Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by! --- Marlin 2.1 Bugfix Branch Not for production use. Use with caution! Marlin 2.1 supports both 32-bit ARM and 8-bit AVR boards while adding support for up to 9 coordinated axes and to up to 8 extruders. This branch is for patches to the latest 2.1.x release version. Periodically this branch will form the basis for the next minor 2.1.x release. Download earlier versions of Marlin on the Releases page. Example Configurations Before you can build Marlin for your machine you'll need a configuration for your specific hardware. Upon request, your vendor will be happy to provide you with the complete source code and configurations for your machine, but you'll need to get updated configuration files if you want to install a newer version of Marlin. Fortunately, Marlin users have contributed hundreds of tested configurations to get you started. Visit the MarlinFirmware/Configurations repository to find the right configuration for your",
+        "headings": [
+          "🌍 Translations",
+          "Marlin 2.1 Bugfix Branch",
+          "Example Configurations",
+          "Building Marlin 2.1",
+          "32-bit ARM boards",
+          "8-Bit AVR Boards",
+          "Hardware Abstraction Layer (HAL)",
+          "Supported Platforms",
+          "Marlin Discord",
+          "Other Marlin Support",
+          "Contributing Patches",
+          "Contributors",
+          "Project Leadership",
+          "Star History",
+          "License"
+        ],
+        "chars": 9361,
+        "fetchedAt": "2026-11-12T21:59:31.465Z",
+        "truncated": true
+      },
+      "updatedAt": "2026-11-12"
     },
     {
       "slug": "flipper-zero",
