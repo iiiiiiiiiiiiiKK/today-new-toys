@@ -618,5 +618,29 @@
     "title": "yazi",
     "capturedAt": "2026-11-05T07:56:40.048Z",
     "auto": true
+  },
+  "up": {
+    "src": "/shots/up.jpg",
+    "captureUrl": "https://byoungd.github.io/up/",
+    "origin": "live",
+    "title": "up",
+    "capturedAt": "2026-11-12T21:59:30.425Z",
+    "auto": true
+  },
+  "marlin": {
+    "src": "/shots/marlin.jpg",
+    "captureUrl": "https://marlinfw.org",
+    "origin": "live",
+    "title": "Marlin",
+    "capturedAt": "2026-11-12T21:59:38.761Z",
+    "auto": true
+  },
+  "hummingbot": {
+    "src": "/shots/hummingbot.jpg",
+    "captureUrl": "https://hummingbot.org",
+    "origin": "live",
+    "title": "hummingbot",
+    "capturedAt": "2026-11-12T21:59:53.418Z",
+    "auto": true
   }
 }
