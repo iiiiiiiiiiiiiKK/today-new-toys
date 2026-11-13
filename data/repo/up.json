@@ -1,7 +1,7 @@
 {
   "slug": "up",
   "repoInput": "byoungd/up",
-  "fetchedAt": "2026-11-12T21:59:18.875Z",
+  "fetchedAt": "2026-11-13T08:00:56.042Z",
   "github": {
     "owner": "byoungd",
     "name": "up",
@@ -9,8 +9,8 @@
     "url": "https://github.com/byoungd/up",
     "homepage": "https://byoungd.github.io/up/",
     "description": "韩先凯的人生进阶指南 AI时代 中英双语终身学习指南：AI、学习 、创业、财富、爱情与人生",
-    "stars": 70466,
-    "forks": 7003,
+    "stars": 70491,
+    "forks": 7004,
     "openIssues": 23,
     "language": "JavaScript",
     "topics": [
@@ -31,7 +31,7 @@
     "createdAt": "2017-05-30T07:18:52Z",
     "pushedAt": "2026-11-04T03:25:03Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T21:59:18.875Z",
+    "fetchedAt": "2026-11-13T08:00:56.042Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -42,8 +42,8 @@
     "weekly": [
       5,
       0,
-      0,
       1,
+      0,
       0,
       0,
       5,
@@ -70,8 +70,8 @@
       0,
       1,
       10,
-      3,
-      3,
+      4,
+      2,
       7,
       0,
       0,
@@ -81,22 +81,22 @@
       0,
       2,
       6,
-      145,
-      10,
+      152,
+      3,
       1,
       2,
       0,
       12,
       4,
-      4,
-      2,
+      5,
+      1,
       2,
       0
     ],
     "commits52w": 229,
     "commits4w": 8,
     "commits1w": 0,
-    "fetchedAt": "2026-11-12T21:59:19.826Z"
+    "fetchedAt": "2026-11-13T08:00:56.434Z"
   },
   "releases": [],
   "commitTotal": 531,

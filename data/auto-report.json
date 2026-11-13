@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-11-12T21:58:57.033Z",
+  "ranAt": "2026-11-13T08:00:58.815Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "byoungd/up",
-      "category": "learning"
-    },
-    {
-      "repo": "MarlinFirmware/Marlin",
-      "category": "hardware"
-    },
-    {
-      "repo": "hummingbot/hummingbot",
+      "repo": "argotorg/solidity",
       "category": "web3"
+    },
+    {
+      "repo": "reflex-dev/reflex",
+      "category": "internet-toys"
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "category": "productivity"
     }
   ],
   "added": [
     {
-      "slug": "up",
-      "repo": "byoungd/up",
-      "category": "learning",
-      "stars": 70466,
-      "shot": true
-    },
-    {
-      "slug": "marlin",
-      "repo": "MarlinFirmware/Marlin",
-      "category": "hardware",
-      "stars": 17659,
-      "shot": true
-    },
-    {
-      "slug": "hummingbot",
-      "repo": "hummingbot/hummingbot",
+      "slug": "solidity",
+      "repo": "argotorg/solidity",
       "category": "web3",
-      "stars": 21189,
+      "stars": 25767,
+      "shot": true
+    },
+    {
+      "slug": "reflex",
+      "repo": "reflex-dev/reflex",
+      "category": "internet-toys",
+      "stars": 29019,
+      "shot": true
+    },
+    {
+      "slug": "i-have-adhd",
+      "repo": "ayghri/i-have-adhd",
+      "category": "productivity",
+      "stars": 61057,
       "shot": true
     }
   ]

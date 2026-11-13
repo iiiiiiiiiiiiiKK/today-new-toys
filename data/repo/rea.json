@@ -1,7 +1,7 @@
 {
   "slug": "rea",
   "repoInput": "morluto/rea",
-  "fetchedAt": "2026-11-12T00:33:19.870Z",
+  "fetchedAt": "2026-11-13T08:00:46.480Z",
   "github": {
     "owner": "morluto",
     "name": "rea",
@@ -9,9 +9,9 @@
     "url": "https://github.com/morluto/rea",
     "homepage": "https://rea.tools",
     "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-    "stars": 452721,
-    "forks": 111304,
-    "openIssues": 1693,
+    "stars": 456068,
+    "forks": 111993,
+    "openIssues": 1790,
     "language": "TypeScript",
     "topics": [
       "agent-skills",
@@ -41,9 +41,9 @@
       "url": null
     },
     "createdAt": "2026-04-14T00:51:32Z",
-    "pushedAt": "2026-11-11T23:43:17Z",
+    "pushedAt": "2026-11-13T07:59:18Z",
     "archived": false,
-    "fetchedAt": "2026-11-12T00:33:19.870Z",
+    "fetchedAt": "2026-11-13T08:00:46.480Z",
     "source": "api",
     "warnings": []
   },
@@ -84,10 +84,10 @@
       0,
       0,
       0,
-      333,
-      215,
-      140,
-      18,
+      407,
+      160,
+      130,
+      9,
       10,
       1,
       0,
@@ -95,20 +95,28 @@
       1,
       0,
       0,
-      99,
-      519,
-      1864,
-      887,
-      2045,
-      346,
-      803
+      100,
+      723,
+      1839,
+      952,
+      1895,
+      314,
+      749
     ],
-    "commits52w": 7283,
-    "commits4w": 4081,
-    "commits1w": 803,
-    "fetchedAt": "2026-11-12T00:33:20.824Z"
+    "commits52w": 7292,
+    "commits4w": 3910,
+    "commits1w": 749,
+    "fetchedAt": "2026-11-13T08:00:46.838Z"
   },
   "releases": [
+    {
+      "tag": "rea-agents-6.9.0",
+      "name": "rea-agents: v6.9.0",
+      "url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.9.0",
+      "publishedAt": "2026-11-12T08:59:13Z",
+      "prerelease": false,
+      "draft": false
+    },
     {
       "tag": "rea-agents-6.8.0",
       "name": "rea-agents: v6.8.0",
@@ -140,17 +148,9 @@
       "publishedAt": "2026-10-14T12:32:45Z",
       "prerelease": false,
       "draft": false
-    },
-    {
-      "tag": "rea-agents-6.4.0",
-      "name": "rea-agents: v6.4.0",
-      "url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.4.0",
-      "publishedAt": "2026-10-11T03:58:03Z",
-      "prerelease": false,
-      "draft": false
     }
   ],
-  "commitTotal": 7283,
+  "commitTotal": 7318,
   "readme": {
     "path": "README.md",
     "via": "api",

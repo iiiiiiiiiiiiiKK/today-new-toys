@@ -1,0 +1,49 @@
+{"at":"2026-11-13T08:00:58.813Z","event":"run_start","name":"auto","startedAt":"2026-11-13T08:00:58.813Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-11-13T08:00:58.825Z","event":"existing","detail":"catalogue has 75 projects","level":"info"}
+{"at":"2026-11-13T08:00:59.380Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Allm%20stars%3A%3E3000%20pushed%3A%3E2026-07-16%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":29,"ms":555}
+{"at":"2026-11-13T08:00:59.380Z","event":"search","detail":"ai-tools: 8 hits (quota 29)","level":"info"}
+{"at":"2026-11-13T08:01:01.207Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adeveloper-tools%20stars%3A%3E2000%20pushed%3A%3E2026-07-16%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":28,"ms":626}
+{"at":"2026-11-13T08:01:01.207Z","event":"search","detail":"dev-tools: 8 hits (quota 28)","level":"info"}
+{"at":"2026-11-13T08:01:02.851Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aproductivity%20stars%3A%3E1500%20pushed%3A%3E2026-07-16%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":27,"ms":443}
+{"at":"2026-11-13T08:01:02.851Z","event":"search","detail":"productivity: 8 hits (quota 27)","level":"info"}
+{"at":"2026-11-13T08:01:04.458Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adata-visualization%20stars%3A%3E800%20pushed%3A%3E2026-07-16%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":26,"ms":406}
+{"at":"2026-11-13T08:01:04.458Z","event":"search","detail":"data-viz: 8 hits (quota 26)","level":"info"}
+{"at":"2026-11-13T08:01:06.162Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Acreative-coding%20stars%3A%3E800%20pushed%3A%3E2026-07-16%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":25,"ms":503}
+{"at":"2026-11-13T08:01:06.162Z","event":"search","detail":"creative: 8 hits (quota 25)","level":"info"}
+{"at":"2026-11-13T08:01:07.731Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Atutorial%20stars%3A%3E3000%20pushed%3A%3E2026-07-16%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":24,"ms":368}
+{"at":"2026-11-13T08:01:07.731Z","event":"search","detail":"learning: 8 hits (quota 24)","level":"info"}
+{"at":"2026-11-13T08:01:09.481Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Afirmware%20stars%3A%3E1000%20pushed%3A%3E2026-07-16%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":23,"ms":549}
+{"at":"2026-11-13T08:01:09.482Z","event":"search","detail":"hardware: 8 hits (quota 23)","level":"info"}
+{"at":"2026-11-13T08:01:11.178Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Awebapp%20stars%3A%3E1500%20pushed%3A%3E2026-07-16%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":22,"ms":496}
+{"at":"2026-11-13T08:01:11.178Z","event":"search","detail":"internet-toys: 8 hits (quota 22)","level":"info"}
+{"at":"2026-11-13T08:01:12.840Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aself-hosted%20stars%3A%3E2000%20pushed%3A%3E2026-07-16%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":21,"ms":462}
+{"at":"2026-11-13T08:01:12.840Z","event":"search","detail":"self-hosted: 8 hits (quota 21)","level":"info"}
+{"at":"2026-11-13T08:01:14.634Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aethereum%20stars%3A%3E1000%20pushed%3A%3E2026-07-16%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":20,"ms":593}
+{"at":"2026-11-13T08:01:14.635Z","event":"search","detail":"web3: 8 hits (quota 20)","level":"info"}
+{"at":"2026-11-13T08:01:15.837Z","event":"picked","detail":"argotorg/solidity (web3, ★25767) | reflex-dev/reflex (internet-toys, ★29019) | ayghri/i-have-adhd (productivity, ★61057)","level":"info"}
+{"at":"2026-11-13T08:01:16.132Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/argotorg/solidity","status":200,"remaining":4622,"ms":294}
+{"at":"2026-11-13T08:01:16.349Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/argotorg/solidity/readme","status":200,"remaining":4621,"ms":216}
+{"at":"2026-11-13T08:01:16.511Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/argotorg/solidity/stats/participation","status":200,"remaining":4620,"ms":161}
+{"at":"2026-11-13T08:01:16.636Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/argotorg/solidity/commits?per_page=1","status":200,"remaining":4619,"ms":284}
+{"at":"2026-11-13T08:01:16.638Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/argotorg/solidity/releases?per_page=5","status":200,"remaining":4619,"ms":288}
+{"at":"2026-11-13T08:01:16.638Z","event":"saved","detail":"solidity ★25767 GPL-3.0 README=2431 字","level":"info"}
+{"at":"2026-11-13T08:01:30.740Z","event":"shot","detail":"solidity -> /shots/solidity.jpg","level":"info"}
+{"at":"2026-11-13T08:01:30.756Z","event":"published","detail":"solidity (web3) ★25767","level":"info"}
+{"at":"2026-11-13T08:01:31.012Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/reflex-dev/reflex","status":200,"remaining":4617,"ms":256}
+{"at":"2026-11-13T08:01:31.217Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/reflex-dev/reflex/readme","status":200,"remaining":4616,"ms":205}
+{"at":"2026-11-13T08:01:31.365Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/reflex-dev/reflex/stats/participation","status":200,"remaining":4614,"ms":147}
+{"at":"2026-11-13T08:01:31.461Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/reflex-dev/reflex/commits?per_page=1","status":200,"remaining":4615,"ms":242}
+{"at":"2026-11-13T08:01:31.548Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/reflex-dev/reflex/releases?per_page=5","status":200,"remaining":4613,"ms":330}
+{"at":"2026-11-13T08:01:31.548Z","event":"saved","detail":"reflex ★29019 Apache-2.0 README=1358 字","level":"info"}
+{"at":"2026-11-13T08:01:36.290Z","event":"shot","detail":"reflex -> /shots/reflex.jpg","level":"info"}
+{"at":"2026-11-13T08:01:36.293Z","event":"published","detail":"reflex (internet-toys) ★29019","level":"info"}
+{"at":"2026-11-13T08:01:36.555Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ayghri/i-have-adhd","status":200,"remaining":4612,"ms":262}
+{"at":"2026-11-13T08:01:36.742Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ayghri/i-have-adhd/readme","status":200,"remaining":4611,"ms":187}
+{"at":"2026-11-13T08:01:36.981Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ayghri/i-have-adhd/commits?per_page=1","status":200,"remaining":4609,"ms":237}
+{"at":"2026-11-13T08:01:36.989Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ayghri/i-have-adhd/stats/participation","status":200,"remaining":4610,"ms":247}
+{"at":"2026-11-13T08:01:37.084Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ayghri/i-have-adhd/releases?per_page=5","status":200,"remaining":4608,"ms":341}
+{"at":"2026-11-13T08:01:37.084Z","event":"saved","detail":"i-have-adhd ★61057 MIT README=2086 字","level":"info"}
+{"at":"2026-11-13T08:01:42.087Z","event":"shot","detail":"i-have-adhd -> /shots/i-have-adhd.jpg","level":"info"}
+{"at":"2026-11-13T08:01:42.089Z","event":"published","detail":"i-have-adhd (productivity) ★61057","level":"info"}
+{"at":"2026-11-13T08:01:42.161Z","event":"rebuilt","detail":"[data:build] 78 个项目 → public/data/projects.json","level":"info"}
+{"at":"2026-11-13T08:01:42.161Z","event":"run_end","level":"info","detail":"{\"ranAt\":\"2026-11-13T08:00:58.815Z\",\"auth\":\"token\",\"searched\":10,\"picked\":[{\"repo\":\"argotorg/solidity\",\"category\":\"web3\"},{\"repo\":\"reflex-dev/reflex\",\"category\":\"internet-toys\"},{\"repo\":\"ayghri/i-have-adhd\",\"category\":\"productivity\"}],\"added\":[{\"slug\":\"solidity\",\"repo\":\"argotorg/solidity\",\"category\":\"web3\",\"stars\":25767,\"shot\":true},{\"slug\":\"reflex\",\"repo\":\"reflex-dev/reflex\",\"category\":\"internet-toys\",\"stars\":29019,\"shot\":true},{\"slug\":\"i-have-adhd\",\"repo\":\"ayghri/i-have-adhd\",\"category\":\"productivity\",\"stars\":61057,\"shot\":true}]}"}
