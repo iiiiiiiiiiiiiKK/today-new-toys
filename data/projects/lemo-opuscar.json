@@ -1,0 +1,76 @@
+{
+  "slug": "lemo-opuscar",
+  "name": "lemo-opuscar",
+  "tagline": "A toolbox of film styles made in code for Cla…",
+  "summary": "（自动整理，未经人工校对）lemo-opuscar 是一个用 JavaScript 写的开源项目。仓库自述「A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的」。已抓取 README 约 19,251 字；其中有「Lemo-Opuscar」「🆕 New」「How it works」「Update or uninstall」「What happens next」等章节可对应到具体能力。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+  "category": "creative",
+  "tags": [
+    "创意与设计",
+    "agent-skills",
+    "ai-agents",
+    "ai-short-film",
+    "JavaScript"
+  ],
+  "aliases": [
+    "lemomo-ai/lemo-opuscar"
+  ],
+  "audience": "开发者",
+  "audienceFor": [
+    "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+    "愿意自己读 README 确认细节的开发者"
+  ],
+  "features": [
+    {
+      "title": "New",
+      "detail": "（自动整理）README 中有「🆕 New」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "How it works",
+      "detail": "（自动整理）README 中有「How it works」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Update or uninstall",
+      "detail": "（自动整理）README 中有「Update or uninstall」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "What happens next",
+      "detail": "（自动整理）README 中有「What happens next」章节，此处只标注来源，未展开复述。"
+    }
+  ],
+  "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 19251 字，抓取于 2026-11-14）汇总；未经人工校对，页面上已标注「自动收录」。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "门槛未评估：请以 README 的安装说明为准",
+    "requires": [],
+    "steps": [
+      {
+        "title": "阅读安装章节",
+        "detail": "（自动整理）README 未提供可识别的安装命令。"
+      }
+    ],
+    "cost": "费用未知"
+  },
+  "officialUrl": "https://lemomo-ai.github.io/lemo-opuscar/",
+  "demoUrl": null,
+  "linkStatus": "unchecked",
+  "linkCheckedAt": null,
+  "featured": false,
+  "screenshots": [
+    {
+      "src": "/shots/lemo-opuscar.jpg",
+      "alt": "lemo-opuscar 的官方站点截图",
+      "origin": "live",
+      "capturedAt": "2026-11-14T07:38:13.839Z",
+      "credit": "页面截图：https://lemomo-ai.github.io/lemo-opuscar/",
+      "synthetic": false
+    }
+  ],
+  "addedAt": "2026-11-14",
+  "review": {
+    "status": "published",
+    "mode": "auto",
+    "reviewedBy": "autopipeline",
+    "reviewedAt": "2026-11-14",
+    "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+  }
+}

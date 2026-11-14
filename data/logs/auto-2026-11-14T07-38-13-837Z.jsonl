@@ -1,0 +1,49 @@
+{"at":"2026-11-14T07:38:13.837Z","event":"run_start","name":"auto","startedAt":"2026-11-14T07:38:13.837Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-11-14T07:38:13.845Z","event":"existing","detail":"catalogue has 78 projects","level":"info"}
+{"at":"2026-11-14T07:38:14.279Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Allm%20stars%3A%3E3000%20pushed%3A%3E2026-07-17%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":29,"ms":434}
+{"at":"2026-11-14T07:38:14.279Z","event":"search","detail":"ai-tools: 8 hits (quota 29)","level":"info"}
+{"at":"2026-11-14T07:38:15.886Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adeveloper-tools%20stars%3A%3E2000%20pushed%3A%3E2026-07-17%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":28,"ms":406}
+{"at":"2026-11-14T07:38:15.886Z","event":"search","detail":"dev-tools: 8 hits (quota 28)","level":"info"}
+{"at":"2026-11-14T07:38:17.489Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aproductivity%20stars%3A%3E1500%20pushed%3A%3E2026-07-17%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":27,"ms":403}
+{"at":"2026-11-14T07:38:17.489Z","event":"search","detail":"productivity: 8 hits (quota 27)","level":"info"}
+{"at":"2026-11-14T07:38:19.142Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adata-visualization%20stars%3A%3E800%20pushed%3A%3E2026-07-17%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":26,"ms":453}
+{"at":"2026-11-14T07:38:19.142Z","event":"search","detail":"data-viz: 8 hits (quota 26)","level":"info"}
+{"at":"2026-11-14T07:38:20.848Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Acreative-coding%20stars%3A%3E800%20pushed%3A%3E2026-07-17%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":25,"ms":506}
+{"at":"2026-11-14T07:38:20.849Z","event":"search","detail":"creative: 8 hits (quota 25)","level":"info"}
+{"at":"2026-11-14T07:38:22.414Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Atutorial%20stars%3A%3E3000%20pushed%3A%3E2026-07-17%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":24,"ms":365}
+{"at":"2026-11-14T07:38:22.414Z","event":"search","detail":"learning: 8 hits (quota 24)","level":"info"}
+{"at":"2026-11-14T07:38:24.041Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Afirmware%20stars%3A%3E1000%20pushed%3A%3E2026-07-17%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":23,"ms":426}
+{"at":"2026-11-14T07:38:24.042Z","event":"search","detail":"hardware: 8 hits (quota 23)","level":"info"}
+{"at":"2026-11-14T07:38:25.639Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Awebapp%20stars%3A%3E1500%20pushed%3A%3E2026-07-17%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":22,"ms":397}
+{"at":"2026-11-14T07:38:25.639Z","event":"search","detail":"internet-toys: 8 hits (quota 22)","level":"info"}
+{"at":"2026-11-14T07:38:27.199Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aself-hosted%20stars%3A%3E2000%20pushed%3A%3E2026-07-17%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":21,"ms":360}
+{"at":"2026-11-14T07:38:27.199Z","event":"search","detail":"self-hosted: 8 hits (quota 21)","level":"info"}
+{"at":"2026-11-14T07:38:28.800Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aethereum%20stars%3A%3E1000%20pushed%3A%3E2026-07-17%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":20,"ms":400}
+{"at":"2026-11-14T07:38:28.800Z","event":"search","detail":"web3: 8 hits (quota 20)","level":"info"}
+{"at":"2026-11-14T07:38:30.003Z","event":"picked","detail":"m3y54m/Embedded-Engineering-Roadmap (hardware, ★13891) | louislam/dockge (internet-toys, ★24820) | lemomo-ai/lemo-opuscar (creative, ★15806)","level":"info"}
+{"at":"2026-11-14T07:38:30.231Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/m3y54m/Embedded-Engineering-Roadmap","status":200,"remaining":4607,"ms":228}
+{"at":"2026-11-14T07:38:30.447Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/m3y54m/Embedded-Engineering-Roadmap/readme","status":200,"remaining":4606,"ms":216}
+{"at":"2026-11-14T07:38:30.675Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/m3y54m/Embedded-Engineering-Roadmap/stats/participation","status":200,"remaining":4605,"ms":224}
+{"at":"2026-11-14T07:38:30.750Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/m3y54m/Embedded-Engineering-Roadmap/commits?per_page=1","status":200,"remaining":4603,"ms":297}
+{"at":"2026-11-14T07:38:30.783Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/m3y54m/Embedded-Engineering-Roadmap/releases?per_page=5","status":200,"remaining":4604,"ms":331}
+{"at":"2026-11-14T07:38:30.784Z","event":"saved","detail":"embedded-engineering-roadmap ★13891 CC-BY-SA-4.0 README=83823 字","level":"info"}
+{"at":"2026-11-14T07:38:51.092Z","event":"shot","detail":"embedded-engineering-roadmap -> /shots/embedded-engineering-roadmap.jpg","level":"info"}
+{"at":"2026-11-14T07:38:51.105Z","event":"published","detail":"embedded-engineering-roadmap (hardware) ★13891","level":"info"}
+{"at":"2026-11-14T07:38:51.373Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/louislam/dockge","status":200,"remaining":4602,"ms":268}
+{"at":"2026-11-14T07:38:51.534Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/louislam/dockge/readme","status":200,"remaining":4601,"ms":161}
+{"at":"2026-11-14T07:38:51.693Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/louislam/dockge/stats/participation","status":200,"remaining":4600,"ms":158}
+{"at":"2026-11-14T07:38:51.789Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/louislam/dockge/commits?per_page=1","status":200,"remaining":4598,"ms":252}
+{"at":"2026-11-14T07:38:51.792Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/louislam/dockge/releases?per_page=5","status":200,"remaining":4599,"ms":257}
+{"at":"2026-11-14T07:38:51.792Z","event":"saved","detail":"dockge ★24820 MIT README=4333 字","level":"info"}
+{"at":"2026-11-14T07:38:56.302Z","event":"shot","detail":"dockge -> /shots/dockge.jpg","level":"info"}
+{"at":"2026-11-14T07:38:56.303Z","event":"published","detail":"dockge (internet-toys) ★24820","level":"info"}
+{"at":"2026-11-14T07:38:56.547Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/lemomo-ai/lemo-opuscar","status":200,"remaining":4597,"ms":243}
+{"at":"2026-11-14T07:38:56.772Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/lemomo-ai/lemo-opuscar/readme","status":200,"remaining":4596,"ms":225}
+{"at":"2026-11-14T07:38:56.952Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/lemomo-ai/lemo-opuscar/stats/participation","status":200,"remaining":4595,"ms":179}
+{"at":"2026-11-14T07:38:57.008Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/lemomo-ai/lemo-opuscar/commits?per_page=1","status":200,"remaining":4594,"ms":233}
+{"at":"2026-11-14T07:38:57.166Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases?per_page=5","status":200,"remaining":4593,"ms":392}
+{"at":"2026-11-14T07:38:57.167Z","event":"saved","detail":"lemo-opuscar ★15805 无 SPDX 许可证 README=19251 字","level":"info"}
+{"at":"2026-11-14T07:39:01.297Z","event":"shot","detail":"lemo-opuscar -> /shots/lemo-opuscar.jpg","level":"info"}
+{"at":"2026-11-14T07:39:01.298Z","event":"published","detail":"lemo-opuscar (creative) ★15806","level":"info"}
+{"at":"2026-11-14T07:39:01.352Z","event":"rebuilt","detail":"[data:build] 81 个项目 → public/data/projects.json","level":"info"}
+{"at":"2026-11-14T07:39:01.352Z","event":"run_end","level":"info","detail":"{\"ranAt\":\"2026-11-14T07:38:13.839Z\",\"auth\":\"token\",\"searched\":10,\"picked\":[{\"repo\":\"m3y54m/Embedded-Engineering-Roadmap\",\"category\":\"hardware\"},{\"repo\":\"louislam/dockge\",\"category\":\"internet-toys\"},{\"repo\":\"lemomo-ai/lemo-opuscar\",\"category\":\"creative\"}],\"added\":[{\"slug\":\"embedded-engineering-roadmap\",\"repo\":\"m3y54m/Embedded-Engineering-Roadmap\",\"category\":\"hardware\",\"stars\":13891,\"shot\":true},{\"slug\":\"dockge\",\"repo\":\"louislam/dockge\",\"category\":\"internet-toys\",\"stars\":24820,\"shot\":true},{\"slug\":\"lemo-opuscar\",\"repo\":\"lemomo-ai/lemo-opuscar\",\"category\":\"creative\",\"stars\":15806,\"shot\":true}]}"}

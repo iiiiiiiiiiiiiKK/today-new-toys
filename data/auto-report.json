@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-11-13T08:00:58.815Z",
+  "ranAt": "2026-11-14T07:38:13.839Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "argotorg/solidity",
-      "category": "web3"
+      "repo": "m3y54m/Embedded-Engineering-Roadmap",
+      "category": "hardware"
     },
     {
-      "repo": "reflex-dev/reflex",
+      "repo": "louislam/dockge",
       "category": "internet-toys"
     },
     {
-      "repo": "ayghri/i-have-adhd",
-      "category": "productivity"
+      "repo": "lemomo-ai/lemo-opuscar",
+      "category": "creative"
     }
   ],
   "added": [
     {
-      "slug": "solidity",
-      "repo": "argotorg/solidity",
-      "category": "web3",
-      "stars": 25767,
+      "slug": "embedded-engineering-roadmap",
+      "repo": "m3y54m/Embedded-Engineering-Roadmap",
+      "category": "hardware",
+      "stars": 13891,
       "shot": true
     },
     {
-      "slug": "reflex",
-      "repo": "reflex-dev/reflex",
+      "slug": "dockge",
+      "repo": "louislam/dockge",
       "category": "internet-toys",
-      "stars": 29019,
+      "stars": 24820,
       "shot": true
     },
     {
-      "slug": "i-have-adhd",
-      "repo": "ayghri/i-have-adhd",
-      "category": "productivity",
-      "stars": 61057,
+      "slug": "lemo-opuscar",
+      "repo": "lemomo-ai/lemo-opuscar",
+      "category": "creative",
+      "stars": 15806,
       "shot": true
     }
   ]

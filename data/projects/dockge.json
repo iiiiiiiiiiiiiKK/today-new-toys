@@ -1,0 +1,84 @@
+{
+  "slug": "dockge",
+  "name": "dockge",
+  "tagline": "互联网玩具 · A fancy, easy-to-use and reactive self-hosted…",
+  "summary": "（自动整理，未经人工校对）dockge 是一个用 TypeScript 写的开源项目。仓库自述「A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager」。已抓取 README 约 4,333 字；其中有「Dockge」「🔧 How to Install」「Basic」「Download the compose.yaml」「Start the server」等章节可对应到具体能力。仓库 Topics 涉及：Docker、自托管。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+  "category": "internet-toys",
+  "tags": [
+    "Docker",
+    "自托管",
+    "互联网玩具",
+    "MIT",
+    "TypeScript"
+  ],
+  "aliases": [
+    "louislam/dockge"
+  ],
+  "audience": "开发者",
+  "audienceFor": [
+    "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+    "愿意自己读 README 确认细节的开发者"
+  ],
+  "features": [
+    {
+      "title": "How to Install",
+      "detail": "（自动整理）README 中有「🔧 How to Install」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Basic",
+      "detail": "（自动整理）README 中有「Basic」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Download the compose.yam",
+      "detail": "（自动整理）README 中有「Download the compose.yaml」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Start the server",
+      "detail": "（自动整理）README 中有「Start the server」章节，此处只标注来源，未展开复述。"
+    }
+  ],
+  "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 4333 字，抓取于 2026-11-14）汇总；未经人工校对，页面上已标注「自动收录」。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "门槛未评估：请以 README 的安装说明为准",
+    "requires": [],
+    "steps": [
+      {
+        "title": "安装 / 运行",
+        "detail": "README 中给出的命令：curl https://raw.githubusercontent.com/louislam/dockge/master/compose.yaml --output compose.yaml"
+      },
+      {
+        "title": "第 2 步",
+        "detail": "README 中给出的命令：docker compose up -d"
+      },
+      {
+        "title": "第 3 步",
+        "detail": "README 中给出的命令：curl \"https://dockge.kuma.pet/compose.yaml?port=5001&stacksPath=/opt/stacks\" --output compose.yaml"
+      }
+    ],
+    "cost": "开源免费（以仓库许可证为准）"
+  },
+  "officialUrl": "https://dockge.kuma.pet",
+  "demoUrl": null,
+  "linkStatus": "unchecked",
+  "linkCheckedAt": null,
+  "featured": false,
+  "screenshots": [
+    {
+      "src": "/shots/dockge.jpg",
+      "alt": "dockge 的官方站点截图",
+      "origin": "live",
+      "capturedAt": "2026-11-14T07:38:13.839Z",
+      "credit": "页面截图：https://dockge.kuma.pet",
+      "synthetic": false
+    }
+  ],
+  "addedAt": "2026-11-14",
+  "review": {
+    "status": "published",
+    "mode": "auto",
+    "reviewedBy": "autopipeline",
+    "reviewedAt": "2026-11-14",
+    "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+  }
+}

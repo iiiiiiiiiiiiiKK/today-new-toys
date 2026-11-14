@@ -666,5 +666,29 @@
     "title": "i-have-adhd",
     "capturedAt": "2026-11-13T08:01:42.087Z",
     "auto": true
+  },
+  "embedded-engineering-roadmap": {
+    "src": "/shots/embedded-engineering-roadmap.jpg",
+    "captureUrl": "https://m3y54m.github.io/Embedded-Engineering-Roadmap/",
+    "origin": "live",
+    "title": "Embedded-Engineering-Roadmap",
+    "capturedAt": "2026-11-14T07:38:51.092Z",
+    "auto": true
+  },
+  "dockge": {
+    "src": "/shots/dockge.jpg",
+    "captureUrl": "https://dockge.kuma.pet",
+    "origin": "live",
+    "title": "dockge",
+    "capturedAt": "2026-11-14T07:38:56.302Z",
+    "auto": true
+  },
+  "lemo-opuscar": {
+    "src": "/shots/lemo-opuscar.jpg",
+    "captureUrl": "https://lemomo-ai.github.io/lemo-opuscar/",
+    "origin": "live",
+    "title": "lemo-opuscar",
+    "capturedAt": "2026-11-14T07:39:01.297Z",
+    "auto": true
   }
 }
