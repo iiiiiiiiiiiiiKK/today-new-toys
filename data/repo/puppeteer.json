@@ -1,7 +1,7 @@
 {
   "slug": "puppeteer",
   "repoInput": "puppeteer/puppeteer",
-  "fetchedAt": "2026-11-14T07:37:57.383Z",
+  "fetchedAt": "2026-11-15T07:54:03.524Z",
   "github": {
     "owner": "puppeteer",
     "name": "puppeteer",
@@ -9,9 +9,9 @@
     "url": "https://github.com/puppeteer/puppeteer",
     "homepage": "https://pptr.dev",
     "description": "JavaScript API for Chrome and Firefox",
-    "stars": 95835,
-    "forks": 9604,
-    "openIssues": 206,
+    "stars": 95841,
+    "forks": 9605,
+    "openIssues": 211,
     "language": "TypeScript",
     "topics": [
       "automation",
@@ -30,9 +30,9 @@
       "url": null
     },
     "createdAt": "2017-05-09T22:16:13Z",
-    "pushedAt": "2026-11-13T14:46:13Z",
+    "pushedAt": "2026-11-15T03:04:23Z",
     "archived": false,
-    "fetchedAt": "2026-11-14T07:37:57.383Z",
+    "fetchedAt": "2026-11-15T07:54:03.524Z",
     "source": "api",
     "warnings": []
   },
@@ -47,10 +47,10 @@
       0,
       2,
       9,
-      13,
-      20,
-      20,
-      27,
+      14,
+      19,
+      22,
+      25,
       14,
       16,
       10,
@@ -65,12 +65,12 @@
       14,
       12,
       45,
-      27,
-      22,
+      31,
+      18,
       8,
       13,
-      7,
-      19,
+      13,
+      13,
       18,
       9,
       9,
@@ -87,15 +87,15 @@
       23,
       22,
       19,
-      49,
-      27,
-      30,
-      33
+      51,
+      25,
+      31,
+      32
     ],
     "commits52w": 881,
     "commits4w": 139,
-    "commits1w": 33,
-    "fetchedAt": "2026-11-14T07:37:57.712Z"
+    "commits1w": 32,
+    "fetchedAt": "2026-11-15T07:54:03.915Z"
   },
   "releases": [
     {

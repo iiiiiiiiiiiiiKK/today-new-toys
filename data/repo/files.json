@@ -1,7 +1,7 @@
 {
   "slug": "files",
   "repoInput": "files-community/Files",
-  "fetchedAt": "2026-11-14T07:37:31.127Z",
+  "fetchedAt": "2026-11-15T07:53:31.736Z",
   "github": {
     "owner": "files-community",
     "name": "Files",
@@ -9,9 +9,9 @@
     "url": "https://github.com/files-community/Files",
     "homepage": "https://files.community",
     "description": "A modern file manager that helps users organize their files and folders.",
-    "stars": 46640,
-    "forks": 3029,
-    "openIssues": 444,
+    "stars": 46655,
+    "forks": 3034,
+    "openIssues": 446,
     "language": "C#",
     "topics": [
       "alternatives",
@@ -43,7 +43,7 @@
     "createdAt": "2019-01-04T18:19:14Z",
     "pushedAt": "2026-11-13T04:24:39Z",
     "archived": false,
-    "fetchedAt": "2026-11-14T07:37:31.127Z",
+    "fetchedAt": "2026-11-15T07:53:31.736Z",
     "source": "api",
     "warnings": []
   },
@@ -54,8 +54,8 @@
       7,
       2,
       3,
-      8,
-      8,
+      9,
+      7,
       2,
       5,
       14,
@@ -106,7 +106,7 @@
     "commits52w": 670,
     "commits4w": 43,
     "commits1w": 16,
-    "fetchedAt": "2026-11-14T07:37:31.456Z"
+    "fetchedAt": "2026-11-15T07:53:32.260Z"
   },
   "releases": [
     {

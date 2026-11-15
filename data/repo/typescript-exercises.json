@@ -1,7 +1,7 @@
 {
   "slug": "typescript-exercises",
   "repoInput": "typescript-exercises/typescript-exercises",
-  "fetchedAt": "2026-11-14T07:38:09.304Z",
+  "fetchedAt": "2026-11-15T07:54:16.646Z",
   "github": {
     "owner": "typescript-exercises",
     "name": "typescript-exercises",
@@ -9,7 +9,7 @@
     "url": "https://github.com/typescript-exercises/typescript-exercises",
     "homepage": "https://typescript-exercises.github.io",
     "description": "A set of interactive TypeScript exercises",
-    "stars": 3010,
+    "stars": 3009,
     "forks": 487,
     "openIssues": 22,
     "language": "TypeScript",
@@ -22,7 +22,7 @@
     "createdAt": "2020-04-29T14:47:59Z",
     "pushedAt": "2026-03-29T12:34:31Z",
     "archived": false,
-    "fetchedAt": "2026-11-14T07:38:09.304Z",
+    "fetchedAt": "2026-11-15T07:54:16.646Z",
     "source": "api",
     "warnings": []
   },
@@ -85,7 +85,7 @@
     "commits52w": 2,
     "commits4w": 0,
     "commits1w": 0,
-    "fetchedAt": "2026-11-14T07:38:10.068Z"
+    "fetchedAt": "2026-11-15T07:54:17.184Z"
   },
   "releases": [],
   "commitTotal": 181,

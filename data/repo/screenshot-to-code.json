@@ -1,7 +1,7 @@
 {
   "slug": "screenshot-to-code",
   "repoInput": "abi/screenshot-to-code",
-  "fetchedAt": "2026-11-14T07:38:02.843Z",
+  "fetchedAt": "2026-11-15T07:54:10.038Z",
   "github": {
     "owner": "abi",
     "name": "screenshot-to-code",
@@ -9,8 +9,8 @@
     "url": "https://github.com/abi/screenshot-to-code",
     "homepage": "https://screenshottocode.com",
     "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
-    "stars": 81202,
-    "forks": 9947,
+    "stars": 81214,
+    "forks": 9951,
     "openIssues": 149,
     "language": "Python",
     "topics": [],
@@ -20,9 +20,9 @@
       "url": null
     },
     "createdAt": "2023-11-14T17:53:32Z",
-    "pushedAt": "2026-11-05T18:29:51Z",
+    "pushedAt": "2026-11-14T17:14:49Z",
     "archived": false,
-    "fetchedAt": "2026-11-14T07:38:02.843Z",
+    "fetchedAt": "2026-11-15T07:54:10.038Z",
     "source": "api",
     "warnings": []
   },
@@ -42,10 +42,10 @@
       66,
       45,
       58,
-      83,
-      48,
-      13,
-      25,
+      87,
+      44,
+      19,
+      19,
       0,
       0,
       0,
@@ -56,14 +56,14 @@
       5,
       4,
       0,
+      16,
+      18,
       15,
-      19,
-      15,
-      39,
-      6,
+      40,
+      5,
       3,
-      1,
-      7,
+      3,
+      5,
       45,
       5,
       0,
@@ -80,19 +80,19 @@
       0,
       0,
       0,
-      0
+      3
     ],
-    "commits52w": 557,
-    "commits4w": 0,
-    "commits1w": 0,
-    "fetchedAt": "2026-11-14T07:38:03.195Z"
+    "commits52w": 560,
+    "commits4w": 3,
+    "commits1w": 3,
+    "fetchedAt": "2026-11-15T07:54:10.498Z"
   },
   "releases": [],
-  "commitTotal": 1457,
+  "commitTotal": 1460,
   "readme": {
     "path": "README.md",
     "via": "api",
-    "chars": 5729,
+    "chars": 5753,
     "headings": [
       "screenshot-to-code",
       "🛠 Getting Started",
@@ -105,7 +105,7 @@
       "🙋‍♂️ FAQs",
       "📚 Examples"
     ],
-    "excerpt": "screenshot-to-code Convert screenshots, mockups, Figma designs, and screen recordings into clean, functional code using AI. The easiest way to try this is using the official, hosted product at screenshottocode.com → https://github.com/user-attachments/assets/ec08a5e6-9606-41c5-b03a-1bf47dfeba75 Supported stacks: - HTML + Tailwind - HTML + CSS - React + Tailwind - Vue + Tailwind - Bootstrap - Ionic + Tailwind Default AI models: - Gemini 3 Flash Preview and Gemini 3.1 Pro Preview - the best models - GPT-5.5 and GPT-5.4 Mini - Claude Opus 4.6, Claude Opus 4.8 - z-image-turbo (using Replicate) for image generation See the Examples section below for more demos. Screenshot to Code also supports taking a screen recording of a website in action and turning that into a functional prototype. 🛠 Getting Started Choose the path that fits what you want to do: - Run locally: best if you want to customize, self-host, or contribute. - Use the hosted app: the fastest way to try Screenshot to Code with no local setup. Open the hosted app → Running locally requires API keys and a backend/frontend setup. The app has a React/Vite frontend and a FastAPI backend. API keys You need at least one model provider key (OpenAI, Anthropic, or Gemini). Gemini and Replicate are strongly recommended for the best quality of screenshot-to-code accuracy — Gemini powers asset extraction (reusing the real logos/imag",
+    "excerpt": "screenshot-to-code Convert screenshots, mockups, Figma designs, and screen recordings into clean, functional code using AI. The easiest way to try this is using the hosted version at screenshottocode.com, independently run by evolvAI US LLC. https://github.com/user-attachments/assets/ec08a5e6-9606-41c5-b03a-1bf47dfeba75 Supported stacks: - HTML + Tailwind - HTML + CSS - React + Tailwind - Vue + Tailwind - Bootstrap - Ionic + Tailwind Default AI models: - Gemini 3 Flash Preview and Gemini 3.1 Pro Preview - the best models - GPT-5.5 and GPT-5.4 Mini - Claude Opus 4.6, Claude Opus 4.8 - z-image-turbo (using Replicate) for image generation See the Examples section below for more demos. Screenshot to Code also supports taking a screen recording of a website in action and turning that into a functional prototype. 🛠 Getting Started Choose the path that fits what you want to do: - Run locally: best if you want to customize, self-host, or contribute. - Use the hosted app: the fastest way to try Screenshot to Code with no local setup. Open the hosted app → Running locally requires API keys and a backend/frontend setup. The app has a React/Vite frontend and a FastAPI backend. API keys You need at least one model provider key (OpenAI, Anthropic, or Gemini). Gemini and Replicate are strongly recommended for the best quality of screenshot-to-code accuracy — Gemini powers asset extraction (r",
     "truncated": true,
     "rawFile": "data/readme/screenshot-to-code.md"
   }

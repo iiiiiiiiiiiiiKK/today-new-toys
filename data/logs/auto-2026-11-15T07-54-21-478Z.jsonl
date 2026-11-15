@@ -1,0 +1,49 @@
+{"at":"2026-11-15T07:54:21.478Z","event":"run_start","name":"auto","startedAt":"2026-11-15T07:54:21.478Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-11-15T07:54:21.488Z","event":"existing","detail":"catalogue has 81 projects","level":"info"}
+{"at":"2026-11-15T07:54:22.052Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Allm%20stars%3A%3E3000%20pushed%3A%3E2026-07-18%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":29,"ms":564}
+{"at":"2026-11-15T07:54:22.052Z","event":"search","detail":"ai-tools: 8 hits (quota 29)","level":"info"}
+{"at":"2026-11-15T07:54:23.681Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adeveloper-tools%20stars%3A%3E2000%20pushed%3A%3E2026-07-18%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":28,"ms":428}
+{"at":"2026-11-15T07:54:23.681Z","event":"search","detail":"dev-tools: 8 hits (quota 28)","level":"info"}
+{"at":"2026-11-15T07:54:25.363Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aproductivity%20stars%3A%3E1500%20pushed%3A%3E2026-07-18%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":27,"ms":481}
+{"at":"2026-11-15T07:54:25.363Z","event":"search","detail":"productivity: 8 hits (quota 27)","level":"info"}
+{"at":"2026-11-15T07:54:27.012Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adata-visualization%20stars%3A%3E800%20pushed%3A%3E2026-07-18%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":26,"ms":448}
+{"at":"2026-11-15T07:54:27.012Z","event":"search","detail":"data-viz: 8 hits (quota 26)","level":"info"}
+{"at":"2026-11-15T07:54:28.666Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Acreative-coding%20stars%3A%3E800%20pushed%3A%3E2026-07-18%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":25,"ms":452}
+{"at":"2026-11-15T07:54:28.666Z","event":"search","detail":"creative: 8 hits (quota 25)","level":"info"}
+{"at":"2026-11-15T07:54:30.227Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Atutorial%20stars%3A%3E3000%20pushed%3A%3E2026-07-18%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":24,"ms":360}
+{"at":"2026-11-15T07:54:30.227Z","event":"search","detail":"learning: 8 hits (quota 24)","level":"info"}
+{"at":"2026-11-15T07:54:31.822Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Afirmware%20stars%3A%3E1000%20pushed%3A%3E2026-07-18%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":23,"ms":394}
+{"at":"2026-11-15T07:54:31.822Z","event":"search","detail":"hardware: 8 hits (quota 23)","level":"info"}
+{"at":"2026-11-15T07:54:33.437Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Awebapp%20stars%3A%3E1500%20pushed%3A%3E2026-07-18%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":22,"ms":414}
+{"at":"2026-11-15T07:54:33.437Z","event":"search","detail":"internet-toys: 8 hits (quota 22)","level":"info"}
+{"at":"2026-11-15T07:54:35.055Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aself-hosted%20stars%3A%3E2000%20pushed%3A%3E2026-07-18%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":21,"ms":417}
+{"at":"2026-11-15T07:54:35.056Z","event":"search","detail":"self-hosted: 8 hits (quota 21)","level":"info"}
+{"at":"2026-11-15T07:54:36.723Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aethereum%20stars%3A%3E1000%20pushed%3A%3E2026-07-18%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":20,"ms":467}
+{"at":"2026-11-15T07:54:36.723Z","event":"search","detail":"web3: 8 hits (quota 20)","level":"info"}
+{"at":"2026-11-15T07:54:37.925Z","event":"picked","detail":"DarkFlippers/unleashed-firmware (hardware, ★22743) | zauberzeug/nicegui (internet-toys, ★16336) | ethereumbook/ethereumbook (web3, ★21543)","level":"info"}
+{"at":"2026-11-15T07:54:38.193Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DarkFlippers/unleashed-firmware","status":200,"remaining":4592,"ms":267}
+{"at":"2026-11-15T07:54:38.403Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DarkFlippers/unleashed-firmware/readme","status":200,"remaining":4591,"ms":210}
+{"at":"2026-11-15T07:54:38.595Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DarkFlippers/unleashed-firmware/stats/participation","status":200,"remaining":4590,"ms":192}
+{"at":"2026-11-15T07:54:38.780Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DarkFlippers/unleashed-firmware/commits?per_page=1","status":200,"remaining":4589,"ms":375}
+{"at":"2026-11-15T07:54:38.898Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DarkFlippers/unleashed-firmware/releases?per_page=5","status":200,"remaining":4588,"ms":494}
+{"at":"2026-11-15T07:54:38.898Z","event":"saved","detail":"unleashed-firmware ★22743 GPL-3.0 README=18477 字","level":"info"}
+{"at":"2026-11-15T07:54:52.507Z","event":"shot","detail":"unleashed-firmware -> /shots/unleashed-firmware.jpg","level":"info"}
+{"at":"2026-11-15T07:54:52.521Z","event":"published","detail":"unleashed-firmware (hardware) ★22743","level":"info"}
+{"at":"2026-11-15T07:54:52.882Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/zauberzeug/nicegui","status":200,"remaining":4587,"ms":361}
+{"at":"2026-11-15T07:54:53.113Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/zauberzeug/nicegui/readme","status":200,"remaining":4586,"ms":231}
+{"at":"2026-11-15T07:54:53.301Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/zauberzeug/nicegui/stats/participation","status":200,"remaining":4585,"ms":187}
+{"at":"2026-11-15T07:54:53.506Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/zauberzeug/nicegui/commits?per_page=1","status":200,"remaining":4584,"ms":391}
+{"at":"2026-11-15T07:54:53.585Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/zauberzeug/nicegui/releases?per_page=5","status":200,"remaining":4583,"ms":471}
+{"at":"2026-11-15T07:54:53.586Z","event":"saved","detail":"nicegui ★16336 MIT README=4657 字","level":"info"}
+{"at":"2026-11-15T07:54:58.131Z","event":"shot","detail":"nicegui -> /shots/nicegui.jpg","level":"info"}
+{"at":"2026-11-15T07:54:58.131Z","event":"published","detail":"nicegui (internet-toys) ★16336","level":"info"}
+{"at":"2026-11-15T07:54:58.547Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ethereumbook/ethereumbook","status":200,"remaining":4582,"ms":415}
+{"at":"2026-11-15T07:54:58.786Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ethereumbook/ethereumbook/readme","status":200,"remaining":4581,"ms":239}
+{"at":"2026-11-15T07:54:59.004Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ethereumbook/ethereumbook/stats/participation","status":200,"remaining":4580,"ms":218}
+{"at":"2026-11-15T07:54:59.168Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ethereumbook/ethereumbook/commits?per_page=1","status":200,"remaining":4578,"ms":380}
+{"at":"2026-11-15T07:54:59.317Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ethereumbook/ethereumbook/releases?per_page=5","status":200,"remaining":4579,"ms":530}
+{"at":"2026-11-15T07:54:59.318Z","event":"saved","detail":"ethereumbook ★21543 无 SPDX 许可证 README=860 字","level":"info"}
+{"at":"2026-11-15T07:55:04.176Z","event":"shot","detail":"ethereumbook -> /shots/ethereumbook.jpg","level":"info"}
+{"at":"2026-11-15T07:55:04.178Z","event":"published","detail":"ethereumbook (web3) ★21543","level":"info"}
+{"at":"2026-11-15T07:55:04.237Z","event":"rebuilt","detail":"[data:build] 84 个项目 → public/data/projects.json","level":"info"}
+{"at":"2026-11-15T07:55:04.238Z","event":"run_end","level":"info","detail":"{\"ranAt\":\"2026-11-15T07:54:21.480Z\",\"auth\":\"token\",\"searched\":10,\"picked\":[{\"repo\":\"DarkFlippers/unleashed-firmware\",\"category\":\"hardware\"},{\"repo\":\"zauberzeug/nicegui\",\"category\":\"internet-toys\"},{\"repo\":\"ethereumbook/ethereumbook\",\"category\":\"web3\"}],\"added\":[{\"slug\":\"unleashed-firmware\",\"repo\":\"DarkFlippers/unleashed-firmware\",\"category\":\"hardware\",\"stars\":22743,\"shot\":true},{\"slug\":\"nicegui\",\"repo\":\"zauberzeug/nicegui\",\"category\":\"internet-toys\",\"stars\":16336,\"shot\":true},{\"slug\":\"ethereumbook\",\"repo\":\"ethereumbook/ethereumbook\",\"category\":\"web3\",\"stars\":21543,\"shot\":true}]}"}

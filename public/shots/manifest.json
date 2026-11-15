@@ -690,5 +690,29 @@
     "title": "lemo-opuscar",
     "capturedAt": "2026-11-14T07:39:01.297Z",
     "auto": true
+  },
+  "unleashed-firmware": {
+    "src": "/shots/unleashed-firmware.jpg",
+    "captureUrl": "https://flipperunleashed.com",
+    "origin": "live",
+    "title": "unleashed-firmware",
+    "capturedAt": "2026-11-15T07:54:52.507Z",
+    "auto": true
+  },
+  "nicegui": {
+    "src": "/shots/nicegui.jpg",
+    "captureUrl": "https://nicegui.io",
+    "origin": "live",
+    "title": "nicegui",
+    "capturedAt": "2026-11-15T07:54:58.130Z",
+    "auto": true
+  },
+  "ethereumbook": {
+    "src": "/shots/ethereumbook.jpg",
+    "captureUrl": "https://masteringethereum.xyz/",
+    "origin": "live",
+    "title": "ethereumbook",
+    "capturedAt": "2026-11-15T07:55:04.176Z",
+    "auto": true
   }
 }

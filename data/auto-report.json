@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-11-14T07:38:13.839Z",
+  "ranAt": "2026-11-15T07:54:21.480Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "m3y54m/Embedded-Engineering-Roadmap",
+      "repo": "DarkFlippers/unleashed-firmware",
       "category": "hardware"
     },
     {
-      "repo": "louislam/dockge",
+      "repo": "zauberzeug/nicegui",
       "category": "internet-toys"
     },
     {
-      "repo": "lemomo-ai/lemo-opuscar",
-      "category": "creative"
+      "repo": "ethereumbook/ethereumbook",
+      "category": "web3"
     }
   ],
   "added": [
     {
-      "slug": "embedded-engineering-roadmap",
-      "repo": "m3y54m/Embedded-Engineering-Roadmap",
+      "slug": "unleashed-firmware",
+      "repo": "DarkFlippers/unleashed-firmware",
       "category": "hardware",
-      "stars": 13891,
+      "stars": 22743,
       "shot": true
     },
     {
-      "slug": "dockge",
-      "repo": "louislam/dockge",
+      "slug": "nicegui",
+      "repo": "zauberzeug/nicegui",
       "category": "internet-toys",
-      "stars": 24820,
+      "stars": 16336,
       "shot": true
     },
     {
-      "slug": "lemo-opuscar",
-      "repo": "lemomo-ai/lemo-opuscar",
-      "category": "creative",
-      "stars": 15806,
+      "slug": "ethereumbook",
+      "repo": "ethereumbook/ethereumbook",
+      "category": "web3",
+      "stars": 21543,
       "shot": true
     }
   ]

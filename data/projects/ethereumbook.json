@@ -1,0 +1,72 @@
+{
+  "slug": "ethereumbook",
+  "name": "ethereumbook",
+  "tagline": "加密与 Web3 · Mastering Ethereum: 2nd Edition, by Andreas M…",
+  "summary": "（自动整理，未经人工校对）ethereumbook 是一个开源项目（主要语言未取到）。仓库自述「Mastering Ethereum: 2nd Edition, by Andreas M. Antonopoulos, Gavin Wood, Carlo Parisi, Alessandro Mazza, Niccolò Pozzolini」。已抓取 README 约 860 字；其中有「Mastering Ethereum: 2nd Edition」「Authors」等章节可对应到具体能力。仓库 Topics 涉及：以太坊。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+  "category": "web3",
+  "tags": [
+    "以太坊",
+    "加密与 Web3",
+    "blockchain",
+    "book",
+    "dapp"
+  ],
+  "aliases": [
+    "ethereumbook/ethereumbook"
+  ],
+  "audience": "开发者",
+  "audienceFor": [
+    "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+    "愿意自己读 README 确认细节的开发者"
+  ],
+  "features": [
+    {
+      "title": "Mastering Ethereum: 2nd ",
+      "detail": "（自动整理）README 中有「Mastering Ethereum: 2nd Edition」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Authors",
+      "detail": "（自动整理）README 中有「Authors」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "待补全",
+      "detail": "（自动整理）请依据 README 补全。"
+    }
+  ],
+  "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 860 字，抓取于 2026-11-15）汇总；未经人工校对，页面上已标注「自动收录」。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "门槛未评估：请以 README 的安装说明为准",
+    "requires": [],
+    "steps": [
+      {
+        "title": "阅读安装章节",
+        "detail": "（自动整理）README 未提供可识别的安装命令。"
+      }
+    ],
+    "cost": "费用未知"
+  },
+  "officialUrl": "https://masteringethereum.xyz/",
+  "demoUrl": null,
+  "linkStatus": "unchecked",
+  "linkCheckedAt": null,
+  "featured": false,
+  "screenshots": [
+    {
+      "src": "/shots/ethereumbook.jpg",
+      "alt": "ethereumbook 的官方站点截图",
+      "origin": "live",
+      "capturedAt": "2026-11-15T07:54:21.480Z",
+      "credit": "页面截图：https://masteringethereum.xyz/",
+      "synthetic": false
+    }
+  ],
+  "addedAt": "2026-11-15",
+  "review": {
+    "status": "published",
+    "mode": "auto",
+    "reviewedBy": "autopipeline",
+    "reviewedAt": "2026-11-15",
+    "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+  }
+}

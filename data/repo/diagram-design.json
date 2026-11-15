@@ -1,7 +1,7 @@
 {
   "slug": "diagram-design",
   "repoInput": "cathrynlavery/diagram-design",
-  "fetchedAt": "2026-11-14T07:37:25.331Z",
+  "fetchedAt": "2026-11-15T07:53:23.782Z",
   "github": {
     "owner": "cathrynlavery",
     "name": "diagram-design",
@@ -9,8 +9,8 @@
     "url": "https://github.com/cathrynlavery/diagram-design",
     "homepage": "https://diagramdesign.dev",
     "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-    "stars": 66928,
-    "forks": 4466,
+    "stars": 67233,
+    "forks": 4492,
     "openIssues": 35,
     "language": "HTML",
     "topics": [
@@ -31,7 +31,7 @@
     "createdAt": "2026-04-16T18:01:16Z",
     "pushedAt": "2026-11-12T21:14:19Z",
     "archived": false,
-    "fetchedAt": "2026-11-14T07:37:25.331Z",
+    "fetchedAt": "2026-11-15T07:53:23.782Z",
     "source": "api",
     "warnings": []
   },
@@ -81,20 +81,20 @@
       2,
       4,
       24,
-      20,
-      2,
+      22,
+      0,
       36,
-      54,
-      86,
-      18,
-      34,
+      66,
+      74,
+      20,
+      32,
       12,
       44
     ],
     "commits52w": 465,
     "commits4w": 108,
     "commits1w": 44,
-    "fetchedAt": "2026-11-14T07:37:25.678Z"
+    "fetchedAt": "2026-11-15T07:53:24.246Z"
   },
   "releases": [],
   "commitTotal": 465,
