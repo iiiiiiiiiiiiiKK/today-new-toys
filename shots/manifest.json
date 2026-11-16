@@ -714,5 +714,29 @@
     "title": "ethereumbook",
     "capturedAt": "2026-11-15T07:55:04.176Z",
     "auto": true
+  },
+  "workout-cool": {
+    "src": "/shots/workout-cool.jpg",
+    "captureUrl": "https://workout.cool",
+    "origin": "live",
+    "title": "workout-cool",
+    "capturedAt": "2026-11-16T08:01:39.856Z",
+    "auto": true
+  },
+  "openframeworks": {
+    "src": "/shots/openframeworks.jpg",
+    "captureUrl": "http://openframeworks.cc",
+    "origin": "live",
+    "title": "openFrameworks",
+    "capturedAt": "2026-11-16T08:01:45.556Z",
+    "auto": true
+  },
+  "platformio-core": {
+    "src": "/shots/platformio-core.jpg",
+    "captureUrl": "https://platformio.org",
+    "origin": "live",
+    "title": "platformio-core",
+    "capturedAt": "2026-11-16T08:01:50.968Z",
+    "auto": true
   }
 }
