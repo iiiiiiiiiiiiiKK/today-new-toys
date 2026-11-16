@@ -1,7 +1,7 @@
 {
   "slug": "reflex",
   "repoInput": "reflex-dev/reflex",
-  "fetchedAt": "2026-11-15T07:54:07.463Z",
+  "fetchedAt": "2026-11-16T08:00:57.088Z",
   "github": {
     "owner": "reflex-dev",
     "name": "reflex",
@@ -9,9 +9,9 @@
     "url": "https://github.com/reflex-dev/reflex",
     "homepage": "https://reflex.dev",
     "description": "🕸️ Web apps in pure Python 🐍",
-    "stars": 29026,
+    "stars": 29029,
     "forks": 1842,
-    "openIssues": 377,
+    "openIssues": 387,
     "language": "Python",
     "topics": [
       "dashboard",
@@ -32,9 +32,9 @@
       "url": null
     },
     "createdAt": "2022-10-25T03:08:48Z",
-    "pushedAt": "2026-11-15T05:25:29Z",
+    "pushedAt": "2026-11-16T05:32:21Z",
     "archived": false,
-    "fetchedAt": "2026-11-15T07:54:07.463Z",
+    "fetchedAt": "2026-11-16T08:00:57.088Z",
     "source": "api",
     "warnings": []
   },
@@ -91,13 +91,13 @@
       33,
       41,
       37,
-      41,
-      63
+      43,
+      61
     ],
     "commits52w": 1094,
     "commits4w": 182,
-    "commits1w": 63,
-    "fetchedAt": "2026-11-15T07:54:07.978Z"
+    "commits1w": 61,
+    "fetchedAt": "2026-11-16T08:00:57.593Z"
   },
   "releases": [
     {

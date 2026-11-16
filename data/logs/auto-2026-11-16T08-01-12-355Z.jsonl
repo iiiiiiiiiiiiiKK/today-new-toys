@@ -1,0 +1,49 @@
+{"at":"2026-11-16T08:01:12.355Z","event":"run_start","name":"auto","startedAt":"2026-11-16T08:01:12.355Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-11-16T08:01:12.363Z","event":"existing","detail":"catalogue has 84 projects","level":"info"}
+{"at":"2026-11-16T08:01:12.947Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Allm%20stars%3A%3E3000%20pushed%3A%3E2026-07-19%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":29,"ms":584}
+{"at":"2026-11-16T08:01:12.947Z","event":"search","detail":"ai-tools: 8 hits (quota 29)","level":"info"}
+{"at":"2026-11-16T08:01:14.619Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adeveloper-tools%20stars%3A%3E2000%20pushed%3A%3E2026-07-19%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":28,"ms":470}
+{"at":"2026-11-16T08:01:14.619Z","event":"search","detail":"dev-tools: 8 hits (quota 28)","level":"info"}
+{"at":"2026-11-16T08:01:16.264Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aproductivity%20stars%3A%3E1500%20pushed%3A%3E2026-07-19%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":27,"ms":444}
+{"at":"2026-11-16T08:01:16.264Z","event":"search","detail":"productivity: 8 hits (quota 27)","level":"info"}
+{"at":"2026-11-16T08:01:17.910Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adata-visualization%20stars%3A%3E800%20pushed%3A%3E2026-07-19%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":26,"ms":445}
+{"at":"2026-11-16T08:01:17.910Z","event":"search","detail":"data-viz: 8 hits (quota 26)","level":"info"}
+{"at":"2026-11-16T08:01:19.626Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Acreative-coding%20stars%3A%3E800%20pushed%3A%3E2026-07-19%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":25,"ms":515}
+{"at":"2026-11-16T08:01:19.626Z","event":"search","detail":"creative: 8 hits (quota 25)","level":"info"}
+{"at":"2026-11-16T08:01:21.272Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Atutorial%20stars%3A%3E3000%20pushed%3A%3E2026-07-19%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":24,"ms":446}
+{"at":"2026-11-16T08:01:21.272Z","event":"search","detail":"learning: 8 hits (quota 24)","level":"info"}
+{"at":"2026-11-16T08:01:22.960Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Afirmware%20stars%3A%3E1000%20pushed%3A%3E2026-07-19%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":23,"ms":487}
+{"at":"2026-11-16T08:01:22.960Z","event":"search","detail":"hardware: 8 hits (quota 23)","level":"info"}
+{"at":"2026-11-16T08:01:24.546Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Awebapp%20stars%3A%3E1500%20pushed%3A%3E2026-07-19%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":22,"ms":386}
+{"at":"2026-11-16T08:01:24.546Z","event":"search","detail":"internet-toys: 8 hits (quota 22)","level":"info"}
+{"at":"2026-11-16T08:01:26.216Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aself-hosted%20stars%3A%3E2000%20pushed%3A%3E2026-07-19%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":21,"ms":469}
+{"at":"2026-11-16T08:01:26.216Z","event":"search","detail":"self-hosted: 8 hits (quota 21)","level":"info"}
+{"at":"2026-11-16T08:01:27.918Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aethereum%20stars%3A%3E1000%20pushed%3A%3E2026-07-19%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":20,"ms":502}
+{"at":"2026-11-16T08:01:27.918Z","event":"search","detail":"web3: 8 hits (quota 20)","level":"info"}
+{"at":"2026-11-16T08:01:29.119Z","event":"picked","detail":"Snouzy/workout-cool (internet-toys, ★8690) | openframeworks/openFrameworks (creative, ★10465) | platformio/platformio-core (hardware, ★9606)","level":"info"}
+{"at":"2026-11-16T08:01:29.377Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Snouzy/workout-cool","status":200,"remaining":4577,"ms":258}
+{"at":"2026-11-16T08:01:29.602Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Snouzy/workout-cool/readme","status":200,"remaining":4576,"ms":225}
+{"at":"2026-11-16T08:01:29.809Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Snouzy/workout-cool/stats/participation","status":200,"remaining":4575,"ms":206}
+{"at":"2026-11-16T08:01:29.897Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Snouzy/workout-cool/commits?per_page=1","status":200,"remaining":4574,"ms":292}
+{"at":"2026-11-16T08:01:29.942Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Snouzy/workout-cool/releases?per_page=5","status":200,"remaining":4573,"ms":339}
+{"at":"2026-11-16T08:01:29.942Z","event":"saved","detail":"workout-cool ★8690 MIT README=7326 字","level":"info"}
+{"at":"2026-11-16T08:01:39.856Z","event":"shot","detail":"workout-cool -> /shots/workout-cool.jpg","level":"info"}
+{"at":"2026-11-16T08:01:39.869Z","event":"published","detail":"workout-cool (internet-toys) ★8690","level":"info"}
+{"at":"2026-11-16T08:01:40.186Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/openframeworks/openFrameworks","status":200,"remaining":4572,"ms":317}
+{"at":"2026-11-16T08:01:40.412Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/openframeworks/openFrameworks/readme","status":200,"remaining":4571,"ms":226}
+{"at":"2026-11-16T08:01:40.674Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/openframeworks/openFrameworks/stats/participation","status":200,"remaining":4570,"ms":262}
+{"at":"2026-11-16T08:01:40.737Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/openframeworks/openFrameworks/releases?per_page=5","status":200,"remaining":4569,"ms":324}
+{"at":"2026-11-16T08:01:40.887Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/openframeworks/openFrameworks/commits?per_page=1","status":200,"remaining":4568,"ms":473}
+{"at":"2026-11-16T08:01:40.887Z","event":"saved","detail":"openframeworks ★10465 无 SPDX 许可证 README=5269 字","level":"info"}
+{"at":"2026-11-16T08:01:45.557Z","event":"shot","detail":"openframeworks -> /shots/openframeworks.jpg","level":"info"}
+{"at":"2026-11-16T08:01:45.558Z","event":"published","detail":"openframeworks (creative) ★10465","level":"info"}
+{"at":"2026-11-16T08:01:45.891Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/platformio/platformio-core","status":200,"remaining":4567,"ms":333}
+{"at":"2026-11-16T08:01:46.100Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/platformio/platformio-core/readme","status":200,"remaining":4566,"ms":208}
+{"at":"2026-11-16T08:01:46.345Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/platformio/platformio-core/stats/participation","status":200,"remaining":4565,"ms":245}
+{"at":"2026-11-16T08:01:46.410Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/platformio/platformio-core/releases?per_page=5","status":200,"remaining":4564,"ms":310}
+{"at":"2026-11-16T08:01:46.453Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/platformio/platformio-core/commits?per_page=1","status":200,"remaining":4563,"ms":352}
+{"at":"2026-11-16T08:01:46.453Z","event":"saved","detail":"platformio-core ★9606 Apache-2.0 README=3145 字","level":"info"}
+{"at":"2026-11-16T08:01:50.968Z","event":"shot","detail":"platformio-core -> /shots/platformio-core.jpg","level":"info"}
+{"at":"2026-11-16T08:01:50.970Z","event":"published","detail":"platformio-core (hardware) ★9606","level":"info"}
+{"at":"2026-11-16T08:01:51.021Z","event":"rebuilt","detail":"[data:build] 87 个项目 → public/data/projects.json","level":"info"}
+{"at":"2026-11-16T08:01:51.021Z","event":"run_end","level":"info","detail":"{\"ranAt\":\"2026-11-16T08:01:12.357Z\",\"auth\":\"token\",\"searched\":10,\"picked\":[{\"repo\":\"Snouzy/workout-cool\",\"category\":\"internet-toys\"},{\"repo\":\"openframeworks/openFrameworks\",\"category\":\"creative\"},{\"repo\":\"platformio/platformio-core\",\"category\":\"hardware\"}],\"added\":[{\"slug\":\"workout-cool\",\"repo\":\"Snouzy/workout-cool\",\"category\":\"internet-toys\",\"stars\":8690,\"shot\":true},{\"slug\":\"openframeworks\",\"repo\":\"openframeworks/openFrameworks\",\"category\":\"creative\",\"stars\":10465,\"shot\":true},{\"slug\":\"platformio-core\",\"repo\":\"platformio/platformio-core\",\"category\":\"hardware\",\"stars\":9606,\"shot\":true}]}"}

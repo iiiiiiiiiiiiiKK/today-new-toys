@@ -1,0 +1,72 @@
+{
+  "slug": "platformio-core",
+  "name": "platformio-core",
+  "tagline": "开源硬件 · Your Gateway to Embedded Software Development…",
+  "summary": "（自动整理，未经人工校对）platformio-core 是一个用 Python 写的开源项目。仓库自述「Your Gateway to Embedded Software Development Excellence」。已抓取 README 约 3,145 字；其中有若干章节可对应到具体能力。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+  "category": "hardware",
+  "tags": [
+    "开源硬件",
+    "Apache-2.0",
+    "arduino",
+    "arm",
+    "avr"
+  ],
+  "aliases": [
+    "platformio/platformio-core"
+  ],
+  "audience": "开发者",
+  "audienceFor": [
+    "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+    "愿意自己读 README 确认细节的开发者"
+  ],
+  "features": [
+    {
+      "title": "待补全功能一",
+      "detail": "（自动整理）README 中有「待补全功能一」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "待补全功能二",
+      "detail": "（自动整理）README 中有「待补全功能二」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "待补全功能三",
+      "detail": "（自动整理）README 中有「待补全功能三」章节，此处只标注来源，未展开复述。"
+    }
+  ],
+  "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.rst，约 3145 字，抓取于 2026-11-16）汇总；未经人工校对，页面上已标注「自动收录」。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "门槛未评估：请以 README 的安装说明为准",
+    "requires": [],
+    "steps": [
+      {
+        "title": "阅读安装章节",
+        "detail": "（自动整理）README 未提供可识别的安装命令。"
+      }
+    ],
+    "cost": "开源免费（以仓库许可证为准）"
+  },
+  "officialUrl": "https://platformio.org",
+  "demoUrl": null,
+  "linkStatus": "unchecked",
+  "linkCheckedAt": null,
+  "featured": false,
+  "screenshots": [
+    {
+      "src": "/shots/platformio-core.jpg",
+      "alt": "platformio-core 的官方站点截图",
+      "origin": "live",
+      "capturedAt": "2026-11-16T08:01:12.357Z",
+      "credit": "页面截图：https://platformio.org",
+      "synthetic": false
+    }
+  ],
+  "addedAt": "2026-11-16",
+  "review": {
+    "status": "published",
+    "mode": "auto",
+    "reviewedBy": "autopipeline",
+    "reviewedAt": "2026-11-16",
+    "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+  }
+}

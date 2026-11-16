@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-11-15T07:54:21.480Z",
+  "ranAt": "2026-11-16T08:01:12.357Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "DarkFlippers/unleashed-firmware",
-      "category": "hardware"
-    },
-    {
-      "repo": "zauberzeug/nicegui",
+      "repo": "Snouzy/workout-cool",
       "category": "internet-toys"
     },
     {
-      "repo": "ethereumbook/ethereumbook",
-      "category": "web3"
+      "repo": "openframeworks/openFrameworks",
+      "category": "creative"
+    },
+    {
+      "repo": "platformio/platformio-core",
+      "category": "hardware"
     }
   ],
   "added": [
     {
-      "slug": "unleashed-firmware",
-      "repo": "DarkFlippers/unleashed-firmware",
-      "category": "hardware",
-      "stars": 22743,
-      "shot": true
-    },
-    {
-      "slug": "nicegui",
-      "repo": "zauberzeug/nicegui",
+      "slug": "workout-cool",
+      "repo": "Snouzy/workout-cool",
       "category": "internet-toys",
-      "stars": 16336,
+      "stars": 8690,
       "shot": true
     },
     {
-      "slug": "ethereumbook",
-      "repo": "ethereumbook/ethereumbook",
-      "category": "web3",
-      "stars": 21543,
+      "slug": "openframeworks",
+      "repo": "openframeworks/openFrameworks",
+      "category": "creative",
+      "stars": 10465,
+      "shot": true
+    },
+    {
+      "slug": "platformio-core",
+      "repo": "platformio/platformio-core",
+      "category": "hardware",
+      "stars": 9606,
       "shot": true
     }
   ]
