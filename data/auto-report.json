@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-11-16T08:01:12.357Z",
+  "ranAt": "2026-11-17T09:15:45.200Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "Snouzy/workout-cool",
+      "repo": "iib0011/omni-tools",
       "category": "internet-toys"
     },
     {
-      "repo": "openframeworks/openFrameworks",
-      "category": "creative"
+      "repo": "justcallmekoko/ESP32Marauder",
+      "category": "hardware"
     },
     {
-      "repo": "platformio/platformio-core",
-      "category": "hardware"
+      "repo": "unionlabs/union",
+      "category": "web3"
     }
   ],
   "added": [
     {
-      "slug": "workout-cool",
-      "repo": "Snouzy/workout-cool",
+      "slug": "omni-tools",
+      "repo": "iib0011/omni-tools",
       "category": "internet-toys",
-      "stars": 8690,
+      "stars": 10737,
       "shot": true
     },
     {
-      "slug": "openframeworks",
-      "repo": "openframeworks/openFrameworks",
-      "category": "creative",
-      "stars": 10465,
-      "shot": true
-    },
-    {
-      "slug": "platformio-core",
-      "repo": "platformio/platformio-core",
+      "slug": "esp32marauder",
+      "repo": "justcallmekoko/ESP32Marauder",
       "category": "hardware",
-      "stars": 9606,
+      "stars": 13136,
+      "shot": true
+    },
+    {
+      "slug": "union",
+      "repo": "unionlabs/union",
+      "category": "web3",
+      "stars": 73708,
       "shot": true
     }
   ]

@@ -1,7 +1,7 @@
 {
   "slug": "dockge",
   "repoInput": "louislam/dockge",
-  "fetchedAt": "2026-11-16T08:00:08.851Z",
+  "fetchedAt": "2026-11-17T09:14:45.032Z",
   "github": {
     "owner": "louislam",
     "name": "dockge",
@@ -9,7 +9,7 @@
     "url": "https://github.com/louislam/dockge",
     "homepage": "https://dockge.kuma.pet",
     "description": "A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager",
-    "stars": 24831,
+    "stars": 24842,
     "forks": 872,
     "openIssues": 178,
     "language": "TypeScript",
@@ -36,7 +36,7 @@
     "createdAt": "2023-10-23T11:18:20Z",
     "pushedAt": "2026-10-23T06:35:35Z",
     "archived": false,
-    "fetchedAt": "2026-11-16T08:00:08.851Z",
+    "fetchedAt": "2026-11-17T09:14:45.032Z",
     "source": "api",
     "warnings": []
   },
@@ -99,7 +99,7 @@
     "commits52w": 19,
     "commits4w": 1,
     "commits1w": 0,
-    "fetchedAt": "2026-11-16T08:00:09.409Z"
+    "fetchedAt": "2026-11-17T09:14:45.391Z"
   },
   "releases": [
     {

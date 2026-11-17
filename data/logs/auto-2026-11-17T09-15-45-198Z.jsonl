@@ -1,0 +1,49 @@
+{"at":"2026-11-17T09:15:45.198Z","event":"run_start","name":"auto","startedAt":"2026-11-17T09:15:45.198Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-11-17T09:15:45.208Z","event":"existing","detail":"catalogue has 87 projects","level":"info"}
+{"at":"2026-11-17T09:15:45.705Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Allm%20stars%3A%3E3000%20pushed%3A%3E2026-07-20%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":29,"ms":496}
+{"at":"2026-11-17T09:15:45.705Z","event":"search","detail":"ai-tools: 8 hits (quota 29)","level":"info"}
+{"at":"2026-11-17T09:15:47.372Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adeveloper-tools%20stars%3A%3E2000%20pushed%3A%3E2026-07-20%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":28,"ms":466}
+{"at":"2026-11-17T09:15:47.372Z","event":"search","detail":"dev-tools: 8 hits (quota 28)","level":"info"}
+{"at":"2026-11-17T09:15:49.055Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aproductivity%20stars%3A%3E1500%20pushed%3A%3E2026-07-20%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":27,"ms":482}
+{"at":"2026-11-17T09:15:49.055Z","event":"search","detail":"productivity: 8 hits (quota 27)","level":"info"}
+{"at":"2026-11-17T09:15:50.662Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adata-visualization%20stars%3A%3E800%20pushed%3A%3E2026-07-20%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":26,"ms":406}
+{"at":"2026-11-17T09:15:50.662Z","event":"search","detail":"data-viz: 8 hits (quota 26)","level":"info"}
+{"at":"2026-11-17T09:15:52.348Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Acreative-coding%20stars%3A%3E800%20pushed%3A%3E2026-07-20%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":25,"ms":485}
+{"at":"2026-11-17T09:15:52.348Z","event":"search","detail":"creative: 8 hits (quota 25)","level":"info"}
+{"at":"2026-11-17T09:15:53.974Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Atutorial%20stars%3A%3E3000%20pushed%3A%3E2026-07-20%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":24,"ms":425}
+{"at":"2026-11-17T09:15:53.974Z","event":"search","detail":"learning: 8 hits (quota 24)","level":"info"}
+{"at":"2026-11-17T09:15:55.600Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Afirmware%20stars%3A%3E1000%20pushed%3A%3E2026-07-20%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":23,"ms":425}
+{"at":"2026-11-17T09:15:55.601Z","event":"search","detail":"hardware: 8 hits (quota 23)","level":"info"}
+{"at":"2026-11-17T09:15:57.135Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Awebapp%20stars%3A%3E1500%20pushed%3A%3E2026-07-20%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":22,"ms":335}
+{"at":"2026-11-17T09:15:57.135Z","event":"search","detail":"internet-toys: 8 hits (quota 22)","level":"info"}
+{"at":"2026-11-17T09:15:58.818Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aself-hosted%20stars%3A%3E2000%20pushed%3A%3E2026-07-20%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":21,"ms":481}
+{"at":"2026-11-17T09:15:58.818Z","event":"search","detail":"self-hosted: 8 hits (quota 21)","level":"info"}
+{"at":"2026-11-17T09:16:00.502Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aethereum%20stars%3A%3E1000%20pushed%3A%3E2026-07-20%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":20,"ms":483}
+{"at":"2026-11-17T09:16:00.502Z","event":"search","detail":"web3: 8 hits (quota 20)","level":"info"}
+{"at":"2026-11-17T09:16:01.704Z","event":"picked","detail":"iib0011/omni-tools (internet-toys, ★10737) | justcallmekoko/ESP32Marauder (hardware, ★13136) | unionlabs/union (web3, ★73708)","level":"info"}
+{"at":"2026-11-17T09:16:01.993Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/iib0011/omni-tools","status":200,"remaining":4562,"ms":288}
+{"at":"2026-11-17T09:16:02.219Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/iib0011/omni-tools/readme","status":200,"remaining":4561,"ms":186}
+{"at":"2026-11-17T09:16:02.459Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/iib0011/omni-tools/stats/participation","status":200,"remaining":4560,"ms":240}
+{"at":"2026-11-17T09:16:02.502Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/iib0011/omni-tools/commits?per_page=1","status":200,"remaining":4558,"ms":281}
+{"at":"2026-11-17T09:16:02.529Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/iib0011/omni-tools/releases?per_page=5","status":200,"remaining":4559,"ms":309}
+{"at":"2026-11-17T09:16:02.529Z","event":"saved","detail":"omni-tools ★10737 MIT README=3118 字","level":"info"}
+{"at":"2026-11-17T09:16:17.543Z","event":"shot","detail":"omni-tools -> /shots/omni-tools.jpg","level":"info"}
+{"at":"2026-11-17T09:16:17.557Z","event":"published","detail":"omni-tools (internet-toys) ★10737","level":"info"}
+{"at":"2026-11-17T09:16:17.876Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/justcallmekoko/ESP32Marauder","status":200,"remaining":4557,"ms":319}
+{"at":"2026-11-17T09:16:18.080Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/justcallmekoko/ESP32Marauder/readme","status":200,"remaining":4556,"ms":204}
+{"at":"2026-11-17T09:16:18.234Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/justcallmekoko/ESP32Marauder/stats/participation","status":200,"remaining":4555,"ms":154}
+{"at":"2026-11-17T09:16:18.355Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/justcallmekoko/ESP32Marauder/commits?per_page=1","status":200,"remaining":4554,"ms":272}
+{"at":"2026-11-17T09:16:18.543Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/justcallmekoko/ESP32Marauder/releases?per_page=5","status":200,"remaining":4553,"ms":463}
+{"at":"2026-11-17T09:16:18.543Z","event":"saved","detail":"esp32marauder ★13136 无 SPDX 许可证 README=1300 字","level":"info"}
+{"at":"2026-11-17T09:16:23.352Z","event":"shot","detail":"esp32marauder -> /shots/esp32marauder.jpg","level":"info"}
+{"at":"2026-11-17T09:16:23.353Z","event":"published","detail":"esp32marauder (hardware) ★13136","level":"info"}
+{"at":"2026-11-17T09:16:23.674Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/unionlabs/union","status":200,"remaining":4552,"ms":321}
+{"at":"2026-11-17T09:16:23.884Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/unionlabs/union/readme","status":200,"remaining":4551,"ms":210}
+{"at":"2026-11-17T09:16:24.029Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/unionlabs/union/stats/participation","status":200,"remaining":4550,"ms":144}
+{"at":"2026-11-17T09:16:24.146Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/unionlabs/union/releases?per_page=5","status":200,"remaining":4549,"ms":261}
+{"at":"2026-11-17T09:16:24.238Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/unionlabs/union/commits?per_page=1","status":200,"remaining":4548,"ms":352}
+{"at":"2026-11-17T09:16:24.238Z","event":"saved","detail":"union ★73708 Apache-2.0 README=6085 字","level":"info"}
+{"at":"2026-11-17T09:16:29.262Z","event":"shot","detail":"union -> /shots/union.jpg","level":"info"}
+{"at":"2026-11-17T09:16:29.263Z","event":"published","detail":"union (web3) ★73708","level":"info"}
+{"at":"2026-11-17T09:16:29.320Z","event":"rebuilt","detail":"[data:build] 90 个项目 → public/data/projects.json","level":"info"}
+{"at":"2026-11-17T09:16:29.321Z","event":"run_end","level":"info","detail":"{\"ranAt\":\"2026-11-17T09:15:45.200Z\",\"auth\":\"token\",\"searched\":10,\"picked\":[{\"repo\":\"iib0011/omni-tools\",\"category\":\"internet-toys\"},{\"repo\":\"justcallmekoko/ESP32Marauder\",\"category\":\"hardware\"},{\"repo\":\"unionlabs/union\",\"category\":\"web3\"}],\"added\":[{\"slug\":\"omni-tools\",\"repo\":\"iib0011/omni-tools\",\"category\":\"internet-toys\",\"stars\":10737,\"shot\":true},{\"slug\":\"esp32marauder\",\"repo\":\"justcallmekoko/ESP32Marauder\",\"category\":\"hardware\",\"stars\":13136,\"shot\":true},{\"slug\":\"union\",\"repo\":\"unionlabs/union\",\"category\":\"web3\",\"stars\":73708,\"shot\":true}]}"}

@@ -1,0 +1,72 @@
+{
+  "slug": "esp32marauder",
+  "name": "ESP32Marauder",
+  "tagline": "开源硬件 · A suite of WiFi/Bluetooth offensive and defen…",
+  "summary": "（自动整理，未经人工校对）ESP32Marauder 是一个用 C++ 写的开源项目。仓库自述「A suite of WiFi/Bluetooth offensive and defensive tools for the ESP32」。已抓取 README 约 1,300 字；其中有「ESP32 Marauder」「FCC module identifiers」等章节可对应到具体能力。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+  "category": "hardware",
+  "tags": [
+    "开源硬件",
+    "arduino",
+    "beacon",
+    "bluetooth",
+    "C++"
+  ],
+  "aliases": [
+    "justcallmekoko/ESP32Marauder"
+  ],
+  "audience": "开发者",
+  "audienceFor": [
+    "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+    "愿意自己读 README 确认细节的开发者"
+  ],
+  "features": [
+    {
+      "title": "ESP32 Marauder",
+      "detail": "（自动整理）README 中有「ESP32 Marauder」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "FCC module identifiers",
+      "detail": "（自动整理）README 中有「FCC module identifiers」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "待补全",
+      "detail": "（自动整理）请依据 README 补全。"
+    }
+  ],
+  "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 1300 字，抓取于 2026-11-17）汇总；未经人工校对，页面上已标注「自动收录」。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "门槛未评估：请以 README 的安装说明为准",
+    "requires": [],
+    "steps": [
+      {
+        "title": "阅读安装章节",
+        "detail": "（自动整理）README 未提供可识别的安装命令。"
+      }
+    ],
+    "cost": "费用未知"
+  },
+  "officialUrl": "https://justcallmekokollc.com",
+  "demoUrl": null,
+  "linkStatus": "unchecked",
+  "linkCheckedAt": null,
+  "featured": false,
+  "screenshots": [
+    {
+      "src": "/shots/esp32marauder.jpg",
+      "alt": "ESP32Marauder 的官方站点截图",
+      "origin": "live",
+      "capturedAt": "2026-11-17T09:15:45.200Z",
+      "credit": "页面截图：https://justcallmekokollc.com",
+      "synthetic": false
+    }
+  ],
+  "addedAt": "2026-11-17",
+  "review": {
+    "status": "published",
+    "mode": "auto",
+    "reviewedBy": "autopipeline",
+    "reviewedAt": "2026-11-17",
+    "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+  }
+}

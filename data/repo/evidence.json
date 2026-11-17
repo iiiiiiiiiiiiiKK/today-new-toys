@@ -1,7 +1,7 @@
 {
   "slug": "evidence",
   "repoInput": "evidence-dev/evidence",
-  "fetchedAt": "2026-11-16T08:00:15.088Z",
+  "fetchedAt": "2026-11-17T09:14:50.247Z",
   "github": {
     "owner": "evidence-dev",
     "name": "evidence",
@@ -9,8 +9,8 @@
     "url": "https://github.com/evidence-dev/evidence",
     "homepage": "https://evidence.dev",
     "description": "Business intelligence as code: build fast, interactive data visualizations in SQL and markdown",
-    "stars": 7119,
-    "forks": 445,
+    "stars": 7122,
+    "forks": 446,
     "openIssues": 38,
     "language": "TypeScript",
     "topics": [
@@ -35,9 +35,9 @@
       "url": null
     },
     "createdAt": "2021-05-27T03:50:19Z",
-    "pushedAt": "2026-11-15T19:22:24Z",
+    "pushedAt": "2026-11-16T22:44:54Z",
     "archived": false,
-    "fetchedAt": "2026-11-16T08:00:15.088Z",
+    "fetchedAt": "2026-11-17T09:14:50.247Z",
     "source": "api",
     "warnings": []
   },
@@ -47,9 +47,9 @@
       0,
       0,
       0,
-      0,
       21,
       4,
+      0,
       0,
       0,
       0,
@@ -83,24 +83,24 @@
       0,
       0,
       0,
-      12,
-      12,
-      7,
-      2,
-      7,
-      14,
-      15,
-      13,
-      13,
+      16,
+      11,
+      4,
+      3,
       9,
-      21,
+      11,
       15,
-      25
+      13,
+      13,
+      12,
+      20,
+      14,
+      26
     ],
-    "commits52w": 207,
-    "commits4w": 70,
-    "commits1w": 25,
-    "fetchedAt": "2026-11-16T08:00:15.514Z"
+    "commits52w": 209,
+    "commits4w": 72,
+    "commits1w": 26,
+    "fetchedAt": "2026-11-17T09:14:50.655Z"
   },
   "releases": [
     {
@@ -144,7 +144,7 @@
       "draft": false
     }
   ],
-  "commitTotal": 10121,
+  "commitTotal": 10123,
   "readme": {
     "path": "README.md",
     "via": "api",

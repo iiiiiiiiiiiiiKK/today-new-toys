@@ -34,7 +34,8 @@
   <a href="docs/es/README.md">Español</a> |
   <a href="docs/uk-UA/README.md">Українська</a> |
   <a href="docs/pl/README.md">Polski</a> |
-  <a href="docs/bn/README.md">বাংলা</a>
+  <a href="docs/bn/README.md">বাংলা</a> |
+  <a href="docs/it-IT/README.md">Italiano</a>
 </p>
 
 <p align="center">
@@ -141,12 +142,12 @@ Instead of rebuilding that process in every prompt, you install it once and make
 
 ECC is MIT-licensed open source. It works best with Claude Code today, has native Codex and Qoder plugin paths, and provides capability-limited adapters for Cursor, OpenCode, Gemini, Zed, GitHub Copilot, Antigravity, Qwen, and other harnesses. See the [support status matrix](#platform-support) before assuming feature parity.
 
-Access to 71 agents, 314 skills, and 98 legacy command shims, plus hooks, rules, memory, continuous learning, and AgentShield security scanning. The agents are specialized for planning, review, build repair, security, architecture, and domain work.
+Access to 72 agents, 327 skills, and 98 legacy command shims, plus hooks, rules, memory, continuous learning, and AgentShield security scanning. The agents are specialized for planning, review, build repair, security, architecture, and domain work.
 
 | Included         |       Count | What it gives you                                                                    |
 | ---------------- | ----------: | ------------------------------------------------------------------------------------ |
-| Agents           |   71 agents | Planning, review, build repair, security, architecture, and domain work              |
-| Skills           |  314 skills | TDD, research, security, docs, frontend, data, ML, operations, and more              |
+| Agents           |   72 agents | Planning, review, build repair, security, architecture, and domain work              |
+| Skills           |  327 skills | TDD, research, security, docs, frontend, data, ML, operations, and more              |
 | Commands         | 98 commands | Convenient entry points while ECC moves to a skills-first surface                    |
 | Hooks and memory |     Runtime | Enforcement, session summaries, continuous learning, instincts, and context controls |
 | Rules            |   Selective | Always-loaded standards you choose by language or project                            |
@@ -262,7 +263,7 @@ npx ecc-universal@2.2.3 doctor --target kimi
 
 Do not use `npx ecc-install --profile minimal --target claude`: `ecc-install` is a binary name inside `ecc-universal`, not a separately published npm package.
 
-ECC also ships advanced managed adapters for `cursor`, `antigravity`, `gemini`, `opencode`, `codebuddy`, `joycode`, `qwen`, `zed`, `hermes`, and `openclaw`. Those targets still use their documented `ecc install --target ...` paths until each adapter has passed the guided collision, update, repair, and uninstall lifecycle matrix. Neither wizard silently installs into every detected harness.
+ECC also ships advanced managed adapters for `cursor`, `antigravity`, `antigravity-home`, `gemini`, `opencode`, `codebuddy`, `joycode`, `qwen`, `zed`, `hermes`, `openclaw`, and `mistral-vibe`. Those targets still use their documented `ecc install --target ...` paths until each adapter has passed the guided collision, update, repair, and uninstall lifecycle matrix. Neither wizard silently installs into every detected harness.
 
 ### Pick one path only (per harness)
 
@@ -412,7 +413,7 @@ the [.qoder-plugin notes](.qoder-plugin/README.md) for the exact boundary.
 ### Other agents and editors
 
 <details>
-<summary><strong>Cursor, OpenCode, Gemini, Zed, Antigravity, Qwen, Hermes, OpenClaw, Kimi, CodeBuddy, JoyCode, Copilot</strong></summary>
+<summary><strong>Cursor, OpenCode, Gemini, Zed, Antigravity, Qwen, Hermes, OpenClaw, Kimi, Mistral Vibe, CodeBuddy, JoyCode, Copilot</strong></summary>
 
 Clone ECC once, then choose the target that matches your harness:
 
@@ -427,11 +428,13 @@ cd ECC
 | OpenCode | `npm install && npm run build:opencode && ./install.sh --profile full --target opencode --enable-hooks` | Builds the plugin payload before the full install |
 | Gemini CLI | `./install.sh --profile minimal --target gemini` | Project-local `.gemini/` config |
 | Zed | `./install.sh --profile minimal --target zed` | Project-local `.zed/` adapter |
-| Antigravity | `./install.sh --profile minimal --target antigravity` | See the [Antigravity guide](docs/ANTIGRAVITY-GUIDE.md) |
+| Antigravity (Global Plugin) | `./install.sh --target antigravity-home --profile core --enable-hooks` | Experimental global plugin (`~/.gemini/config/plugins/ecc/`) with lifecycle hooks · [Guide](docs/ANTIGRAVITY-GUIDE.md) |
+| Antigravity (Project-Local) | `./install.sh --target antigravity --profile minimal` | Project-local `.agents/` adapter · [Guide](docs/ANTIGRAVITY-GUIDE.md) |
 | Qwen CLI | `./install.sh --profile minimal --target qwen` | See the [Qwen guide](docs/QWEN-GUIDE.md) |
 | Hermes | `./install.sh --profile minimal --target hermes` | See the [Hermes setup guide](docs/HERMES-SETUP.md) |
 | OpenClaw | `./install.sh --profile minimal --target openclaw` | Managed home-directory install |
 | Kimi Code CLI | `./install.sh --profile minimal --target kimi` | Project-local `.kimi-code/` install · [Get Kimi Code](https://www.kimi.ai/code?aff=ecc) |
+| Mistral Vibe | `./install.sh --target mistral-vibe --skills tdd-workflow` | Project-local `.vibe/skills/` install · [Mistral Vibe guide](docs/MISTRAL-VIBE-GUIDE.md) |
 | CodeBuddy | `./install.sh --profile minimal --target codebuddy` | Project-local `.codebuddy/` install |
 | JoyCode | `./install.sh --profile minimal --target joycode` | Project-local `.joycode/` install |
 | GitHub Copilot | `./install.sh --profile full --target copilot` | Installs skills to `.github/skills/` and agents to `.github/agents/` for Copilot CLI |
@@ -860,8 +863,8 @@ Stable graduation of the 2.0 line: control-pane substrate, worktree lifecycle se
 
 ```text
 ECC/
-|-- agents/           # 71 specialized subagents for delegation
-|-- skills/           # 314 reusable workflows loaded on demand
+|-- agents/           # 72 specialized subagents for delegation
+|-- skills/           # 327 reusable workflows loaded on demand
 |-- commands/         # 98 maintained slash-command shims
 |-- rules/            # opt-in common and language standards
 |-- hooks/            # runtime automation and enforcement
@@ -884,7 +887,7 @@ ECC/
 |   |-- plugin.json         # Plugin metadata and component paths
 |   |-- marketplace.json    # Marketplace catalog for /plugin marketplace add
 |
-|-- agents/           # 71 specialized subagents for delegation
+|-- agents/           # 72 specialized subagents for delegation
 |   |-- planner.md           # Feature implementation planning
 |   |-- architect.md         # System design decisions
 |   |-- tdd-guide.md         # Test-driven development
@@ -957,6 +960,7 @@ ECC/
 |   |-- quarkus-tdd/                # Quarkus TDD
 |   |-- quarkus-verification/       # Quarkus verification
 |   |-- rails-patterns/             # Rails architecture patterns
+|   |-- rails-security/             # Rails security practices
 |   |-- springboot-patterns/        # Java Spring Boot patterns
 |   |-- springboot-security/        # Spring Boot security
 |   |-- springboot-tdd/             # Spring Boot TDD
@@ -1051,14 +1055,4 @@ ECC/
 |-- hooks/            # Trigger-based automations
 |   |-- README.md                 # Hook documentation, recipes, and customization guide
 |   |-- hooks.json                # All hooks config (PreToolUse, PostToolUse, Stop, etc.)
-|   |-- memory-persistence/       # Session lifecycle hooks (Longform Guide)
-|   |-- strategic-compact/        # Compaction suggestions (Longform Guide)
-|
-|-- scripts/          # Cross-platform Node.js scripts
-|   |-- lib/                     # Shared utilities
-|   |   |-- utils.js             # Cross-platform file/path/system utilities
-|   |   |-- package-manager.js   # Package manager detection and selection
-|   |-- hooks/                   # Hook implementations
-|   |   |-- session-start.js     # Load context on session start
-|   |   |-- session-end.js       # Save state on session end
-|   |   |-- pre-compact.js       # Pre-com
+|   |-- memory-persistence/       # Session lifecyc
