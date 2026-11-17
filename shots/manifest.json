@@ -738,5 +738,29 @@
     "title": "platformio-core",
     "capturedAt": "2026-11-16T08:01:50.968Z",
     "auto": true
+  },
+  "omni-tools": {
+    "src": "/shots/omni-tools.jpg",
+    "captureUrl": "https://omnitools.app",
+    "origin": "live",
+    "title": "omni-tools",
+    "capturedAt": "2026-11-17T09:16:17.543Z",
+    "auto": true
+  },
+  "esp32marauder": {
+    "src": "/shots/esp32marauder.jpg",
+    "captureUrl": "https://justcallmekokollc.com",
+    "origin": "live",
+    "title": "ESP32Marauder",
+    "capturedAt": "2026-11-17T09:16:23.351Z",
+    "auto": true
+  },
+  "union": {
+    "src": "/shots/union.jpg",
+    "captureUrl": "https://union.build",
+    "origin": "live",
+    "title": "union",
+    "capturedAt": "2026-11-17T09:16:29.262Z",
+    "auto": true
   }
 }
