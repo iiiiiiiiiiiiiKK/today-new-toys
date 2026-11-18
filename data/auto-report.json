@@ -1,41 +1,41 @@
 {
-  "ranAt": "2026-11-17T09:15:45.200Z",
+  "ranAt": "2026-11-18T08:35:23.043Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "iib0011/omni-tools",
-      "category": "internet-toys"
+      "repo": "css-doodle/css-doodle",
+      "category": "creative"
     },
     {
-      "repo": "justcallmekoko/ESP32Marauder",
-      "category": "hardware"
-    },
-    {
-      "repo": "unionlabs/union",
+      "repo": "AmazingAng/WTF-Solidity",
       "category": "web3"
+    },
+    {
+      "repo": "Sjj1024/PakePlus",
+      "category": "internet-toys"
     }
   ],
   "added": [
     {
-      "slug": "omni-tools",
-      "repo": "iib0011/omni-tools",
-      "category": "internet-toys",
-      "stars": 10737,
+      "slug": "css-doodle",
+      "repo": "css-doodle/css-doodle",
+      "category": "creative",
+      "stars": 6081,
       "shot": true
     },
     {
-      "slug": "esp32marauder",
-      "repo": "justcallmekoko/ESP32Marauder",
-      "category": "hardware",
-      "stars": 13136,
-      "shot": true
-    },
-    {
-      "slug": "union",
-      "repo": "unionlabs/union",
+      "slug": "wtf-solidity",
+      "repo": "AmazingAng/WTF-Solidity",
       "category": "web3",
-      "stars": 73708,
+      "stars": 14067,
+      "shot": true
+    },
+    {
+      "slug": "pakeplus",
+      "repo": "Sjj1024/PakePlus",
+      "category": "internet-toys",
+      "stars": 16085,
       "shot": true
     }
   ]

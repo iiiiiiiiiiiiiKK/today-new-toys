@@ -1,0 +1,49 @@
+{"at":"2026-11-18T08:35:23.040Z","event":"run_start","name":"auto","startedAt":"2026-11-18T08:35:23.040Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-11-18T08:35:23.052Z","event":"existing","detail":"catalogue has 90 projects","level":"info"}
+{"at":"2026-11-18T08:35:23.639Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Allm%20stars%3A%3E3000%20pushed%3A%3E2026-07-21%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":29,"ms":586}
+{"at":"2026-11-18T08:35:23.639Z","event":"search","detail":"ai-tools: 8 hits (quota 29)","level":"info"}
+{"at":"2026-11-18T08:35:25.393Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adeveloper-tools%20stars%3A%3E2000%20pushed%3A%3E2026-07-21%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":28,"ms":554}
+{"at":"2026-11-18T08:35:25.393Z","event":"search","detail":"dev-tools: 8 hits (quota 28)","level":"info"}
+{"at":"2026-11-18T08:35:27.052Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aproductivity%20stars%3A%3E1500%20pushed%3A%3E2026-07-21%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":27,"ms":458}
+{"at":"2026-11-18T08:35:27.052Z","event":"search","detail":"productivity: 8 hits (quota 27)","level":"info"}
+{"at":"2026-11-18T08:35:28.763Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adata-visualization%20stars%3A%3E800%20pushed%3A%3E2026-07-21%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":26,"ms":510}
+{"at":"2026-11-18T08:35:28.763Z","event":"search","detail":"data-viz: 8 hits (quota 26)","level":"info"}
+{"at":"2026-11-18T08:35:30.448Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Acreative-coding%20stars%3A%3E800%20pushed%3A%3E2026-07-21%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":25,"ms":484}
+{"at":"2026-11-18T08:35:30.448Z","event":"search","detail":"creative: 8 hits (quota 25)","level":"info"}
+{"at":"2026-11-18T08:35:32.116Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Atutorial%20stars%3A%3E3000%20pushed%3A%3E2026-07-21%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":24,"ms":467}
+{"at":"2026-11-18T08:35:32.116Z","event":"search","detail":"learning: 8 hits (quota 24)","level":"info"}
+{"at":"2026-11-18T08:35:33.749Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Afirmware%20stars%3A%3E1000%20pushed%3A%3E2026-07-21%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":23,"ms":431}
+{"at":"2026-11-18T08:35:33.749Z","event":"search","detail":"hardware: 8 hits (quota 23)","level":"info"}
+{"at":"2026-11-18T08:35:35.408Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Awebapp%20stars%3A%3E1500%20pushed%3A%3E2026-07-21%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":22,"ms":458}
+{"at":"2026-11-18T08:35:35.408Z","event":"search","detail":"internet-toys: 8 hits (quota 22)","level":"info"}
+{"at":"2026-11-18T08:35:37.106Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aself-hosted%20stars%3A%3E2000%20pushed%3A%3E2026-07-21%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":21,"ms":497}
+{"at":"2026-11-18T08:35:37.106Z","event":"search","detail":"self-hosted: 8 hits (quota 21)","level":"info"}
+{"at":"2026-11-18T08:35:38.824Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aethereum%20stars%3A%3E1000%20pushed%3A%3E2026-07-21%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":20,"ms":517}
+{"at":"2026-11-18T08:35:38.824Z","event":"search","detail":"web3: 8 hits (quota 20)","level":"info"}
+{"at":"2026-11-18T08:35:40.027Z","event":"picked","detail":"css-doodle/css-doodle (creative, ★6081) | AmazingAng/WTF-Solidity (web3, ★14067) | Sjj1024/PakePlus (internet-toys, ★16085)","level":"info"}
+{"at":"2026-11-18T08:35:40.367Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/css-doodle/css-doodle","status":200,"remaining":4547,"ms":338}
+{"at":"2026-11-18T08:35:40.682Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/css-doodle/css-doodle/readme","status":200,"remaining":4546,"ms":314}
+{"at":"2026-11-18T08:35:41.001Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/css-doodle/css-doodle/stats/participation","status":200,"remaining":4545,"ms":318}
+{"at":"2026-11-18T08:35:41.167Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/css-doodle/css-doodle/commits?per_page=1","status":200,"remaining":4544,"ms":482}
+{"at":"2026-11-18T08:35:41.244Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/css-doodle/css-doodle/releases?per_page=5","status":200,"remaining":4543,"ms":560}
+{"at":"2026-11-18T08:35:41.245Z","event":"saved","detail":"css-doodle ★6081 MIT README=1553 字","level":"info"}
+{"at":"2026-11-18T08:35:53.783Z","event":"shot","detail":"css-doodle -> /shots/css-doodle.jpg","level":"info"}
+{"at":"2026-11-18T08:35:53.798Z","event":"published","detail":"css-doodle (creative) ★6081","level":"info"}
+{"at":"2026-11-18T08:35:54.309Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/AmazingAng/WTF-Solidity","status":200,"remaining":4542,"ms":510}
+{"at":"2026-11-18T08:35:54.588Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/AmazingAng/WTF-Solidity/readme","status":200,"remaining":4541,"ms":279}
+{"at":"2026-11-18T08:35:54.863Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/AmazingAng/WTF-Solidity/stats/participation","status":200,"remaining":4540,"ms":274}
+{"at":"2026-11-18T08:35:54.919Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/AmazingAng/WTF-Solidity/releases?per_page=5","status":200,"remaining":4539,"ms":330}
+{"at":"2026-11-18T08:35:55.009Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/AmazingAng/WTF-Solidity/commits?per_page=1","status":200,"remaining":4538,"ms":417}
+{"at":"2026-11-18T08:35:55.010Z","event":"saved","detail":"wtf-solidity ★14067 无 SPDX 许可证 README=4318 字","level":"info"}
+{"at":"2026-11-18T08:36:01.852Z","event":"shot","detail":"wtf-solidity -> /shots/wtf-solidity.jpg","level":"info"}
+{"at":"2026-11-18T08:36:01.853Z","event":"published","detail":"wtf-solidity (web3) ★14067","level":"info"}
+{"at":"2026-11-18T08:36:02.277Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Sjj1024/PakePlus","status":200,"remaining":4537,"ms":423}
+{"at":"2026-11-18T08:36:02.551Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Sjj1024/PakePlus/readme","status":200,"remaining":4536,"ms":274}
+{"at":"2026-11-18T08:36:02.827Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Sjj1024/PakePlus/stats/participation","status":200,"remaining":4535,"ms":275}
+{"at":"2026-11-18T08:36:03.011Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Sjj1024/PakePlus/commits?per_page=1","status":200,"remaining":4533,"ms":457}
+{"at":"2026-11-18T08:36:03.103Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Sjj1024/PakePlus/releases?per_page=5","status":200,"remaining":4534,"ms":551}
+{"at":"2026-11-18T08:36:03.103Z","event":"saved","detail":"pakeplus ★16085 MIT README=7085 字","level":"info"}
+{"at":"2026-11-18T08:36:07.362Z","event":"shot","detail":"pakeplus -> /shots/pakeplus.jpg","level":"info"}
+{"at":"2026-11-18T08:36:07.364Z","event":"published","detail":"pakeplus (internet-toys) ★16085","level":"info"}
+{"at":"2026-11-18T08:36:07.431Z","event":"rebuilt","detail":"[data:build] 93 个项目 → public/data/projects.json","level":"info"}
+{"at":"2026-11-18T08:36:07.431Z","event":"run_end","level":"info","detail":"{\"ranAt\":\"2026-11-18T08:35:23.043Z\",\"auth\":\"token\",\"searched\":10,\"picked\":[{\"repo\":\"css-doodle/css-doodle\",\"category\":\"creative\"},{\"repo\":\"AmazingAng/WTF-Solidity\",\"category\":\"web3\"},{\"repo\":\"Sjj1024/PakePlus\",\"category\":\"internet-toys\"}],\"added\":[{\"slug\":\"css-doodle\",\"repo\":\"css-doodle/css-doodle\",\"category\":\"creative\",\"stars\":6081,\"shot\":true},{\"slug\":\"wtf-solidity\",\"repo\":\"AmazingAng/WTF-Solidity\",\"category\":\"web3\",\"stars\":14067,\"shot\":true},{\"slug\":\"pakeplus\",\"repo\":\"Sjj1024/PakePlus\",\"category\":\"internet-toys\",\"stars\":16085,\"shot\":true}]}"}

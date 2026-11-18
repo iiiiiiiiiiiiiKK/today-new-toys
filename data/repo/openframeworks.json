@@ -1,7 +1,7 @@
 {
   "slug": "openframeworks",
   "repoInput": "openframeworks/openFrameworks",
-  "fetchedAt": "2026-11-17T09:15:18.730Z",
+  "fetchedAt": "2026-11-18T08:34:50.520Z",
   "github": {
     "owner": "openframeworks",
     "name": "openFrameworks",
@@ -9,8 +9,8 @@
     "url": "https://github.com/openframeworks/openFrameworks",
     "homepage": "http://openframeworks.cc",
     "description": "openFrameworks is a community-developed cross platform toolkit for creative coding in C++.",
-    "stars": 10468,
-    "forks": 2568,
+    "stars": 10469,
+    "forks": 2566,
     "openIssues": 1038,
     "language": "C++",
     "topics": [
@@ -37,9 +37,9 @@
       "url": null
     },
     "createdAt": "2009-10-21T21:55:54Z",
-    "pushedAt": "2026-11-17T06:55:14Z",
+    "pushedAt": "2026-11-18T07:45:40Z",
     "archived": false,
-    "fetchedAt": "2026-11-17T09:15:18.730Z",
+    "fetchedAt": "2026-11-18T08:34:50.520Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -48,7 +48,7 @@
   "defaultBranch": "master",
   "activity": {
     "weekly": [
-      1,
+      0,
       0,
       0,
       0,
@@ -67,11 +67,11 @@
       0,
       2,
       0,
+      7,
+      0,
+      1,
       6,
-      1,
-      1,
-      5,
-      1,
+      0,
       0,
       0,
       1,
@@ -84,34 +84,34 @@
       0,
       1,
       0,
-      7,
+      8,
       20,
-      24,
+      23,
       0,
       3,
       0,
-      7,
-      1,
-      1,
       8,
-      9,
-      11,
+      1,
+      0,
+      8,
       13,
-      26,
-      13,
-      17
+      7,
+      17,
+      22,
+      16,
+      16
     ],
-    "commits52w": 197,
-    "commits4w": 69,
-    "commits1w": 17,
-    "fetchedAt": "2026-11-17T09:15:19.458Z"
+    "commits52w": 198,
+    "commits4w": 71,
+    "commits1w": 16,
+    "fetchedAt": "2026-11-18T08:34:51.219Z"
   },
   "releases": [
     {
       "tag": "nightly",
       "name": "Nightly Release",
       "url": "https://github.com/openframeworks/openFrameworks/releases/tag/nightly",
-      "publishedAt": "2026-11-17T06:55:14Z",
+      "publishedAt": "2026-11-18T07:45:40Z",
       "prerelease": false,
       "draft": false
     },
@@ -148,7 +148,7 @@
       "draft": false
     }
   ],
-  "commitTotal": 18244,
+  "commitTotal": 18247,
   "readme": {
     "path": "README.md",
     "via": "api",
