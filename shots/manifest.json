@@ -762,5 +762,29 @@
     "title": "union",
     "capturedAt": "2026-11-17T09:16:29.262Z",
     "auto": true
+  },
+  "css-doodle": {
+    "src": "/shots/css-doodle.jpg",
+    "captureUrl": "https://css-doodle.com",
+    "origin": "live",
+    "title": "css-doodle",
+    "capturedAt": "2026-11-18T08:35:53.782Z",
+    "auto": true
+  },
+  "wtf-solidity": {
+    "src": "/shots/wtf-solidity.jpg",
+    "captureUrl": "https://wtf.academy",
+    "origin": "live",
+    "title": "WTF-Solidity",
+    "capturedAt": "2026-11-18T08:36:01.852Z",
+    "auto": true
+  },
+  "pakeplus": {
+    "src": "/shots/pakeplus.jpg",
+    "captureUrl": "https://pakeplus.com",
+    "origin": "live",
+    "title": "PakePlus",
+    "capturedAt": "2026-11-18T08:36:07.362Z",
+    "auto": true
   }
 }
