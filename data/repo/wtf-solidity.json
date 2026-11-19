@@ -1,7 +1,7 @@
 {
   "slug": "wtf-solidity",
   "repoInput": "AmazingAng/WTF-Solidity",
-  "fetchedAt": "2026-11-18T08:35:54.309Z",
+  "fetchedAt": "2026-11-19T08:50:17.805Z",
   "github": {
     "owner": "AmazingAng",
     "name": "WTF-Solidity",
@@ -41,7 +41,7 @@
     "createdAt": "2022-04-02T05:33:11Z",
     "pushedAt": "2026-10-11T14:38:51Z",
     "archived": false,
-    "fetchedAt": "2026-11-18T08:35:54.309Z",
+    "fetchedAt": "2026-11-19T08:50:17.805Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -60,9 +60,9 @@
       0,
       0,
       0,
-      0,
       1,
       2,
+      0,
       0,
       1,
       0,
@@ -84,8 +84,8 @@
       1,
       0,
       0,
-      0,
-      26,
+      7,
+      19,
       1,
       0,
       19,
@@ -106,7 +106,7 @@
     "commits52w": 75,
     "commits4w": 0,
     "commits1w": 0,
-    "fetchedAt": "2026-11-18T08:35:54.863Z"
+    "fetchedAt": "2026-11-19T08:50:18.381Z"
   },
   "releases": [],
   "commitTotal": 2503,

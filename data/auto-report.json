@@ -1,41 +1,30 @@
 {
-  "ranAt": "2026-11-18T08:35:23.043Z",
+  "ranAt": "2026-11-19T08:50:19.611Z",
   "auth": "token",
   "searched": 10,
   "picked": [
     {
-      "repo": "css-doodle/css-doodle",
+      "repo": "DavidHDev/canvas-ui",
       "category": "creative"
     },
     {
-      "repo": "AmazingAng/WTF-Solidity",
-      "category": "web3"
-    },
-    {
-      "repo": "Sjj1024/PakePlus",
-      "category": "internet-toys"
+      "repo": "nannou-org/nannou",
+      "category": "creative"
     }
   ],
   "added": [
     {
-      "slug": "css-doodle",
-      "repo": "css-doodle/css-doodle",
+      "slug": "canvas-ui",
+      "repo": "DavidHDev/canvas-ui",
       "category": "creative",
-      "stars": 6081,
+      "stars": 5488,
       "shot": true
     },
     {
-      "slug": "wtf-solidity",
-      "repo": "AmazingAng/WTF-Solidity",
-      "category": "web3",
-      "stars": 14067,
-      "shot": true
-    },
-    {
-      "slug": "pakeplus",
-      "repo": "Sjj1024/PakePlus",
-      "category": "internet-toys",
-      "stars": 16085,
+      "slug": "nannou",
+      "repo": "nannou-org/nannou",
+      "category": "creative",
+      "stars": 6790,
       "shot": true
     }
   ]

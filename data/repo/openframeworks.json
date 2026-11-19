@@ -1,7 +1,7 @@
 {
   "slug": "openframeworks",
   "repoInput": "openframeworks/openFrameworks",
-  "fetchedAt": "2026-11-18T08:34:50.520Z",
+  "fetchedAt": "2026-11-19T08:49:46.356Z",
   "github": {
     "owner": "openframeworks",
     "name": "openFrameworks",
@@ -9,7 +9,7 @@
     "url": "https://github.com/openframeworks/openFrameworks",
     "homepage": "http://openframeworks.cc",
     "description": "openFrameworks is a community-developed cross platform toolkit for creative coding in C++.",
-    "stars": 10469,
+    "stars": 10468,
     "forks": 2566,
     "openIssues": 1038,
     "language": "C++",
@@ -37,9 +37,9 @@
       "url": null
     },
     "createdAt": "2009-10-21T21:55:54Z",
-    "pushedAt": "2026-11-18T07:45:40Z",
+    "pushedAt": "2026-11-19T07:38:00Z",
     "archived": false,
-    "fetchedAt": "2026-11-18T08:34:50.520Z",
+    "fetchedAt": "2026-11-19T08:49:46.356Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -74,19 +74,19 @@
       0,
       0,
       0,
-      1,
       2,
+      1,
       0,
       3,
       0,
       0,
       0,
-      0,
       1,
       0,
-      8,
-      20,
-      23,
+      0,
+      9,
+      31,
+      11,
       0,
       3,
       0,
@@ -96,22 +96,22 @@
       8,
       13,
       7,
+      24,
+      15,
       17,
-      22,
-      16,
       16
     ],
-    "commits52w": 198,
-    "commits4w": 71,
+    "commits52w": 199,
+    "commits4w": 72,
     "commits1w": 16,
-    "fetchedAt": "2026-11-18T08:34:51.219Z"
+    "fetchedAt": "2026-11-19T08:49:46.863Z"
   },
   "releases": [
     {
       "tag": "nightly",
       "name": "Nightly Release",
       "url": "https://github.com/openframeworks/openFrameworks/releases/tag/nightly",
-      "publishedAt": "2026-11-18T07:45:40Z",
+      "publishedAt": "2026-11-19T07:38:00Z",
       "prerelease": false,
       "draft": false
     },

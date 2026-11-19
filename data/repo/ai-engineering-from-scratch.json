@@ -1,7 +1,7 @@
 {
   "slug": "ai-engineering-from-scratch",
   "repoInput": "rohitg00/ai-engineering-from-scratch",
-  "fetchedAt": "2026-11-18T08:33:59.351Z",
+  "fetchedAt": "2026-11-19T08:48:54.498Z",
   "github": {
     "owner": "rohitg00",
     "name": "ai-engineering-from-scratch",
@@ -9,8 +9,8 @@
     "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
     "homepage": "https://aiengineeringfromscratch.com",
     "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
-    "stars": 79383,
-    "forks": 14169,
+    "stars": 79549,
+    "forks": 14206,
     "openIssues": 68,
     "language": "Python",
     "topics": [
@@ -41,9 +41,9 @@
       "url": null
     },
     "createdAt": "2026-03-18T18:38:02Z",
-    "pushedAt": "2026-11-18T06:12:04Z",
+    "pushedAt": "2026-11-18T10:49:29Z",
     "archived": false,
-    "fetchedAt": "2026-11-18T08:33:59.351Z",
+    "fetchedAt": "2026-11-19T08:48:54.498Z",
     "source": "api",
     "warnings": []
   },
@@ -66,20 +66,20 @@
       0,
       0,
       0,
-      0,
-      73,
-      98,
-      21,
-      1,
-      117,
-      586,
-      0,
-      47,
-      51,
-      510,
+      10,
+      69,
       100,
-      26,
-      17,
+      13,
+      1,
+      372,
+      331,
+      0,
+      90,
+      60,
+      536,
+      28,
+      22,
+      15,
       0,
       2,
       0,
@@ -96,17 +96,17 @@
       0,
       41,
       29,
-      45,
-      93,
-      636,
-      37,
-      26,
-      28
+      54,
+      204,
+      516,
+      42,
+      29,
+      24
     ],
-    "commits52w": 2717,
-    "commits4w": 727,
-    "commits1w": 28,
-    "fetchedAt": "2026-11-18T08:34:00.016Z"
+    "commits52w": 2721,
+    "commits4w": 611,
+    "commits1w": 24,
+    "fetchedAt": "2026-11-19T08:48:55.114Z"
   },
   "releases": [
     {
@@ -150,7 +150,7 @@
       "draft": false
     }
   ],
-  "commitTotal": 2717,
+  "commitTotal": 2721,
   "readme": {
     "path": "README.md",
     "via": "api",
