@@ -786,5 +786,21 @@
     "title": "PakePlus",
     "capturedAt": "2026-11-18T08:36:07.362Z",
     "auto": true
+  },
+  "canvas-ui": {
+    "src": "/shots/canvas-ui.jpg",
+    "captureUrl": "https://canvasui.dev/",
+    "origin": "live",
+    "title": "canvas-ui",
+    "capturedAt": "2026-11-19T08:50:53.816Z",
+    "auto": true
+  },
+  "nannou": {
+    "src": "/shots/nannou.jpg",
+    "captureUrl": "https://nannou.cc/",
+    "origin": "live",
+    "title": "nannou",
+    "capturedAt": "2026-11-19T08:50:59.158Z",
+    "auto": true
   }
 }
