@@ -1,7 +1,7 @@
 {
   "slug": "sherlock",
   "repoInput": "sherlock-project/sherlock",
-  "fetchedAt": "2026-11-19T08:50:03.364Z",
+  "fetchedAt": "2026-11-20T08:35:32.328Z",
   "github": {
     "owner": "sherlock-project",
     "name": "sherlock",
@@ -9,8 +9,8 @@
     "url": "https://github.com/sherlock-project/sherlock",
     "homepage": "https://sherlockproject.xyz",
     "description": "Hunt down social media accounts by username across social networks",
-    "stars": 114337,
-    "forks": 13139,
+    "stars": 114787,
+    "forks": 13170,
     "openIssues": 419,
     "language": "Python",
     "topics": [
@@ -37,9 +37,9 @@
       "url": null
     },
     "createdAt": "2018-12-24T14:30:48Z",
-    "pushedAt": "2026-11-19T05:14:03Z",
+    "pushedAt": "2026-11-20T05:13:48Z",
     "archived": false,
-    "fetchedAt": "2026-11-19T08:50:03.364Z",
+    "fetchedAt": "2026-11-20T08:35:32.328Z",
     "source": "api",
     "warnings": []
   },
@@ -53,16 +53,16 @@
       0,
       2,
       0,
-      0,
-      3,
-      1,
-      1,
-      1,
-      0,
-      2,
-      1,
       1,
       2,
+      1,
+      2,
+      0,
+      1,
+      1,
+      1,
+      2,
+      1,
       0,
       2,
       1,
@@ -102,7 +102,7 @@
     "commits52w": 56,
     "commits4w": 1,
     "commits1w": 0,
-    "fetchedAt": "2026-11-19T08:50:03.807Z"
+    "fetchedAt": "2026-11-20T08:35:32.830Z"
   },
   "releases": [
     {

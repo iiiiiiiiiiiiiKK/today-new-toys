@@ -134,6 +134,7 @@ If you have reservations about relying on AI advice alone, you can also ask real
 To advance your career as an embedded systems engineer, it's essential to stay up to date with industry trends, best practices and new technologies. These resources can help:
 
 - [🔗 EmbeddedJobs](https://embedded.jobs/jobs) - A job board focused exclusively on the embedded systems job market.
+- [🔗👶 OhmWork: embedded C interview practice on a simulated STM32](https://ohmwork.io/)
 
 ### 🎥 Courses and YouTube Contents
 
@@ -743,5 +744,4 @@ A small program that starts first, checks the application image and can update t
 - [📝 Basics to Developing Bootloader for Arduino](https://www.electronicwings.com/arduino/basics-to-developing-bootloader-for-arduino)
 - [📝 From Zero to main(): How to Write a Bootloader from Scratch](https://interrupt.memfault.com/blog/how-to-write-a-bootloader-from-scratch)
 - [🎞️ How to Create a Super Simple Bootloader](https://www.youtube.com/watch?v=OkUQ3iMmiYQ&list=PLnMKNibPkDnEb1sphpdFJ3bR9dNy7S6mO)
-- [🎞️ Blinky To Bootloader: Bare Metal Programming Series (YouTube Playlist)](https://www.youtube.com/playlist?list=PLP29wDx6QmW7HaCrRydOnxcy8QmW0SNdQ)
-- [📝 Simple AVR Bootloader tutorial](https:
+- [🎞️ Blinky To Bootloader: Bare Metal Programming Series (YouTube Playlist)](https://www.youtube.com/play

@@ -1,7 +1,7 @@
 {
   "slug": "rea",
   "repoInput": "morluto/rea",
-  "fetchedAt": "2026-11-19T08:49:58.851Z",
+  "fetchedAt": "2026-11-20T08:35:28.423Z",
   "github": {
     "owner": "morluto",
     "name": "rea",
@@ -9,9 +9,9 @@
     "url": "https://github.com/morluto/rea",
     "homepage": "https://rea.tools",
     "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-    "stars": 468885,
-    "forks": 114607,
-    "openIssues": 1375,
+    "stars": 470551,
+    "forks": 114928,
+    "openIssues": 1363,
     "language": "TypeScript",
     "topics": [
       "agent-skills",
@@ -41,9 +41,9 @@
       "url": null
     },
     "createdAt": "2026-04-14T00:51:32Z",
-    "pushedAt": "2026-11-19T08:49:37Z",
+    "pushedAt": "2026-11-20T05:37:26Z",
     "archived": false,
-    "fetchedAt": "2026-11-19T08:49:58.851Z",
+    "fetchedAt": "2026-11-20T08:35:28.423Z",
     "source": "api",
     "warnings": []
   },
@@ -83,10 +83,10 @@
       0,
       0,
       0,
-      333,
-      215,
-      140,
-      18,
+      407,
+      160,
+      130,
+      9,
       10,
       1,
       0,
@@ -94,21 +94,37 @@
       1,
       0,
       0,
-      99,
-      519,
-      1865,
-      887,
-      2077,
-      351,
-      812,
-      1028
+      100,
+      723,
+      1840,
+      952,
+      1928,
+      318,
+      767,
+      1413
     ],
-    "commits52w": 8358,
-    "commits4w": 4268,
-    "commits1w": 1028,
-    "fetchedAt": "2026-11-19T08:49:59.260Z"
+    "commits52w": 8761,
+    "commits4w": 4426,
+    "commits1w": 1413,
+    "fetchedAt": "2026-11-20T08:35:28.753Z"
   },
   "releases": [
+    {
+      "tag": "rea-agents-6.10.1",
+      "name": "rea-agents: v6.10.1",
+      "url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.10.1",
+      "publishedAt": "2026-11-20T05:30:51Z",
+      "prerelease": false,
+      "draft": false
+    },
+    {
+      "tag": "rea-agents-6.10.0",
+      "name": "rea-agents: v6.10.0",
+      "url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.10.0",
+      "publishedAt": "2026-11-20T04:58:38Z",
+      "prerelease": false,
+      "draft": false
+    },
     {
       "tag": "rea-agents-6.9.0",
       "name": "rea-agents: v6.9.0",
@@ -132,25 +148,9 @@
       "publishedAt": "2026-10-18T07:45:18Z",
       "prerelease": false,
       "draft": false
-    },
-    {
-      "tag": "rea-agents-6.6.0",
-      "name": "rea-agents: v6.6.0",
-      "url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.6.0",
-      "publishedAt": "2026-10-18T03:40:29Z",
-      "prerelease": false,
-      "draft": false
-    },
-    {
-      "tag": "rea-agents-6.5.0",
-      "name": "rea-agents: v6.5.0",
-      "url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.5.0",
-      "publishedAt": "2026-10-14T12:32:45Z",
-      "prerelease": false,
-      "draft": false
     }
   ],
-  "commitTotal": 8464,
+  "commitTotal": 8879,
   "readme": {
     "path": "README.md",
     "via": "api",

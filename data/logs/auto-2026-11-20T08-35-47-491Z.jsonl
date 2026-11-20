@@ -1,0 +1,33 @@
+{"at":"2026-11-20T08:35:47.492Z","event":"run_start","name":"auto","startedAt":"2026-11-20T08:35:47.491Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-11-20T08:35:47.501Z","event":"existing","detail":"catalogue has 95 projects","level":"info"}
+{"at":"2026-11-20T08:35:48.055Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Allm%20stars%3A%3E3000%20pushed%3A%3E2026-07-23%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":29,"ms":554}
+{"at":"2026-11-20T08:35:48.055Z","event":"search","detail":"ai-tools: 8 hits (quota 29)","level":"info"}
+{"at":"2026-11-20T08:35:49.640Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adeveloper-tools%20stars%3A%3E2000%20pushed%3A%3E2026-07-23%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":28,"ms":384}
+{"at":"2026-11-20T08:35:49.640Z","event":"search","detail":"dev-tools: 8 hits (quota 28)","level":"info"}
+{"at":"2026-11-20T08:35:51.381Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aproductivity%20stars%3A%3E1500%20pushed%3A%3E2026-07-23%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":27,"ms":540}
+{"at":"2026-11-20T08:35:51.381Z","event":"search","detail":"productivity: 8 hits (quota 27)","level":"info"}
+{"at":"2026-11-20T08:35:53.040Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adata-visualization%20stars%3A%3E800%20pushed%3A%3E2026-07-23%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":26,"ms":458}
+{"at":"2026-11-20T08:35:53.040Z","event":"search","detail":"data-viz: 8 hits (quota 26)","level":"info"}
+{"at":"2026-11-20T08:35:54.786Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Acreative-coding%20stars%3A%3E800%20pushed%3A%3E2026-07-23%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":25,"ms":545}
+{"at":"2026-11-20T08:35:54.786Z","event":"search","detail":"creative: 8 hits (quota 25)","level":"info"}
+{"at":"2026-11-20T08:35:56.456Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Atutorial%20stars%3A%3E3000%20pushed%3A%3E2026-07-23%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":24,"ms":470}
+{"at":"2026-11-20T08:35:56.456Z","event":"search","detail":"learning: 8 hits (quota 24)","level":"info"}
+{"at":"2026-11-20T08:35:58.075Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Afirmware%20stars%3A%3E1000%20pushed%3A%3E2026-07-23%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":23,"ms":418}
+{"at":"2026-11-20T08:35:58.075Z","event":"search","detail":"hardware: 8 hits (quota 23)","level":"info"}
+{"at":"2026-11-20T08:35:59.710Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Awebapp%20stars%3A%3E1500%20pushed%3A%3E2026-07-23%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":22,"ms":435}
+{"at":"2026-11-20T08:35:59.710Z","event":"search","detail":"internet-toys: 8 hits (quota 22)","level":"info"}
+{"at":"2026-11-20T08:36:01.350Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aself-hosted%20stars%3A%3E2000%20pushed%3A%3E2026-07-23%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":21,"ms":439}
+{"at":"2026-11-20T08:36:01.350Z","event":"search","detail":"self-hosted: 8 hits (quota 21)","level":"info"}
+{"at":"2026-11-20T08:36:03.162Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aethereum%20stars%3A%3E1000%20pushed%3A%3E2026-07-23%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":20,"ms":612}
+{"at":"2026-11-20T08:36:03.163Z","event":"search","detail":"web3: 8 hits (quota 20)","level":"info"}
+{"at":"2026-11-20T08:36:04.364Z","event":"picked","detail":"Ebony-Vinyl/dsh-our-free-model (dev-tools, ★81494)","level":"info"}
+{"at":"2026-11-20T08:36:04.682Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Ebony-Vinyl/dsh-our-free-model","status":200,"remaining":4522,"ms":318}
+{"at":"2026-11-20T08:36:04.946Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Ebony-Vinyl/dsh-our-free-model/readme","status":200,"remaining":4521,"ms":264}
+{"at":"2026-11-20T08:36:05.111Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Ebony-Vinyl/dsh-our-free-model/stats/participation","status":200,"remaining":4520,"ms":163}
+{"at":"2026-11-20T08:36:05.297Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Ebony-Vinyl/dsh-our-free-model/releases?per_page=5","status":200,"remaining":4519,"ms":348}
+{"at":"2026-11-20T08:36:05.310Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Ebony-Vinyl/dsh-our-free-model/commits?per_page=1","status":200,"remaining":4518,"ms":360}
+{"at":"2026-11-20T08:36:05.311Z","event":"saved","detail":"dsh-our-free-model ★81495 无 SPDX 许可证 README=42479 字","level":"info"}
+{"at":"2026-11-20T08:36:26.699Z","event":"shot","detail":"dsh-our-free-model -> /shots/dsh-our-free-model.jpg","level":"info"}
+{"at":"2026-11-20T08:36:26.712Z","event":"published","detail":"dsh-our-free-model (dev-tools) ★81494","level":"info"}
+{"at":"2026-11-20T08:36:26.764Z","event":"rebuilt","detail":"[data:build] 96 个项目 → public/data/projects.json","level":"info"}
+{"at":"2026-11-20T08:36:26.765Z","event":"run_end","level":"info","detail":"{\"ranAt\":\"2026-11-20T08:35:47.493Z\",\"auth\":\"token\",\"searched\":10,\"picked\":[{\"repo\":\"Ebony-Vinyl/dsh-our-free-model\",\"category\":\"dev-tools\"}],\"added\":[{\"slug\":\"dsh-our-free-model\",\"repo\":\"Ebony-Vinyl/dsh-our-free-model\",\"category\":\"dev-tools\",\"stars\":81494,\"shot\":true}]}"}

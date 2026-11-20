@@ -1,7 +1,7 @@
 {
   "slug": "wtf-solidity",
   "repoInput": "AmazingAng/WTF-Solidity",
-  "fetchedAt": "2026-11-19T08:50:17.805Z",
+  "fetchedAt": "2026-11-20T08:35:45.947Z",
   "github": {
     "owner": "AmazingAng",
     "name": "WTF-Solidity",
@@ -9,8 +9,8 @@
     "url": "https://github.com/AmazingAng/WTF-Solidity",
     "homepage": "https://wtf.academy",
     "description": "WTF Solidity 极简入门教程，供小白们使用。Now supports English! 官网: https://wtf.academy",
-    "stars": 14067,
-    "forks": 2432,
+    "stars": 14066,
+    "forks": 2433,
     "openIssues": 26,
     "language": "Solidity",
     "topics": [
@@ -41,7 +41,7 @@
     "createdAt": "2022-04-02T05:33:11Z",
     "pushedAt": "2026-10-11T14:38:51Z",
     "archived": false,
-    "fetchedAt": "2026-11-19T08:50:17.805Z",
+    "fetchedAt": "2026-11-20T08:35:45.947Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -50,7 +50,7 @@
   "defaultBranch": "main",
   "activity": {
     "weekly": [
-      2,
+      0,
       0,
       0,
       0,
@@ -87,8 +87,8 @@
       7,
       19,
       1,
-      0,
-      19,
+      14,
+      5,
       2,
       4,
       1,
@@ -103,10 +103,10 @@
       0,
       0
     ],
-    "commits52w": 75,
+    "commits52w": 73,
     "commits4w": 0,
     "commits1w": 0,
-    "fetchedAt": "2026-11-19T08:50:18.381Z"
+    "fetchedAt": "2026-11-20T08:35:46.519Z"
   },
   "releases": [],
   "commitTotal": 2503,

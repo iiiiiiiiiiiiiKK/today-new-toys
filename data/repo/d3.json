@@ -1,7 +1,7 @@
 {
   "slug": "d3",
   "repoInput": "d3/d3",
-  "fetchedAt": "2026-11-19T08:49:03.426Z",
+  "fetchedAt": "2026-11-20T08:34:38.480Z",
   "github": {
     "owner": "d3",
     "name": "d3",
@@ -9,9 +9,9 @@
     "url": "https://github.com/d3/d3",
     "homepage": "https://d3js.org",
     "description": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",
-    "stars": 113961,
-    "forks": 22713,
-    "openIssues": 26,
+    "stars": 113974,
+    "forks": 22718,
+    "openIssues": 27,
     "language": "Shell",
     "topics": [
       "chart",
@@ -29,7 +29,7 @@
     "createdAt": "2010-09-27T17:22:42Z",
     "pushedAt": "2026-11-03T19:44:29Z",
     "archived": false,
-    "fetchedAt": "2026-11-19T08:49:03.426Z",
+    "fetchedAt": "2026-11-20T08:34:38.480Z",
     "source": "api",
     "warnings": []
   },
@@ -62,8 +62,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0,
       0,
       0,
@@ -92,7 +92,7 @@
     "commits52w": 6,
     "commits4w": 3,
     "commits1w": 0,
-    "fetchedAt": "2026-11-19T08:49:03.902Z"
+    "fetchedAt": "2026-11-20T08:34:38.847Z"
   },
   "releases": [
     {

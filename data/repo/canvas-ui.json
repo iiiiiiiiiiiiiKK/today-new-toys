@@ -1,7 +1,7 @@
 {
   "slug": "canvas-ui",
   "repoInput": "DavidHDev/canvas-ui",
-  "fetchedAt": "2026-11-19T08:50:37.214Z",
+  "fetchedAt": "2026-11-20T08:34:33.759Z",
   "github": {
     "owner": "DavidHDev",
     "name": "canvas-ui",
@@ -9,8 +9,8 @@
     "url": "https://github.com/DavidHDev/canvas-ui",
     "homepage": "https://canvasui.dev/",
     "description": "A library of creative canvas components. Real HTML with WebGL effects running over it. React, Vue, Svelte, vanilla.",
-    "stars": 5488,
-    "forks": 287,
+    "stars": 5501,
+    "forks": 288,
     "openIssues": 3,
     "language": "TypeScript",
     "topics": [
@@ -41,9 +41,9 @@
       "url": null
     },
     "createdAt": "2026-07-16T13:38:20Z",
-    "pushedAt": "2026-11-08T21:49:06Z",
+    "pushedAt": "2026-11-19T16:51:05Z",
     "archived": false,
-    "fetchedAt": "2026-11-19T08:50:37.214Z",
+    "fetchedAt": "2026-11-20T08:34:33.759Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -85,16 +85,16 @@
       0,
       0,
       0,
-      0,
-      11,
-      87,
-      6,
-      7,
-      54,
+      2,
+      22,
+      77,
+      3,
+      14,
+      47,
       0,
       4,
-      2,
-      2,
+      3,
+      1,
       0,
       0,
       3,
@@ -103,31 +103,33 @@
       0,
       0,
       12,
-      0
+      5
     ],
-    "commits52w": 189,
-    "commits4w": 12,
-    "commits1w": 0,
-    "fetchedAt": "2026-11-19T08:50:37.758Z"
+    "commits52w": 194,
+    "commits4w": 17,
+    "commits1w": 5,
+    "fetchedAt": "2026-11-20T08:34:34.232Z"
   },
   "releases": [],
-  "commitTotal": 189,
+  "commitTotal": 194,
   "readme": {
     "path": "README.md",
     "via": "api",
-    "chars": 10904,
+    "chars": 12143,
     "headings": [
       "What makes it different",
       "Quick start",
       "WebGL and WebGPU",
       "Components",
+      "Live HTML",
+      "Universal",
       "Browser support",
       "Use with AI",
       "Development",
       "Contributing",
       "License"
     ],
-    "excerpt": "An open source library of creative, framework-agnostic components drawn on canvas. Fluid simulations, shader effects, and 3D scenes that run over your live, fully interactive interface. WebGL or WebGPU via vgpu, your choice. canvasui.dev · Docs · Components · Playground · Installation · Rendering What makes it different Most components use the experimental HTML-in-canvas API to read and redraw your live DOM. Text stays selectable, links stay clickable, and the page becomes a texture that fire, fluid, and glass distort in real time. Where it is not supported, components fall back to GPU overlays, so every visitor gets a working page. 🎨 35 components and counting: Liquid, Glass, Shatter, Force Field, Decrypt Reveal, and more 🧩 Framework agnostic : every component ships for React, Solid, Preact, Vue, Svelte, and vanilla, in both WebGL and WebGPU builds 🖥️ Two renderers : WebGL with GLSL, or WebGPU through vgpu with WGSL 📋 Copy, do not install : source lands in your repo via a shadcn-compatible registry ⚡ Zero config : self-contained, with sensible defaults and typed props 🤖 MCP ready : let your AI assistant find and install components for you Quick start Add a component with the shadcn CLI (run `npx shadcn@latest init` first if you have not): Swap `liquid` for any component, `react` for `solid`, `preact`, `vue`, `svelte`, or `vanilla`. Source lands in `components/canvasui/`, ",
+    "excerpt": "An open source library of creative, framework-agnostic components drawn on canvas. Fluid simulations, shader effects, and 3D scenes, running over your live, fully interactive interface or drawn entirely on their own. WebGL or WebGPU via vgpu, your choice. canvasui.dev · Docs · Components · Playground · Installation · Rendering What makes it different Effects come in two categories: - Live HTML effects use the HTML-in-canvas API, on by default in Chrome 157, to draw your real DOM into the canvas. Text stays selectable, links stay clickable, and the page becomes a texture that fire, fluid, and glass distort in real time. Where the API is missing, they fall back to a GPU overlay or plain HTML, so every visitor gets a working page. - Universal effects draw their whole scene on the GPU instead of capturing the page, so they look and behave the same in every modern browser. 🎨 38 components and counting: Liquid, Glass, Shatter, Force Field, Chrome Object, and more 🧩 Framework agnostic : every component ships for React, Solid, Preact, Vue, Svelte, and vanilla, in both WebGL and WebGPU builds 🖥️ Two renderers : WebGL with GLSL, or WebGPU through vgpu with WGSL 📋 Copy, do not install : source lands in your repo via a shadcn-compatible registry ⚡ Zero config : self-contained, with sensible defaults and typed props 🤖 MCP ready : let your AI assistant find and install components for yo",
     "truncated": true,
     "rawFile": "data/readme/canvas-ui.md"
   }

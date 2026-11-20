@@ -1,7 +1,7 @@
 {
   "slug": "nannou",
   "repoInput": "nannou-org/nannou",
-  "fetchedAt": "2026-11-19T08:50:54.222Z",
+  "fetchedAt": "2026-11-20T08:35:10.810Z",
   "github": {
     "owner": "nannou-org",
     "name": "nannou",
@@ -9,7 +9,7 @@
     "url": "https://github.com/nannou-org/nannou",
     "homepage": "https://nannou.cc/",
     "description": "A Creative Coding Framework for Rust.",
-    "stars": 6790,
+    "stars": 6789,
     "forks": 327,
     "openIssues": 278,
     "language": "Rust",
@@ -25,7 +25,7 @@
     "createdAt": "2017-09-01T13:07:25Z",
     "pushedAt": "2026-11-09T19:15:39Z",
     "archived": false,
-    "fetchedAt": "2026-11-19T08:50:54.222Z",
+    "fetchedAt": "2026-11-20T08:35:10.810Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -36,8 +36,8 @@
     "weekly": [
       0,
       0,
-      0,
       1,
+      0,
       0,
       0,
       0,
@@ -61,9 +61,9 @@
       2,
       0,
       0,
-      0,
-      45,
-      33,
+      20,
+      44,
+      14,
       35,
       0,
       0,
@@ -90,7 +90,7 @@
     "commits52w": 165,
     "commits4w": 4,
     "commits1w": 0,
-    "fetchedAt": "2026-11-19T08:50:54.816Z"
+    "fetchedAt": "2026-11-20T08:35:11.253Z"
   },
   "releases": [
     {
