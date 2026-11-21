@@ -1,20 +1,6 @@
 {
-  "ranAt": "2026-11-20T08:35:47.493Z",
-  "auth": "token",
-  "searched": 10,
-  "picked": [
-    {
-      "repo": "Ebony-Vinyl/dsh-our-free-model",
-      "category": "dev-tools"
-    }
-  ],
-  "added": [
-    {
-      "slug": "dsh-our-free-model",
-      "repo": "Ebony-Vinyl/dsh-our-free-model",
-      "category": "dev-tools",
-      "stars": 81494,
-      "shot": true
-    }
-  ]
+  "ranAt": "2026-11-21T08:19:28.628Z",
+  "picked": [],
+  "added": [],
+  "skipped": "no fresh candidates passed the filters"
 }

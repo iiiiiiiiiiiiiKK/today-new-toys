@@ -1,0 +1,24 @@
+{"at":"2026-11-21T08:19:28.626Z","event":"run_start","name":"auto","startedAt":"2026-11-21T08:19:28.626Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-11-21T08:19:28.638Z","event":"existing","detail":"catalogue has 96 projects","level":"info"}
+{"at":"2026-11-21T08:19:29.218Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Allm%20stars%3A%3E3000%20pushed%3A%3E2026-07-24%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":29,"ms":580}
+{"at":"2026-11-21T08:19:29.218Z","event":"search","detail":"ai-tools: 8 hits (quota 29)","level":"info"}
+{"at":"2026-11-21T08:19:30.783Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adeveloper-tools%20stars%3A%3E2000%20pushed%3A%3E2026-07-24%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":28,"ms":363}
+{"at":"2026-11-21T08:19:30.783Z","event":"search","detail":"dev-tools: 8 hits (quota 28)","level":"info"}
+{"at":"2026-11-21T08:19:32.350Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aproductivity%20stars%3A%3E1500%20pushed%3A%3E2026-07-24%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":27,"ms":367}
+{"at":"2026-11-21T08:19:32.350Z","event":"search","detail":"productivity: 8 hits (quota 27)","level":"info"}
+{"at":"2026-11-21T08:19:33.990Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Adata-visualization%20stars%3A%3E800%20pushed%3A%3E2026-07-24%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":26,"ms":440}
+{"at":"2026-11-21T08:19:33.990Z","event":"search","detail":"data-viz: 8 hits (quota 26)","level":"info"}
+{"at":"2026-11-21T08:19:35.695Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Acreative-coding%20stars%3A%3E800%20pushed%3A%3E2026-07-24%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":25,"ms":504}
+{"at":"2026-11-21T08:19:35.695Z","event":"search","detail":"creative: 8 hits (quota 25)","level":"info"}
+{"at":"2026-11-21T08:19:37.253Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Atutorial%20stars%3A%3E3000%20pushed%3A%3E2026-07-24%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":24,"ms":357}
+{"at":"2026-11-21T08:19:37.254Z","event":"search","detail":"learning: 8 hits (quota 24)","level":"info"}
+{"at":"2026-11-21T08:19:38.970Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Afirmware%20stars%3A%3E1000%20pushed%3A%3E2026-07-24%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":23,"ms":516}
+{"at":"2026-11-21T08:19:38.970Z","event":"search","detail":"hardware: 8 hits (quota 23)","level":"info"}
+{"at":"2026-11-21T08:19:40.551Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Awebapp%20stars%3A%3E1500%20pushed%3A%3E2026-07-24%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":22,"ms":380}
+{"at":"2026-11-21T08:19:40.551Z","event":"search","detail":"internet-toys: 8 hits (quota 22)","level":"info"}
+{"at":"2026-11-21T08:19:42.190Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aself-hosted%20stars%3A%3E2000%20pushed%3A%3E2026-07-24%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":21,"ms":439}
+{"at":"2026-11-21T08:19:42.190Z","event":"search","detail":"self-hosted: 8 hits (quota 21)","level":"info"}
+{"at":"2026-11-21T08:19:43.891Z","level":"debug","event":"http_ok","url":"https://api.github.com/search/repositories?q=topic%3Aethereum%20stars%3A%3E1000%20pushed%3A%3E2026-07-24%20archived%3Afalse%20fork%3Afalse&sort=stars&order=desc&per_page=8&page=1","status":200,"remaining":20,"ms":501}
+{"at":"2026-11-21T08:19:43.891Z","event":"search","detail":"web3: 8 hits (quota 20)","level":"info"}
+{"at":"2026-11-21T08:19:45.093Z","event":"picked","detail":"none","level":"info"}
+{"at":"2026-11-21T08:19:45.093Z","event":"run_end","level":"info","detail":"{\"ranAt\":\"2026-11-21T08:19:28.628Z\",\"picked\":[],\"added\":[],\"skipped\":\"no fresh candidates passed the filters\"}"}
