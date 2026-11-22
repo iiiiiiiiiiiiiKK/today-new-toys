@@ -1,7 +1,7 @@
 {
   "slug": "css-doodle",
   "repoInput": "css-doodle/css-doodle",
-  "fetchedAt": "2026-11-21T08:18:18.159Z",
+  "fetchedAt": "2026-11-22T08:00:07.227Z",
   "github": {
     "owner": "css-doodle",
     "name": "css-doodle",
@@ -29,9 +29,9 @@
       "url": null
     },
     "createdAt": "2017-02-14T02:26:31Z",
-    "pushedAt": "2026-11-20T13:48:37Z",
+    "pushedAt": "2026-11-22T06:50:41Z",
     "archived": false,
-    "fetchedAt": "2026-11-21T08:18:18.159Z",
+    "fetchedAt": "2026-11-22T08:00:07.227Z",
     "source": "api",
     "warnings": []
   },
@@ -42,12 +42,12 @@
       0,
       0,
       1,
-      14,
-      28,
+      17,
+      25,
       0,
       14,
-      1,
-      1,
+      2,
+      0,
       0,
       0,
       0,
@@ -64,8 +64,8 @@
       0,
       0,
       0,
-      0,
-      6,
+      5,
+      1,
       2,
       0,
       0,
@@ -77,26 +77,34 @@
       1,
       0,
       0,
-      0,
-      79,
+      13,
+      68,
       47,
       13,
-      32,
-      53,
-      125,
-      92,
-      88,
-      45,
+      30,
+      81,
+      100,
+      98,
+      91,
+      42,
+      52,
       58,
-      60,
-      31
+      38
     ],
-    "commits52w": 846,
-    "commits4w": 194,
-    "commits1w": 31,
-    "fetchedAt": "2026-11-21T08:18:18.675Z"
+    "commits52w": 854,
+    "commits4w": 190,
+    "commits1w": 38,
+    "fetchedAt": "2026-11-22T08:00:07.691Z"
   },
   "releases": [
+    {
+      "tag": "v0.71.0",
+      "name": null,
+      "url": "https://github.com/css-doodle/css-doodle/releases/tag/v0.71.0",
+      "publishedAt": "2026-11-22T06:51:43Z",
+      "prerelease": false,
+      "draft": false
+    },
     {
       "tag": "v0.70.1",
       "name": null,
@@ -128,17 +136,9 @@
       "publishedAt": "2026-11-02T15:48:19Z",
       "prerelease": false,
       "draft": false
-    },
-    {
-      "tag": "v0.67.1",
-      "name": null,
-      "url": "https://github.com/css-doodle/css-doodle/releases/tag/v0.67.1",
-      "publishedAt": "2026-10-29T15:03:01Z",
-      "prerelease": false,
-      "draft": false
     }
   ],
-  "commitTotal": 2084,
+  "commitTotal": 2098,
   "readme": {
     "path": "README.md",
     "via": "api",

@@ -1,7 +1,7 @@
 {
   "slug": "dsh-our-free-model",
   "repoInput": "Ebony-Vinyl/dsh-our-free-model",
-  "fetchedAt": "2026-11-21T08:18:22.238Z",
+  "fetchedAt": "2026-11-22T08:00:11.116Z",
   "github": {
     "owner": "Ebony-Vinyl",
     "name": "dsh-our-free-model",
@@ -9,9 +9,9 @@
     "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
     "homepage": null,
     "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
-    "stars": 82489,
-    "forks": 2322,
-    "openIssues": 221,
+    "stars": 83389,
+    "forks": 2342,
+    "openIssues": 228,
     "language": "JavaScript",
     "topics": [
       "ai-agents",
@@ -32,9 +32,9 @@
       "url": null
     },
     "createdAt": "2026-09-24T16:17:19Z",
-    "pushedAt": "2026-11-20T16:23:39Z",
+    "pushedAt": "2026-11-21T10:49:38Z",
     "archived": false,
-    "fetchedAt": "2026-11-21T08:18:22.238Z",
+    "fetchedAt": "2026-11-22T08:00:11.116Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -86,20 +86,20 @@
       0,
       0,
       0,
-      21,
-      44,
-      275,
+      26,
+      83,
+      286,
+      109,
       129,
-      159,
-      126,
-      68,
-      42,
-      57
+      149,
+      60,
+      27,
+      55
     ],
-    "commits52w": 921,
-    "commits4w": 293,
-    "commits1w": 57,
-    "fetchedAt": "2026-11-21T08:18:22.632Z"
+    "commits52w": 924,
+    "commits4w": 291,
+    "commits1w": 55,
+    "fetchedAt": "2026-11-22T08:00:11.472Z"
   },
   "releases": [
     {
@@ -143,7 +143,7 @@
       "draft": false
     }
   ],
-  "commitTotal": 921,
+  "commitTotal": 924,
   "readme": {
     "path": "README.md",
     "via": "api",
@@ -185,7 +185,7 @@
       "致谢",
       "Star 趋势"
     ],
-    "excerpt": "dsh-our-free-model 简体中文 English Trendshift JavaScript 周榜第 1 · 2026-10-05 至 2026-10-11 · 更新中，截至 2026-10-11 你只需在 dsh 里装上这个插件，无需登录、注册、填 API Key 或任何其它操作， 就能用上包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key, nothing else. The frontier models are just there — DeepSeek V4.1 Flash, Kimi K3 and the rest. Free, with no usage cap. 模型清单跟随上游刷新，可用性由 你自己这台机器的网络出口 实测得出， 思考强度下发的是真实预算而不是提示词，另附一个 OpenAI 兼容的本地转发端口。 纯插件挂载：不改内核、无构建步骤、零依赖。 --- 交流群 QQ 群：891170115（OFM技术交流[17群]） 扫码加入群聊，一起交流插件使用心得、反馈问题与分享玩法。 --- 亮点 - 开箱即用，无配置环节 ——不需要账号、不需要 Key、不需要在后台申请配额。 - 上游来源公开透明 ——免费车道来源为 OpenCode 的 Zen 网关，Kilo 渠道来源为 Kilo AI 的公共网关，均直连、不经任何第三方中转。请求由谁处理、数据发往何处，见「上游是哪些源」与「免责声明」。 - 清单跟随上游 ——模型集合、上下文长度与能力在每次刷新时向上游重新拉取，插件内不保存静态快照。 - 选择器只广播可用的模型 ——上游清单已声明但网关明确拒绝路由的模型（返回 `Model is unavailable`、或 404 找不到该 id）从下拉框移除，仅在设置页保留记录并注明拒因；网关自身故障（5xx）、配额限制（429）、超时与断网不属于对模型的判定，一律保持可达；被地区策略拦截的模型归入 region-limited 分组。整轮探测全部被拒时同样保留，选择器不会为空。 - 公告中心 + 实时推送 ——仓库维护者在仓库中编辑 JSON 并推送后，所有已安装实例最迟在一个轮询周期内收到；正文为白名单约束下的 HTML，支持图文排版；`urgent` 级别触发全屏弹窗；可选系统级通知。 - 应用内升级 ——设置页一键升级：下载 → SHA-256 校验 → 备份 → 原子替换 → 校验回读 → 热重载，任一步失败自动回滚至上一版本。 - 热重载 ——升级与代码变更即时生效，无需重启应用；也可在设置页手动触发，或启用文件监视自动重载。 - 按响应体形状判定流式响应 ——网关在高负载下会以 `application/json` 的 content-type 返回完整的 SSE 帧序列。插件按响应体形状判定，并将已嗅探的字节重新注入流，既不会导致整轮失败，也不会因 header 与实际内容不符而将可用模型判为不可用。 - 思考强度实际生效 ——两类模型两种控制：声明了思考档位的模型（如 DeepSeek V4.1 Flash、G",
+    "excerpt": "dsh-our-free-model 简体中文 English Trendshift JavaScript 周榜第 1 · 2026-10-05 至 2026-10-11 · 更新中，截至 2026-10-11 你只需在 dsh 里装上这个插件，无需登录、注册、填 API Key 或任何其它操作， 就能用上包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key, nothing else. The frontier models are just there — DeepSeek V4.1 Flash, Kimi K3 and the rest. Free, with no usage cap. 模型清单跟随上游刷新，可用性由 你自己这台机器的网络出口 实测得出， 思考强度下发的是真实预算而不是提示词，另附一个 OpenAI 兼容的本地转发端口。 纯插件挂载：不改内核、无构建步骤、零依赖。 --- 交流群 QQ 群：386179533（OFM技术交流群[1群]） 扫码加入群聊，一起交流插件使用心得、反馈问题与分享玩法。 --- 亮点 - 开箱即用，无配置环节 ——不需要账号、不需要 Key、不需要在后台申请配额。 - 上游来源公开透明 ——免费车道来源为 OpenCode 的 Zen 网关，Kilo 渠道来源为 Kilo AI 的公共网关，均直连、不经任何第三方中转。请求由谁处理、数据发往何处，见「上游是哪些源」与「免责声明」。 - 清单跟随上游 ——模型集合、上下文长度与能力在每次刷新时向上游重新拉取，插件内不保存静态快照。 - 选择器只广播可用的模型 ——上游清单已声明但网关明确拒绝路由的模型（返回 `Model is unavailable`、或 404 找不到该 id）从下拉框移除，仅在设置页保留记录并注明拒因；网关自身故障（5xx）、配额限制（429）、超时与断网不属于对模型的判定，一律保持可达；被地区策略拦截的模型归入 region-limited 分组。整轮探测全部被拒时同样保留，选择器不会为空。 - 公告中心 + 实时推送 ——仓库维护者在仓库中编辑 JSON 并推送后，所有已安装实例最迟在一个轮询周期内收到；正文为白名单约束下的 HTML，支持图文排版；`urgent` 级别触发全屏弹窗；可选系统级通知。 - 应用内升级 ——设置页一键升级：下载 → SHA-256 校验 → 备份 → 原子替换 → 校验回读 → 热重载，任一步失败自动回滚至上一版本。 - 热重载 ——升级与代码变更即时生效，无需重启应用；也可在设置页手动触发，或启用文件监视自动重载。 - 按响应体形状判定流式响应 ——网关在高负载下会以 `application/json` 的 content-type 返回完整的 SSE 帧序列。插件按响应体形状判定，并将已嗅探的字节重新注入流，既不会导致整轮失败，也不会因 header 与实际内容不符而将可用模型判为不可用。 - 思考强度实际生效 ——两类模型两种控制：声明了思考档位的模型（如 DeepSeek V4.1 Flash、G",
     "truncated": true,
     "rawFile": "data/readme/dsh-our-free-model.md"
   }

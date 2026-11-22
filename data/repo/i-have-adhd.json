@@ -1,7 +1,7 @@
 {
   "slug": "i-have-adhd",
   "repoInput": "ayghri/i-have-adhd",
-  "fetchedAt": "2026-11-21T08:18:40.765Z",
+  "fetchedAt": "2026-11-22T08:00:28.910Z",
   "github": {
     "owner": "ayghri",
     "name": "i-have-adhd",
@@ -9,8 +9,8 @@
     "url": "https://github.com/ayghri/i-have-adhd",
     "homepage": null,
     "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-    "stars": 61839,
-    "forks": 3628,
+    "stars": 61913,
+    "forks": 3631,
     "openIssues": 103,
     "language": "Python",
     "topics": [
@@ -29,7 +29,7 @@
     "createdAt": "2026-05-13T20:42:06Z",
     "pushedAt": "2026-10-19T19:46:23Z",
     "archived": false,
-    "fetchedAt": "2026-11-21T08:18:40.765Z",
+    "fetchedAt": "2026-11-22T08:00:28.910Z",
     "source": "api",
     "warnings": []
   },
@@ -70,17 +70,17 @@
       0,
       0,
       0,
-      88,
+      89,
       22,
-      34,
+      33,
       10,
       21,
       2,
       10,
-      25,
-      25,
-      3,
-      3,
+      26,
+      26,
+      2,
+      2,
       10,
       1,
       0,
@@ -92,7 +92,7 @@
     "commits52w": 263,
     "commits4w": 0,
     "commits1w": 0,
-    "fetchedAt": "2026-11-21T08:18:41.127Z"
+    "fetchedAt": "2026-11-22T08:00:29.192Z"
   },
   "releases": [
     {

@@ -1,7 +1,7 @@
 {
   "slug": "observable-plot",
   "repoInput": "observablehq/plot",
-  "fetchedAt": "2026-11-21T08:18:55.402Z",
+  "fetchedAt": "2026-11-22T08:00:42.046Z",
   "github": {
     "owner": "observablehq",
     "name": "plot",
@@ -9,8 +9,8 @@
     "url": "https://github.com/observablehq/plot",
     "homepage": "https://observablehq.github.io/plot/",
     "description": "A concise API for exploratory data visualization implementing a layered grammar of graphics",
-    "stars": 5430,
-    "forks": 256,
+    "stars": 5432,
+    "forks": 257,
     "openIssues": 355,
     "language": "HTML",
     "topics": [
@@ -28,7 +28,7 @@
     "createdAt": "2020-10-29T22:30:31Z",
     "pushedAt": "2026-11-05T22:31:26Z",
     "archived": false,
-    "fetchedAt": "2026-11-21T08:18:55.402Z",
+    "fetchedAt": "2026-11-22T08:00:42.046Z",
     "source": "api",
     "warnings": []
   },
@@ -54,13 +54,13 @@
       2,
       0,
       19,
-      5,
       7,
-      0,
+      5,
       0,
       0,
       0,
       1,
+      0,
       0,
       0,
       0,
@@ -91,7 +91,7 @@
     "commits52w": 50,
     "commits4w": 13,
     "commits1w": 0,
-    "fetchedAt": "2026-11-21T08:18:55.946Z"
+    "fetchedAt": "2026-11-22T08:00:42.383Z"
   },
   "releases": [
     {

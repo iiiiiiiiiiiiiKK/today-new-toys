@@ -1,7 +1,7 @@
 {
   "slug": "flipper-zero",
   "repoInput": "flipperdevices/flipperzero-firmware",
-  "fetchedAt": "2026-11-21T08:18:32.726Z",
+  "fetchedAt": "2026-11-22T08:00:21.100Z",
   "github": {
     "owner": "flipperdevices",
     "name": "flipperzero-firmware",
@@ -9,9 +9,9 @@
     "url": "https://github.com/flipperdevices/flipperzero-firmware",
     "homepage": "https://flipper.net",
     "description": "Flipper Zero firmware source code",
-    "stars": 16945,
-    "forks": 3543,
-    "openIssues": 283,
+    "stars": 16953,
+    "forks": 3545,
+    "openIssues": 282,
     "language": "C",
     "topics": [
       "armv7m",
@@ -32,9 +32,9 @@
       "url": null
     },
     "createdAt": "2020-07-31T21:43:20Z",
-    "pushedAt": "2026-11-14T15:15:03Z",
+    "pushedAt": "2026-11-21T23:05:56Z",
     "archived": false,
-    "fetchedAt": "2026-11-21T08:18:32.726Z",
+    "fetchedAt": "2026-11-22T08:00:21.100Z",
     "source": "api",
     "warnings": []
   },
@@ -72,8 +72,8 @@
       0,
       0,
       1,
-      26,
-      5,
+      29,
+      2,
       0,
       4,
       7,
@@ -90,14 +90,14 @@
       1,
       2,
       1,
-      0,
-      4,
-      1
+      3,
+      2,
+      2
     ],
-    "commits52w": 73,
-    "commits4w": 6,
-    "commits1w": 1,
-    "fetchedAt": "2026-11-21T08:18:33.127Z"
+    "commits52w": 75,
+    "commits4w": 8,
+    "commits1w": 2,
+    "fetchedAt": "2026-11-22T08:00:21.445Z"
   },
   "releases": [
     {
@@ -141,7 +141,7 @@
       "draft": false
     }
   ],
-  "commitTotal": 2807,
+  "commitTotal": 2809,
   "readme": {
     "path": "ReadMe.md",
     "via": "api",
