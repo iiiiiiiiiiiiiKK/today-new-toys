@@ -1,7 +1,7 @@
 {
   "slug": "markitdown",
   "repoInput": "microsoft/markitdown",
-  "fetchedAt": "2026-11-22T08:00:36.081Z",
+  "fetchedAt": "2026-11-23T09:08:34.147Z",
   "github": {
     "owner": "microsoft",
     "name": "markitdown",
@@ -9,9 +9,9 @@
     "url": "https://github.com/microsoft/markitdown",
     "homepage": null,
     "description": "Python tool for converting files and office documents to Markdown.",
-    "stars": 197683,
-    "forks": 14964,
-    "openIssues": 829,
+    "stars": 197958,
+    "forks": 14994,
+    "openIssues": 835,
     "language": "Python",
     "topics": [
       "autogen",
@@ -30,7 +30,7 @@
     "createdAt": "2024-11-13T19:56:40Z",
     "pushedAt": "2026-11-07T00:14:01Z",
     "archived": false,
-    "fetchedAt": "2026-11-22T08:00:36.081Z",
+    "fetchedAt": "2026-11-23T09:08:34.147Z",
     "source": "api",
     "warnings": []
   },
@@ -81,8 +81,8 @@
       33,
       2,
       2,
-      12,
-      2,
+      14,
+      0,
       0,
       6,
       0,
@@ -93,7 +93,7 @@
     "commits52w": 134,
     "commits4w": 3,
     "commits1w": 0,
-    "fetchedAt": "2026-11-22T08:00:36.465Z"
+    "fetchedAt": "2026-11-23T09:08:34.578Z"
   },
   "releases": [
     {

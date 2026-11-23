@@ -1,7 +1,7 @@
 {
   "slug": "union",
   "repoInput": "unionlabs/union",
-  "fetchedAt": "2026-11-22T08:01:04.741Z",
+  "fetchedAt": "2026-11-23T09:09:09.635Z",
   "github": {
     "owner": "unionlabs",
     "name": "union",
@@ -9,8 +9,8 @@
     "url": "https://github.com/unionlabs/union",
     "homepage": "https://union.build",
     "description": "The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.",
-    "stars": 73707,
-    "forks": 3893,
+    "stars": 73712,
+    "forks": 3892,
     "openIssues": 198,
     "language": "Rust",
     "topics": [
@@ -42,7 +42,7 @@
     "createdAt": "2023-05-16T22:33:39Z",
     "pushedAt": "2026-07-25T18:20:02Z",
     "archived": false,
-    "fetchedAt": "2026-11-22T08:01:04.741Z",
+    "fetchedAt": "2026-11-23T09:09:09.635Z",
     "source": "api",
     "warnings": []
   },
@@ -50,16 +50,16 @@
   "activity": {
     "weekly": [
       21,
-      29,
-      43,
+      30,
+      42,
       29,
       52,
-      10,
-      22,
-      42,
+      14,
+      24,
+      36,
       43,
-      26,
       27,
+      26,
       8,
       3,
       0,
@@ -70,15 +70,15 @@
       0,
       0,
       2,
-      1,
-      14,
+      4,
+      11,
       8,
       13,
       13,
       2,
       4,
-      7,
-      4,
+      8,
+      3,
       4,
       2,
       0,
@@ -105,7 +105,7 @@
     "commits52w": 438,
     "commits4w": 0,
     "commits1w": 0,
-    "fetchedAt": "2026-11-22T08:01:05.063Z"
+    "fetchedAt": "2026-11-23T09:09:10.049Z"
   },
   "releases": [
     {

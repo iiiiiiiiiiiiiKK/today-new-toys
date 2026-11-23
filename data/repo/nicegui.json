@@ -1,7 +1,7 @@
 {
   "slug": "nicegui",
   "repoInput": "zauberzeug/nicegui",
-  "fetchedAt": "2026-11-22T08:00:41.356Z",
+  "fetchedAt": "2026-11-23T09:08:40.009Z",
   "github": {
     "owner": "zauberzeug",
     "name": "nicegui",
@@ -10,7 +10,7 @@
     "homepage": "https://nicegui.io",
     "description": "Create web-based user interfaces with Python. The nice way.",
     "stars": 16355,
-    "forks": 978,
+    "forks": 979,
     "openIssues": 34,
     "language": "Python",
     "topics": [
@@ -32,9 +32,9 @@
       "url": null
     },
     "createdAt": "2021-05-07T13:55:05Z",
-    "pushedAt": "2026-11-20T17:16:38Z",
+    "pushedAt": "2026-11-23T08:46:01Z",
     "archived": false,
-    "fetchedAt": "2026-11-22T08:00:41.356Z",
+    "fetchedAt": "2026-11-23T09:08:40.009Z",
     "source": "api",
     "warnings": []
   },
@@ -51,21 +51,21 @@
       23,
       16,
       18,
-      15,
-      23,
       16,
+      22,
+      17,
       10,
-      6,
+      5,
       13,
-      14,
-      19,
-      13,
-      12,
+      16,
+      17,
+      16,
+      9,
       9,
       15,
+      15,
       14,
-      14,
-      12,
+      11,
       8,
       4,
       8,
@@ -84,20 +84,20 @@
       0,
       14,
       13,
-      5,
+      8,
       12,
-      18,
+      15,
       14,
-      16,
-      38,
-      30,
+      19,
+      36,
+      29,
       17,
       8
     ],
     "commits52w": 677,
-    "commits4w": 93,
+    "commits4w": 90,
     "commits1w": 8,
-    "fetchedAt": "2026-11-22T08:00:41.681Z"
+    "fetchedAt": "2026-11-23T09:08:40.409Z"
   },
   "releases": [
     {
@@ -141,7 +141,7 @@
       "draft": false
     }
   ],
-  "commitTotal": 7021,
+  "commitTotal": 7022,
   "readme": {
     "path": "README.md",
     "via": "api",

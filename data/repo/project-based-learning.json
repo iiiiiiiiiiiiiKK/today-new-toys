@@ -1,7 +1,7 @@
 {
   "slug": "project-based-learning",
   "repoInput": "practical-tutorials/project-based-learning",
-  "fetchedAt": "2026-11-22T08:00:51.602Z",
+  "fetchedAt": "2026-11-23T09:08:53.137Z",
   "github": {
     "owner": "practical-tutorials",
     "name": "project-based-learning",
@@ -9,8 +9,8 @@
     "url": "https://github.com/practical-tutorials/project-based-learning",
     "homepage": null,
     "description": "Curated list of project-based tutorials",
-    "stars": 290228,
-    "forks": 36851,
+    "stars": 290309,
+    "forks": 36858,
     "openIssues": 215,
     "language": "Python",
     "topics": [
@@ -29,9 +29,9 @@
       "url": null
     },
     "createdAt": "2017-04-12T05:07:46Z",
-    "pushedAt": "2026-11-16T06:44:31Z",
+    "pushedAt": "2026-11-23T06:41:02Z",
     "archived": false,
-    "fetchedAt": "2026-11-22T08:00:51.602Z",
+    "fetchedAt": "2026-11-23T09:08:53.137Z",
     "source": "api",
     "warnings": []
   },
@@ -94,10 +94,10 @@
     "commits52w": 43,
     "commits4w": 4,
     "commits1w": 1,
-    "fetchedAt": "2026-11-22T08:00:51.939Z"
+    "fetchedAt": "2026-11-23T09:08:53.647Z"
   },
   "releases": [],
-  "commitTotal": 613,
+  "commitTotal": 614,
   "readme": {
     "path": "README.md",
     "via": "api",

@@ -131,7 +131,7 @@ EAC、客户端与订阅、资源库、API 接入、设置与**插件中心**）
 > `dsh-our-free-model-<版本>.tgz` 同源、同版本。只想走 npm 时可以装它：
 >
 > ```
-> dsh plugin --profile web add @ebony-vinyl/dsh-our-free-model@2.8.9
+> dsh plugin --profile web add @ebony-vinyl/dsh-our-free-model@2.9.0
 > ```
 >
 > 注意它的包名带 scope，因此挂载条目是 `@ebony-vinyl/dsh-our-free-model`，与下文
@@ -163,7 +163,7 @@ PROFILE_UPGRADE_REQUIRED: offline dependency migration is not yet available
 以真实目录手工安装时，使用可信源码打出的本地 tarball：
 
 1. 创建 `<DSH_HOME>/profiles/<profile>/vendor/`，在审核过的本仓库目录运行 `npm pack --ignore-scripts --pack-destination "<DSH_HOME>/profiles/<profile>/vendor"`，或将本仓库正式发布的同版本 tarball 放入该目录。本地打包不执行 npm 发布。
-2. 在 profile 的 `package.json` 的 dependencies 中加入 `"dsh-our-free-model": "file:./vendor/dsh-our-free-model-2.8.9.tgz"`。文件名版本跟随仓库 `package.json`，不要改成同名 npm 注册表版本；再通过宿主的安装流程解析依赖。
+2. 在 profile 的 `package.json` 的 dependencies 中加入 `"dsh-our-free-model": "file:./vendor/dsh-our-free-model-2.9.0.tgz"`。文件名版本跟随仓库 `package.json`，不要改成同名 npm 注册表版本；再通过宿主的安装流程解析依赖。
 3. 在 dsh.profile.bundles 末尾追加 `"dsh-our-free-model"`。
 
 包管理器拥有这份安装的字节时，同时将 bundle config 或插件 `settings.json` 的 `distribution` 设为 `managed`，由包管理器统一更新；应用内升级、公告 feed 与热重载会停用，模型功能保留。以后更新时替换可信 tarball 并同步依赖路径，避免包管理器按旧锁文件恢复旧版本。
@@ -377,13 +377,13 @@ src/anthropic.js /v1/messages 的 Anthropic Messages 编解码与本地 token �
 src/token-saver/index.js 压缩管线：提示词注入 -> 工具输出压缩，按字节留痕、失败开放
 src/token-saver/inject.js chat / messages / responses 三线的幂等注入与撤销
 src/token-saver/prompts.js caveman / ponytail 两族提示词与档位
-src/token-saver/rtk/ 工具输出过滤器：git diff/status/log、grep、find、ls、tree、
+src/token-saver/compact/ 工具输出过滤器：git diff/status/log、grep、find、ls、tree、
  构建日志、编号转储、搜索清单、重复日志行
 src/local-optimize.js 五个本地应答：额度探测、命令前缀、会话标题、建议模式、文件路径
 src/combos.js 降级链：虚拟清单行、两种策略、容量取交集
 src/route/classify.js 全车道统一的失败词汇与冷却策略
 src/trust.js 插件路由的请求信任围栏（connection 服务桥 + 结构化围栏）
-src/push.js SSE 推送枢纽：公告到达、更新可用、升级完成
+index.js SSE 推送枢纽（createPushHub，原 src/push.js 已并入）：公告到达、更新可用、升级完成
 src/feed.js 远程公告 feed：多源拉取、校验、缓存、到达检测
 src/updater.js 应用内升级：清单校验、SHA-256 分级校验、备份、原子替换、回滚
 src/reload.js 自热重载：镜像内核 HMR 的缓存清除 + 重导入 + 重注册 + 回滚序列
@@ -782,18 +782,21 @@ DeepSeek Harness 桌面端（Electron 壳）与 DSH Tauri：使用内核提供�
 感谢 Jet（iJetLi）的渠道包（`vendor/channel-pack/`，MIT；上游仓库 [dsh-providers-hub](https://github.com/iJetLi/dsh-providers-hub)）——
 十个内置账号渠道的登录、账号池与本地网关都出自这里，许可证与出处见该目录下的 LICENSE 与 NOTICE.md。
 
-也感谢这些项目的代码或数据：
+也感谢这些项目：
 
-- [opencode2api](https://github.com/jasonxu114514/opencode2api)（GPL-3.0）：历史免费车道请求整形来源；2.8.6 的实现变化和已删除资产见 [维护说明](src/o2a/SYNC.md)。
-- [free-claude-code](https://github.com/Alishahryar1/free-claude-code)（AGPL-3.0-only）：历史供应商目录及五个本地应答的来源；2.8.6 重写本地应答并重建目录，历史 ID 的处理见 [兼容说明](docs/provider-compatibility.md)。
-- [9router](https://github.com/decolua/9router)（MIT）：部分提供商目录，以及免费车道的请求形状参考。
-- [models.dev](https://github.com/anomalyco/models.dev)（MIT）：模型窗口、输出上限与思考档位。
-- [trae-mate](https://github.com/luckymiaow/trae-mate)（MIT）：TRAE 签到流程参考。
-- [dsh-cline-pass](https://github.com/codeOct/dsh-cline-pass)（MIT）：Cline 额度与请求记录参考。
-- [rtk](https://github.com/rtk-ai/rtk)（CLI Apache-2.0，engine BUSL-1.1）：工具输出过滤器的历史参考；2.8.6 的替换范围和行为对照见 [验证记录](docs/verification/2026-11-18-independent-core.md)。
+- [models.dev](https://github.com/anomalyco/models.dev)（MIT）：模型窗口、输出上限与思考档位。目录数据按 MIT 使用，许可证全文见 [LICENSE](LICENSE)。
+- [9router](https://github.com/decolua/9router)（MIT）：`scripts/probes/` 下 8 个取证脚本的原始来源——那 8 个文件是逐字副本（只改了探测的 base URL），文件头保留了 MIT 归属，许可证全文见 [LICENSE](LICENSE#9router--mit)。它们 import 9router 自己的模块，只在该项目的 checkout 内可运行，不进发行集。
 - [magpie-muse-web](https://github.com/JohnWangggg/magpie-muse-web)（上游未声明 SPDX 许可证）：`muse-web` 桥接扩展的上游。
 
-根目录的 MIT 只覆盖 OFM 自己写的代码；上面这些组件和数据按各自许可证提供，完整条款以上游 LICENSE 为准。这份名单是来源记录，不改变任何组件的许可证。
+**以下项目在本仓库里不再有任何代码或数据**，只作为历史记录保留：
+
+- [opencode2api](https://github.com/jasonxu114514/opencode2api)（GPL-3.0）：免费车道请求整形的最早参考。2.8.6 已把相关实现重写并删除其资产，当前代码与该项目的文件没有共享文本、函数名或常量表；现在只按 [sst/opencode](https://github.com/sst/opencode) v2.2.3（MIT）生成的官方资产工作，见 [维护说明](src/o2a/SYNC.md)。
+- [free-claude-code](https://github.com/Alishahryar1/free-claude-code)（AGPL-3.0-only）：供应商目录与五个本地应答的最早参考。2.8.6 重写本地应答、按 models.dev 重建目录；只剩五个优化 id 与部分 provider id 作为**持久化配置键**沿用（改名会让用户已关掉的开关静默复活），见 [兼容说明](docs/provider-compatibility.md)。
+- [trae-mate](https://github.com/luckymiaow/trae-mate)（MIT）：TRAE 签到流程的早期参考，已被重写取代。
+- [dsh-cline-pass](https://github.com/codeOct/dsh-cline-pass)（MIT）：Cline 额度与请求记录的早期参考，已被重写取代。
+- [rtk](https://github.com/rtk-ai/rtk)（CLI Apache-2.0，engine BUSL-1.1）：工具输出过滤器的最早参考。`src/token-saver/compact/` 已全部重写，仅保留 RTK 的输出标记与阈值——那些标记是模型读惯的线格式，改掉会改变模型行为而不是让代码更原创。2.8.6 的替换范围见 [验证记录](docs/verification/2026-11-18-independent-core.md)。
+
+根目录的 MIT 只覆盖 OFM 自己写的代码；上面仍在使用的组件和数据按各自许可证提供，完整条款以上游 LICENSE 为准。这份名单是来源记录，不改变任何组件的许可证。
 
 ## Star 趋势
 

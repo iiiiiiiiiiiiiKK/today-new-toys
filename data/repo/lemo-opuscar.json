@@ -1,7 +1,7 @@
 {
   "slug": "lemo-opuscar",
   "repoInput": "lemomo-ai/lemo-opuscar",
-  "fetchedAt": "2026-11-22T08:00:33.112Z",
+  "fetchedAt": "2026-11-23T09:08:30.591Z",
   "github": {
     "owner": "lemomo-ai",
     "name": "lemo-opuscar",
@@ -9,8 +9,8 @@
     "url": "https://github.com/lemomo-ai/lemo-opuscar",
     "homepage": "https://lemomo-ai.github.io/lemo-opuscar/",
     "description": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的",
-    "stars": 19613,
-    "forks": 2491,
+    "stars": 20053,
+    "forks": 2558,
     "openIssues": 2,
     "language": "JavaScript",
     "topics": [
@@ -42,9 +42,9 @@
       "url": null
     },
     "createdAt": "2026-09-26T10:10:41Z",
-    "pushedAt": "2026-11-20T04:32:37Z",
+    "pushedAt": "2026-11-23T04:53:40Z",
     "archived": false,
-    "fetchedAt": "2026-11-22T08:00:33.112Z",
+    "fetchedAt": "2026-11-23T09:08:30.591Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -96,20 +96,20 @@
       0,
       0,
       0,
-      6,
-      14,
-      4,
-      18,
       12,
-      34,
-      37,
-      16,
+      8,
+      4,
+      21,
+      9,
+      35,
+      46,
+      6,
       6
     ],
     "commits52w": 147,
     "commits4w": 93,
     "commits1w": 6,
-    "fetchedAt": "2026-11-22T08:00:33.476Z"
+    "fetchedAt": "2026-11-23T09:08:31.076Z"
   },
   "releases": [
     {
@@ -153,7 +153,7 @@
       "draft": false
     }
   ],
-  "commitTotal": 147,
+  "commitTotal": 148,
   "readme": {
     "path": "README.md",
     "via": "api",
