@@ -1,7 +1,7 @@
 {
   "slug": "espanso",
   "repoInput": "espanso/espanso",
-  "fetchedAt": "2026-11-23T09:08:09.893Z",
+  "fetchedAt": "2026-11-24T10:56:42.580Z",
   "github": {
     "owner": "espanso",
     "name": "espanso",
@@ -9,8 +9,8 @@
     "url": "https://github.com/espanso/espanso",
     "homepage": "https://espanso.org",
     "description": "A Privacy-first, Cross-platform Text Expander written in Rust",
-    "stars": 14823,
-    "forks": 497,
+    "stars": 14826,
+    "forks": 500,
     "openIssues": 595,
     "language": "Rust",
     "topics": [
@@ -31,16 +31,16 @@
     "createdAt": "2019-08-30T07:16:58Z",
     "pushedAt": "2026-11-22T00:14:44Z",
     "archived": false,
-    "fetchedAt": "2026-11-23T09:08:09.893Z",
+    "fetchedAt": "2026-11-24T10:56:42.580Z",
     "source": "api",
     "warnings": []
   },
   "defaultBranch": "dev",
   "activity": {
     "weekly": [
-      1,
-      2,
-      12,
+      0,
+      7,
+      7,
       1,
       0,
       0,
@@ -60,11 +60,11 @@
       0,
       0,
       0,
-      2,
       9,
       2,
-      21,
       2,
+      23,
+      0,
       0,
       0,
       1,
@@ -76,10 +76,10 @@
       1,
       0,
       2,
-      0,
       2,
-      3,
+      0,
       5,
+      3,
       1,
       0,
       0,
@@ -91,10 +91,10 @@
       0,
       0
     ],
-    "commits52w": 95,
+    "commits52w": 94,
     "commits4w": 0,
     "commits1w": 0,
-    "fetchedAt": "2026-11-23T09:08:10.358Z"
+    "fetchedAt": "2026-11-24T10:56:43.069Z"
   },
   "releases": [
     {

@@ -1,7 +1,7 @@
 {
   "slug": "pygwalker",
   "repoInput": "Kanaries/pygwalker",
-  "fetchedAt": "2026-11-23T09:08:54.919Z",
+  "fetchedAt": "2026-11-24T10:57:29.811Z",
   "github": {
     "owner": "Kanaries",
     "name": "pygwalker",
@@ -9,7 +9,7 @@
     "url": "https://github.com/Kanaries/pygwalker",
     "homepage": "https://kanaries.net/pygwalker",
     "description": "PyGWalker: Turn your dataframe into an interactive UI for visual analysis",
-    "stars": 16004,
+    "stars": 16005,
     "forks": 895,
     "openIssues": 72,
     "language": "Python",
@@ -32,15 +32,15 @@
     "createdAt": "2023-02-16T05:17:24Z",
     "pushedAt": "2026-09-05T19:19:19Z",
     "archived": false,
-    "fetchedAt": "2026-11-23T09:08:54.919Z",
+    "fetchedAt": "2026-11-24T10:57:29.811Z",
     "source": "api",
     "warnings": []
   },
   "defaultBranch": "main",
   "activity": {
     "weekly": [
-      0,
       1,
+      0,
       0,
       0,
       0,
@@ -52,8 +52,8 @@
       0,
       0,
       0,
-      3,
-      2,
+      5,
+      0,
       0,
       0,
       0,
@@ -68,8 +68,8 @@
       0,
       0,
       4,
-      120,
-      8,
+      121,
+      7,
       1,
       0,
       0,
@@ -95,7 +95,7 @@
     "commits52w": 149,
     "commits4w": 0,
     "commits1w": 0,
-    "fetchedAt": "2026-11-23T09:08:55.371Z"
+    "fetchedAt": "2026-11-24T10:57:30.748Z"
   },
   "releases": [
     {

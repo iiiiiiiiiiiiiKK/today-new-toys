@@ -1,7 +1,7 @@
 {
   "slug": "css-doodle",
   "repoInput": "css-doodle/css-doodle",
-  "fetchedAt": "2026-11-23T09:08:00.760Z",
+  "fetchedAt": "2026-11-24T10:56:33.912Z",
   "github": {
     "owner": "css-doodle",
     "name": "css-doodle",
@@ -9,7 +9,7 @@
     "url": "https://github.com/css-doodle/css-doodle",
     "homepage": "https://css-doodle.com",
     "description": "A web component for visual art and creative coding",
-    "stars": 6083,
+    "stars": 6084,
     "forks": 212,
     "openIssues": 0,
     "language": "JavaScript",
@@ -29,23 +29,23 @@
       "url": null
     },
     "createdAt": "2017-02-14T02:26:31Z",
-    "pushedAt": "2026-11-22T12:57:11Z",
+    "pushedAt": "2026-11-24T04:24:56Z",
     "archived": false,
-    "fetchedAt": "2026-11-23T09:08:00.760Z",
+    "fetchedAt": "2026-11-24T10:56:33.912Z",
     "source": "api",
     "warnings": []
   },
   "defaultBranch": "main",
   "activity": {
     "weekly": [
-      24,
+      23,
       0,
       0,
-      6,
-      31,
-      6,
+      8,
+      34,
       1,
-      13,
+      8,
+      6,
       2,
       0,
       0,
@@ -59,8 +59,8 @@
       1,
       0,
       7,
-      4,
-      1,
+      5,
+      0,
       0,
       0,
       0,
@@ -77,24 +77,24 @@
       1,
       0,
       0,
-      23,
-      73,
-      39,
+      29,
+      76,
+      30,
       8,
+      52,
+      67,
+      103,
+      111,
+      80,
+      46,
+      58,
       36,
-      74,
-      99,
-      116,
-      81,
-      39,
-      65,
-      43,
-      45
+      81
     ],
-    "commits52w": 863,
-    "commits4w": 192,
-    "commits1w": 45,
-    "fetchedAt": "2026-11-23T09:08:01.278Z"
+    "commits52w": 898,
+    "commits4w": 221,
+    "commits1w": 81,
+    "fetchedAt": "2026-11-24T10:56:34.507Z"
   },
   "releases": [
     {
@@ -138,7 +138,7 @@
       "draft": false
     }
   ],
-  "commitTotal": 2102,
+  "commitTotal": 2147,
   "readme": {
     "path": "README.md",
     "via": "api",
