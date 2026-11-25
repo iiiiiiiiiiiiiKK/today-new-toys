@@ -810,5 +810,13 @@
     "title": "dsh-our-free-model",
     "capturedAt": "2026-11-20T08:36:26.698Z",
     "auto": true
+  },
+  "sharex": {
+    "src": "/shots/sharex.jpg",
+    "captureUrl": "https://getsharex.com",
+    "origin": "live",
+    "title": "ShareX",
+    "capturedAt": "2026-11-25T09:54:14.942Z",
+    "auto": true
   }
 }
