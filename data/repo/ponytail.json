@@ -1,7 +1,7 @@
 {
   "slug": "ponytail",
   "repoInput": "DietrichGebert/ponytail",
-  "fetchedAt": "2026-11-24T10:57:27.080Z",
+  "fetchedAt": "2026-11-25T09:53:17.145Z",
   "github": {
     "owner": "DietrichGebert",
     "name": "ponytail",
@@ -9,9 +9,9 @@
     "url": "https://github.com/DietrichGebert/ponytail",
     "homepage": "https://ponytail.dev",
     "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "stars": 197772,
-    "forks": 11188,
-    "openIssues": 328,
+    "stars": 198373,
+    "forks": 11239,
+    "openIssues": 332,
     "language": "JavaScript",
     "topics": [
       "agent-skills",
@@ -33,7 +33,7 @@
     "createdAt": "2026-06-12T00:52:37Z",
     "pushedAt": "2026-11-22T02:31:58Z",
     "archived": false,
-    "fetchedAt": "2026-11-24T10:57:27.080Z",
+    "fetchedAt": "2026-11-25T09:53:17.145Z",
     "source": "api",
     "warnings": []
   },
@@ -68,11 +68,11 @@
       0,
       0,
       0,
-      64,
-      49,
-      41,
-      10,
-      41,
+      69,
+      56,
+      30,
+      16,
+      34,
       1,
       0,
       0,
@@ -85,8 +85,8 @@
       0,
       0,
       87,
-      21,
-      31,
+      33,
+      19,
       0,
       6,
       0,
@@ -96,7 +96,7 @@
     "commits52w": 372,
     "commits4w": 9,
     "commits1w": 3,
-    "fetchedAt": "2026-11-24T10:57:27.515Z"
+    "fetchedAt": "2026-11-25T09:53:17.649Z"
   },
   "releases": [
     {

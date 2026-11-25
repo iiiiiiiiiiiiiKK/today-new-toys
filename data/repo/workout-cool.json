@@ -1,7 +1,7 @@
 {
   "slug": "workout-cool",
   "repoInput": "Snouzy/workout-cool",
-  "fetchedAt": "2026-11-24T10:57:50.597Z",
+  "fetchedAt": "2026-11-25T09:53:39.784Z",
   "github": {
     "owner": "Snouzy",
     "name": "workout-cool",
@@ -11,7 +11,7 @@
     "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exercise database.",
     "stars": 8706,
     "forks": 773,
-    "openIssues": 90,
+    "openIssues": 91,
     "language": "TypeScript",
     "topics": [
       "coach",
@@ -39,20 +39,19 @@
       "url": null
     },
     "createdAt": "2025-06-11T13:19:26Z",
-    "pushedAt": "2026-11-02T22:02:20Z",
+    "pushedAt": "2026-11-24T15:12:18Z",
     "archived": false,
-    "fetchedAt": "2026-11-24T10:57:50.597Z",
+    "fetchedAt": "2026-11-25T09:53:39.784Z",
     "source": "api",
     "warnings": []
   },
   "defaultBranch": "main",
   "activity": {
     "weekly": [
-      0,
-      4,
+      2,
+      2,
       0,
       1,
-      0,
       0,
       0,
       0,
@@ -64,8 +63,9 @@
       0,
       0,
       1,
-      34,
-      13,
+      0,
+      37,
+      10,
       5,
       1,
       0,
@@ -104,7 +104,7 @@
     "commits52w": 65,
     "commits4w": 1,
     "commits1w": 0,
-    "fetchedAt": "2026-11-24T10:57:51.052Z"
+    "fetchedAt": "2026-11-25T09:53:40.181Z"
   },
   "releases": [
     {

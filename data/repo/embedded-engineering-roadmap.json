@@ -1,7 +1,7 @@
 {
   "slug": "embedded-engineering-roadmap",
   "repoInput": "m3y54m/Embedded-Engineering-Roadmap",
-  "fetchedAt": "2026-11-24T10:56:40.724Z",
+  "fetchedAt": "2026-11-25T09:52:30.863Z",
   "github": {
     "owner": "m3y54m",
     "name": "Embedded-Engineering-Roadmap",
@@ -9,8 +9,8 @@
     "url": "https://github.com/m3y54m/Embedded-Engineering-Roadmap",
     "homepage": "https://m3y54m.github.io/Embedded-Engineering-Roadmap/",
     "description": "Comprehensive roadmap for aspiring Embedded Systems Engineers, featuring a curated list of learning resources",
-    "stars": 13974,
-    "forks": 1372,
+    "stars": 13982,
+    "forks": 1373,
     "openIssues": 4,
     "language": "JavaScript",
     "topics": [
@@ -35,15 +35,15 @@
     "createdAt": "2023-07-25T14:14:27Z",
     "pushedAt": "2026-11-19T16:28:55Z",
     "archived": false,
-    "fetchedAt": "2026-11-24T10:56:40.724Z",
+    "fetchedAt": "2026-11-25T09:52:30.863Z",
     "source": "api",
     "warnings": []
   },
   "defaultBranch": "master",
   "activity": {
     "weekly": [
-      0,
       2,
+      0,
       1,
       0,
       0,
@@ -56,8 +56,8 @@
       2,
       2,
       0,
-      0,
-      7,
+      2,
+      5,
       0,
       0,
       0,
@@ -86,9 +86,9 @@
       0,
       0,
       0,
-      2,
-      69,
-      2,
+      3,
+      70,
+      0,
       0,
       1,
       1,
@@ -98,7 +98,7 @@
     "commits52w": 105,
     "commits4w": 5,
     "commits1w": 2,
-    "fetchedAt": "2026-11-24T10:56:41.259Z"
+    "fetchedAt": "2026-11-25T09:52:31.301Z"
   },
   "releases": [
     {

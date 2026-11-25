@@ -1,7 +1,7 @@
 {
   "slug": "cs-self-learning",
   "repoInput": "PKUFlyingPig/cs-self-learning",
-  "fetchedAt": "2026-11-24T10:56:33.024Z",
+  "fetchedAt": "2026-11-25T09:52:23.086Z",
   "github": {
     "owner": "PKUFlyingPig",
     "name": "cs-self-learning",
@@ -9,7 +9,7 @@
     "url": "https://github.com/PKUFlyingPig/cs-self-learning",
     "homepage": "https://csdiy.wiki",
     "description": "计算机自学指南",
-    "stars": 76842,
+    "stars": 76859,
     "forks": 8033,
     "openIssues": 167,
     "language": "HTML",
@@ -22,7 +22,7 @@
     "createdAt": "2021-10-20T13:43:42Z",
     "pushedAt": "2026-09-17T02:11:53Z",
     "archived": false,
-    "fetchedAt": "2026-11-24T10:56:33.024Z",
+    "fetchedAt": "2026-11-25T09:52:23.086Z",
     "source": "api",
     "warnings": []
   },
@@ -41,8 +41,7 @@
       2,
       0,
       0,
-      4,
-      1,
+      5,
       0,
       0,
       0,
@@ -66,12 +65,13 @@
       3,
       0,
       0,
-      1,
-      0,
       0,
       1,
       0,
-      2,
+      0,
+      1,
+      1,
+      1,
       0,
       0,
       0,
@@ -85,7 +85,7 @@
     "commits52w": 18,
     "commits4w": 0,
     "commits1w": 0,
-    "fetchedAt": "2026-11-24T10:56:33.505Z"
+    "fetchedAt": "2026-11-25T09:52:23.540Z"
   },
   "releases": [
     {

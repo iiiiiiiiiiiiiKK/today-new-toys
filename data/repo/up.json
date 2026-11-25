@@ -1,7 +1,7 @@
 {
   "slug": "up",
   "repoInput": "byoungd/up",
-  "fetchedAt": "2026-11-24T10:57:47.941Z",
+  "fetchedAt": "2026-11-25T09:53:36.963Z",
   "github": {
     "owner": "byoungd",
     "name": "up",
@@ -9,9 +9,9 @@
     "url": "https://github.com/byoungd/up",
     "homepage": "https://byoungd.github.io/up/",
     "description": "人生进阶指南 韩先凯的人生进阶指南 AI时代中英双语终身学习指南：学习 、创业、财富、爱情、人生与AI",
-    "stars": 70850,
-    "forks": 7032,
-    "openIssues": 29,
+    "stars": 70897,
+    "forks": 7033,
+    "openIssues": 21,
     "language": "JavaScript",
     "topics": [
       "ai-literacy",
@@ -29,9 +29,9 @@
       "url": null
     },
     "createdAt": "2017-05-30T07:18:52Z",
-    "pushedAt": "2026-11-24T02:50:31Z",
+    "pushedAt": "2026-11-25T06:56:57Z",
     "archived": false,
-    "fetchedAt": "2026-11-24T10:57:47.941Z",
+    "fetchedAt": "2026-11-25T09:53:36.963Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -67,11 +67,11 @@
       0,
       0,
       1,
-      6,
-      5,
+      9,
       4,
-      5,
-      3,
+      2,
+      8,
+      0,
       0,
       0,
       0,
@@ -79,27 +79,36 @@
       0,
       2,
       6,
-      88,
-      67,
+      139,
+      16,
+      1,
+      2,
       0,
-      3,
-      0,
-      11,
-      5,
+      12,
+      4,
       3,
       3,
       1,
       1,
       2,
-      6
+      8
     ],
-    "commits52w": 232,
-    "commits4w": 10,
-    "commits1w": 6,
-    "fetchedAt": "2026-11-24T10:57:48.430Z"
+    "commits52w": 234,
+    "commits4w": 12,
+    "commits1w": 8,
+    "fetchedAt": "2026-11-25T09:53:37.511Z"
   },
-  "releases": [],
-  "commitTotal": 540,
+  "releases": [
+    {
+      "tag": "v1.1.0",
+      "name": "v1.1.0 — Still Here: A Field Guide to Beginning Again",
+      "url": "https://github.com/byoungd/up/releases/tag/v1.1.0",
+      "publishedAt": "2026-11-25T06:55:20Z",
+      "prerelease": false,
+      "draft": false
+    }
+  ],
+  "commitTotal": 543,
   "readme": {
     "path": "README.md",
     "via": "api",

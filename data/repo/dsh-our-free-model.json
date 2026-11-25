@@ -1,7 +1,7 @@
 {
   "slug": "dsh-our-free-model",
   "repoInput": "Ebony-Vinyl/dsh-our-free-model",
-  "fetchedAt": "2026-11-24T10:56:38.266Z",
+  "fetchedAt": "2026-11-25T09:52:28.199Z",
   "github": {
     "owner": "Ebony-Vinyl",
     "name": "dsh-our-free-model",
@@ -9,9 +9,9 @@
     "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
     "homepage": null,
     "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
-    "stars": 85575,
-    "forks": 2411,
-    "openIssues": 231,
+    "stars": 86637,
+    "forks": 2452,
+    "openIssues": 238,
     "language": "JavaScript",
     "topics": [
       "ai-agents",
@@ -32,9 +32,9 @@
       "url": null
     },
     "createdAt": "2026-09-24T16:17:19Z",
-    "pushedAt": "2026-11-24T08:22:33Z",
+    "pushedAt": "2026-11-24T11:19:33Z",
     "archived": false,
-    "fetchedAt": "2026-11-24T10:56:38.266Z",
+    "fetchedAt": "2026-11-25T09:52:28.199Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -87,19 +87,19 @@
       0,
       0,
       34,
-      171,
-      211,
-      120,
-      155,
-      99,
-      65,
-      29,
-      65
+      202,
+      185,
+      143,
+      150,
+      79,
+      70,
+      32,
+      77
     ],
-    "commits52w": 949,
+    "commits52w": 972,
     "commits4w": 258,
-    "commits1w": 65,
-    "fetchedAt": "2026-11-24T10:56:38.676Z"
+    "commits1w": 77,
+    "fetchedAt": "2026-11-25T09:52:28.735Z"
   },
   "releases": [
     {
@@ -143,7 +143,7 @@
       "draft": false
     }
   ],
-  "commitTotal": 966,
+  "commitTotal": 972,
   "readme": {
     "path": "README.md",
     "via": "api",

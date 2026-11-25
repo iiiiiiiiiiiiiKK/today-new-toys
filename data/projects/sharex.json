@@ -1,0 +1,76 @@
+{
+  "slug": "sharex",
+  "name": "ShareX",
+  "tagline": "效率工具 · ShareX is a free and open-source application…",
+  "summary": "（自动整理，未经人工校对）ShareX 是一个用 C# 写的开源项目。仓库自述「ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations」。已抓取 README 约 8,024 字；其中有「Region Capture and Annotation」「Built-in Image Editor」「Photo Editor」「File Sharing and Upload Automation」「Productivity Tools」等章节可对应到具体能力。仓库 Topics 涉及：效率。自动整理只复述 README 能核实的内容，没有推测功能，也没有补充未取得的数据。",
+  "category": "productivity",
+  "tags": [
+    "效率",
+    "效率工具",
+    "GPL-3.0",
+    "avalonia",
+    "capture"
+  ],
+  "aliases": [
+    "ShareX/ShareX"
+  ],
+  "audience": "开发者",
+  "audienceFor": [
+    "想找一个能跑起来的新工具的人（自动收录，未细分人群）",
+    "愿意自己读 README 确认细节的开发者"
+  ],
+  "features": [
+    {
+      "title": "Region Capture and Annot",
+      "detail": "（自动整理）README 中有「Region Capture and Annotation」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Built-in Image Editor",
+      "detail": "（自动整理）README 中有「Built-in Image Editor」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "Photo Editor",
+      "detail": "（自动整理）README 中有「Photo Editor」章节，此处只标注来源，未展开复述。"
+    },
+    {
+      "title": "File Sharing and Upload ",
+      "detail": "（自动整理）README 中有「File Sharing and Upload Automation」章节，此处只标注来源，未展开复述。"
+    }
+  ],
+  "contentBasis": "自动整理：依据 GitHub API 元信息与 README（README.md，约 8024 字，抓取于 2026-11-25）汇总；未经人工校对，页面上已标注「自动收录」。",
+  "setup": {
+    "effort": "低门槛",
+    "effortNote": "门槛未评估：请以 README 的安装说明为准",
+    "requires": [],
+    "steps": [
+      {
+        "title": "阅读安装章节",
+        "detail": "（自动整理）README 未提供可识别的安装命令。"
+      }
+    ],
+    "cost": "开源免费（以仓库许可证为准）"
+  },
+  "officialUrl": "https://getsharex.com",
+  "demoUrl": null,
+  "linkStatus": "unchecked",
+  "linkCheckedAt": null,
+  "featured": false,
+  "screenshots": [
+    {
+      "src": "/shots/sharex.jpg",
+      "alt": "ShareX 的官方站点截图",
+      "origin": "live",
+      "capturedAt": "2026-11-25T09:53:42.350Z",
+      "credit": "页面截图：https://getsharex.com",
+      "synthetic": false
+    }
+  ],
+  "addedAt": "2026-11-25",
+  "review": {
+    "status": "published",
+    "mode": "auto",
+    "reviewedBy": "autopipeline",
+    "reviewedAt": "2026-11-25",
+    "todo": "自动收录：中文文案由 README 规则生成，建议人工润色"
+  }
+}

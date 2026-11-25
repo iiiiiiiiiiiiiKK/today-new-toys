@@ -1,7 +1,7 @@
 {
   "slug": "canvas-ui",
   "repoInput": "DavidHDev/canvas-ui",
-  "fetchedAt": "2026-11-24T10:56:29.094Z",
+  "fetchedAt": "2026-11-25T09:52:19.514Z",
   "github": {
     "owner": "DavidHDev",
     "name": "canvas-ui",
@@ -9,9 +9,9 @@
     "url": "https://github.com/DavidHDev/canvas-ui",
     "homepage": "https://canvasui.dev/",
     "description": "A library of creative canvas components. Real HTML with WebGL effects running over it. React, Vue, Svelte, vanilla.",
-    "stars": 5543,
-    "forks": 291,
-    "openIssues": 3,
+    "stars": 5552,
+    "forks": 290,
+    "openIssues": 4,
     "language": "TypeScript",
     "topics": [
       "animation",
@@ -43,7 +43,7 @@
     "createdAt": "2026-07-16T13:38:20Z",
     "pushedAt": "2026-11-21T08:42:14Z",
     "archived": false,
-    "fetchedAt": "2026-11-24T10:56:29.094Z",
+    "fetchedAt": "2026-11-25T09:52:19.514Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -85,12 +85,12 @@
       0,
       0,
       0,
-      2,
-      93,
       8,
-      5,
-      51,
+      90,
       6,
+      6,
+      52,
+      3,
       0,
       5,
       3,
@@ -108,7 +108,7 @@
     "commits52w": 196,
     "commits4w": 19,
     "commits1w": 7,
-    "fetchedAt": "2026-11-24T10:56:29.584Z"
+    "fetchedAt": "2026-11-25T09:52:20.096Z"
   },
   "releases": [],
   "commitTotal": 196,

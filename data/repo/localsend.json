@@ -1,7 +1,7 @@
 {
   "slug": "localsend",
   "repoInput": "localsend/localsend",
-  "fetchedAt": "2026-11-24T10:57:07.397Z",
+  "fetchedAt": "2026-11-25T09:52:57.474Z",
   "github": {
     "owner": "localsend",
     "name": "localsend",
@@ -9,9 +9,9 @@
     "url": "https://github.com/localsend/localsend",
     "homepage": "https://localsend.org",
     "description": "An open-source cross-platform alternative to AirDrop",
-    "stars": 100563,
-    "forks": 5781,
-    "openIssues": 1041,
+    "stars": 100754,
+    "forks": 5809,
+    "openIssues": 1042,
     "language": "Dart",
     "topics": [
       "dart",
@@ -25,9 +25,9 @@
       "url": null
     },
     "createdAt": "2022-12-16T00:46:07Z",
-    "pushedAt": "2026-11-24T03:19:23Z",
+    "pushedAt": "2026-11-24T15:18:45Z",
     "archived": false,
-    "fetchedAt": "2026-11-24T10:57:07.397Z",
+    "fetchedAt": "2026-11-25T09:52:57.474Z",
     "source": "api",
     "warnings": []
   },
@@ -46,9 +46,9 @@
       2,
       1,
       1,
-      1,
-      12,
       2,
+      12,
+      1,
       0,
       1,
       1,
@@ -66,33 +66,41 @@
       0,
       0,
       0,
-      17,
-      27,
-      23,
-      52,
-      94,
-      29,
+      21,
+      26,
+      22,
+      69,
+      91,
       14,
+      13,
       9,
       0,
       16,
       0,
-      8,
+      9,
       27,
-      3,
+      2,
       2,
       9,
       12,
       10,
-      1,
-      37
+      3,
+      35
     ],
     "commits52w": 414,
     "commits4w": 60,
-    "commits1w": 37,
-    "fetchedAt": "2026-11-24T10:57:07.920Z"
+    "commits1w": 35,
+    "fetchedAt": "2026-11-25T09:52:57.889Z"
   },
   "releases": [
+    {
+      "tag": "v1.19.0",
+      "name": "v1.19.0",
+      "url": "https://github.com/localsend/localsend/releases/tag/v1.19.0",
+      "publishedAt": "2026-11-24T15:18:46Z",
+      "prerelease": false,
+      "draft": false
+    },
     {
       "tag": "v1.18.2",
       "name": "v1.18.2",
@@ -122,14 +130,6 @@
       "name": "v1.17.0",
       "url": "https://github.com/localsend/localsend/releases/tag/v1.17.0",
       "publishedAt": "2025-02-20T01:23:55Z",
-      "prerelease": false,
-      "draft": false
-    },
-    {
-      "tag": "v1.16.1",
-      "name": "v1.16.1",
-      "url": "https://github.com/localsend/localsend/releases/tag/v1.16.1",
-      "publishedAt": "2024-11-05T00:14:52Z",
       "prerelease": false,
       "draft": false
     }
