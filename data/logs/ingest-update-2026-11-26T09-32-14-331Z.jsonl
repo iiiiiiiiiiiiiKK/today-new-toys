@@ -1,0 +1,585 @@
+{"at":"2026-11-26T09:32:14.331Z","event":"run_start","name":"ingest-update","startedAt":"2026-11-26T09:32:14.331Z","cwd":"/home/runner/work/today-new-toys/today-new-toys","node":"v20.20.2"}
+{"at":"2026-11-26T09:32:14.692Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/rohitg00/ai-engineering-from-scratch","status":200,"remaining":4997,"ms":351}
+{"at":"2026-11-26T09:32:14.897Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/rohitg00/ai-engineering-from-scratch/readme","status":200,"remaining":4996,"ms":205}
+{"at":"2026-11-26T09:32:15.110Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/rohitg00/ai-engineering-from-scratch/stats/participation","status":200,"remaining":4995,"ms":209}
+{"at":"2026-11-26T09:32:15.171Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/rohitg00/ai-engineering-from-scratch/commits?per_page=1","status":200,"remaining":4994,"ms":268}
+{"at":"2026-11-26T09:32:15.299Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/rohitg00/ai-engineering-from-scratch/releases?per_page=5","status":200,"remaining":4993,"ms":398}
+{"at":"2026-11-26T09:32:15.306Z","event":"saved","detail":"ai-engineering-from-scratch ★80236 MIT README=68605 字","level":"info"}
+{"at":"2026-11-26T09:32:15.568Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/tt-a1i/archify","status":200,"remaining":4992,"ms":261}
+{"at":"2026-11-26T09:32:15.852Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/tt-a1i/archify/readme","status":200,"remaining":4991,"ms":284}
+{"at":"2026-11-26T09:32:16.022Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/tt-a1i/archify/stats/participation","status":200,"remaining":4988,"ms":169}
+{"at":"2026-11-26T09:32:16.086Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/tt-a1i/archify/commits?per_page=1","status":200,"remaining":4989,"ms":232}
+{"at":"2026-11-26T09:32:16.156Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/tt-a1i/archify/releases?per_page=5","status":200,"remaining":4990,"ms":303}
+{"at":"2026-11-26T09:32:16.157Z","event":"saved","detail":"archify ★100199 Apache-2.0 README=27527 字","level":"info"}
+{"at":"2026-11-26T09:32:16.449Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Significant-Gravitas/AutoGPT","status":200,"remaining":4987,"ms":292}
+{"at":"2026-11-26T09:32:16.682Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Significant-Gravitas/AutoGPT/readme","status":200,"remaining":4986,"ms":232}
+{"at":"2026-11-26T09:32:16.897Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Significant-Gravitas/AutoGPT/stats/participation","status":200,"remaining":4983,"ms":214}
+{"at":"2026-11-26T09:32:16.933Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Significant-Gravitas/AutoGPT/commits?per_page=1","status":200,"remaining":4984,"ms":249}
+{"at":"2026-11-26T09:32:17.060Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Significant-Gravitas/AutoGPT/releases?per_page=5","status":200,"remaining":4985,"ms":377}
+{"at":"2026-11-26T09:32:17.061Z","event":"saved","detail":"autogpt ★188204 无 SPDX 许可证 README=4865 字","level":"info"}
+{"at":"2026-11-26T09:32:17.333Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/biomejs/biome","status":200,"remaining":4982,"ms":272}
+{"at":"2026-11-26T09:32:17.551Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/biomejs/biome/readme","status":200,"remaining":4981,"ms":218}
+{"at":"2026-11-26T09:32:17.731Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/biomejs/biome/stats/participation","status":200,"remaining":4980,"ms":180}
+{"at":"2026-11-26T09:32:17.808Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/biomejs/biome/commits?per_page=1","status":200,"remaining":4978,"ms":257}
+{"at":"2026-11-26T09:32:17.880Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/biomejs/biome/releases?per_page=5","status":200,"remaining":4979,"ms":329}
+{"at":"2026-11-26T09:32:17.880Z","event":"saved","detail":"biome ★26217 Apache-2.0 README=4962 字","level":"info"}
+{"at":"2026-11-26T09:32:18.114Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DavidHDev/canvas-ui","status":200,"remaining":4977,"ms":234}
+{"at":"2026-11-26T09:32:18.459Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DavidHDev/canvas-ui/readme","status":200,"remaining":4976,"ms":344}
+{"at":"2026-11-26T09:32:18.673Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DavidHDev/canvas-ui/commits?per_page=1","status":200,"remaining":4974,"ms":213}
+{"at":"2026-11-26T09:32:18.689Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DavidHDev/canvas-ui/releases?per_page=5","status":200,"remaining":4975,"ms":229}
+{"at":"2026-11-26T09:32:18.693Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DavidHDev/canvas-ui/stats/participation","status":200,"remaining":4973,"ms":234}
+{"at":"2026-11-26T09:32:18.694Z","event":"saved","detail":"canvas-ui ★5564 无 SPDX 许可证 README=12857 字","level":"info"}
+{"at":"2026-11-26T09:32:18.957Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ccxt/ccxt","status":200,"remaining":4972,"ms":263}
+{"at":"2026-11-26T09:32:19.191Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ccxt/ccxt/readme","status":200,"remaining":4971,"ms":234}
+{"at":"2026-11-26T09:32:19.523Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ccxt/ccxt/releases?per_page=5","status":200,"remaining":4968,"ms":328}
+{"at":"2026-11-26T09:32:19.588Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ccxt/ccxt/commits?per_page=1","status":200,"remaining":4969,"ms":393}
+{"at":"2026-11-26T09:32:20.213Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ccxt/ccxt/stats/participation","status":200,"remaining":4970,"ms":1019}
+{"at":"2026-11-26T09:32:20.214Z","event":"saved","detail":"ccxt ★44997 MIT README=64989 字","level":"info"}
+{"at":"2026-11-26T09:32:20.465Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/luongnv89/claude-howto","status":200,"remaining":4967,"ms":251}
+{"at":"2026-11-26T09:32:20.706Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/luongnv89/claude-howto/readme","status":200,"remaining":4966,"ms":241}
+{"at":"2026-11-26T09:32:20.887Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/luongnv89/claude-howto/stats/participation","status":200,"remaining":4965,"ms":180}
+{"at":"2026-11-26T09:32:20.989Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/luongnv89/claude-howto/commits?per_page=1","status":200,"remaining":4963,"ms":281}
+{"at":"2026-11-26T09:32:21.059Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/luongnv89/claude-howto/releases?per_page=5","status":200,"remaining":4964,"ms":352}
+{"at":"2026-11-26T09:32:21.059Z","event":"saved","detail":"claude-howto ★47603 MIT README=20794 字","level":"info"}
+{"at":"2026-11-26T09:32:21.282Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/coollabsio/coolify","status":200,"remaining":4962,"ms":222}
+{"at":"2026-11-26T09:32:21.522Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/coollabsio/coolify/readme","status":200,"remaining":4961,"ms":240}
+{"at":"2026-11-26T09:32:21.727Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/coollabsio/coolify/stats/participation","status":200,"remaining":4958,"ms":205}
+{"at":"2026-11-26T09:32:21.748Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/coollabsio/coolify/commits?per_page=1","status":200,"remaining":4959,"ms":226}
+{"at":"2026-11-26T09:32:21.842Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/coollabsio/coolify/releases?per_page=5","status":200,"remaining":4960,"ms":320}
+{"at":"2026-11-26T09:32:21.843Z","event":"saved","detail":"coolify ★66484 Apache-2.0 README=5826 字","level":"info"}
+{"at":"2026-11-26T09:32:22.107Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/PKUFlyingPig/cs-self-learning","status":200,"remaining":4957,"ms":264}
+{"at":"2026-11-26T09:32:22.357Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/PKUFlyingPig/cs-self-learning/readme","status":200,"remaining":4956,"ms":250}
+{"at":"2026-11-26T09:32:22.539Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/PKUFlyingPig/cs-self-learning/stats/participation","status":200,"remaining":4955,"ms":181}
+{"at":"2026-11-26T09:32:22.635Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/PKUFlyingPig/cs-self-learning/commits?per_page=1","status":200,"remaining":4953,"ms":277}
+{"at":"2026-11-26T09:32:22.667Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/PKUFlyingPig/cs-self-learning/releases?per_page=5","status":200,"remaining":4954,"ms":309}
+{"at":"2026-11-26T09:32:22.667Z","event":"saved","detail":"cs-self-learning ★76885 MIT README=1431 字","level":"info"}
+{"at":"2026-11-26T09:32:22.953Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/css-doodle/css-doodle","status":200,"remaining":4952,"ms":285}
+{"at":"2026-11-26T09:32:23.314Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/css-doodle/css-doodle/readme","status":200,"remaining":4951,"ms":361}
+{"at":"2026-11-26T09:32:23.632Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/css-doodle/css-doodle/commits?per_page=1","status":200,"remaining":4950,"ms":317}
+{"at":"2026-11-26T09:32:23.667Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/css-doodle/css-doodle/releases?per_page=5","status":200,"remaining":4948,"ms":352}
+{"at":"2026-11-26T09:32:23.683Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/css-doodle/css-doodle/stats/participation","status":200,"remaining":4949,"ms":369}
+{"at":"2026-11-26T09:32:23.684Z","event":"saved","detail":"css-doodle ★6084 MIT README=1553 字","level":"info"}
+{"at":"2026-11-26T09:32:23.976Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/d3/d3","status":200,"remaining":4947,"ms":292}
+{"at":"2026-11-26T09:32:24.212Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/d3/d3/readme","status":200,"remaining":4946,"ms":236}
+{"at":"2026-11-26T09:32:24.416Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/d3/d3/stats/participation","status":200,"remaining":4943,"ms":204}
+{"at":"2026-11-26T09:32:24.472Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/d3/d3/commits?per_page=1","status":200,"remaining":4944,"ms":259}
+{"at":"2026-11-26T09:32:24.478Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/d3/d3/releases?per_page=5","status":200,"remaining":4945,"ms":265}
+{"at":"2026-11-26T09:32:24.478Z","event":"saved","detail":"d3 ★114017 ISC README=594 字","level":"info"}
+{"at":"2026-11-26T09:32:24.672Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/cathrynlavery/diagram-design","status":200,"remaining":4942,"ms":193}
+{"at":"2026-11-26T09:32:24.870Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/cathrynlavery/diagram-design/readme","status":200,"remaining":4941,"ms":198}
+{"at":"2026-11-26T09:32:25.105Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/cathrynlavery/diagram-design/stats/participation","status":200,"remaining":4939,"ms":235}
+{"at":"2026-11-26T09:32:25.124Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/cathrynlavery/diagram-design/commits?per_page=1","status":200,"remaining":4940,"ms":253}
+{"at":"2026-11-26T09:32:25.139Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/cathrynlavery/diagram-design/releases?per_page=5","status":200,"remaining":4938,"ms":267}
+{"at":"2026-11-26T09:32:25.139Z","event":"saved","detail":"diagram-design ★73418 MIT README=31797 字","level":"info"}
+{"at":"2026-11-26T09:32:25.410Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/dicebear/dicebear","status":200,"remaining":4937,"ms":271}
+{"at":"2026-11-26T09:32:25.642Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/dicebear/dicebear/readme","status":200,"remaining":4936,"ms":232}
+{"at":"2026-11-26T09:32:25.910Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/dicebear/dicebear/commits?per_page=1","status":200,"remaining":4934,"ms":268}
+{"at":"2026-11-26T09:32:25.994Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/dicebear/dicebear/releases?per_page=5","status":200,"remaining":4933,"ms":352}
+{"at":"2026-11-26T09:32:26.031Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/dicebear/dicebear/stats/participation","status":200,"remaining":4935,"ms":389}
+{"at":"2026-11-26T09:32:26.031Z","event":"saved","detail":"dicebear ★10147 MIT README=3698 字","level":"info"}
+{"at":"2026-11-26T09:32:26.315Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/louislam/dockge","status":200,"remaining":4932,"ms":283}
+{"at":"2026-11-26T09:32:26.505Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/louislam/dockge/readme","status":200,"remaining":4931,"ms":190}
+{"at":"2026-11-26T09:32:26.721Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/louislam/dockge/stats/participation","status":200,"remaining":4930,"ms":216}
+{"at":"2026-11-26T09:32:26.750Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/louislam/dockge/commits?per_page=1","status":200,"remaining":4928,"ms":245}
+{"at":"2026-11-26T09:32:26.759Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/louislam/dockge/releases?per_page=5","status":200,"remaining":4929,"ms":254}
+{"at":"2026-11-26T09:32:26.783Z","event":"saved","detail":"dockge ★24904 MIT README=4333 字","level":"info"}
+{"at":"2026-11-26T09:32:27.004Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Ebony-Vinyl/dsh-our-free-model","status":200,"remaining":4927,"ms":221}
+{"at":"2026-11-26T09:32:27.188Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Ebony-Vinyl/dsh-our-free-model/readme","status":200,"remaining":4926,"ms":184}
+{"at":"2026-11-26T09:32:27.384Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Ebony-Vinyl/dsh-our-free-model/stats/participation","status":200,"remaining":4924,"ms":194}
+{"at":"2026-11-26T09:32:27.437Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Ebony-Vinyl/dsh-our-free-model/commits?per_page=1","status":200,"remaining":4923,"ms":246}
+{"at":"2026-11-26T09:32:27.503Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Ebony-Vinyl/dsh-our-free-model/releases?per_page=5","status":200,"remaining":4925,"ms":312}
+{"at":"2026-11-26T09:32:27.504Z","event":"saved","detail":"dsh-our-free-model ★87628 无 SPDX 许可证 README=42721 字","level":"info"}
+{"at":"2026-11-26T09:32:27.750Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/affaan-m/ECC","status":200,"remaining":4922,"ms":246}
+{"at":"2026-11-26T09:32:27.957Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/affaan-m/ECC/readme","status":200,"remaining":4921,"ms":207}
+{"at":"2026-11-26T09:32:28.152Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/affaan-m/ECC/stats/participation","status":200,"remaining":4919,"ms":192}
+{"at":"2026-11-26T09:32:28.239Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/affaan-m/ECC/commits?per_page=1","status":200,"remaining":4918,"ms":279}
+{"at":"2026-11-26T09:32:28.245Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/affaan-m/ECC/releases?per_page=5","status":200,"remaining":4920,"ms":285}
+{"at":"2026-11-26T09:32:28.246Z","event":"saved","detail":"ecc ★310935 MIT README=75067 字","level":"info"}
+{"at":"2026-11-26T09:32:28.490Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/apache/echarts","status":200,"remaining":4917,"ms":244}
+{"at":"2026-11-26T09:32:28.675Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/apache/echarts/readme","status":200,"remaining":4916,"ms":185}
+{"at":"2026-11-26T09:32:28.863Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/apache/echarts/stats/participation","status":200,"remaining":4914,"ms":188}
+{"at":"2026-11-26T09:32:28.938Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/apache/echarts/releases?per_page=5","status":200,"remaining":4913,"ms":262}
+{"at":"2026-11-26T09:32:28.946Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/apache/echarts/commits?per_page=1","status":200,"remaining":4915,"ms":270}
+{"at":"2026-11-26T09:32:28.947Z","event":"saved","detail":"echarts ★67803 Apache-2.0 README=1750 字","level":"info"}
+{"at":"2026-11-26T09:32:29.178Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/m3y54m/Embedded-Engineering-Roadmap","status":200,"remaining":4912,"ms":231}
+{"at":"2026-11-26T09:32:29.400Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/m3y54m/Embedded-Engineering-Roadmap/readme","status":200,"remaining":4911,"ms":222}
+{"at":"2026-11-26T09:32:29.652Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/m3y54m/Embedded-Engineering-Roadmap/stats/participation","status":200,"remaining":4908,"ms":249}
+{"at":"2026-11-26T09:32:29.696Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/m3y54m/Embedded-Engineering-Roadmap/releases?per_page=5","status":200,"remaining":4909,"ms":292}
+{"at":"2026-11-26T09:32:29.703Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/m3y54m/Embedded-Engineering-Roadmap/commits?per_page=1","status":200,"remaining":4910,"ms":299}
+{"at":"2026-11-26T09:32:29.704Z","event":"saved","detail":"embedded-engineering-roadmap ★13995 CC-BY-SA-4.0 README=84104 字","level":"info"}
+{"at":"2026-11-26T09:32:29.929Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/justcallmekoko/ESP32Marauder","status":200,"remaining":4907,"ms":225}
+{"at":"2026-11-26T09:32:30.124Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/justcallmekoko/ESP32Marauder/readme","status":200,"remaining":4906,"ms":195}
+{"at":"2026-11-26T09:32:30.290Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/justcallmekoko/ESP32Marauder/stats/participation","status":200,"remaining":4905,"ms":165}
+{"at":"2026-11-26T09:32:30.370Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/justcallmekoko/ESP32Marauder/commits?per_page=1","status":200,"remaining":4903,"ms":245}
+{"at":"2026-11-26T09:32:30.501Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/justcallmekoko/ESP32Marauder/releases?per_page=5","status":200,"remaining":4904,"ms":376}
+{"at":"2026-11-26T09:32:30.502Z","event":"saved","detail":"esp32marauder ★13241 无 SPDX 许可证 README=1300 字","level":"info"}
+{"at":"2026-11-26T09:32:30.794Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/espanso/espanso","status":200,"remaining":4902,"ms":292}
+{"at":"2026-11-26T09:32:30.984Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/espanso/espanso/readme","status":200,"remaining":4901,"ms":189}
+{"at":"2026-11-26T09:32:31.218Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/espanso/espanso/stats/participation","status":200,"remaining":4899,"ms":234}
+{"at":"2026-11-26T09:32:31.276Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/espanso/espanso/commits?per_page=1","status":200,"remaining":4900,"ms":292}
+{"at":"2026-11-26T09:32:31.344Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/espanso/espanso/releases?per_page=5","status":200,"remaining":4898,"ms":360}
+{"at":"2026-11-26T09:32:31.345Z","event":"saved","detail":"espanso ★14839 GPL-3.0 README=2602 字","level":"info"}
+{"at":"2026-11-26T09:32:31.619Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/esphome/esphome","status":200,"remaining":4897,"ms":274}
+{"at":"2026-11-26T09:32:31.833Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/esphome/esphome/readme","status":200,"remaining":4896,"ms":214}
+{"at":"2026-11-26T09:32:32.023Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/esphome/esphome/stats/participation","status":200,"remaining":4894,"ms":190}
+{"at":"2026-11-26T09:32:32.093Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/esphome/esphome/releases?per_page=5","status":200,"remaining":4895,"ms":260}
+{"at":"2026-11-26T09:32:32.103Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/esphome/esphome/commits?per_page=1","status":200,"remaining":4893,"ms":270}
+{"at":"2026-11-26T09:32:32.107Z","event":"saved","detail":"esphome ★12174 无 SPDX 许可证 README=89 字","level":"info"}
+{"at":"2026-11-26T09:32:32.401Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ethereumbook/ethereumbook","status":200,"remaining":4892,"ms":294}
+{"at":"2026-11-26T09:32:32.593Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ethereumbook/ethereumbook/readme","status":200,"remaining":4891,"ms":192}
+{"at":"2026-11-26T09:32:32.841Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ethereumbook/ethereumbook/releases?per_page=5","status":200,"remaining":4890,"ms":248}
+{"at":"2026-11-26T09:32:32.845Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ethereumbook/ethereumbook/stats/participation","status":200,"remaining":4888,"ms":252}
+{"at":"2026-11-26T09:32:32.886Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ethereumbook/ethereumbook/commits?per_page=1","status":200,"remaining":4889,"ms":293}
+{"at":"2026-11-26T09:32:32.897Z","event":"saved","detail":"ethereumbook ★21556 无 SPDX 许可证 README=860 字","level":"info"}
+{"at":"2026-11-26T09:32:33.162Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/evidence-dev/evidence","status":200,"remaining":4887,"ms":264}
+{"at":"2026-11-26T09:32:33.368Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/evidence-dev/evidence/readme","status":200,"remaining":4886,"ms":206}
+{"at":"2026-11-26T09:32:33.626Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/evidence-dev/evidence/stats/participation","status":200,"remaining":4885,"ms":258}
+{"at":"2026-11-26T09:32:33.648Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/evidence-dev/evidence/commits?per_page=1","status":200,"remaining":4883,"ms":279}
+{"at":"2026-11-26T09:32:33.668Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/evidence-dev/evidence/releases?per_page=5","status":200,"remaining":4884,"ms":299}
+{"at":"2026-11-26T09:32:33.669Z","event":"saved","detail":"evidence ★7147 MIT README=931 字","level":"info"}
+{"at":"2026-11-26T09:32:33.966Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/excalidraw/excalidraw","status":200,"remaining":4882,"ms":297}
+{"at":"2026-11-26T09:32:34.184Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/excalidraw/excalidraw/readme","status":200,"remaining":4881,"ms":218}
+{"at":"2026-11-26T09:32:34.340Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/excalidraw/excalidraw/stats/participation","status":200,"remaining":4880,"ms":156}
+{"at":"2026-11-26T09:32:34.436Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/excalidraw/excalidraw/commits?per_page=1","status":200,"remaining":4879,"ms":251}
+{"at":"2026-11-26T09:32:34.479Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/excalidraw/excalidraw/releases?per_page=5","status":200,"remaining":4878,"ms":294}
+{"at":"2026-11-26T09:32:34.480Z","event":"saved","detail":"excalidraw ★136336 MIT README=2508 字","level":"info"}
+{"at":"2026-11-26T09:32:34.813Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/files-community/Files","status":200,"remaining":4877,"ms":333}
+{"at":"2026-11-26T09:32:35.084Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/files-community/Files/readme","status":200,"remaining":4876,"ms":271}
+{"at":"2026-11-26T09:32:35.249Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/files-community/Files/stats/participation","status":200,"remaining":4874,"ms":165}
+{"at":"2026-11-26T09:32:35.298Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/files-community/Files/releases?per_page=5","status":200,"remaining":4875,"ms":214}
+{"at":"2026-11-26T09:32:35.354Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/files-community/Files/commits?per_page=1","status":200,"remaining":4873,"ms":270}
+{"at":"2026-11-26T09:32:35.355Z","event":"saved","detail":"files ★46821 MIT README=1386 字","level":"info"}
+{"at":"2026-11-26T09:32:35.599Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/firecrawl/firecrawl","status":200,"remaining":4872,"ms":243}
+{"at":"2026-11-26T09:32:35.820Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/firecrawl/firecrawl/readme","status":200,"remaining":4871,"ms":221}
+{"at":"2026-11-26T09:32:35.986Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/firecrawl/firecrawl/stats/participation","status":200,"remaining":4870,"ms":165}
+{"at":"2026-11-26T09:32:36.090Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/firecrawl/firecrawl/commits?per_page=1","status":200,"remaining":4868,"ms":269}
+{"at":"2026-11-26T09:32:36.102Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/firecrawl/firecrawl/releases?per_page=5","status":200,"remaining":4869,"ms":281}
+{"at":"2026-11-26T09:32:36.103Z","event":"saved","detail":"firecrawl ★210416 AGPL-3.0 README=9122 字","level":"info"}
+{"at":"2026-11-26T09:32:36.361Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/firstcontributions/first-contributions","status":200,"remaining":4867,"ms":258}
+{"at":"2026-11-26T09:32:36.552Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/firstcontributions/first-contributions/readme","status":200,"remaining":4866,"ms":190}
+{"at":"2026-11-26T09:32:36.719Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/firstcontributions/first-contributions/stats/participation","status":200,"remaining":4865,"ms":166}
+{"at":"2026-11-26T09:32:36.769Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/firstcontributions/first-contributions/releases?per_page=5","status":200,"remaining":4864,"ms":216}
+{"at":"2026-11-26T09:32:36.811Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/firstcontributions/first-contributions/commits?per_page=1","status":200,"remaining":4863,"ms":258}
+{"at":"2026-11-26T09:32:36.812Z","event":"saved","detail":"first-contributions ★57002 MIT README=6195 字","level":"info"}
+{"at":"2026-11-26T09:32:37.064Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/flipperdevices/flipperzero-firmware","status":200,"remaining":4862,"ms":252}
+{"at":"2026-11-26T09:32:37.329Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/flipperdevices/flipperzero-firmware/readme","status":200,"remaining":4861,"ms":265}
+{"at":"2026-11-26T09:32:37.539Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/flipperdevices/flipperzero-firmware/stats/participation","status":200,"remaining":4859,"ms":210}
+{"at":"2026-11-26T09:32:37.588Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/flipperdevices/flipperzero-firmware/releases?per_page=5","status":200,"remaining":4860,"ms":259}
+{"at":"2026-11-26T09:32:37.620Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/flipperdevices/flipperzero-firmware/commits?per_page=1","status":200,"remaining":4858,"ms":290}
+{"at":"2026-11-26T09:32:37.621Z","event":"saved","detail":"flipper-zero ★16998 GPL-3.0 README=4652 字","level":"info"}
+{"at":"2026-11-26T09:32:37.978Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/foundry-rs/foundry","status":200,"remaining":4857,"ms":357}
+{"at":"2026-11-26T09:32:38.223Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/foundry-rs/foundry/readme","status":200,"remaining":4856,"ms":245}
+{"at":"2026-11-26T09:32:38.383Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/foundry-rs/foundry/stats/participation","status":200,"remaining":4855,"ms":160}
+{"at":"2026-11-26T09:32:38.495Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/foundry-rs/foundry/commits?per_page=1","status":200,"remaining":4853,"ms":271}
+{"at":"2026-11-26T09:32:38.664Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/foundry-rs/foundry/releases?per_page=5","status":200,"remaining":4854,"ms":441}
+{"at":"2026-11-26T09:32:38.665Z","event":"saved","detail":"foundry ★10779 Apache-2.0 README=3206 字","level":"info"}
+{"at":"2026-11-26T09:32:38.976Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ethereum/go-ethereum","status":200,"remaining":4852,"ms":311}
+{"at":"2026-11-26T09:32:39.176Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ethereum/go-ethereum/readme","status":200,"remaining":4851,"ms":200}
+{"at":"2026-11-26T09:32:39.359Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ethereum/go-ethereum/stats/participation","status":200,"remaining":4849,"ms":182}
+{"at":"2026-11-26T09:32:39.422Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ethereum/go-ethereum/releases?per_page=5","status":200,"remaining":4850,"ms":245}
+{"at":"2026-11-26T09:32:39.430Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ethereum/go-ethereum/commits?per_page=1","status":200,"remaining":4848,"ms":253}
+{"at":"2026-11-26T09:32:39.431Z","event":"saved","detail":"go-ethereum ★51486 LGPL-3.0 README=13075 字","level":"info"}
+{"at":"2026-11-26T09:32:39.697Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/grafana/grafana","status":200,"remaining":4847,"ms":266}
+{"at":"2026-11-26T09:32:39.940Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/grafana/grafana/readme","status":200,"remaining":4846,"ms":243}
+{"at":"2026-11-26T09:32:40.134Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/grafana/grafana/stats/participation","status":200,"remaining":4845,"ms":193}
+{"at":"2026-11-26T09:32:40.198Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/grafana/grafana/commits?per_page=1","status":200,"remaining":4843,"ms":257}
+{"at":"2026-11-26T09:32:40.276Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/grafana/grafana/releases?per_page=5","status":200,"remaining":4844,"ms":335}
+{"at":"2026-11-26T09:32:40.277Z","event":"saved","detail":"grafana ★78196 AGPL-3.0 README=2165 字","level":"info"}
+{"at":"2026-11-26T09:32:40.584Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Graphify-Labs/graphify","status":200,"remaining":4842,"ms":306}
+{"at":"2026-11-26T09:32:40.823Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Graphify-Labs/graphify/readme","status":200,"remaining":4841,"ms":239}
+{"at":"2026-11-26T09:32:41.002Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Graphify-Labs/graphify/stats/participation","status":200,"remaining":4839,"ms":178}
+{"at":"2026-11-26T09:32:41.040Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Graphify-Labs/graphify/commits?per_page=1","status":200,"remaining":4840,"ms":216}
+{"at":"2026-11-26T09:32:41.107Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Graphify-Labs/graphify/releases?per_page=5","status":200,"remaining":4838,"ms":283}
+{"at":"2026-11-26T09:32:41.108Z","event":"saved","detail":"graphify ★153556 Apache-2.0 README=29275 字","level":"info"}
+{"at":"2026-11-26T09:32:41.400Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/GraphiteEditor/Graphite","status":200,"remaining":4837,"ms":292}
+{"at":"2026-11-26T09:32:41.648Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/GraphiteEditor/Graphite/readme","status":200,"remaining":4836,"ms":248}
+{"at":"2026-11-26T09:32:41.883Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/GraphiteEditor/Graphite/releases?per_page=5","status":200,"remaining":4835,"ms":235}
+{"at":"2026-11-26T09:32:41.929Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/GraphiteEditor/Graphite/commits?per_page=1","status":200,"remaining":4833,"ms":280}
+{"at":"2026-11-26T09:32:41.957Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/GraphiteEditor/Graphite/stats/participation","status":200,"remaining":4834,"ms":309}
+{"at":"2026-11-26T09:32:41.958Z","event":"saved","detail":"graphite ★28041 Apache-2.0 README=2471 字","level":"info"}
+{"at":"2026-11-26T09:32:42.292Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/datawhalechina/hello-agents","status":200,"remaining":4832,"ms":334}
+{"at":"2026-11-26T09:32:42.527Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/datawhalechina/hello-agents/readme","status":200,"remaining":4831,"ms":235}
+{"at":"2026-11-26T09:32:42.749Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/datawhalechina/hello-agents/releases?per_page=5","status":200,"remaining":4829,"ms":221}
+{"at":"2026-11-26T09:32:42.765Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/datawhalechina/hello-agents/stats/participation","status":200,"remaining":4830,"ms":237}
+{"at":"2026-11-26T09:32:42.785Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/datawhalechina/hello-agents/commits?per_page=1","status":200,"remaining":4828,"ms":257}
+{"at":"2026-11-26T09:32:42.786Z","event":"saved","detail":"hello-agents ★87993 无 SPDX 许可证 README=7925 字","level":"info"}
+{"at":"2026-11-26T09:32:43.037Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/NousResearch/hermes-agent","status":200,"remaining":4827,"ms":251}
+{"at":"2026-11-26T09:32:43.265Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/NousResearch/hermes-agent/readme","status":200,"remaining":4826,"ms":228}
+{"at":"2026-11-26T09:32:43.484Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/NousResearch/hermes-agent/stats/participation","status":200,"remaining":4824,"ms":219}
+{"at":"2026-11-26T09:32:43.544Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/NousResearch/hermes-agent/commits?per_page=1","status":200,"remaining":4823,"ms":278}
+{"at":"2026-11-26T09:32:43.567Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/NousResearch/hermes-agent/releases?per_page=5","status":200,"remaining":4825,"ms":301}
+{"at":"2026-11-26T09:32:43.568Z","event":"saved","detail":"hermes-agent ★266208 MIT README=11413 字","level":"info"}
+{"at":"2026-11-26T09:32:43.813Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/hoppscotch/hoppscotch","status":200,"remaining":4822,"ms":245}
+{"at":"2026-11-26T09:32:44.036Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/hoppscotch/hoppscotch/readme","status":200,"remaining":4821,"ms":223}
+{"at":"2026-11-26T09:32:44.231Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/hoppscotch/hoppscotch/stats/participation","status":200,"remaining":4820,"ms":195}
+{"at":"2026-11-26T09:32:44.291Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/hoppscotch/hoppscotch/commits?per_page=1","status":200,"remaining":4819,"ms":254}
+{"at":"2026-11-26T09:32:44.292Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/hoppscotch/hoppscotch/releases?per_page=5","status":200,"remaining":4818,"ms":255}
+{"at":"2026-11-26T09:32:44.293Z","event":"saved","detail":"hoppscotch ★80979 MIT README=7859 字","level":"info"}
+{"at":"2026-11-26T09:32:44.511Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/hummingbot/hummingbot","status":200,"remaining":4817,"ms":218}
+{"at":"2026-11-26T09:32:44.691Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/hummingbot/hummingbot/readme","status":200,"remaining":4816,"ms":180}
+{"at":"2026-11-26T09:32:44.864Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/hummingbot/hummingbot/stats/participation","status":200,"remaining":4814,"ms":173}
+{"at":"2026-11-26T09:32:44.939Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/hummingbot/hummingbot/commits?per_page=1","status":200,"remaining":4815,"ms":247}
+{"at":"2026-11-26T09:32:44.960Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/hummingbot/hummingbot/releases?per_page=5","status":200,"remaining":4813,"ms":269}
+{"at":"2026-11-26T09:32:44.961Z","event":"saved","detail":"hummingbot ★21403 Apache-2.0 README=9944 字","level":"info"}
+{"at":"2026-11-26T09:32:45.212Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ayghri/i-have-adhd","status":200,"remaining":4812,"ms":251}
+{"at":"2026-11-26T09:32:45.409Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ayghri/i-have-adhd/readme","status":200,"remaining":4811,"ms":197}
+{"at":"2026-11-26T09:32:45.583Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ayghri/i-have-adhd/stats/participation","status":200,"remaining":4809,"ms":174}
+{"at":"2026-11-26T09:32:45.606Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ayghri/i-have-adhd/releases?per_page=5","status":200,"remaining":4810,"ms":197}
+{"at":"2026-11-26T09:32:45.699Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ayghri/i-have-adhd/commits?per_page=1","status":200,"remaining":4808,"ms":290}
+{"at":"2026-11-26T09:32:45.700Z","event":"saved","detail":"i-have-adhd ★62458 MIT README=2086 字","level":"info"}
+{"at":"2026-11-26T09:32:45.955Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/immich-app/immich","status":200,"remaining":4807,"ms":255}
+{"at":"2026-11-26T09:32:46.158Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/immich-app/immich/readme","status":200,"remaining":4806,"ms":203}
+{"at":"2026-11-26T09:32:46.347Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/immich-app/immich/stats/participation","status":200,"remaining":4804,"ms":188}
+{"at":"2026-11-26T09:32:46.453Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/immich-app/immich/commits?per_page=1","status":200,"remaining":4803,"ms":294}
+{"at":"2026-11-26T09:32:46.523Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/immich-app/immich/releases?per_page=5","status":200,"remaining":4805,"ms":364}
+{"at":"2026-11-26T09:32:46.524Z","event":"saved","detail":"immich ★120146 AGPL-3.0 README=3011 字","level":"info"}
+{"at":"2026-11-26T09:32:46.753Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/CorentinTh/it-tools","status":200,"remaining":4802,"ms":229}
+{"at":"2026-11-26T09:32:46.958Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/CorentinTh/it-tools/readme","status":200,"remaining":4801,"ms":205}
+{"at":"2026-11-26T09:32:47.143Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/CorentinTh/it-tools/commits?per_page=1","status":200,"remaining":4800,"ms":184}
+{"at":"2026-11-26T09:32:47.183Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/CorentinTh/it-tools/stats/participation","status":200,"remaining":4799,"ms":225}
+{"at":"2026-11-26T09:32:47.250Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/CorentinTh/it-tools/releases?per_page=5","status":200,"remaining":4798,"ms":291}
+{"at":"2026-11-26T09:32:47.251Z","event":"saved","detail":"it-tools ★41366 GPL-3.0 README=2083 字","level":"info"}
+{"at":"2026-11-26T09:32:47.499Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/karakeep-app/karakeep","status":200,"remaining":4797,"ms":248}
+{"at":"2026-11-26T09:32:47.774Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/karakeep-app/karakeep/readme","status":200,"remaining":4796,"ms":275}
+{"at":"2026-11-26T09:32:47.997Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/karakeep-app/karakeep/stats/participation","status":200,"remaining":4795,"ms":223}
+{"at":"2026-11-26T09:32:48.036Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/karakeep-app/karakeep/commits?per_page=1","status":200,"remaining":4793,"ms":262}
+{"at":"2026-11-26T09:32:48.086Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/karakeep-app/karakeep/releases?per_page=5","status":200,"remaining":4794,"ms":312}
+{"at":"2026-11-26T09:32:48.087Z","event":"saved","detail":"karakeep ★30863 AGPL-3.0 README=5601 字","level":"info"}
+{"at":"2026-11-26T09:32:48.336Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/shareAI-lab/learn-claude-code","status":200,"remaining":4792,"ms":249}
+{"at":"2026-11-26T09:32:48.520Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/shareAI-lab/learn-claude-code/readme","status":200,"remaining":4791,"ms":184}
+{"at":"2026-11-26T09:32:48.697Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/shareAI-lab/learn-claude-code/stats/participation","status":200,"remaining":4789,"ms":176}
+{"at":"2026-11-26T09:32:48.728Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/shareAI-lab/learn-claude-code/releases?per_page=5","status":200,"remaining":4788,"ms":207}
+{"at":"2026-11-26T09:32:48.748Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/shareAI-lab/learn-claude-code/commits?per_page=1","status":200,"remaining":4790,"ms":227}
+{"at":"2026-11-26T09:32:48.749Z","event":"saved","detail":"learn-claude-code ★80921 MIT README=16331 字","level":"info"}
+{"at":"2026-11-26T09:32:49.031Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/pcottle/learnGitBranching","status":200,"remaining":4787,"ms":282}
+{"at":"2026-11-26T09:32:49.199Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/pcottle/learnGitBranching/readme","status":200,"remaining":4786,"ms":168}
+{"at":"2026-11-26T09:32:49.368Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/pcottle/learnGitBranching/stats/participation","status":200,"remaining":4785,"ms":169}
+{"at":"2026-11-26T09:32:49.417Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/pcottle/learnGitBranching/commits?per_page=1","status":200,"remaining":4784,"ms":217}
+{"at":"2026-11-26T09:32:49.418Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/pcottle/learnGitBranching/releases?per_page=5","status":200,"remaining":4783,"ms":218}
+{"at":"2026-11-26T09:32:49.419Z","event":"saved","detail":"learn-git-branching ★34260 MIT README=5688 字","level":"info"}
+{"at":"2026-11-26T09:32:49.626Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/lemomo-ai/lemo-opuscar","status":200,"remaining":4782,"ms":206}
+{"at":"2026-11-26T09:32:49.829Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/lemomo-ai/lemo-opuscar/readme","status":200,"remaining":4781,"ms":203}
+{"at":"2026-11-26T09:32:50.001Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/lemomo-ai/lemo-opuscar/stats/participation","status":200,"remaining":4780,"ms":171}
+{"at":"2026-11-26T09:32:50.003Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/lemomo-ai/lemo-opuscar/commits?per_page=1","status":200,"remaining":4779,"ms":172}
+{"at":"2026-11-26T09:32:50.303Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/lemomo-ai/lemo-opuscar/releases?per_page=5","status":200,"remaining":4778,"ms":472}
+{"at":"2026-11-26T09:32:50.303Z","event":"saved","detail":"lemo-opuscar ★21332 无 SPDX 许可证 README=20233 字","level":"info"}
+{"at":"2026-11-26T09:32:50.654Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/linkwarden/linkwarden","status":200,"remaining":4777,"ms":350}
+{"at":"2026-11-26T09:32:50.854Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/linkwarden/linkwarden/readme","status":200,"remaining":4776,"ms":200}
+{"at":"2026-11-26T09:32:51.059Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/linkwarden/linkwarden/commits?per_page=1","status":200,"remaining":4774,"ms":204}
+{"at":"2026-11-26T09:32:51.136Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/linkwarden/linkwarden/releases?per_page=5","status":200,"remaining":4775,"ms":281}
+{"at":"2026-11-26T09:32:51.259Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/linkwarden/linkwarden/stats/participation","status":200,"remaining":4773,"ms":404}
+{"at":"2026-11-26T09:32:51.260Z","event":"saved","detail":"linkwarden ★20539 AGPL-3.0 README=4814 字","level":"info"}
+{"at":"2026-11-26T09:32:51.535Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/lobehub/lobehub","status":200,"remaining":4772,"ms":275}
+{"at":"2026-11-26T09:32:51.745Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/lobehub/lobehub/readme","status":200,"remaining":4771,"ms":209}
+{"at":"2026-11-26T09:32:51.954Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/lobehub/lobehub/stats/participation","status":200,"remaining":4768,"ms":208}
+{"at":"2026-11-26T09:32:51.992Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/lobehub/lobehub/commits?per_page=1","status":200,"remaining":4770,"ms":245}
+{"at":"2026-11-26T09:32:52.088Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/lobehub/lobehub/releases?per_page=5","status":200,"remaining":4769,"ms":341}
+{"at":"2026-11-26T09:32:52.089Z","event":"saved","detail":"lobe-chat ★86172 无 SPDX 许可证 README=24205 字","level":"info"}
+{"at":"2026-11-26T09:32:52.380Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/localsend/localsend","status":200,"remaining":4767,"ms":291}
+{"at":"2026-11-26T09:32:52.581Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/localsend/localsend/readme","status":200,"remaining":4766,"ms":201}
+{"at":"2026-11-26T09:32:52.763Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/localsend/localsend/stats/participation","status":200,"remaining":4765,"ms":181}
+{"at":"2026-11-26T09:32:52.798Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/localsend/localsend/commits?per_page=1","status":200,"remaining":4764,"ms":215}
+{"at":"2026-11-26T09:32:52.990Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/localsend/localsend/releases?per_page=5","status":200,"remaining":4763,"ms":407}
+{"at":"2026-11-26T09:32:52.990Z","event":"saved","detail":"localsend ★100944 Apache-2.0 README=12437 字","level":"info"}
+{"at":"2026-11-26T09:32:53.275Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/microsoft/markitdown","status":200,"remaining":4762,"ms":284}
+{"at":"2026-11-26T09:32:53.504Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/microsoft/markitdown/readme","status":200,"remaining":4761,"ms":229}
+{"at":"2026-11-26T09:32:53.670Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/microsoft/markitdown/stats/participation","status":200,"remaining":4760,"ms":165}
+{"at":"2026-11-26T09:32:53.766Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/microsoft/markitdown/commits?per_page=1","status":200,"remaining":4758,"ms":261}
+{"at":"2026-11-26T09:32:53.768Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/microsoft/markitdown/releases?per_page=5","status":200,"remaining":4759,"ms":263}
+{"at":"2026-11-26T09:32:53.769Z","event":"saved","detail":"markitdown ★198533 MIT README=15085 字","level":"info"}
+{"at":"2026-11-26T09:32:54.017Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/MarlinFirmware/Marlin","status":200,"remaining":4757,"ms":247}
+{"at":"2026-11-26T09:32:54.240Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/MarlinFirmware/Marlin/readme","status":200,"remaining":4756,"ms":223}
+{"at":"2026-11-26T09:32:54.390Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/MarlinFirmware/Marlin/stats/participation","status":200,"remaining":4754,"ms":150}
+{"at":"2026-11-26T09:32:54.453Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/MarlinFirmware/Marlin/commits?per_page=1","status":200,"remaining":4755,"ms":213}
+{"at":"2026-11-26T09:32:54.496Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/MarlinFirmware/Marlin/releases?per_page=5","status":200,"remaining":4753,"ms":256}
+{"at":"2026-11-26T09:32:54.497Z","event":"saved","detail":"marlin ★17684 GPL-3.0 README=9361 字","level":"info"}
+{"at":"2026-11-26T09:32:54.817Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/metabase/metabase","status":200,"remaining":4752,"ms":319}
+{"at":"2026-11-26T09:32:55.027Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/metabase/metabase/readme","status":200,"remaining":4751,"ms":210}
+{"at":"2026-11-26T09:32:55.217Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/metabase/metabase/stats/participation","status":200,"remaining":4749,"ms":190}
+{"at":"2026-11-26T09:32:55.258Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/metabase/metabase/releases?per_page=5","status":200,"remaining":4750,"ms":231}
+{"at":"2026-11-26T09:32:55.273Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/metabase/metabase/commits?per_page=1","status":200,"remaining":4748,"ms":246}
+{"at":"2026-11-26T09:32:55.274Z","event":"saved","detail":"metabase ★50559 无 SPDX 许可证 README=3088 字","level":"info"}
+{"at":"2026-11-26T09:32:55.537Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/MetaMask/metamask-extension","status":200,"remaining":4747,"ms":263}
+{"at":"2026-11-26T09:32:55.793Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/MetaMask/metamask-extension/readme","status":200,"remaining":4746,"ms":256}
+{"at":"2026-11-26T09:32:56.000Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/MetaMask/metamask-extension/stats/participation","status":200,"remaining":4744,"ms":207}
+{"at":"2026-11-26T09:32:56.044Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/MetaMask/metamask-extension/commits?per_page=1","status":200,"remaining":4743,"ms":250}
+{"at":"2026-11-26T09:32:56.081Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/MetaMask/metamask-extension/releases?per_page=5","status":200,"remaining":4745,"ms":287}
+{"at":"2026-11-26T09:32:56.082Z","event":"saved","detail":"metamask-extension ★13280 无 SPDX 许可证 README=24013 字","level":"info"}
+{"at":"2026-11-26T09:32:56.371Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/n8n-io/n8n","status":200,"remaining":4742,"ms":289}
+{"at":"2026-11-26T09:32:56.630Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/n8n-io/n8n/readme","status":200,"remaining":4741,"ms":259}
+{"at":"2026-11-26T09:32:56.799Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/n8n-io/n8n/stats/participation","status":200,"remaining":4740,"ms":169}
+{"at":"2026-11-26T09:32:56.862Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/n8n-io/n8n/commits?per_page=1","status":200,"remaining":4738,"ms":231}
+{"at":"2026-11-26T09:32:56.969Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/n8n-io/n8n/releases?per_page=5","status":200,"remaining":4739,"ms":338}
+{"at":"2026-11-26T09:32:56.969Z","event":"saved","detail":"n8n ★212187 无 SPDX 许可证 README=2895 字","level":"info"}
+{"at":"2026-11-26T09:32:57.272Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/nannou-org/nannou","status":200,"remaining":4737,"ms":302}
+{"at":"2026-11-26T09:32:57.509Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/nannou-org/nannou/readme","status":200,"remaining":4736,"ms":237}
+{"at":"2026-11-26T09:32:57.720Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/nannou-org/nannou/stats/participation","status":200,"remaining":4734,"ms":211}
+{"at":"2026-11-26T09:32:57.814Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/nannou-org/nannou/releases?per_page=5","status":200,"remaining":4733,"ms":304}
+{"at":"2026-11-26T09:32:57.909Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/nannou-org/nannou/commits?per_page=1","status":200,"remaining":4735,"ms":399}
+{"at":"2026-11-26T09:32:57.909Z","event":"saved","detail":"nannou ★6794 无 SPDX 许可证 README=2912 字","level":"info"}
+{"at":"2026-11-26T09:32:58.138Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/netdata/netdata","status":200,"remaining":4732,"ms":228}
+{"at":"2026-11-26T09:32:58.411Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/netdata/netdata/readme","status":200,"remaining":4731,"ms":273}
+{"at":"2026-11-26T09:32:58.680Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/netdata/netdata/commits?per_page=1","status":200,"remaining":4728,"ms":268}
+{"at":"2026-11-26T09:32:58.790Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/netdata/netdata/releases?per_page=5","status":200,"remaining":4729,"ms":379}
+{"at":"2026-11-26T09:32:59.191Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/netdata/netdata/stats/participation","status":200,"remaining":4730,"ms":780}
+{"at":"2026-11-26T09:32:59.192Z","event":"saved","detail":"netdata ★81653 GPL-3.0 README=23589 字","level":"info"}
+{"at":"2026-11-26T09:32:59.432Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/zauberzeug/nicegui","status":200,"remaining":4727,"ms":240}
+{"at":"2026-11-26T09:32:59.623Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/zauberzeug/nicegui/readme","status":200,"remaining":4726,"ms":191}
+{"at":"2026-11-26T09:32:59.808Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/zauberzeug/nicegui/stats/participation","status":200,"remaining":4723,"ms":184}
+{"at":"2026-11-26T09:32:59.817Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/zauberzeug/nicegui/commits?per_page=1","status":200,"remaining":4724,"ms":193}
+{"at":"2026-11-26T09:32:59.892Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/zauberzeug/nicegui/releases?per_page=5","status":200,"remaining":4725,"ms":268}
+{"at":"2026-11-26T09:32:59.893Z","event":"saved","detail":"nicegui ★16357 MIT README=4656 字","level":"info"}
+{"at":"2026-11-26T09:33:00.210Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/observablehq/plot","status":200,"remaining":4722,"ms":317}
+{"at":"2026-11-26T09:33:00.435Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/observablehq/plot/readme","status":200,"remaining":4721,"ms":224}
+{"at":"2026-11-26T09:33:00.618Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/observablehq/plot/stats/participation","status":200,"remaining":4719,"ms":183}
+{"at":"2026-11-26T09:33:00.692Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/observablehq/plot/commits?per_page=1","status":200,"remaining":4720,"ms":256}
+{"at":"2026-11-26T09:33:00.743Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/observablehq/plot/releases?per_page=5","status":200,"remaining":4718,"ms":307}
+{"at":"2026-11-26T09:33:00.744Z","event":"saved","detail":"observable-plot ★5436 ISC README=612 字","level":"info"}
+{"at":"2026-11-26T09:33:01.016Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ohmyzsh/ohmyzsh","status":200,"remaining":4717,"ms":272}
+{"at":"2026-11-26T09:33:01.232Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ohmyzsh/ohmyzsh/readme","status":200,"remaining":4716,"ms":216}
+{"at":"2026-11-26T09:33:01.440Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ohmyzsh/ohmyzsh/stats/participation","status":200,"remaining":4714,"ms":207}
+{"at":"2026-11-26T09:33:01.459Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ohmyzsh/ohmyzsh/commits?per_page=1","status":200,"remaining":4715,"ms":226}
+{"at":"2026-11-26T09:33:01.465Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ohmyzsh/ohmyzsh/releases?per_page=5","status":200,"remaining":4713,"ms":232}
+{"at":"2026-11-26T09:33:01.466Z","event":"saved","detail":"ohmyzsh ★190900 MIT README=16388 字","level":"info"}
+{"at":"2026-11-26T09:33:01.688Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ollama/ollama","status":200,"remaining":4712,"ms":222}
+{"at":"2026-11-26T09:33:01.882Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ollama/ollama/readme","status":200,"remaining":4711,"ms":194}
+{"at":"2026-11-26T09:33:02.083Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ollama/ollama/stats/participation","status":200,"remaining":4709,"ms":200}
+{"at":"2026-11-26T09:33:02.110Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ollama/ollama/commits?per_page=1","status":200,"remaining":4710,"ms":227}
+{"at":"2026-11-26T09:33:02.260Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ollama/ollama/releases?per_page=5","status":200,"remaining":4708,"ms":377}
+{"at":"2026-11-26T09:33:02.261Z","event":"saved","detail":"ollama ★188176 MIT README=8763 字","level":"info"}
+{"at":"2026-11-26T09:33:02.513Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/iib0011/omni-tools","status":200,"remaining":4707,"ms":252}
+{"at":"2026-11-26T09:33:02.783Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/iib0011/omni-tools/readme","status":200,"remaining":4706,"ms":270}
+{"at":"2026-11-26T09:33:03.001Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/iib0011/omni-tools/stats/participation","status":200,"remaining":4704,"ms":217}
+{"at":"2026-11-26T09:33:03.099Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/iib0011/omni-tools/commits?per_page=1","status":200,"remaining":4703,"ms":315}
+{"at":"2026-11-26T09:33:03.134Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/iib0011/omni-tools/releases?per_page=5","status":200,"remaining":4705,"ms":350}
+{"at":"2026-11-26T09:33:03.135Z","event":"saved","detail":"omni-tools ★10791 MIT README=3118 字","level":"info"}
+{"at":"2026-11-26T09:33:03.430Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/open-webui/open-webui","status":200,"remaining":4702,"ms":295}
+{"at":"2026-11-26T09:33:03.665Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/open-webui/open-webui/readme","status":200,"remaining":4701,"ms":234}
+{"at":"2026-11-26T09:33:03.825Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/open-webui/open-webui/stats/participation","status":200,"remaining":4699,"ms":160}
+{"at":"2026-11-26T09:33:03.928Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/open-webui/open-webui/commits?per_page=1","status":200,"remaining":4698,"ms":263}
+{"at":"2026-11-26T09:33:03.980Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/open-webui/open-webui/releases?per_page=5","status":200,"remaining":4700,"ms":315}
+{"at":"2026-11-26T09:33:03.981Z","event":"saved","detail":"open-webui ★159600 无 SPDX 许可证 README=3798 字","level":"info"}
+{"at":"2026-11-26T09:33:04.315Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/openframeworks/openFrameworks","status":200,"remaining":4697,"ms":334}
+{"at":"2026-11-26T09:33:04.566Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/openframeworks/openFrameworks/readme","status":200,"remaining":4696,"ms":251}
+{"at":"2026-11-26T09:33:04.803Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/openframeworks/openFrameworks/commits?per_page=1","status":200,"remaining":4695,"ms":236}
+{"at":"2026-11-26T09:33:04.895Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/openframeworks/openFrameworks/stats/participation","status":200,"remaining":4694,"ms":329}
+{"at":"2026-11-26T09:33:04.912Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/openframeworks/openFrameworks/releases?per_page=5","status":200,"remaining":4693,"ms":345}
+{"at":"2026-11-26T09:33:04.921Z","event":"saved","detail":"openframeworks ★10472 无 SPDX 许可证 README=5269 字","level":"info"}
+{"at":"2026-11-26T09:33:05.209Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/OpenHands/OpenHands","status":200,"remaining":4692,"ms":288}
+{"at":"2026-11-26T09:33:05.391Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/OpenHands/OpenHands/readme","status":200,"remaining":4691,"ms":182}
+{"at":"2026-11-26T09:33:05.558Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/OpenHands/OpenHands/stats/participation","status":200,"remaining":4690,"ms":166}
+{"at":"2026-11-26T09:33:05.619Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/OpenHands/OpenHands/commits?per_page=1","status":200,"remaining":4689,"ms":227}
+{"at":"2026-11-26T09:33:05.736Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/OpenHands/OpenHands/releases?per_page=5","status":200,"remaining":4688,"ms":344}
+{"at":"2026-11-26T09:33:05.737Z","event":"saved","detail":"openhands ★94378 MIT README=11403 字","level":"info"}
+{"at":"2026-11-26T09:33:06.030Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/OpenZeppelin/openzeppelin-contracts","status":200,"remaining":4687,"ms":293}
+{"at":"2026-11-26T09:33:06.249Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/OpenZeppelin/openzeppelin-contracts/readme","status":200,"remaining":4686,"ms":219}
+{"at":"2026-11-26T09:33:06.472Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/OpenZeppelin/openzeppelin-contracts/stats/participation","status":200,"remaining":4683,"ms":223}
+{"at":"2026-11-26T09:33:06.505Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/OpenZeppelin/openzeppelin-contracts/commits?per_page=1","status":200,"remaining":4684,"ms":256}
+{"at":"2026-11-26T09:33:06.506Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/OpenZeppelin/openzeppelin-contracts/releases?per_page=5","status":200,"remaining":4684,"ms":257}
+{"at":"2026-11-26T09:33:06.506Z","event":"saved","detail":"openzeppelin-contracts ★27368 MIT README=6563 字","level":"info"}
+{"at":"2026-11-26T09:33:06.814Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/processing/p5.js","status":200,"remaining":4682,"ms":307}
+{"at":"2026-11-26T09:33:07.008Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/processing/p5.js/readme","status":200,"remaining":4681,"ms":194}
+{"at":"2026-11-26T09:33:07.234Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/processing/p5.js/stats/participation","status":200,"remaining":4679,"ms":225}
+{"at":"2026-11-26T09:33:07.251Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/processing/p5.js/commits?per_page=1","status":200,"remaining":4680,"ms":242}
+{"at":"2026-11-26T09:33:07.351Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/processing/p5.js/releases?per_page=5","status":200,"remaining":4678,"ms":342}
+{"at":"2026-11-26T09:33:07.352Z","event":"saved","detail":"p5-js ★24434 LGPL-2.1 README=6506 字","level":"info"}
+{"at":"2026-11-26T09:33:07.635Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Sjj1024/PakePlus","status":200,"remaining":4677,"ms":283}
+{"at":"2026-11-26T09:33:07.821Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Sjj1024/PakePlus/readme","status":200,"remaining":4676,"ms":186}
+{"at":"2026-11-26T09:33:08.029Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Sjj1024/PakePlus/stats/participation","status":200,"remaining":4674,"ms":207}
+{"at":"2026-11-26T09:33:08.065Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Sjj1024/PakePlus/commits?per_page=1","status":200,"remaining":4675,"ms":243}
+{"at":"2026-11-26T09:33:08.245Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Sjj1024/PakePlus/releases?per_page=5","status":200,"remaining":4673,"ms":423}
+{"at":"2026-11-26T09:33:08.246Z","event":"saved","detail":"pakeplus ★16304 MIT README=7085 字","level":"info"}
+{"at":"2026-11-26T09:33:08.558Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/penpot/penpot","status":200,"remaining":4672,"ms":312}
+{"at":"2026-11-26T09:33:08.773Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/penpot/penpot/readme","status":200,"remaining":4671,"ms":214}
+{"at":"2026-11-26T09:33:09.022Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/penpot/penpot/stats/participation","status":200,"remaining":4668,"ms":248}
+{"at":"2026-11-26T09:33:09.039Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/penpot/penpot/releases?per_page=5","status":200,"remaining":4670,"ms":265}
+{"at":"2026-11-26T09:33:09.101Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/penpot/penpot/commits?per_page=1","status":200,"remaining":4669,"ms":327}
+{"at":"2026-11-26T09:33:09.102Z","event":"saved","detail":"penpot ★62761 MPL-2.0 README=6396 字","level":"info"}
+{"at":"2026-11-26T09:33:09.369Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/pixijs/pixijs","status":200,"remaining":4667,"ms":267}
+{"at":"2026-11-26T09:33:09.559Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/pixijs/pixijs/readme","status":200,"remaining":4666,"ms":190}
+{"at":"2026-11-26T09:33:09.813Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/pixijs/pixijs/stats/participation","status":200,"remaining":4663,"ms":254}
+{"at":"2026-11-26T09:33:09.843Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/pixijs/pixijs/commits?per_page=1","status":200,"remaining":4664,"ms":283}
+{"at":"2026-11-26T09:33:09.926Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/pixijs/pixijs/releases?per_page=5","status":200,"remaining":4665,"ms":366}
+{"at":"2026-11-26T09:33:09.927Z","event":"saved","detail":"pixijs ★48909 MIT README=2064 字","level":"info"}
+{"at":"2026-11-26T09:33:10.140Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/platformio/platformio-core","status":200,"remaining":4662,"ms":213}
+{"at":"2026-11-26T09:33:10.401Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/platformio/platformio-core/readme","status":200,"remaining":4661,"ms":260}
+{"at":"2026-11-26T09:33:10.662Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/platformio/platformio-core/releases?per_page=5","status":200,"remaining":4659,"ms":260}
+{"at":"2026-11-26T09:33:10.718Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/platformio/platformio-core/stats/participation","status":200,"remaining":4660,"ms":317}
+{"at":"2026-11-26T09:33:10.746Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/platformio/platformio-core/commits?per_page=1","status":200,"remaining":4658,"ms":344}
+{"at":"2026-11-26T09:33:10.747Z","event":"saved","detail":"platformio-core ★9635 Apache-2.0 README=3145 字","level":"info"}
+{"at":"2026-11-26T09:33:10.998Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DietrichGebert/ponytail","status":200,"remaining":4657,"ms":251}
+{"at":"2026-11-26T09:33:11.207Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DietrichGebert/ponytail/readme","status":200,"remaining":4656,"ms":209}
+{"at":"2026-11-26T09:33:11.368Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DietrichGebert/ponytail/stats/participation","status":200,"remaining":4655,"ms":160}
+{"at":"2026-11-26T09:33:11.479Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DietrichGebert/ponytail/commits?per_page=1","status":200,"remaining":4653,"ms":271}
+{"at":"2026-11-26T09:33:11.492Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DietrichGebert/ponytail/releases?per_page=5","status":200,"remaining":4654,"ms":284}
+{"at":"2026-11-26T09:33:11.493Z","event":"saved","detail":"ponytail ★198989 MIT README=7668 字","level":"info"}
+{"at":"2026-11-26T09:33:11.792Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/practical-tutorials/project-based-learning","status":200,"remaining":4652,"ms":299}
+{"at":"2026-11-26T09:33:11.994Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/practical-tutorials/project-based-learning/readme","status":200,"remaining":4651,"ms":202}
+{"at":"2026-11-26T09:33:12.185Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/practical-tutorials/project-based-learning/stats/participation","status":200,"remaining":4650,"ms":191}
+{"at":"2026-11-26T09:33:12.185Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/practical-tutorials/project-based-learning/commits?per_page=1","status":200,"remaining":4650,"ms":190}
+{"at":"2026-11-26T09:33:12.239Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/practical-tutorials/project-based-learning/releases?per_page=5","status":200,"remaining":4648,"ms":244}
+{"at":"2026-11-26T09:33:12.240Z","event":"saved","detail":"project-based-learning ★290520 MIT README=18372 字","level":"info"}
+{"at":"2026-11-26T09:33:12.531Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/puppeteer/puppeteer","status":200,"remaining":4647,"ms":291}
+{"at":"2026-11-26T09:33:12.799Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/puppeteer/puppeteer/readme","status":200,"remaining":4646,"ms":268}
+{"at":"2026-11-26T09:33:13.030Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/puppeteer/puppeteer/stats/participation","status":200,"remaining":4643,"ms":231}
+{"at":"2026-11-26T09:33:13.038Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/puppeteer/puppeteer/commits?per_page=1","status":200,"remaining":4645,"ms":238}
+{"at":"2026-11-26T09:33:13.050Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/puppeteer/puppeteer/releases?per_page=5","status":200,"remaining":4644,"ms":250}
+{"at":"2026-11-26T09:33:13.051Z","event":"saved","detail":"puppeteer ★95908 Apache-2.0 README=980 字","level":"info"}
+{"at":"2026-11-26T09:33:13.335Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Kanaries/pygwalker","status":200,"remaining":4642,"ms":283}
+{"at":"2026-11-26T09:33:13.516Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Kanaries/pygwalker/readme","status":200,"remaining":4641,"ms":181}
+{"at":"2026-11-26T09:33:13.793Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Kanaries/pygwalker/stats/participation","status":200,"remaining":4640,"ms":277}
+{"at":"2026-11-26T09:33:13.809Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Kanaries/pygwalker/commits?per_page=1","status":200,"remaining":4639,"ms":292}
+{"at":"2026-11-26T09:33:13.833Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Kanaries/pygwalker/releases?per_page=5","status":200,"remaining":4638,"ms":317}
+{"at":"2026-11-26T09:33:13.834Z","event":"saved","detail":"pygwalker ★16008 Apache-2.0 README=13725 字","level":"info"}
+{"at":"2026-11-26T09:33:14.070Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/qmk/qmk_firmware","status":200,"remaining":4637,"ms":236}
+{"at":"2026-11-26T09:33:14.307Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/qmk/qmk_firmware/readme","status":200,"remaining":4636,"ms":237}
+{"at":"2026-11-26T09:33:14.497Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/qmk/qmk_firmware/stats/participation","status":200,"remaining":4635,"ms":190}
+{"at":"2026-11-26T09:33:14.516Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/qmk/qmk_firmware/commits?per_page=1","status":200,"remaining":4634,"ms":209}
+{"at":"2026-11-26T09:33:14.524Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/qmk/qmk_firmware/releases?per_page=5","status":200,"remaining":4633,"ms":217}
+{"at":"2026-11-26T09:33:14.524Z","event":"saved","detail":"qmk-firmware ★20833 GPL-2.0 README=1118 字","level":"info"}
+{"at":"2026-11-26T09:33:14.833Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/rainbow-me/rainbow","status":200,"remaining":4632,"ms":308}
+{"at":"2026-11-26T09:33:15.032Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/rainbow-me/rainbow/readme","status":200,"remaining":4631,"ms":199}
+{"at":"2026-11-26T09:33:15.287Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/rainbow-me/rainbow/commits?per_page=1","status":200,"remaining":4628,"ms":254}
+{"at":"2026-11-26T09:33:15.302Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/rainbow-me/rainbow/stats/participation","status":200,"remaining":4629,"ms":270}
+{"at":"2026-11-26T09:33:15.302Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/rainbow-me/rainbow/releases?per_page=5","status":200,"remaining":4629,"ms":269}
+{"at":"2026-11-26T09:33:15.303Z","event":"saved","detail":"rainbow ★4402 GPL-3.0 README=4276 字","level":"info"}
+{"at":"2026-11-26T09:33:15.512Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/morluto/rea","status":200,"remaining":4627,"ms":209}
+{"at":"2026-11-26T09:33:15.695Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/morluto/rea/readme","status":200,"remaining":4626,"ms":183}
+{"at":"2026-11-26T09:33:15.898Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/morluto/rea/stats/participation","status":200,"remaining":4624,"ms":202}
+{"at":"2026-11-26T09:33:15.959Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/morluto/rea/commits?per_page=1","status":200,"remaining":4623,"ms":263}
+{"at":"2026-11-26T09:33:15.996Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/morluto/rea/releases?per_page=5","status":200,"remaining":4625,"ms":300}
+{"at":"2026-11-26T09:33:15.997Z","event":"saved","detail":"rea ★478979 MIT README=9416 字","level":"info"}
+{"at":"2026-11-26T09:33:16.244Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/reflex-dev/reflex","status":200,"remaining":4622,"ms":246}
+{"at":"2026-11-26T09:33:16.488Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/reflex-dev/reflex/readme","status":200,"remaining":4621,"ms":244}
+{"at":"2026-11-26T09:33:16.771Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/reflex-dev/reflex/stats/participation","status":200,"remaining":4620,"ms":282}
+{"at":"2026-11-26T09:33:16.798Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/reflex-dev/reflex/releases?per_page=5","status":200,"remaining":4619,"ms":309}
+{"at":"2026-11-26T09:33:16.799Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/reflex-dev/reflex/commits?per_page=1","status":200,"remaining":4618,"ms":310}
+{"at":"2026-11-26T09:33:16.800Z","event":"saved","detail":"reflex ★29048 Apache-2.0 README=1358 字","level":"info"}
+{"at":"2026-11-26T09:33:17.068Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/rtk-ai/rtk","status":200,"remaining":4617,"ms":268}
+{"at":"2026-11-26T09:33:17.285Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/rtk-ai/rtk/readme","status":200,"remaining":4616,"ms":217}
+{"at":"2026-11-26T09:33:17.500Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/rtk-ai/rtk/stats/participation","status":200,"remaining":4614,"ms":214}
+{"at":"2026-11-26T09:33:17.531Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/rtk-ai/rtk/commits?per_page=1","status":200,"remaining":4615,"ms":245}
+{"at":"2026-11-26T09:33:17.745Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/rtk-ai/rtk/releases?per_page=5","status":200,"remaining":4613,"ms":459}
+{"at":"2026-11-26T09:33:17.746Z","event":"saved","detail":"rtk ★87879 Apache-2.0 README=12895 字","level":"info"}
+{"at":"2026-11-26T09:33:17.955Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ruvnet/RuView","status":200,"remaining":4612,"ms":209}
+{"at":"2026-11-26T09:33:18.192Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ruvnet/RuView/readme","status":200,"remaining":4611,"ms":237}
+{"at":"2026-11-26T09:33:18.431Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ruvnet/RuView/stats/participation","status":200,"remaining":4609,"ms":236}
+{"at":"2026-11-26T09:33:18.464Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ruvnet/RuView/releases?per_page=5","status":200,"remaining":4610,"ms":269}
+{"at":"2026-11-26T09:33:18.473Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ruvnet/RuView/commits?per_page=1","status":200,"remaining":4608,"ms":278}
+{"at":"2026-11-26T09:33:18.474Z","event":"saved","detail":"ruview ★105237 MIT README=51206 字","level":"info"}
+{"at":"2026-11-26T09:33:18.794Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/abi/screenshot-to-code","status":200,"remaining":4607,"ms":320}
+{"at":"2026-11-26T09:33:19.009Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/abi/screenshot-to-code/readme","status":200,"remaining":4606,"ms":215}
+{"at":"2026-11-26T09:33:19.224Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/abi/screenshot-to-code/stats/participation","status":200,"remaining":4604,"ms":214}
+{"at":"2026-11-26T09:33:19.259Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/abi/screenshot-to-code/releases?per_page=5","status":200,"remaining":4605,"ms":249}
+{"at":"2026-11-26T09:33:19.298Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/abi/screenshot-to-code/commits?per_page=1","status":200,"remaining":4603,"ms":288}
+{"at":"2026-11-26T09:33:19.299Z","event":"saved","detail":"screenshot-to-code ★81447 MIT README=5788 字","level":"info"}
+{"at":"2026-11-26T09:33:19.557Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ShareX/ShareX","status":200,"remaining":4602,"ms":258}
+{"at":"2026-11-26T09:33:19.791Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ShareX/ShareX/readme","status":200,"remaining":4601,"ms":234}
+{"at":"2026-11-26T09:33:20.002Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ShareX/ShareX/stats/participation","status":200,"remaining":4598,"ms":211}
+{"at":"2026-11-26T09:33:20.041Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ShareX/ShareX/commits?per_page=1","status":200,"remaining":4599,"ms":250}
+{"at":"2026-11-26T09:33:20.139Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/ShareX/ShareX/releases?per_page=5","status":200,"remaining":4600,"ms":348}
+{"at":"2026-11-26T09:33:20.439Z","event":"saved","detail":"sharex ★41382 GPL-3.0 README=8024 字","level":"info"}
+{"at":"2026-11-26T09:33:20.662Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/sherlock-project/sherlock","status":200,"remaining":4597,"ms":223}
+{"at":"2026-11-26T09:33:20.897Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/sherlock-project/sherlock/readme","status":200,"remaining":4596,"ms":235}
+{"at":"2026-11-26T09:33:21.049Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/sherlock-project/sherlock/stats/participation","status":200,"remaining":4595,"ms":152}
+{"at":"2026-11-26T09:33:21.115Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/sherlock-project/sherlock/commits?per_page=1","status":200,"remaining":4594,"ms":218}
+{"at":"2026-11-26T09:33:21.239Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/sherlock-project/sherlock/releases?per_page=5","status":200,"remaining":4593,"ms":342}
+{"at":"2026-11-26T09:33:21.241Z","event":"saved","detail":"sherlock ★117775 MIT README=1339 字","level":"info"}
+{"at":"2026-11-26T09:33:21.584Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/argotorg/solidity","status":200,"remaining":4592,"ms":343}
+{"at":"2026-11-26T09:33:21.839Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/argotorg/solidity/readme","status":200,"remaining":4591,"ms":255}
+{"at":"2026-11-26T09:33:22.008Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/argotorg/solidity/stats/participation","status":200,"remaining":4590,"ms":169}
+{"at":"2026-11-26T09:33:22.105Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/argotorg/solidity/commits?per_page=1","status":200,"remaining":4588,"ms":266}
+{"at":"2026-11-26T09:33:22.150Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/argotorg/solidity/releases?per_page=5","status":200,"remaining":4589,"ms":311}
+{"at":"2026-11-26T09:33:22.151Z","event":"saved","detail":"solidity ★25782 GPL-3.0 README=2431 字","level":"info"}
+{"at":"2026-11-26T09:33:22.386Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Stirling-Tools/Stirling-PDF","status":200,"remaining":4587,"ms":235}
+{"at":"2026-11-26T09:33:22.607Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Stirling-Tools/Stirling-PDF/readme","status":200,"remaining":4586,"ms":221}
+{"at":"2026-11-26T09:33:22.767Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Stirling-Tools/Stirling-PDF/stats/participation","status":200,"remaining":4584,"ms":160}
+{"at":"2026-11-26T09:33:22.817Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Stirling-Tools/Stirling-PDF/commits?per_page=1","status":200,"remaining":4585,"ms":209}
+{"at":"2026-11-26T09:33:22.975Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Stirling-Tools/Stirling-PDF/releases?per_page=5","status":200,"remaining":4583,"ms":367}
+{"at":"2026-11-26T09:33:22.976Z","event":"saved","detail":"stirling-pdf ★97503 无 SPDX 许可证 README=1706 字","level":"info"}
+{"at":"2026-11-26T09:33:23.226Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/apache/superset","status":200,"remaining":4582,"ms":249}
+{"at":"2026-11-26T09:33:23.418Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/apache/superset/readme","status":200,"remaining":4581,"ms":192}
+{"at":"2026-11-26T09:33:23.597Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/apache/superset/stats/participation","status":200,"remaining":4579,"ms":179}
+{"at":"2026-11-26T09:33:23.661Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/apache/superset/commits?per_page=1","status":200,"remaining":4580,"ms":242}
+{"at":"2026-11-26T09:33:23.774Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/apache/superset/releases?per_page=5","status":200,"remaining":4578,"ms":356}
+{"at":"2026-11-26T09:33:23.775Z","event":"saved","detail":"superset ★75691 Apache-2.0 README=5339 字","level":"info"}
+{"at":"2026-11-26T09:33:24.046Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/donnemartin/system-design-primer","status":200,"remaining":4577,"ms":271}
+{"at":"2026-11-26T09:33:24.267Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/donnemartin/system-design-primer/readme","status":200,"remaining":4576,"ms":221}
+{"at":"2026-11-26T09:33:24.465Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/donnemartin/system-design-primer/stats/participation","status":200,"remaining":4573,"ms":196}
+{"at":"2026-11-26T09:33:24.486Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/donnemartin/system-design-primer/releases?per_page=5","status":200,"remaining":4574,"ms":216}
+{"at":"2026-11-26T09:33:24.545Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/donnemartin/system-design-primer/commits?per_page=1","status":200,"remaining":4575,"ms":275}
+{"at":"2026-11-26T09:33:24.546Z","event":"saved","detail":"system-design-primer ★379301 无 SPDX 许可证 README=71953 字","level":"info"}
+{"at":"2026-11-26T09:33:24.854Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/arendst/Tasmota","status":200,"remaining":4572,"ms":307}
+{"at":"2026-11-26T09:33:25.035Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/arendst/Tasmota/readme","status":200,"remaining":4571,"ms":181}
+{"at":"2026-11-26T09:33:25.250Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/arendst/Tasmota/stats/participation","status":200,"remaining":4570,"ms":215}
+{"at":"2026-11-26T09:33:25.278Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/arendst/Tasmota/commits?per_page=1","status":200,"remaining":4569,"ms":243}
+{"at":"2026-11-26T09:33:26.160Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/arendst/Tasmota/releases?per_page=5","status":200,"remaining":4568,"ms":1125}
+{"at":"2026-11-26T09:33:26.161Z","event":"saved","detail":"tasmota ★25029 GPL-3.0 README=13137 字","level":"info"}
+{"at":"2026-11-26T09:33:26.448Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/huggingface/transformers","status":200,"remaining":4567,"ms":287}
+{"at":"2026-11-26T09:33:26.699Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/huggingface/transformers/readme","status":200,"remaining":4566,"ms":251}
+{"at":"2026-11-26T09:33:26.868Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/huggingface/transformers/stats/participation","status":200,"remaining":4564,"ms":168}
+{"at":"2026-11-26T09:33:26.933Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/huggingface/transformers/commits?per_page=1","status":200,"remaining":4565,"ms":233}
+{"at":"2026-11-26T09:33:27.048Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/huggingface/transformers/releases?per_page=5","status":200,"remaining":4563,"ms":348}
+{"at":"2026-11-26T09:33:27.049Z","event":"saved","detail":"transformers ★169350 Apache-2.0 README=4807 字","level":"info"}
+{"at":"2026-11-26T09:33:27.295Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/typescript-exercises/typescript-exercises","status":200,"remaining":4562,"ms":245}
+{"at":"2026-11-26T09:33:27.608Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/typescript-exercises/typescript-exercises/readme","status":200,"remaining":4561,"ms":313}
+{"at":"2026-11-26T09:33:27.816Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/typescript-exercises/typescript-exercises/stats/participation","status":200,"remaining":4559,"ms":208}
+{"at":"2026-11-26T09:33:27.861Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/typescript-exercises/typescript-exercises/releases?per_page=5","status":200,"remaining":4558,"ms":253}
+{"at":"2026-11-26T09:33:27.874Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/typescript-exercises/typescript-exercises/commits?per_page=1","status":200,"remaining":4560,"ms":266}
+{"at":"2026-11-26T09:33:27.875Z","event":"saved","detail":"typescript-exercises ★3007 MIT README=802 字","level":"info"}
+{"at":"2026-11-26T09:33:28.141Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/unionlabs/union","status":200,"remaining":4557,"ms":265}
+{"at":"2026-11-26T09:33:28.336Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/unionlabs/union/readme","status":200,"remaining":4556,"ms":195}
+{"at":"2026-11-26T09:33:28.491Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/unionlabs/union/stats/participation","status":200,"remaining":4555,"ms":155}
+{"at":"2026-11-26T09:33:28.638Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/unionlabs/union/commits?per_page=1","status":200,"remaining":4553,"ms":302}
+{"at":"2026-11-26T09:33:28.653Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/unionlabs/union/releases?per_page=5","status":200,"remaining":4554,"ms":317}
+{"at":"2026-11-26T09:33:28.654Z","event":"saved","detail":"union ★73710 Apache-2.0 README=6085 字","level":"info"}
+{"at":"2026-11-26T09:33:28.982Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DarkFlippers/unleashed-firmware","status":200,"remaining":4552,"ms":328}
+{"at":"2026-11-26T09:33:29.223Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DarkFlippers/unleashed-firmware/readme","status":200,"remaining":4551,"ms":241}
+{"at":"2026-11-26T09:33:29.413Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DarkFlippers/unleashed-firmware/stats/participation","status":200,"remaining":4549,"ms":190}
+{"at":"2026-11-26T09:33:29.476Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DarkFlippers/unleashed-firmware/commits?per_page=1","status":200,"remaining":4548,"ms":252}
+{"at":"2026-11-26T09:33:29.561Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/DarkFlippers/unleashed-firmware/releases?per_page=5","status":200,"remaining":4550,"ms":338}
+{"at":"2026-11-26T09:33:29.562Z","event":"saved","detail":"unleashed-firmware ★22867 GPL-3.0 README=22632 字","level":"info"}
+{"at":"2026-11-26T09:33:29.773Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/unslothai/unsloth","status":200,"remaining":4547,"ms":211}
+{"at":"2026-11-26T09:33:29.937Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/unslothai/unsloth/readme","status":200,"remaining":4546,"ms":164}
+{"at":"2026-11-26T09:33:30.107Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/unslothai/unsloth/stats/participation","status":200,"remaining":4545,"ms":170}
+{"at":"2026-11-26T09:33:30.208Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/unslothai/unsloth/commits?per_page=1","status":200,"remaining":4544,"ms":270}
+{"at":"2026-11-26T09:33:30.228Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/unslothai/unsloth/releases?per_page=5","status":200,"remaining":4543,"ms":290}
+{"at":"2026-11-26T09:33:30.229Z","event":"saved","detail":"unsloth ★80279 Apache-2.0 README=12933 字","level":"info"}
+{"at":"2026-11-26T09:33:30.446Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/byoungd/up","status":200,"remaining":4542,"ms":217}
+{"at":"2026-11-26T09:33:30.651Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/byoungd/up/readme","status":200,"remaining":4541,"ms":205}
+{"at":"2026-11-26T09:33:30.802Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/byoungd/up/stats/participation","status":200,"remaining":4540,"ms":151}
+{"at":"2026-11-26T09:33:30.904Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/byoungd/up/commits?per_page=1","status":200,"remaining":4538,"ms":252}
+{"at":"2026-11-26T09:33:30.911Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/byoungd/up/releases?per_page=5","status":200,"remaining":4539,"ms":260}
+{"at":"2026-11-26T09:33:30.911Z","event":"saved","detail":"up ★70920 无 SPDX 许可证 README=3475 字","level":"info"}
+{"at":"2026-11-26T09:33:31.216Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/louislam/uptime-kuma","status":200,"remaining":4537,"ms":304}
+{"at":"2026-11-26T09:33:31.424Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/louislam/uptime-kuma/readme","status":200,"remaining":4536,"ms":208}
+{"at":"2026-11-26T09:33:31.619Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/louislam/uptime-kuma/stats/participation","status":200,"remaining":4533,"ms":195}
+{"at":"2026-11-26T09:33:31.648Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/louislam/uptime-kuma/releases?per_page=5","status":200,"remaining":4534,"ms":224}
+{"at":"2026-11-26T09:33:31.673Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/louislam/uptime-kuma/commits?per_page=1","status":200,"remaining":4535,"ms":249}
+{"at":"2026-11-26T09:33:31.673Z","event":"saved","detail":"uptime-kuma ★94911 MIT README=4160 字","level":"info"}
+{"at":"2026-11-26T09:33:31.950Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/astral-sh/uv","status":200,"remaining":4532,"ms":276}
+{"at":"2026-11-26T09:33:32.156Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/astral-sh/uv/readme","status":200,"remaining":4531,"ms":206}
+{"at":"2026-11-26T09:33:32.321Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/astral-sh/uv/stats/participation","status":200,"remaining":4530,"ms":165}
+{"at":"2026-11-26T09:33:32.371Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/astral-sh/uv/commits?per_page=1","status":200,"remaining":4529,"ms":215}
+{"at":"2026-11-26T09:33:32.566Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/astral-sh/uv/releases?per_page=5","status":200,"remaining":4528,"ms":410}
+{"at":"2026-11-26T09:33:32.567Z","event":"saved","detail":"uv ★92689 Apache-2.0 README=4363 字","level":"info"}
+{"at":"2026-11-26T09:33:32.844Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Snouzy/workout-cool","status":200,"remaining":4527,"ms":277}
+{"at":"2026-11-26T09:33:33.058Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Snouzy/workout-cool/readme","status":200,"remaining":4526,"ms":214}
+{"at":"2026-11-26T09:33:33.209Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Snouzy/workout-cool/stats/participation","status":200,"remaining":4525,"ms":151}
+{"at":"2026-11-26T09:33:33.296Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Snouzy/workout-cool/commits?per_page=1","status":200,"remaining":4524,"ms":238}
+{"at":"2026-11-26T09:33:33.324Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/Snouzy/workout-cool/releases?per_page=5","status":200,"remaining":4523,"ms":266}
+{"at":"2026-11-26T09:33:33.325Z","event":"saved","detail":"workout-cool ★8708 MIT README=7326 字","level":"info"}
+{"at":"2026-11-26T09:33:33.538Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/AmazingAng/WTF-Solidity","status":200,"remaining":4522,"ms":212}
+{"at":"2026-11-26T09:33:33.765Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/AmazingAng/WTF-Solidity/readme","status":200,"remaining":4521,"ms":227}
+{"at":"2026-11-26T09:33:33.951Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/AmazingAng/WTF-Solidity/stats/participation","status":200,"remaining":4519,"ms":186}
+{"at":"2026-11-26T09:33:33.982Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/AmazingAng/WTF-Solidity/releases?per_page=5","status":200,"remaining":4518,"ms":216}
+{"at":"2026-11-26T09:33:34.046Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/AmazingAng/WTF-Solidity/commits?per_page=1","status":200,"remaining":4520,"ms":280}
+{"at":"2026-11-26T09:33:34.047Z","event":"saved","detail":"wtf-solidity ★14074 无 SPDX 许可证 README=4318 字","level":"info"}
+{"at":"2026-11-26T09:33:34.322Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/sxyazi/yazi","status":200,"remaining":4517,"ms":275}
+{"at":"2026-11-26T09:33:34.624Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/sxyazi/yazi/readme","status":200,"remaining":4516,"ms":302}
+{"at":"2026-11-26T09:33:34.816Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/sxyazi/yazi/stats/participation","status":200,"remaining":4515,"ms":192}
+{"at":"2026-11-26T09:33:34.904Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/sxyazi/yazi/commits?per_page=1","status":200,"remaining":4513,"ms":280}
+{"at":"2026-11-26T09:33:34.924Z","level":"debug","event":"http_ok","url":"https://api.github.com/repos/sxyazi/yazi/releases?per_page=5","status":200,"remaining":4514,"ms":300}
+{"at":"2026-11-26T09:33:34.925Z","event":"saved","detail":"yazi ★43665 MIT README=6058 字","level":"info"}
+{"at":"2026-11-26T09:33:34.925Z","event":"run_end","level":"info","detail":"{\"total\":97,\"ok\":97,\"failed\":0,\"readmeChanged\":4}"}
+{"at":"2026-11-26T09:33:34.925Z","event":"run_end","level":"info","detail":"{\"command\":\"update\",\"code\":0}"}

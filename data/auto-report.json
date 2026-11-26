@@ -1,20 +1,6 @@
 {
-  "ranAt": "2026-11-25T09:53:42.350Z",
-  "auth": "token",
-  "searched": 10,
-  "picked": [
-    {
-      "repo": "ShareX/ShareX",
-      "category": "productivity"
-    }
-  ],
-  "added": [
-    {
-      "slug": "sharex",
-      "repo": "ShareX/ShareX",
-      "category": "productivity",
-      "stars": 41365,
-      "shot": true
-    }
-  ]
+  "ranAt": "2026-11-26T09:33:35.079Z",
+  "picked": [],
+  "added": [],
+  "skipped": "no fresh candidates passed the filters"
 }

@@ -1,7 +1,7 @@
 {
   "slug": "platformio-core",
   "repoInput": "platformio/platformio-core",
-  "fetchedAt": "2026-11-25T09:53:16.288Z",
+  "fetchedAt": "2026-11-26T09:33:10.141Z",
   "github": {
     "owner": "platformio",
     "name": "platformio-core",
@@ -9,7 +9,7 @@
     "url": "https://github.com/platformio/platformio-core",
     "homepage": "https://platformio.org",
     "description": "Your Gateway to Embedded Software Development Excellence :alien:",
-    "stars": 9630,
+    "stars": 9635,
     "forks": 914,
     "openIssues": 290,
     "language": "Python",
@@ -43,7 +43,7 @@
     "createdAt": "2014-05-09T09:38:42Z",
     "pushedAt": "2026-11-09T10:22:57Z",
     "archived": false,
-    "fetchedAt": "2026-11-25T09:53:16.288Z",
+    "fetchedAt": "2026-11-26T09:33:10.141Z",
     "source": "api",
     "warnings": []
   },
@@ -59,8 +59,8 @@
       0,
       5,
       0,
-      16,
-      6,
+      22,
+      0,
       0,
       3,
       0,
@@ -81,8 +81,8 @@
       12,
       3,
       0,
-      0,
       4,
+      0,
       0,
       0,
       0,
@@ -106,7 +106,7 @@
     "commits52w": 124,
     "commits4w": 0,
     "commits1w": 0,
-    "fetchedAt": "2026-11-25T09:53:16.740Z"
+    "fetchedAt": "2026-11-26T09:33:10.718Z"
   },
   "releases": [
     {

@@ -1,7 +1,7 @@
 {
   "slug": "ethereumbook",
   "repoInput": "ethereumbook/ethereumbook",
-  "fetchedAt": "2026-11-25T09:52:34.447Z",
+  "fetchedAt": "2026-11-26T09:32:32.401Z",
   "github": {
     "owner": "ethereumbook",
     "name": "ethereumbook",
@@ -9,7 +9,7 @@
     "url": "https://github.com/ethereumbook/ethereumbook",
     "homepage": "https://masteringethereum.xyz/",
     "description": "Mastering Ethereum: 2nd Edition, by Andreas M. Antonopoulos, Gavin Wood, Carlo Parisi, Alessandro Mazza, Niccolò Pozzolini",
-    "stars": 21552,
+    "stars": 21556,
     "forks": 5151,
     "openIssues": 1,
     "language": null,
@@ -36,7 +36,7 @@
     "createdAt": "2016-08-10T15:07:54Z",
     "pushedAt": "2026-10-12T18:12:35Z",
     "archived": false,
-    "fetchedAt": "2026-11-25T09:52:34.447Z",
+    "fetchedAt": "2026-11-26T09:32:32.401Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -45,9 +45,9 @@
   "defaultBranch": "develop",
   "activity": {
     "weekly": [
-      14,
-      5,
-      3,
+      12,
+      7,
+      1,
       1,
       0,
       0,
@@ -61,15 +61,15 @@
       0,
       0,
       2,
+      1,
+      1,
+      1,
       0,
-      2,
+      8,
+      1,
       0,
       1,
-      6,
-      3,
       0,
-      0,
-      1,
       0,
       0,
       0,
@@ -98,10 +98,10 @@
       0,
       0
     ],
-    "commits52w": 52,
+    "commits52w": 50,
     "commits4w": 0,
     "commits1w": 0,
-    "fetchedAt": "2026-11-25T09:52:34.954Z"
+    "fetchedAt": "2026-11-26T09:32:32.845Z"
   },
   "releases": [
     {

@@ -1,7 +1,7 @@
 {
   "slug": "openframeworks",
   "repoInput": "openframeworks/openFrameworks",
-  "fetchedAt": "2026-11-25T09:53:09.886Z",
+  "fetchedAt": "2026-11-26T09:33:04.315Z",
   "github": {
     "owner": "openframeworks",
     "name": "openFrameworks",
@@ -37,9 +37,9 @@
       "url": null
     },
     "createdAt": "2009-10-21T21:55:54Z",
-    "pushedAt": "2026-11-25T06:45:10Z",
+    "pushedAt": "2026-11-26T06:51:47Z",
     "archived": false,
-    "fetchedAt": "2026-11-25T09:53:09.886Z",
+    "fetchedAt": "2026-11-26T09:33:04.315Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -73,19 +73,19 @@
       0,
       0,
       0,
-      1,
       2,
+      1,
       0,
       3,
       0,
       0,
       0,
-      0,
       1,
       0,
-      8,
-      20,
-      23,
+      0,
+      9,
+      31,
+      11,
       0,
       3,
       0,
@@ -95,23 +95,23 @@
       8,
       13,
       7,
+      24,
+      15,
       17,
-      22,
       16,
-      16,
-      1
+      0
     ],
     "commits52w": 199,
-    "commits4w": 55,
-    "commits1w": 1,
-    "fetchedAt": "2026-11-25T09:53:10.548Z"
+    "commits4w": 48,
+    "commits1w": 0,
+    "fetchedAt": "2026-11-26T09:33:04.895Z"
   },
   "releases": [
     {
       "tag": "nightly",
       "name": "Nightly Release",
       "url": "https://github.com/openframeworks/openFrameworks/releases/tag/nightly",
-      "publishedAt": "2026-11-25T06:45:11Z",
+      "publishedAt": "2026-11-26T06:51:48Z",
       "prerelease": false,
       "draft": false
     },
