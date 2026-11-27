@@ -1,7 +1,7 @@
 {
   "slug": "it-tools",
   "repoInput": "CorentinTh/it-tools",
-  "fetchedAt": "2026-11-26T09:32:46.753Z",
+  "fetchedAt": "2026-11-27T09:42:20.346Z",
   "github": {
     "owner": "CorentinTh",
     "name": "it-tools",
@@ -9,9 +9,9 @@
     "url": "https://github.com/CorentinTh/it-tools",
     "homepage": "https://it-tools.tech",
     "description": "Collection of handy online tools for developers, with great UX. ",
-    "stars": 41366,
-    "forks": 5601,
-    "openIssues": 865,
+    "stars": 41376,
+    "forks": 5600,
+    "openIssues": 864,
     "language": "Vue",
     "topics": [
       "converter",
@@ -34,14 +34,13 @@
     "createdAt": "2020-04-05T11:50:24Z",
     "pushedAt": "2026-11-25T15:57:20Z",
     "archived": false,
-    "fetchedAt": "2026-11-26T09:32:46.753Z",
+    "fetchedAt": "2026-11-27T09:42:20.346Z",
     "source": "api",
     "warnings": []
   },
   "defaultBranch": "main",
   "activity": {
     "weekly": [
-      0,
       0,
       0,
       0,
@@ -92,12 +91,13 @@
       0,
       0,
       0,
+      0,
       0
     ],
     "commits52w": 1,
     "commits4w": 0,
     "commits1w": 0,
-    "fetchedAt": "2026-11-26T09:32:47.184Z"
+    "fetchedAt": "2026-11-27T09:42:20.786Z"
   },
   "releases": [
     {

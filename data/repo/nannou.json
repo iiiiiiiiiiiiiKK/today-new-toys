@@ -1,7 +1,7 @@
 {
   "slug": "nannou",
   "repoInput": "nannou-org/nannou",
-  "fetchedAt": "2026-11-26T09:32:57.272Z",
+  "fetchedAt": "2026-11-27T09:42:31.164Z",
   "github": {
     "owner": "nannou-org",
     "name": "nannou",
@@ -25,7 +25,7 @@
     "createdAt": "2017-09-01T13:07:25Z",
     "pushedAt": "2026-11-09T19:15:39Z",
     "archived": false,
-    "fetchedAt": "2026-11-26T09:32:57.272Z",
+    "fetchedAt": "2026-11-27T09:42:31.164Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -35,8 +35,8 @@
   "activity": {
     "weekly": [
       0,
-      0,
       1,
+      0,
       0,
       0,
       0,
@@ -60,9 +60,9 @@
       2,
       0,
       0,
-      0,
-      45,
-      33,
+      20,
+      44,
+      14,
       35,
       0,
       0,
@@ -90,7 +90,7 @@
     "commits52w": 165,
     "commits4w": 4,
     "commits1w": 0,
-    "fetchedAt": "2026-11-26T09:32:57.720Z"
+    "fetchedAt": "2026-11-27T09:42:31.762Z"
   },
   "releases": [
     {

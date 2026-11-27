@@ -1,7 +1,7 @@
 {
   "slug": "lemo-opuscar",
   "repoInput": "lemomo-ai/lemo-opuscar",
-  "fetchedAt": "2026-11-26T09:32:49.626Z",
+  "fetchedAt": "2026-11-27T09:42:23.656Z",
   "github": {
     "owner": "lemomo-ai",
     "name": "lemo-opuscar",
@@ -9,9 +9,9 @@
     "url": "https://github.com/lemomo-ai/lemo-opuscar",
     "homepage": "https://lemomo-ai.github.io/lemo-opuscar/",
     "description": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的",
-    "stars": 21332,
-    "forks": 2743,
-    "openIssues": 0,
+    "stars": 21762,
+    "forks": 2816,
+    "openIssues": 1,
     "language": "JavaScript",
     "topics": [
       "agent-skills",
@@ -42,9 +42,9 @@
       "url": null
     },
     "createdAt": "2026-09-26T10:10:41Z",
-    "pushedAt": "2026-11-23T04:53:40Z",
+    "pushedAt": "2026-11-26T09:48:06Z",
     "archived": false,
-    "fetchedAt": "2026-11-26T09:32:49.626Z",
+    "fetchedAt": "2026-11-27T09:42:23.656Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -96,20 +96,20 @@
       0,
       0,
       0,
-      18,
-      3,
-      7,
       19,
-      21,
-      21,
-      47,
-      10,
-      2
+      3,
+      6,
+      23,
+      29,
+      9,
+      52,
+      5,
+      5
     ],
-    "commits52w": 148,
-    "commits4w": 80,
-    "commits1w": 2,
-    "fetchedAt": "2026-11-26T09:32:50.001Z"
+    "commits52w": 151,
+    "commits4w": 71,
+    "commits1w": 5,
+    "fetchedAt": "2026-11-27T09:42:24.046Z"
   },
   "releases": [
     {
@@ -153,11 +153,11 @@
       "draft": false
     }
   ],
-  "commitTotal": 148,
+  "commitTotal": 151,
   "readme": {
     "path": "README.md",
     "via": "api",
-    "chars": 20233,
+    "chars": 20410,
     "headings": [
       "Lemo-Opuscar",
       "🆕 New",
@@ -175,7 +175,7 @@
       "Licence",
       "More from LemoLab"
     ],
-    "excerpt": "Lemo-Opuscar 99 film styles for your coding agent. Pick one, bring your story, and the agent makes the film, entirely in code. 99 种影片风格，每种都配一支完全用代码做出来的短片 · 🇨🇳 中文用户请看 简体中文说明 ▶ Open the gallery · 中文画廊 Official repo: github.com/lemomo-ai/lemo-opuscar · by Lemomo (@lemomo ai) [!IMPORTANT] This release was audited and improved with Claude Fable 5.2. Built for Claude. Claude Fable, Opus and Sonnet all work; set effort to high (in Claude Code, type `/effort high`). Other models may not reproduce the styles well, so use them with care. 🆕 New - 2026-11-12 · 33 new styles : 99 now, in 15 categories sorted by what the picture looks like, and the gallery in English and Chinese, with a page for every style. Some demo films remade, bugs fixed, style prompts improved. See the styles ↓ - 2026-10-22 · Make a style your own: change a style or start blank, and keep it. See how ↓ How it works 1. Pick a style. Browse the gallery by what the picture looks like, or search for what you are making: explainers, launches, news, music videos. 2. Watch its demo. Every style has a short film made in code, and a page with stills, what it suits and the `STYLE.md` your agent follows. 3. Ask your agent. Install the skill once, then say it in one sentence: Name the style in English or Chinese, or by its folder; the style index lists them all. Add a length, a narrator, your own photos or music if you like: Mak",
+    "excerpt": "Lemo-Opuscar 99 film styles for your coding agent. Pick one, bring your story, and the agent makes the film, entirely in code. 99 种影片风格，每种都配一支完全用代码做出来的短片 · 🇨🇳 中文用户请看 简体中文说明 ▶ Open the gallery · 中文画廊 Official repo: github.com/lemomo-ai/lemo-opuscar · by Lemomo (@lemomo ai) [!IMPORTANT] This release was audited and improved with Claude Fable 5.2. Built for Claude. Claude Fable, Opus and Sonnet all work; set effort to high (in Claude Code, type `/effort high`). Other models may not reproduce the styles well, so use them with care. 🆕 New - 2026-11-26 · 20,000 stars, thank you! A new thank-you film, Twenty Thousand Dominoes : one domino for every star, built in Blender from Python. Watch it ↓ - 2026-11-12 · 33 new styles : 99 now, in 15 categories sorted by what the picture looks like, and the gallery in English and Chinese, with a page for every style. Some demo films remade, bugs fixed, style prompts improved. See the styles ↓ - 2026-10-22 · Make a style your own: change a style or start blank, and keep it. See how ↓ How it works 1. Pick a style. Browse the gallery by what the picture looks like, or search for what you are making: explainers, launches, news, music videos. 2. Watch its demo. Every style has a short film made in code, and a page with stills, what it suits and the `STYLE.md` your agent follows. 3. Ask your agent. Install the skill once, then say it in one sentence",
     "truncated": true,
     "rawFile": "data/readme/lemo-opuscar.md"
   }

@@ -1,7 +1,7 @@
 {
   "slug": "rea",
   "repoInput": "morluto/rea",
-  "fetchedAt": "2026-11-26T09:33:15.512Z",
+  "fetchedAt": "2026-11-27T09:42:49.005Z",
   "github": {
     "owner": "morluto",
     "name": "rea",
@@ -9,9 +9,9 @@
     "url": "https://github.com/morluto/rea",
     "homepage": "https://rea.tools",
     "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-    "stars": 478979,
-    "forks": 116483,
-    "openIssues": 1200,
+    "stars": 480363,
+    "forks": 116716,
+    "openIssues": 1128,
     "language": "TypeScript",
     "topics": [
       "agent-skills",
@@ -41,9 +41,9 @@
       "url": null
     },
     "createdAt": "2026-04-14T00:51:32Z",
-    "pushedAt": "2026-11-26T09:31:44Z",
+    "pushedAt": "2026-11-27T09:42:21Z",
     "archived": false,
-    "fetchedAt": "2026-11-26T09:33:15.512Z",
+    "fetchedAt": "2026-11-27T09:42:49.005Z",
     "source": "api",
     "warnings": []
   },
@@ -82,10 +82,10 @@
       0,
       0,
       0,
-      333,
-      215,
-      140,
-      18,
+      407,
+      160,
+      130,
+      9,
       10,
       1,
       0,
@@ -93,20 +93,20 @@
       1,
       0,
       0,
-      99,
-      519,
-      1866,
-      888,
-      2083,
-      351,
-      820,
-      1047,
-      1978
+      100,
+      723,
+      1841,
+      954,
+      1933,
+      318,
+      783,
+      1427,
+      1771
     ],
-    "commits52w": 10371,
-    "commits4w": 4196,
-    "commits1w": 1978,
-    "fetchedAt": "2026-11-26T09:33:15.898Z"
+    "commits52w": 10570,
+    "commits4w": 4299,
+    "commits1w": 1771,
+    "fetchedAt": "2026-11-27T09:42:49.428Z"
   },
   "releases": [
     {
@@ -150,7 +150,7 @@
       "draft": false
     }
   ],
-  "commitTotal": 10434,
+  "commitTotal": 10605,
   "readme": {
     "path": "README.md",
     "via": "api",
