@@ -1,7 +1,7 @@
 {
   "slug": "ethereumbook",
   "repoInput": "ethereumbook/ethereumbook",
-  "fetchedAt": "2026-11-27T09:42:04.342Z",
+  "fetchedAt": "2026-11-28T08:55:34.963Z",
   "github": {
     "owner": "ethereumbook",
     "name": "ethereumbook",
@@ -36,7 +36,7 @@
     "createdAt": "2016-08-10T15:07:54Z",
     "pushedAt": "2026-10-12T18:12:35Z",
     "archived": false,
-    "fetchedAt": "2026-11-27T09:42:04.342Z",
+    "fetchedAt": "2026-11-28T08:55:34.963Z",
     "source": "api",
     "warnings": [
       "仓库未声明可识别的开源许可证"
@@ -45,15 +45,15 @@
   "defaultBranch": "develop",
   "activity": {
     "weekly": [
-      13,
-      5,
-      1,
+      14,
+      3,
       1,
       0,
       0,
       0,
-      1,
-      1,
+      0,
+      2,
+      0,
       0,
       1,
       0,
@@ -64,8 +64,8 @@
       1,
       1,
       1,
-      0,
-      9,
+      1,
+      8,
       0,
       0,
       1,
@@ -86,8 +86,8 @@
       0,
       1,
       0,
-      0,
-      7,
+      2,
+      5,
       0,
       1,
       2,
@@ -98,10 +98,10 @@
       0,
       0
     ],
-    "commits52w": 49,
+    "commits52w": 47,
     "commits4w": 0,
     "commits1w": 0,
-    "fetchedAt": "2026-11-27T09:42:04.822Z"
+    "fetchedAt": "2026-11-28T08:55:35.273Z"
   },
   "releases": [
     {

@@ -1,7 +1,7 @@
 {
   "slug": "pixijs",
   "repoInput": "pixijs/pixijs",
-  "fetchedAt": "2026-11-27T09:42:42.839Z",
+  "fetchedAt": "2026-11-28T08:56:03.819Z",
   "github": {
     "owner": "pixijs",
     "name": "pixijs",
@@ -9,9 +9,9 @@
     "url": "https://github.com/pixijs/pixijs",
     "homepage": "http://pixijs.com",
     "description": "The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer.",
-    "stars": 48917,
-    "forks": 5181,
-    "openIssues": 454,
+    "stars": 48930,
+    "forks": 5182,
+    "openIssues": 465,
     "language": "TypeScript",
     "topics": [
       "canvas",
@@ -34,9 +34,9 @@
       "url": null
     },
     "createdAt": "2013-01-21T22:40:50Z",
-    "pushedAt": "2026-11-26T11:31:09Z",
+    "pushedAt": "2026-11-27T13:44:56Z",
     "archived": false,
-    "fetchedAt": "2026-11-27T09:42:42.839Z",
+    "fetchedAt": "2026-11-28T08:56:03.819Z",
     "source": "api",
     "warnings": []
   },
@@ -49,15 +49,15 @@
       0,
       7,
       1,
-      3,
-      2,
+      5,
       0,
-      29,
-      12,
-      4,
-      3,
+      11,
+      18,
+      16,
+      0,
+      6,
       8,
-      8,
+      5,
       5,
       0,
       7,
@@ -69,8 +69,8 @@
       1,
       0,
       0,
-      14,
-      1,
+      15,
+      0,
       0,
       0,
       0,
@@ -85,21 +85,21 @@
       1,
       10,
       17,
-      0,
-      16,
+      8,
+      8,
       6,
       2,
       2,
+      11,
       5,
-      9,
-      21,
-      0,
-      18
+      19,
+      13,
+      6
     ],
-    "commits52w": 293,
-    "commits4w": 48,
-    "commits1w": 18,
-    "fetchedAt": "2026-11-27T09:42:43.288Z"
+    "commits52w": 294,
+    "commits4w": 43,
+    "commits1w": 6,
+    "fetchedAt": "2026-11-28T08:56:04.118Z"
   },
   "releases": [
     {
@@ -143,7 +143,7 @@
       "draft": false
     }
   ],
-  "commitTotal": 8858,
+  "commitTotal": 8859,
   "readme": {
     "path": "README.md",
     "via": "api",

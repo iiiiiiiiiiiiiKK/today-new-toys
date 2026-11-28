@@ -37,9 +37,9 @@
 ## 交流群
 
 <div align="center">
-  <img src="docs/images/qq-group-974582805.png" alt="OFM技术交流[2群]入群二维码（群号：974582805）" width="300">
+  <img src="docs/images/qq-group-1049452906.jpg" alt="OFM技术交流[19]入群二维码（群号：1049452906）" width="300">
   <br>
-  <b>QQ 群：974582805（OFM技术交流[2群]）</b>
+  <b>QQ 群：1049452906（OFM技术交流[19]）</b>
   <br>
   扫码加入群聊，一起交流插件使用心得、反馈问题与分享玩法。
 </div>
@@ -58,7 +58,7 @@
 - **按响应体形状判定流式响应**——网关在高负载下会以 `application/json` 的 content-type 返回完整的 SSE 帧序列。插件按响应体形状判定，并将已嗅探的字节重新注入流，既不会导致整轮失败，也不会因 header 与实际内容不符而将可用模型判为不可用。
 - **思考强度实际生效**——两类模型两种控制：声明了思考档位的模型（如 DeepSeek V4.1 Flash、GLM 5.3 Flash）给出它自己的档位菜单（Off / Low / High / Max 等），选中值按原值下发到上游 `reasoning_effort`，上游会校验该字段、集合外的取值直接 400；没有档位菜单的模型（MiMo V2.6 等）走预算阶梯——Light / Balanced / Deep 对应输出 token 预算 2 048 / 8 192 / 模型上限，思考不可关闭的模型三档整体翻倍为 4 096 / 16 384 / 模型上限，因为思考与正文共享同一输出额度。两者都逐次调用留痕，设置页每张模型卡均标注档位或该档实际下发的上限（详见「思考强度：档位菜单与预算阶梯」）。
 - **不依赖浏览器界面**——插件仅将 llm 作为硬依赖，在没有 web server 的 composition（如 dsh-tui）中同样完成启动并输出模型；看板模块挂载在独立的 fiber 上，待 webServer 就绪后再注册路由，因此既不会阻塞模型车道，也不会因插件先于 web 服务加载而永久丢失设置页。
-- **用量看板，数据全部留在本机**——Token 热力图、总量曲线（支持总计与单模型视图）、输出速度与首字延迟逐次采样。不上传任何数据。
+- **本机用量看板**——Token 热力图、总量曲线（支持总计与单模型视图）、输出速度与首字延迟逐次采样，保存在本机。模型请求及其他功能的出网边界见[网络与隐私边界](docs/privacy-and-network.md)。
 - **OpenAI 兼容转发端口**——本机其它工具通过 base URL 与 Key 即可调用这些模型。Chat 历史中 assistant 的字符串 `reasoning_content` 会随工具后续请求保留，包括显式空字符串；缺失字段不会被补造。
 - **EAC 渠道**由项目维护者提供。使用兼容宿主时，登录 GitHub 并给本仓库点 Star 即可解锁，无需付费。模型以 EAC 前缀显示，凭据加密保存。详见「EAC 渠道」。
 - **Kilo 渠道（免密免费池）**——内置 Kilo AI 公共网关的免费模型池（`isFree` 清单实时拉取，含 `kilo-auto/free` 自动路由），无需任何账号或 Key；模型卡带 Kilo 徽章。思考强度与 EAC 渠道同款：模型自身的档位菜单（Off / Low / Medium / High，默认 High），经网关统一的 `reasoning` 参数真实下发——Off 已逐家族实测将思考归零（nemotron、ling、dots、poolside、apodex、cohere）；stepfun 与 liquid 端点强制思考（对关闭请求返回 400）、两个自动路由不透传关闭，这些模型的菜单不含 Off 档。该池由上游免费提供，上游会在其模型卡中声明 prompt 可能被记录用于改进服务——请勿发送敏感内容，详见「免责声明」。
@@ -134,6 +134,11 @@ EAC、客户端与订阅、资源库、API 接入、设置与**插件中心**）
 >
 > 注意它的包名带 scope，因此挂载条目是 `@ebony-vinyl/dsh-our-free-model`，与下文
 > 裸包名的本地安装方式不能混用（同一个 profile 里只选一种）。
+> npm scoped 产物的浏览器注册 id 也带 scope；本仓库源码与 Release 本地包的挂载名和
+> `client.js` 注册 id 则都使用裸名 `dsh-our-free-model`。注册 id 必须与实际安装的
+> 挂载条目一致。若以前安装过自动给 `client.js`「加 scope」的补丁或守护脚本，升级
+> Release 本地包前应先停用它，再恢复该发行包原始文件；不要把 scoped npm 包的 id
+> 手工改成裸名，也不要只改其中一个文件。两种产物由打包脚本同步处理注册信息。
 >
 > 其它渠道出现的同名包一律以本仓库为准。
 
@@ -352,6 +357,8 @@ Key 只写入插件自己的 0600 `settings.json`，接口永不回显——页�
 
 新增端点 `POST /v1/messages`（流式与非流式，`message_start` / `content_block_*` / `message_delta` / `message_stop` 正确成帧，含 `thinking` 块、`tool_use` 块、真实 `stop_reason`，以及响应头发出之后才失败时的流内 `error` 事件）与 `POST /v1/messages/count_tokens`（本地估算——插件不含 tokenizer）。Claude Code 与 Anthropic 各 SDK 因此可以直接指向本插件。原有的 `/v1/chat/completions` 与 `/v1/responses` 不变，`/v1/models` 现在广播全部车道，含聚合行与链路。网关页新增「接入客户端」分区，按实际绑定的端口与真实要求的密钥生成可复制的配方：Claude Code 环境变量、Codex `config.toml`、OpenAI SDK、Anthropic SDK、curl，以及中继开启时的局域网版本。
 
+两种协议共用网关，无需另开 Anthropic 端口。接入时从该分区复制实际地址、Key 与 `/v1/models` 返回的模型 id；`count_tokens` 是本地估算，不代表上游计费。DSH 或客户端的 `web_search`、检索与其他工具可能使用自己的提供商或计费接口；把对话模型指向 OFM 不会自动接管这些工具。遇到额外账单时，应核对对应工具的路由、模型 id 和提供商账单，不能仅凭聊天模型选择归因；issue #441 的具体扣费路径仍待运行记录确认。
+
 顺带修掉一个假成功：一轮只产出了一个调用方从未声明的工具调用时，过去会以干净的空成功收尾；现在会如实报告发生了什么——旧压缩提示曾可能让模型去调用未声明的 RTK CLI。新版提示请用户关闭工具输出压缩后重新获取差异。
 
 
@@ -562,7 +569,7 @@ docs/issue-12-recovery.md。合并前 review 修复了一处告警
 | 复查本轮发布，发现上述两项自身的问题 | 离线 projection-test.mjs 第 7 节、truncation-test.mjs 第 12 节，另加 tui-test.mjs 一次转发端往返 | ① Messages 线在识别 V4 的 role:'tool' 之后，将同一段结果既放入 tool_result、又保留在紧随的普通块中——文本重复两份，图像连同 base64 重复两份；当前实现在发出结果后跳过该消息自身，撤掉修复则此断言立即失败。② response.incomplete / response.failed / response.done 同样属于 Responses 线的正常收尾，此前仅识别 response.completed，导致触及输出上限的一轮被判定为"被截断"、白白消耗两次重试；当前实现仍由 status 决定 finish token，且不带原因的收尾帧不再清除前一帧已给出的 token。③ 转发端的 /v1/responses 此前无用例覆盖工具历史，现通过桩上游逐字节核对发出的 messages：调用与其结果均存在 |
 | 该车道的正常收尾形态 | 真实上游 probes/stream-terminal-frames.mjs（新增） | 逐帧抓取原始 SSE：finish_reason:"stop" → 带 usage 的帧 → data: [DONE] → {"choices":[],"cost":"0"}，两个模型一致。因此"始终未出现 finish token"确属异常，不属于该车道的另一种正常写法——这也是 #10 判定条件的依据 |
 | 真实车道上无误判 | 真实上游 host-selftest.mjs 全量 | 11 个模型探测 + 普通对话 + 两轮工具 + 三档思考 + 视觉输入，全部落到各自的正常收尾（stop / tool-calls / max-tokens），无一条被判定为截断；被地区门拦截的模型仍返回 REGION_BLOCKED |
-| 上游来源成文（#8） | 代码中全部出网目标逐条核对 | 新增「上游是哪些源」一节：opencode.ai/inference/v1/\*（推理与 /models，2026-10-14 起；原为 /zen/v1）、本仓库 feed/\*.json（raw 优先、jsDelivr 兜底）、api.ipify.org / ipinfo.io / ipapi.co（仅读取本机出口 IP 与国家码）。当前无号池、无中转 |
+| 上游来源成文（#8） | 当时的免密车道及其元数据/出口探测路径核对 | 初版文档覆盖 opencode.ai、仓库 feed 与出口 IP/国家回显；这条历史验收记录不是当前全部功能的目的地清单。现有 EAC、账号池、聚合提供商与其他出网条件见[网络与隐私边界](docs/privacy-and-network.md) |
 | 离线套件 | npm test（18 个套件） | 全绿；新增 projection、fingerprint 两套，仍不出网、不消耗免费额度 |
 
 ### 上一轮：v1.2.2（对应 issue #1–#4、#6）
@@ -698,7 +705,7 @@ DeepSeek Harness 桌面端（Electron 壳）与 DSH Tauri：使用内核提供�
 
 显示规则：模型名带 EAC 前缀。若渠道清单包含 Kimi K3.1 Pro，模型名会显示为 EAC Kimi K3.1 Pro。设置页的模型卡另有 EAC 渠道徽章。
 
-加密密封：渠道凭据与端点从不以可读形式出现在插件中——它们仅以 AES-256-GCM 密文存在，解密密钥由分散在两个文件中的三片掩码分片在解锁时即时派生；非授权宿主不进入派生路径，密文对搜索引擎与字符串扫描而言仅为噪声。
+包内密封：渠道凭据与端点以 AES-256-GCM 密文保存，运行时会在本机解封使用。所需材料随包分发，能访问插件文件的人可以提取；这只是打包形式，不提供对安装者的保密，也不替代服务端授权或运营方的隐私政策。模型请求的发送边界见[网络与隐私边界](docs/privacy-and-network.md)。
 
 凭据不落盘、不出进程：解锁按请求即时发生，明文仅存在于构造请求的那一帧中，不写入文件、不进入日志、不出现在任何 API 响应或错误消息中。
 
@@ -708,7 +715,7 @@ DeepSeek Harness 桌面端（Electron 壳）与 DSH Tauri：使用内核提供�
 
 ## 上游是哪些源
 
-两条公开免密来源，均直连、不经任何第三方中转；另有第四条出网目标为自建网关（EAC 渠道，见其专节）。
+下表介绍两条公开免密模型来源及其默认端点。EAC 模型通过其网关转发，另有用户配置的聚合提供商、订阅和账号渠道；启用出口代理或网络扩展时，传输还会经过相应代理。本节不是插件所有网络目的地的穷尽清单，触发条件见下文及[网络与隐私边界](docs/privacy-and-network.md)。
 
 **免费车道：OpenCode 的免密网关，https://opencode.ai/inference/v1/\***（2026-10-14 从
 `/zen/v1` 迁到这里；旧路径对免费模型一律 403 FreeTierError）。
@@ -718,7 +725,7 @@ DeepSeek Harness 桌面端（Electron 壳）与 DSH Tauri：使用内核提供�
 | --- | --- | --- |
 | 推理请求 | POST …/inference/v1/chat/completions、…/inference/v1/responses、…/inference/v1/messages（按模型分流，见 endpointFor） | Authorization: Bearer public——该车道本身即为公开免密额度，插件中不含任何属于你的密钥 |
 | 模型清单 | GET …/inference/v1/models | 同上 |
-| 公告与升级清单 | 本仓库的 feed/\*.json：raw.githubusercontent.com 优先，cdn.jsdelivr.net 兜底 | 无 |
+| 公告与升级清单 | 本仓库的 feed/\*.json：raw.githubusercontent.com 优先，cdn.jsdelivr.net、gcore.jsdelivr.net（升级）与 gh-proxy.com 按各自来源列表兜底 | 无 |
 | 出口地区判定 | api.ipify.org / ipinfo.io / ipapi.co，仅用于读取本机公网 IP 与国家码 | 无 |
 
 **Kilo 渠道：Kilo AI 的公共网关，https://api.kilo.ai/api/gateway**（2026-10-06 接入）。
@@ -731,9 +738,11 @@ DeepSeek Harness 桌面端（Electron 壳）与 DSH Tauri：使用内核提供�
 
 关于隐私与信任，说明如下：
 
-没有号池、没有中转、没有二道贩子。上表即为本插件全部出网目标；npm test 的离线套件完全不出网（共享测试脚手架会把两条免密来源都默认指向已关闭的本机端口，杜绝任何套件"顺带"打到真实网关），仅 scripts/host-selftest.mjs 与 scripts/probes/ 会主动请求这些地址，且需手动运行。若将来引入新的来源，本节会先于功能更新，不会默认将流量分配给第三方。
+模型推理按所选车道（或你配置的路由链）发送至对应上游。EAC 被选中时，发送的是该回合的模型请求体，包括 prompt、上下文、工具结果与随附图像；网关再转发给其模型服务方。当前适配器按车道分支选择发送函数，并非把其他车道的每次请求再复制一份给 EAC。重试、恢复和路由链可能产生后续模型请求；已启用的扩展也可能按其权限处理请求。
 
-你的 prompt、工具结果与随附图像会作为正常推理请求发送至所选模型对应的上游——与调用任何模型 API 相同。除此之外插件不上传任何内容：用量看板数据、设置、转发 Key 均只落在本机 DSH_HOME/our-free-model/。
+模型请求之外还有网络访问：公告、升级与插件市场索引/签名会按启动、缓存和定时器条件刷新，并可能使用 GitHub、jsDelivr 与代理镜像；出口 IP/地区探测会访问第三方回显服务。GitHub/EAC 授权、主动导入的订阅账号配额查询与令牌刷新、内置账号渠道登录/签到/推理、你配置的聚合提供商及出口订阅，也会联系相应服务。账号渠道支持本机账号池；提供商目录中的条目存在不表示已启用或已发送请求。详细目的地类别、触发条件及本机凭据发现路径见[网络与隐私边界](docs/privacy-and-network.md)。
+
+用量看板与设置文件保存在本机 `DSH_HOME/our-free-model/`；其中用于认证、路由或启用功能的值可能随相应请求发送，不能理解为「除此之外什么都不出机」。仓库源码可说明客户端发送路径，不能证明网关或上游的日志、留存、训练用途或删除政策；这些运营政策仍需相应运营方公布。离线测试与真实宿主/探测脚本的运行边界另见[开发](#开发)，不能据此推断运行中的插件没有网络请求。
 
 免密不等于无人管理：免费车道通过 x-opencode-\* 指纹识别客户端、按会话统计免费额度，会因地区返回 403、因超量返回 429。**Kilo 免费池在其模型卡中明确声明：prompt 可能被上游提供方记录，并用于改进其服务**（原文见 kilo-auto/free 模型卡："Prompts may be logged by the upstream provider and used to improve their services. Not suitable for production or sensitive data workloads."）。模型集合与额度政策由上游决定，随时可能变更；插件仅能如实将不可用的模型从选择器中移除。
 
@@ -748,15 +757,15 @@ DeepSeek Harness 桌面端（Electron 壳）与 DSH Tauri：使用内核提供�
 
 ## 安全与隐私
 
-所有状态写入 DSH_HOME/our-free-model/；用量与设置仅落在本机，不上传至任何位置。
+插件自己的用量、设置和转发密钥保存在本机 `DSH_HOME/our-free-model/`。启用功能需要的请求参数与认证信息会发送至对应服务；完整边界见[网络与隐私边界](docs/privacy-and-network.md)。
 
-聚合车道的 Key 同样不出本机：它只写入插件自己的 0600 `settings.json`，请求只发往你自己配置的那家提供商，插件接口只回显 `hasKey` 与 `…abcd` 指纹，从不回显 Key 本身；测试与发现模型两次探测也把回包中的 Key 一律脱敏。
+聚合车道的 Key 写入插件自己的 0600 `settings.json`，并在推理、测试与模型发现请求中作为认证信息发送至所配置的提供商端点。插件的管理接口只回显 `hasKey` 与 `…abcd` 指纹；测试与发现模型会将提供商回包中的已知 Key 脱敏。请在填写 Key 前核对 Base URL，并将你配置的代理或扩展视作请求路径的一部分。
 
 转发监听仅绑定回环地址，默认 127.0.0.1，无 Key 请求一律拒绝。将地址改为可路由接口会被直接拒绝（POST /settings 返回 400 并注明原因；在无 web server 的 composition 中手工写入 settings.json 同样不会启动监听）——该端口的流量消耗的是本机这条免密车道，不应由一个字符串决定是否向整个子网开放。
 
 局域网访问是另开的一扇门，并不放宽上述规则：本机监听仍只绑回环、修改地址仍被拒绝；需要跨机器使用时必须显式启用"局域网访问"，中继绑定可路由地址，且每个请求都需携带局域网 Key——连 /、/health 这类存活探针也一并鉴权（仅本机监听免 Key 应答存活探测），否则一个未鉴权的应答等同于向整个子网宣告"该主机正在代理"。中继仅转发 /v1/models、/v1/chat/completions、/v1/responses、/v1/messages、/v1/messages/count_tokens 五条白名单路径（各自的去 /v1 写法同样放行），不代理任意 loopback 服务；入口处将局域网 Key 换为本机 Key，因此两把 Key 互不通用；携带跳数标记的请求直接拒绝（508），因此端口即使配置为本机监听的同一端口也不会自环。局域网 Key 同样由 crypto 生成、以 timingSafeEqual 比对、存放于同一 0600 文件中，可在面板上单独轮换。
 
-转发 Key 由 crypto 运行时生成、以 timingSafeEqual 比对、存放于 0600 权限文件中。本仓库不含任何硬编码凭据。/ 与 /health 为存活探针，先于 Key 检查应答，但仅回答"是否在线"，获取模型清单仍需 Key。
+转发 Key 由 crypto 运行时生成、以 timingSafeEqual 比对、存放于 0600 权限文件中。它与包内用于 EAC 的共享签名材料、OAuth 客户端标识不同，后两者不能被视作仅用户持有的秘密。/ 与 /health 为存活探针，先于 Key 检查应答，但仅回答"是否在线"，获取模型清单仍需 Key。
 
 插件的 HTTP 路由带请求信任围栏（自 v1.1 修复）：插件的 /api/our-free-model 前缀在 webServer 的最长前缀分发下优先于内核 /api，曾绕过内核鉴权。当前每个请求先经由 composition 的 connection 服务准入（与内核 /api 完全同级的 cookie/token 校验）；connection 缺失的 composition 退回结构化围栏——loopback Host、拒绝跨站 sec-fetch-site、Origin/Referer 必须与 Host 同源同端口，Host 缺失或为空也拒绝（fail closed，不回退至 socket 本地地址）。实测结果：异源 Host/Origin 返回 403，无 cookie 的回环请求返回 401。connection 为逐请求获取，因为浏览器半身要到插件加载之后才将其 provide 出来——若在 apply 时以快照方式读取一次，围栏会在整个进程周期内退化为结构化那一层（本轮将该读取改回快照后，picker-test 的 401 断言立即失败）。
 
@@ -772,7 +781,9 @@ DeepSeek Harness 桌面端（Electron 壳）与 DSH Tauri：使用内核提供�
 
 ## 许可证
 
-本仓库自己的代码是 MIT，见 LICENSE。第三方组件和数据的许可证见下一节「致谢」。
+本仓库自己的代码是 MIT，见 [LICENSE](LICENSE)。第三方组件保留其适用条款：GPL-3.0 与 AGPL-3.0-only 全文同时附在随 npm/Release 分发的根 `LICENSE` 中，Apache-2.0 全文随 `vendor/magpie/NOTICE.md` 分发；源码仓库的 `LICENSES/` 另保留独立文本与来源记录。来源清单见下一节「致谢」。
+
+历史来源、源码入口及尚待核验的对应源码范围见 `LICENSES/README.md` 与 `LICENSES/PROVENANCE.md`。这些记录也供 v2.8.5 及更早版本产物的接收者追溯；本次补充不改变那些已发布产物的字节内容，也不独立证明其许可要求已全部满足。
 
 本项目为独立插件，与任何模型提供方无隶属、认可或赞助关系。使用该插件访问免费额度受各提供方
 自身条款约束；在超出个人机器的场景中部署前，请先确认这些条款。
@@ -788,10 +799,10 @@ DeepSeek Harness 桌面端（Electron 壳）与 DSH Tauri：使用内核提供�
 - [9router](https://github.com/decolua/9router)（MIT）：`scripts/probes/` 下 8 个取证脚本的原始来源——那 8 个文件是逐字副本（只改了探测的 base URL），文件头保留了 MIT 归属，许可证全文见 [LICENSE](LICENSE#9router--mit)。它们 import 9router 自己的模块，只在该项目的 checkout 内可运行，不进发行集。
 - [magpie-muse-web](https://github.com/JohnWangggg/magpie-muse-web)（上游未声明 SPDX 许可证）：`muse-web` 桥接扩展的上游。
 
-**以下项目在本仓库里不再有任何代码或数据**，只作为历史记录保留：
+**以下项目是历史实现来源或兼容参考**；相关替换记录不等同于对历史来源或许可证义务的消除：
 
-- [opencode2api](https://github.com/jasonxu114514/opencode2api)（GPL-3.0）：免费车道请求整形的最早参考。2.8.6 已把相关实现重写并删除其资产，当前代码与该项目的文件没有共享文本、函数名或常量表；现在只按 [sst/opencode](https://github.com/sst/opencode) v2.2.3（MIT）生成的官方资产工作，见 [维护说明](src/o2a/SYNC.md)。
-- [free-claude-code](https://github.com/Alishahryar1/free-claude-code)（AGPL-3.0-only）：供应商目录与五个本地应答的最早参考。2.8.6 重写本地应答、按 models.dev 重建目录；只剩五个优化 id 与部分 provider id 作为**持久化配置键**沿用（改名会让用户已关掉的开关静默复活），见 [兼容说明](docs/provider-compatibility.md)。
+- [opencode2api](https://github.com/jasonxu114514/opencode2api)（GPL-3.0）：免费车道请求整形的历史来源。当前替换状态和从 [sst/opencode](https://github.com/sst/opencode)（MIT）生成资产的记录见[维护说明](src/o2a/SYNC.md)与[资产来源](docs/opencode-assets.md)。维护者已接触历史源码，不作 clean-room 声明。
+- [free-claude-code](https://github.com/Alishahryar1/free-claude-code)（AGPL-3.0-only）：供应商目录与五个本地应答的历史来源。持久化配置键和手工兼容记录仍需保留来源说明，不能将目录一概表述为由当前官方资料重建；见[兼容说明](docs/provider-compatibility.md)与[替换记录](docs/verification/2026-11-18-independent-core.md)。
 - [trae-mate](https://github.com/luckymiaow/trae-mate)（MIT）：TRAE 签到流程的早期参考，已被重写取代。
 - [dsh-cline-pass](https://github.com/codeOct/dsh-cline-pass)（MIT）：Cline 额度与请求记录的早期参考，已被重写取代。
 - [rtk](https://github.com/rtk-ai/rtk)（CLI Apache-2.0，engine BUSL-1.1）：工具输出过滤器的最早参考。`src/token-saver/compact/` 已全部重写，仅保留 RTK 的输出标记与阈值——那些标记是模型读惯的线格式，改掉会改变模型行为而不是让代码更原创。2.8.6 的替换范围见 [验证记录](docs/verification/2026-11-18-independent-core.md)。
